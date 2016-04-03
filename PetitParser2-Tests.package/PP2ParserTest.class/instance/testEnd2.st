@@ -1,4 +1,4 @@
-test - parsing
+test - parsing (deprecated)
 testEnd2
 	| parser |
 	parser := 'stuff' asParser2 end.

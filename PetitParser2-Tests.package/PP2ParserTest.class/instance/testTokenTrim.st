@@ -1,4 +1,4 @@
-test - parsing
+test - parsing (deprecated)
 testTokenTrim
 	| parser |
 	parser := $a asParser2 token trim.

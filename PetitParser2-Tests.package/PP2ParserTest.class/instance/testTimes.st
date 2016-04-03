@@ -1,4 +1,4 @@
-test - parsing
+test - parsing (deprecated)
 testTimes
 	| parser |
 	parser := $a asParser2 times: 2.

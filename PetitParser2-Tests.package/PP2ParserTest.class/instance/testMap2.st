@@ -1,4 +1,4 @@
-test - parsing
+test - parsing (deprecated)
 testMap2
 	| parser |
 	parser := #any asParser2, #any asParser2

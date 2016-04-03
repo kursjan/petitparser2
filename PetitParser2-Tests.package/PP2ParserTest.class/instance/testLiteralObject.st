@@ -1,4 +1,4 @@
-test - parsing
+test - parsing (deprecated)
 testLiteralObject
 	| parser |
 	parser := $a asParser2.

@@ -1,4 +1,4 @@
-test - parsing
+test - parsing (deprecated)
 testTrim
 	| parser |
 	parser := 'a' asParser2 trim.

@@ -1,4 +1,4 @@
-test - parsing
+test - parsing (deprecated)
 testLiteralSequence
 	| parser |
 	parser := 'abc' asParser2.

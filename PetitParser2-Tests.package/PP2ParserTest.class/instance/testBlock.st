@@ -1,4 +1,4 @@
-test - parsing
+test - parsing (deprecated)
 testBlock
 	| parser |
 	parser := [ :ctx | 

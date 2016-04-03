@@ -1,4 +1,4 @@
-test - parsing
+test - parsing (deprecated)
 testWrapped
 	| parser |
 	parser := $a asParser2 wrapped.

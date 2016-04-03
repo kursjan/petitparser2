@@ -1,4 +1,4 @@
-test - parsing
+test - parsing (deprecated)
 testFailing
 	| parser result |
 	parser := PP2FailingParser message: 'Plonk'.

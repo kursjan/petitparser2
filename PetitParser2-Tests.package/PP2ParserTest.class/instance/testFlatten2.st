@@ -1,4 +1,4 @@
-test - parsing
+test - parsing (deprecated)
 testFlatten2
 	| parser |
 	parser := ($a asParser2, $b asParser2) flatten.

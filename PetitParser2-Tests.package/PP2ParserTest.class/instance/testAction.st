@@ -1,4 +1,4 @@
-test - parsing
+test - parsing (deprecated)
 testAction
 	| block parser |
 	block := [ :char | char asUppercase ].

@@ -1,4 +1,4 @@
-test - parsing
+test - parsing (deprecated)
 testPlus
 	| parser |
 	parser := $a asParser2 plus.

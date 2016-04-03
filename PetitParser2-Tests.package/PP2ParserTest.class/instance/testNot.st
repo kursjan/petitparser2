@@ -1,4 +1,4 @@
-test - parsing
+test - parsing (deprecated)
 testNot
 	| parser |
 	parser := 'foo' asParser2 flatten, 'bar' asParser2 flatten not.

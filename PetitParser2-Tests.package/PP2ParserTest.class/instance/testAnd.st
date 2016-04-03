@@ -1,4 +1,4 @@
-test - parsing
+test - parsing (deprecated)
 testAnd
 	| parser |
 	parser := 'foo' asParser2, 'bar' asParser2 and.

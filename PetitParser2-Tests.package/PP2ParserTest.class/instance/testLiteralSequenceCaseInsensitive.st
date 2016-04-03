@@ -1,4 +1,4 @@
-test - parsing
+test - parsing (deprecated)
 testLiteralSequenceCaseInsensitive
 	| parser |
 	parser := 'abc' asParser2 caseInsensitive.

@@ -1,4 +1,4 @@
-test - parsing
+test - parsing (deprecated)
 testEpsilon
 	| parser |
 	parser := nil asParser2.

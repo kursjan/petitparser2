@@ -1,4 +1,4 @@
-test - parsing
+test - parsing (deprecated)
 testLiteralObjectCaseInsensitive
 	| parser |
 	parser := $a asParser2 caseInsensitive.

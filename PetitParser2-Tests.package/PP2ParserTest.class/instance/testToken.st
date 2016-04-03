@@ -1,4 +1,4 @@
-test - parsing
+test - parsing (deprecated)
 testToken
 	| parser |
 	parser := $a asParser2 token.

@@ -1,4 +1,4 @@
-test - parsing
+test - parsing (deprecated)
 testStar
 	| parser |
 	parser := $a asParser2 star.

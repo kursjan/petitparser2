@@ -1,4 +1,4 @@
-test - parsing
+test - parsing (deprecated)
 testOptional
 	| parser |
 	parser := $a asParser2 optional.

@@ -1,4 +1,4 @@
-test - parsing
+test - parsing (deprecated)
 testSequence
 	| parser |
 	parser := $a asParser2 , $b asParser2.
