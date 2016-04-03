@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testChoice" : "JanKurs 2/29/2016 15:36",
+		"testChoiceAndPriorityChoice" : "JanKurs 3/31/2016 18:04",
+		"testChoiceAndPriorityChoiceOrder" : "JanKurs 4/1/2016 08:21",
+		"testChoiceBacktrack" : "JanKurs 2/29/2016 17:16",
+		"testChoiceBacktrack2" : "JanKurs 2/29/2016 17:14",
+		"testChoiceBacktrack3" : "JanKurs 2/29/2016 17:12",
+		"testDeepChoice" : "JanKurs 3/31/2016 16:26" } }
