@@ -1,0 +1,3 @@
+accessing
+gtExample
+	^ self shouldBeImplemented

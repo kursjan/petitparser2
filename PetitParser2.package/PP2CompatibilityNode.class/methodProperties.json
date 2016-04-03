@@ -1,6 +1,7 @@
 {
 	"class" : {
-		 },
+		"on:" : "JanKurs 4/3/2016 20:18" },
 	"instance" : {
 		"accept:" : "JanKurs 4/3/2016 14:41",
-		"petitParser" : "JanKurs 4/3/2016 14:40" } }
+		"petitParser" : "JanKurs 4/3/2016 14:40",
+		"petitParser:" : "JanKurs 4/3/2016 20:17" } }

@@ -1,12 +1,13 @@
-visiting
+visiting - compatibility
 visitPetitParser: aPPParser
 	| retval petitContext |
 	petitContext := PPContext new
-		stream: currentContext stream;
+		stream: currentContext stream asPetitStream;
 		position: currentContext position;
 		yourself.
+
 	retval := aPPParser parseOn: petitContext.
 	
-	retval isPetitFailure 
+	^ retval isPetitFailure 
 		ifTrue: [ currentContext failure: retval message ]
-		ifFalse: [ currentContext success: retval; position: petitContext position ]
+		ifFalse: [ (currentContext success: retval) position: petitContext position ]
