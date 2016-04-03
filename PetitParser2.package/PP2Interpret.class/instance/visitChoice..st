@@ -1,10 +1,10 @@
 visiting
 visitChoice: parser
-	| context |
-	context := currentContext.
+	| startContext |
+	startContext := currentContext.
 	
 	1 to: parser parsers size do: [ :index |
-		currentContext := context.
+		currentContext := startContext.
 		(self visit: (parser childAt: index)) isPetitFailure ifFalse: [ ^ currentContext ] 
 	].
 	^ currentContext
