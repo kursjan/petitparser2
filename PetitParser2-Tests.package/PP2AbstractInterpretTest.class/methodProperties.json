@@ -8,4 +8,6 @@
 		"assert:parse:end:" : "JanKurs 4/2/2016 15:48",
 		"assert:parse:to:" : "JanKurs 4/2/2016 15:48",
 		"assert:parse:to:end:" : "JanKurs 4/2/2016 15:48",
+		"assert:parse:toTokenValue:" : "JanKurs 4/3/2016 12:31",
+		"assert:parse:toTokenValue:end:" : "JanKurs 4/3/2016 12:31",
 		"interpret:grammar:" : "JanKurs 4/2/2016 15:48" } }
