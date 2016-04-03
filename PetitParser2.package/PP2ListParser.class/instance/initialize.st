@@ -1,4 +1,4 @@
 initialization
 initialize
 	super initialize.
-	self parsers: #()
+	self children: #()

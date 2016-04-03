@@ -1,0 +1,3 @@
+*petitparser2
+petit2Class
+	self subclassResponsibility
