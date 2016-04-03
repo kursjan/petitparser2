@@ -12,5 +12,5 @@
 	"name" : "PP2Interpret",
 	"pools" : [
 		 ],
-	"super" : "PP2ParserVisitor",
+	"super" : "PP2NodeVisitor",
 	"type" : "normal" }

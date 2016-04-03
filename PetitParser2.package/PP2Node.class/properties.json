@@ -1,14 +1,14 @@
 {
-	"category" : "PetitParser2-Parsers",
+	"category" : "PetitParser2-Nodes",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "PP2BacktrackParser",
+		"properties" ],
+	"name" : "PP2Node",
 	"pools" : [
 		 ],
-	"super" : "PP2DelegateParser",
+	"super" : "Object",
 	"type" : "normal" }

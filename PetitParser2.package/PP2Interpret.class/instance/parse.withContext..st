@@ -1,9 +1,7 @@
 parsing
 parse: input withContext: startContext
-	| returnContext |
-	startContext initializeFor: input asPetit2Stream parser: self.
+	startContext stream: input asPetit2Stream.
+	startContext position: 0.
+	startContext parser: rootParser.
 	
-	returnContext := rootParser backtrack parseWithContext: startContext.
-
-	returnContext startContext: startContext.
-	^ returnContext
+	^ self parseWithContext: startContext

@@ -1,5 +1,5 @@
 {
-	"category" : "PetitParser2-Parsers",
+	"category" : "PetitParser2-Nodes",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -13,5 +13,5 @@
 	"name" : "PP2PredicateParser",
 	"pools" : [
 		 ],
-	"super" : "PP2Parser",
+	"super" : "PP2Node",
 	"type" : "normal" }

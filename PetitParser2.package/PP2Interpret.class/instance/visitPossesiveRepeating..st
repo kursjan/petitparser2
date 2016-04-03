@@ -8,7 +8,7 @@ visitPossesiveRepeating: parser
 		(self visit: parser child) isPetitFailure ifTrue: [
 			^ currentContext failure: 'not enough repetitons' 
 		].
-		elements addLast: currentContext retval 
+		elements addLast: currentContext value 
 	].
 	
 	[ elements size < parser max ] whileTrue: [
@@ -16,7 +16,7 @@ visitPossesiveRepeating: parser
 	 	(self visit: parser child) isPetitFailure ifTrue: [ 
 			^ currentContext success: elements asArray 
 		].
-		elements addLast: currentContext retval 
+		elements addLast: currentContext value 
 	].
 
 	^ currentContext success: elements asArray

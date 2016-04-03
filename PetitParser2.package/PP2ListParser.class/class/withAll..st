@@ -1,5 +1,5 @@
 as yet unclassified
 withAll: aCollection
 	^ self new
-		parsers: aCollection;
+		children: aCollection;
 		yourself
