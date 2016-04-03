@@ -1,3 +1,3 @@
-as yet unclassified
+operators
 // aRule 
 	^ self copyWith: aRule

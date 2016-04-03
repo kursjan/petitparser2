@@ -1,4 +1,4 @@
-as yet unclassified
+parsing - private
 parseOn: aPP2Context
 
 	| continuation index retval |

@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"backtrackIfPossible" : "JanKurs 4/3/2016 18:43",
+		"backtrackingVisit:" : "JanKurs 4/3/2016 19:12",
+		"parseWithContext:" : "JanKurs 4/3/2016 18:45",
+		"returnPossesiveMin:index:elements:" : "JanKurs 4/3/2016 20:07",
+		"visitBacktracking:" : "JanKurs 4/3/2016 18:59",
+		"visitBacktrackingChoice:" : "JanKurs 4/3/2016 18:53",
+		"visitChoice:" : "JanKurs 4/3/2016 19:13",
+		"visitPossesiveRepeating:" : "JanKurs 4/3/2016 20:08" } }
