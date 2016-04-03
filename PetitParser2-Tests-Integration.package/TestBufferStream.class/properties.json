@@ -1,0 +1,14 @@
+{
+	"category" : "PetitParser2-Tests-Integration-Streams",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"parser" ],
+	"name" : "TestBufferStream",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
