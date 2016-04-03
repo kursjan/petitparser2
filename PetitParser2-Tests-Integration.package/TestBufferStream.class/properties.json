@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"parser" ],
+		"parser",
+		"stream",
+		"result" ],
 	"name" : "TestBufferStream",
 	"pools" : [
 		 ],

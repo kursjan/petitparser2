@@ -1,6 +1,5 @@
 as yet unclassified
 testStreamBufferSmall
-	| result stream |
 	parser := 'aa' asParser2.
 	stream := MinimalStream on: 'aa'.
 	

@@ -1,6 +1,5 @@
 as yet unclassified
 testStreamBacktrackBufferSmall
-	| result stream |
 	parser := 'aa' asParser2.
 	stream := MinimalStream on: #($a $a).
 	

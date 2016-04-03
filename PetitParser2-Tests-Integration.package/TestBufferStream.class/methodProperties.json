@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testStream" : "JanKurs 4/1/2016 23:13",
-		"testStreamBacktrack" : "JanKurs 4/2/2016 11:32",
-		"testStreamBacktrackBufferSmall" : "JanKurs 4/2/2016 08:40",
-		"testStreamBacktrackBufferTooSmall" : "JanKurs 4/2/2016 08:26",
-		"testStreamBufferSmall" : "JanKurs 4/2/2016 11:18",
-		"testStreamBufferTooSmall" : "JanKurs 4/2/2016 08:30" } }
+		"testStream" : "JanKurs 4/3/2016 11:03",
+		"testStreamBacktrack" : "JanKurs 4/3/2016 11:02",
+		"testStreamBacktrackBufferSmall" : "JanKurs 4/3/2016 11:02",
+		"testStreamBacktrackBufferTooSmall" : "JanKurs 4/3/2016 11:02",
+		"testStreamBufferSmall" : "JanKurs 4/3/2016 11:02",
+		"testStreamBufferTooSmall" : "JanKurs 4/3/2016 11:02" } }
