@@ -1,6 +1,6 @@
 utilities
 assert: aGrammar fail: aCollection end: anInteger
-	| stream result context |
+	| stream result |
 	self 
 		assert: aGrammar isPetit2Parser
 		description: 'Parser invalid'.

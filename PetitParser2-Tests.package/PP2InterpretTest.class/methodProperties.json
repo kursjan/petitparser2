@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"interpretClass" : "JanKurs 4/3/2016 18:34",
 		"testAction" : "JanKurs 4/2/2016 18:14",
 		"testAnd" : "JanKurs 4/3/2016 11:04",
 		"testBlock" : "JanKurs 4/3/2016 11:09",
@@ -20,6 +21,8 @@
 		"testMapWrappedSequence" : "JanKurs 4/3/2016 12:22",
 		"testNot" : "JanKurs 4/3/2016 12:23",
 		"testOptional" : "JanKurs 4/2/2016 15:52",
+		"testParse" : "JanKurs 4/3/2016 14:57",
+		"testParseWithContext" : "JanKurs 4/3/2016 14:58",
 		"testPlus" : "JanKurs 4/2/2016 15:47",
 		"testPredicateAny" : "JanKurs 4/2/2016 18:20",
 		"testPredicateDigit" : "JanKurs 4/2/2016 18:22",

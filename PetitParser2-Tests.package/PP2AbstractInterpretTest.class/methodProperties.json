@@ -3,11 +3,12 @@
 		 },
 	"instance" : {
 		"assert:fail:" : "JanKurs 4/2/2016 15:49",
-		"assert:fail:end:" : "JanKurs 4/2/2016 15:50",
+		"assert:fail:end:" : "JanKurs 4/3/2016 14:56",
 		"assert:parse:" : "JanKurs 4/2/2016 15:48",
 		"assert:parse:end:" : "JanKurs 4/2/2016 15:48",
 		"assert:parse:to:" : "JanKurs 4/2/2016 15:48",
 		"assert:parse:to:end:" : "JanKurs 4/2/2016 15:48",
 		"assert:parse:toTokenValue:" : "JanKurs 4/3/2016 12:31",
 		"assert:parse:toTokenValue:end:" : "JanKurs 4/3/2016 12:31",
-		"interpret:grammar:" : "JanKurs 4/2/2016 15:48" } }
+		"interpret:grammar:" : "JanKurs 4/3/2016 18:34",
+		"interpretClass" : "JanKurs 4/3/2016 18:34" } }

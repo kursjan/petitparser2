@@ -4,7 +4,7 @@ testChoice
 	children := parser allChildren.
 	
 	self assert: children isCollection.
-	self assert: children size = 5.
+	self assert: children size = 3.
 	self assert: (children includes: parser).
-	self assert: (children includes: parser firstChild child).
-	self assert: (children includes: parser secondChild child).
+	self assert: (children includes: parser firstChild).
+	self assert: (children includes: parser secondChild).
