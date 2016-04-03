@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assert:fail:" : "JanKurs 4/2/2016 15:49",
+		"assert:fail:end:" : "JanKurs 4/2/2016 15:50",
+		"assert:parse:" : "JanKurs 4/2/2016 15:48",
+		"assert:parse:end:" : "JanKurs 4/2/2016 15:48",
+		"assert:parse:to:" : "JanKurs 4/2/2016 15:48",
+		"assert:parse:to:end:" : "JanKurs 4/2/2016 15:48",
+		"interpret:grammar:" : "JanKurs 4/2/2016 15:48" } }

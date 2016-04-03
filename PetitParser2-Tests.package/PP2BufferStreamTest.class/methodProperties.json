@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "JanKurs 2/25/2016 18:24",
+		"testAtEnd" : "JanKurs 4/2/2016 11:52",
+		"testCopyFromTo" : "JanKurs 4/2/2016 11:39",
+		"testCopyFromToOOB" : "JanKurs 4/2/2016 09:27",
+		"testCopyFromToSmallBuffer" : "JanKurs 4/2/2016 11:39",
+		"testInstanceCreation" : "JanKurs 4/2/2016 11:46",
+		"testInstanceCreationSize" : "JanKurs 4/2/2016 11:46",
+		"testNext" : "JanKurs 2/25/2016 18:34",
+		"testPeek" : "JanKurs 4/2/2016 10:50",
+		"testRandomAccess" : "JanKurs 4/2/2016 10:30",
+		"testRandomAccess2" : "JanKurs 4/2/2016 10:20",
+		"testRandomAccess3" : "JanKurs 4/2/2016 11:04",
+		"testRandomAccess4" : "JanKurs 4/2/2016 10:22",
+		"testUncheckedNext" : "JanKurs 4/2/2016 18:18" } }

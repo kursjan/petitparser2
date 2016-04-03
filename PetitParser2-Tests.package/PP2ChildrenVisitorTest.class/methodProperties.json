@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testChoice" : "JanKurs 4/1/2016 22:00",
+		"testLiteral" : "JanKurs 4/1/2016 16:44",
+		"testSequence" : "JanKurs 4/1/2016 21:56",
+		"testTokenParser" : "JanKurs 4/1/2016 22:03",
+		"testTokenTrimParser" : "JanKurs 4/1/2016 22:10",
+		"testWrapping" : "JanKurs 4/1/2016 22:02" } }
