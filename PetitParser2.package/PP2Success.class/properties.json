@@ -1,0 +1,14 @@
+{
+	"category" : "PetitParser2-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"retval" ],
+	"name" : "PP2Success",
+	"pools" : [
+		 ],
+	"super" : "PP2Context",
+	"type" : "normal" }

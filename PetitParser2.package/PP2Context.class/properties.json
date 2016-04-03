@@ -1,0 +1,18 @@
+{
+	"category" : "PetitParser2-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"stream",
+		"position",
+		"parser",
+		"continuationStack",
+		"startContext" ],
+	"name" : "PP2Context",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"new" : "JanKurs 2/25/2016 17:06",
+		"on:" : "JanKurs 2/25/2016 18:31",
+		"on:bufferSize:" : "JanKurs 4/2/2016 11:44" },
+	"instance" : {
+		"asPetit2Context" : "JanKurs 2/25/2016 17:46",
+		"asPetit2Stream" : "JanKurs 2/25/2016 17:36",
+		"atEnd:" : "JanKurs 4/2/2016 11:48",
+		"atPosition:" : "JanKurs 4/2/2016 11:51",
+		"buffer" : "JanKurs 4/2/2016 11:45",
+		"bufferSize" : "JanKurs 4/2/2016 11:45",
+		"copyFrom:to:" : "JanKurs 4/2/2016 11:51",
+		"initialize" : "JanKurs 4/2/2016 11:43",
+		"initializeForSize:" : "JanKurs 4/2/2016 11:42",
+		"last" : "JanKurs 4/2/2016 10:53",
+		"next" : "JanKurs 4/2/2016 10:18",
+		"printOn:position:" : "JanKurs 4/2/2016 09:39",
+		"stream:" : "JanKurs 2/25/2016 18:31",
+		"uncheckedNext" : "JanKurs 4/2/2016 10:26",
+		"upToPosition:" : "JanKurs 4/2/2016 11:48" } }

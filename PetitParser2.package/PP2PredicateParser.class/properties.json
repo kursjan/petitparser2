@@ -1,0 +1,17 @@
+{
+	"category" : "PetitParser2-Parsers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"predicate",
+		"predicateMessage",
+		"negated",
+		"negatedMessage" ],
+	"name" : "PP2PredicateParser",
+	"pools" : [
+		 ],
+	"super" : "PP2Parser",
+	"type" : "normal" }

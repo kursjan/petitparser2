@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"new" : "JanKurs 10/2/2015 18:32",
+		"on:" : "JanKurs 10/2/2015 18:32" },
+	"instance" : {
+		"asPetit2Context" : "JanKurs 2/25/2016 17:46",
+		"asPetit2Stream" : "JanKurs 10/3/2015 19:42",
+		"atEnd:" : "JanKurs 2/25/2016 20:02",
+		"atPosition:" : "JanKurs 10/2/2015 18:30",
+		"collection" : "JanKurs 10/5/2015 15:47",
+		"collection:" : "JanKurs 10/2/2015 18:32",
+		"copyFrom:to:" : "JanKurs 4/2/2016 09:47",
+		"initialize" : "JanKurs 10/2/2015 18:32",
+		"printOn:position:" : "JanKurs 2/27/2016 22:35",
+		"readLimit" : "JanKurs 2/25/2016 18:21" } }

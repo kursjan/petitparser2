@@ -1,0 +1,14 @@
+{
+	"category" : "PetitParser2-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"collection" ],
+	"name" : "PP2Stream",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"on:" : "JanKurs 4/2/2016 14:35" },
+	"instance" : {
+		"initializeFor:" : "JanKurs 4/2/2016 15:17",
+		"parse:" : "JanKurs 4/2/2016 15:17",
+		"parse:withContext:" : "JanKurs 4/2/2016 15:17",
+		"visit:" : "JanKurs 4/2/2016 14:21",
+		"visitAction:" : "JanKurs 4/2/2016 18:13",
+		"visitChoice:" : "JanKurs 4/2/2016 15:40",
+		"visitDelegate:" : "JanKurs 4/2/2016 15:23",
+		"visitLiteralObject:" : "JanKurs 4/2/2016 15:20",
+		"visitLiteralSequence:" : "JanKurs 4/2/2016 15:17",
+		"visitOptional:" : "JanKurs 4/2/2016 17:50",
+		"visitPP2Parser:" : "JanKurs 4/2/2016 12:53",
+		"visitPossesiveRepeating:" : "JanKurs 4/2/2016 15:50",
+		"visitPredicateObject:" : "JanKurs 4/2/2016 18:19",
+		"visitSequence:" : "JanKurs 4/2/2016 15:17" } }

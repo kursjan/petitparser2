@@ -1,0 +1,17 @@
+{
+	"category" : "PetitParser2-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"stream",
+		"buffer",
+		"bufferSize",
+		"position" ],
+	"name" : "PP2BufferStream",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

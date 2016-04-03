@@ -1,0 +1,16 @@
+{
+	"category" : "PetitParser2-Interpretation",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"currentContext",
+		"message",
+		"rootParser" ],
+	"name" : "PP2Interpret",
+	"pools" : [
+		 ],
+	"super" : "PP2ParserVisitor",
+	"type" : "normal" }

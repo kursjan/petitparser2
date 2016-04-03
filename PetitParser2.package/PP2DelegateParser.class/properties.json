@@ -1,0 +1,14 @@
+{
+	"category" : "PetitParser2-Parsers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"parser" ],
+	"name" : "PP2DelegateParser",
+	"pools" : [
+		 ],
+	"super" : "PP2Parser",
+	"type" : "normal" }

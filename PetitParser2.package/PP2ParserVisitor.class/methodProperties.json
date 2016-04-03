@@ -1,0 +1,21 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"visit:" : "JanKurs 4/1/2016 16:19",
+		"visitAction:" : "JanKurs 4/1/2016 21:58",
+		"visitBacktracking:" : "JanKurs 4/1/2016 21:59",
+		"visitChoice:" : "JanKurs 4/1/2016 21:58",
+		"visitDelegate:" : "JanKurs 4/1/2016 14:14",
+		"visitList:" : "JanKurs 4/1/2016 21:59",
+		"visitLiteralObject:" : "JanKurs 4/1/2016 16:38",
+		"visitLiteralSequence:" : "JanKurs 4/2/2016 14:20",
+		"visitMapping:" : "JanKurs 4/1/2016 21:58",
+		"visitOptional:" : "JanKurs 4/2/2016 17:50",
+		"visitPP2Parser:" : "JanKurs 4/1/2016 15:27",
+		"visitPossesiveRepeating:" : "JanKurs 4/2/2016 15:29",
+		"visitSequence:" : "JanKurs 4/1/2016 21:59",
+		"visitToken:" : "JanKurs 4/1/2016 22:04",
+		"visitTrimming:" : "JanKurs 4/1/2016 22:09",
+		"visitTrimmingToken:" : "JanKurs 4/1/2016 22:09",
+		"visitWrapping:" : "JanKurs 4/1/2016 21:59" } }

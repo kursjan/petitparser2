@@ -1,0 +1,16 @@
+{
+	"category" : "PetitParser2-Analysis",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"openSet",
+		"closeSet",
+		"cache" ],
+	"name" : "PP2AnalysisVisitor",
+	"pools" : [
+		 ],
+	"super" : "PP2ParserVisitor",
+	"type" : "normal" }

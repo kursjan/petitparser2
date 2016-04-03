@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"dependencies" : "JanKurs 2/25/2016 22:19",
+		"ignoredNames" : "JanKurs 2/25/2016 22:31",
+		"new" : "JanKurs 2/25/2016 22:19",
+		"newStartingAt:" : "JanKurs 2/25/2016 22:44",
+		"parse:" : "JanKurs 2/25/2016 22:19",
+		"parse:onError:" : "JanKurs 2/25/2016 22:19",
+		"parse:startingAt:" : "JanKurs 2/25/2016 22:19",
+		"parse:startingAt:onError:" : "JanKurs 2/25/2016 22:19",
+		"startSymbol" : "JanKurs 2/25/2016 22:19" },
+	"instance" : {
+		"dependencyAt:" : "JanKurs 2/25/2016 22:19",
+		"initializeStartingAt:dependencies:" : "JanKurs 2/25/2016 22:43",
+		"productionAt:" : "JanKurs 2/25/2016 22:19",
+		"productionAt:ifAbsent:" : "JanKurs 2/25/2016 22:19",
+		"productionNames" : "JanKurs 2/25/2016 22:19",
+		"start" : "JanKurs 2/25/2016 22:19" } }
