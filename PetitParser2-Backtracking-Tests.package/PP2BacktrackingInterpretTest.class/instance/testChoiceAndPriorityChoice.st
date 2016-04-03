@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testChoiceAndPriorityChoice
 	| parser1 parser2 parser |
 	

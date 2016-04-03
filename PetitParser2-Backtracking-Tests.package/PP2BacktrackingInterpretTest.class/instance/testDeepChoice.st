@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testDeepChoice
 	| parser1 parser2 parser |
 	

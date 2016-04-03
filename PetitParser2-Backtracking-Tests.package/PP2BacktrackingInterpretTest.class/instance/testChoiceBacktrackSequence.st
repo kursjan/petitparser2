@@ -1,5 +1,5 @@
-as yet unclassified
-testChoiceBacktrack
+tests
+testChoiceBacktrackSequence
 	| parser |
 	parser := ('aa' asParser2 // 'a' asParser2), $a asParser2.
 	

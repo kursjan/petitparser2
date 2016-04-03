@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"interpretClass" : "JanKurs 4/3/2016 18:35",
+		"testBacktrackingChoice" : "JanKurs 4/3/2016 20:01",
+		"testChoice" : "JanKurs 4/3/2016 20:08",
+		"testChoiceAndPlusInteraction" : "JanKurs 4/3/2016 19:17",
+		"testChoiceAndPriorityChoice" : "JanKurs 3/31/2016 18:04",
+		"testChoiceAndPriorityChoiceOrder" : "JanKurs 4/1/2016 08:21",
+		"testChoiceBacktrackPlus" : "JanKurs 4/3/2016 19:23",
+		"testChoiceBacktrackSequence" : "JanKurs 4/3/2016 19:15",
+		"testChoiceBacktrackSequenceWithOptional" : "JanKurs 4/3/2016 19:16",
+		"testDeepChoice" : "JanKurs 3/31/2016 16:26",
+		"testPlus" : "JanKurs 4/3/2016 20:01",
+		"testStar" : "JanKurs 4/3/2016 20:01",
+		"testTimes" : "JanKurs 4/3/2016 20:07" } }

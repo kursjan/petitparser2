@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "PP2BacktrackingParserTest",
+	"name" : "PP2BacktrackingInterpretTest",
 	"pools" : [
 		 ],
-	"super" : "PP2AbstractParserTest",
+	"super" : "PP2AbstractInterpretTest",
 	"type" : "normal" }
