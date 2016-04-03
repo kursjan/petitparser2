@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testCompatibilityParser
 	| parser pp2Node |
 	parser := [ :ctx | ctx next ] asParser.
