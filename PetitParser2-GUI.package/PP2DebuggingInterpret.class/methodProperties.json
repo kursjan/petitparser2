@@ -1,7 +1,6 @@
 {
 	"class" : {
-		"on:" : "JanKurs 4/2/2016 12:04" },
+		 },
 	"instance" : {
-		"initializeFor:" : "JanKurs 4/2/2016 12:04",
-		"parse:" : "JanKurs 4/2/2016 12:32",
-		"visitPP2Parser:" : "JanKurs 4/2/2016 12:41" } }
+		"parseWithContext:" : "JanKurs 8/12/2016 19:40",
+		"visit:" : "JanKurs 8/12/2016 13:17" } }

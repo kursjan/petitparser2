@@ -1,6 +1,3 @@
 *PetitParser2-GUI
 debug: input
-	
-	^ (self enableDebug) 
-		parse: input;
-		root
+	^ self debug: input withContext: PP2Success new.

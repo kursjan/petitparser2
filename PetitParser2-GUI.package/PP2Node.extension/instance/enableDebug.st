@@ -4,7 +4,7 @@ enableDebug
 	root := PPParserDebuggerResult new.
 	
 	"In order to debug island waters, we need to compute the island water..."
-	self allParsers select: [ :p | p isKindOf: PPIsland  ] thenDo: [ :island |
+	self allParsers select: [ :p | p isKindOf: PPSea  ] thenDo: [ :island |
 		island createWaterForRoot: self	
 	].
 	

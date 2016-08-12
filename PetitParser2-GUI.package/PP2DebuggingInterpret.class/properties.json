@@ -7,11 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"root",
-		"currentContext",
-		"parser",
 		"currentResult" ],
 	"name" : "PP2DebuggingInterpret",
 	"pools" : [
 		 ],
-	"super" : "PP2NodeVisitor",
+	"super" : "PP2Interpret",
 	"type" : "normal" }
