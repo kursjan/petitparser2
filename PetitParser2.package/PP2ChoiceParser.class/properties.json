@@ -10,5 +10,5 @@
 	"name" : "PP2ChoiceParser",
 	"pools" : [
 		 ],
-	"super" : "PP2ListParser",
+	"super" : "PP2ListNode",
 	"type" : "normal" }

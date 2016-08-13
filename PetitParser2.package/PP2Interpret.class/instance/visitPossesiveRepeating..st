@@ -1,11 +1,10 @@
 visiting
 visitPossesiveRepeating: parser
 	| context elements |
-	
 	elements := OrderedCollection new.
 	
 	[ elements size < parser min ] whileTrue: [
-		(self visit: parser child) isPetitFailure ifTrue: [
+		(self visit: parser child) isPetit2Failure ifTrue: [
 			^ currentContext failure: 'not enough repetitons' 
 		].
 		elements addLast: currentContext value 
@@ -14,7 +13,7 @@ visitPossesiveRepeating: parser
 	[ elements size < parser max ] whileTrue: [
 		context := currentContext.
 	 	(self visit: parser child) isPetitFailure ifTrue: [ 
-			^ currentContext success: elements asArray 
+			^ context success: elements asArray 
 		].
 		elements addLast: currentContext value 
 	].
