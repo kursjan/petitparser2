@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testStreamBufferTooSmall
 	parser := 'aa' asParser2.
 	stream := MinimalStream on: #($a $a).

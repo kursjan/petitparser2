@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testStream
 	"Test with stream that provides only atEnd and next:"
 
@@ -6,15 +6,3 @@ testStream
 	stream := MinimalStream on: 'aa'.
 	
 	self assert: (parser parse: 'aa') isPetit2Success.
-	
-"
-	JK: to use with Mocketry?	
-	[ :mockedStream |
-		[ 
-			self assert: (parser parse: (PP2BufferStream on: mockedStream)) isPetit2Success.		
-		] should lenient satisfy: [ 
-			(mockedStream atEnd willReturn: false) useArbitrarily.
-			(mockedStream next willReturn: $a) useArbitrarily.
-		]
-	] runScenario.
-"

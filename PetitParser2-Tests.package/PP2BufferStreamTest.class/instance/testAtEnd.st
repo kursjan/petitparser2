@@ -1,4 +1,4 @@
-tests
+tests - context interface
 testAtEnd
 	stream := PP2BufferStream on: (ReadStream on: ''). 
 	self assert: (stream atEnd: 0).

@@ -1,17 +1,17 @@
 context interface
 atPosition: readPosition
-	(readPosition + 1 == position) ifTrue: [ 
+	(readPosition == position) ifTrue: [ 
 		^ self last.
 	].
 
-	(readPosition >= position) ifTrue: [ 
-		self upToPosition: readPosition + 1.
+	(readPosition > position) ifTrue: [ 
+		self upToPosition: readPosition.
 		^ self last
 	].
 
 	"backtrack case"
-	(position - readPosition > bufferSize) ifTrue: [ 
+	(position - readPosition >= bufferSize) ifTrue: [ 
 		SubscriptOutOfBounds signalFor: readPosition.
 	].
-	^ buffer at: (readPosition % bufferSize) + 1.
+	^ buffer at: ((readPosition - 1) % bufferSize) + 1.
 

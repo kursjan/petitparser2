@@ -7,7 +7,7 @@ testCopyFromTo
 		continuationStack: #continuationStack;
 		yourself.
 		
-	newContext := context copyFrom: 0 to: 2.
+	newContext := context copyFrom: 1 to: 3.
 	
 	self deny: context == newContext.
 	self assert: context position = newContext position.

@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testStreamBacktrackBufferTooSmall
 	parser := ('a' asParser2, 'a' asParser2, 'a' asParser2) / 'aa' asParser2.
 	stream := MinimalStream on: #($a $a).

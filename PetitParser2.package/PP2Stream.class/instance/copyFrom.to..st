@@ -1,4 +1,4 @@
 context interface
 copyFrom: start to: end
-	"start - end should be in range <0, collection size) "
-	^ collection copyFrom: start + 1 to: end + 1
+	"start - end should be in range <1, collection size> "
+	^ collection copyFrom: start to: end
