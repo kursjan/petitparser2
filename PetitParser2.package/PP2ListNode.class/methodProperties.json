@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"with:" : "JanKurs 10/3/2015 20:20",
+		"with:with:" : "JanKurs 10/3/2015 20:19",
+		"withAll:" : "JanKurs 4/3/2016 17:40" },
+	"instance" : {
+		"accept:" : "JanKurs 4/1/2016 16:34",
+		"children" : "JanKurs 10/3/2015 20:10",
+		"children:" : "JanKurs 4/3/2016 14:09",
+		"copyWith:" : "JanKurs 2/27/2016 21:02",
+		"firstChild" : "JanKurs 4/1/2016 16:50",
+		"initialize" : "JanKurs 4/3/2016 14:10",
+		"parsers" : "JanKurs 10/3/2015 20:11",
+		"parsers:" : "JanKurs 4/3/2016 14:09",
+		"postCopy" : "JanKurs 10/3/2015 20:11",
+		"replace:with:" : "JanKurs 2/27/2016 22:50",
+		"secondChild" : "JanKurs 4/1/2016 16:50" } }
