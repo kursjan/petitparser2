@@ -1,13 +1,13 @@
 {
-	"category" : "PetitParser2-Validation-Compatibility",
+	"category" : "PetitParser2-Validation-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "JanKurs 8/13/2016 15:11",
 	"instvars" : [
 		 ],
-	"name" : "PP2CompatibilityVerification",
+	"name" : "PP2VerificationTests",
 	"pools" : [
 		 ],
 	"super" : "TestCase",
