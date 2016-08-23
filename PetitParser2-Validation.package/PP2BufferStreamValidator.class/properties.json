@@ -10,5 +10,5 @@
 	"name" : "PP2BufferStreamValidator",
 	"pools" : [
 		 ],
-	"super" : "PPValidator",
+	"super" : "PP2Validator",
 	"type" : "normal" }
