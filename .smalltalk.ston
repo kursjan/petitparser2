@@ -4,7 +4,6 @@ SmalltalkCISpec {
       #baseline : 'PetitParser2',
       #platforms : [ #pharo ],
       #directory : '',
-      #load: 'Tests'
     }
   ]
 }
