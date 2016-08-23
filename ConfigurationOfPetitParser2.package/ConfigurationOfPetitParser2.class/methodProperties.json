@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"ensureMetacello" : "JanKurs 8/23/2016 08:50",
+		"isMetacelloConfig" : "JanKurs 8/23/2016 08:50",
+		"load" : "JanKurs 8/23/2016 09:02",
+		"loadDevelopment" : "JanKurs 8/23/2016 09:03",
+		"loadStable" : "JanKurs 8/23/2016 09:03",
+		"project" : "JanKurs 8/23/2016 08:50" },
+	"instance" : {
+		"baseline01:" : "JanKurs 8/23/2016 09:00",
+		"default:" : "JanKurs 8/23/2016 09:01",
+		"development:" : "JanKurs 8/23/2016 09:01",
+		"project" : "JanKurs 8/23/2016 08:50",
+		"stable:" : "JanKurs 8/23/2016 09:01" } }
