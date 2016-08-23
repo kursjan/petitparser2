@@ -2,9 +2,9 @@ SmalltalkCISpec {
   #loading : [
     SCIMetacelloLoadSpec {
       #baseline : 'PetitParser2',
-      #load: 'Tests',
-      #directory : 'packages',
-      #platforms : [ #pharo ]
+      #platforms : [ #pharo ],
+      #directory : '',
+      #load: 'Tests'
     }
   ]
 }
