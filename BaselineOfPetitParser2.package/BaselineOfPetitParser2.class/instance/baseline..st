@@ -8,10 +8,29 @@ baseline: spec
 		spec repository: 'github://kursjan/petitparser2:master'.
 		spec 
 			package: 'PetitParser2';
-			package: 'PetitParser2-Tests' with: [ spec requires: #('PetitParser2') ].
+			package: 'PetitParser2-Tests' with: [ spec requires: #('PetitParser2') ];
+			package: 'PetitParser2-Backtracking' with: [ spec requires: #('PetitParser2') ];
+			package: 'PetitParser2-Backtracking-Tests' with: [ spec requires: #('PetitParser2-Tests') ];
+			package: 'PetitParser2-Compatibility' with: [ spec requires: #('PetitParser' 'PetitParser2') ];
+			package: 'PetitParser2-Compatibility-Tests' with: [ spec requires: #('PetitParser2-Tests') ];
 
-		spec group: 'Core' with: #('PetitParser2').
-		spec group: 'Tests' with: #('PetitParser2-Tests').
+			project: 'PetitParser' with: [
+				spec
+					className: 'ConfigurationOfPetitParser';
+					file: 'ConfigurationOfPetitParser';
+					version: #stable;
+					loads: #(#'Parser');
+					repository: 'http://www.smalltalkhub.com/mc/Moose/PetitParser/main' ].
+
+		spec group: 'Core' with: #('PetitParser2' 'PetitParser2-Tests').
+		spec group: 'Backtracking' with: #('PetitParser2-Backtracking' 'PetitParser2-Backtracking-Tests').
+		spec group: 'Compatibility' with: #('PetitParser2-Compatibility' 'PetitParser2-Compatibility-Tests').
+		spec group: 'All' with: #(	'PetitParser2' 
+											'PetitParser2-Tests' 
+											'PetitParser2-Backtracking' 
+											'PetitParser2-Backtracking-Tests' 
+											'PetitParser2-Compatibility' 
+											'PetitParser2-Compatibility-Tests').
 	].
 
 	spec for: #('squeakCommon')  do: [
