@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfPetitParser2",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfPetitParser2",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
