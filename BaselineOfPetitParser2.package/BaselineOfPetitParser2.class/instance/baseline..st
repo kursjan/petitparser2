@@ -13,7 +13,7 @@ baseline: spec
 			package: 'PetitParser2-Backtracking-Tests' with: [ spec requires: #('PetitParser2-Validation' 'PetitParser2-Tests') ];
 			package: 'PetitParser2-Validation' with: [ spec requires: #('PetitParser2') ];
 			package: 'PetitParser2-Validation-Tests' with: [ spec requires: #('PetitParser2-Validation' 'PetitParser2-Tests') ];
-			package: 'PetitParser2-Compatibility' with: [ spec requires: #('PetitParser' 'PetitParser-Validation') ];
+			package: 'PetitParser2-Compatibility' with: [ spec requires: #('PetitParser' 'PetitParser2' 'PetitParser2-Validation') ];
 			package: 'PetitParser2-Compatibility-Tests' with: [ spec requires: #('PetitParser2-Validation-Tests') ];
 
 			project: 'PetitParser' with: [
@@ -30,7 +30,9 @@ baseline: spec
 		spec group: 'All' with: #(	'PetitParser2' 
 											'PetitParser2-Tests' 
 											'PetitParser2-Backtracking' 
-											'PetitParser2-Backtracking-Tests' 
+											'PetitParser2-Backtracking-Tests'
+											'PetitParser2-Validation' 
+											'PetitParser2-Validation-Tests' 
 											'PetitParser2-Compatibility' 
 											'PetitParser2-Compatibility-Tests').
 	].
