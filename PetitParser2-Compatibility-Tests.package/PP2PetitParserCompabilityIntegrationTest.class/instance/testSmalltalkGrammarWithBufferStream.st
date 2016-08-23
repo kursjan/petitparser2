@@ -1,6 +1,6 @@
-tests - smalltalk
-testSmalltalkGrammar
-	| tokens |
+as yet unclassified
+testSmalltalkGrammarWithBufferStream
+	| parser stream result tokens |
 	parser := PPSmalltalkGrammar new asPetit2Parser.
 	stream := PP2BufferStream on: (MinimalStream	on: 'foo ^ 1').
 		

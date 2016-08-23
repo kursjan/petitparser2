@@ -4,4 +4,6 @@
 	"instance" : {
 		"testRepetitions" : "JanKurs 8/13/2016 11:18",
 		"testSmalltalkGrammar" : "JanKurs 8/13/2016 12:45",
+		"testSmalltalkGrammarWithBufferStream" : "JanKurs 8/23/2016 13:17",
+		"testSmalltalkIdentierWithBufferStream" : "JanKurs 8/23/2016 13:18",
 		"testToken" : "JanKurs 8/12/2016 10:03" } }
