@@ -11,5 +11,5 @@
 	"name" : "PP2SmalltalkGrammarValidator",
 	"pools" : [
 		 ],
-	"super" : "PPValidator",
+	"super" : "PP2Validator",
 	"type" : "normal" }
