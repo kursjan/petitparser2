@@ -2,7 +2,7 @@ language: smalltalk
 sudo: false
 
 # Download sources
-before-install: ./loadSources.sh
+before-script: ./loadSources.sh
 
 # Select operating system(s)
 os:
