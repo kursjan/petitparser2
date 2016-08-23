@@ -12,7 +12,7 @@ visitPossesiveRepeating: parser
 	
 	[ elements size < parser max ] whileTrue: [
 		context := currentContext.
-	 	(self visit: parser child) isPetitFailure ifTrue: [ 
+	 	(self visit: parser child) isPetit2Failure ifTrue: [ 
 			^ context success: elements asArray 
 		].
 		elements addLast: currentContext value 
