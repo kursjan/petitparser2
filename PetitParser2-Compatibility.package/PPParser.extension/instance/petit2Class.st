@@ -1,0 +1,3 @@
+*PetitParser2-Compatibility
+petit2Class
+	self subclassResponsibility
