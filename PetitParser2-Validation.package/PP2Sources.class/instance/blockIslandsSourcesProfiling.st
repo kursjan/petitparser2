@@ -1,0 +1,5 @@
+seas
+blockIslandsSourcesProfiling
+	^ self cachedValue: #blockIslandsSourcesProfiling ifAbsent: [ 
+		self inputs: #blockIslandsOfSize: steps: 30 amount: 3 max: 2*1000
+	]

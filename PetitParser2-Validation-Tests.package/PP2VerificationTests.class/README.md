@@ -1,0 +1,1 @@
+I am aspecial kind of test. I do not test validation  itself, but that that validation returns expected results.

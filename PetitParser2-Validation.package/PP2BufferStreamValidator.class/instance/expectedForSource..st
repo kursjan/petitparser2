@@ -1,10 +1,10 @@
-as yet unclassified
+validation
 expectedForSource: source
 	| result |
-	result := ppParser parse: source.
+	result := parser parse: source.
 	
-	^ result isPetitFailure ifFalse: [ 
-		result
+	^ result isPetit2Failure ifFalse: [ 
+		result value
 	] ifTrue: [ 
 		#failure
 	]

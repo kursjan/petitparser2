@@ -1,6 +1,5 @@
-as yet unclassified
+initialization
 initialize
 	super initialize.
-	ppParser := PPSmalltalkGrammar new.
-	pp2Parser := PPSmalltalkGrammar new asPetit2Parser.
 	
+	parser := PP2ExpressionGrammar new

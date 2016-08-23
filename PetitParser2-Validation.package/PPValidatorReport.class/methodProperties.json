@@ -1,0 +1,24 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"actual:vs:for:" : "JanKurs 6/9/2016 10:21",
+		"error:forSource:" : "JanKurs 6/7/2016 14:29",
+		"errors" : "JanKurs 6/7/2016 14:26",
+		"failure:forSource:" : "JanKurs 6/7/2016 15:55",
+		"failureRate" : "JanKurs 6/10/2016 10:15",
+		"failures" : "JanKurs 6/7/2016 14:26",
+		"initialize" : "JanKurs 6/7/2016 16:14",
+		"parserName" : "JanKurs 6/10/2016 10:18",
+		"parserName:" : "JanKurs 6/10/2016 10:16",
+		"precision" : "JanKurs 6/7/2016 16:11",
+		"printCompactOnStream:" : "JanKurs 6/10/2016 13:57",
+		"printOnStream:" : "JanKurs 7/16/2016 21:11",
+		"recall" : "JanKurs 6/8/2016 14:50",
+		"sources" : "JanKurs 6/7/2016 14:26",
+		"sources:" : "JanKurs 6/7/2016 14:26",
+		"time:" : "JanKurs 6/7/2016 16:07",
+		"timePerSource" : "JanKurs 6/7/2016 16:18",
+		"timeout:" : "JanKurs 6/7/2016 14:29",
+		"timeouts" : "JanKurs 6/7/2016 14:26",
+		"total" : "JanKurs 7/19/2016 11:44" } }

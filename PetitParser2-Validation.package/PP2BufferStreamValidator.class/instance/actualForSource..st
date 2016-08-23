@@ -1,9 +1,9 @@
-as yet unclassified
+validation
 actualForSource: source
 	| result |
 	
 	[
-		result := pp2Parser parse: (PP2BufferStream on: (MinimalStream on: source) bufferSize: 128).
+		result := parser parse: (PP2BufferStream on: (MinimalStream on: source) bufferSize: 64).
 	] on: SubscriptOutOfBounds do: [  
 		(SkipValidation reason: 'To small buffer') signal
 	].

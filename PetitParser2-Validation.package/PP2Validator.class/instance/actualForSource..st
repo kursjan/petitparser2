@@ -1,0 +1,3 @@
+validation
+actualForSource: source
+	self subclassResponsibility

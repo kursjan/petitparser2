@@ -1,0 +1,14 @@
+{
+	"category" : "PetitParser2-Validation-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"DataDirectory" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"cache" ],
+	"name" : "PP2Sources",
+	"pools" : [
+		 ],
+	"super" : "TestResource",
+	"type" : "normal" }

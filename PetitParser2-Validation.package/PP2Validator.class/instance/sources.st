@@ -1,0 +1,3 @@
+accessing
+sources
+	self subclassResponsibility

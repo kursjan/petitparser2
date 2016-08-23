@@ -1,0 +1,3 @@
+smalltalk
+smalltalkSourcesAll
+	^ self smalltalkSourcesInDirectory: self smalltalkAllDirectory

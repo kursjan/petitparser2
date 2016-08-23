@@ -10,9 +10,11 @@ baseline: spec
 			package: 'PetitParser2';
 			package: 'PetitParser2-Tests' with: [ spec requires: #('PetitParser2') ];
 			package: 'PetitParser2-Backtracking' with: [ spec requires: #('PetitParser2') ];
-			package: 'PetitParser2-Backtracking-Tests' with: [ spec requires: #('PetitParser2-Tests') ];
-			package: 'PetitParser2-Compatibility' with: [ spec requires: #('PetitParser' 'PetitParser2') ];
-			package: 'PetitParser2-Compatibility-Tests' with: [ spec requires: #('PetitParser2-Tests') ];
+			package: 'PetitParser2-Backtracking-Tests' with: [ spec requires: #('PetitParser2-Validation' 'PetitParser2-Tests') ];
+			package: 'PetitParser2-Validation' with: [ spec requires: #('PetitParser2') ];
+			package: 'PetitParser2-Validation-Tests' with: [ spec requires: #('PetitParser2-Validation' 'PetitParser2-Tests') ];
+			package: 'PetitParser2-Compatibility' with: [ spec requires: #('PetitParser' 'PetitParser-Validation') ];
+			package: 'PetitParser2-Compatibility-Tests' with: [ spec requires: #('PetitParser2-Validation-Tests') ];
 
 			project: 'PetitParser' with: [
 				spec
