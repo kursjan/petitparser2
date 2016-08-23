@@ -1,3 +1,3 @@
 accessing
 parserInstance
-	^ PPParserResource current parserAt: self parserClass
+	^ PP2ParserResource current parserAt: self parserClass

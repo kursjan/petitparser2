@@ -1,3 +1,4 @@
 visiting - utilities
 mergeResult: aCollection
-	^ aCollection flatten
+	^ aCollection gather: [ :each | each ]
+"	^ aCollection flatten"

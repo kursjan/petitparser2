@@ -1,6 +1,6 @@
 predicates creation
 space
 	^ self new 
-		predicate: (PPCharSetPredicate on: [ :char | char isSeparator ]);
+		predicate: (PP2CharSetPredicate on: [ :char | char isSeparator ]);
 		predicateMessage: 'separator expected';
 		yourself
