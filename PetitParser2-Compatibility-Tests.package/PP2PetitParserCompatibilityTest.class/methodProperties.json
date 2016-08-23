@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"interpretClass" : "JanKurs 4/3/2016 20:18",
+		"testCompatibilityParser" : "JanKurs 4/3/2016 20:13",
+		"testCompatibilityParser2" : "JanKurs 8/12/2016 19:37",
+		"testPluggableCompatibility" : "JanKurs 8/12/2016 20:40",
+		"testSmalltalkNumberCompatibility" : "JanKurs 8/12/2016 20:40",
+		"testWrappingCompatibility" : "JanKurs 8/12/2016 20:51" } }
