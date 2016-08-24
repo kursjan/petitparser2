@@ -13,7 +13,7 @@ readDirectory: directory
 
 		file := self class dataDirectory asFileReference / directory.
 		file exists ifFalse: [ 
-			self error: 'Directory does not exist'.
+			self error: 'Directory', directory asString, ' does not exist'.
 		].
 		^ file allFiles asSortedCollection 
 	]

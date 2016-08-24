@@ -1,18 +1,15 @@
 language: smalltalk
 sudo: false
 
-before-install: 
-  - echo "before install"
-
 # Download sources
-before-script: 
-  - echo "before script"
-  - ./loadSources.sh
+before_script: 
+  - ./.utilities/loadSources.sh
 
 # Select operating system(s)
 os:
   - linux
-  - osx
+# JK: smalltalk sources cannot be accessed on MAC, dunno why 
+#  - osx
 
 # Select compatible Smalltalk image(s)
 smalltalk:

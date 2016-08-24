@@ -3,7 +3,7 @@ dataDirectory
 	DataDirectory isNil ifTrue:[
 		| dirFromEnv |
 		
-		dirFromEnv := self getenv: 'PETITCOMPILER_DATA_DIRECTORY'.
+		dirFromEnv := self getenv: 'PP2_SOURCES'.
 		dirFromEnv notNil ifTrue:[
 			[
 				self dataDirectory: dirFromEnv.

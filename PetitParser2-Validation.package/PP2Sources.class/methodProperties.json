@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"dataDirectory" : "JanKurs 8/23/2016 14:17",
+		"dataDirectory" : "JanKurs 8/24/2016 09:33",
 		"dataDirectory:" : "JanKurs 8/23/2016 14:17",
 		"dataDirectoryDefault" : "JanKurs 8/23/2016 14:17",
 		"getenv:" : "JanKurs 8/23/2016 14:17" },
@@ -51,7 +51,7 @@
 		"pythonSourcesInDirectory:" : "JanKurs 8/23/2016 14:17",
 		"pythonSourcesProfiling" : "JanKurs 8/23/2016 14:17",
 		"pythonSourcesVerification" : "JanKurs 8/23/2016 14:17",
-		"readDirectory:" : "JanKurs 8/23/2016 14:17",
+		"readDirectory:" : "JanKurs 8/24/2016 10:05",
 		"rubyAllDirectory" : "JanKurs 8/23/2016 14:22",
 		"rubyFilesAll" : "JanKurs 8/23/2016 14:17",
 		"rubyFilesInDirectory:" : "JanKurs 8/23/2016 14:17",
@@ -67,6 +67,6 @@
 		"smalltalkSelectedDirectory" : "JanKurs 8/23/2016 14:17",
 		"smalltalkSourcesAll" : "JanKurs 8/23/2016 14:17",
 		"smalltalkSourcesBenchmarking" : "JanKurs 8/23/2016 14:17",
-		"smalltalkSourcesInDirectory:" : "JanKurs 8/23/2016 14:17",
+		"smalltalkSourcesInDirectory:" : "JanKurs 8/24/2016 10:14",
 		"smalltalkSourcesProfiling" : "JanKurs 8/23/2016 14:17",
 		"smalltalkSourcesVerification" : "JanKurs 8/23/2016 14:17" } }
