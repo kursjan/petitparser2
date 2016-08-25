@@ -1,0 +1,15 @@
+{
+	"category" : "PetitParser2-Validation-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"expected",
+		"actual" ],
+	"name" : "PP2ValidatorReportEntry",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

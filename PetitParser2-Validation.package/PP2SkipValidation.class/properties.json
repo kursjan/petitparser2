@@ -1,0 +1,14 @@
+{
+	"category" : "PetitParser2-Validation-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JanKurs 8/13/2016 15:03",
+	"instvars" : [
+		"reason" ],
+	"name" : "PP2SkipValidation",
+	"pools" : [
+		 ],
+	"super" : "Notification",
+	"type" : "normal" }
