@@ -1,0 +1,3 @@
+accessing
+context
+	^ contextClass new

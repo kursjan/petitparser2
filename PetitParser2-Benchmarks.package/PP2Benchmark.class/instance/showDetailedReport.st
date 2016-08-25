@@ -1,0 +1,3 @@
+reporting
+showDetailedReport
+	report showDetailed

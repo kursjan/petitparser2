@@ -1,0 +1,14 @@
+{
+	"category" : "PetitParser2-Benchmarks-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PP2ComplexityBenchmark",
+	"pools" : [
+		 ],
+	"super" : "PP2Benchmark",
+	"type" : "normal" }
