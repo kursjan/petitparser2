@@ -34,7 +34,7 @@ baseline: spec
 											'PetitParser2-Backtracking' 
 											'PetitParser2-Backtracking-Tests'
 											'PetitParser2-Benchmarks' 
-											'PetitParser2-Benchmarks-Tests' 
+											'PetitParser2-Benchmarks-GUI' 
 											'PetitParser2-Validation' 
 											'PetitParser2-Validation-Tests' 
 											'PetitParser2-Compatibility' 
