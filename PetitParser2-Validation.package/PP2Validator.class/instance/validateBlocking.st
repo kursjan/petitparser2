@@ -3,7 +3,7 @@ validateBlocking
 	| time sources |
 
 	Transcript cr; show: 'Validating: ', self name.
-	report := PPValidatorReport new.
+	report := PP2ValidatorReport new.
 	report parserName: self name.
 	
 	time := [
