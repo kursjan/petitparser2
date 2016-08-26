@@ -1,0 +1,14 @@
+{
+	"category" : "PetitParser2-Tests-Parsers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JanKurs 8/26/2016 11:33",
+	"instvars" : [
+		 ],
+	"name" : "PP2DirectParseTest",
+	"pools" : [
+		 ],
+	"super" : "PP2ParseTest",
+	"type" : "normal" }
