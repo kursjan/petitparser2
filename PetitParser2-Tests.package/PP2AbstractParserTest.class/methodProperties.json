@@ -4,12 +4,14 @@
 		"packageNamesUnderTest" : "JanKurs 10/2/2015 18:55" },
 	"instance" : {
 		"assert:fail:" : "JanKurs 10/2/2015 18:55",
-		"assert:fail:end:" : "JanKurs 10/3/2015 19:53",
+		"assert:fail:end:" : "JanKurs 8/26/2016 11:36",
 		"assert:includesSubstring:" : "JanKurs 10/2/2015 18:55",
 		"assert:parse:" : "JanKurs 10/2/2015 18:55",
 		"assert:parse:end:" : "JanKurs 10/2/2015 18:55",
 		"assert:parse:to:" : "JanKurs 10/2/2015 18:55",
-		"assert:parse:to:end:" : "JanKurs 2/25/2016 19:59",
+		"assert:parse:to:end:" : "JanKurs 8/26/2016 11:49",
 		"assert:parse:toTokenValue:" : "JanKurs 10/5/2015 18:07",
 		"assert:parse:toTokenValue:end:" : "JanKurs 10/5/2015 18:07",
-		"context" : "JanKurs 2/27/2016 21:21" } }
+		"context" : "JanKurs 2/27/2016 21:21",
+		"initialize" : "JanKurs 8/26/2016 11:59",
+		"parseSelector" : "JanKurs 8/26/2016 11:49" } }

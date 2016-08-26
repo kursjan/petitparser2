@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testRepetitions
 	| parser result |
 	parser := ('foo' asParser, ':=' asParser) plus asPetit2Parser.

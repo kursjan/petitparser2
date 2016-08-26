@@ -1,3 +1,3 @@
 accessing
 createResources
-	^ PPSources current
+	^ PP2Sources current

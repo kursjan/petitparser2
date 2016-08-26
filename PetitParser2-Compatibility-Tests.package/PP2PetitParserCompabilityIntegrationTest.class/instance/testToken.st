@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testToken
 	| parser result |
 	parser := 'foo' asParser token asPetit2Parser.

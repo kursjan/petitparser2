@@ -2,4 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testExpressionGrammar" : "JanKurs 8/25/2016 15:27" } }
+		"testExpressionGrammar" : "JanKurs 8/25/2016 15:27",
+		"testExpressionGrammarDirect" : "JanKurs 8/25/2016 17:12",
+		"testExpressionParser" : "JanKurs 8/25/2016 16:40",
+		"testSmalltalkGrammar" : "JanKurs 8/26/2016 10:04",
+		"testSmalltalkGrammarDirect" : "JanKurs 8/26/2016 10:23",
+		"testSmalltalkParser" : "JanKurs 8/26/2016 10:04" } }

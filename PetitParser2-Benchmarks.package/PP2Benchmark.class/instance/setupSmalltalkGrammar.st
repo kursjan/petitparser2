@@ -1,4 +1,4 @@
 benchmarks - smalltalk
 setupSmalltalkGrammar
-	self setup: PPSmalltalkGrammar sources: 'smalltalk'.
-	self parser name: 'Smalltalk Grammar'
+	self setup: PP2SmalltalkGrammar sources: 'smalltalk'.
+	self parser name: 'Smalltalk Grammar (Interpreted)'

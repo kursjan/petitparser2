@@ -14,7 +14,8 @@
 		"resources",
 		"sourcesSize",
 		"properties",
-		"contextClass" ],
+		"contextClass",
+		"selector" ],
 	"name" : "PP2Benchmark",
 	"pools" : [
 		 ],

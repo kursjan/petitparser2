@@ -8,7 +8,8 @@ assert: aParser fail: aCollection end: anInteger
 	context := self context.
 	
 	
-	result := aParser parse: stream withContext: context.
+	result := aParser perform: self parseSelector withArguments: { stream . context }.
+	
 	self 
 		assert: result isPetit2Failure
 		description: 'Parser did not fail'.

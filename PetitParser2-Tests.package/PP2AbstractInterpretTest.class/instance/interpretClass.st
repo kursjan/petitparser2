@@ -1,3 +1,0 @@
-utilities
-interpretClass
-	self subclassResponsibility

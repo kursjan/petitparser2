@@ -10,5 +10,5 @@
 	"name" : "PP2PetitParserCompatibilityTest",
 	"pools" : [
 		 ],
-	"super" : "PP2AbstractInterpretTest",
+	"super" : "PP2AbstractParserTest",
 	"type" : "normal" }

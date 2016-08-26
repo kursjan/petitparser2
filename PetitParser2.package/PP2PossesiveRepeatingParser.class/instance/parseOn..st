@@ -1,6 +1,6 @@
 as yet unclassified
 parseOn: startContext
-	| context elements index  |
+	| currentContext elements index  previousContext |
 	elements := OrderedCollection new.
 	"
 		JK: Use index to allow for continuations. When the context is restored from the continuation,
@@ -8,21 +8,22 @@ parseOn: startContext
 		and manage the collection elements on our own.
 	"
 	index := 1.
-	context := startContext.
+	currentContext := startContext.
 	
 	[ index <= min ] whileTrue: [
-		(context := parser parseWithContext:  context) isPetit2Failure 
-			ifTrue: [ ^ context ].
-		elements at: index ifAbsentPut: context value.
+		(currentContext := parser parseWithContext:  currentContext) isPetit2Failure 
+			ifTrue: [ ^ currentContext ].
+		elements at: index ifAbsentPut: currentContext value.
 		index := index + 1.
 	].
 
 	[ index <= max ] whileTrue: [
-	 	(context := parser parseWithContext:  context) isPetit2Failure
-			ifTrue: [ ^ context success: (elements copyFrom: 1 to: (index - 1)) asArray ].
+		previousContext := currentContext.
+	 	(currentContext := parser parseWithContext:  currentContext) isPetit2Failure
+			ifTrue: [ ^ previousContext success: (elements copyFrom: 1 to: (index - 1)) asArray ].
 		
-		elements at: index ifAbsentPut: context value.
+		elements at: index ifAbsentPut: currentContext value.
 		index := index + 1.
 	].
 
-	^ context success: (elements copyFrom: 1 to: index - 1) asArray
+	^ currentContext success: (elements copyFrom: 1 to: index - 1) asArray

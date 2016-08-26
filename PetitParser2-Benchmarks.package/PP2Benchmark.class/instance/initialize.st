@@ -6,4 +6,6 @@ initialize
 	contextClass := PP2Success.
 	preferredRepetitions := 1.
 	report := PP2BenchmarkReport new.
-	sourcesSize := 'Benchmarking'
+	sourcesSize := 'Benchmarking'.
+	
+	selector := #'parse:withContext:'

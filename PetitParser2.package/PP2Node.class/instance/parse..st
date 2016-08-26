@@ -1,3 +1,3 @@
 parsing
 parse: input
-	^ self parse: input withContext: PP2Success new.
+	^ self parseInterpreted: input withContext: PP2Success new.

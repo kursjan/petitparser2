@@ -5,4 +5,4 @@ parseOn: aPP2Context
 	context := parser parseWithContext:  aPP2Context.
 	context isPetit2Failure ifTrue: [ ^ context ].
 	
-	^ context copyFrom: (aPP2Context position) to: context position - 1
+	^ context copyFrom: (aPP2Context position + 1) to: context position

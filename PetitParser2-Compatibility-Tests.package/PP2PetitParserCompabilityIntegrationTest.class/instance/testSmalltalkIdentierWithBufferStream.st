@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testSmalltalkIdentierWithBufferStream
 	| parser stream result |
 	parser := PPSmalltalkGrammar new identifierToken asPetit2Parser.
