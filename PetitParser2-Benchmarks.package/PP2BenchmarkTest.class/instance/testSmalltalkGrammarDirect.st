@@ -6,5 +6,7 @@ testSmalltalkGrammarDirect
 
 	self assert: (bench parser isKindOf: PP2SmalltalkGrammar).
 	input := bench input.
+	context := bench context.
+	selector := bench selector.
 
-	self assert: (bench parser end parse: input first) isPetit2Failure not.
+	self assert: (bench parser end perform: selector withArguments: {input first . context }) isPetit2Failure not.

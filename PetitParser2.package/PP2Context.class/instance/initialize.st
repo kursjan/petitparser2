@@ -1,4 +1,3 @@
 initialization
 initialize
-	"nothing to do"
-	super initialize 
+	super initialize

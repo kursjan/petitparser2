@@ -4,10 +4,7 @@ testUpTo2
 
 	self assert: context position equals: 0.
 		
-	newContext := context upTo: $r.
+	retval := context upTo: $r.
 
-	self deny: newContext == context.
-	self assert: context position equals: 0.
-	self assert: newContext position equals: 6.
-	
-	self assert: newContext value = 'foobar'.
+	self assert: context position equals: 6.
+	self assert: retval equals: 'foobar'.

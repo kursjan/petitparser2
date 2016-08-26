@@ -1,7 +1,12 @@
 visiting
 visitAnd: parser
-	| startContext |
-	startContext := currentContext.
-	^ (self visit: parser child) isPetit2Failure
-		ifFalse: [ startContext success: currentContext value ]
-		ifTrue: [ startContext failure: currentContext message ]
+	| retval memento |
+	memento := currentContext remember.
+	
+	retval := self visit: parser child. 
+	currentContext restore: memento.
+	
+	^ retval isPetit2Success
+		ifTrue: [ retval ]
+		ifFalse: [ PP2Failure message: retval message context: currentContext ]
+		

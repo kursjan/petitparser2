@@ -1,3 +1,3 @@
 visiting
 visitFailing: parser
-	^ currentContext failure: parser message
+	^ PP2Failure message: parser message context: currentContext

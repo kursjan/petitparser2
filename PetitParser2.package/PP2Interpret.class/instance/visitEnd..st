@@ -1,6 +1,14 @@
 visiting
 visitEnd: parser
-	self visit: parser child.
-	currentContext atEnd 
-		ifTrue: [ ^ currentContext ]
-		ifFalse: [ ^ currentContext failure: 'end of input expected' ]
+	| memento retval |
+	
+	memento := currentContext remember.
+	retval := self visit: parser child.
+
+	^ currentContext atEnd 
+		ifTrue: [ retval ] 
+		ifFalse: [ 
+			retval := PP2Failure message: 'end of input expected' context: currentContext.
+			currentContext restore: memento.
+			^ retval
+		]

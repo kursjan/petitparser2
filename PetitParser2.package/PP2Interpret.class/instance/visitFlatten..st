@@ -1,7 +1,7 @@
 visiting
 visitFlatten: parser
-	| start |
+	| start result |
 	start := currentContext position.
-	(self visit: parser child) isPetit2Failure ifTrue: [ ^ currentContext ].
+	(result := self visit: parser child) isPetit2Failure ifTrue: [ ^ result ].
 
 	^ currentContext copyFrom: start + 1 to: (currentContext position)

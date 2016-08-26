@@ -1,6 +1,6 @@
 testing - expressions
 testExpressionParser
-	| parser bench result |
+	| parser bench result input |
 	bench := PP2Benchmark new setupExpressionParser.
 	parser := bench parser.
 	
@@ -10,4 +10,8 @@ testExpressionParser
 	self assert: result value size = 3.
 	self assert: result value first equals: 1.
 
-	self assert: (parser end parse: bench input anyOne) isPetit2Failure not.
+	input := bench input.
+	context := bench context.
+	selector := bench selector.
+
+	self assert: (bench parser end perform: selector withArguments: {input first . context }) isPetit2Failure not.

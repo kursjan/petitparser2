@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"position",
 		"message" ],
 	"name" : "PP2Failure",
 	"pools" : [
 		 ],
-	"super" : "PP2Context",
+	"super" : "Object",
 	"type" : "normal" }

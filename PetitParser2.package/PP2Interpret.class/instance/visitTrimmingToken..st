@@ -1,12 +1,14 @@
 visiting
 visitTrimmingToken: parser
-	| tokenValue |
-	[ (self visit: parser trimmer) isPetit2Success ] whileTrue.
+	| memento retval |
+	memento := currentContext remember.
+	[ (self visit: parser trimmer) isPetit2Failure ] whileFalse.
 	
-	self discardFailure.
-	(currentContext := self visitToken: parser) isPetit2Failure ifTrue: [ ^ currentContext ].
-	tokenValue := currentContext retval.
+	(retval := self visitToken: parser) isPetit2Failure ifTrue: [ 
+		currentContext restore: memento.
+		^ retval
+	].
 	
-	[ (self visit: parser trimmer) isPetit2Success ] whileTrue.
+	[ (self visit: parser trimmer) isPetit2Failure ] whileFalse.
 
-	^ currentContext success: tokenValue
+	^ retval

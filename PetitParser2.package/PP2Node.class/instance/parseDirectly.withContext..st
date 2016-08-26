@@ -1,7 +1,13 @@
 parsing
-parseDirectly: input withContext: startContext
+parseDirectly: input withContext: context
+	| retval startContext |
+	
+	startContext := context asImmutableContext.
 	startContext stream: input asPetit2Stream.
 	startContext position: 0.
 	startContext parser: self.
 	
-	^ self parseOn: startContext
+	retval := self parseOn: startContext.
+	retval startContext: startContext.
+	
+	^ retval

@@ -6,8 +6,10 @@ testSmalltalkParser
 
 	self assert: (bench parser isKindOf: PP2SmalltalkParser).
 	input := bench input.
+	context := bench context.
+	selector := bench selector.
 
-	result := bench parser end parse: input first.
+	self assert: (result := bench parser end perform: selector withArguments: {input first . context }) isPetit2Failure not.
 	self assert: result isPetit2Failure not.
 	self assert: result value isMethod.
 	

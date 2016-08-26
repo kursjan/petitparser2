@@ -1,6 +1,6 @@
 testing - expressions
 testExpressionGrammar
-	| parser bench result |
+	| parser bench result input |
 	bench := PP2Benchmark new setupExpressionGrammar.
 	parser := bench parser.
 	
@@ -9,5 +9,9 @@ testExpressionGrammar
 	result := parser end parse: '1 + (2 * 3)'.
 	self assert: result value size = 3.
 	self assert: result value first equals: '1'.
+	
+	input := bench input.
+	context := bench context.
+	selector := bench selector.
 
-	self assert: (parser end parse: bench input anyOne) isPetit2Failure not.
+	self assert: (bench parser end perform: selector withArguments: {input first . context }) isPetit2Failure not.

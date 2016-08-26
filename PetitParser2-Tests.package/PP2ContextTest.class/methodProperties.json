@@ -2,15 +2,16 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testAsPetit2Context" : "JanKurs 2/28/2016 15:59",
-		"testAsPositionableStream" : "JanKurs 8/26/2016 09:35",
-		"testAtEnd" : "JanKurs 2/28/2016 16:03",
-		"testCopy" : "JanKurs 8/12/2016 20:34",
-		"testNext" : "JanKurs 4/2/2016 11:13",
-		"testSetPosition" : "JanKurs 8/12/2016 20:35",
-		"testSuccess" : "JanKurs 10/2/2015 18:51",
-		"testUncheckedPeek" : "JanKurs 2/28/2016 16:16",
-		"testUpTo" : "JanKurs 8/26/2016 09:27",
-		"testUpTo2" : "JanKurs 8/26/2016 09:28",
-		"testUpTo3" : "JanKurs 8/26/2016 09:31",
-		"testUpToEnd" : "JanKurs 8/26/2016 10:16" } }
+		"testAsPetit2Context" : "JanKurs 8/26/2016 20:38",
+		"testAsPositionableStream" : "JanKurs 8/26/2016 20:37",
+		"testAtEnd" : "JanKurs 8/26/2016 21:10",
+		"testCopy" : "JanKurs 8/26/2016 20:37",
+		"testNext" : "JanKurs 8/26/2016 21:10",
+		"testSetPosition" : "JanKurs 8/26/2016 20:37",
+		"testSuccess" : "JanKurs 8/26/2016 20:37",
+		"testUncheckedNext" : "JanKurs 8/26/2016 22:21",
+		"testUncheckedPeek" : "JanKurs 8/26/2016 20:37",
+		"testUpTo" : "JanKurs 8/26/2016 21:13",
+		"testUpTo2" : "JanKurs 8/26/2016 21:13",
+		"testUpTo3" : "JanKurs 8/26/2016 21:13",
+		"testUpToEnd" : "JanKurs 8/26/2016 21:13" } }

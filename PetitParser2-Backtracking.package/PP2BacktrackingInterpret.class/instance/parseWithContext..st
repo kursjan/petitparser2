@@ -1,8 +1,11 @@
 parsing
 parseWithContext: context
-	context continuationStack: Stack new.
+	| startContext |
+	startContext := context asImmutableContext.
 	
-	super parseWithContext: context.
+	startContext continuationStack: Stack new.
+	
+	super parseWithContext: startContext.
 	
 	currentContext isPetit2Failure ifTrue: [ self backtrackIfPossible  ].
 	^ currentContext

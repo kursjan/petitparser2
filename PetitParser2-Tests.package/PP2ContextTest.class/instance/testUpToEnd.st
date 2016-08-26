@@ -4,11 +4,8 @@ testUpToEnd
 
 	self assert: context position equals: 0.
 		
-	newContext := context upToEnd.
+	retval := context upToEnd.
 
-	self deny: newContext == context.
-	self assert: context position equals: 0.
-	self assert: newContext position equals: 6.
-	
-	self assert: newContext value = 'foobar'.
+	self assert: context position equals: 6.
+	self assert: retval equals: 'foobar'.
 	

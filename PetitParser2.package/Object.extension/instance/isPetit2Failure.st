@@ -1,3 +1,3 @@
-*petitparser2
+*PetitParser2
 isPetit2Failure
 	^ false

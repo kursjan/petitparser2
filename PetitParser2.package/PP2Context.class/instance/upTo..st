@@ -1,10 +1,7 @@
 stream mimicry
 upTo: character
-	| start end |
-
+	| start |
 	start := position + 1.
-	end := stream indexOf: character startingAt: start.
+	position := stream indexOf: character startingAt: start.
 
-	^ (self setPosition: end)
-		retval: (stream copyFrom: start to: end);
-		yourself
+	^ stream copyFrom: start to: position

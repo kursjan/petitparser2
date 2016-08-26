@@ -1,21 +1,23 @@
 visiting
 visitPossesiveRepeating: parser
-	| context elements |
+	| memento elements retval |
 	elements := OrderedCollection new.
+	memento := currentContext remember.
 	
 	[ elements size < parser min ] whileTrue: [
-		(self visit: parser child) isPetit2Failure ifTrue: [
-			^ currentContext failure: 'not enough repetitons' 
+		(retval := self visit: parser child) isPetit2Failure ifTrue: [
+			currentContext restore: memento.
+			"^ PP2Failure message: 'not enough repetitions' context: currentContext."
+			^ retval
 		].
-		elements addLast: currentContext value 
+		elements addLast: retval 
 	].
 	
 	[ elements size < parser max ] whileTrue: [
-		context := currentContext.
-	 	(self visit: parser child) isPetit2Failure ifTrue: [ 
-			^ context success: elements asArray 
+	 	(retval := self visit: parser child) isPetit2Failure ifTrue: [ 
+			^ elements asArray 
 		].
-		elements addLast: currentContext value 
+		elements addLast: retval 
 	].
 
-	^ currentContext success: elements asArray
+	^ elements asArray

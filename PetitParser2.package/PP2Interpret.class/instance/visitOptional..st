@@ -1,7 +1,8 @@
 visiting
 visitOptional: parser
-	| context |
-	context := currentContext.
-	^ (self visit: parser child) isPetit2Failure 
-		ifTrue: [ context success: nil ]
-		ifFalse: [ currentContext ]
+	| retval memento |
+	memento := currentContext remember.
+	
+	^ (retval := self visit: parser child) isPetit2Failure 
+		ifTrue: [ currentContext restore: memento. nil ]
+		ifFalse: [ retval ]

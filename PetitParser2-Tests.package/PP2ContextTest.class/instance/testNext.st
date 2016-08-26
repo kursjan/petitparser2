@@ -2,13 +2,14 @@ testing
 testNext
 	context := 'foo' asPetit2Stream asPetit2Context.
 	
-	newContext := context next: 3.
-	self assert: newContext isPetit2Success.
-	self assert: newContext retval = 'foo'.
+	retval := context next: 3.
+	self assert: retval isPetit2Success.
+	self assert: retval equals: 'foo'.
 	
-	newContext := newContext next: 1.
-	self assert: newContext retval isNil.
+	retval := context next: 1.
+	self assert: retval isNil.
 	
-	newContext := context next: 3.
-	self assert: newContext isPetit2Success.
-	self assert: newContext retval = 'foo'.
+	context position: 0.
+	retval := context next: 3.
+	self assert: retval isPetit2Success.
+	self assert: retval = 'foo'.

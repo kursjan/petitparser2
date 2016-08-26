@@ -2,6 +2,5 @@
 	"class" : {
 		 },
 	"instance" : {
-		"parse:withParser:withContext:" : "JanKurs 8/26/2016 13:24",
-		"testParse" : "JanKurs 8/26/2016 11:40",
-		"testParseWithContext" : "JanKurs 8/26/2016 11:40" } }
+		"context" : "JanKurs 8/26/2016 20:20",
+		"parse:withParser:withContext:" : "JanKurs 8/26/2016 20:03" } }

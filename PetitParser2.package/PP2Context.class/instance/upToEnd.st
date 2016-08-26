@@ -1,9 +1,7 @@
 stream mimicry
 upToEnd
-	| start end |
-	end := start := position + 1.
+	| start |
+	start := position.
 	
-	[ stream atEnd: end ] whileFalse: [ end := end + 1 ].
-	^ (self setPosition: end)
-		retval: (stream copyFrom: start to: end);
-		yourself.
+	[ stream atEnd: position ] whileFalse: [ position := position + 1 ].
+	^ stream copyFrom: start + 1 to: position

@@ -1,6 +1,3 @@
-accessing - private
-stream: anObject
-	"
-		JK: Perhaps, should be called pp2Stream:
-	"
-	stream := anObject
+accessing
+stream: aStream
+	stream := aStream

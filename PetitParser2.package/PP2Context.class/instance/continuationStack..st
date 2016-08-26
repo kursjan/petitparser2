@@ -1,3 +1,3 @@
-accessing - private
-continuationStack: aStack
-	continuationStack := aStack
+accessing
+continuationStack: anObject
+	continuationStack := anObject

@@ -5,8 +5,8 @@ visitSmalltalkWhitespace: node
 	].
 		
 	(currentContext atEnd not and: [ currentContext uncheckedPeek = $" ]) ifTrue: [
-		currentContext := currentContext next.
+		currentContext next.
 		^ currentContext upTo: $".
 	].
 
-	^ currentContext failure: 'no whitespace or comment found'
+	^ PP2Failure message: 'no whitespace or comment found' context: currentContext

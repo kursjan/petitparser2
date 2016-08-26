@@ -1,3 +1,4 @@
 stream mimicry
 uncheckedNext
-	self next
+	position := position + 1.
+	^ stream atPosition: position

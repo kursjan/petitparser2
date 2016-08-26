@@ -1,8 +1,12 @@
 visiting
 visitPredicateSequence: parser
-	| context |
-	context := currentContext next: parser size.
+	| retval position |
+	position := currentContext position.
+	retval := currentContext next: parser size.
 	
-	^ (context value isNil not and: [ parser predicate value: context value]) 
-		ifTrue: [ context ]
-		ifFalse: [ currentContext failure: parser predicateMessage ]
+	^ (retval isNil not and: [ parser predicate value: retval ]) 
+		ifTrue: [ retval ]
+		ifFalse: [ 
+			currentContext position: position.
+			PP2Failure message: parser predicateMessage context: currentContext 
+		]

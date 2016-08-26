@@ -2,7 +2,7 @@ test
 testBlock
 	| parser |
 	parser := [ :ctx | 
-		self assert: (ctx isKindOf: PP2Context).
+		self assert: (ctx isPetit2Context).
 		ctx next 
 	] asParser2.
 	

@@ -1,3 +1,3 @@
-accessing - private
-position: anObject
-	position := anObject
+accessing
+position: anInteger
+	^ position := anInteger

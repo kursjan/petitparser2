@@ -11,5 +11,5 @@
 	"name" : "PP2DebuggingInterpret",
 	"pools" : [
 		 ],
-	"super" : "PP2Interpret",
+	"super" : "PP2ImmutableInterpret",
 	"type" : "normal" }

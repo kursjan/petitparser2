@@ -1,11 +1,17 @@
 visiting
 visitSequence: parser
-	| elements |
+	| retval elements memento |
 
+	memento := currentContext remember.
 	elements := Array new: parser children size.
-	1 to: elements size do: [ :index |
-		self visit: (parser childAt: index).
-		currentContext isPetit2Failure ifTrue: [ ^ currentContext ].
-		elements at: index put: currentContext value ].
 	
-	^ currentContext retval: elements
+	1 to: elements size do: [ :index |
+		retval := self visit: (parser childAt: index).
+		retval isPetit2Failure ifTrue: [ 
+			currentContext restore: memento. 
+			^ retval
+		].
+		elements at: index put: retval 
+	].
+	
+	^ elements

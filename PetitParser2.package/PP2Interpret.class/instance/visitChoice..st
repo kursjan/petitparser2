@@ -1,10 +1,9 @@
 visiting
 visitChoice: parser
-	| startContext |
-	startContext := currentContext.
+	| retval |
 	
 	1 to: parser parsers size do: [ :index |
-		currentContext := startContext.
-		(self visit: (parser childAt: index)) isPetit2Failure ifFalse: [ ^ currentContext ] 
+		(retval := self visit: (parser childAt: index)) isPetit2Success ifTrue: [ ^ retval ] 
 	].
-	^ currentContext
+	
+	^ retval
