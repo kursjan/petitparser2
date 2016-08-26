@@ -1,0 +1,14 @@
+{
+	"category" : "PetitParser2-Examples",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PP2ExpressionParser",
+	"pools" : [
+		 ],
+	"super" : "PP2ExpressionGrammar",
+	"type" : "normal" }
