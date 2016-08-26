@@ -6,7 +6,7 @@ assert: aParser parse: aCollection to: aTargetObject end: anInteger
 	stream := aCollection asPetit2Stream.
 	context := self context.
 	
-	result := aParser perform: self parseSelector withArguments: { stream . context }.
+	result := self parse: stream withParser: aParser withContext: context.
 	
 	aTargetObject isNil
 		ifTrue: [ self deny: result isPetit2Failure ]

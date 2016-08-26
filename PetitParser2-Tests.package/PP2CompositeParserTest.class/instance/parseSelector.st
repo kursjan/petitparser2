@@ -1,3 +1,0 @@
-accessing
-parseSelector
-	^ #parse:withContext:

@@ -4,7 +4,7 @@ parse: aString rule: aSymbol to: expectedResult end: end checkResult: aBoolean
 	production := self parserInstanceFor: aSymbol.
 	context := self context.
 	
-	resultContext := production perform: self parseSelector withArguments: { aString . context }.
+	resultContext := self parse: aString withParser: production withContext: context.
 	result := resultContext value.
 	
 	self

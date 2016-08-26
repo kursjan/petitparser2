@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"parseSelector" : "JanKurs 8/26/2016 11:36",
+		"parse:withParser:withContext:" : "JanKurs 8/26/2016 13:24",
 		"testHasProperty" : "JanKurs 4/3/2016 17:39",
 		"testPropertyAt" : "JanKurs 4/3/2016 17:39",
 		"testPropertyAtIfAbsent" : "JanKurs 4/3/2016 17:39",
