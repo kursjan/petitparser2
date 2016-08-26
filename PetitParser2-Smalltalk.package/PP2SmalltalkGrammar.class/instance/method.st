@@ -1,0 +1,3 @@
+grammar
+method
+	^ methodDeclaration , methodSequence

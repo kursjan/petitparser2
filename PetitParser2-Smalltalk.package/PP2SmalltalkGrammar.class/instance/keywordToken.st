@@ -1,0 +1,3 @@
+token
+keywordToken
+	^ keyword smalltalkToken

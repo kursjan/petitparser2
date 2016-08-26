@@ -1,0 +1,3 @@
+grammar-literals
+trueLiteral
+	^ trueToken

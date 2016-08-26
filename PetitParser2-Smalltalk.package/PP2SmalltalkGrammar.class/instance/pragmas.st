@@ -1,0 +1,3 @@
+grammar
+pragmas
+	^ pragma star

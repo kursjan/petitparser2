@@ -1,0 +1,3 @@
+token
+binaryToken
+	^ binary smalltalkToken

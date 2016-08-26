@@ -1,0 +1,3 @@
+token
+periodToken
+	^ period smalltalkToken

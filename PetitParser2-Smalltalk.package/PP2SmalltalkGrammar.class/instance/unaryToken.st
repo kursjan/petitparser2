@@ -1,0 +1,3 @@
+token
+unaryToken
+	^ unary smalltalkToken
