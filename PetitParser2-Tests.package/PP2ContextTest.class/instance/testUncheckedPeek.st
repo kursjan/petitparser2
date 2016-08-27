@@ -1,6 +1,6 @@
 testing
 testUncheckedPeek
-	context := PP2ImmutableContext new
+	context := PP2Context new
  		position: 0;
 		stream: 'foo' asPetit2Stream;
 		yourself.

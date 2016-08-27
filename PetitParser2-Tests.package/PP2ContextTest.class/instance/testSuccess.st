@@ -1,6 +1,6 @@
 testing
 testSuccess
-	context := PP2ImmutableSuccess new
+	context := PP2Context new
 		position: 1;
 		stream: 'bar' asPetit2Stream;
 		retval: #foo;

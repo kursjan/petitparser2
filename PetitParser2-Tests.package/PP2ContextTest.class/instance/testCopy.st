@@ -1,6 +1,7 @@
 testing
 testCopy
-	context := PP2ImmutableContext new
+	| newContext |
+	context := PP2Context new
  		position: #postion;
 		stream: #stream;
 		parser: #parser;

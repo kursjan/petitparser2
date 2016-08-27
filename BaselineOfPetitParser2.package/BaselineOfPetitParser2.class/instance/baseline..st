@@ -18,7 +18,7 @@ baseline: spec
 			package: 'PetitParser2-Validation' with: [ spec requires: #('PetitParser2') ];
 			package: 'PetitParser2-Validation-Tests' with: [ spec requires: #('PetitParser2-Validation' 'PetitParser2-Tests') ];
 			package: 'PetitParser2-Compatibility' with: [ spec requires: #('PetitParser' 'PetitParser2' 'PetitParser2-Validation') ];
-			package: 'PetitParser2-Compatibility-Tests' with: [ spec requires: #('PetitParser2-Validation-Tests') ];
+			package: 'PetitParser2-Compatibility-Tests' with: [ spec requires: #('PetitParser2-Validation-Tests' 'PetitParser-Compatibility') ];
 
 			project: 'PetitParser' with: [
 				spec
@@ -53,7 +53,8 @@ baseline: spec
 				version: #development;
 				repository: 'http://www.smalltalkhub.com/mc/Moose/Glamour/main' ].
 		spec 
-			package: 'PetitParser2-GUI' with: [ spec requires: #('Glamour' 'PetitParser2')].
+			package: 'PetitParser2-GUI' with: [ spec requires: #('Glamour' 'PetitParser2') ];
+			package: 'PetitParser2-GUI-Tests' with: [ spec requires: #('PetitParser2-GUIl') ].
 		
 		spec group: 'IDE' with: #( 'PetitParser2-GUI' ) 
 	] 

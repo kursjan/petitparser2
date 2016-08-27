@@ -1,7 +1,8 @@
 *PetitParser2-GUI
 enableDebug
    | root newParser  |
-	root := PPParserDebuggerResult new.
+	self flag: 'JK: deprecate or not?'.
+	root := PP2ParserDebuggerResult new.
 	
 	"In order to debug island waters, we need to compute the island water..."
 	self allParsers select: [ :p | p isKindOf: PPSea  ] thenDo: [ :island |
@@ -11,7 +12,7 @@ enableDebug
 	newParser := self transform: [:each |
 		each >=> [:startContext :continuation | 
 			| resultContext child |
-			child := PPParserDebuggerResult new 
+			child := PP2ParserDebuggerResult new 
 					parser: each;
 					parent: root.
 
