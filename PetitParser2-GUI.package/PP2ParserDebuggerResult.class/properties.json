@@ -1,0 +1,21 @@
+{
+	"category" : "PetitParser2-GUI-Debug",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"parser",
+		"result",
+		"children",
+		"parent",
+		"start",
+		"end",
+		"stream",
+		"allChildren" ],
+	"name" : "PP2ParserDebuggerResult",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
