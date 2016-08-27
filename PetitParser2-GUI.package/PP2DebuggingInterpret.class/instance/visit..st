@@ -3,7 +3,7 @@ visit: aPP2Parser
 	| startContext result |
 	startContext := currentContext.
 
-	result := PPParserDebuggerResult new
+	result := PP2ParserDebuggerResult new
 		parser: aPP2Parser;
 		parent: currentResult;
 		start: currentContext position + 1;
