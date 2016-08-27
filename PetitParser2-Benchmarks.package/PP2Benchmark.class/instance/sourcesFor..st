@@ -1,5 +1,5 @@
 accessing
 sourcesFor: language
-	| selector |
-	selector := (language asString, 'Sources', sourcesSize) asSymbol.	
-	^ resources perform: selector
+	| sourcesSelector |
+	sourcesSelector := (language asString, 'Sources', sourcesSize) asSymbol.	
+	^ resources perform: sourcesSelector

@@ -1,5 +1,5 @@
-parsing
-parseOn: startContext
+parsing - private
+parseWithContext: startContext
 	| currentContext |
 	currentContext := startContext.
 	

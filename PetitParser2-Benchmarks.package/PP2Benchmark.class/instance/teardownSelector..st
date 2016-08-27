@@ -1,7 +1,7 @@
 setup & teardown
-teardownSelector: selector
+teardownSelector: teardownSelector
 	| symbol |
-	symbol := ('teardown', selector) asSymbol.
+	symbol := ('teardown', teardownSelector) asSymbol.
 	
 	(self respondsTo: symbol) ifTrue: [ 
 		self perform: symbol.

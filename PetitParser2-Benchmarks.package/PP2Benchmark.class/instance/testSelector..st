@@ -1,3 +1,3 @@
 running
-testSelector: selector
-	self testClass new perform: ('test', selector) asSymbol.
+testSelector: testSelector
+	self testClass new perform: ('test', testSelector) asSymbol.

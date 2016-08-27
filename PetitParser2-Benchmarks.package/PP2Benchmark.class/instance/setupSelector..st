@@ -1,3 +1,3 @@
 running
-setupSelector: selector
-	self perform: ('setup', selector) asSymbol.
+setupSelector: setupSelector
+	self perform: ('setup', setupSelector) asSymbol.

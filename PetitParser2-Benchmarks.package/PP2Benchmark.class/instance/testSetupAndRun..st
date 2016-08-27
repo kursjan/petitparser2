@@ -1,6 +1,6 @@
 running
-testSetupAndRun: selector
-	self testSelector: selector.
-	self setupSelector: selector.
+testSetupAndRun: runSelector
+	self testSelector: runSelector.
+	self setupSelector: runSelector.
 	self run.
-	self teardownSelector: selector.
+	self teardownSelector: runSelector.

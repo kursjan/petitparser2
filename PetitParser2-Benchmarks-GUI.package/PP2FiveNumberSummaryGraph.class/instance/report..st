@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 report: anObject
 	report := anObject

@@ -1,5 +1,5 @@
 parsing - private
-parseOn: startContext
+parseWithContext: startContext
 	| resultContext |
 	root parser: self.
 	root stream: startContext stream.

@@ -1,4 +1,4 @@
-reporting
+converting
 asString
 	| stream |
 	stream := WriteStream on: ''.

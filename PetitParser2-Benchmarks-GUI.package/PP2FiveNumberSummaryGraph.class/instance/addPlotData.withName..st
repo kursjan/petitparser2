@@ -1,4 +1,4 @@
-as yet unclassified
+adding
 addPlotData: ds withName: name
 	| rtData summary |
 	"To avoid too many crosses nearby, group by hundreds:"

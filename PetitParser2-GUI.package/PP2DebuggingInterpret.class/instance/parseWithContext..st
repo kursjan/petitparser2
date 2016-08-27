@@ -1,4 +1,4 @@
-as yet unclassified
+parsing
 parseWithContext: startContext
 	| stopContext |
 	currentResult := PP2ParserDebuggerResult new

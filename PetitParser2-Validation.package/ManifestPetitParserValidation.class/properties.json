@@ -1,0 +1,14 @@
+{
+	"category" : "PetitParser2-Validation",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "ManifestPetitParserValidation",
+	"pools" : [
+		 ],
+	"super" : "PackageManifest",
+	"type" : "normal" }

@@ -1,4 +1,4 @@
-as yet unclassified
+drawing
 draw
 	| datasets |
 	grapher := RTGrapher new.
