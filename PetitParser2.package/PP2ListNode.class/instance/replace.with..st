@@ -1,4 +1,4 @@
-transformation
+transforming
 replace: aParser with: anotherParser
 	parsers keysAndValuesDo: [ :index :parser |
 		parser == aParser

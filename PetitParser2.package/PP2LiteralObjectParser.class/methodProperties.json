@@ -4,5 +4,6 @@
 	"instance" : {
 		"accept:" : "JanKurs 4/1/2016 16:35",
 		"caseInsensitive" : "JanKurs 10/5/2015 16:20",
+		"initialize" : "JanKurs 8/27/2016 23:36",
 		"negate" : "JanKurs 8/25/2016 17:54",
-		"parseOn:" : "JanKurs 10/2/2015 17:59" } }
+		"parseWithContext:" : "JanKurs 8/27/2016 15:50" } }

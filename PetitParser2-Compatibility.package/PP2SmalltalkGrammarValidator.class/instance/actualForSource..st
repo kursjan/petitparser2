@@ -1,4 +1,4 @@
-as yet unclassified
+validation
 actualForSource: source
 	| result |
 	result := pp2Parser parse: source.

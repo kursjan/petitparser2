@@ -1,3 +1,3 @@
 parsing - private
 parseOn: aPP2Context
-	self subclassResponsibility
+	^ strategy parseOn: aPP2Context 

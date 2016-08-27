@@ -1,0 +1,14 @@
+{
+	"category" : "PetitParser2-Strategies",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PP2End",
+	"pools" : [
+		 ],
+	"super" : "PP2Strategy",
+	"type" : "normal" }

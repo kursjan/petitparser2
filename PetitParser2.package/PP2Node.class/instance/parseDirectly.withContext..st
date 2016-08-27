@@ -7,7 +7,7 @@ parseDirectly: input withContext: context
 	startContext position: 0.
 	startContext parser: self.
 	
-	retval := self parseOn: startContext.
+	retval := self parseWithContext: startContext.
 	retval startContext: startContext.
 	
 	^ retval

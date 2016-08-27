@@ -1,3 +1,3 @@
-stream protocol
+testing
 atEnd
 	^ position == values size

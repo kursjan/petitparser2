@@ -1,10 +1,11 @@
 {
 	"class" : {
-		"message:context:" : "JanKurs 8/26/2016 21:26" },
+		"message:context:" : "JanKurs 8/27/2016 15:58" },
 	"instance" : {
 		"isPetit2Failure" : "JanKurs 8/26/2016 21:24",
 		"isPetit2Success" : "JanKurs 8/26/2016 21:24",
 		"message" : "JanKurs 8/26/2016 21:24",
 		"message:" : "JanKurs 8/26/2016 21:24",
+		"message:position:" : "JanKurs 8/27/2016 15:58",
 		"position" : "JanKurs 8/26/2016 21:24",
 		"position:" : "JanKurs 8/26/2016 21:24" } }
