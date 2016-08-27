@@ -54,7 +54,7 @@ baseline: spec
 				repository: 'http://www.smalltalkhub.com/mc/Moose/Glamour/main' ].
 		spec 
 			package: 'PetitParser2-GUI' with: [ spec requires: #('Glamour' 'PetitParser2') ];
-			package: 'PetitParser2-GUI-Tests' with: [ spec requires: #('PetitParser2-GUIl') ].
+			package: 'PetitParser2-GUI-Tests' with: [ spec requires: #('PetitParser2-GUI') ].
 		
 		spec group: 'IDE' with: #( 'PetitParser2-GUI' ) 
 	] 
