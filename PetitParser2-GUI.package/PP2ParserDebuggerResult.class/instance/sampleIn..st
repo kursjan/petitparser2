@@ -1,4 +1,4 @@
-as yet unclassified
+private building
 sampleIn: composite
 
 	(composite text)

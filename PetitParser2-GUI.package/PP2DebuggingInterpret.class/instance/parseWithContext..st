@@ -1,7 +1,7 @@
 as yet unclassified
 parseWithContext: startContext
 	| stopContext |
-	currentResult := PPParserDebuggerResult new
+	currentResult := PP2ParserDebuggerResult new
 		stream: startContext stream;
 		start: startContext position;
 		yourself.
