@@ -4,4 +4,5 @@ setupSmalltalkGrammarDirect
 	self parser name: 'Smalltalk Grammar (Direct)'.
 	
 	contextClass := PP2ImmutableSuccess.
-	selector := #'parseDirectly:withContext:'
+	selector := #'parseDirectly:withContext:'.
+	preferredRepetitions := 3
