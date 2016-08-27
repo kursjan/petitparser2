@@ -18,7 +18,7 @@ baseline: spec
 			package: 'PetitParser2-Validation' with: [ spec requires: #('PetitParser2') ];
 			package: 'PetitParser2-Validation-Tests' with: [ spec requires: #('PetitParser2-Validation' 'PetitParser2-Tests') ];
 			package: 'PetitParser2-Compatibility' with: [ spec requires: #('PetitParser' 'PetitParser2' 'PetitParser2-Validation') ];
-			package: 'PetitParser2-Compatibility-Tests' with: [ spec requires: #('PetitParser2-Validation-Tests' 'PetitParser-Compatibility') ];
+			package: 'PetitParser2-Compatibility-Tests' with: [ spec requires: #('PetitParser2-Validation-Tests' 'PetitParser2-Compatibility') ];
 
 			project: 'PetitParser' with: [
 				spec
