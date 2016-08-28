@@ -1,3 +1,3 @@
 operators
 , anotherParser
-	^ PP2SequenceParser with: self with: anotherParser
+	^ PP2SequenceNode with: self with: anotherParser

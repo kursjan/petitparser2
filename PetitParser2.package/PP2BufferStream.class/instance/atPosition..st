@@ -6,6 +6,7 @@ atPosition: readPosition
 
 	(readPosition > position) ifTrue: [ 
 		self upToPosition: readPosition.
+		(readPosition > position) ifTrue: [ SubscriptOutOfBounds signal ].
 		^ self last
 	].
 

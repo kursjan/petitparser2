@@ -1,9 +1,10 @@
 {
 	"class" : {
-		"instance" : "JanKurs 8/25/2016 17:51" },
+		"instance" : "JanKurs 8/25/2016 17:51",
+		"reset" : "JanKurs 8/28/2016 14:45" },
 	"instance" : {
 		"accept:" : "JanKurs 8/26/2016 08:16",
-		"initialize" : "JanKurs 8/25/2016 17:34",
+		"initialize" : "JanKurs 8/28/2016 14:43",
 		"isNullable" : "JanKurs 8/25/2016 17:34",
 		"name" : "JanKurs 8/25/2016 17:34",
 		"parseWithContext:" : "JanKurs 8/27/2016 15:51" } }

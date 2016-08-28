@@ -2,8 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"debug:" : "JanKurs 8/26/2016 20:11",
-		"debug:withContext:" : "JanKurs 8/12/2016 13:13",
-		"enableDebug" : "JanKurs 8/27/2016 12:20",
+		"debug:" : "JanKurs 8/28/2016 22:27",
+		"debug:withContext:" : "JanKurs 8/28/2016 22:26",
+		"debugAdaptableWithContext:" : "JanKurs 8/28/2016 22:26",
+		"enableDebug" : "JanKurs 8/28/2016 22:29",
 		"gtProperties:" : "JanKurs 8/26/2016 10:08",
 		"gtTreeViewIn:" : "JanKurs 2/25/2016 22:46" } }

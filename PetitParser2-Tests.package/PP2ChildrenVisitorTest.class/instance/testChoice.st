@@ -1,7 +1,7 @@
-as yet unclassified
+tests
 testChoice
 	parser := $a asParser2 / $b asParser2.
-	children := parser allChildren.
+	children := visitor visit: parser.
 	
 	self assert: children isCollection.
 	self assert: children size = 3.

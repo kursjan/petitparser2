@@ -1,4 +1,5 @@
 visiting
 visitPP2Parser: aPP2Parser
-	self assert: aPP2Parser children isEmpty.
-	^ Array with: aPP2Parser
+	super visitPP2Parser: aPP2Parser.
+	"simply return all the visited nodes"
+	^ closeSet 

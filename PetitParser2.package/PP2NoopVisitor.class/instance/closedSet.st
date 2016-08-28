@@ -1,0 +1,3 @@
+accessing
+closedSet
+	^ closeSet 

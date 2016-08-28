@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testAsPetit2Context" : "JanKurs 8/28/2016 21:23",
+		"testAsPositionableStream" : "JanKurs 8/28/2016 19:20",
+		"testAtEnd" : "JanKurs 8/28/2016 19:20",
+		"testCopy" : "JanKurs 8/28/2016 19:20",
+		"testNext" : "JanKurs 8/28/2016 22:00",
+		"testNext2" : "JanKurs 8/28/2016 22:01",
+		"testSuccess" : "JanKurs 8/28/2016 19:20",
+		"testUncheckedNext" : "JanKurs 8/28/2016 19:20",
+		"testUncheckedPeek" : "JanKurs 8/28/2016 22:16",
+		"testUpTo" : "JanKurs 8/28/2016 22:23",
+		"testUpTo2" : "JanKurs 8/28/2016 19:20",
+		"testUpTo3" : "JanKurs 8/28/2016 19:20",
+		"testUpTo4" : "JanKurs 8/29/2016 00:17",
+		"testUpToEnd" : "JanKurs 8/28/2016 19:20" } }

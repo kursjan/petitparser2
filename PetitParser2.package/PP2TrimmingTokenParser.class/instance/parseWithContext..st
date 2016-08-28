@@ -1,4 +1,4 @@
-parsing
+parsing - private
 parseWithContext: startContext
 	| context tokenContext |
 	

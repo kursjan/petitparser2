@@ -1,6 +1,6 @@
 testing
 testAtEnd
-	context := 'foo' asPetit2Stream asPetit2Context.
+	context := (MinimalStream on: 'foo') asPetit2Stream asPetit2Context.
 	
 	self deny: context atEnd.
 	context next: 3.

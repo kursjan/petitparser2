@@ -10,5 +10,5 @@
 	"name" : "PP2ChildrenVisitor",
 	"pools" : [
 		 ],
-	"super" : "PP2AnalysisVisitor",
+	"super" : "PP2NoopVisitor",
 	"type" : "normal" }

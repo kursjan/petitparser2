@@ -1,0 +1,16 @@
+{
+	"category" : "PetitParser2-Strategies",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"firstChild",
+		"secondChild",
+		"thirdChild" ],
+	"name" : "PP2SequenceOfThree",
+	"pools" : [
+		 ],
+	"super" : "PP2Sequence",
+	"type" : "normal" }

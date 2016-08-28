@@ -1,7 +1,7 @@
-as yet unclassified
+tests
 testWrapping
 	parser := $a asParser2 wrapped.
-	children := parser allChildren.
+	children := visitor visit: parser.
 	
 	self assert: children isCollection.
 	self assert: children size = 2.

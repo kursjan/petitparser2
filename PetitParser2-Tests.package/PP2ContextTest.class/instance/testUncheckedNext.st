@@ -1,6 +1,6 @@
 testing
 testUncheckedNext
-	context := 'foo' asPetit2Stream asPetit2Context.
+	context := (MinimalStream on: 'foo') asPetit2Stream asPetit2Context.
 	
 	self assert: context position equals: 0.
 	

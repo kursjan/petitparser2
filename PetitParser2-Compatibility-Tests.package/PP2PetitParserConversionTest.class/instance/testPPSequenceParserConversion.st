@@ -7,7 +7,7 @@ testPPSequenceParserConversion
 	parser := child1, child2.
 	converted := parser asPetit2Node.
 
-	self assert: (converted isKindOf: PP2SequenceParser).
+	self assert: (converted isKindOf: PP2SequenceNode).
 	self assert: (converted firstChild = child1).
 	self assert: (converted secondChild = child2).	
 	self deny: (converted children == parser children).

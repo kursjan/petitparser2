@@ -1,3 +1,3 @@
 accessing
 position: anInteger
-	^ position := anInteger
+	position := anInteger

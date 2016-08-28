@@ -10,5 +10,5 @@
 	"name" : "PP2MemoizingParser",
 	"pools" : [
 		 ],
-	"super" : "PP2DelegateParser",
+	"super" : "PP2DelegateNode",
 	"type" : "normal" }

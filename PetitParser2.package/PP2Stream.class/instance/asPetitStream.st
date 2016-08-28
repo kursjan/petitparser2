@@ -1,3 +1,3 @@
-*petitparser2-compatibility
+as yet unclassified
 asPetitStream
 	^ collection asPetitStream

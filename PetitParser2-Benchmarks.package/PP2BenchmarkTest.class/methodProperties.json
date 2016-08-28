@@ -6,6 +6,8 @@
 		"testExpressionGrammarDirect" : "JanKurs 8/26/2016 23:08",
 		"testExpressionParser" : "JanKurs 8/26/2016 23:07",
 		"testSmalltalkGrammar" : "JanKurs 8/26/2016 23:07",
-		"testSmalltalkGrammarDirect" : "JanKurs 8/26/2016 23:05",
-		"testSmalltalkGrammarIC" : "JanKurs 8/27/2016 09:24",
+		"testSmalltalkGrammarDI" : "JanKurs 8/28/2016 14:50",
+		"testSmalltalkGrammarII" : "JanKurs 8/28/2016 14:50",
+		"testSmalltalkGrammarIM" : "JanKurs 8/28/2016 14:50",
+		"testSmalltalkGrammarNoOpt" : "JanKurs 8/28/2016 18:48",
 		"testSmalltalkParser" : "JanKurs 8/26/2016 23:10" } }

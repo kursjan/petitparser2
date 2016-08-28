@@ -2,7 +2,12 @@ testing
 testCompleteness
 	"This test asserts that all subclasses override all test methods."
 	
-	(self class allSubclasses reject: [:subclass | subclass name endsWith: '_Direct' ]) do: [ :subclass |
+	| subclasses |
+	subclasses := self class allSubclasses.
+	
+	subclasses := (subclasses reject: [:subclass | subclass name endsWith: '_Direct' ]).
+	subclasses := (subclasses reject: [:subclass | subclass name endsWith: '_InMemoryCtx' ]).
+	subclasses do: [ :subclass |
 		self class testSelectors do: [ :selector |
 			self 
 				assert: (selector = #testCompleteness or: [ subclass selectors includes: selector ])

@@ -1,7 +1,7 @@
-as yet unclassified
+tests
 testTokenTrimParser
 	parser := $a asParser2 token trim.
-	children := parser allChildren.
+	children := visitor visit: parser.
 	
 	self assert: children isCollection.
 	self assert: children size = 2.

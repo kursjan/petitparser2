@@ -1,7 +1,7 @@
-as yet unclassified
+tests
 testTokenParser
 	parser := $a asParser2 token.
-	children := parser allChildren.
+	children := visitor visit: parser.
 	
 	self assert: children isCollection.
 	self assert: children size = 2.

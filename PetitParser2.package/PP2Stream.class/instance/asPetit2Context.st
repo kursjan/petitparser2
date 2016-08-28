@@ -1,3 +1,3 @@
 converting
 asPetit2Context
-	^ PP2Context on: self	
+	^ PP2InMemoryContext on: self	collection

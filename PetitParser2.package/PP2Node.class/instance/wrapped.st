@@ -1,3 +1,3 @@
 operators
 wrapped
-	^ PP2DelegateParser on: self
+	^ PP2DelegateNode on: self
