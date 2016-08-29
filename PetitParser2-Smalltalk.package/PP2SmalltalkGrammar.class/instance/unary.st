@@ -1,3 +1,3 @@
 primitives
 unary
-	^ identifier , $: asParser2 not
+	^ self identifier , $: asParser2 not

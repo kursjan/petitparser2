@@ -4,7 +4,7 @@ setupSmalltalkGrammar
 	self parser name: 'Smalltalk Grammar (Adapatable)'.
 	self parser optimize.
 	
-	contextClass := PP2Context.
+	contextClass := PP2InMemoryContext.
 	selector := #'parseAdaptable:withContext:'.
 	preferredRepetitions := 3.
 	

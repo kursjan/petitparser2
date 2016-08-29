@@ -7,7 +7,7 @@ testVisitCycle
 	
 	result := visitor visit: parser.
 	
-	self assert: result equals: #().
+	self assert: result equals: visitor.
 	
 	self assert: (visitor closedSet includes: parser). 
 	self assert: (visitor closedSet includes: delegate). 

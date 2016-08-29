@@ -1,0 +1,14 @@
+{
+	"category" : "PetitParser2-Strategies",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"character" ],
+	"name" : "PP2OptionalLiteralObject",
+	"pools" : [
+		 ],
+	"super" : "PP2Optional",
+	"type" : "normal" }

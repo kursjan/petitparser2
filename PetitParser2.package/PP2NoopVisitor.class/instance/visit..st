@@ -2,11 +2,11 @@ visiting
 visit: aPP2Parser
 	| result |
 	(self isOpened: aPP2Parser) ifTrue: [  
-		self parserOpened: aPP2Parser.
+		self nodeOpened: aPP2Parser.
 	].
 
 	(self isClosed: aPP2Parser) ifTrue: [ 
-		self parserClosed: aPP2Parser.
+		self nodeClosed: aPP2Parser.
 	].
 
 	(self isOpened: aPP2Parser) ifTrue: [

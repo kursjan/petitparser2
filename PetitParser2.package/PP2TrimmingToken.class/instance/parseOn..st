@@ -2,7 +2,7 @@ parsing
 parseOn: aPP2Context
 	| position retval start |
 	position := aPP2Context position.
-	[ (node trimmer parseOn: aPP2Context) isPetit2Failure ] whileFalse.
+	[ (node trimmer parseOn: aPP2Context) isPetit2Success ] whileTrue.
 	
 	start := aPP2Context position.
 	(retval := node child parseOn: aPP2Context) isPetit2Failure ifTrue: [ 
@@ -11,6 +11,6 @@ parseOn: aPP2Context
 	].
 	retval := aPP2Context newToken: (node tokenClass) from: start.
 	
-	[ (node trimmer parseOn: aPP2Context) isPetit2Failure ] whileFalse.
+	[ (node trimmer parseOn: aPP2Context) isPetit2Success ] whileTrue.
 
 	^ retval

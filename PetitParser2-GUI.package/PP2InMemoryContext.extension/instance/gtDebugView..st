@@ -3,6 +3,8 @@ gtDebugView: composite
 	<gtInspectorPresentationOrder: 40>
 
 	| browser |
+	(self hasGlobal: #debugResult) ifFalse: [ ^ self ].
+	
 	browser := 
 		composite tabulator.
 

@@ -1,4 +1,5 @@
 optimizations
 optimize
-	PP2OptimizingVisitor new visit: self.
-	
+	PP2ParentAnalysisVisitor new visit:self.
+	PP2SpecializingVisitor new visit: self.
+	PP2RecognizerVisitor 	new visit: self.

@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"isOptionalCharacter:" : "JanKurs 8/29/2016 17:47",
+		"isPlusPredicateObject:" : "JanKurs 8/29/2016 10:31",
+		"isStar:" : "JanKurs 8/29/2016 10:29",
+		"isStarPredicateObject:" : "JanKurs 8/29/2016 10:30",
+		"visitOptional:" : "JanKurs 8/29/2016 17:48",
+		"visitPossesiveRepeating:" : "JanKurs 8/29/2016 10:32",
+		"visitSequence:" : "JanKurs 8/29/2016 09:45" } }

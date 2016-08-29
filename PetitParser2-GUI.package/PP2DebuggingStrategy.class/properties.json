@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"strategy" ],
+		 ],
 	"name" : "PP2DebuggingStrategy",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "PP2WrappingStrategy",
 	"type" : "normal" }

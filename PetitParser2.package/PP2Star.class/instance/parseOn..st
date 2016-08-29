@@ -1,4 +1,4 @@
-as yet unclassified
+parsing
 parseOn: aPP2Context
 	| elements retval |
 	elements := OrderedCollection new.

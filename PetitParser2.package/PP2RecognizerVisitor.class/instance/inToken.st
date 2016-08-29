@@ -1,0 +1,3 @@
+initialization
+inToken
+	^ inToken top
