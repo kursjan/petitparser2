@@ -1,4 +1,4 @@
 copying
 postCopy
 	super postCopy.
-	parsers := parsers copy
+	children := children copy

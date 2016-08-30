@@ -1,3 +1,3 @@
 *PetitParser2-Compatibility
 petit2Class
-	^ PP2EpsilonParser
+	^ PP2EpsilonNode

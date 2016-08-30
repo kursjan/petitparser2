@@ -1,4 +1,4 @@
 visiting
 visitNot: aPP2Parser
-	^ self visitDelegate: aPP2Parser
+	^ self visitPP2Node: aPP2Parser
 	

@@ -1,0 +1,27 @@
+{
+	"class" : {
+		"new" : "JanKurs 8/30/2016 15:26",
+		"on:" : "JanKurs 8/30/2016 15:27" },
+	"instance" : {
+		"isTerminal:" : "JanKurs 8/30/2016 15:27",
+		"terminalBlock" : "JanKurs 8/30/2016 15:25",
+		"terminalBlock:" : "JanKurs 8/30/2016 15:27",
+		"visitAction:" : "JanKurs 8/30/2016 16:18",
+		"visitAnd:" : "JanKurs 8/30/2016 16:18",
+		"visitChoice:" : "JanKurs 8/30/2016 16:18",
+		"visitDelegate:" : "JanKurs 8/30/2016 16:18",
+		"visitFlatten:" : "JanKurs 8/30/2016 16:18",
+		"visitLiteralObject:" : "JanKurs 8/30/2016 16:18",
+		"visitLiteralSequence:" : "JanKurs 8/30/2016 16:18",
+		"visitNot:" : "JanKurs 8/30/2016 16:18",
+		"visitOptional:" : "JanKurs 8/30/2016 16:30",
+		"visitPP2Node:" : "JanKurs 8/30/2016 15:14",
+		"visitPluggable:" : "JanKurs 8/30/2016 16:18",
+		"visitPossesiveRepeating:" : "JanKurs 8/30/2016 16:27",
+		"visitPredicateObject:" : "JanKurs 8/30/2016 16:18",
+		"visitSequence:" : "JanKurs 8/30/2016 16:17",
+		"visitStartOfLine:" : "JanKurs 8/30/2016 16:17",
+		"visitToken:" : "JanKurs 8/30/2016 16:18",
+		"visitTrimmingToken:" : "JanKurs 8/30/2016 16:21",
+		"visitWrapping:" : "JanKurs 8/30/2016 16:23",
+		"warn:" : "JanKurs 8/30/2016 15:29" } }

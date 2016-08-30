@@ -2,6 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
+		"afterAccept:result:" : "JanKurs 8/30/2016 14:41",
+		"beforeAccept:" : "JanKurs 8/30/2016 14:40",
 		"cacheResult:for:" : "JanKurs 4/1/2016 15:35",
 		"cachedResultFor:" : "JanKurs 4/1/2016 15:36",
 		"close:" : "JanKurs 4/1/2016 16:48",
@@ -15,5 +17,5 @@
 		"open:" : "JanKurs 4/1/2016 16:46",
 		"openSet" : "JanKurs 8/28/2016 17:32",
 		"openedResultFor:" : "JanKurs 8/28/2016 17:29",
-		"visit:" : "JanKurs 8/29/2016 11:04",
+		"visit:" : "JanKurs 8/30/2016 14:41",
 		"visitPP2Node:" : "JanKurs 8/29/2016 10:48" } }

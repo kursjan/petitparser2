@@ -1,5 +1,9 @@
 optimizations
 optimize
-	PP2ParentAnalysisVisitor new visit:self.
-	PP2SpecializingVisitor new visit: self.
-	PP2RecognizerVisitor 	new visit: self.
+	PP2SpecializingVisitor new doPass: self.
+
+	PP2ParentAnalysisVisitor new doPass: self.
+	PP2RecognizerVisitor new doPass: self.
+		
+	PP2FirstSetAnalysis new doPass: self.
+	PP2GuardVisitor new doPass: self.

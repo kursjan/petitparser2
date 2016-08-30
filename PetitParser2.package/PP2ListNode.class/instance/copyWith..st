@@ -1,3 +1,3 @@
 copying
 copyWith: aParser
-	^ self species withAll: (parsers copyWith: aParser)
+	^ self species withAll: (children copyWith: aParser)

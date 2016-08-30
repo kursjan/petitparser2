@@ -1,0 +1,14 @@
+{
+	"category" : "PetitParser2",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "ManifestPetitParser",
+	"pools" : [
+		 ],
+	"super" : "PackageManifest",
+	"type" : "normal" }

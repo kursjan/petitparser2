@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assert:includes:" : "JanKurs 8/30/2016 16:28",
+		"firstSet:" : "JanKurs 8/30/2016 16:24",
+		"testLiteralObject" : "JanKurs 8/30/2016 16:24",
+		"testLiteralSequence" : "JanKurs 8/30/2016 16:25",
+		"testOptional" : "JanKurs 8/30/2016 16:31",
+		"testPlus" : "JanKurs 8/30/2016 16:29",
+		"testPlusOptional" : "JanKurs 8/30/2016 16:31",
+		"testPredicateObject" : "JanKurs 8/30/2016 16:25",
+		"testSequence" : "JanKurs 8/30/2016 16:32",
+		"testStar" : "JanKurs 8/30/2016 16:28",
+		"testStartOfLine" : "JanKurs 8/30/2016 16:31",
+		"testToken" : "JanKurs 8/30/2016 16:26" } }

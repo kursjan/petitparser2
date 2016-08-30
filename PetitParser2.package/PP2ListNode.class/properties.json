@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"parsers" ],
+		"children" ],
 	"name" : "PP2ListNode",
 	"pools" : [
 		 ],

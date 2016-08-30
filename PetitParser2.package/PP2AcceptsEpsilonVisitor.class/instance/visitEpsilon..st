@@ -1,0 +1,3 @@
+visiting
+visitEpsilon: node
+	^ true

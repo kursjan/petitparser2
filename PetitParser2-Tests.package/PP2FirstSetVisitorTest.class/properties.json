@@ -1,0 +1,16 @@
+{
+	"category" : "PetitParser2-Tests-Analysis",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"parser",
+		"visitor",
+		"firstSet" ],
+	"name" : "PP2FirstSetVisitorTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

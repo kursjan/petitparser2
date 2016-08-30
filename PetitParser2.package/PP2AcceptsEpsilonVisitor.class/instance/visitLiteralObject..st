@@ -1,0 +1,3 @@
+visiting
+visitLiteralObject: node
+	^ false

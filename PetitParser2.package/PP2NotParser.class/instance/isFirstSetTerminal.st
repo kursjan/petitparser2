@@ -1,0 +1,3 @@
+analysis - first
+isFirstSetTerminal
+	^ true

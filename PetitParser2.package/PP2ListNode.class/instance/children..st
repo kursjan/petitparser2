@@ -1,3 +1,3 @@
 accessing
 children: newChildren
-	^ parsers := newChildren
+	^ children := newChildren

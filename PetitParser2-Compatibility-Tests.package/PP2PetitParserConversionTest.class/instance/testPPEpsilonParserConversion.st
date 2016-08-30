@@ -5,4 +5,4 @@ testPPEpsilonParserConversion
 	parser := nil asParser.
 	converted := parser asPetit2Node.
 
-	self assert: (converted isKindOf: PP2EpsilonParser).
+	self assert: (converted isKindOf: PP2EpsilonNode).

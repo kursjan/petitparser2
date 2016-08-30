@@ -3,10 +3,10 @@ parseWithContext: startContext
 	| context elements |
 
 	context := startContext.
-	elements := Array new: parsers size.
+	elements := Array new: children size.
 
-	1 to: parsers size do: [ :index |
-		context := (parsers at: index) parseWithContext: context.
+	1 to: children size do: [ :index |
+		context := (children at: index) parseWithContext: context.
 		context isPetit2Failure ifTrue: [ ^ context ].
 		elements at: index put: context value ].
 	

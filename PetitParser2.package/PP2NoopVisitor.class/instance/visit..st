@@ -1,24 +1,26 @@
 visiting
-visit: aPP2Parser
+visit: aPP2Node
 	| result |
-	(self isOpened: aPP2Parser) ifTrue: [  
-		self nodeOpened: aPP2Parser.
+	(self isOpened: aPP2Node) ifTrue: [  
+		self nodeOpened: aPP2Node.
 	].
 
-	(self isClosed: aPP2Parser) ifTrue: [ 
-		self nodeClosed: aPP2Parser.
+	(self isClosed: aPP2Node) ifTrue: [ 
+		self nodeClosed: aPP2Node.
 	].
 
-	(self isOpened: aPP2Parser) ifTrue: [
-		^ self openedResultFor: aPP2Parser
+	(self isOpened: aPP2Node) ifTrue: [
+		^ self openedResultFor: aPP2Node
 	].
 
-	(self isClosed: aPP2Parser) ifTrue: [
-		^ self cachedResultFor: aPP2Parser
+	(self isClosed: aPP2Node) ifTrue: [
+		^ self cachedResultFor: aPP2Node
 	].
 
-	self open: aPP2Parser.
-	result := aPP2Parser accept: self.
-	self cacheResult: result for: aPP2Parser.
-	self close: aPP2Parser.
+	self open: aPP2Node.
+	self beforeAccept: aPP2Node.
+	result := aPP2Node accept: self.
+	self afterAccept: aPP2Node result: result.
+	self cacheResult: result for: aPP2Node.
+	self close: aPP2Node.
 	^ result
