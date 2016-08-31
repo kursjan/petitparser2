@@ -1,0 +1,15 @@
+{
+	"category" : "PetitParser2-Optimizations",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"classification",
+		"failure" ],
+	"name" : "PP2ChoiceAlternativeGuard",
+	"pools" : [
+		 ],
+	"super" : "PP2WrappingStrategy",
+	"type" : "normal" }

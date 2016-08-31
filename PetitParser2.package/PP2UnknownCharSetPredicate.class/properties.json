@@ -1,0 +1,14 @@
+{
+	"category" : "PetitParser2-Tools",
+	"classinstvars" : [
+		"instance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PP2UnknownCharSetPredicate",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

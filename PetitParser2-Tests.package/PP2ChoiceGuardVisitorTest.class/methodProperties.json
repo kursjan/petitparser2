@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assert:at:" : "JanKurs 8/31/2016 09:41",
+		"assert:isKindOf:" : "JanKurs 8/31/2016 10:04",
+		"optimize:" : "JanKurs 8/31/2016 10:03",
+		"reject:at:" : "JanKurs 8/31/2016 09:41",
+		"setUp" : "JanKurs 8/31/2016 09:39",
+		"testChoice" : "JanKurs 8/31/2016 10:10",
+		"testClassificationFor" : "JanKurs 8/31/2016 09:42",
+		"testClassificationFor2" : "JanKurs 8/31/2016 09:46" } }

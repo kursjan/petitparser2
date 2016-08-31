@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assert:value:" : "JanKurs 8/31/2016 08:58",
+		"reject:value:" : "JanKurs 8/31/2016 08:58",
+		"testCharacter" : "JanKurs 8/31/2016 09:07",
+		"testEmptyLiteralSequence" : "JanKurs 8/31/2016 09:13",
+		"testEpsilon" : "JanKurs 8/31/2016 09:12",
+		"testLiteralSequence" : "JanKurs 8/31/2016 09:07",
+		"testNot" : "JanKurs 8/31/2016 09:08",
+		"testPredicateObject" : "JanKurs 8/31/2016 09:07",
+		"testStartOfLine" : "JanKurs 8/31/2016 09:14" } }
