@@ -4,5 +4,7 @@ doPass: node
 	self visit: node.
 	children := node allChildren.
 	
-	[child := children detect: [ :e | (e hasProperty: #acceptsEpsilon) not ] ifNone: [ nil ] ] whileNotNil: [ 		self visit: child
+	[child := children detect: [ :e | (e hasProperty: #acceptsEpsilon) not ] 
+							ifNone: [ nil ] ] whileNotNil: [ 		
+		self visit: child
 	]

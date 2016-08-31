@@ -4,9 +4,13 @@
 	"instance" : {
 		"assert:includes:" : "JanKurs 8/30/2016 16:28",
 		"firstSet:" : "JanKurs 8/30/2016 16:24",
+		"firstSetWithTokens:" : "JanKurs 8/31/2016 08:03",
 		"testAnd" : "JanKurs 8/31/2016 07:56",
+		"testChoice" : "JanKurs 8/31/2016 08:05",
 		"testCycle" : "JanKurs 8/31/2016 07:45",
 		"testDelegate" : "JanKurs 8/31/2016 07:54",
+		"testFirstWithTokensOneToken" : "JanKurs 8/31/2016 08:09",
+		"testFirstWithTokensTwoTokens" : "JanKurs 8/31/2016 08:09",
 		"testFlatten" : "JanKurs 8/31/2016 07:55",
 		"testLiteralObject" : "JanKurs 8/30/2016 16:24",
 		"testLiteralSequence" : "JanKurs 8/30/2016 16:25",

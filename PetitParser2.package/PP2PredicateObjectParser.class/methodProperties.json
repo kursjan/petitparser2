@@ -10,7 +10,9 @@
 		"word" : "JanKurs 8/23/2016 13:20" },
 	"instance" : {
 		"accept:" : "JanKurs 4/1/2016 16:36",
+		"firstCharSet" : "JanKurs 8/31/2016 09:03",
 		"initialize" : "JanKurs 8/27/2016 23:36",
 		"negate" : "JanKurs 8/25/2016 17:58",
 		"parseOn:" : "JanKurs 8/28/2016 18:55",
-		"parseWithContext:" : "JanKurs 8/27/2016 15:51" } }
+		"parseWithContext:" : "JanKurs 8/27/2016 15:51",
+		"predicate:" : "JanKurs 8/31/2016 08:51" } }

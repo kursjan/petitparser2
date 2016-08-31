@@ -5,5 +5,5 @@ optimize
 	PP2ParentAnalysisVisitor new doPass: self.
 	PP2RecognizerVisitor new doPass: self.
 		
-	PP2FirstSetAnalysis new doPass: self.
-	PP2GuardVisitor new doPass: self.
+	PP2FirstSetCache new doPass: self.
+	PP2ChoiceGuardVisitor new doPass: self.
