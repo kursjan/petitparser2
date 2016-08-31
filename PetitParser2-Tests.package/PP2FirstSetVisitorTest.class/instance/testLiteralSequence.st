@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testLiteralSequence
 	parser := 'foo' asParser2.
 	firstSet := self firstSet: parser.

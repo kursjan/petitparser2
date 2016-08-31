@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testStar
 	| star |
 	parser := $a asParser2.

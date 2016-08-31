@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testToken
 	| token |
 	parser := 'foo' asParser2.

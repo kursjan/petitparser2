@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testPlusOptional
 	| plus |
 	parser := $a asParser2.

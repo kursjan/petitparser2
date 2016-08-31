@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testPredicateObject
 	parser := #letter asParser2.
 	firstSet := self firstSet: parser.

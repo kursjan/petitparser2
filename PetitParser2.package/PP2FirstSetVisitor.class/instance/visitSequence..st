@@ -6,7 +6,10 @@ visitSequence: node
 	returnSet := IdentitySet new.
 	node children do: [ :child | 
 		returnSet addAll: (self visit: child).
-		child acceptsEpsilon ifFalse: [ ^ returnSet reject: [:e | e isEpsilon ] ]	
+		returnSet detect: [ :e | e isEpsilon ] 
+			ifFound: [ :eps | returnSet remove: eps  ]	
+			ifNone: [ ^ returnSet ]
 	].
 
+	returnSet add: PP2EpsilonNode instance.
 	^ returnSet

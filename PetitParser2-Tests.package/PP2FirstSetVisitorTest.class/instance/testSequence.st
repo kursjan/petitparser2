@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testSequence
 	| sequence |
 	parser := $a asParser2.

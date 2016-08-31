@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testLiteralObject
 	parser := $a asParser2.
 	firstSet := self firstSet: parser.

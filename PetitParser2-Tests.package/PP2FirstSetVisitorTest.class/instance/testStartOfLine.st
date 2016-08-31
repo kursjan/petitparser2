@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testStartOfLine
 	parser := #startOfLine asParser2.
 	firstSet := self firstSet: parser.

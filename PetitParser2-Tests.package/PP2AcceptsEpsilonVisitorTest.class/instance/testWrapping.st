@@ -1,3 +1,5 @@
 tests
 testWrapping
-	self rejectAcceptsEpsilon: #letter asParser2 wrapped
+	| wrapped |
+	wrapped := $a asParser2 >=> [ :context :cc | cc value ].
+	self rejectAcceptsEpsilon: wrapped

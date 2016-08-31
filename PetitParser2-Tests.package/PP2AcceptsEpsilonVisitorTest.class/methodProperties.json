@@ -8,6 +8,8 @@
 		"testAction" : "JanKurs 8/30/2016 14:35",
 		"testActionEmpty" : "JanKurs 8/30/2016 14:35",
 		"testAnd" : "JanKurs 8/30/2016 14:30",
+		"testBlock" : "JanKurs 8/31/2016 07:49",
+		"testBlockAcceptsEpsilon" : "JanKurs 8/31/2016 07:51",
 		"testCharacter" : "JanKurs 8/30/2016 14:18",
 		"testCycle" : "JanKurs 8/30/2016 15:09",
 		"testCycleNoRecursion" : "JanKurs 8/30/2016 15:09",
@@ -26,4 +28,5 @@
 		"testSequenceFirstEpsilon" : "JanKurs 8/30/2016 14:36",
 		"testStar" : "JanKurs 8/30/2016 14:25",
 		"testStartOfLine" : "JanKurs 8/30/2016 16:09",
-		"testWrapping" : "JanKurs 8/30/2016 14:28" } }
+		"testWrapping" : "JanKurs 8/31/2016 07:52",
+		"testWrappingAcceptsEpsilon" : "JanKurs 8/31/2016 07:52" } }
