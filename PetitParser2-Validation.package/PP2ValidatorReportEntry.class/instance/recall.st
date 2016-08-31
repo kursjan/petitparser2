@@ -1,4 +1,4 @@
 stats
 recall
-	(expected size isEmpty) ifTrue: [ ^ 1 ].
+	(expected isEmpty) ifTrue: [ ^ 1 ].
 	^ self truePositives size / (self truePositives size + self falseNegatives size) asFloat

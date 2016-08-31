@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"accept:" : "JanKurs 4/1/2016 22:08",
+		"children" : "JanKurs 8/31/2016 22:07",
+		"initialize" : "JanKurs 8/28/2016 00:25",
+		"isTrimming" : "JanKurs 8/31/2016 14:54",
+		"parseOn:" : "JanKurs 8/28/2016 18:54",
+		"trimmer" : "JanKurs 8/31/2016 22:05",
+		"trimmer:" : "JanKurs 4/1/2016 22:09" } }

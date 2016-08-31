@@ -4,4 +4,4 @@ testPlus
 	
 	visitor visit: parser.
 	
-	self assert: parser strategy isKindOf: PP2PossesiveRepeating.
+	self assert: parser strategy isKindOf: PP2Plus.

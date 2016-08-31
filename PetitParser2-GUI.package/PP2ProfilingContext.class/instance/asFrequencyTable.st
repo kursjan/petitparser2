@@ -1,7 +1,7 @@
 converting
 asFrequencyTable
 	| bag total result |
-	bag := selectors asBag.
+	bag := strategies asBag.
 	result := OrderedCollection new.
 	bag isEmpty ifTrue: [ ^ result ].
 	total := 100.0 / bag size.

@@ -7,4 +7,6 @@ optimize
 
 	PP2AcceptsEpsilonCache new doPass: self.
 	PP2FirstSetCache new doPass: self.
+
 	PP2ChoiceGuardVisitor new doPass: self.
+	PP2TrimmingGuardVisitor new doPass: self.

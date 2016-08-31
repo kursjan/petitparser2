@@ -7,5 +7,5 @@ testTrimmingWithEpsilon
 
 	self assert: firstSet size equals: 3.
 	self assert: firstSet includes: parser.
-	self assert: firstSet includes: trimming trimmer.	
+	self assert: firstSet includes: trimming trimmer child.	
 	self assert: firstSet includes: PP2EpsilonNode instance.		

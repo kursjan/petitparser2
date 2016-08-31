@@ -1,3 +1,3 @@
-as yet unclassified
+parsing
 parse: aStream withParser: aParser withContext: aContext
-	^ aParser optimize parse: aStream withContext: aContext
+	^ aParser parse: aStream withContext: aContext

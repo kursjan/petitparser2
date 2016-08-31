@@ -1,0 +1,14 @@
+{
+	"category" : "PetitParser2-Smalltalk-Tests-Optimizations",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"parser" ],
+	"name" : "PP2SmalltalkGrammarOptimizationsTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

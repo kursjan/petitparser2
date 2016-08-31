@@ -4,7 +4,7 @@ testFirstWithTokensTwoTokens
 	tokenOne := $a asParser2 token.
 	tokenTwo := $b asParser2 token trim.
 	
-	self assert: (tokenTwo isKindOf: PP2TrimmingTokenParser).
+	self assert: (tokenTwo isKindOf: PP2TrimmingTokenNode).
 	
 	firstSet := self firstSetWithTokens: tokenOne / tokenTwo.
 	

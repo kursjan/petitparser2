@@ -2,12 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testExpressionGrammar" : "JanKurs 8/26/2016 23:08",
-		"testExpressionGrammarDirect" : "JanKurs 8/26/2016 23:08",
+		"testExpressionGrammar" : "JanKurs 8/31/2016 16:14",
+		"testExpressionGrammarNoOpt" : "JanKurs 8/31/2016 16:12",
 		"testExpressionParser" : "JanKurs 8/26/2016 23:07",
 		"testSmalltalkGrammar" : "JanKurs 8/26/2016 23:07",
-		"testSmalltalkGrammarDI" : "JanKurs 8/28/2016 14:50",
-		"testSmalltalkGrammarII" : "JanKurs 8/28/2016 14:50",
 		"testSmalltalkGrammarIM" : "JanKurs 8/28/2016 14:50",
 		"testSmalltalkGrammarNoOpt" : "JanKurs 8/28/2016 18:48",
 		"testSmalltalkParser" : "JanKurs 8/26/2016 23:10" } }

@@ -1,3 +1,3 @@
 parsing - private
 parseWithContext: aPP2Context
-	self subclassResponsibility
+	self halt: 'deprecated'.

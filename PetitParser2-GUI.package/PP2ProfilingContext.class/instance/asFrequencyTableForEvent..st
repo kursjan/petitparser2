@@ -3,8 +3,8 @@ asFrequencyTableForEvent: event
 	| bag total result filtered |
 	
 	filtered := OrderedCollection new.
-	events with: selectors do: [ :e :selector | 
-		event == e ifTrue: [ filtered add: selector ]
+	events with: strategies do: [ :e :strategy | 
+		event == e ifTrue: [ filtered add: strategy ]
 	].
 	
 	bag := filtered asBag.

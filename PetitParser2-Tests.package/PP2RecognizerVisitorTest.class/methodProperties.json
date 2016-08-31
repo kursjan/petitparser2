@@ -5,6 +5,9 @@
 		"assert:isKindOf:" : "JanKurs 8/29/2016 16:52",
 		"reject:isKindOf:" : "JanKurs 8/29/2016 17:04",
 		"setUp" : "JanKurs 8/29/2016 16:57",
+		"testFlatten" : "JanKurs 8/31/2016 16:32",
+		"testPredicateObject" : "JanKurs 8/31/2016 13:30",
+		"testSequenceOfTwo" : "JanKurs 8/31/2016 13:29",
 		"testToken" : "JanKurs 8/29/2016 16:59",
 		"testTwoParents" : "JanKurs 8/29/2016 17:00",
 		"visit:" : "JanKurs 8/29/2016 16:59" } }

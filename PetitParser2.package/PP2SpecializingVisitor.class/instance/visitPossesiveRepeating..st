@@ -8,6 +8,10 @@ visitPossesiveRepeating: node
 		node strategy: (PP2StarPredicateObject on: node)
 	].
 
+	(self isPlus: node) ifTrue: [  
+		node strategy: (PP2Plus on: node)
+	].
+
 	(self isPlusPredicateObject: node) ifTrue: [  
 		node strategy: (PP2PlusPredicateObject on: node)
 	].

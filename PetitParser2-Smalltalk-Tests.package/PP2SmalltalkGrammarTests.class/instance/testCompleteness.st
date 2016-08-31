@@ -5,6 +5,7 @@ testCompleteness
 	| subclasses |
 	subclasses := self class allSubclasses.
 	
+	subclasses := (subclasses reject: [:subclass | subclass name endsWith: '_Optimized' ]).
 	subclasses := (subclasses reject: [:subclass | subclass name endsWith: '_Direct' ]).
 	subclasses := (subclasses reject: [:subclass | subclass name endsWith: '_InMemoryCtx' ]).
 	subclasses do: [ :subclass |

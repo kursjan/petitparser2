@@ -7,5 +7,5 @@ testPPFailingParserConversion
 		yourself.
 	converted := parser asPetit2Node.
 
-	self assert: (converted isKindOf: PP2FailingParser).
+	self assert: (converted isKindOf: PP2FailingNode).
 	self assert: (converted message = #foo)

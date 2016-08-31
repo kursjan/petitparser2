@@ -1,7 +1,7 @@
 visiting
 visitAction: node
 	self inToken ifTrue: [  
-		"WARN: There should be no actions in tokens!"
+		node warnActionInToken.
 		inToken push: false.
 		super visitAction: node.
 		inToken pop.

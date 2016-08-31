@@ -1,0 +1,15 @@
+{
+	"category" : "PetitParser2-Nodes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"trimmer",
+		"tokenClass" ],
+	"name" : "PP2TrimmingTokenNode",
+	"pools" : [
+		 ],
+	"super" : "PP2DelegateNode",
+	"type" : "normal" }

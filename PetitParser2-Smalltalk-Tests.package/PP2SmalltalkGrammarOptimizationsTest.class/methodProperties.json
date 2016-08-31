@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assert:allSatisfy:" : "JanKurs 8/31/2016 13:25",
+		"assert:isKindOf:" : "JanKurs 8/31/2016 13:38",
+		"testIdentifierToken" : "JanKurs 8/31/2016 13:39",
+		"testLiteral" : "JanKurs 8/31/2016 14:31",
+		"testNumbeToken" : "JanKurs 8/31/2016 14:24",
+		"testTrimmings" : "JanKurs 8/31/2016 15:52" } }

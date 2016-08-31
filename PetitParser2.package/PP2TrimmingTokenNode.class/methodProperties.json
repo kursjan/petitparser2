@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"accept:" : "JanKurs 4/1/2016 16:33",
+		"children" : "JanKurs 8/31/2016 22:08",
+		"defaultTokenClass" : "JanKurs 8/31/2016 14:55",
+		"initialize" : "JanKurs 8/31/2016 14:56",
+		"isToken" : "JanKurs 8/31/2016 14:57",
+		"isTrimming" : "JanKurs 8/31/2016 15:24",
+		"parseOn:" : "JanKurs 8/28/2016 18:54",
+		"parseTokenWithContext:" : "JanKurs 8/31/2016 14:58",
+		"tokenClass" : "JanKurs 8/31/2016 14:56",
+		"tokenClass:" : "JanKurs 8/31/2016 14:56",
+		"trimmer" : "JanKurs 4/3/2016 12:44",
+		"trimmer:" : "JanKurs 4/1/2016 22:02" } }

@@ -9,7 +9,7 @@
 		"parser",
 		"retval",
 		"globals",
-		"continuationStack" ],
+		"lastTrimming" ],
 	"name" : "PP2InMemoryContext",
 	"pools" : [
 		 ],

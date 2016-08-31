@@ -3,4 +3,5 @@
 		 },
 	"instance" : {
 		"testArithmetic" : "JanKurs 8/28/2016 23:19",
+		"testArithmeticFailure" : "JanKurs 8/31/2016 21:09",
 		"testNumberParser" : "JanKurs 8/28/2016 23:19" } }

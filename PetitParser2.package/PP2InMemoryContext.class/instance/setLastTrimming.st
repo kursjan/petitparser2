@@ -1,0 +1,3 @@
+optimizations
+setLastTrimming
+	lastTrimming := position

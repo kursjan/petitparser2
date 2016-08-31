@@ -1,4 +1,4 @@
-instance creation
+tokenization
 newToken: tokenClass from: start
 	^ tokenClass 
 		on: collection

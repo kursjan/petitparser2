@@ -1,8 +1,5 @@
 parsing
 parse: input
 	| startContext |
-	startContext := PP2ImmutableSuccess new 
-		initializeFor: input asPetit2Stream;
-		parser: rootParser;
-		yourself.
+	startContext := input asPetit2Context.
 	^ self parseWithContext: startContext

@@ -1,0 +1,14 @@
+{
+	"category" : "PetitParser2-Strategies",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"failure" ],
+	"name" : "PP2TrimmingGuard",
+	"pools" : [
+		 ],
+	"super" : "PP2WrappingStrategy",
+	"type" : "normal" }

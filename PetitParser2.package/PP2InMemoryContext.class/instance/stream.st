@@ -1,3 +1,3 @@
-converting
+accessing
 stream
 	^ self

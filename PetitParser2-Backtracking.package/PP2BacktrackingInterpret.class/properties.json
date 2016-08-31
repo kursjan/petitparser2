@@ -10,5 +10,5 @@
 	"name" : "PP2BacktrackingInterpret",
 	"pools" : [
 		 ],
-	"super" : "PP2ImmutableInterpret",
+	"super" : "PP2Interpret",
 	"type" : "normal" }

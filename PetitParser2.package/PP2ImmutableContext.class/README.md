@@ -1,1 +1,0 @@
-Context should be immutable. The modifications protocol methods return new context. However, the private accessing protocol mutates the contex. Be careful when using mutable methods.

@@ -1,3 +1,0 @@
-pp compatibility
-isPetitFailure
-	^ true

@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"on:" : "JanKurs 8/29/2016 09:03" },
+	"instance" : {
+		"choiceAlternativeGuard:" : "JanKurs 8/31/2016 14:47",
+		"initializeFor:" : "JanKurs 8/31/2016 14:41",
+		"node" : "JanKurs 8/29/2016 09:03",
+		"parseOn:" : "JanKurs 8/29/2016 09:04",
+		"recognizer" : "JanKurs 8/31/2016 20:26",
+		"strategy" : "JanKurs 8/31/2016 22:12",
+		"trimmingGuard" : "JanKurs 8/31/2016 15:20" } }

@@ -10,5 +10,5 @@
 	"name" : "PP2StarPredicateObjectRecognizer",
 	"pools" : [
 		 ],
-	"super" : "PP2Star",
+	"super" : "PP2PossesiveRepeating",
 	"type" : "normal" }

@@ -1,7 +1,7 @@
 {
 	"category" : "PetitParser2-Nodes",
 	"classinstvars" : [
-		 ],
+		"spaceTrimmer" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",

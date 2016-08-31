@@ -6,5 +6,5 @@ testPPTrimmingParserConversion
 	parser setTrimmer: #foo.
 		
 	converted := parser asPetit2Node.
-	self assert: (converted isKindOf: PP2TrimmingParser).
+	self assert: (converted isKindOf: PP2TrimmingNode).
 	self assert: (converted trimmer = #foo).

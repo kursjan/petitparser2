@@ -1,0 +1,15 @@
+{
+	"category" : "PetitParser2-Validation-Optimizations",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"parser",
+		"optimizedParser" ],
+	"name" : "PP2ExpressionGrammarOptimizaitonsValidator",
+	"pools" : [
+		 ],
+	"super" : "PP2Validator",
+	"type" : "normal" }

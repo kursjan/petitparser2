@@ -5,6 +5,10 @@
 		"doPass:" : "JanKurs 8/30/2016 11:40",
 		"inToken" : "JanKurs 8/29/2016 16:52",
 		"initialize" : "JanKurs 8/29/2016 16:51",
-		"visitAction:" : "JanKurs 8/29/2016 11:19",
-		"visitPP2Node:" : "JanKurs 8/29/2016 17:26",
-		"visitToken:" : "JanKurs 8/29/2016 16:54" } }
+		"visitAction:" : "JanKurs 8/31/2016 22:14",
+		"visitFlatten:" : "JanKurs 8/31/2016 22:13",
+		"visitPP2Node:" : "JanKurs 8/31/2016 13:32",
+		"visitRecognizer:" : "JanKurs 8/31/2016 22:13",
+		"visitToken:" : "JanKurs 8/31/2016 22:13",
+		"visitTrimming:" : "JanKurs 8/31/2016 22:14",
+		"visitTrimmingToken:" : "JanKurs 8/31/2016 22:12" } }

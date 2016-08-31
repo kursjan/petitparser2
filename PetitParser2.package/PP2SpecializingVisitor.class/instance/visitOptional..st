@@ -4,4 +4,4 @@ visitOptional: node
 		node strategy: (PP2OptionalLiteralObject on: node)
 	].
 
-	^ super visitPossesiveRepeating: node
+	^ super visitOptional: node

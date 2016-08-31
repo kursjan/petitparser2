@@ -5,6 +5,7 @@ testExpressionGrammar
 	parser := bench parser.
 	
 	self assert: parser class equals: PP2ExpressionGrammar.
+	self assert: (bench context isKindOf: PP2InMemoryContext).
 	
 	result := parser end parse: '1 + (2 * 3)'.
 	self assert: result value size = 3.

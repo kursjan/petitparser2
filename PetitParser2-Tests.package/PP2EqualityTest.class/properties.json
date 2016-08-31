@@ -1,0 +1,15 @@
+{
+	"category" : "PetitParser2-Tests-Parsers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"parserOne",
+		"parserTwo" ],
+	"name" : "PP2EqualityTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+conversion
+recognizer
+	^ strategy recognizer

@@ -1,0 +1,3 @@
+conversion
+trimmingGuard
+	^ self

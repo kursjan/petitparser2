@@ -10,7 +10,7 @@
 		"testCycle" : "JanKurs 8/31/2016 07:45",
 		"testDelegate" : "JanKurs 8/31/2016 07:54",
 		"testFirstWithTokensOneToken" : "JanKurs 8/31/2016 08:09",
-		"testFirstWithTokensTwoTokens" : "JanKurs 8/31/2016 08:09",
+		"testFirstWithTokensTwoTokens" : "JanKurs 8/31/2016 22:17",
 		"testFlatten" : "JanKurs 8/31/2016 07:55",
 		"testLiteralObject" : "JanKurs 8/30/2016 16:24",
 		"testLiteralSequence" : "JanKurs 8/30/2016 16:25",
@@ -27,6 +27,6 @@
 		"testStar" : "JanKurs 8/30/2016 16:28",
 		"testStartOfLine" : "JanKurs 8/30/2016 16:31",
 		"testToken" : "JanKurs 8/30/2016 16:26",
-		"testTrimming" : "JanKurs 8/31/2016 07:58",
-		"testTrimmingWithEpsilon" : "JanKurs 8/31/2016 07:58",
+		"testTrimming" : "JanKurs 8/31/2016 23:19",
+		"testTrimmingWithEpsilon" : "JanKurs 8/31/2016 23:19",
 		"testTwoParents" : "JanKurs 8/31/2016 07:47" } }

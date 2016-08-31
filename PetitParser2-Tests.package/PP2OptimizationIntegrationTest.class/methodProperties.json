@@ -4,4 +4,8 @@
 	"instance" : {
 		"assert:isKindOf:" : "JanKurs 8/29/2016 17:11",
 		"testIdentifier" : "JanKurs 8/29/2016 17:12",
-		"testIdentifierToken" : "JanKurs 8/29/2016 17:13" } }
+		"testIdentifierToken" : "JanKurs 8/31/2016 13:11",
+		"testIdentifierTrimmingToken" : "JanKurs 8/31/2016 13:41",
+		"testParseTrimming" : "JanKurs 8/31/2016 21:22",
+		"testTrimming" : "JanKurs 8/31/2016 22:11",
+		"testTrimmingToken" : "JanKurs 8/31/2016 22:15" } }

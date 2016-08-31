@@ -11,5 +11,5 @@
 	"name" : "PP2PlusPredicateObject",
 	"pools" : [
 		 ],
-	"super" : "PP2Plus",
+	"super" : "PP2PossesiveRepeating",
 	"type" : "normal" }

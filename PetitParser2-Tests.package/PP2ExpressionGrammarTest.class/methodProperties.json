@@ -1,8 +1,8 @@
 {
 	"class" : {
-		 },
+		"shouldInheritSelectors" : "JanKurs 8/31/2016 16:36" },
 	"instance" : {
-		"parse:withParser:withContext:" : "JanKurs 8/26/2016 13:26",
+		"parse:withParser:withContext:" : "JanKurs 8/31/2016 16:35",
 		"parserClass" : "JanKurs 2/25/2016 21:49",
 		"testAddition" : "JanKurs 2/27/2016 11:34",
 		"testMultiplication" : "JanKurs 2/27/2016 11:50",

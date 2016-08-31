@@ -4,9 +4,10 @@
 	"instance" : {
 		"doPass:" : "JanKurs 8/30/2016 11:40",
 		"isOptionalCharacter:" : "JanKurs 8/29/2016 17:47",
+		"isPlus:" : "JanKurs 8/31/2016 14:14",
 		"isPlusPredicateObject:" : "JanKurs 8/29/2016 10:31",
-		"isStar:" : "JanKurs 8/29/2016 10:29",
+		"isStar:" : "JanKurs 8/31/2016 14:14",
 		"isStarPredicateObject:" : "JanKurs 8/29/2016 10:30",
-		"visitOptional:" : "JanKurs 8/29/2016 17:48",
-		"visitPossesiveRepeating:" : "JanKurs 8/29/2016 10:32",
+		"visitOptional:" : "JanKurs 8/31/2016 15:17",
+		"visitPossesiveRepeating:" : "JanKurs 8/31/2016 14:15",
 		"visitSequence:" : "JanKurs 8/29/2016 09:45" } }

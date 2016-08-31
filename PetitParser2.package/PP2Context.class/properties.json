@@ -11,7 +11,8 @@
 		"parser",
 		"retval",
 		"globals",
-		"continuationStack" ],
+		"continuationStack",
+		"lastTrimming" ],
 	"name" : "PP2Context",
 	"pools" : [
 		 ],

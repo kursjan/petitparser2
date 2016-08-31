@@ -1,8 +1,8 @@
 {
 	"class" : {
-		"packageNamesUnderTest" : "JanKurs 8/25/2016 17:32" },
+		"shouldInheritSelectors" : "JanKurs 8/31/2016 13:51" },
 	"instance" : {
-		"parse:withParser:withContext:" : "JanKurs 8/28/2016 19:01",
+		"parse:withParser:withContext:" : "JanKurs 8/31/2016 13:07",
 		"parserClass" : "JanKurs 8/25/2016 17:33",
 		"testArgumentsBlock1" : "JanKurs 8/25/2016 17:32",
 		"testArgumentsBlock2" : "JanKurs 8/25/2016 17:32",
@@ -55,7 +55,7 @@
 		"testComment3" : "JanKurs 8/25/2016 17:32",
 		"testComment4" : "JanKurs 8/25/2016 17:32",
 		"testComment5" : "JanKurs 8/25/2016 17:32",
-		"testCompleteness" : "JanKurs 8/29/2016 00:25",
+		"testCompleteness" : "JanKurs 8/31/2016 13:09",
 		"testComplexBlock1" : "JanKurs 8/25/2016 17:32",
 		"testComplexBlock2" : "JanKurs 8/25/2016 17:32",
 		"testKeywordExpression1" : "JanKurs 8/25/2016 17:32",

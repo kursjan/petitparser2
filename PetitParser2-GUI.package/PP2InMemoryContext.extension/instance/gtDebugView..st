@@ -15,10 +15,10 @@ gtDebugView: composite
 	browser transmit 
 		from: #tree;
 		to: #source port: #selectionInterval;
-		transformed: [:context |
-			(context start isNil or: [ context end isNil ])
+		transformed: [:debuggerResult |
+			(debuggerResult start isNil or: [ debuggerResult end isNil ])
 			ifTrue: [ 1 to: 0 ]
-			ifFalse: [ context start to: context end]
+			ifFalse: [ debuggerResult start to: debuggerResult end]
 		].
 
 	browser transmit
