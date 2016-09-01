@@ -9,4 +9,4 @@ testTwoParents
 	self visit: sequence.
 	
 	self assert: parser strategy isKindOf: PP2StarPredicateObject.
-	self reject: parser strategy isKindOf: PP2StarPredicateObjectRecognizer.
+	self deny: parser strategy isKindOf: PP2StarPredicateObjectRecognizer.

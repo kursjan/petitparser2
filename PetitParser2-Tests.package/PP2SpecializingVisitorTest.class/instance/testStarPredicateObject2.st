@@ -4,4 +4,4 @@ testStarPredicateObject2
 	parser max: 2.
 	
 	visitor visit: parser.
-	self reject: parser strategy isKindOf: PP2StarPredicateObject.
+	self deny: parser strategy isKindOf: PP2StarPredicateObject.

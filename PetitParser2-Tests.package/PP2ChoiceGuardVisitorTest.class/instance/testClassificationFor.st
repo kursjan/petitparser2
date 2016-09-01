@@ -7,5 +7,5 @@ testClassificationFor
 	
 	self assert: classification at: $a codePoint.
 	self assert: classification at: $b codePoint.
-	self reject: classification at: $" codePoint.
-	self reject: classification at: $c codePoint.	
+	self deny: classification at: $" codePoint.
+	self deny: classification at: $c codePoint.	

@@ -1,6 +1,6 @@
 visiting
 visitPossesiveRepeating: parser
-	| previousContext elements index |
+	| retval elements index |
 
 	"
 		JK: Use index to allow for continuations. When the context is restored from the continuation,
@@ -12,18 +12,17 @@ visitPossesiveRepeating: parser
 	elements := OrderedCollection new.
 	
 	[ index < parser min ] whileTrue: [
-	 	(self visit: parser child) isPetit2Failure 
-			ifTrue: [ ^ currentContext ].
+	 	(retval := self visit: parser child) isPetit2Failure 
+			ifTrue: [ ^ retval ].
 		index := index + 1.
-		elements at: index ifAbsentPut: currentContext value.
+		elements at: index ifAbsentPut: retval.
 	].
 
 	[ index < parser max ] whileTrue: [
-		previousContext := currentContext.
-	 	(self visit: parser child) isPetit2Failure 
-			ifTrue: [ ^ previousContext success: (elements copyFrom: 1 to: index) asArray ].
+	 	(retval := self visit: parser child) isPetit2Failure 
+			ifTrue: [ ^ (elements copyFrom: 1 to: index) asArray ].
 		index := index + 1.
-		elements at: index ifAbsentPut: currentContext value.
+		elements at: index ifAbsentPut: retval.
 	].
 
-	^ currentContext success: elements asArray
+	^ elements asArray

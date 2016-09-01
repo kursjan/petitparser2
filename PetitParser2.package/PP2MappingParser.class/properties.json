@@ -10,5 +10,5 @@
 	"name" : "PP2MappingParser",
 	"pools" : [
 		 ],
-	"super" : "PP2AbstractActionParser",
+	"super" : "PP2AbstractActionNode",
 	"type" : "normal" }

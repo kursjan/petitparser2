@@ -1,3 +1,3 @@
 operators
 and
-	^ PP2AndParser on: self
+	^ PP2AndNode on: self

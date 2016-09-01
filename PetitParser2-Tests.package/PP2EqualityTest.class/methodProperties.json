@@ -2,9 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"reject:" : "JanKurs 8/31/2016 16:24",
-		"reject:equals:" : "JanKurs 9/1/2016 07:49",
-		"testPossesiveRepeating" : "JanKurs 9/1/2016 07:47",
-		"testPossesiveRepeatingDifferent" : "JanKurs 9/1/2016 07:48",
-		"testPossesiveRepeatingDifferent2" : "JanKurs 9/1/2016 07:59",
-		"testPredicateObject" : "JanKurs 8/31/2016 16:29" } }
+		"deny:equals:" : "JanKurs 9/1/2016 11:35",
+		"testCycle" : "JanKurs 9/1/2016 11:36",
+		"testPossesiveRepeating" : "JanKurs 9/1/2016 11:36",
+		"testPossesiveRepeatingDifferent" : "JanKurs 9/1/2016 11:36",
+		"testPossesiveRepeatingDifferent2" : "JanKurs 9/1/2016 11:36",
+		"testPredicateObject" : "JanKurs 9/1/2016 11:37",
+		"testSequence" : "JanKurs 9/1/2016 11:37" } }

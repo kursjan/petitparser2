@@ -7,7 +7,7 @@ equals: anotherNode visitedSet: visitedSet
 	(visitedSet includes: self) ifTrue: [ ^ true ].
 	(visitedSet add: self).
 
-	(self equals: anotherNode) ifFalse: [ ^ false ].	
+	(self localEquals: anotherNode) ifFalse: [ ^ false ].	
 	(self childrenEqual: anotherNode visitedSet: visitedSet) ifFalse: [ ^ false ].
 	
 	^ true

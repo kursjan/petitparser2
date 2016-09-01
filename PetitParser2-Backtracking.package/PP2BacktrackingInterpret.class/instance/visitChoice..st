@@ -1,12 +1,9 @@
 visiting
 visitChoice: parser
-	| startContext |
-	startContext := currentContext.
-	
+	| retval |
 	1 to: parser children size do: [ :index |
-		currentContext := startContext.
 		"Before each child fails, do backtracking:"
-		(self backtrackingVisit: (parser childAt: index)) isPetit2Failure 
-			ifFalse: [ ^ currentContext ] 
+		(retval := self backtrackingVisit: (parser childAt: index)) isPetit2Failure 
+			ifFalse: [ ^ retval ] 
 	].
-	^ currentContext
+	^ retval

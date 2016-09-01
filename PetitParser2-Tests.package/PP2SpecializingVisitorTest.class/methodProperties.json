@@ -3,14 +3,14 @@
 		 },
 	"instance" : {
 		"assert:isKindOf:" : "JanKurs 8/29/2016 10:36",
-		"reject:isKindOf:" : "JanKurs 8/29/2016 10:38",
+		"deny:isKindOf:" : "JanKurs 9/1/2016 11:38",
 		"setUp" : "JanKurs 8/29/2016 10:35",
 		"testOptionalLiteraObject" : "JanKurs 8/29/2016 17:48",
 		"testPlus" : "JanKurs 8/31/2016 14:13",
 		"testPlusPredicateObject" : "JanKurs 8/29/2016 10:38",
-		"testPlusPredicateObject2" : "JanKurs 8/29/2016 10:38",
+		"testPlusPredicateObject2" : "JanKurs 9/1/2016 11:38",
 		"testSequenceOfThree" : "JanKurs 8/29/2016 10:40",
 		"testSequenceOfTwo" : "JanKurs 8/29/2016 10:39",
 		"testStar" : "JanKurs 8/29/2016 10:35",
 		"testStarPredicateObject" : "JanKurs 8/29/2016 10:36",
-		"testStarPredicateObject2" : "JanKurs 8/29/2016 10:39" } }
+		"testStarPredicateObject2" : "JanKurs 9/1/2016 11:38" } }
