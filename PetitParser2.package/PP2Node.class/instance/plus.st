@@ -1,5 +1,5 @@
 operators
 plus
-	^ (PP2PossesiveRepeatingParser on: self)
+	^ (PP2PossesiveRepeatingNode on: self)
 		min: 1;
 		yourself

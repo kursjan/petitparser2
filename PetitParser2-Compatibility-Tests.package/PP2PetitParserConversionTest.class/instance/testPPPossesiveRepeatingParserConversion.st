@@ -8,6 +8,6 @@ testPPPossesiveRepeatingParserConversion
 		yourself.
 		
 	converted := parser asPetit2Node.
-	self assert: (converted isKindOf: PP2PossesiveRepeatingParser).
+	self assert: (converted isKindOf: PP2PossesiveRepeatingNode).
 	self assert: (converted min = 1).
 	self assert: (converted max = 2).	

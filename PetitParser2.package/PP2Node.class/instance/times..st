@@ -1,6 +1,6 @@
 operators
 times: integer
-	^ (PP2PossesiveRepeatingParser on: self)
+	^ (PP2PossesiveRepeatingNode on: self)
 		min: integer;
 		max: integer;
 		yourself
