@@ -1,11 +1,11 @@
 {
 	"class" : {
-		"on:" : "JanKurs 10/5/2015 16:06" },
+		"on:" : "JanKurs 9/1/2016 12:25:21" },
 	"instance" : {
-		"accept:" : "JanKurs 4/1/2016 16:35",
-		"block" : "JanKurs 10/5/2015 16:07",
-		"block:" : "JanKurs 10/5/2015 16:07",
-		"initialize" : "JanKurs 8/28/2016 00:17",
-		"localEquals:" : "JanKurs 9/1/2016 11:27",
-		"localHash" : "JanKurs 9/1/2016 11:27",
-		"parseOn:" : "JanKurs 8/28/2016 18:55" } }
+		"accept:" : "JanKurs 9/1/2016 12:25:21",
+		"block" : "JanKurs 9/1/2016 12:25:21",
+		"block:" : "JanKurs 9/1/2016 12:25:21",
+		"initialize" : "JanKurs 9/1/2016 12:25:21",
+		"localEquals:" : "JanKurs 9/1/2016 12:25:21",
+		"localHash" : "JanKurs 9/1/2016 12:25:21",
+		"parseOn:" : "JanKurs 9/1/2016 12:25:21" } }

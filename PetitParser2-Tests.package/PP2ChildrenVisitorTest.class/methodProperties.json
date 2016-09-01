@@ -2,11 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "JanKurs 8/28/2016 17:56",
-		"testChoice" : "JanKurs 8/28/2016 17:57",
-		"testCycle" : "JanKurs 8/28/2016 18:02",
-		"testLiteral" : "JanKurs 8/28/2016 18:03",
-		"testSequence" : "JanKurs 8/28/2016 18:03",
-		"testTokenParser" : "JanKurs 8/28/2016 18:03",
-		"testTrimParser" : "JanKurs 8/31/2016 22:26",
-		"testWrapping" : "JanKurs 8/28/2016 18:03" } }
+		"setUp" : "JanKurs 9/1/2016 12:25:21",
+		"testChoice" : "JanKurs 9/1/2016 12:25:21",
+		"testCycle" : "JanKurs 9/1/2016 12:25:21",
+		"testLiteral" : "JanKurs 9/1/2016 12:25:21",
+		"testSequence" : "JanKurs 9/1/2016 12:25:21",
+		"testTokenParser" : "JanKurs 9/1/2016 12:25:21",
+		"testTrimParser" : "JanKurs 9/1/2016 12:25:21",
+		"testWrapping" : "JanKurs 9/1/2016 12:25:21" } }

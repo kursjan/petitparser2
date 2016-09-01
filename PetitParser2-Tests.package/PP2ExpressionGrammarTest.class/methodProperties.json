@@ -1,12 +1,12 @@
 {
 	"class" : {
-		"shouldInheritSelectors" : "JanKurs 8/31/2016 16:36" },
+		"shouldInheritSelectors" : "JanKurs 9/1/2016 12:25:21" },
 	"instance" : {
-		"parse:withParser:withContext:" : "JanKurs 8/31/2016 16:35",
-		"parserClass" : "JanKurs 2/25/2016 21:49",
-		"testAddition" : "JanKurs 2/27/2016 11:34",
-		"testMultiplication" : "JanKurs 2/27/2016 11:50",
-		"testNumber" : "JanKurs 2/25/2016 22:48",
-		"testParentheses" : "JanKurs 2/27/2016 11:51",
-		"testPrimary" : "JanKurs 2/27/2016 11:33",
-		"testTerms" : "JanKurs 2/27/2016 21:58" } }
+		"parse:withParser:withContext:" : "JanKurs 9/1/2016 12:25:21",
+		"parserClass" : "JanKurs 9/1/2016 12:25:21",
+		"testAddition" : "JanKurs 9/1/2016 12:25:21",
+		"testMultiplication" : "JanKurs 9/1/2016 12:25:21",
+		"testNumber" : "JanKurs 9/1/2016 12:25:21",
+		"testParentheses" : "JanKurs 9/1/2016 12:25:21",
+		"testPrimary" : "JanKurs 9/1/2016 12:25:21",
+		"testTerms" : "JanKurs 9/1/2016 12:25:21" } }

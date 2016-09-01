@@ -5,4 +5,4 @@ testPPNotParserConversion
 	parser := nil asParser not.
 	converted := parser asPetit2Node.
 
-	self assert: (converted isKindOf: PP2NotParser).
+	self assert: (converted isKindOf: PP2NotNode).

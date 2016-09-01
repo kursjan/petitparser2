@@ -1,13 +1,13 @@
 {
 	"class" : {
-		"on:start:stop:" : "JanKurs 8/12/2016 09:05" },
+		"on:start:stop:" : "JanKurs 9/1/2016 12:25:21" },
 	"instance" : {
-		"collection" : "JanKurs 10/5/2015 18:03",
-		"collection:" : "JanKurs 10/5/2015 18:03",
-		"printOn:" : "JanKurs 2/27/2016 21:12",
-		"start" : "JanKurs 10/5/2015 18:03",
-		"start:" : "JanKurs 10/5/2015 18:03",
-		"stop" : "JanKurs 10/5/2015 18:03",
-		"stop:" : "JanKurs 10/5/2015 18:03",
-		"toString" : "JanKurs 2/27/2016 21:10",
-		"value" : "JanKurs 10/5/2015 18:01" } }
+		"collection" : "JanKurs 9/1/2016 12:25:21",
+		"collection:" : "JanKurs 9/1/2016 12:25:21",
+		"printOn:" : "JanKurs 9/1/2016 12:25:21",
+		"start" : "JanKurs 9/1/2016 12:25:21",
+		"start:" : "JanKurs 9/1/2016 12:25:21",
+		"stop" : "JanKurs 9/1/2016 12:25:21",
+		"stop:" : "JanKurs 9/1/2016 12:25:21",
+		"toString" : "JanKurs 9/1/2016 12:25:21",
+		"value" : "JanKurs 9/1/2016 12:25:21" } }

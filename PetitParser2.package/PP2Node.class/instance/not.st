@@ -1,3 +1,3 @@
 operators
 not
-	^ PP2NotParser on: self
+	^ PP2NotNode on: self

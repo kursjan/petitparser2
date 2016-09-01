@@ -1,12 +1,13 @@
 {
 	"class" : {
-		"new" : "JanKurs 8/27/2016 16:00",
-		"on:" : "JanKurs 8/28/2016 15:46" },
+		"new" : "JanKurs 9/1/2016 12:25:21",
+		"on:" : "JanKurs 9/1/2016 12:25:21" },
 	"instance" : {
-		"choiceAlternativeGuard:" : "JanKurs 8/31/2016 14:45",
-		"initializeFor:" : "JanKurs 8/28/2016 15:47",
-		"node" : "JanKurs 8/27/2016 16:02",
-		"node:" : "JanKurs 8/27/2016 16:02",
-		"parseOn:" : "JanKurs 8/27/2016 15:41",
-		"recognizer" : "JanKurs 8/29/2016 11:15",
-		"trimmingGuard" : "JanKurs 8/31/2016 15:16" } }
+		"choiceAlternativeGuard:" : "JanKurs 9/1/2016 12:25:21",
+		"displayName" : "JanKurs 9/1/2016 15:57",
+		"initializeFor:" : "JanKurs 9/1/2016 12:25:21",
+		"node" : "JanKurs 9/1/2016 12:25:21",
+		"node:" : "JanKurs 9/1/2016 12:25:21",
+		"parseOn:" : "JanKurs 9/1/2016 12:25:21",
+		"recognizer" : "JanKurs 9/1/2016 12:25:21",
+		"trimmingGuard" : "JanKurs 9/1/2016 12:25:21" } }

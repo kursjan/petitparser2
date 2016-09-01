@@ -2,12 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"assert:isKindOf:" : "JanKurs 8/29/2016 16:52",
-		"deny:isKindOf:" : "JanKurs 9/1/2016 11:38",
-		"setUp" : "JanKurs 8/29/2016 16:57",
-		"testFlatten" : "JanKurs 8/31/2016 16:32",
-		"testPredicateObject" : "JanKurs 8/31/2016 13:30",
-		"testSequenceOfTwo" : "JanKurs 8/31/2016 13:29",
-		"testToken" : "JanKurs 8/29/2016 16:59",
-		"testTwoParents" : "JanKurs 9/1/2016 11:38",
-		"visit:" : "JanKurs 8/29/2016 16:59" } }
+		"assert:isKindOf:" : "JanKurs 9/1/2016 12:25:21",
+		"deny:isKindOf:" : "JanKurs 9/1/2016 12:25:21",
+		"setUp" : "JanKurs 9/1/2016 12:25:21",
+		"testFlatten" : "JanKurs 9/1/2016 12:25:21",
+		"testPredicateObject" : "JanKurs 9/1/2016 12:25:21",
+		"testSequenceOfTwo" : "JanKurs 9/1/2016 12:25:21",
+		"testToken" : "JanKurs 9/1/2016 12:25:21",
+		"testTwoParents" : "JanKurs 9/1/2016 12:25:21",
+		"visit:" : "JanKurs 9/1/2016 12:25:21" } }

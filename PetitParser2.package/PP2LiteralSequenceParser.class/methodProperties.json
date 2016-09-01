@@ -2,10 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"accept:" : "JanKurs 4/1/2016 16:35",
-		"caseInsensitive" : "JanKurs 10/5/2015 16:28",
-		"firstCharSet" : "JanKurs 8/31/2016 09:01",
-		"initialize" : "JanKurs 8/27/2016 23:36",
-		"parseOn:" : "JanKurs 8/28/2016 18:55",
-		"parseWithContext:" : "JanKurs 8/27/2016 15:50",
-		"size" : "JanKurs 10/5/2015 15:44" } }
+		"accept:" : "JanKurs 9/1/2016 12:25:21",
+		"caseInsensitive" : "JanKurs 9/1/2016 12:25:21",
+		"firstCharSet" : "JanKurs 9/1/2016 12:25:21",
+		"initialize" : "JanKurs 9/1/2016 12:25:21",
+		"parseOn:" : "JanKurs 9/1/2016 12:25:21",
+		"parseWithContext:" : "JanKurs 9/1/2016 12:25:21",
+		"size" : "JanKurs 9/1/2016 12:25:21" } }

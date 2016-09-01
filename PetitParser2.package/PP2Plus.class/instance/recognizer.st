@@ -1,3 +1,3 @@
-as yet unclassified
+conversion
 recognizer
 	^ PP2PlusRecognizer on: self node

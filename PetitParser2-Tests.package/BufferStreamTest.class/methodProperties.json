@@ -2,12 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testPredicate" : "JanKurs 8/13/2016 12:59",
-		"testStream" : "JanKurs 8/13/2016 12:36",
-		"testStreamBacktrack" : "JanKurs 8/13/2016 12:57",
-		"testStreamBacktrackBufferSmall" : "JanKurs 4/3/2016 11:02",
-		"testStreamBacktrackBufferTooSmall" : "JanKurs 4/3/2016 11:02",
-		"testStreamBufferSmall" : "JanKurs 4/3/2016 11:02",
-		"testStreamBufferTooSmall" : "JanKurs 4/3/2016 11:02",
-		"testStreamIdentifier" : "JanKurs 8/23/2016 13:20",
-		"testToken" : "JanKurs 8/13/2016 13:02" } }
+		"testPredicate" : "JanKurs 9/1/2016 12:25:21",
+		"testStream" : "JanKurs 9/1/2016 12:25:21",
+		"testStreamBacktrack" : "JanKurs 9/1/2016 12:25:21",
+		"testStreamBacktrackBufferSmall" : "JanKurs 9/1/2016 12:25:21",
+		"testStreamBacktrackBufferTooSmall" : "JanKurs 9/1/2016 12:25:21",
+		"testStreamBufferSmall" : "JanKurs 9/1/2016 12:25:21",
+		"testStreamBufferTooSmall" : "JanKurs 9/1/2016 12:25:21",
+		"testStreamIdentifier" : "JanKurs 9/1/2016 12:25:21",
+		"testToken" : "JanKurs 9/1/2016 12:25:21" } }

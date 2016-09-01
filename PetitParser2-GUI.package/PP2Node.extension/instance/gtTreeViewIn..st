@@ -5,5 +5,5 @@ gtTreeViewIn: composite
 	composite tree
 			title: 'Tree';
 			children: [:n | n children ];
-			format: [:n| n name ifNil: [ n asString ] ifNotNil: [n name] ];
+			format: [:n| n displayName ];
 			shouldExpandToLevel: 6

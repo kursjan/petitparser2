@@ -2,11 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"assert:at:" : "JanKurs 8/31/2016 09:41",
-		"assert:isKindOf:" : "JanKurs 8/31/2016 10:04",
-		"deny:at:" : "JanKurs 9/1/2016 11:39",
-		"optimize:" : "JanKurs 8/31/2016 10:03",
-		"setUp" : "JanKurs 8/31/2016 09:39",
-		"testChoice" : "JanKurs 8/31/2016 10:10",
-		"testClassificationFor" : "JanKurs 9/1/2016 11:39",
-		"testClassificationFor2" : "JanKurs 8/31/2016 09:46" } }
+		"assert:at:" : "JanKurs 9/1/2016 12:25:21",
+		"assert:isKindOf:" : "JanKurs 9/1/2016 12:25:21",
+		"deny:at:" : "JanKurs 9/1/2016 12:25:21",
+		"optimize:" : "JanKurs 9/1/2016 12:25:21",
+		"setUp" : "JanKurs 9/1/2016 12:25:21",
+		"testChoice" : "JanKurs 9/1/2016 12:25:21",
+		"testClassificationFor" : "JanKurs 9/1/2016 12:25:21",
+		"testClassificationFor2" : "JanKurs 9/1/2016 12:25:21" } }

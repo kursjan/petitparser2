@@ -1,12 +1,12 @@
 {
 	"class" : {
-		"instance" : "JanKurs 8/31/2016 22:26",
-		"message:" : "JanKurs 10/3/2015 20:02" },
+		"instance" : "JanKurs 9/1/2016 12:25:21",
+		"message:" : "JanKurs 9/1/2016 12:25:21" },
 	"instance" : {
-		"accept:" : "JanKurs 4/1/2016 16:34",
-		"firstCharSet" : "JanKurs 8/31/2016 08:20",
-		"initialize" : "JanKurs 8/27/2016 23:35",
-		"localEquals:" : "JanKurs 9/1/2016 10:37",
-		"localHash" : "JanKurs 9/1/2016 10:35",
-		"message" : "JanKurs 10/3/2015 20:01",
-		"message:" : "JanKurs 10/3/2015 20:01" } }
+		"accept:" : "JanKurs 9/1/2016 12:25:21",
+		"firstCharSet" : "JanKurs 9/1/2016 12:25:21",
+		"initialize" : "JanKurs 9/1/2016 12:25:21",
+		"localEquals:" : "JanKurs 9/1/2016 12:25:21",
+		"localHash" : "JanKurs 9/1/2016 12:25:21",
+		"message" : "JanKurs 9/1/2016 12:25:21",
+		"message:" : "JanKurs 9/1/2016 12:25:21" } }

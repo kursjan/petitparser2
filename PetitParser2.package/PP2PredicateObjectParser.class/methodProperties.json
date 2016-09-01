@@ -1,18 +1,18 @@
 {
 	"class" : {
-		"any" : "JanKurs 10/5/2015 15:04",
-		"anyOf:" : "JanKurs 8/25/2016 17:17",
-		"blank" : "JanKurs 8/31/2016 15:43",
-		"digit" : "JanKurs 8/23/2016 11:53",
-		"expect:message:" : "JanKurs 8/25/2016 17:58",
-		"letter" : "JanKurs 8/23/2016 13:09",
-		"space" : "JanKurs 8/23/2016 13:09",
-		"startOfLine" : "JanKurs 8/30/2016 14:23",
-		"word" : "JanKurs 8/23/2016 13:20" },
+		"any" : "JanKurs 9/1/2016 12:25:21",
+		"anyOf:" : "JanKurs 9/1/2016 12:25:21",
+		"blank" : "JanKurs 9/1/2016 12:25:21",
+		"digit" : "JanKurs 9/1/2016 12:25:21",
+		"expect:message:" : "JanKurs 9/1/2016 12:25:21",
+		"letter" : "JanKurs 9/1/2016 12:25:21",
+		"space" : "JanKurs 9/1/2016 12:25:21",
+		"startOfLine" : "JanKurs 9/1/2016 12:25:21",
+		"word" : "JanKurs 9/1/2016 12:25:21" },
 	"instance" : {
-		"accept:" : "JanKurs 4/1/2016 16:36",
-		"firstCharSet" : "JanKurs 8/31/2016 09:03",
-		"initialize" : "JanKurs 8/27/2016 23:36",
-		"negate" : "JanKurs 8/25/2016 17:58",
-		"parseOn:" : "JanKurs 8/28/2016 18:55",
-		"predicate:" : "JanKurs 8/31/2016 08:51" } }
+		"accept:" : "JanKurs 9/1/2016 12:25:21",
+		"firstCharSet" : "JanKurs 9/1/2016 12:25:21",
+		"initialize" : "JanKurs 9/1/2016 12:25:21",
+		"negate" : "JanKurs 9/1/2016 12:25:21",
+		"parseOn:" : "JanKurs 9/1/2016 12:25:21",
+		"predicate:" : "JanKurs 9/1/2016 12:25:21" } }

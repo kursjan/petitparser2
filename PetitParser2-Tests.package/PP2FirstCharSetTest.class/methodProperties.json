@@ -2,12 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"assert:value:" : "JanKurs 8/31/2016 08:58",
-		"reject:value:" : "JanKurs 8/31/2016 08:58",
-		"testCharacter" : "JanKurs 8/31/2016 09:07",
-		"testEmptyLiteralSequence" : "JanKurs 8/31/2016 09:13",
-		"testEpsilon" : "JanKurs 8/31/2016 09:12",
-		"testLiteralSequence" : "JanKurs 8/31/2016 09:07",
-		"testNot" : "JanKurs 8/31/2016 09:08",
-		"testPredicateObject" : "JanKurs 8/31/2016 09:07",
-		"testStartOfLine" : "JanKurs 8/31/2016 09:14" } }
+		"assert:value:" : "JanKurs 9/1/2016 12:25:21",
+		"reject:value:" : "JanKurs 9/1/2016 12:25:21",
+		"testCharacter" : "JanKurs 9/1/2016 12:25:21",
+		"testEmptyLiteralSequence" : "JanKurs 9/1/2016 12:25:21",
+		"testEpsilon" : "JanKurs 9/1/2016 12:25:21",
+		"testLiteralSequence" : "JanKurs 9/1/2016 12:25:21",
+		"testNot" : "JanKurs 9/1/2016 12:25:21",
+		"testPredicateObject" : "JanKurs 9/1/2016 12:25:21",
+		"testStartOfLine" : "JanKurs 9/1/2016 12:25:21" } }

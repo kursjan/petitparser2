@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"parse:withParser:withContext:" : "JanKurs 9/1/2016 15:33",
+		"testAndLiteralObject" : "JanKurs 9/1/2016 17:20",
+		"testAndPredicateObject" : "JanKurs 9/1/2016 17:20",
+		"testLiteralObject" : "JanKurs 9/1/2016 16:58",
+		"testNotLiteral" : "JanKurs 9/1/2016 15:37",
+		"testNotPredicateObject" : "JanKurs 9/1/2016 17:24",
+		"testTrimming" : "JanKurs 9/1/2016 15:34" } }

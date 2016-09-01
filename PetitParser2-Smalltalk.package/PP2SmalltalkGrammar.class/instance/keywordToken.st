@@ -1,3 +1,3 @@
 token
 keywordToken
-	^ keyword smalltalkToken
+	^ self keyword smalltalkToken

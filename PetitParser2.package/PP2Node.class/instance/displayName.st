@@ -1,5 +1,5 @@
 printing
 displayName
 	^ self name isNil
-		ifFalse: [ self name asString ]
-		ifTrue: [ self class name asString ]
+		ifFalse: [ self name asString, '(', self strategy displayName, ')' ]
+		ifTrue: [ self class name asString, '(', self strategy displayName, ')' ]

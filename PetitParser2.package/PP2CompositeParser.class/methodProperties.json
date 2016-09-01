@@ -1,18 +1,18 @@
 {
 	"class" : {
-		"dependencies" : "JanKurs 2/25/2016 22:19",
-		"ignoredNames" : "JanKurs 2/25/2016 22:31",
-		"new" : "JanKurs 2/25/2016 22:19",
-		"newStartingAt:" : "JanKurs 2/25/2016 22:44",
-		"parse:" : "JanKurs 2/25/2016 22:19",
-		"parse:onError:" : "JanKurs 2/25/2016 22:19",
-		"parse:startingAt:" : "JanKurs 2/25/2016 22:19",
-		"parse:startingAt:onError:" : "JanKurs 2/25/2016 22:19",
-		"startSymbol" : "JanKurs 2/25/2016 22:19" },
+		"dependencies" : "JanKurs 9/1/2016 12:25:21",
+		"ignoredNames" : "JanKurs 9/1/2016 12:25:21",
+		"new" : "JanKurs 9/1/2016 12:25:21",
+		"newStartingAt:" : "JanKurs 9/1/2016 12:25:21",
+		"parse:" : "JanKurs 9/1/2016 12:25:21",
+		"parse:onError:" : "JanKurs 9/1/2016 12:25:21",
+		"parse:startingAt:" : "JanKurs 9/1/2016 12:25:21",
+		"parse:startingAt:onError:" : "JanKurs 9/1/2016 12:25:21",
+		"startSymbol" : "JanKurs 9/1/2016 12:25:21" },
 	"instance" : {
-		"dependencyAt:" : "JanKurs 2/25/2016 22:19",
-		"initializeStartingAt:dependencies:" : "JanKurs 8/28/2016 17:18",
-		"productionAt:" : "JanKurs 2/25/2016 22:19",
-		"productionAt:ifAbsent:" : "JanKurs 2/25/2016 22:19",
-		"productionNames" : "JanKurs 2/25/2016 22:19",
-		"start" : "JanKurs 2/25/2016 22:19" } }
+		"dependencyAt:" : "JanKurs 9/1/2016 12:25:21",
+		"initializeStartingAt:dependencies:" : "JanKurs 9/1/2016 12:25:21",
+		"productionAt:" : "JanKurs 9/1/2016 12:25:21",
+		"productionAt:ifAbsent:" : "JanKurs 9/1/2016 12:25:21",
+		"productionNames" : "JanKurs 9/1/2016 12:25:21",
+		"start" : "JanKurs 9/1/2016 12:25:21" } }

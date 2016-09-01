@@ -1,17 +1,17 @@
 {
 	"class" : {
-		"isAbstract" : "JanKurs 2/25/2016 22:37",
-		"packageNamesUnderTest" : "JanKurs 10/2/2015 18:55" },
+		"isAbstract" : "JanKurs 9/1/2016 12:25:21",
+		"packageNamesUnderTest" : "JanKurs 9/1/2016 12:25:21" },
 	"instance" : {
-		"assert:fail:" : "JanKurs 10/2/2015 18:55",
-		"assert:fail:end:" : "JanKurs 8/26/2016 13:21",
-		"assert:includesSubstring:" : "JanKurs 10/2/2015 18:55",
-		"assert:parse:" : "JanKurs 10/2/2015 18:55",
-		"assert:parse:end:" : "JanKurs 10/2/2015 18:55",
-		"assert:parse:to:" : "JanKurs 10/2/2015 18:55",
-		"assert:parse:to:end:" : "JanKurs 8/26/2016 13:22",
-		"assert:parse:toTokenValue:" : "JanKurs 10/5/2015 18:07",
-		"assert:parse:toTokenValue:end:" : "JanKurs 10/5/2015 18:07",
-		"context" : "JanKurs 8/29/2016 00:19",
-		"initialize" : "JanKurs 8/26/2016 11:59",
-		"parse:withParser:withContext:" : "JanKurs 8/26/2016 13:22" } }
+		"assert:fail:" : "JanKurs 9/1/2016 12:25:21",
+		"assert:fail:end:" : "JanKurs 9/1/2016 12:25:21",
+		"assert:includesSubstring:" : "JanKurs 9/1/2016 12:25:21",
+		"assert:parse:" : "JanKurs 9/1/2016 12:25:21",
+		"assert:parse:end:" : "JanKurs 9/1/2016 12:25:21",
+		"assert:parse:to:" : "JanKurs 9/1/2016 12:25:21",
+		"assert:parse:to:end:" : "JanKurs 9/1/2016 12:25:21",
+		"assert:parse:toTokenValue:" : "JanKurs 9/1/2016 12:25:21",
+		"assert:parse:toTokenValue:end:" : "JanKurs 9/1/2016 12:25:21",
+		"context" : "JanKurs 9/1/2016 12:25:21",
+		"initialize" : "JanKurs 9/1/2016 12:25:21",
+		"parse:withParser:withContext:" : "JanKurs 9/1/2016 12:25:21" } }
