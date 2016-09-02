@@ -6,6 +6,9 @@ classificationFor: node
 	firstSet := node firstSet.
 	firstSet do: [ :first |  
 		charSet := first firstCharSet.
+		
+		charSet isUnknown ifTrue: [ ^ anythingClassification  ].
+		
 		charSet classification withIndexDo: [ :value :index |  
 			value ifTrue: [ classification at: index put: true ]
 		]

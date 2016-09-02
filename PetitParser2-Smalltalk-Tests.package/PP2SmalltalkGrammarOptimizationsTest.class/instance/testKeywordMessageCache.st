@@ -7,5 +7,7 @@ testKeywordMessageCache
 	identifiers := message firstProductionSet select: [ :node | node name = 'identifier' ].
 	strategy := identifiers anyOne strategy.
 	
-	self assert: strategy isKindOf: PP2Cache.
+	identifiers do: [ :identifier |
+		self assert: identifier strategies anySatisfy: [ :s | s isKindOf: PP2Cache].
+	].
 	self assert: identifiers allSatisfy: [ :id | id strategy == strategy ]

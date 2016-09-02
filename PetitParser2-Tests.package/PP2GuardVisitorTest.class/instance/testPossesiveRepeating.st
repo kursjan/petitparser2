@@ -1,6 +1,6 @@
 tests
 testPossesiveRepeating
-	parser := 'foo' asParser2 token trim star.
+	parser := 'foo' asParser2 token trim plus.
 	
 	self optimize: parser.
 	
