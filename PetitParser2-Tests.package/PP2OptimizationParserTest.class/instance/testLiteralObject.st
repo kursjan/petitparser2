@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testLiteralObject
 	
 	self assert: $a asParser2 flatten parse: 'a'.

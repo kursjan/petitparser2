@@ -10,8 +10,7 @@
 		"position",
 		"parser",
 		"retval",
-		"globals",
-		"lastTrimming" ],
+		"globals" ],
 	"name" : "PP2Context",
 	"pools" : [
 		 ],

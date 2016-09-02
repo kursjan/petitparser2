@@ -1,7 +1,7 @@
 parsing
 parseOn: context
 	| retval |
-	(context atLastTrimming) ifTrue: [ ^ failure ].
+	(context position == lastTrimming) ifTrue: [ ^ failure ].
 	retval := strategy parseOn: context.
-	context setLastTrimming.
+	lastTrimming := context position.
 	^ retval

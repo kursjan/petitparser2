@@ -1,0 +1,3 @@
+conversion
+bypass
+	^ self

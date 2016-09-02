@@ -8,8 +8,7 @@
 	"instvars" : [
 		"parser",
 		"retval",
-		"globals",
-		"lastTrimming" ],
+		"globals" ],
 	"name" : "PP2InMemoryContext",
 	"pools" : [
 		 ],

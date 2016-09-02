@@ -1,3 +1,0 @@
-optimizations
-atLastTrimming
-	^ position == lastTrimming

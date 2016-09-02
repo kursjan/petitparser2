@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 displayName
 	^ self class name asString, '(', self strategy displayName, ')'

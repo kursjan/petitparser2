@@ -2,6 +2,7 @@ parsing
 parseAdaptableWithContext: context
 	| retval |
 	context parser: self.
+	
 	retval := self parseOn: context.
 
 	^ retval isPetit2Success ifTrue: [ 

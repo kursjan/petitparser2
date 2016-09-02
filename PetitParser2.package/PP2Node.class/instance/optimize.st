@@ -18,4 +18,5 @@ optimize
 	PP2TrimmingGuardVisitor new doPass: self.
 	PP2CommonPrefixVisitor new doPass: self.
 	
+	PP2BypassDelegatesVisitor new doPass: self.
 	self setOptimized.
