@@ -1,4 +1,4 @@
 optimizations
 doPass: node
-	^ self visit: node
-	
+	self visit: node.
+	self changeStrategies: node	

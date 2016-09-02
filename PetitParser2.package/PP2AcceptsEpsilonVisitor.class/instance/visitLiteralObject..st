@@ -1,3 +1,0 @@
-visiting
-visitLiteralObject: node
-	^ false

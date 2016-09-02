@@ -13,7 +13,7 @@ visit: aPP2Node
 		^ self openedResultFor: aPP2Node
 	].
 
-	(self isClosed: aPP2Node) ifTrue: [
+	((self isClosed: aPP2Node) and: [ self shouldRevisit not]) ifTrue: [
 		^ self cachedResultFor: aPP2Node
 	].
 

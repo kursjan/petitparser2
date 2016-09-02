@@ -1,4 +1,4 @@
 support
 visit: node
-	parentAnalyzer visit: node.
-	visitor visit: node
+	parentAnalyzer doPass: node.
+	visitor doPass: node

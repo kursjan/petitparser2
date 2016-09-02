@@ -1,8 +1,8 @@
 visiting
 visitTrimmingToken: node
-	(self isTerminal: node) ifTrue: [ ^ IdentitySet with: node ].
+	(self isTerminal: node) ifTrue: [ ^ self setWithPossible: node ].
 
-	^ IdentitySet new 
+	^ (self setWithPossible: node) 
 		addAll: ((self visit: node trimmer) reject: [ :e | e isEpsilon ]);
 		addAll: (self visit: node child);
 		yourself

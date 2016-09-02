@@ -8,5 +8,5 @@ testTwoParents
 	
 	self visit: sequence.
 	
+	self assert: parser warnings size = 1.
 	self assert: parser strategy isKindOf: PP2StarPredicateObject.
-	self deny: parser strategy isKindOf: PP2StarPredicateObjectRecognizer.

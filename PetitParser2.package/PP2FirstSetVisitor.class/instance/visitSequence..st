@@ -1,15 +1,13 @@
 visiting
 visitSequence: node
 	| returnSet |
-	(self isTerminal: node) ifTrue: [ ^ IdentitySet with: node ].
-	
-	returnSet := IdentitySet new.
+	(self isTerminal: node) ifTrue: [ ^ self setWithPossible: node ].
+
+	returnSet := self setWithPossible: node.
 	node children do: [ :child | 
 		returnSet addAll: (self visit: child).
-		returnSet detect: [ :e | e isEpsilon ] 
-			ifFound: [ :eps | returnSet remove: eps  ]	
-			ifNone: [ ^ returnSet ]
+		child neverFails ifFalse: [ ^ returnSet reject: [ :e | e isEpsilon ] ]
 	].
 
-	returnSet add: PP2EpsilonNode instance.
+	self addIfPossible: PP2EpsilonNode instance to: returnSet.
 	^ returnSet

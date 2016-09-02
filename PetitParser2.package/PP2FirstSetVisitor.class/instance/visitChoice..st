@@ -1,9 +1,9 @@
 visiting
 visitChoice: node
 	| returnSet |
-	(self isTerminal: node) ifTrue: [ ^ IdentitySet with: node ].
+	(self isTerminal: node) ifTrue: [ ^ self setWithPossible: node ].
 	
-	returnSet := IdentitySet new.
+	returnSet := self setWithPossible: node.
 	node children do: [ :child | 
 		returnSet addAll: (self visit: child).
 	].

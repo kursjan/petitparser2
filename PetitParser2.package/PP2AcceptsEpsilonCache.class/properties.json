@@ -10,5 +10,5 @@
 	"name" : "PP2AcceptsEpsilonCache",
 	"pools" : [
 		 ],
-	"super" : "PP2AcceptsEpsilonVisitor",
+	"super" : "PP2NeverFailsVisitor",
 	"type" : "normal" }

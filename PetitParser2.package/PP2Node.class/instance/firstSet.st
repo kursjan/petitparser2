@@ -1,5 +1,5 @@
 analysis - first
 firstSet
 	^ self propertyAt: #firstSet ifAbsentPut: [
-		PP2FirstSetVisitor new visit: self
+		PP2FirstSetVisitor firstSet visit: self
 	]

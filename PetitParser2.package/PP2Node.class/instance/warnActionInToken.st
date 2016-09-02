@@ -1,7 +1,9 @@
 optimizations - warnings
 warnActionInToken
-	"give user feedback about this issues"
+	"
+		(($a asParser2, $b asParser2) ==> [ :e | e second ] token) optimize
+	"
+	| warning |
+	warning := self displayName, ' is in token, there shouldnt be actions in tokens. but it might be necessary, I admit :('.
 	
-	"
-		($a asParser2, $b asParser2) ==> [ :e | e second ] token
-	"
+	self addWarning: warning.

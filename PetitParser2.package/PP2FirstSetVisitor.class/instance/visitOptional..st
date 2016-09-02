@@ -1,5 +1,10 @@
 visiting
 visitOptional: node
-	(self isTerminal: node) ifTrue: [ ^ IdentitySet with: node ].
+	| set |
+	(self isTerminal: node) ifTrue: [ ^ self setWithPossible: node ].
 
-	^ IdentitySet with: PP2EpsilonNode instance withAll: (self visit: node child)
+	set := (self setWithPossible: node).
+	set addAll: (self visit: node child).
+	self addIfPossible: PP2EpsilonNode instance to: set.
+	
+	^ set

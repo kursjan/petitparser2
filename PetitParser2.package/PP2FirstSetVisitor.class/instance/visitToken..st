@@ -1,5 +1,5 @@
 visiting
 visitToken: node
-	(self isTerminal: node) ifTrue: [ ^ IdentitySet with: node ].
-	
-	^ self visit: node child
+	(self isTerminal: node) ifTrue: [ ^ self setWithPossible: node ].
+
+	^ self setWithPossible: node withAll: (self visit: node child) 

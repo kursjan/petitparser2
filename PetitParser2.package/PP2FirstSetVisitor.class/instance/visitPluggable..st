@@ -1,5 +1,5 @@
 visiting
 visitPluggable: node
-	(self isTerminal: node) ifTrue: [ ^ IdentitySet with: node ].
+	(self isTerminal: node) ifTrue: [ ^ self setWithPossible: node ].
 
-	^ IdentitySet with: node
+	^ self setWithPossible: node withAll: (self visit: node child) 

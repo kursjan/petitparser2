@@ -1,9 +1,12 @@
 visiting
 visitPossesiveRepeating: node
-	(self isTerminal: node) ifTrue: [ ^ IdentitySet with: node ].
-	
-	^ (node min = 0) ifTrue: [ 
-		IdentitySet with: PP2EpsilonNode instance withAll: (self visit: node child)
-	] ifFalse: [  
-		self visit: node child
-	]
+	| set |
+	(self isTerminal: node) ifTrue: [ ^ self setWithPossible: node ].
+
+	set := self setWithPossible: node withAll: (self visit: node child).
+
+	(node min = 0) ifTrue: [ 
+		self addIfPossible: PP2EpsilonNode instance to: set.
+	].
+
+	^ set
