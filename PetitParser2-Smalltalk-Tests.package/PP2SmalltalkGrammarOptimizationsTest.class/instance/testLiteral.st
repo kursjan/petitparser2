@@ -5,5 +5,5 @@ testLiteral
 	literal := parser allChildren detect: [ :node | node name = 'literal' ].
 	
 	literal child children do: [ :c |
-		self assert: c strategy isKindOf: PP2ChoiceAlternativeGuard 
+		self assert: c strategy isKindOf: PP2ParsingGuard 
 	]

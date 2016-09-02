@@ -8,7 +8,7 @@
 	"instvars" : [
 		"parser",
 		"visitor" ],
-	"name" : "PP2ChoiceGuardVisitorTest",
+	"name" : "PP2GuardVisitorTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

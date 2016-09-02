@@ -3,6 +3,7 @@ parseOn: context
 	invocations := invocations + 1.
 	(context position == position and: [id == context id]) ifTrue: [ 
 		hits := hits + 1.
+		context cacheHit.
 		context position: endPosition.
 		^ retval
 	].

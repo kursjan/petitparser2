@@ -1,4 +1,4 @@
 events
 next
-	self event: #step.
+	self event: #next.
 	^ super next

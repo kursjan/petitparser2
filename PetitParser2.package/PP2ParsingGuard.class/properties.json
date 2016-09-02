@@ -8,7 +8,7 @@
 	"instvars" : [
 		"classification",
 		"failure" ],
-	"name" : "PP2ChoiceAlternativeGuard",
+	"name" : "PP2ParsingGuard",
 	"pools" : [
 		 ],
 	"super" : "PP2WrappingStrategy",

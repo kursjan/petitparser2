@@ -1,5 +1,5 @@
 conversion
 choiceAlternativeGuard: classification
-	^ (PP2ChoiceAlternativeGuard on: self)
+	^ (PP2ParsingGuard on: self)
 		classification: classification;
 		yourself

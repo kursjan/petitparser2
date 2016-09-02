@@ -19,6 +19,6 @@ optimize
 	PP2FirstProductionSetCache new doPass: self.
 	PP2CommonPrefixVisitor new doPass: self.
 	
-	PP2ChoiceGuardVisitor new doPass: self.
+	PP2GuardVisitor new doPass: self.
 	
 	self setOptimized.
