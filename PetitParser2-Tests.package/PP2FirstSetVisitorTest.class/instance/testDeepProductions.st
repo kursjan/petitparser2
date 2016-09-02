@@ -1,0 +1,13 @@
+tests - productions
+testDeepProductions
+	| productionTop productionOne productionTwo |
+	productionOne := 'foo' asParser2 name: 'bar'.
+	productionTwo := 'bar' asParser2 name: 'baz'.
+	productionTop := (productionOne / productionTwo) wrapped name: 'bark'.
+	parser := productionTop plus.
+	
+	firstSet := self firstSetWithProduction: parser.
+	self assert: firstSet size equals: 3.
+	self assert: (firstSet includes: productionOne).
+	self assert: (firstSet includes: productionTwo).	
+	self assert: (firstSet includes: productionTop).		

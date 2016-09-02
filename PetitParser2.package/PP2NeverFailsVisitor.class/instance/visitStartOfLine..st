@@ -1,0 +1,3 @@
+visiting
+visitStartOfLine: node
+	^ false

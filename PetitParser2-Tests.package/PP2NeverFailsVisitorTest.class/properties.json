@@ -1,0 +1,15 @@
+{
+	"category" : "PetitParser2-Tests-Analysis",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"parser",
+		"visitor" ],
+	"name" : "PP2NeverFailsVisitorTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
