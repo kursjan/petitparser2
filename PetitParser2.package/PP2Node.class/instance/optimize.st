@@ -21,4 +21,5 @@ optimize
 	
 	PP2GuardVisitor new doPass: self.
 	
+	self propertyAt: #allCaches put: self collectCaches.
 	self setOptimized.

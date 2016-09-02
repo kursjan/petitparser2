@@ -1,3 +1,3 @@
 initialization
 reset
-	position := nil
+	position := -1
