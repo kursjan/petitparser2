@@ -1,5 +1,5 @@
 {
-	"category" : "PetitParser2-Optimizations",
+	"category" : "PetitParser2-Strategies",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "PP2BypassDelegatesVisitor",
+	"name" : "PP2AbstractStrategy",
 	"pools" : [
 		 ],
-	"super" : "PP2NoopVisitor",
+	"super" : "Object",
 	"type" : "normal" }

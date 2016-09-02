@@ -14,10 +14,9 @@ visitChoice: choice
 	"
 	productionsBag doWithOccurrences: [ :production :occurences | 
 		(occurences > 1 and: [self cacheMakesSense: production]) ifTrue: [ 
-			productions select: [ :e | e = production ] thenDo: [ :e | | strategy |
+			productions select: [ :e | e = production ] thenDo: [ :e |
 				"note that we are sharing the same strategy over multiple productions!"
-				strategy := production strategy cache.
-				e changeStrategy: strategy 
+				self cache: e production: production.
 			] 
 		]
 	].

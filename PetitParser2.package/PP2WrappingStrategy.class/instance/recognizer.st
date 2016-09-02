@@ -1,3 +1,3 @@
 conversion
 recognizer
-	^ strategy recognizer
+	strategy := strategy recognizer

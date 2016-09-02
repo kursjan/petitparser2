@@ -9,4 +9,4 @@ identifier
 				on: [ :each | each isAlphaNumeric or: [ each = $_ ] ]
 				message: 'letter or digit expected').
 				
-	^ letter, word star
+	^ (letter, word star)

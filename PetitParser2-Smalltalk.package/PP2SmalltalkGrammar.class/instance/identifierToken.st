@@ -1,3 +1,3 @@
 token
 identifierToken
-	^ self identifier smalltalkToken
+	^ identifier smalltalkToken
