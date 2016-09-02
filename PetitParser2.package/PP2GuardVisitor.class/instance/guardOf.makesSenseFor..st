@@ -10,4 +10,7 @@ guardOf: classification makesSenseFor: node
 	"if guard passes for so many characters, it is probably better not to guard"
 	(size > 128) ifTrue: [ ^ false ].
 	
+	"It is already guarded"
+	(self isWellGuarded: classification) ifTrue: [ ^ false ].
+	
 	^ true

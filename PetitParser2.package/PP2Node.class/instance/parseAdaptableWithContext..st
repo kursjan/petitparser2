@@ -2,6 +2,7 @@ parsing
 parseAdaptableWithContext: context
 	| retval |
 	context parser: self.
+	self allCaches do: [ :cache | cache reset ].
 	
 	retval := self parseOn: context.
 

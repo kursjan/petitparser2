@@ -5,5 +5,5 @@ testTrimmings
 	trimmings := parser allChildren select: [ :node | node isTrimming ].
 	
 	trimmings do: [ :c |
-		self assert: c trimmer strategy isKindOf: PP2TrimmingGuard 
+		self assert: c trimmer strategy isKindOf: PP2TrimmingCache 
 	]

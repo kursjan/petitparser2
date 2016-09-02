@@ -8,7 +8,7 @@
 	"instvars" : [
 		"failure",
 		"lastTrimming" ],
-	"name" : "PP2TrimmingGuard",
+	"name" : "PP2TrimmingCache",
 	"pools" : [
 		 ],
 	"super" : "PP2WrappingStrategy",

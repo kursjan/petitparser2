@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "PP2TrimmingGuardVisitor",
+	"name" : "PP2TrimmingCacheVisitor",
 	"pools" : [
 		 ],
 	"super" : "PP2NoopVisitor",

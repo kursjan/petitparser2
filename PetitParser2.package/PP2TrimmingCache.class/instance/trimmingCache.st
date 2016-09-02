@@ -1,3 +1,3 @@
 conversion
-trimmingGuard
+trimmingCache
 	^ self

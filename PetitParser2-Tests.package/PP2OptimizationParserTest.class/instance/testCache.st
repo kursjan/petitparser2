@@ -13,13 +13,13 @@ testCache
 	self assert: counter equals: 1.
 	
 	parser parseAdaptableWithContext: contextOne.
-	self assert: counter equals: 1.
+	self assert: counter equals: 2.
 	
 	contextOne next.
 	parser parseAdaptableWithContext: contextOne.
-	self assert: counter equals: 2.
+	self assert: counter equals: 3.
 
 	parser parseAdaptableWithContext: contextTwo.
-	self assert: counter equals: 3.
+	self assert: counter equals: 4.
 
 	

@@ -9,7 +9,6 @@
 		"position",
 		"retval",
 		"endPosition",
-		"id",
 		"invocations",
 		"hits" ],
 	"name" : "PP2Cache",

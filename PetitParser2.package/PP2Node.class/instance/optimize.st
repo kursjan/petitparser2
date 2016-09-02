@@ -14,7 +14,7 @@ optimize
 		Should be called before CommonPrefix. Both do caching, but trimming is tailored to the
 		whitespace handling in PP2 and has more suitable cache.
 	"
-	PP2TrimmingGuardVisitor new doPass: self.
+	PP2TrimmingCacheVisitor new doPass: self.
 	
 	PP2FirstProductionSetCache new doPass: self.
 	PP2CommonPrefixVisitor new doPass: self.

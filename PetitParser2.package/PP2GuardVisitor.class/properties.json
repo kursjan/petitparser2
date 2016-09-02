@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"guarded",
+		"anythingClassification" ],
 	"name" : "PP2GuardVisitor",
 	"pools" : [
 		 ],

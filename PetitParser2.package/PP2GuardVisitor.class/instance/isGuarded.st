@@ -1,0 +1,3 @@
+testing
+isGuarded
+	^ guarded isEmpty
