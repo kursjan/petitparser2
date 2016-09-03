@@ -4,4 +4,6 @@
 	"instance" : {
 		"setUp" : "JanKurs 9/3/2016 13:26",
 		"testActualForSource" : "JanKurs 9/3/2016 13:27",
-		"testExpectedForSource" : "JanKurs 9/3/2016 13:27" } }
+		"testActualForSourceSingleNumber" : "JanKurs 9/3/2016 17:57",
+		"testExpectedForSource" : "JanKurs 9/3/2016 13:27",
+		"testExpectedForSourceSingleNumber" : "JanKurs 9/3/2016 17:57" } }

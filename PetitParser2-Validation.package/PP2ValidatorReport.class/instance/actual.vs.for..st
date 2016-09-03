@@ -2,7 +2,7 @@ events
 actual: actual vs: expected for: source
 	| entry |
 
-	(actual isPetitFailure and: [ expected isPetitFailure not ]) ifTrue: [ 
+	(actual isPetit2Failure and: [ expected isPetit2Failure not ]) ifTrue: [ 
 		entry := PP2ValidatorReportEntry new.
 		entry actual: #().
 		entry expected: expected.
@@ -11,7 +11,7 @@ actual: actual vs: expected for: source
 		^ self failure: actual forSource: source.
 	].
 
-	(actual isPetitFailure and: [ expected isPetitFailure ]) ifTrue: [ 
+	(actual isPetit2Failure and: [ expected isPetit2Failure ]) ifTrue: [ 
 		entry := PP2ValidatorReportEntry new.
 		entry expected: #().
 		entry actual: #().
@@ -20,7 +20,7 @@ actual: actual vs: expected for: source
 		^ self
 	].
 
-	(actual isPetitFailure not and: [ expected isPetitFailure ]) ifTrue: [ 
+	(actual isPetit2Failure not and: [ expected isPetit2Failure ]) ifTrue: [ 
 		entry := PP2ValidatorReportEntry new.
 		entry expected: #().
 		entry actual: actual.
