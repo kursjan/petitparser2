@@ -1,14 +1,16 @@
 {
-	"category" : "PetitParser2-Tests-Core",
+	"category" : "PetitParser2-Tests-Streams",
 	"classinstvars" : [
 		 ],
+	"classtraitcomposition" : "TPP2StreamContextInterface classTrait",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"stream" ],
+		 ],
 	"name" : "PP2BufferStreamTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",
+	"traitcomposition" : "TPP2StreamContextInterface",
 	"type" : "normal" }

@@ -1,5 +1,6 @@
 tests
 testInstanceCreation
-	stream := PP2BufferStream on: (ReadStream on: ''). 
+	| stream |
+	stream := self streamOn: ''.
 	self assert: (stream buffer isKindOf: String).
 	self assert: (stream buffer size = stream bufferSize).

@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testAtEnd" : "JanKurs 9/3/2016 12:15",
+		"testCopyFromTo" : "JanKurs 9/3/2016 12:15",
+		"testNewToken" : "JanKurs 9/3/2016 12:16",
+		"testRandomAccess" : "JanKurs 9/3/2016 12:16",
+		"testRandomAccessReversed" : "JanKurs 9/3/2016 12:18" } }

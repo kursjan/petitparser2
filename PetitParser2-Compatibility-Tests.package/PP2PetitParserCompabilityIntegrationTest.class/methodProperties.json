@@ -5,6 +5,6 @@
 		"parse:withParser:withContext:" : "JanKurs 8/26/2016 13:27",
 		"testRepetitions" : "JanKurs 8/13/2016 11:18",
 		"testSmalltalkGrammar" : "JanKurs 8/13/2016 12:45",
-		"testSmalltalkGrammarWithBufferStream" : "JanKurs 8/23/2016 13:17",
-		"testSmalltalkIdentierWithBufferStream" : "JanKurs 8/23/2016 13:18",
+		"testSmalltalkGrammarWithBufferStream" : "JanKurs 9/3/2016 11:53",
+		"testSmalltalkIdentierWithBufferStream" : "JanKurs 9/3/2016 11:53",
 		"testToken" : "JanKurs 8/12/2016 10:03" } }

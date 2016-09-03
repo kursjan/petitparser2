@@ -1,14 +1,14 @@
 {
-	"category" : "PetitParser2-Tests-BufferStream",
+	"category" : "PetitParser2-Tests-Streams",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "JanKurs 9/3/2016 11:55",
 	"instvars" : [
 		"values",
 		"position" ],
-	"name" : "MinimalStream",
+	"name" : "PP2MinimalStream",
 	"pools" : [
 		 ],
 	"super" : "Stream",

@@ -1,7 +1,7 @@
 tests
 testToken
 	parser := 'aa' asParser2 token.
-	stream := PP2BufferStream on: (MinimalStream on: 'aa').
+	stream := PP2BufferStream on: (PP2MinimalStream on: 'aa').
 	
 	self assert: (result := (parser parse: stream)) isPetit2Success.
 	self assert: (result value isKindOf: PP2Token).

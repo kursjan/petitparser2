@@ -3,7 +3,7 @@ actualForSource: source
 	| result |
 	
 	[
-		result := parser parse: (PP2BufferStream on: (MinimalStream on: source) bufferSize: 64).
+		result := parser parse: (PP2BufferStream on: (PP2MinimalStream on: source) bufferSize: 64).
 	] on: SubscriptOutOfBounds do: [  
 		(PP2SkipValidation reason: 'To small buffer') signal
 	].

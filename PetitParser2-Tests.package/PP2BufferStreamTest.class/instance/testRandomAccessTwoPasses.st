@@ -1,6 +1,7 @@
 tests - context interface
-testRandomAccess4
-	stream := PP2BufferStream on: (ReadStream on: 'foobar') bufferSize: 2. 
+testRandomAccessTwoPasses
+	| stream |
+	stream := self streamOn: 'foobar' bufferSize: 2. 
 	
 	self assert: (stream atPosition: 1) = $f.	
 	self assert: (stream atPosition: 2) = $o.

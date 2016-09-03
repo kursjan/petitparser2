@@ -1,6 +1,6 @@
 testing
 testNext
-	context := (MinimalStream on: 'foo') asPetit2Stream asPetit2Context.
+	context := (PP2MinimalStream on: 'foo') asPetit2Stream asPetit2Context.
 	
 	retval := context next: 3.
 	self assert: retval isPetit2Success.

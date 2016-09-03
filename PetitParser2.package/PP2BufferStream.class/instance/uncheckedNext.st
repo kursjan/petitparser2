@@ -1,4 +1,4 @@
-stream access
+private
 uncheckedNext
 	| bufferIndex |
 	bufferIndex := (position % bufferSize) + 1.

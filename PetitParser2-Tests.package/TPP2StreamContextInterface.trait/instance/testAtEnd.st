@@ -1,14 +1,12 @@
 tests - context interface
 testAtEnd
-	"
-		TODO JK: change the indexing of to start from 1?
-	"
-	stream := PP2Stream on: ''. 
+	| stream |
+	stream := self streamOn: ''. 
 	self assert: (stream atEnd: 0).
 	self assert: (stream atEnd: 1).
 
 
-	stream := PP2Stream on: 'f'. 
+	stream := self streamOn: 'f'. 
 	self assert: (stream atEnd: 0) not.
 	self assert: (stream atEnd: 1).
 	self assert: (stream atEnd: 2).

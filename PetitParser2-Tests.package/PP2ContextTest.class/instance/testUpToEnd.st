@@ -1,6 +1,6 @@
 testing
 testUpToEnd
-	context := (MinimalStream on: 'foobar') asPetit2Stream asPetit2Context.
+	context := (PP2MinimalStream on: 'foobar') asPetit2Stream asPetit2Context.
 
 	self assert: context position equals: 0.
 		

@@ -1,0 +1,1 @@
+Expects a PP2Stream interface

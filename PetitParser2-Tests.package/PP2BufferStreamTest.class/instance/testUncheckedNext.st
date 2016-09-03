@@ -1,6 +1,7 @@
 tests
 testUncheckedNext
-	stream := PP2BufferStream on: (ReadStream on: 'foo'). 
+	| stream |
+	stream := self streamOn: 'foo'. 
 	
 	self assert: stream uncheckedNext = $f.
 	self assert: stream uncheckedNext = $o.

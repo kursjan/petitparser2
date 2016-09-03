@@ -1,6 +1,7 @@
 tests
 testCopyFromToSmallBuffer
-	stream := PP2BufferStream on: (ReadStream on: 'foobar') bufferSize: 3. 
+	| stream |
+	stream :=  self streamOn: 'foobar' bufferSize: 3. 
 
 	self assert: (stream copyFrom: 1 to: 3) = 'foo'.
 	self assert: (stream copyFrom: 2 to: 4) = 'oob'.
