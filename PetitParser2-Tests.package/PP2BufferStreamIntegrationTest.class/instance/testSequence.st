@@ -1,8 +1,8 @@
 tests
-testStream
+testSequence
 	"Test with stream that provides only atEnd and next:"
 
 	parser := $a asParser2, $a asParser2.
-	stream := PP2MinimalStream on: 'aa'.
+	stream := self streamOn: 'aa'.
 	
-	self assert: (parser parse: 'aa') isPetit2Success.
+	self assert: parser parse: stream to: #($a $a) end: 2

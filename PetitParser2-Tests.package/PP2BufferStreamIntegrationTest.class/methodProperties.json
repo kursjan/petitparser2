@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"parse:withParser:withContext:" : "JanKurs 9/3/2016 12:43",
+		"streamOn:" : "JanKurs 9/3/2016 12:41",
+		"streamOn:bufferSize:" : "JanKurs 9/3/2016 12:41",
+		"testIdentifier" : "JanKurs 9/3/2016 12:46",
+		"testIdentifierSmallBuffer" : "JanKurs 9/3/2016 12:47",
+		"testIdentifierSmallBufferError" : "JanKurs 9/3/2016 12:51",
+		"testPredicate" : "JanKurs 9/3/2016 12:47",
+		"testSequence" : "JanKurs 9/3/2016 12:48",
+		"testStreamBacktrack" : "JanKurs 9/3/2016 12:49",
+		"testStreamBacktrackBufferSmall" : "JanKurs 9/3/2016 12:49",
+		"testStreamBacktrackBufferTooSmall" : "JanKurs 9/3/2016 12:50",
+		"testStreamBufferTooSmall" : "JanKurs 9/3/2016 12:52",
+		"testToken" : "JanKurs 9/3/2016 12:52" } }
