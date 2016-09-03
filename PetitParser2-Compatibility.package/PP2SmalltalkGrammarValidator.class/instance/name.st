@@ -1,3 +1,3 @@
 accessing
 name
-	^ 'PP2SmalltalkGrammar'
+	^ 'PP2SmalltalkGrammar Compatibility'

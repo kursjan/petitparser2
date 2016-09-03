@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"accept:" : "JanKurs 9/1/2016 12:25:21",
-		"children" : "JanKurs 9/1/2016 12:25:21",
+		"children" : "JanKurs 9/3/2016 14:47",
 		"defaultTokenClass" : "JanKurs 9/1/2016 12:25:21",
 		"initialize" : "JanKurs 9/1/2016 12:25:21",
 		"isToken" : "JanKurs 9/1/2016 12:25:21",
@@ -11,7 +11,7 @@
 		"localEquals:" : "JanKurs 9/1/2016 12:25:21",
 		"localHash" : "JanKurs 9/1/2016 12:25:21",
 		"parseOn:" : "JanKurs 9/1/2016 12:25:21",
-		"parseTokenWithContext:" : "JanKurs 9/1/2016 12:25:21",
+		"parseTokenWithContext:" : "JanKurs 9/3/2016 14:47",
 		"tokenClass" : "JanKurs 9/1/2016 12:25:21",
 		"tokenClass:" : "JanKurs 9/1/2016 12:25:21",
 		"trimmer" : "JanKurs 9/1/2016 12:25:21",

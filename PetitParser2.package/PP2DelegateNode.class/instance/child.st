@@ -1,3 +1,3 @@
 accessing
 child
-	^ parser
+	^ child

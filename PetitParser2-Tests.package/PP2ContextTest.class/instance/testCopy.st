@@ -1,6 +1,6 @@
 tests
 testCopy
-	| newContext |
+	| newContext context |
 	context := PP2Context new
  		position: #postion;
 		stream: #stream;

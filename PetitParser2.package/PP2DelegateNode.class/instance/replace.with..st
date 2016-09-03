@@ -1,3 +1,3 @@
 transforming
 replace: aParser with: anotherParser
-	parser == aParser ifTrue: [ parser := anotherParser ]
+	child == aParser ifTrue: [ child := anotherParser ]

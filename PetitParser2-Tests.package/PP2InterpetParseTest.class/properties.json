@@ -2,6 +2,7 @@
 	"category" : "PetitParser2-Tests-Parsing",
 	"classinstvars" : [
 		 ],
+	"classtraitcomposition" : "TPP2ParseTest classTrait",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -10,5 +11,6 @@
 	"name" : "PP2InterpetParseTest",
 	"pools" : [
 		 ],
-	"super" : "PP2ParseTest",
+	"super" : "PP2AbstractParserTest",
+	"traitcomposition" : "TPP2ParseTest",
 	"type" : "normal" }

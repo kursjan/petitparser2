@@ -1,4 +1,4 @@
-as yet unclassified
+validation
 expectedForSource: source
 	| result |
 	result := parser parse: source.

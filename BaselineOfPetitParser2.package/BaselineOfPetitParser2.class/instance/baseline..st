@@ -16,7 +16,6 @@ baseline: spec
 			package: 'PetitParser2-Validation' with: [ spec requires: #('PetitParser2') ];
 			package: 'PetitParser2-Validation-Tests' with: [ spec requires: #('PetitParser2-Validation' 'PetitParser2-Tests') ];
 			package: 'PetitParser2-Benchmarks' with: [ spec requires: #('PetitParser2' 'PetitParser2-Validation' 'PetitParser2-Smalltalk') ];
-			package: 'PetitParser2-Benchmarks-GUI' with: [ spec requires: #('PetitParser2-Benchmarks') ];
 			package: 'PetitParser2-Compatibility' with: [ spec requires: #('PetitParser' 'PetitParser2' 'PetitParser2-Validation') ];
 			package: 'PetitParser2-Compatibility-Tests' with: [ spec requires: #('PetitParser2-Validation-Tests' 'PetitParser2-Compatibility') ];
 
@@ -25,7 +24,7 @@ baseline: spec
 					className: 'ConfigurationOfPetitParser';
 					file: 'ConfigurationOfPetitParser';
 					version: #stable;
-					loads: #(#'Parser');
+					loads: 'Parser';
 					repository: 'http://www.smalltalkhub.com/mc/Moose/PetitParser/main' ].
 
 		spec group: 'Core' with: #('PetitParser2' 'PetitParser2-Tests').
@@ -36,7 +35,6 @@ baseline: spec
 											'PetitParser2-Backtracking' 
 											'PetitParser2-Backtracking-Tests'
 											'PetitParser2-Benchmarks' 
-											'PetitParser2-Benchmarks-GUI' 
 											'PetitParser2-Smalltalk' 
 											'PetitParser2-Smalltalk-Tests' 
 											'PetitParser2-Validation' 
@@ -45,6 +43,7 @@ baseline: spec
 											'PetitParser2-Compatibility-Tests').
 	].
 
+	self flag: 'JK: Not sure how to specify the dependency on Glamour. Needs to be solved properly'.
 	spec for: #('squeakCommon')  do: [
 		spec project: 'Glamour' with: [
 			spec
@@ -54,7 +53,8 @@ baseline: spec
 				repository: 'http://www.smalltalkhub.com/mc/Moose/Glamour/main' ].
 		spec 
 			package: 'PetitParser2-GUI' with: [ spec requires: #('Glamour' 'PetitParser2') ];
-			package: 'PetitParser2-GUI-Tests' with: [ spec requires: #('PetitParser2-GUI') ].
-		
-		spec group: 'IDE' with: #( 'PetitParser2-GUI' ) 
+			package: 'PetitParser2-GUI-Tests' with: [ spec requires: #('PetitParser2-GUI') ];
+			package: 'PetitParser2-Benchmarks-GUI' with: [ spec requires: #('PetitParser2-Benchmarks') ].
+			
+		spec group: 'IDE' with: #( 'PetitParser2-GUI' 'PetitParser2-Benchmarks-GUI' ) 
 	] 

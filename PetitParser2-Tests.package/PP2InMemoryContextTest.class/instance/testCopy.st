@@ -1,6 +1,6 @@
 tests
 testCopy
-	| stream newContext |
+	| stream newContext context |
 	stream := 'foo' asPetit2Stream.
 	
 	context := PP2InMemoryContext new

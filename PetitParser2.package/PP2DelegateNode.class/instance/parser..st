@@ -1,3 +1,3 @@
 accessing
 parser: anObject
-	parser := anObject
+	child := anObject

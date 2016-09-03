@@ -5,4 +5,4 @@ testSanity
 				   (nil asParser2, '' asParser2)) end.
 	PP2AcceptsEpsilonCache new doPass: parser.
 	
-	self assert: (parser allChildren allSatisfy: [ :child | child hasProperty: #neverFails ])
+	self assert: (parser allNodes allSatisfy: [ :child | child hasProperty: #neverFails ])

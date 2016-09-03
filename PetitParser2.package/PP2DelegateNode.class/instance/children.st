@@ -1,3 +1,3 @@
 accessing
 children
-	^ Array with: parser
+	^ Array with: child

@@ -3,7 +3,7 @@ testCaches
 
 	| cached |
 	parser := PP2SmalltalkGrammar new optimize.
-	cached := parser allChildren select: [ :child |
+	cached := parser allNodes select: [ :child |
 		child strategies anySatisfy: [ :s | s isKindOf:PP2Cache ]
 	].
 

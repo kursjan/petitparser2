@@ -3,6 +3,7 @@ testCache2
 	| parser context result |
 	parser := $a asParser2 star.
 	parser strategy: parser strategy cache.
+	parser setOptimized.
 	
 	context := 'aaa' asPetit2Context.
 

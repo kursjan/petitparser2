@@ -1,6 +1,8 @@
 operators
-times: integer
+times: anInteger
+	"Answer a new parser that parses the receiver exactly anInteger times."
+	
 	^ (PP2PossesiveRepeatingNode on: self)
-		min: integer;
-		max: integer;
+		min: anInteger;
+		max: anInteger;
 		yourself

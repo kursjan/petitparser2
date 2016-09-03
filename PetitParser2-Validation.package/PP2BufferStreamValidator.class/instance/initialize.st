@@ -2,4 +2,4 @@ initialization
 initialize
 	super initialize.
 	
-	parser := PP2ExpressionGrammar new
+	parser := PP2ExpressionParser new

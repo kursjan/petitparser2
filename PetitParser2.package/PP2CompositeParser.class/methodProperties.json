@@ -11,8 +11,8 @@
 		"startSymbol" : "JanKurs 9/1/2016 12:25:21" },
 	"instance" : {
 		"dependencyAt:" : "JanKurs 9/1/2016 12:25:21",
-		"initializeStartingAt:dependencies:" : "JanKurs 9/1/2016 12:25:21",
+		"initializeStartingAt:dependencies:" : "JanKurs 9/3/2016 14:47",
 		"productionAt:" : "JanKurs 9/1/2016 12:25:21",
-		"productionAt:ifAbsent:" : "JanKurs 9/1/2016 12:25:21",
+		"productionAt:ifAbsent:" : "JanKurs 9/3/2016 14:47",
 		"productionNames" : "JanKurs 9/1/2016 12:25:21",
 		"start" : "JanKurs 9/1/2016 12:25:21" } }

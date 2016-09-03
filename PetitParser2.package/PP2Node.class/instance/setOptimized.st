@@ -1,3 +1,3 @@
 optimizations
 setOptimized
-	^ self propertyAt: #optimized ifAbsentPut: true
+	^ self allNodesDo: [ :node | node propertyAt: #optimized ifAbsentPut: true ]

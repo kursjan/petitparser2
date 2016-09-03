@@ -5,4 +5,4 @@ testSanity
 				   (nil asParser2, '' asParser2)) end.
 	PP2FirstSetCache new doPass: parser.
 	
-	self assert: (parser allChildren allSatisfy: [ :child | child hasProperty: #firstSet ])
+	self assert: (parser allNodes allSatisfy: [ :child | child hasProperty: #firstSet ])

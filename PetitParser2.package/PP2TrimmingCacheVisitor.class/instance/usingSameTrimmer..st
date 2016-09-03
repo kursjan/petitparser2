@@ -1,7 +1,7 @@
 optimizations
 usingSameTrimmer: node
 	| trimmings trimmers |
-	trimmings := node allChildren select: [ :c | c isTrimming ].
+	trimmings := node allNodes select: [ :c | c isTrimming ].
 	
 	trimmers := trimmings collect: [ :e | e trimmer ].
 

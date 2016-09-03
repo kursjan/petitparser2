@@ -5,4 +5,4 @@ cacheMakesSense: node
 	parser class == PP2DelegateNode ifTrue: [ parser := parser child ].
 	"trimmers are already optimized, I care about the body"
 	parser isTrimming ifTrue: [ parser := parser child ].
-	^ parser allChildren size > 2
+	^ parser allNodes size > 2

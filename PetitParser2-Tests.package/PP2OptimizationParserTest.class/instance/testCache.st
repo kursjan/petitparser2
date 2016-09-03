@@ -5,6 +5,7 @@ testCache
 
 	parser := [ :ctx | counter := counter + 1. #foo ] asParser2.
 	parser strategy: parser strategy cache.
+	parser setOptimized.
 
 	contextOne := 'foo' asPetit2Context.
 	contextTwo := 'bar' asPetit2Context.

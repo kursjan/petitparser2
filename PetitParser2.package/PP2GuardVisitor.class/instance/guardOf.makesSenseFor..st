@@ -2,7 +2,7 @@ support
 guardOf: classification makesSenseFor: node
 	| size |
 	"if there are too little children, the overhead of a guard is too high"
-	(node allChildren size < 4) ifTrue: [ ^ false ].
+	(node allNodes size < 4) ifTrue: [ ^ false ].
 
 	size := ((1 to: 255) 	collect: [ :index | classification at: index ]
 							  	thenSelect: [ :e | e ]) size.

@@ -1,3 +1,3 @@
 accessing
 child: newChild
-	parser := newChild
+	child := newChild

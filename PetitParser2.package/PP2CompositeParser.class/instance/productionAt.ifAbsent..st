@@ -5,7 +5,7 @@ productionAt: aSymbol ifAbsent: aBlock
 	(self class ignoredNames includes: aSymbol asString)
 		ifTrue: [ ^ aBlock value ].
 	(self class startSymbol = aSymbol)
-		ifTrue: [ ^ parser ].
+		ifTrue: [ ^ child ].
 	^ self instVarAt: (self class allInstVarNames
 		indexOf: aSymbol asString
 		ifAbsent: [ ^ aBlock value ])

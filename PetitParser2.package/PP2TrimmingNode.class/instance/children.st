@@ -1,3 +1,3 @@
 accessing
 children
-	^ Array with: trimmer with: parser
+	^ Array with: trimmer with: child
