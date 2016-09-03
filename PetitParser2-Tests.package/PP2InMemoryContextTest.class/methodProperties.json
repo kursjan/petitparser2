@@ -2,17 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testAsPetit2Context" : "JanKurs 9/1/2016 12:25:21",
-		"testAsPositionableStream" : "JanKurs 9/1/2016 12:25:21",
-		"testAtEnd" : "JanKurs 9/1/2016 12:25:21",
-		"testCopy" : "JanKurs 8/28/2016 19:20",
-		"testNext" : "JanKurs 9/1/2016 12:25:21",
-		"testNext2" : "JanKurs 9/1/2016 12:25:21",
-		"testSuccess" : "JanKurs 9/1/2016 12:25:21",
-		"testUncheckedNext" : "JanKurs 9/1/2016 12:25:21",
-		"testUncheckedPeek" : "JanKurs 9/1/2016 12:25:21",
-		"testUpTo" : "JanKurs 9/1/2016 12:25:21",
-		"testUpTo2" : "JanKurs 9/1/2016 12:25:21",
-		"testUpTo3" : "JanKurs 9/1/2016 12:25:21",
-		"testUpTo4" : "JanKurs 9/1/2016 12:25:21",
-		"testUpToEnd" : "JanKurs 9/1/2016 12:25:21" } }
+		"contextOn:" : "JanKurs 9/3/2016 13:12",
+		"testAsPetit2Context" : "JanKurs 9/3/2016 13:10",
+		"testAsPositionableStream" : "JanKurs 9/3/2016 13:13",
+		"testCopy" : "JanKurs 9/3/2016 13:02" } }

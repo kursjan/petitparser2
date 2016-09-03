@@ -1,6 +1,7 @@
-testing
+tests
 testUncheckedPeek
-	context := (PP2MinimalStream on: 'foo') asPetit2Stream asPetit2Context.
+	| context |
+	context := self contextOn: 'foo'.
 		
 	self assert: context uncheckedPeek == $f.
 	

@@ -2,14 +2,15 @@
 	"category" : "PetitParser2-Tests-Core",
 	"classinstvars" : [
 		 ],
+	"classtraitcomposition" : "TPP2ContextTest classTrait",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"context",
-		"retval" ],
+		 ],
 	"name" : "PP2InMemoryContextTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",
+	"traitcomposition" : "TPP2ContextTest",
 	"type" : "normal" }

@@ -1,6 +1,7 @@
-testing
+tests
 testUpTo3
-	context := (PP2MinimalStream on: 'foobar') asPetit2Stream asPetit2Context.
+	| context retval |
+	context := self contextOn: 'foobar'.
 
 	self assert: context position equals: 0.
 		

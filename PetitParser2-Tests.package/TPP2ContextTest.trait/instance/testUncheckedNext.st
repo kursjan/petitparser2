@@ -1,6 +1,7 @@
-testing
+tests
 testUncheckedNext
-	context := (PP2MinimalStream on: 'foo') asPetit2Stream asPetit2Context.
+	| context retval |
+	context := self contextOn: 'foo'.
 	
 	self assert: context position equals: 0.
 	

@@ -1,8 +1,8 @@
-testing
+tests
 testSuccess
-	context := PP2Context new
+	| context |
+	context := (self contextOn: 'bar')
 		position: 1;
-		stream: 'bar' asPetit2Stream;
 		retval: #foo;
 		yourself.
 	

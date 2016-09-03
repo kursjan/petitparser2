@@ -1,4 +1,4 @@
-testing
+tests
 testAsPetit2Context
 	context := (PP2MinimalStream on: 'foo') asPetit2Stream asPetit2Context.
 	

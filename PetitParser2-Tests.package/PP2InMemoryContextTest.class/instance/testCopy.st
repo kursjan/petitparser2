@@ -1,9 +1,11 @@
-testing
+tests
 testCopy
-	| newContext |
-	context := PP2Context new
- 		position: #postion;
-		stream: #stream;
+	| stream newContext |
+	stream := 'foo' asPetit2Stream.
+	
+	context := PP2InMemoryContext new
+		stream: stream;
+ 		position: 1;
 		parser: #parser;
 		continuationStack: #continuationStack;
 		yourself.
@@ -12,6 +14,6 @@ testCopy
 	
 	self deny: context == newContext.
 	self assert: context position = newContext position.
-	self assert: context stream = newContext stream.	
+	self assert: context contents = newContext contents.	
 	self assert: context parser = newContext parser.
 	self assert: context continuationStack = newContext continuationStack.

@@ -1,12 +1,11 @@
-testing
+tests - converting
 testAsPositionableStream
-	| stream |
+	| stream context |
 	
 	context := 'bar' asPetit2Stream asPetit2Context.
 	context position: 2.
 
 	stream := context asPositionableStream.
-	
 	
 	self assert: (stream isKindOf: PositionableStream).
 	self assert: stream position equals: 2.

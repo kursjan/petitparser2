@@ -1,10 +1,11 @@
-testing
-testUpTo3
-	context := 'foobar' asPetit2Stream asPetit2Context.
+tests
+testUpTo2
+	| context retval |
+	context := self contextOn: 'foobar'.
 
 	self assert: context position equals: 0.
 		
-	retval := context upTo: $x.
+	retval := context upTo: $r.
 
 	self assert: context position equals: 6.
 	self assert: retval equals: 'foobar'.

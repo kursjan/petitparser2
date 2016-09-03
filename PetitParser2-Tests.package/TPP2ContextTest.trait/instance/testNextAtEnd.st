@@ -1,6 +1,7 @@
-testing
-testNext2
-	context := (PP2MinimalStream on: 'foo') asPetit2Stream asPetit2Context.
+tests
+testNextAtEnd
+	| context retval |
+	context := self contextOn: 'foo'.
 	
 	context position: 3.
 	

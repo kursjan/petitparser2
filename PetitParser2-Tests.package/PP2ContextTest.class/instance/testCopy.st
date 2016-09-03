@@ -1,4 +1,4 @@
-testing
+tests
 testCopy
 	| newContext |
 	context := PP2Context new
