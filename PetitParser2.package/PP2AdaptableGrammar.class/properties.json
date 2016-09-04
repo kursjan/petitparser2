@@ -1,17 +1,16 @@
 {
-	"category" : "PetitParser2-Examples",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "PP2CompositeParser",
+	"category" : "PetitParser2-Examples",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"body",
 		"content",
 		"head",
-		"element" ],
+		"element"
+	],
 	"name" : "PP2AdaptableGrammar",
-	"pools" : [
-		 ],
-	"super" : "PP2CompositeParser",
-	"type" : "normal" }
+	"type" : "normal"
+}

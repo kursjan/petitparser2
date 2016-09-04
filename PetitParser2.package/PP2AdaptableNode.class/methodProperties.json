@@ -1,9 +1,10 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"accept:" : "JanKurs 9/3/2016 14:40",
 		"child" : "JanKurs 9/3/2016 14:55",
-		"initialize" : "JanKurs 9/3/2016 14:55",
 		"isAdaptable" : "JanKurs 9/3/2016 14:50",
-		"setChild:" : "JanKurs 9/3/2016 14:47" } }
+		"initialize" : "JanKurs 9/3/2016 14:55",
+		"setChild:" : "JanKurs 9/3/2016 14:47",
+		"accept:" : "JanKurs 9/3/2016 14:40"
+	},
+	"class" : { }
+}

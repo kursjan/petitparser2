@@ -1,4 +1,3 @@
 initialization
 close
-	keyStream close.
-	super close.
+	keyStream close

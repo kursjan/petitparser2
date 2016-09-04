@@ -1,6 +1,7 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"asCharSetPredicate" : "JanKurs 9/1/2016 12:25:21",
-		"asParser2" : "JanKurs 9/1/2016 12:25:21" } }
+		"asParser2" : "JanKurs 9/1/2016 12:25:21",
+		"asCharSetPredicate" : "JanKurs 9/1/2016 12:25:21"
+	},
+	"class" : { }
+}

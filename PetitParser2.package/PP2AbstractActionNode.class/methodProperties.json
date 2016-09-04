@@ -1,9 +1,12 @@
 {
-	"class" : {
-		"on:block:" : "JanKurs 9/1/2016 12:25:21" },
 	"instance" : {
-		"block" : "JanKurs 9/1/2016 12:25:21",
-		"block:" : "JanKurs 9/1/2016 12:25:21",
 		"localEquals:" : "JanKurs 9/1/2016 12:25:21",
-		"localHash" : "JanKurs 9/1/2016 12:25:21",
-		"parseOn:" : "JanKurs 9/1/2016 12:25:21" } }
+		"block:" : "JanKurs 9/1/2016 12:25:21",
+		"block" : "JanKurs 9/1/2016 12:25:21",
+		"parseOn:" : "JanKurs 9/1/2016 12:25:21",
+		"localHash" : "JanKurs 9/1/2016 12:25:21"
+	},
+	"class" : {
+		"on:block:" : "JanKurs 9/1/2016 12:25:21"
+	}
+}

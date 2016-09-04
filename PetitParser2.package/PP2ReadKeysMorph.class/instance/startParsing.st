@@ -1,8 +1,13 @@
 initialize
 startParsing
 	parser := 
-		(('petit' asParser2 ==> [ :literal | Transcript crShow: 'you wrote my name!' ]) / 
+		(('petit' asParser2 ==> [ :literal | 
+				outputStream nextPutAll: '<<<!!!You wrote my name!!!>>>' ]) / 
 		  #any asParser2
 		) star. 
 	
-	[ parser parse: keyStream. Transcript crShow: 'parsing finished' ] fork.
+	[ 	
+		Transcript crShow: 'parsing'. 
+		parser parse: keyStream. 
+		Transcript crShow: 'parsing finished' 
+	] fork.

@@ -1,18 +1,21 @@
 {
+	"instance" : {
+		"initialize" : "JanKurs 9/1/2016 12:25:21",
+		"predicate:" : "JanKurs 9/1/2016 12:25:21",
+		"parseOn:" : "JanKurs 9/1/2016 12:25:21",
+		"negate" : "JanKurs 9/1/2016 12:25:21",
+		"firstCharSet" : "JanKurs 9/1/2016 12:25:21",
+		"accept:" : "JanKurs 9/1/2016 12:25:21"
+	},
 	"class" : {
+		"startOfLine" : "JanKurs 9/1/2016 12:25:21",
+		"word" : "JanKurs 9/1/2016 12:25:21",
+		"digit" : "JanKurs 9/1/2016 12:25:21",
+		"blank" : "JanKurs 9/1/2016 12:25:21",
+		"space" : "JanKurs 9/1/2016 12:25:21",
+		"letter" : "JanKurs 9/1/2016 12:25:21",
 		"any" : "JanKurs 9/1/2016 12:25:21",
 		"anyOf:" : "JanKurs 9/1/2016 12:25:21",
-		"blank" : "JanKurs 9/1/2016 12:25:21",
-		"digit" : "JanKurs 9/1/2016 12:25:21",
-		"expect:message:" : "JanKurs 9/1/2016 12:25:21",
-		"letter" : "JanKurs 9/1/2016 12:25:21",
-		"space" : "JanKurs 9/1/2016 12:25:21",
-		"startOfLine" : "JanKurs 9/1/2016 12:25:21",
-		"word" : "JanKurs 9/1/2016 12:25:21" },
-	"instance" : {
-		"accept:" : "JanKurs 9/1/2016 12:25:21",
-		"firstCharSet" : "JanKurs 9/1/2016 12:25:21",
-		"initialize" : "JanKurs 9/1/2016 12:25:21",
-		"negate" : "JanKurs 9/1/2016 12:25:21",
-		"parseOn:" : "JanKurs 9/1/2016 12:25:21",
-		"predicate:" : "JanKurs 9/1/2016 12:25:21" } }
+		"expect:message:" : "JanKurs 9/1/2016 12:25:21"
+	}
+}

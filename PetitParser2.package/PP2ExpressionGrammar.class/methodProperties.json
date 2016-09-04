@@ -1,11 +1,12 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"addition" : "JanKurs 9/1/2016 12:25:21",
-		"multiplication" : "JanKurs 9/1/2016 12:25:21",
-		"number" : "JanKurs 9/1/2016 12:25:21",
-		"parentheses" : "JanKurs 9/1/2016 12:25:21",
+		"terms" : "JanKurs 9/1/2016 12:25:21",
 		"primary" : "JanKurs 9/1/2016 12:25:21",
+		"multiplication" : "JanKurs 9/1/2016 12:25:21",
+		"parentheses" : "JanKurs 9/1/2016 12:25:21",
+		"number" : "JanKurs 9/1/2016 12:25:21",
 		"start" : "JanKurs 9/1/2016 12:25:21",
-		"terms" : "JanKurs 9/1/2016 12:25:21" } }
+		"addition" : "JanKurs 9/1/2016 12:25:21"
+	},
+	"class" : { }
+}

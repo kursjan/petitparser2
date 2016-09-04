@@ -1,14 +1,13 @@
 {
-	"category" : "PetitParser2-Tools",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"dependencies" ],
-	"name" : "PP2CompositeParser",
-	"pools" : [
-		 ],
 	"super" : "PP2DelegateNode",
-	"type" : "normal" }
+	"category" : "PetitParser2-Tools",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"dependencies"
+	],
+	"name" : "PP2CompositeParser",
+	"type" : "normal"
+}

@@ -1,15 +1,16 @@
 {
+	"commentStamp" : "",
+	"super" : "Object",
 	"category" : "PetitParser2-Nodes",
 	"classinstvars" : [
-		"spaceTrimmer" ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
+		"spaceTrimmer"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"properties",
-		"strategy" ],
+		"strategy"
+	],
 	"name" : "PP2Node",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

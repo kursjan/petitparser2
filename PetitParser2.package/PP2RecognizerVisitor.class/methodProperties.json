@@ -1,17 +1,18 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"changeStrategies:" : "JanKurs 9/3/2016 17:28",
+		"visitTrimmingToken:" : "JanKurs 9/2/2016 09:05",
+		"visitAction:" : "JanKurs 9/1/2016 12:25:21",
+		"markNode:" : "JanKurs 9/2/2016 09:04",
 		"doPass:" : "JanKurs 9/2/2016 09:08",
 		"inToken" : "JanKurs 9/1/2016 12:25:21",
 		"initialize" : "JanKurs 9/1/2016 12:25:21",
-		"markNode:" : "JanKurs 9/2/2016 09:04",
 		"shouldRevisit" : "JanKurs 9/2/2016 09:28",
-		"visitAction:" : "JanKurs 9/1/2016 12:25:21",
+		"visitRecognizer:" : "JanKurs 9/1/2016 12:25:21",
+		"changeStrategies:" : "JanKurs 9/3/2016 17:28",
+		"visitToken:" : "JanKurs 9/2/2016 09:06",
 		"visitFlatten:" : "JanKurs 9/2/2016 09:05",
 		"visitPP2Node:" : "JanKurs 9/2/2016 09:05",
-		"visitRecognizer:" : "JanKurs 9/1/2016 12:25:21",
-		"visitToken:" : "JanKurs 9/2/2016 09:06",
-		"visitTrimming:" : "JanKurs 9/2/2016 09:05",
-		"visitTrimmingToken:" : "JanKurs 9/2/2016 09:05" } }
+		"visitTrimming:" : "JanKurs 9/2/2016 09:05"
+	},
+	"class" : { }
+}

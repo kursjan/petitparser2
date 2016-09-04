@@ -1,6 +1,7 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"initializeFor:" : "JanKurs 9/1/2016 12:25:21",
-		"parseOn:" : "JanKurs 9/1/2016 12:25:21" } }
+		"parseOn:" : "JanKurs 9/1/2016 12:25:21",
+		"initializeFor:" : "JanKurs 9/1/2016 12:25:21"
+	},
+	"class" : { }
+}

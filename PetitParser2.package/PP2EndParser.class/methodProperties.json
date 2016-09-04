@@ -1,8 +1,9 @@
 {
-	"class" : {
-		 },
 	"instance" : {
 		"accept:" : "JanKurs 9/1/2016 12:25:21",
-		"end" : "JanKurs 9/1/2016 12:25:21",
 		"initialize" : "JanKurs 9/1/2016 12:25:21",
-		"parseOn:" : "JanKurs 9/1/2016 12:25:21" } }
+		"end" : "JanKurs 9/1/2016 12:25:21",
+		"parseOn:" : "JanKurs 9/1/2016 12:25:21"
+	},
+	"class" : { }
+}

@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "StandardWindow",
+	"category" : "PetitParser2-Examples",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"textArea",
+		"keyMorph",
+		"stream"
+	],
+	"name" : "PP2ReadKeysExample",
+	"type" : "normal"
+}

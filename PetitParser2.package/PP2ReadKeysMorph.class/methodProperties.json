@@ -1,10 +1,15 @@
 {
-	"class" : {
-		"example" : "JanKurs 9/4/2016 13:43" },
 	"instance" : {
-		"close" : "JanKurs 9/4/2016 13:26",
+		"keyStroke:" : "JanKurs 9/4/2016 19:28",
+		"openInWorld" : "JanKurs 9/4/2016 19:44",
 		"handlesKeyboard:" : "JanKurs 9/4/2016 13:02",
-		"initialize" : "JanKurs 9/4/2016 14:13",
-		"keyStroke:" : "JanKurs 9/4/2016 13:38",
-		"openInWorld" : "JanKurs 9/4/2016 14:15",
-		"startParsing" : "JanKurs 9/4/2016 13:30" } }
+		"close" : "JanKurs 9/4/2016 18:23",
+		"outputStream:" : "JanKurs 9/4/2016 18:34",
+		"handlesMouseDown:" : "JanKurs 9/4/2016 18:45",
+		"initialize" : "JanKurs 9/4/2016 18:35",
+		"takesKeyboardFocus" : "JanKurs 9/4/2016 18:32",
+		"startParsing" : "JanKurs 9/4/2016 19:49",
+		"mouseDown:" : "JanKurs 9/4/2016 18:46"
+	},
+	"class" : { }
+}

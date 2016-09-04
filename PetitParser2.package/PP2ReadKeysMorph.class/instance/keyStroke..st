@@ -1,5 +1,5 @@
 event handling
 keyStroke: anEvent
-	Transcript show: anEvent keyCharacter.
+	outputStream nextPutAll: anEvent keyCharacter asString.
 	
 	keyStream queueChar: anEvent keyCharacter.

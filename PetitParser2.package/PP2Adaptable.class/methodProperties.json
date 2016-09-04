@@ -1,5 +1,6 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"parseOn:" : "JanKurs 9/3/2016 14:54" } }
+		"parseOn:" : "JanKurs 9/3/2016 14:54"
+	},
+	"class" : { }
+}

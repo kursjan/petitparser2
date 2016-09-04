@@ -1,9 +1,12 @@
 {
-	"class" : {
-		"instance" : "JanKurs 9/1/2016 12:25:21",
-		"new" : "JanKurs 9/1/2016 12:25:21" },
 	"instance" : {
 		"accept:" : "JanKurs 9/1/2016 12:25:21",
 		"firstCharSet" : "JanKurs 9/1/2016 12:25:21",
 		"initialize" : "JanKurs 9/1/2016 12:25:21",
-		"isEpsilon" : "JanKurs 9/1/2016 12:25:21" } }
+		"isEpsilon" : "JanKurs 9/1/2016 12:25:21"
+	},
+	"class" : {
+		"new" : "JanKurs 9/1/2016 12:25:21",
+		"instance" : "JanKurs 9/1/2016 12:25:21"
+	}
+}

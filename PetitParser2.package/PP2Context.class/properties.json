@@ -1,18 +1,17 @@
 {
-	"category" : "PetitParser2-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "JanKurs 9/3/2016 11:50",
+	"super" : "Object",
+	"category" : "PetitParser2-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"stream",
 		"position",
 		"parser",
 		"retval",
-		"globals" ],
+		"globals"
+	],
 	"name" : "PP2Context",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

@@ -1,5 +1,6 @@
 {
+	"instance" : { },
 	"class" : {
-		"ruleRBTemporaryVariableCapitalizationRuleV1FalsePositive" : "JanKurs 9/3/2016 17:12" },
-	"instance" : {
-		 } }
+		"ruleRBTemporaryVariableCapitalizationRuleV1FalsePositive" : "JanKurs 9/3/2016 17:12"
+	}
+}

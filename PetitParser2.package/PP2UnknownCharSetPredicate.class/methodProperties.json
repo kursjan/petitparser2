@@ -1,6 +1,9 @@
 {
-	"class" : {
-		"instance" : "JanKurs 9/1/2016 12:25:21" },
 	"instance" : {
 		"isUnknown" : "JanKurs 9/2/2016 22:40",
-		"value:" : "JanKurs 9/2/2016 22:39" } }
+		"value:" : "JanKurs 9/2/2016 22:39"
+	},
+	"class" : {
+		"instance" : "JanKurs 9/1/2016 12:25:21"
+	}
+}
