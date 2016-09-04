@@ -1,12 +1,13 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"assert:isKindOf:" : "JanKurs 9/1/2016 12:25:21",
-		"testCommonPrefix" : "JanKurs 9/2/2016 16:19",
-		"testIdentifier" : "JanKurs 9/1/2016 12:25:21",
+		"testTrimmingToken" : "JanKurs 9/2/2016 22:01",
 		"testIdentifierToken" : "JanKurs 9/1/2016 12:25:21",
-		"testIdentifierTrimmingToken" : "JanKurs 9/1/2016 12:25:21",
+		"assert:isKindOf:" : "JanKurs 9/1/2016 12:25:21",
 		"testParseTrimming" : "JanKurs 9/1/2016 12:25:21",
 		"testTrimming" : "JanKurs 9/2/2016 22:01",
-		"testTrimmingToken" : "JanKurs 9/2/2016 22:01" } }
+		"testIdentifier" : "JanKurs 9/1/2016 12:25:21",
+		"testIdentifierTrimmingToken" : "JanKurs 9/1/2016 12:25:21",
+		"testCommonPrefix" : "JanKurs 9/2/2016 16:19"
+	},
+	"class" : { }
+}

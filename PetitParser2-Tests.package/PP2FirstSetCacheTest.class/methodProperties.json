@@ -1,5 +1,6 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"testSanity" : "JanKurs 9/3/2016 17:28" } }
+		"testSanity" : "JanKurs 9/3/2016 17:28"
+	},
+	"class" : { }
+}

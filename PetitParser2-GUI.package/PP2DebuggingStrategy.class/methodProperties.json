@@ -1,6 +1,9 @@
 {
-	"class" : {
-		"on:" : "JanKurs 8/28/2016 22:32" },
 	"instance" : {
 		"debug" : "JanKurs 8/31/2016 20:27",
-		"parseOn:" : "JanKurs 8/29/2016 18:06" } }
+		"parseOn:" : "JanKurs 8/29/2016 18:06"
+	},
+	"class" : {
+		"on:" : "JanKurs 8/28/2016 22:32"
+	}
+}

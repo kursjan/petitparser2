@@ -1,8 +1,9 @@
 {
-	"class" : {
-		 },
 	"instance" : {
 		"debugResult" : "JanKurs 8/28/2016 23:27",
 		"debugResult:" : "JanKurs 8/28/2016 23:24",
 		"gtGlobals:" : "JanKurs 8/26/2016 20:03",
-		"gtStream:" : "JanKurs 8/26/2016 20:03" } }
+		"gtStream:" : "JanKurs 8/26/2016 20:03"
+	},
+	"class" : { }
+}

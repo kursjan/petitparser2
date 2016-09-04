@@ -1,10 +1,9 @@
 {
 	"instance" : {
-		"hitRatio" : "JanKurs 9/2/2016 15:23",
-		"initialize" : "JanKurs 9/2/2016 15:10",
 		"isCache" : "JanKurs 9/2/2016 11:59",
-		"parseOn:" : "JanKurs 9/2/2016 22:05",
-		"reset" : "JanKurs 9/2/2016 23:42",
+		"parseOn:" : "JanKurs 9/4/2016 20:40",
+		"profiling" : "JanKurs 9/4/2016 20:53",
+		"reset" : "JanKurs 9/4/2016 21:00",
 		"cache" : "JanKurs 9/1/2016 23:57",
 		"displayName" : "JanKurs 9/2/2016 11:36"
 	},

@@ -1,0 +1,13 @@
+{
+	"classtraitcomposition" : "TPP2ContextTest classTrait",
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PP2ProfilingContextTest",
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"traitcomposition" : "TPP2ContextTest",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "PetitParser2-Tests-Core"
+}

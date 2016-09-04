@@ -1,0 +1,16 @@
+{
+	"classtraitcomposition" : "TPP2ProfilingCache classTrait",
+	"classvars" : [ ],
+	"instvars" : [
+		"invocations",
+		"hits"
+	],
+	"name" : "PP2ProfilingCache",
+	"commentStamp" : "",
+	"super" : "PP2Cache",
+	"traitcomposition" : "TPP2ProfilingCache",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "PetitParser2-Strategies"
+}

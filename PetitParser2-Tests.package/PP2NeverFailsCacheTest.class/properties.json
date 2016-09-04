@@ -1,14 +1,11 @@
 {
-	"category" : "PetitParser2-Tests-Optimizations",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "PP2NeverFailsCacheTest",
-	"pools" : [
-		 ],
 	"super" : "TestCase",
-	"type" : "normal" }
+	"category" : "PetitParser2-Tests-Optimizations",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PP2NeverFailsCacheTest",
+	"type" : "normal"
+}

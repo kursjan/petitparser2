@@ -1,18 +1,19 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"setUp" : "JanKurs 9/1/2016 12:25:21",
-		"streamOn:" : "JanKurs 9/3/2016 12:27",
-		"streamOn:bufferSize:" : "JanKurs 9/3/2016 12:28",
-		"testAtEndDifferentPosition" : "JanKurs 9/3/2016 12:27",
-		"testContents" : "JanKurs 9/4/2016 14:26",
-		"testContentsAfterRead" : "JanKurs 9/4/2016 14:29",
-		"testCopyFromToBufferOverflow" : "JanKurs 9/3/2016 12:28",
-		"testCopyFromToOOB" : "JanKurs 9/3/2016 12:29",
-		"testCopyFromToSmallBuffer" : "JanKurs 9/3/2016 12:29",
-		"testInstanceCreation" : "JanKurs 9/3/2016 12:29",
-		"testInstanceCreationSize" : "JanKurs 9/3/2016 12:30",
 		"testRandomAccessTooMuchBacktrack" : "JanKurs 9/3/2016 12:30",
+		"testContents" : "JanKurs 9/4/2016 14:26",
+		"testInstanceCreation" : "JanKurs 9/3/2016 12:29",
+		"streamOn:bufferSize:" : "JanKurs 9/3/2016 12:28",
 		"testRandomAccessTwoPasses" : "JanKurs 9/3/2016 12:31",
-		"testUncheckedNext" : "JanKurs 9/3/2016 12:31" } }
+		"testCopyFromToBufferOverflow" : "JanKurs 9/3/2016 12:28",
+		"testAtEndDifferentPosition" : "JanKurs 9/3/2016 12:27",
+		"streamOn:" : "JanKurs 9/3/2016 12:27",
+		"testCopyFromToSmallBuffer" : "JanKurs 9/3/2016 12:29",
+		"testCopyFromToOOB" : "JanKurs 9/3/2016 12:29",
+		"testInstanceCreationSize" : "JanKurs 9/3/2016 12:30",
+		"testUncheckedNext" : "JanKurs 9/3/2016 12:31",
+		"testContentsAfterRead" : "JanKurs 9/4/2016 14:29",
+		"setUp" : "JanKurs 9/1/2016 12:25:21"
+	},
+	"class" : { }
+}

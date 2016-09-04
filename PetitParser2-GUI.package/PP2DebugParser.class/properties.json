@@ -1,14 +1,13 @@
 {
-	"category" : "PetitParser2-GUI-Debug",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"root" ],
-	"name" : "PP2DebugParser",
-	"pools" : [
-		 ],
 	"super" : "PP2DelegateNode",
-	"type" : "normal" }
+	"category" : "PetitParser2-GUI-Debug",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"root"
+	],
+	"name" : "PP2DebugParser",
+	"type" : "normal"
+}

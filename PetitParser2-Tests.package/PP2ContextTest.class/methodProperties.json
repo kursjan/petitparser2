@@ -1,8 +1,9 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"contextOn:" : "JanKurs 9/3/2016 13:14",
 		"testAsPetit2Context" : "JanKurs 9/3/2016 13:18",
+		"testCopy" : "JanKurs 9/3/2016 13:18",
 		"testAsPositionableStream" : "JanKurs 9/3/2016 13:18",
-		"testCopy" : "JanKurs 9/3/2016 13:18" } }
+		"contextOn:" : "JanKurs 9/3/2016 13:14"
+	},
+	"class" : { }
+}

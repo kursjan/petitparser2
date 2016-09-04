@@ -8,9 +8,7 @@
 	"instvars" : [
 		"position",
 		"retval",
-		"endPosition",
-		"invocations",
-		"hits"
+		"endPosition"
 	],
 	"name" : "PP2Cache",
 	"type" : "normal"
