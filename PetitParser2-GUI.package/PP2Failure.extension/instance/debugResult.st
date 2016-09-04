@@ -5,7 +5,7 @@ debugResult
 		input ifNil: [ ^ nil ].
 		root ifNil: [ ^ nil ].
 	
-		context := input reset asPetit2Context.
+		context := input asPetit2Stream reset asPetit2Context.
 		root enableDebug parseAdaptableWithContext: context.
 		debugResult := context debugResult
 	].

@@ -1,5 +1,5 @@
 tests - context interface
-testNewToken
+testNewTokenFromTo
 	| stream |
 	stream := self streamOn: 'foo'. 
 	

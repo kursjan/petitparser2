@@ -1,0 +1,16 @@
+{
+	"category" : "PetitParser2-Streams",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JanKurs 9/4/2016 14:41",
+	"instvars" : [
+		"queue",
+		"closed",
+		"accessSemaphore" ],
+	"name" : "PP2AsyncSteam",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

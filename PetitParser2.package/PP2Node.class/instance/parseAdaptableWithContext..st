@@ -11,6 +11,6 @@ parseAdaptableWithContext: context
 	] ifFalse: [ 
 		retval 
 			root: context parser;
-			input: (context asPositionableStream);
+			input: (context contents);
 			yourself 
 	]

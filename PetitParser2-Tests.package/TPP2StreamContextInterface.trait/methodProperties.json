@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"testAtEnd" : "JanKurs 9/3/2016 12:15",
+		"testAtPosition" : "JanKurs 9/4/2016 14:33",
+		"testAtPositionReversedOrder" : "JanKurs 9/4/2016 14:34",
 		"testCopyFromTo" : "JanKurs 9/3/2016 12:15",
-		"testNewToken" : "JanKurs 9/3/2016 12:16",
-		"testRandomAccess" : "JanKurs 9/3/2016 12:16",
-		"testRandomAccessReversed" : "JanKurs 9/3/2016 12:18" } }
+		"testNewTokenFromTo" : "JanKurs 9/4/2016 14:35" } }

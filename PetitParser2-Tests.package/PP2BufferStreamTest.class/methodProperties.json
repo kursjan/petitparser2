@@ -6,6 +6,8 @@
 		"streamOn:" : "JanKurs 9/3/2016 12:27",
 		"streamOn:bufferSize:" : "JanKurs 9/3/2016 12:28",
 		"testAtEndDifferentPosition" : "JanKurs 9/3/2016 12:27",
+		"testContents" : "JanKurs 9/4/2016 14:26",
+		"testContentsAfterRead" : "JanKurs 9/4/2016 14:29",
 		"testCopyFromToBufferOverflow" : "JanKurs 9/3/2016 12:28",
 		"testCopyFromToOOB" : "JanKurs 9/3/2016 12:29",
 		"testCopyFromToSmallBuffer" : "JanKurs 9/3/2016 12:29",

@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"example" : "JanKurs 9/4/2016 13:43" },
+	"instance" : {
+		"close" : "JanKurs 9/4/2016 13:26",
+		"handlesKeyboard:" : "JanKurs 9/4/2016 13:02",
+		"initialize" : "JanKurs 9/4/2016 14:13",
+		"keyStroke:" : "JanKurs 9/4/2016 13:38",
+		"openInWorld" : "JanKurs 9/4/2016 14:15",
+		"startParsing" : "JanKurs 9/4/2016 13:30" } }
