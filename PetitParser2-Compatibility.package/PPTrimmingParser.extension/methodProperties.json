@@ -1,6 +1,7 @@
 {
-	"class" : {
-		 },
 	"instance" : {
 		"convertTo:" : "JanKurs 4/3/2016 13:55",
-		"petit2Class" : "JanKurs 8/31/2016 22:01" } }
+		"petit2Class" : "JanKurs 8/31/2016 22:01"
+	},
+	"class" : { }
+}

@@ -10,6 +10,6 @@ assert: aParser parse: aCollection to: aTargetObject end: anInteger
 	
 	aTargetObject isNil
 		ifTrue: [ self deny: result isPetit2Failure ]
-		ifFalse: [ self assert: result value equals: aTargetObject ].
+		ifFalse: [ self assert: result value asArray equals: aTargetObject asArray ].
 	self assert: result position = anInteger description: 'Parser accepted at wrong position'.
 	^ result

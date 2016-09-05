@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "PP2AbstractActionNode",
+	"category" : "PetitParser2-Nodes",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PP2WrappingNode",
+	"type" : "normal"
+}

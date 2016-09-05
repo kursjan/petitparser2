@@ -5,7 +5,9 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"child"
+	],
 	"name" : "PP2Plus",
 	"type" : "normal"
 }

@@ -1,15 +1,14 @@
 {
-	"category" : "PetitParser2-Compatibility-Validation",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "PP2Validator",
+	"category" : "PetitParser2-Compatibility-Validation",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"ppParser",
-		"pp2Parser" ],
+		"pp2Parser"
+	],
 	"name" : "PP2SmalltalkGrammarValidator",
-	"pools" : [
-		 ],
-	"super" : "PP2Validator",
-	"type" : "normal" }
+	"type" : "normal"
+}

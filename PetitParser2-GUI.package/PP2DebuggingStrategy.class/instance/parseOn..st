@@ -1,22 +1,22 @@
 parsing
-parseOn: aPP2Context
+parseOn: context
 	| parentDebugResult debugResult result |
-	parentDebugResult := aPP2Context debugResult.
+	parentDebugResult := context debugResult.
 	
 	debugResult := PP2ParserDebuggerResult new
 		parser: self node;
-		start: aPP2Context position + 1;
+		start: context position + 1;
 		parent: parentDebugResult;
 		yourself.
 	
 	parentDebugResult children add: debugResult.
 		
-	aPP2Context debugResult: debugResult.
-	result := strategy parseOn: aPP2Context.
-	aPP2Context debugResult: parentDebugResult.
+	context debugResult: debugResult.
+	result := strategy parseOn: context.
+	context debugResult: parentDebugResult.
 	
 	debugResult 
-		end: aPP2Context position;
+		stop: context position;
 		result: result.
 	
 	^ result

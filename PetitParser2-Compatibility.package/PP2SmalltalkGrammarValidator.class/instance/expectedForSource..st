@@ -4,7 +4,7 @@ expectedForSource: source
 	result := ppParser parse: source.
 	
 	^ result isPetitFailure ifFalse: [ 
-		result
+		result deepFlatten
 	] ifTrue: [ 
 		#failure
 	]

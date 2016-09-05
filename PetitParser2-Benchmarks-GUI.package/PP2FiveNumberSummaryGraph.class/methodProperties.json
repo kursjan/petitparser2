@@ -1,10 +1,11 @@
 {
-	"class" : {
-		 },
 	"instance" : {
 		"addPlotData:withName:" : "JanKurs 6/24/2016 12:18",
-		"draw" : "JanKurs 6/25/2016 14:44",
 		"initialize" : "JanKurs 6/24/2016 10:16",
+		"draw" : "JanKurs 6/25/2016 14:44",
 		"report" : "JanKurs 6/24/2016 10:16",
-		"report:" : "JanKurs 6/24/2016 10:16",
-		"title" : "JanKurs 6/24/2016 12:18" } }
+		"title" : "JanKurs 6/24/2016 12:18",
+		"report:" : "JanKurs 6/24/2016 10:16"
+	},
+	"class" : { }
+}

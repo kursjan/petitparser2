@@ -1,0 +1,12 @@
+{
+	"instance" : {
+		"assert:isKindOf:" : "JanKurs 9/5/2016 13:05",
+		"testStar" : "JanKurs 9/5/2016 13:21",
+		"setUp" : "JanKurs 9/5/2016 13:05",
+		"testPlus" : "JanKurs 9/5/2016 13:21",
+		"testSequenceOfTwo" : "JanKurs 9/5/2016 13:19",
+		"testSequenceOfTwoRecognizer" : "JanKurs 9/5/2016 13:19",
+		"visit:" : "JanKurs 9/5/2016 13:03"
+	},
+	"class" : { }
+}

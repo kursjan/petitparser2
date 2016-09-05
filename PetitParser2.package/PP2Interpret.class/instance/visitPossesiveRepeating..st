@@ -15,9 +15,9 @@ visitPossesiveRepeating: parser
 	
 	[ elements size < parser max ] whileTrue: [
 	 	(retval := self visit: parser child) isPetit2Failure ifTrue: [ 
-			^ elements asArray 
+			^ elements 
 		].
 		elements addLast: retval 
 	].
 
-	^ elements asArray
+	^ elements

@@ -1,10 +1,10 @@
 {
-	"category" : "PetitParser2-Validation-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "PetitParser2-Validation-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"time",
 		"sources",
@@ -12,9 +12,8 @@
 		"timeouts",
 		"errors",
 		"entries",
-		"parserName" ],
+		"parserName"
+	],
 	"name" : "PP2ValidatorReport",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

@@ -1,14 +1,13 @@
 {
-	"category" : "PetitParser2-Compatibility-Nodes",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "JanKurs 4/3/2016 14:40",
-	"instvars" : [
-		"petitParser" ],
-	"name" : "PP2CompatibilityNode",
-	"pools" : [
-		 ],
 	"super" : "PP2Node",
-	"type" : "normal" }
+	"category" : "PetitParser2-Compatibility-Nodes",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"petitParser"
+	],
+	"name" : "PP2CompatibilityNode",
+	"type" : "normal"
+}

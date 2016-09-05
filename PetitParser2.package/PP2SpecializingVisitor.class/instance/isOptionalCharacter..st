@@ -1,3 +1,3 @@
 testing
 isOptionalCharacter: node 
-	^ (node child isKindOf: PP2LiteralObjectParser) 
+	^ (node child isKindOf: PP2LiteralObjectNode) 

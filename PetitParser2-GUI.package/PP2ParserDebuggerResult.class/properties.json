@@ -11,8 +11,8 @@
 		"children",
 		"parent",
 		"start",
-		"end",
-		"stream",
+		"stop",
+		"context",
 		"allChildren"
 	],
 	"name" : "PP2ParserDebuggerResult",

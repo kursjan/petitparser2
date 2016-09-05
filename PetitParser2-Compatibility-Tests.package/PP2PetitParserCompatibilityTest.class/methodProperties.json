@@ -1,11 +1,12 @@
 {
-	"class" : {
-		 },
 	"instance" : {
+		"testSmalltalkNumberCompatibility" : "JanKurs 8/12/2016 20:40",
+		"testPluggableCompatibility" : "JanKurs 8/12/2016 20:40",
+		"testCompatibilityParser2" : "JanKurs 9/2/2016 18:49",
 		"parse:withParser:withContext:" : "JanKurs 8/26/2016 13:27",
 		"parseSelector" : "JanKurs 8/26/2016 12:30",
-		"testCompatibilityParser" : "JanKurs 4/3/2016 20:13",
-		"testCompatibilityParser2" : "JanKurs 9/2/2016 18:49",
-		"testPluggableCompatibility" : "JanKurs 8/12/2016 20:40",
-		"testSmalltalkNumberCompatibility" : "JanKurs 8/12/2016 20:40",
-		"testWrappingCompatibility" : "JanKurs 9/2/2016 18:49" } }
+		"testWrappingCompatibility" : "JanKurs 9/2/2016 18:49",
+		"testCompatibilityParser" : "JanKurs 4/3/2016 20:13"
+	},
+	"class" : { }
+}

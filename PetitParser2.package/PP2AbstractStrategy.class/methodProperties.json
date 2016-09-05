@@ -3,10 +3,10 @@
 		"choiceAlternativeGuard:" : "JanKurs 9/2/2016 18:56",
 		"isCache" : "JanKurs 9/4/2016 20:51",
 		"trimmingCache" : "JanKurs 9/2/2016 22:01",
-		"bypass" : "JanKurs 9/2/2016 15:31",
 		"profiling" : "JanKurs 9/4/2016 20:39",
 		"cache" : "JanKurs 9/2/2016 15:32",
-		"recognizer" : "JanKurs 9/2/2016 15:32"
+		"recognizer" : "JanKurs 9/2/2016 15:32",
+		"isProfiling" : "JanKurs 9/5/2016 07:56"
 	},
 	"class" : { }
 }

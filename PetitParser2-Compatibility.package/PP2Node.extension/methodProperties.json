@@ -1,6 +1,7 @@
 {
-	"class" : {
-		 },
 	"instance" : {
 		"allParsersDo:" : "JanKurs 8/30/2016 11:50",
-		"allParsersDo:seen:" : "JanKurs 2/27/2016 22:43" } }
+		"allParsersDo:seen:" : "JanKurs 2/27/2016 22:43"
+	},
+	"class" : { }
+}

@@ -1,14 +1,11 @@
 {
-	"category" : "PetitParser2-Compatibility-Strategies",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "PP2CompatibilityStrategy",
-	"pools" : [
-		 ],
 	"super" : "PP2Strategy",
-	"type" : "normal" }
+	"category" : "PetitParser2-Compatibility-Strategies",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PP2CompatibilityStrategy",
+	"type" : "normal"
+}

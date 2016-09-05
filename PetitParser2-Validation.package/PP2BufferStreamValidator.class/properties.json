@@ -1,14 +1,13 @@
 {
-	"category" : "PetitParser2-Validation-Streams",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"parser" ],
-	"name" : "PP2BufferStreamValidator",
-	"pools" : [
-		 ],
 	"super" : "PP2Validator",
-	"type" : "normal" }
+	"category" : "PetitParser2-Validation-Streams",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"parser"
+	],
+	"name" : "PP2BufferStreamValidator",
+	"type" : "normal"
+}

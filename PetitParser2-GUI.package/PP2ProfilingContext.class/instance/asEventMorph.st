@@ -1,3 +1,3 @@
 converting
 asEventMorph
-	^ self asEventMorph: events asIdentitySet asArray
+	^ self asEventMorph: nil

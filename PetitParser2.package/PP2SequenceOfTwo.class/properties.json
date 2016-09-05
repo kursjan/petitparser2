@@ -7,8 +7,7 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"firstChild",
-		"secondChild",
-		"thirdChild"
+		"secondChild"
 	],
 	"name" : "PP2SequenceOfTwo",
 	"type" : "normal"

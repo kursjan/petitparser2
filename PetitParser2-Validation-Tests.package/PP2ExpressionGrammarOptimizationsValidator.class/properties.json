@@ -1,14 +1,13 @@
 {
-	"category" : "PetitParser2-Validation-Tests-Tests",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"validator" ],
-	"name" : "PP2ExpressionGrammarOptimizationsValidator",
-	"pools" : [
-		 ],
 	"super" : "TestCase",
-	"type" : "normal" }
+	"category" : "PetitParser2-Validation-Tests-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"validator"
+	],
+	"name" : "PP2ExpressionGrammarOptimizationsValidator",
+	"type" : "normal"
+}

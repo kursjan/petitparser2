@@ -1,21 +1,7 @@
 converting
 asEventMorph: eventArray
 	|   width height canvas morph |
-	
-	fPositions := OrderedCollection new.
-	fEvents := OrderedCollection new.
-	fSelectors := OrderedCollection new.
-	"for the last stream only"
-	
-	((lastStreamIndex + 1) to: events size) do: [ :index | | e |
-		e := events at: index.
-		(eventArray includes: e) ifTrue: [
-			fPositions addLast: (self positions at: index).
-			fSelectors addLast: (self selectors at: index).
-			fEvents addLast: e.
-		]
-	].
-	
+	self filterFrom: lastStreamIndex + 1 to: events size events: eventArray.
 	
 	width  := readLimit + 1 min: 4096.
 	height := fPositions size min: 32768.

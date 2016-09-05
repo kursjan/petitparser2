@@ -20,9 +20,9 @@ visitPossesiveRepeating: parser
 
 	[ index < parser max ] whileTrue: [
 	 	(retval := self visit: parser child) isPetit2Failure 
-			ifTrue: [ ^ (elements copyFrom: 1 to: index) asArray ].
+			ifTrue: [ ^ (elements copyFrom: 1 to: index) ].
 		index := index + 1.
 		elements at: index ifAbsentPut: retval.
 	].
 
-	^ elements asArray
+	^ elements

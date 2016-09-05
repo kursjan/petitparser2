@@ -5,6 +5,8 @@ printOn: aStream
 		nextPutAll: self parser displayName;
 		nextPutAll: '(';
 		nextPutAll: self allChildren size asString;
+		nextPutAll: ':';
+		nextPutAll: self events size asString;
 		nextPutAll: ')';
 		nextPutAll: ' - ';   
 		nextPutAll: self result printString

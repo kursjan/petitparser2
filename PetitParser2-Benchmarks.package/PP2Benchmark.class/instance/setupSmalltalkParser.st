@@ -1,7 +1,10 @@
 benchmarks - smalltalk
 setupSmalltalkParser
 	self setup: PP2SmalltalkParser sources: 'smalltalk'.
-	self parser name: 'Smalltalk Parser'.
+	self parser name: 'Smalltalk Parser (Adapatable)'.
+	self parser optimize.
 	
-	contextClass := PP2Context.
-	preferredRepetitions := 3
+	contextClass := PP2InMemoryContext.
+	selector := #'parseAdaptable:withContext:'.
+	preferredRepetitions := 3.
+	

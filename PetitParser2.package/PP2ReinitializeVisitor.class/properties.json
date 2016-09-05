@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "JanKurs 9/5/2016 11:23",
+	"super" : "PP2NoopVisitor",
+	"category" : "PetitParser2-Optimizations",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PP2ReinitializeVisitor",
+	"type" : "normal"
+}

@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initializeFor: aPP2SequenceNode
 	super initializeFor: aPP2SequenceNode.
 	

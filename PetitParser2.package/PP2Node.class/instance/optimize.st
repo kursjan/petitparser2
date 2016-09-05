@@ -7,7 +7,7 @@ optimize
 	PP2ParentAnalysisVisitor new doPass: self.
 	PP2RecognizerVisitor new doPass: self.
 
-	PP2AcceptsEpsilonCache new doPass: self.
+	PP2NeverFailsCache new doPass: self.
 	PP2FirstSetCache new doPass: self.
 
 	 "
@@ -20,6 +20,8 @@ optimize
 	PP2CommonPrefixVisitor new doPass: self.
 	
 	PP2GuardVisitor new doPass: self.
+	
+	PP2BypassVisitor new doPass: self.
 	
 	self propertyAt: #allCaches put: self collectCaches.
 	self setOptimized.

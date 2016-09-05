@@ -5,6 +5,8 @@ testSmalltalkGrammar
 	bench setupSmalltalkGrammar.
 
 	self assert: (bench parser isKindOf: PP2SmalltalkGrammar).
+	self assert: (bench parser isOptimized).
+	
 	input := bench input.
 	context := bench context.
 	selector := bench selector.

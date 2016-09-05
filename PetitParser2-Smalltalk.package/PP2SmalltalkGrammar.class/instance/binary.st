@@ -1,3 +1,3 @@
 primitives
 binary
-	^ (PP2PredicateObjectParser anyOf: '!%&*+,-/<=>?@\|~') plus
+	^ (PP2PredicateObjectNode anyOf: '!%&*+,-/<=>?@\|~') plus

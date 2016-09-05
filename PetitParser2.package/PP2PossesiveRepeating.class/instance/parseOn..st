@@ -14,9 +14,9 @@ parseOn: aPP2Context
 	
 	[ elements size < node max ] whileTrue: [
 	 	(retval := node child parseOn: aPP2Context) isPetit2Failure ifTrue: [ 
-			^ elements asArray 
+			^ elements 
 		].
 		elements addLast: retval 
 	].
 
-	^ elements asArray
+	^ elements

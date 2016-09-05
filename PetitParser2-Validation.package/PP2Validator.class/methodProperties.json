@@ -1,19 +1,20 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"actualForSource:" : "JanKurs 8/23/2016 14:17",
-		"compactReportTo:" : "JanKurs 8/23/2016 14:17",
-		"expectedForSource:" : "JanKurs 8/23/2016 14:17",
-		"fileContents:" : "JanKurs 8/23/2016 14:17",
-		"initialize" : "JanKurs 8/23/2016 14:17",
-		"name" : "JanKurs 8/23/2016 14:17",
-		"report" : "JanKurs 8/23/2016 14:17",
-		"showDiffForSource:" : "JanKurs 8/23/2016 14:17",
-		"silent" : "JanKurs 8/23/2016 14:17",
-		"silent:" : "JanKurs 8/23/2016 14:17",
-		"sources" : "JanKurs 8/23/2016 14:17",
-		"timeout" : "JanKurs 8/23/2016 14:17",
-		"validate" : "JanKurs 8/23/2016 14:17",
 		"validateBlocking" : "JanKurs 8/25/2016 15:28",
-		"validateSource:report:" : "JanKurs 8/25/2016 15:28" } }
+		"compactReportTo:" : "JanKurs 8/23/2016 14:17",
+		"silent:" : "JanKurs 8/23/2016 14:17",
+		"name" : "JanKurs 8/23/2016 14:17",
+		"timeout" : "JanKurs 8/23/2016 14:17",
+		"fileContents:" : "JanKurs 8/23/2016 14:17",
+		"expectedForSource:" : "JanKurs 8/23/2016 14:17",
+		"initialize" : "JanKurs 8/23/2016 14:17",
+		"actualForSource:" : "JanKurs 8/23/2016 14:17",
+		"showDiffForSource:" : "JanKurs 8/23/2016 14:17",
+		"sources" : "JanKurs 8/23/2016 14:17",
+		"report" : "JanKurs 8/23/2016 14:17",
+		"validate" : "JanKurs 8/23/2016 14:17",
+		"validateSource:report:" : "JanKurs 8/25/2016 15:28",
+		"silent" : "JanKurs 8/23/2016 14:17"
+	},
+	"class" : { }
+}

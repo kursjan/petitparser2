@@ -1,3 +1,3 @@
 operators
 map: block
-	^ PP2MappingParser on: self block: block
+	^ PP2MappingNode on: self block: block

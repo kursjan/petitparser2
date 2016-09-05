@@ -1,5 +1,6 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"isPetit2Failure" : "JanKurs 8/12/2016 10:12" } }
+		"isPetit2Failure" : "JanKurs 8/12/2016 10:12"
+	},
+	"class" : { }
+}
