@@ -1,7 +1,7 @@
 benchmarks - smalltalk
 setupSmalltalkParser
 	self setup: PP2SmalltalkParser sources: 'smalltalk'.
-	self parser name: 'Smalltalk Parser (Adapatable)'.
+	self parser name: 'Smalltalk Parser'.
 	self parser optimize.
 	
 	contextClass := PP2InMemoryContext.

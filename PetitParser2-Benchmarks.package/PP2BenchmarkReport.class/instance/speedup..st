@@ -12,8 +12,7 @@ speedup: stream
 			relatedName := (grouped at: key) anyOne name.
 		
 			stream nextPutAll: firstName, ' vs ', relatedName, ' speedup: ', ((first / related) asFloat printShowingDecimalPlaces: 3).
+			stream nextPutAll: String lf.
 		]
 	].
-	stream
-			nextPutAll: String lf;
-			flush.
+	stream flush.

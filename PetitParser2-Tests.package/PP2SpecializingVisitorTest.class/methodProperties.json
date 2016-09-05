@@ -1,22 +1,24 @@
 {
 	"instance" : {
-		"testAndLiteraObject" : "JanKurs 9/1/2016 15:11",
-		"testOptionalLiteraObject" : "JanKurs 9/1/2016 12:25:21",
-		"testPlus" : "JanKurs 9/1/2016 12:25:21",
-		"deny:isKindOf:" : "JanKurs 9/1/2016 12:25:21",
-		"testPlusPredicateObject" : "JanKurs 9/1/2016 12:25:21",
-		"testSequenceOfThree" : "JanKurs 9/1/2016 12:25:21",
-		"testSequenceOfTwo" : "JanKurs 9/1/2016 12:25:21",
+		"testTrimmingLiteralObjectTokenWrapped" : "JanKurs 9/5/2016 16:57",
+		"testStarPredicateObject2" : "JanKurs 9/1/2016 12:25:21",
+		"testMappingOfTwo" : "JanKurs 9/5/2016 10:02",
+		"assert:isKindOf:" : "JanKurs 9/1/2016 12:25:21",
+		"setUp" : "JanKurs 9/1/2016 12:25:21",
 		"testStarPredicateObject" : "JanKurs 9/1/2016 12:25:21",
+		"testAndLiteraObject" : "JanKurs 9/1/2016 15:11",
+		"testMappingOfThree" : "JanKurs 9/5/2016 10:06",
 		"testStar" : "JanKurs 9/1/2016 12:25:21",
+		"testPlusPredicateObject" : "JanKurs 9/1/2016 12:25:21",
+		"testSequenceOfTwo" : "JanKurs 9/1/2016 12:25:21",
 		"testAndPredicateObject" : "JanKurs 9/1/2016 17:18",
 		"testPlusPredicateObject2" : "JanKurs 9/1/2016 12:25:21",
-		"testStarPredicateObject2" : "JanKurs 9/1/2016 12:25:21",
-		"assert:isKindOf:" : "JanKurs 9/1/2016 12:25:21",
-		"testMappingOfThree" : "JanKurs 9/5/2016 10:06",
-		"testMappingOfTwo" : "JanKurs 9/5/2016 10:02",
+		"testOptionalLiteraObject" : "JanKurs 9/1/2016 12:25:21",
+		"testTrimmingLiteralObjectToken" : "JanKurs 9/5/2016 16:57",
+		"deny:isKindOf:" : "JanKurs 9/1/2016 12:25:21",
+		"testSequenceOfThree" : "JanKurs 9/1/2016 12:25:21",
 		"testNotLiteraObject" : "JanKurs 9/1/2016 15:35",
-		"setUp" : "JanKurs 9/1/2016 12:25:21"
+		"testPlus" : "JanKurs 9/1/2016 12:25:21"
 	},
 	"class" : { }
 }

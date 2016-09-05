@@ -2,6 +2,7 @@
 	"instance" : {
 		"childrenEqual:visitedSet:" : "JanKurs 9/1/2016 12:25:21",
 		"addParent:" : "JanKurs 9/1/2016 12:25:21",
+		"isJustDelegate" : "JanKurs 9/5/2016 16:51",
 		"parseOn:" : "JanKurs 9/1/2016 12:25:21",
 		"wrapped" : "JanKurs 9/1/2016 12:25:21",
 		"setOptimized" : "JanKurs 9/3/2016 17:26",

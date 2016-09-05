@@ -1,11 +1,10 @@
 parsing
 parseOn: context
 	| intValue |
-	context atEnd ifTrue: [ ^ super parseOn: context ].
+	context atEnd ifTrue: [ ^ failure ].
 
 	intValue := context uncheckedPeek asInteger.
-	intValue == 0 ifTrue: [ ^ super parseOn: context ].
-	intValue > 255 ifTrue: [ ^ super parseOn: context ].
-	(classification at: intValue) ifTrue: [ ^ super parseOn: context ].
-
-	^ failure
+	(intValue > 0 and: [intValue < 128 and: [classification at: intValue]]) ifFalse: [ 
+		^ failure
+	].
+	^ super parseOn: context

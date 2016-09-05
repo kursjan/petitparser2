@@ -1,14 +1,15 @@
 {
 	"instance" : {
-		"testNotPredicateObject" : "JanKurs 9/1/2016 17:24",
+		"testLiteralObjectTrimmingToken" : "JanKurs 9/5/2016 17:02",
+		"testNotLiteral" : "JanKurs 9/1/2016 15:37",
+		"testAndLiteralObject" : "JanKurs 9/1/2016 17:20",
 		"testAndPredicateObject" : "JanKurs 9/1/2016 17:20",
 		"testCache" : "JanKurs 9/3/2016 17:30",
-		"testCache2" : "JanKurs 9/3/2016 17:30",
-		"testAndLiteralObject" : "JanKurs 9/1/2016 17:20",
-		"parse:withParser:withContext:" : "JanKurs 9/1/2016 15:33",
+		"testTrimming" : "JanKurs 9/1/2016 15:34",
 		"testLiteralObject" : "JanKurs 9/1/2016 16:58",
-		"testNotLiteral" : "JanKurs 9/1/2016 15:37",
-		"testTrimming" : "JanKurs 9/1/2016 15:34"
+		"testCache2" : "JanKurs 9/3/2016 17:30",
+		"parse:withParser:withContext:" : "JanKurs 9/1/2016 15:33",
+		"testNotPredicateObject" : "JanKurs 9/1/2016 17:24"
 	},
 	"class" : { }
 }
