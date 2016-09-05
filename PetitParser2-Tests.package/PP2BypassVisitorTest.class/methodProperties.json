@@ -6,7 +6,8 @@
 		"testPlus" : "JanKurs 9/5/2016 13:21",
 		"testSequenceOfTwo" : "JanKurs 9/5/2016 13:19",
 		"testSequenceOfTwoRecognizer" : "JanKurs 9/5/2016 13:19",
-		"visit:" : "JanKurs 9/5/2016 13:03"
+		"visit:" : "JanKurs 9/5/2016 13:03",
+		"testBypassCache" : "JanKurs 9/5/2016 15:06"
 	},
 	"class" : { }
 }
