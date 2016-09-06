@@ -11,4 +11,4 @@ upTo: character
 
 	"skip to the end and return the data passed over"
 	position := end.
-	^collection copyFrom: start to: end
+	^ collection copyFrom: start to: end

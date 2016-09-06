@@ -7,4 +7,4 @@ parseOn: context
 	(intValue > 0 and: [intValue < 128 and: [classification at: intValue]]) ifFalse: [ 
 		^ retval
 	].
-	^ super parseOn: context
+	^ strategy parseOn: context
