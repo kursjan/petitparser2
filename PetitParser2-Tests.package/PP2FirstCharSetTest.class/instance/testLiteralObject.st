@@ -1,5 +1,5 @@
 tests
-testCharacter
+testLiteralObject
 	firstCharSet := $b asParser2 firstCharSet.
 	self assert: firstCharSet value: $b.
 

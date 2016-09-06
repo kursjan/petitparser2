@@ -1,14 +1,11 @@
 visiting
 visitPossesiveRepeating: node
 	| classification |
-	"repetition is kind of sequence:"
-	guarded push: anythingClassification.
 	
 	classification := self classificationFor: node child.
-	(self guardOf: classification makesSenseFor: node child) ifTrue: [  
-		node child strategy: (node child strategy choiceAlternativeGuard: classification).
-		self visit: node child guardedWith: classification
-	] ifFalse: [  
-		self visit: node child
+	(self guardOf: classification makesSenseFor: node) ifTrue: [ 
+		node strategy: (node strategy parsingGuard: classification).
 	].
-	guarded pop.
+	
+	"repetition is kind of sequence, so all but first are not really guarded"
+	self visitUnguarded: node child

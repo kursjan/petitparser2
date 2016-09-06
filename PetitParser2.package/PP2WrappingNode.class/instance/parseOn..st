@@ -1,3 +1,3 @@
 parsing - private
-parseOn: aPPContext
-	^ block value: aPPContext value: [ child parseWithContext:  aPPContext ]
+parseOn: context
+	^ strategy parseOn: context

@@ -1,8 +1,12 @@
 {
 	"instance" : {
-		"accept:" : "JanKurs 9/1/2016 12:25:21",
-		"initialize" : "JanKurs 9/1/2016 12:25:21",
-		"parseOn:" : "JanKurs 9/3/2016 14:47"
+		"isFirstSetTerminal" : "JanKurs 9/6/2016 11:33",
+		"initialize" : "JanKurs 9/6/2016 09:16",
+		"doesFunctionalChanges" : "JanKurs 9/6/2016 09:19",
+		"functionalChanges:" : "JanKurs 9/6/2016 11:33",
+		"parseOn:" : "JanKurs 9/6/2016 09:00",
+		"firstCharSet" : "JanKurs 9/6/2016 09:19",
+		"accept:" : "JanKurs 9/1/2016 12:25:21"
 	},
 	"class" : { }
 }

@@ -1,3 +1,3 @@
 tests
-testCharacter
+testLiteralObject
 	self denyNeverFails: $a asParser2.

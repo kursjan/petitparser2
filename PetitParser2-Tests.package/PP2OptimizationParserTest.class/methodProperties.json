@@ -1,15 +1,25 @@
 {
 	"instance" : {
-		"testLiteralObjectTrimmingToken" : "JanKurs 9/5/2016 17:02",
-		"testNotLiteral" : "JanKurs 9/1/2016 15:37",
-		"testAndLiteralObject" : "JanKurs 9/1/2016 17:20",
-		"testAndPredicateObject" : "JanKurs 9/1/2016 17:20",
-		"testCache" : "JanKurs 9/3/2016 17:30",
-		"testTrimming" : "JanKurs 9/1/2016 15:34",
-		"testLiteralObject" : "JanKurs 9/1/2016 16:58",
-		"testCache2" : "JanKurs 9/3/2016 17:30",
 		"parse:withParser:withContext:" : "JanKurs 9/1/2016 15:33",
-		"testNotPredicateObject" : "JanKurs 9/1/2016 17:24"
+		"testGuardOptionalFailure" : "JanKurs 9/6/2016 09:21",
+		"testCache" : "JanKurs 9/3/2016 17:30",
+		"testNotLiteral" : "JanKurs 9/1/2016 15:37",
+		"testGuardPlusTwo" : "JanKurs 9/6/2016 11:28",
+		"testCache2" : "JanKurs 9/3/2016 17:30",
+		"testGuardOptional" : "JanKurs 9/6/2016 09:21",
+		"testGuardChoiceOptionOne" : "JanKurs 9/6/2016 09:22",
+		"testLiteralObject" : "JanKurs 9/1/2016 16:58",
+		"testNotPredicateObject" : "JanKurs 9/1/2016 17:24",
+		"testTrimming" : "JanKurs 9/1/2016 15:34",
+		"testLiteralObjectTrimmingToken" : "JanKurs 9/5/2016 17:02",
+		"testAndPredicateObject" : "JanKurs 9/1/2016 17:20",
+		"testGuardChoiceFailure" : "JanKurs 9/6/2016 09:22",
+		"testGuardStarEmpty" : "JanKurs 9/6/2016 08:56",
+		"testGuardChoiceOptionTwo" : "JanKurs 9/6/2016 09:22",
+		"testGuardStar" : "JanKurs 9/6/2016 11:28",
+		"testGuardPlusFailure" : "JanKurs 9/6/2016 09:24",
+		"testGuardPlus" : "JanKurs 9/6/2016 11:28",
+		"testAndLiteralObject" : "JanKurs 9/1/2016 17:20"
 	},
 	"class" : { }
 }

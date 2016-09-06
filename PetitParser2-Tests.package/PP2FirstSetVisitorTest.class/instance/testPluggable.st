@@ -1,6 +1,5 @@
 tests
 testPluggable
-	| plus |
 	parser := [:ctx | ctx next] asParser2.
 	firstSet := self firstSet: parser.
 

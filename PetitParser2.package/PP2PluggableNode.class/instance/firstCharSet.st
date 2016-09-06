@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 firstCharSet
 	^ PP2UnknownCharSetPredicate instance
