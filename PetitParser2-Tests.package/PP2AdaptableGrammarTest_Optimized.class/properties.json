@@ -2,7 +2,7 @@
 	"classtraitcomposition" : "TPP2AdaptableGrammarTest classTrait",
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "PP2AdaptableGrammarTest",
+	"name" : "PP2AdaptableGrammarTest_Optimized",
 	"commentStamp" : "",
 	"super" : "PP2CompositeParserTest",
 	"traitcomposition" : "TPP2AdaptableGrammarTest",

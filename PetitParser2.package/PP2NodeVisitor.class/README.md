@@ -1,0 +1,1 @@
+Defines base interface for PP2Node visitors.

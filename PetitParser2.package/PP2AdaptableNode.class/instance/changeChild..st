@@ -1,3 +1,3 @@
 transforming
-setChild: newChild
+changeChild: newChild
 	child := newChild

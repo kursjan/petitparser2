@@ -4,5 +4,5 @@ head
 	^ #digit asParser2 plus flatten 
 	
 	==> [ :_number |
-		body setChild: (#any asParser2 times: _number asNumber) flatten
+		body changeChild: (#any asParser2 times: _number asNumber) flatten
 	]

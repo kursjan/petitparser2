@@ -1,5 +1,6 @@
 tests
 testWrapping
-	| wrapped |
-	wrapped := $a asParser2 >=> [ :context :cc | cc value ].
-	self denyNeverFails: wrapped
+	parser := PP2AdaptableNode new.
+	parser changeChild: $a asParser.
+
+	self denyNeverFails: parser

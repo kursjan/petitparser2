@@ -1,11 +1,13 @@
 {
-	"commentStamp" : "",
-	"super" : "PP2CompositeParserTest",
-	"category" : "PetitParser2-Tests-Examples",
-	"classinstvars" : [ ],
-	"pools" : [ ],
+	"classtraitcomposition" : "TPP2ExpressionGrammarTest classTrait",
 	"classvars" : [ ],
 	"instvars" : [ ],
 	"name" : "PP2ExpressionGrammarTest",
-	"type" : "normal"
+	"commentStamp" : "",
+	"super" : "PP2CompositeParserTest",
+	"traitcomposition" : "TPP2ExpressionGrammarTest",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "PetitParser2-Tests-Examples"
 }
