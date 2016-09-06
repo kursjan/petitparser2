@@ -1,6 +1,0 @@
-testing-literals
-testSymbolLiteral6
-	super testSymbolLiteral6.
-	self assert: result isLiteralNode.
-	self assert: result value equals: #'__gen__binding'.
-	self assert: result value isSymbol
