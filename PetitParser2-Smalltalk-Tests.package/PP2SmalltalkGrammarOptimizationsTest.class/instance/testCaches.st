@@ -7,4 +7,4 @@ testCaches
 		child strategies anySatisfy: [ :s | s isKindOf:PP2Cache ]
 	].
 
-	self assert: cached size = 1.
+	self assert: cached size equals: 3.
