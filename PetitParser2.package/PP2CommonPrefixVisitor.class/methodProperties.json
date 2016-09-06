@@ -1,10 +1,12 @@
 {
 	"instance" : {
-		"visitChoice:" : "JanKurs 9/2/2016 15:41",
+		"visitChoice:" : "JanKurs 9/6/2016 15:35",
 		"cacheMakesSense:" : "JanKurs 9/3/2016 17:29",
-		"visitPP2Node:" : "JanKurs 9/2/2016 15:49",
+		"visitSequence:" : "JanKurs 9/6/2016 15:33",
 		"cache:production:" : "JanKurs 9/2/2016 15:53",
-		"doPass:" : "JanKurs 9/1/2016 22:54"
+		"visitPP2Node:" : "JanKurs 9/2/2016 15:49",
+		"doPass:" : "JanKurs 9/1/2016 22:54",
+		"cacheProductions:" : "JanKurs 9/6/2016 15:33"
 	},
 	"class" : { }
 }
