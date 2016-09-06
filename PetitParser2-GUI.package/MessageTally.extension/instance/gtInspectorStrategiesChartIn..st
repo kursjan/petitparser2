@@ -4,11 +4,11 @@ gtInspectorStrategiesChartIn: composite
 	| metric |
 	metric := #localTally.
 	^ composite roassal2
-		title: 'Top Strategies';
+		title: 'Top PP2';
 		initializeView: [ RTDoubleBarBuilder new ];
 		painting: [ :builder :presentation |
 			GTInspectorMessageTallyCharter new 
-				strategiesPerformanceOf: self 
+				petitPerformanceOf: self 
 				with: builder
 				in: presentation ];
 		when: [ self children notEmpty ]

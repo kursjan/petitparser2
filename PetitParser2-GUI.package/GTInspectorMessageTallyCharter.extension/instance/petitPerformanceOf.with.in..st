@@ -1,5 +1,5 @@
 *PetitParser2-GUI
-strategiesPerformanceOf: aMessageTally with: builder in: presentation
+petitPerformanceOf: aMessageTally with: builder in: presentation
 	"Displays a double chart showing the top 20 most costly methods within a MessageTally.
 	For each method it sows the number of occurences of a method and the 
 	total amount of local tallies for that method. Useful for identifying outliers 
@@ -7,7 +7,7 @@ strategiesPerformanceOf: aMessageTally with: builder in: presentation
 	
 	| all grouped metric |
 	metric := #localTally.
-	all := (aMessageTally deepCollect: [ :each | each sonsOver: 1 ] ) select: [:e | e theClass inheritsFrom: PP2AbstractStrategy].
+	all := (aMessageTally deepCollect: [ :each | each sonsOver: 1 ] ) select: [:e | e theClass name beginsWith: 'PP' ].
 	grouped := (all groupedBy: [ :each | String streamContents: [:s | each gtDisplayIdentifierOn: s] ]) 
 						associations sorted: [:a :b | 
 									(a value sumNumbers: metric) > 

@@ -9,4 +9,4 @@ printOn: aStream
 		nextPutAll: self events size asString;
 		nextPutAll: ')';
 		nextPutAll: ' - ';   
-		nextPutAll: self result printString
+		nextPutAll: (self result printStringLimitedTo: 20).
