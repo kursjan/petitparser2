@@ -40,5 +40,7 @@
 		"asFrequencyTable" : "JanKurs 8/31/2016 13:16",
 		"asReportTable" : "JanKurs 9/2/2016 15:22"
 	},
-	"class" : { }
+	"class" : {
+		"smalltalkParserExample" : "JanKurs 9/6/2016 15:42"
+	}
 }
