@@ -1,5 +1,7 @@
 benchmarks - smalltalk
 setupSmalltalkGrammarIM
+	"IM: Interpreted with Mutable context"
+	
 	self setup: PP2SmalltalkGrammar sources: 'smalltalk'.
 	self parser name: 'Smalltalk Grammar (IM)'.
 	
