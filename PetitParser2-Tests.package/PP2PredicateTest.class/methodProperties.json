@@ -1,0 +1,31 @@
+{
+	"instance" : {
+		"testOnMessage" : "JanKurs 9/12/2016 14:51",
+		"parse:withParser:withContext:" : "JanKurs 9/12/2016 14:55",
+		"testBetweenAnd" : "JanKurs 9/12/2016 15:01",
+		"testBlank" : "JanKurs 9/12/2016 14:51",
+		"charactersDo:" : "JanKurs 9/12/2016 14:51",
+		"testPunctuation" : "JanKurs 9/12/2016 14:51",
+		"testSequenceParser" : "JanKurs 9/12/2016 15:15",
+		"testHex" : "JanKurs 9/12/2016 14:51",
+		"testStartOfWord" : "JanKurs 9/12/2016 14:51",
+		"testAnyOf" : "JanKurs 9/12/2016 15:01",
+		"assertCharacterSets:" : "JanKurs 9/12/2016 14:51",
+		"testAny" : "JanKurs 9/12/2016 14:52",
+		"testEndOfFile" : "JanKurs 9/12/2016 14:51",
+		"testDigit" : "JanKurs 9/12/2016 14:51",
+		"testNewline" : "JanKurs 9/12/2016 15:28",
+		"testChar" : "JanKurs 9/12/2016 14:51",
+		"testExpect" : "JanKurs 9/12/2016 15:37",
+		"testSpace" : "JanKurs 9/12/2016 14:51",
+		"testUppercase" : "JanKurs 9/12/2016 14:51",
+		"testWord" : "JanKurs 9/12/2016 14:51",
+		"testLowercase" : "JanKurs 9/12/2016 14:51",
+		"parsedCharacterSet:" : "JanKurs 9/12/2016 14:51",
+		"testEndOfLine" : "JanKurs 9/12/2016 14:51",
+		"testAnyExceptAnyOf" : "JanKurs 9/12/2016 14:52",
+		"testStartOfLine" : "JanKurs 9/12/2016 14:51",
+		"testLetter" : "JanKurs 9/12/2016 14:51"
+	},
+	"class" : { }
+}
