@@ -1,6 +1,8 @@
 as yet unclassified
 parseOn: aPP2Context
 	| retval petitContext |
+	self halt: 'deprecated?'.
+	
 	petitContext := PPContext new
 		stream: aPP2Context stream asPetitStream;
 		position: aPP2Context position;

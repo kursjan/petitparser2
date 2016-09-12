@@ -1,11 +1,8 @@
 {
 	"instance" : {
-		"testSmalltalkGrammarWithBufferStream" : "JanKurs 9/3/2016 11:53",
-		"testRepetitions" : "JanKurs 8/13/2016 11:18",
-		"parse:withParser:withContext:" : "JanKurs 8/26/2016 13:27",
-		"testSmalltalkGrammar" : "JanKurs 8/13/2016 12:45",
-		"testToken" : "JanKurs 8/12/2016 10:03",
-		"testSmalltalkIdentierWithBufferStream" : "JanKurs 9/3/2016 11:53"
+		"testSmalltalkIdentier" : "JanKurs 9/12/2016 14:19",
+		"testSmalltalkGrammar" : "JanKurs 9/12/2016 14:18",
+		"parse:withParser:withContext:" : "JanKurs 9/12/2016 14:06"
 	},
 	"class" : { }
 }

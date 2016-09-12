@@ -1,3 +1,0 @@
-utilities
-parseSelector
-	^ #parseInterpreted:withContext:

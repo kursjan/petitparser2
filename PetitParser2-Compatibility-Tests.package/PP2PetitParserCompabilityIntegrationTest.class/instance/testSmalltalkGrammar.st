@@ -1,7 +1,12 @@
 tests
 testSmalltalkGrammar
-	| parser |
-	parser := PPSmalltalkGrammar new asPetit2Parser.
+	| parser result tokens |
+	parser := PPSmalltalkGrammar new.
+				
+	result := parser parse: 'foo ^ 1'.
+	self assert: result isPetit2Success.
 	
-	self assert: parser parse: 'foo ^ 1'.
-	
+	tokens := (result retval deepFlatten select: [ :e | e isToken ]).
+	self assert: tokens size equals: 3.
+	self assert: tokens first inputValue = 'foo'.
+	self assert: tokens third inputValue = '1'.

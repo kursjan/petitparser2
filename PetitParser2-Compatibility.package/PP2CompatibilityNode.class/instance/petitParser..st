@@ -1,3 +1,5 @@
 accessing
 petitParser: aPPParser
-	^ petitParser := aPPParser
+	self halt: 'deprecated?'.
+	self assert: (aPPParser isKindOf: PPParser).
+	petitParser := aPPParser

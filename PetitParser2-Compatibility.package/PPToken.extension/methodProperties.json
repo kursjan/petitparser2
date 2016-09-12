@@ -1,5 +1,7 @@
 {
-	"instance" : { },
+	"instance" : {
+		"isToken" : "JanKurs 9/12/2016 14:18"
+	},
 	"class" : {
 		"on:start:stop:" : "JanKurs 8/12/2016 09:18"
 	}
