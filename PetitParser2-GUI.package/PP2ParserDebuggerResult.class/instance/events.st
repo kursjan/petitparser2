@@ -2,7 +2,7 @@ analysis
 events
 	| ctx |
 	ctx := self findContext.
-	ctx isNil ifTrue: [ ^ #() ].
+	(ctx isNil or: [ ctx isProfiling not ]) ifTrue: [ ^ #() ].
 	
 	^ result isPetit2Success ifTrue: [ 
 		ctx filterFrom: self start to: self stop.

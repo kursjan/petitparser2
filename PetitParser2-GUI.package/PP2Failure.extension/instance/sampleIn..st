@@ -3,5 +3,5 @@ sampleIn: composite
 
 	(composite text)
 		title: 'Sample';
-		display: [:res | res findStream contents ifNil: [''] ];
+		display: [:res | res findContext contents ifNil: [''] ];
 		allowNil.

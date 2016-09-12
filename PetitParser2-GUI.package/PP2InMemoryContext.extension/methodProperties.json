@@ -1,11 +1,12 @@
 {
 	"instance" : {
+		"sampleIn:" : "JanKurs 9/5/2016 08:49",
 		"debugResult:" : "JanKurs 8/28/2016 22:55",
 		"debugResultOrNil" : "JanKurs 8/31/2016 21:23",
 		"gtDebugView:" : "JanKurs 9/5/2016 08:54",
 		"treeViewIn:" : "JanKurs 8/28/2016 23:12",
 		"debugResult" : "JanKurs 9/5/2016 08:52",
-		"sampleIn:" : "JanKurs 9/5/2016 08:49"
+		"isProfiling" : "JanKurs 9/12/2016 14:12"
 	},
 	"class" : { }
 }
