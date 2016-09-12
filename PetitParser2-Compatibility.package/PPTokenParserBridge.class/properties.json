@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "PP2TokenParser",
+	"category" : "PetitParser2-Compatibility-Bridge",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PPTokenParserBridge",
+	"type" : "normal"
+}
