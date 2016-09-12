@@ -1,7 +1,9 @@
 visiting - utilities
-close: aPP2Parser
-	self assert: (self isOpened: aPP2Parser).
-	self assert: (self shouldRevisit or: [(self isClosed: aPP2Parser) not]).
+close: node
+	self assert: (self isOpened: node).
+	self assert: ((self shouldRevisit: node) or: [(self isClosed: node) not]).
+	self assert: (openStack top == node).
 	
-	openSet remove: aPP2Parser.
-	closeSet add: aPP2Parser.
+	openSet remove: node.
+	openStack pop.
+	closeSet add: node.

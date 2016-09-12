@@ -6,9 +6,10 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"openSet",
 		"closeSet",
-		"cache"
+		"cache",
+		"openSet",
+		"openStack"
 	],
 	"name" : "PP2NoopVisitor",
 	"type" : "normal"

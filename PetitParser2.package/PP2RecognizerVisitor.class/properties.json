@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"inToken"
+		"inToken",
+		"parents"
 	],
 	"name" : "PP2RecognizerVisitor",
 	"type" : "normal"

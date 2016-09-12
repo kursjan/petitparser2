@@ -1,4 +1,5 @@
 visiting - utilities
-open: aPP2Parser
-	self assert: (self isOpened: aPP2Parser) not.
-	openSet add: aPP2Parser
+open: node
+	self assert: (self isOpened: node) not.
+	openSet add: node.
+	openStack push: node

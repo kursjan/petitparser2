@@ -1,3 +1,0 @@
-accessing
-shouldRevisit
-	^ true

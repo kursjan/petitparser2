@@ -1,0 +1,3 @@
+accessing
+shouldRevisit: node
+	^ false
