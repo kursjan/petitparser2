@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "PP2Strategy",
+	"category" : "PetitParser2-Strategies",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"failure"
+	],
+	"name" : "PP2NewLine",
+	"type" : "normal"
+}
