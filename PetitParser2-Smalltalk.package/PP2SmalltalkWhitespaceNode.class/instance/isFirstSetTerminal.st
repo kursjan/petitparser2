@@ -1,3 +1,3 @@
-testing
+analysis - first
 isFirstSetTerminal
 	^ false
