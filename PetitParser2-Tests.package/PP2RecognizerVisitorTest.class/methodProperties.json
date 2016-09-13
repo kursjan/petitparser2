@@ -1,14 +1,15 @@
 {
 	"instance" : {
-		"testTwoParents" : "JanKurs 9/2/2016 09:15",
-		"deny:isKindOf:" : "JanKurs 9/1/2016 12:25:21",
-		"assert:isKindOf:" : "JanKurs 9/1/2016 12:25:21",
-		"visit:" : "JanKurs 9/2/2016 09:09",
-		"setUp" : "JanKurs 9/1/2016 12:25:21",
 		"testPredicateObject" : "JanKurs 9/2/2016 09:09",
+		"deny:isKindOf:" : "JanKurs 9/1/2016 12:25:21",
+		"visit:" : "JanKurs 9/13/2016 08:43",
+		"testTwoParentsDifferentContext" : "JanKurs 9/13/2016 08:08",
+		"testToken" : "JanKurs 9/2/2016 09:09",
+		"testTwoParents" : "JanKurs 9/2/2016 09:15",
+		"assert:isKindOf:" : "JanKurs 9/1/2016 12:25:21",
 		"testFlatten" : "JanKurs 9/2/2016 09:09",
 		"testSequenceOfTwo" : "JanKurs 9/2/2016 09:09",
-		"testToken" : "JanKurs 9/2/2016 09:09"
+		"setUp" : "JanKurs 9/13/2016 08:42"
 	},
 	"class" : { }
 }

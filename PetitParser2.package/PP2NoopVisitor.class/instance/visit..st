@@ -1,27 +1,23 @@
 visiting
-visit: aPP2Node
-	| result |
-	(self isOpened: aPP2Node) ifTrue: [  
-		self nodeOpened: aPP2Node.
+visit: node
+	| result context |
+	context := self context: node.
+	
+	(self isClosed: context) ifTrue: [ 
+		self nodeClosed: node.
+		^ self cachedResultFor: context
 	].
 
-	(self isClosed: aPP2Node) ifTrue: [ 
-		self nodeClosed: aPP2Node.
+	(self isOpened: context) ifTrue: [
+		self nodeOpened: node.
+		^ self openedResultFor: context
 	].
 
-	(self isOpened: aPP2Node) ifTrue: [
-		^ self openedResultFor: aPP2Node
-	].
-
-	((self isClosed: aPP2Node) and: [ (self shouldRevisit: aPP2Node) not]) ifTrue: [
-		^ self cachedResultFor: aPP2Node
-	].
-
-	self open: aPP2Node.
-	self beforeAccept: aPP2Node.
-	result := aPP2Node accept: self.
-	self cacheResult: result for: aPP2Node.
-	self afterAccept: aPP2Node result: result.
-	self close: aPP2Node.
+	self open: context.
+	self beforeAccept: context.
+	result := node accept: self.
+	self afterAccept: context result: result.
+	self cacheResult: result for: context.
+	self close: context.
 
 	^ result

@@ -1,7 +1,8 @@
 initialization
 initialize
-	cache := IdentityDictionary new.
-	openSet := IdentitySet new.
-	closeSet := IdentitySet new.
+	cache := Dictionary new.
+	openSet := Set new.
+	closeSet := Set new.
 	
-	openStack := Stack with: nil.
+	"to manage parents"
+	openStack := Stack with: self rootContext.

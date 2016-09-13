@@ -15,7 +15,9 @@ optimize
 		whitespace handling in PP2 and has more suitable cache.
 	"
 	PP2TrimmingCacheVisitor new doPass: self.
-	
+
+	"Cache the intermediate results for the Guard and Common Prefix visitors"
+	PP2AllNodesCache new doPass: self.
 	PP2FirstProductionSetCache new doPass: self.
 	PP2CommonPrefixVisitor new doPass: self.
 	

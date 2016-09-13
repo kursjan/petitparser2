@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "PP2AllNodesVisitor",
+	"category" : "PetitParser2-Optimizations",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PP2AllNodesCache",
+	"type" : "normal"
+}

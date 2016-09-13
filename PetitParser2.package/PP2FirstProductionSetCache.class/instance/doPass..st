@@ -1,10 +1,10 @@
 optimizations
 doPass: node
-	| children child |
+	| allNodes child |
 	self visit: node.
-	children := node allNodes.
+	allNodes := node allNodes.
 	
-	[child := children detect: [ :e | (e hasProperty: #firstProductionSet) not ] 
+	[child := allNodes detect: [ :e | (e hasProperty: #firstProductionSet) not ] 
 							ifNone: [ nil ] ] whileNotNil: [ 		
 		self visit: child
 	]

@@ -9,8 +9,8 @@ testVisitCycle
 	
 	self assert: result equals: visitor.
 	
-	self assert: (visitor closedSet includes: parser). 
-	self assert: (visitor closedSet includes: delegate). 
+	self assert: (visitor closedSet includes: (PP2NoopContext with: parser)). 
+	self assert: (visitor closedSet includes: (PP2NoopContext with: delegate)). 
 	self assert: (visitor openSet isEmpty). 	
 	
 	self assert: visitor visitOrder size equals: 2.

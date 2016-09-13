@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "PetitParser2-Tests-Analysis",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"children",
+		"parser",
+		"visitor"
+	],
+	"name" : "PP2AllNodesVisitorTest",
+	"type" : "normal"
+}

@@ -1,3 +1,3 @@
 hooks
-afterAccept: node result: result
-	node propertyAt: #firstSet ifAbsentPut: result
+afterAccept: ctx result: result
+	ctx node propertyAt: #firstSet ifAbsentPut: result

@@ -1,3 +1,3 @@
 hooks
-afterAccept: node result: result
-	node propertyAt: #neverFails ifAbsentPut: result
+afterAccept: ctx result: result
+	ctx node propertyAt: #neverFails ifAbsentPut: result

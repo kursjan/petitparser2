@@ -9,8 +9,7 @@
 		"parser",
 		"visitor",
 		"token",
-		"sequence",
-		"parentAnalyzer"
+		"sequence"
 	],
 	"name" : "PP2RecognizerVisitorTest",
 	"type" : "normal"

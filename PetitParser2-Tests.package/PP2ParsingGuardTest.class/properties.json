@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "PetitParser2-Tests-Strategies",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"classification",
+		"retval"
+	],
+	"name" : "PP2ParsingGuardTest",
+	"type" : "normal"
+}

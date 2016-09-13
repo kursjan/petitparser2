@@ -1,8 +1,9 @@
 support
 cacheMakesSense: node
-	| parser |
-	parser := node.
-	parser class == PP2DelegateNode ifTrue: [ parser := parser child ].
+	| theNode |
+	theNode := node.
+	theNode class == PP2DelegateNode ifTrue: [ theNode := theNode child ].
 	"trimmers are already optimized, I care about the body"
-	parser isTrimming ifTrue: [ parser := parser child ].
-	^ parser allNodes size > 2
+	theNode isTrimming ifTrue: [ theNode := theNode child ].
+	
+	^ (theNode propertyAt: #allNodesSize ifAbsentPut: [ theNode allNodes size ]) > 2

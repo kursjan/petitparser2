@@ -1,3 +1,0 @@
-accessing
-grandParent
-	^ openStack second

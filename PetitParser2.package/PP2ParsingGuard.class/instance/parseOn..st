@@ -4,7 +4,13 @@ parseOn: context
 	context atEnd ifTrue: [ ^ retval ].
 
 	intValue := context uncheckedPeek asInteger.
-	(intValue > 0 and: [intValue < 128 and: [classification at: intValue]]) ifFalse: [ 
+	(intValue between: 0 and: 128) ifFalse: [  
+		^ strategy parseOn: context
+	].
+	
+	(classification at: intValue) ifFalse: [ 
 		^ retval
 	].
+
 	^ strategy parseOn: context
+

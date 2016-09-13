@@ -5,4 +5,5 @@ SystemOrganization addCategory: 'PetitParser2-Tests-Examples'!
 SystemOrganization addCategory: 'PetitParser2-Tests-Nodes'!
 SystemOrganization addCategory: 'PetitParser2-Tests-Optimizations'!
 SystemOrganization addCategory: 'PetitParser2-Tests-Parsing'!
+SystemOrganization addCategory: 'PetitParser2-Tests-Strategies'!
 SystemOrganization addCategory: 'PetitParser2-Tests-Streams'!

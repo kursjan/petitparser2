@@ -1,3 +1,3 @@
-as yet unclassified
+parsing
 testOptimized
 	self assert: self parserInstance isOptimized

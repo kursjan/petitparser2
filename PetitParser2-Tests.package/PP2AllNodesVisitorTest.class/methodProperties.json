@@ -1,0 +1,14 @@
+{
+	"instance" : {
+		"testLiteral" : "JanKurs 9/13/2016 08:59",
+		"testChoice" : "JanKurs 9/13/2016 08:59",
+		"testTrimParser" : "JanKurs 9/13/2016 09:00",
+		"testCycle" : "JanKurs 9/13/2016 08:59",
+		"testSequence" : "JanKurs 9/13/2016 09:00",
+		"setUp" : "JanKurs 9/13/2016 16:43",
+		"testWrapping" : "JanKurs 9/13/2016 09:00",
+		"visit:" : "JanKurs 9/13/2016 16:48",
+		"testTokenParser" : "JanKurs 9/13/2016 09:00"
+	},
+	"class" : { }
+}
