@@ -1,3 +1,3 @@
 benchmarks - java
 benchmarkJavaSyntaxNoOpt
-		self smartSetupAndRun: thisContext method selector.
+	self smartSetupAndRun: thisContext method selector.

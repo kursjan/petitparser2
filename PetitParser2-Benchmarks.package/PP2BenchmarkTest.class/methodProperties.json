@@ -1,14 +1,16 @@
 {
 	"instance" : {
-		"testJavaSyntaxNoOpt" : "JanKurs 9/12/2016 17:10",
 		"testExpressionParser" : "JanKurs 8/26/2016 23:07",
+		"testJavaSyntaxNoOpt" : "JanKurs 9/12/2016 17:10",
 		"testSmalltalkParser" : "JanKurs 9/5/2016 08:36",
 		"testSmalltalkGrammarIM" : "JanKurs 8/28/2016 14:50",
 		"testExpressionGrammarNoOpt" : "JanKurs 8/31/2016 16:12",
 		"testSmalltalkGrammarNoOpt" : "JanKurs 9/5/2016 08:22",
+		"testJavaParserNoOpt" : "JanKurs 9/14/2016 08:04",
 		"testExpressionGrammar" : "JanKurs 8/31/2016 16:14",
-		"testSmalltalkParserNoOpt" : "JanKurs 9/5/2016 08:22",
 		"testJavaSyntax" : "JanKurs 9/12/2016 16:57",
+		"testSmalltalkParserNoOpt" : "JanKurs 9/5/2016 08:22",
+		"testJavaParser" : "JanKurs 9/14/2016 08:03",
 		"testSmalltalkGrammar" : "JanKurs 9/5/2016 08:22"
 	},
 	"class" : { }

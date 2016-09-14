@@ -1,3 +1,3 @@
 benchmarks - java
-benchmarkJavaSyntax
+benchmarkJavaParserNoOpt
 	self smartSetupAndRun: thisContext method selector.
