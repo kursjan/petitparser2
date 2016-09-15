@@ -10,5 +10,5 @@ testTwoParentsDifferentContext
 	
 	self visit: sequence.
 	
-	self assert: parser warnings size = 1.
+	self assert: parser warnings size equals: 1.
 	self assert: parser strategy isKindOf: PP2StarPredicateObject.
