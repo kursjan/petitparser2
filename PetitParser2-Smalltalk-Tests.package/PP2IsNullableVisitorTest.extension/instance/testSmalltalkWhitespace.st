@@ -1,0 +1,3 @@
+*PetitParser2-Smalltalk-Tests
+testSmalltalkWhitespace
+	self assertIsNullable: PP2SmalltalkWhitespaceNode new 
