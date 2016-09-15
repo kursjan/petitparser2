@@ -16,45 +16,41 @@ baseline: spec
 			package: 'PetitParser2-Validation' with: [ spec requires: #('PetitParser2') ];
 			package: 'PetitParser2-Validation-Tests' with: [ spec requires: #('PetitParser2-Validation' 'PetitParser2-Tests') ];
 			package: 'PetitParser2-Benchmarks' with: [ spec requires: #('PetitParser2' 'PetitParser2-Validation' 'PetitParser2-Smalltalk') ];
-			package: 'PetitParser2-Compatibility' with: [ spec requires: #('PetitParser' 'PetitParser2' 'PetitParser2-Validation') ];
-			package: 'PetitParser2-Compatibility-Tests' with: [ spec requires: #('PetitParser2-Validation-Tests' 'PetitParser2-Compatibility') ];
-
-			project: 'PetitParser' with: [
-				spec
-					className: 'ConfigurationOfPetitParser';
-					file: 'ConfigurationOfPetitParser';
-					version: #stable;
-					loads: 'Parser';
-					repository: 'http://www.smalltalkhub.com/mc/Moose/PetitParser/main' ].
+			package: 'PetitParser2-Compatibility' with: [ spec requires: #('PetitParser2') ];
+			package: 'PetitParser2-Compatibility-Tests' with: [ spec requires: #('PetitParser2-Compatibility') ].
 
 		spec group: 'Core' with: #('PetitParser2' 'PetitParser2-Tests').
+		spec group: 'Smalltalk' with: #('PetitParser2-Smalltalk' 'PetitParser2-Smalltalk-Tests').
 		spec group: 'Backtracking' with: #('PetitParser2-Backtracking' 'PetitParser2-Backtracking-Tests').
 		spec group: 'Compatibility' with: #('PetitParser2-Compatibility' 'PetitParser2-Compatibility-Tests').
+		spec group: 'PetitParser2' with: #(	
+											'PetitParser2' 
+											'PetitParser2-Tests' 
+											'PetitParser2-Smalltalk' 
+											'PetitParser2-Smalltalk-Tests' 
+											'PetitParser2-Compatibility' 
+											'PetitParser2-Compatibility-Tests').
+
 		spec group: 'All' with: #(	'PetitParser2' 
 											'PetitParser2-Tests' 
-											'PetitParser2-Backtracking' 
-											'PetitParser2-Backtracking-Tests'
-											'PetitParser2-Benchmarks' 
 											'PetitParser2-Smalltalk' 
 											'PetitParser2-Smalltalk-Tests' 
 											'PetitParser2-Validation' 
 											'PetitParser2-Validation-Tests' 
+											'PetitParser2-Benchmarks' 
 											'PetitParser2-Compatibility' 
 											'PetitParser2-Compatibility-Tests').
-	].
 
-	self flag: 'JK: Not sure how to specify the dependency on Glamour. Needs to be solved properly'.
-	spec for: #('squeakCommon')  do: [
 		spec project: 'Glamour' with: [
 			spec
+				versionString: #'development';
 				className: 'ConfigurationOfGlamour';
-				file: 'ConfigurationOfGlamour';
-				version: #development;
 				repository: 'http://www.smalltalkhub.com/mc/Moose/Glamour/main' ].
+
 		spec 
 			package: 'PetitParser2-GUI' with: [ spec requires: #('Glamour' 'PetitParser2') ];
 			package: 'PetitParser2-GUI-Tests' with: [ spec requires: #('PetitParser2-GUI') ];
 			package: 'PetitParser2-Benchmarks-GUI' with: [ spec requires: #('PetitParser2-Benchmarks') ].
 			
-		spec group: 'IDE' with: #( 'PetitParser2-GUI' 'PetitParser2-Benchmarks-GUI' ) 
+		spec group: 'IDE' with: #( 'PetitParser2-GUI' 'PetitParser2-Benchmarks-GUI' ).
 	] 
