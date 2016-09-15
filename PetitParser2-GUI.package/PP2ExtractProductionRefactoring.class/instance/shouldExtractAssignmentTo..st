@@ -1,0 +1,3 @@
+requests
+shouldExtractAssignmentTo: aString
+	^ false

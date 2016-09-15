@@ -4,6 +4,6 @@ addNewSubParserOf: class in: list
 	className := UIManager default request: 'Parser class name' initialAnswer: '' title: 'Add new parser'.
 	^ className
 		ifNotNil: [ 
-			refactoring := PPAddParserRefactoring name: className asSymbol category: #ParserExample superclass: class.
-			PPRefactoringUtils new performRefactoring: refactoring.
+			refactoring := PP2AddParserRefactoring name: className asSymbol category: #ParserExample superclass: class.
+			PP2RefactoringUtils new performRefactoring: refactoring.
 			list update ]

@@ -1,0 +1,16 @@
+{
+	"instance" : {
+		"performRefactoring:" : "lr 12/7/2011 22:08",
+		"testAddParserWithSuperclass" : "JanKurs 9/15/2016 17:23",
+		"testRenameProduction" : "JanKurs 9/15/2016 17:23",
+		"testExtractProduction" : "JanKurs 9/15/2016 17:25",
+		"testRemoveParser" : "JanKurs 9/15/2016 17:23",
+		"changes" : "lr 12/7/2011 22:14",
+		"testRemoveProduction" : "JanKurs 9/15/2016 17:23",
+		"change" : "lr 12/7/2011 22:14",
+		"testDefineProduction" : "JanKurs 9/15/2016 17:23",
+		"refactoring" : "lr 12/7/2011 22:09",
+		"testAddParser" : "JanKurs 9/15/2016 17:23"
+	},
+	"class" : { }
+}

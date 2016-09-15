@@ -1,0 +1,10 @@
+{
+	"instance" : {
+		"transform" : "lr 12/18/2011 15:22",
+		"preconditions" : "JanKurs 9/15/2016 17:25",
+		"setClass:" : "lr 12/18/2011 15:21"
+	},
+	"class" : {
+		"onClass:" : "lr 12/18/2011 15:20"
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "TudorGirba 12/3/2011 17:25",
+	"super" : "GLMCompositePresentation",
+	"category" : "PetitParser2-GUI-Browser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PP2ParserInspector",
+	"type" : "normal"
+}

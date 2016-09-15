@@ -3,6 +3,7 @@ gtDebugView: composite
 	<gtInspectorPresentationOrder: 40>
 
 	| browser |
+	"JK: is there a better way how not to show the presentation?"
 	(self hasGlobal: #debugResult) ifFalse: [ ^ self ].
 	
 	browser := 
