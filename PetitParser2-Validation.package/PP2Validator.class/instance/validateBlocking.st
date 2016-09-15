@@ -2,7 +2,8 @@ validation
 validateBlocking
 	| time sources |
 
-	Transcript cr; show: 'Validating: ', self name.
+	self transcriptCr; transcriptShow: 'Validating: ', self name.
+		
 	report := PP2ValidatorReport new.
 	report parserName: self name.
 	
@@ -10,10 +11,10 @@ validateBlocking
 		sources := self sources.
 		report sources: sources.
 		
-		Transcript cr.
+		self transcriptCr.
 		sources withIndexDo: [ :source :index | 
 		[ 
-			((index % ((sources size // 50) max: 1)) = 0) ifTrue: [ Transcript show: '-' ].
+			((index % ((sources size // 50) max: 1)) = 0) ifTrue: [ self transcriptShow: '-' ].
 			(self validateSource: source report: report).
 		] on: Error do: [ :err | 
 			report error: err forSource: source.
@@ -22,12 +23,4 @@ validateBlocking
 	]] timeToRun.
 
 	report time: time.
-	report printOnStream: Transcript.
-	
-"
-	Transcript cr; show: 'Validated in: ', time asMilliseconds asString.
-	Transcript cr; show: 'sucesses: ', successes asString.
-	Transcript cr; show: 'failures: ', failures size asString.
-	Transcript cr; show: 'timeouts: ', timeouts size asString.
-	Transcript cr; show: 'errors: ', errors size asString.	
-"
+	self transcriptShow: report asString
