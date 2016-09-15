@@ -16,19 +16,15 @@ gtDebugView: composite
 		from: #tree;
 		to: #source port: #selectionInterval;
 		transformed: [:debuggerResult |
-			(debuggerResult start isNil or: [ debuggerResult stop isNil ])
-			ifTrue: [ 1 to: 0 ]
-			ifFalse: [ debuggerResult start to: debuggerResult stop]
+			debuggerResult startStopInterval
 		].
 
 	browser transmit
 		to: #source;
-		transformed: [ :e | e debugResult ];
-		andShow: [ :a |  self sampleIn: a ].
+		andShow: [ :a |  self gtSampleIn: a ].
 	
 	browser transmit 
 		to: #tree;
-		transformed: [ :e | e debugResult ];
-		andShow: [ :a | self treeViewIn: a ].
+		andShow: [ :a | self gtTreeViewIn: a ].
 		
 	browser startOn: self

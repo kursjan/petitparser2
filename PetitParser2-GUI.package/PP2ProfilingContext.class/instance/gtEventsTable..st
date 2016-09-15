@@ -1,5 +1,5 @@
 gt
-eventsTable: composite
+gtEventsTable: composite
 	<gtInspectorPresentationOrder: 30>
 	composite table 
 		title: 'Events Table';

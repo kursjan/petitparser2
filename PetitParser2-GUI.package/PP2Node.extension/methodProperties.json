@@ -1,12 +1,14 @@
 {
 	"instance" : {
 		"debug:withContext:" : "JanKurs 8/28/2016 22:26",
-		"gtWarnings:" : "JanKurs 9/6/2016 14:10",
+		"gtWarningsIn:" : "JanKurs 9/15/2016 09:41",
 		"enableDebug" : "JanKurs 9/3/2016 17:29",
 		"gtProperties:" : "JanKurs 8/26/2016 10:08",
 		"debugAdaptableWithContext:" : "JanKurs 8/28/2016 22:26",
-		"gtTreeViewIn:" : "JanKurs 9/1/2016 15:54",
-		"debug:" : "JanKurs 8/28/2016 22:27"
+		"displayDetailedName" : "JanKurs 9/14/2016 16:23",
+		"gtTreeViewIn:" : "JanKurs 9/15/2016 10:55",
+		"debug:" : "JanKurs 8/28/2016 22:27",
+		"displayName" : "JanKurs 9/14/2016 16:23"
 	},
 	"class" : { }
 }

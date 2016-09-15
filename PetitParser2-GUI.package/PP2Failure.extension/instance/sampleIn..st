@@ -3,5 +3,5 @@ sampleIn: composite
 
 	(composite text)
 		title: 'Sample';
-		display: [:res | res findContext contents ifNil: [''] ];
+		display: [:debuggerResult | debuggerResult findContext contents ifNil: [''] ];
 		allowNil.

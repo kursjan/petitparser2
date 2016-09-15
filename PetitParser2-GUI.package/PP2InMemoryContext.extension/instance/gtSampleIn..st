@@ -1,7 +1,7 @@
 *PetitParser2-GUI
-sampleIn: composite
+gtSampleIn: composite
 
 	(composite text)
 		title: 'Sample';
-		display: [:res | res findContextContents ];
+		display: [:context | context contents ];
 		allowNil.

@@ -1,0 +1,12 @@
+{
+	"instance" : {
+		"assert:isKindOf:" : "JanKurs 9/15/2016 10:59",
+		"testCache" : "JanKurs 9/15/2016 10:59",
+		"setUp" : "JanKurs 9/15/2016 11:03",
+		"testParsingGuard" : "JanKurs 9/15/2016 11:03",
+		"testParsingGuardOptional" : "JanKurs 9/15/2016 11:03",
+		"testRecognizer" : "JanKurs 9/15/2016 11:06",
+		"testDebug" : "JanKurs 9/15/2016 10:58"
+	},
+	"class" : { }
+}

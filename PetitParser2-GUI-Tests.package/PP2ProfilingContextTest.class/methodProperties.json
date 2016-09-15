@@ -1,8 +1,10 @@
 {
 	"instance" : {
 		"testParser" : "JanKurs 9/5/2016 07:54",
-		"testParserRefreshCache" : "JanKurs 9/5/2016 07:56",
-		"contextOn:" : "JanKurs 9/4/2016 20:54"
+		"contextOn:" : "JanKurs 9/4/2016 20:54",
+		"testDebugResultNoDebug" : "JanKurs 9/15/2016 10:01",
+		"testDebugResult" : "JanKurs 9/15/2016 10:02",
+		"testParserRefreshCache" : "JanKurs 9/5/2016 07:56"
 	},
 	"class" : { }
 }

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "GLMCompositePresentation",
+	"category" : "PetitParser2-GUI-Browser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PP2Browser",
+	"type" : "normal"
+}

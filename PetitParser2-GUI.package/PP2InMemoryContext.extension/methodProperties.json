@@ -1,12 +1,13 @@
 {
 	"instance" : {
-		"sampleIn:" : "JanKurs 9/5/2016 08:49",
+		"gtResultIn:" : "JanKurs 9/14/2016 18:46",
+		"gtSampleIn:" : "JanKurs 9/14/2016 18:40",
+		"isProfiling" : "JanKurs 9/12/2016 14:12",
 		"debugResult:" : "JanKurs 8/28/2016 22:55",
-		"debugResultOrNil" : "JanKurs 8/31/2016 21:23",
-		"gtDebugView:" : "JanKurs 9/5/2016 08:54",
-		"treeViewIn:" : "JanKurs 8/28/2016 23:12",
+		"gtDebugView:" : "JanKurs 9/15/2016 08:37",
+		"gtTreeViewIn:" : "JanKurs 9/15/2016 10:15",
 		"debugResult" : "JanKurs 9/5/2016 08:52",
-		"isProfiling" : "JanKurs 9/12/2016 14:12"
+		"gtGlobals:" : "JanKurs 9/1/2016 12:25:21"
 	},
 	"class" : { }
 }

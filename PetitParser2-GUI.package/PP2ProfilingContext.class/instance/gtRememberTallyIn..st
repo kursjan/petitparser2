@@ -1,12 +1,12 @@
 gt
-tallyIn: composite
-	<gtInspectorPresentationOrder: 35>
+gtRememberTallyIn: composite
+	<gtInspectorPresentationOrder: 34>
 
 	composite table 
-		title: 'Global Tally';
+		title: 'Remember Tally';
 		column: 'Selector/Parser' evaluated: [ :each | each first printString ];
 		column: 'Count' evaluated: [ :each | each second printString ];
 		column: 'Percentage (%)' evaluated: [ :each | each third printString ];
-		display: [ self asFrequencyTable ];
+		display: [ self asFrequencyTableForEvent: #remember ];
 		noSelection;
 		showOnly: 50
