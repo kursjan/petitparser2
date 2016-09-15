@@ -3,5 +3,5 @@ context: node
 	^ PP2RecognizerContext new
 		node: node;
 		inToken: self inToken;
-		parent: self parentContext node;
+		parent: self currentContext node;
 		yourself

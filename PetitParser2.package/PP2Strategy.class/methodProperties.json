@@ -1,12 +1,11 @@
 {
 	"instance" : {
-		"initializeFor:" : "JanKurs 9/1/2016 12:25:21",
 		"allChildren" : "JanKurs 9/2/2016 11:56",
+		"initializeFor:" : "JanKurs 9/1/2016 12:25:21",
 		"node" : "JanKurs 9/1/2016 12:25:21",
 		"node:" : "JanKurs 9/1/2016 12:25:21",
 		"parseOn:" : "JanKurs 9/1/2016 12:25:21",
-		"bypass:to:" : "JanKurs 9/5/2016 13:50",
-		"displayName" : "JanKurs 9/1/2016 15:57"
+		"bypass:to:" : "JanKurs 9/5/2016 13:50"
 	},
 	"class" : {
 		"new" : "JanKurs 9/1/2016 12:25:21",

@@ -2,8 +2,8 @@
 	"instance" : {
 		"accept:" : "JanKurs 9/1/2016 12:25:21",
 		"hash" : "JanKurs 9/1/2016 12:25:21",
-		"initialize" : "JanKurs 9/1/2016 12:25:21",
-		"localEquals:" : "JanKurs 9/1/2016 12:25:21"
+		"localEquals:" : "JanKurs 9/1/2016 12:25:21",
+		"resetStrategy" : "JanKurs 9/15/2016 09:16"
 	},
 	"class" : { }
 }
