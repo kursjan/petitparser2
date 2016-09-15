@@ -4,7 +4,7 @@ visitSequence: sequence
 
 	super visitSequence: sequence.
 	"First child never fails, i.e. it accepts epsilon?"
-	sequence firstChild neverFails ifFalse: [ ^ self ].
+	sequence firstChild isNullable ifFalse: [ ^ self ].
 
 	"so far only for the first two children"
 	productions := OrderedCollection new.

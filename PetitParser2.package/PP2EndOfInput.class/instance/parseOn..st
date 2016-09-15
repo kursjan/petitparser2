@@ -1,3 +1,3 @@
 parsing
-parseOn: aPP2Context
-	self shouldBeImplemented 
+parseOn: context
+	^ context atEnd ifTrue: [ nil ] ifFalse: [ failure context: context ]

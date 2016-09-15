@@ -7,7 +7,7 @@ optimize
 	PP2ParentAnalysisVisitor new doPass: self.
 	PP2RecognizerVisitor new doPass: self.
 
-	PP2NeverFailsCache new doPass: self.
+	PP2IsNullableCache new doPass: self.
 	PP2FirstSetCache new doPass: self.
 
 	 "
