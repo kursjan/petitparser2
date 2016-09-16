@@ -51,6 +51,5 @@ baseline: spec
 											'PetitParser2-Smalltalk-Tests' 
 											'PetitParser2-Compatibility' 
 											'PetitParser2-Compatibility-Tests'
-											'PetitParser2-GUI' 
-											'PetitParser2-Benchmarks-GUI').
+											'PetitParser2-GUI').
 	] 

@@ -1,11 +1,9 @@
 {
 	"instance" : {
-		"asPetit2Node" : "JanKurs 4/3/2016 13:35",
-		"parseWithContext:" : "JanKurs 9/12/2016 11:01",
+		"asPetit2Parser" : "JanKurs 4/3/2016 14:34",
 		"convertTo:" : "JanKurs 4/3/2016 13:27",
-		"petit2Class" : "JanKurs 4/3/2016 13:43",
-		"parse:" : "JanKurs 9/12/2016 10:58",
-		"asPetit2Parser" : "JanKurs 4/3/2016 14:34"
+		"asPetit2Node" : "JanKurs 4/3/2016 13:35",
+		"petit2Class" : "JanKurs 4/3/2016 13:43"
 	},
 	"class" : { }
 }
