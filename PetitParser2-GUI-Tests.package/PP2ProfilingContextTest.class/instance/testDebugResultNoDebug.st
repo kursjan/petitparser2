@@ -3,7 +3,7 @@ testDebugResultNoDebug
 	| context parser resultContext |
 	context := PP2ProfilingContext new.
 	
-	parser := 'foo' asParser star.
+	parser := 'foo' asParser2 star.
 	resultContext := parser parse: 'foofoofoo' withContext: context.
 	
 	self assert: resultContext retval isPetit2Success.

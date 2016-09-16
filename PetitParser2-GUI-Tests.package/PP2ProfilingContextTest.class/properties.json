@@ -9,5 +9,5 @@
 	"type" : "normal",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"category" : "PetitParser2-GUI-Tests"
+	"category" : "PetitParser2-GUI-Tests-Debug"
 }

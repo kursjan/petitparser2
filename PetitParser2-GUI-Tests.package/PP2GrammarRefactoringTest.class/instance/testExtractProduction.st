@@ -3,19 +3,19 @@ testExtractProduction
 	self
 		performRefactoring:
 			(PP2ExtractProductionRefactoring
-				onClass: PPArithmeticParser
+				onClass: PP2ExpressionGrammar
 				production: #addition
-				interval: (36 to: 60)
-				to: #plusOrMinus).
+				interval: (22 to: 33)
+				to: #plus).
 	self assert: self changes size equals: 3.
 	self assert: self changes first class equals: RBAddInstanceVariableChange.
-	self assert: self changes first variable equals: 'plusOrMinus'.
+	self assert: self changes first variable equals: 'plus'.
 	self assert: self changes second class equals: RBAddMethodChange.
-	self assert: self changes second parseTree equals: (RBParser parseMethod: 'plusOrMinus ^ $+ asParser / $- asParser').
+	self assert: self changes second parseTree equals: (RBParser parseMethod: 'plus ^ $+ asParser2').
 	self assert: self changes last class equals: RBAddMethodChange.
 	self
 		assert: self changes last parseTree
 		equals:
 			(RBParser
 				parseMethod:
-					'addition ^ (factors separatedBy: plusOrMinus trim) foldLeft: [ :a :op :b | a perform: op asSymbol with: b ]')
+					'addition	^ primary, plus, terms')
