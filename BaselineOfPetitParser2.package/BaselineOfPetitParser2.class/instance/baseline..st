@@ -23,23 +23,7 @@ baseline: spec
 		spec group: 'Smalltalk' with: #('PetitParser2-Smalltalk' 'PetitParser2-Smalltalk-Tests').
 		spec group: 'Backtracking' with: #('PetitParser2-Backtracking' 'PetitParser2-Backtracking-Tests').
 		spec group: 'Compatibility' with: #('PetitParser2-Compatibility' 'PetitParser2-Compatibility-Tests').
-		spec group: 'PetitParser2' with: #(	
-											'PetitParser2' 
-											'PetitParser2-Tests' 
-											'PetitParser2-Smalltalk' 
-											'PetitParser2-Smalltalk-Tests' 
-											'PetitParser2-Compatibility' 
-											'PetitParser2-Compatibility-Tests').
 
-		spec group: 'All' with: #(	'PetitParser2' 
-											'PetitParser2-Tests' 
-											'PetitParser2-Smalltalk' 
-											'PetitParser2-Smalltalk-Tests' 
-											'PetitParser2-Validation' 
-											'PetitParser2-Validation-Tests' 
-											'PetitParser2-Benchmarks' 
-											'PetitParser2-Compatibility' 
-											'PetitParser2-Compatibility-Tests').
 
 		spec project: 'Glamour' with: [
 			spec
@@ -52,5 +36,21 @@ baseline: spec
 			package: 'PetitParser2-GUI-Tests' with: [ spec requires: #('PetitParser2-GUI') ];
 			package: 'PetitParser2-Benchmarks-GUI' with: [ spec requires: #('PetitParser2-Benchmarks') ].
 			
-		spec group: 'IDE' with: #( 'PetitParser2-GUI' 'PetitParser2-Benchmarks-GUI' ).
+		spec group: 'PetitParser2' with: #(	
+											'PetitParser2' 
+											'PetitParser2-Tests' 
+											'PetitParser2-Smalltalk' 
+											'PetitParser2-Smalltalk-Tests' 
+											'PetitParser2-Compatibility' 
+											'PetitParser2-Compatibility-Tests').		
+													
+		spec group: 'PetitParser2-IDE' with: #( 
+											'PetitParser2' 
+											'PetitParser2-Tests' 
+											'PetitParser2-Smalltalk' 
+											'PetitParser2-Smalltalk-Tests' 
+											'PetitParser2-Compatibility' 
+											'PetitParser2-Compatibility-Tests'
+											'PetitParser2-GUI' 
+											'PetitParser2-Benchmarks-GUI').
 	] 
