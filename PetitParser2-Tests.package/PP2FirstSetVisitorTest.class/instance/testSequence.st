@@ -2,7 +2,7 @@ tests
 testSequence
 	| sequence |
 	parser := $a asParser2.
-	sequence := parser, $b asParser.
+	sequence := parser, $b asParser2.
 	 
 	firstSet := self firstSet: sequence.
 
