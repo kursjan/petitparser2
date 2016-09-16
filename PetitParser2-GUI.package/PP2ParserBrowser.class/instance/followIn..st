@@ -11,4 +11,4 @@ followIn: aBrowser
 			parser := class new.
 			parser followSets
 				at: (parser productionAt: productionSelector)
-				ifAbsent: [ Array with: nil asParser ] ]
+				ifAbsent: [ Array with: nil asParser2 ] ]
