@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "PP2Validator",
+	"category" : "PetitParser2-Validation-Optimizations",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"parser",
+		"optimizedParser"
+	],
+	"name" : "PP2SmalltalkParserOptimizationsValidator",
+	"type" : "normal"
+}

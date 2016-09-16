@@ -1,9 +1,10 @@
 {
 	"instance" : {
-		"sources" : "JanKurs 8/31/2016 16:40",
+		"sources" : "JanKurs 9/16/2016 09:31",
 		"initialize" : "JanKurs 8/31/2016 16:41",
-		"optimizedParser" : "JanKurs 9/3/2016 13:30",
+		"optimizedParser" : "JanKurs 9/16/2016 09:30",
 		"expectedForSource:" : "JanKurs 8/31/2016 16:41",
+		"parser" : "JanKurs 9/16/2016 09:30",
 		"name" : "JanKurs 8/31/2016 16:41",
 		"actualForSource:" : "JanKurs 8/31/2016 19:23"
 	},

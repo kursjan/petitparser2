@@ -1,7 +1,8 @@
 {
 	"instance" : {
 		"testPP2BufferStream" : "JanKurs 8/23/2016 14:54",
-		"testPP2ExpressionGrammarOptimizations" : "JanKurs 8/31/2016 16:42"
+		"testPP2ExpressionGrammarOptimizations" : "JanKurs 8/31/2016 16:42",
+		"testPP2SmalltalkParserOptimizations" : "JanKurs 9/16/2016 10:54"
 	},
 	"class" : { }
 }

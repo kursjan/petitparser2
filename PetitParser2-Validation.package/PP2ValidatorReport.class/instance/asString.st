@@ -1,6 +1,6 @@
-as yet unclassified
+converting
 asString
 	| stream |
 	stream := '' writeStream.
-	self printOn: stream.
+	self printOnStream: stream.
 	^ stream contents

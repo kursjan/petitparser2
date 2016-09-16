@@ -1,3 +1,3 @@
 accessing
 optimizedParser
-	^ optimizedParser 
+	^ optimizedParser
