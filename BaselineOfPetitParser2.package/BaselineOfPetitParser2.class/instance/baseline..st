@@ -36,7 +36,7 @@ baseline: spec
 			package: 'PetitParser2-GUI-Tests' with: [ spec requires: #('PetitParser2-GUI') ];
 			package: 'PetitParser2-Benchmarks-GUI' with: [ spec requires: #('PetitParser2-Benchmarks') ].
 			
-		spec group: 'PetitParser2' with: #(	
+		spec group: 'PetitParser2-Headless' with: #(	
 											'PetitParser2' 
 											'PetitParser2-Tests' 
 											'PetitParser2-Smalltalk' 
