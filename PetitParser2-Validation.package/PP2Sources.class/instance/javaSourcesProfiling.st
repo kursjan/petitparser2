@@ -1,6 +1,6 @@
 java
 javaSourcesProfiling
-	^ self cachedValue: #javaSourcesProfiling ifAbsent: [ 
+	^ self cachedValue: #javaSourcesProfiling ifAbsentPut: [ 
 		self 
 			selectEvenly: 10
 			from: 	(self javaSourcesInDirectory: self javaAllDirectory)

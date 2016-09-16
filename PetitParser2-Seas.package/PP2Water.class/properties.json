@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "PP2Node",
+	"category" : "PetitParser2-Seas-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"token"
+	],
+	"name" : "PP2Water",
+	"type" : "normal"
+}

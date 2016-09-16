@@ -1,5 +1,5 @@
 ruby
 rubySourcesBenchmarking
-	^ self cachedValue: #rubySourcesBenchmarking ifAbsent: [ 
+	^ self cachedValue: #rubySourcesBenchmarking ifAbsentPut: [ 
 		self selectEvenly: 100 from: (self rubySourcesInDirectory: self rubyAllDirectory)
 	]

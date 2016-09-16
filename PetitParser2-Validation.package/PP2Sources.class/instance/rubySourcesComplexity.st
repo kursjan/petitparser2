@@ -1,5 +1,5 @@
 ruby
 rubySourcesComplexity
-	^ self cachedValue: #rubySourcesComplexity ifAbsent: [ 
+	^ self cachedValue: #rubySourcesComplexity ifAbsentPut: [ 
 		self selectEvenly: 100 from: (self rubySourcesInDirectory: self rubyAllDirectory)
 	]

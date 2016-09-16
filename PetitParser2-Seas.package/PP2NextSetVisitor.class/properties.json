@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "PP2NoopVisitor",
+	"category" : "PetitParser2-Seas-Analysis",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PP2NextSetVisitor",
+	"type" : "normal"
+}
