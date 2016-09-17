@@ -1,9 +1,8 @@
 {
+	"class" : {
+		 },
 	"instance" : {
 		"initialize" : "JanKurs 7/12/2016 14:49",
-		"run" : "JanKurs 5/18/2016 15:36",
 		"reportInput:time:gcTime:name:" : "JanKurs 5/25/2016 11:38",
-		"runTimeout:" : "JanKurs 5/18/2016 15:36"
-	},
-	"class" : { }
-}
+		"run" : "JanKurs 5/18/2016 15:36",
+		"runTimeout:" : "JanKurs 5/18/2016 15:36" } }
