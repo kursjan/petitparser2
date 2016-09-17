@@ -24,9 +24,20 @@ baseline: spec
 				versionString: #'development';
 				className: 'ConfigurationOfGlamour';
 				repository: 'http://www.smalltalkhub.com/mc/Moose/Glamour/main' ].
+			
+		spec project: 'Roassal2' with: [
+				spec
+					versionString: #'development';
+					className: #ConfigurationOfRoassal2;
+					repository: 'http://www.smalltalkhub.com/mc/ObjectProfile/Roassal2/main' ].
+		spec project: 'GToolkit' with: [
+				spec
+					className: #ConfigurationOfGToolkit;
+					versionString: #'development';
+					repository: 'http://www.smalltalkhub.com/mc/Moose/GToolkit/main' ].
 
 		spec 
-			package: 'PetitParser2-GUI' with: [ spec requires: #('Glamour' 'PetitParser2') ];
+			package: 'PetitParser2-GUI' with: [ spec requires: #('Glamour' 'Roassal2' 'PetitParser2') ];
 			package: 'PetitParser2-GUI-Tests' with: [ spec requires: #('PetitParser2-GUI') ];
 			package: 'PetitParser2-Benchmarks-GUI' with: [ spec requires: #('PetitParser2-Benchmarks') ].
 			
