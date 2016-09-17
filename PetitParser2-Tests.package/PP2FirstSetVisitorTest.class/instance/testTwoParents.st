@@ -1,7 +1,7 @@
 tests
 testTwoParents
 	| sequence |
-	parser := $a asParser2.
+	parser := $a asPParser.
 	sequence := parser star, parser star.
 	
 	firstSet := self firstSet: sequence.

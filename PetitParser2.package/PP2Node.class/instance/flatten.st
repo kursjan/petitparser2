@@ -1,3 +1,3 @@
 operators
 flatten
-	^ PP2FlattenParser on: self
+	^ PP2FlattenNode on: self

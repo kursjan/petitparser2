@@ -2,8 +2,8 @@ tests
 testChoiceAndPriorityChoiceOrder
 	| parser1 parser2 parser |
 	
-	parser1 := $a asParser2 // $b asParser2.
-	parser2 := 'b' asParser2 // $c asParser2.
+	parser1 := $a asPParser // $b asPParser.
+	parser2 := 'b' asPParser // $c asPParser.
 	parser := parser1 / parser2.
 	
 	self assert: parser parse: 'a' to: $a.

@@ -1,6 +1,6 @@
 as yet unclassified
 testVisitDelegate
-	parser := $a asParser2 wrapped.
+	parser := $a asPParser wrapped.
 	result := visitor visit: parser.
 	
 	self assert: result equals: visitor

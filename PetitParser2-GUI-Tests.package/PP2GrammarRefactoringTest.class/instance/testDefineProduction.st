@@ -4,7 +4,7 @@ testDefineProduction
 		performRefactoring:
 			(PP2DefineProdcutionRefactoring
 				onClass: PP2ExpressionGrammar
-				source: 'function ^ #any asParser2 plus , $( asParser2 , $) asParser2 ==> [ :e | 0 ]'
+				source: 'function ^ #any asPParser plus , $( asPParser , $) asPParser ==> [ :e | 0 ]'
 				protocols: (Array with: #productions)).
 	self assert: self changes size equals: 2.
 	self assert: self changes first class equals: RBAddInstanceVariableChange.
@@ -12,4 +12,4 @@ testDefineProduction
 	self assert: self changes last class equals: RBAddMethodChange.
 	self
 		assert: self changes last parseTree
-		equals: (RBParser parseMethod: 'function ^ #any asParser2 plus , $( asParser2 , $) asParser2 ==> [ :e | 0 ]')
+		equals: (RBParser parseMethod: 'function ^ #any asPParser plus , $( asPParser , $) asPParser ==> [ :e | 0 ]')

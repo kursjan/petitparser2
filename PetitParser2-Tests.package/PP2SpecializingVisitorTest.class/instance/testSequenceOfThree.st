@@ -1,6 +1,6 @@
 tests
 testSequenceOfThree
-	parser := $a asParser2, $b asParser2, $c asParser2.
+	parser := $a asPParser, $b asPParser, $c asPParser.
 	
 	visitor visit: parser.
 	

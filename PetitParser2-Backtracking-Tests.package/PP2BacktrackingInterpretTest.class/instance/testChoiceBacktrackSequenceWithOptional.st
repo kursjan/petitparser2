@@ -1,7 +1,7 @@
 tests
 testChoiceBacktrackSequenceWithOptional
 	| parser |
-	parser := ('aa' asParser2 // 'a' asParser2), $b asParser2 optional.
+	parser := ('aa' asPParser // 'a' asPParser), $b asPParser optional.
 	
 	self assert: parser parse: 'aab'.
 	self assert: parser parse: 'ab'.

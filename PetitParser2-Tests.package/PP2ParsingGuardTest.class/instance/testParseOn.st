@@ -1,7 +1,7 @@
 as yet unclassified
 testParseOn
 	| parser context guard |
-	parser := #letter asParser2.
+	parser := #letter asPParser.
 	guard := self guardOn: parser.
 	context := 'a' asPetit2Stream asPetit2Context.
 		

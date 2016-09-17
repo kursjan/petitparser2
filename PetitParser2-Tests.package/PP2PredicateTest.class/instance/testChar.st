@@ -1,7 +1,7 @@
 testing-chars
 testChar
 	| parser |
-	parser := $* asParser2.
+	parser := $* asPParser.
 	self assertCharacterSets: parser.
 	self assert: parser parse: '*' to: $*.
 	self assert: parser parse: '**' to: $* end: 1.

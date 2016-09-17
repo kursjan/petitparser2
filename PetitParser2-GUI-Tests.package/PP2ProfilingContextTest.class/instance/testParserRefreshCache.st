@@ -2,7 +2,7 @@ tests - profiling
 testParserRefreshCache
 	| parser context |
 
-	parser := (#letter asParser2 plus token trim, #word asParser2 star token trim) flatten.
+	parser := (#letter asPParser plus token trim, #word asPParser star token trim) flatten.
 	parser optimize.
 	self assert:( parser allCaches noneSatisfy: [:c | c isProfiling ]).
 

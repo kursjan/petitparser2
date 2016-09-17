@@ -1,7 +1,7 @@
 testing-chars
 testBlank
 	| parser |
-	parser := #blank asParser2.
+	parser := #blank asPParser.
 	self assertCharacterSets: parser.
 	self assert: parser parse: (String with: Character space) to: Character space.
 	self assert: parser parse: (String with: Character tab) to: Character tab.

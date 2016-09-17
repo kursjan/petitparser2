@@ -3,7 +3,7 @@ testCache
 	| counter parser contextOne contextTwo |
 	counter := 0.
 
-	parser := [ :ctx | counter := counter + 1. #foo ] asParser2.
+	parser := [ :ctx | counter := counter + 1. #foo ] asPParser.
 	parser strategy: parser strategy cache.
 	parser setOptimized.
 

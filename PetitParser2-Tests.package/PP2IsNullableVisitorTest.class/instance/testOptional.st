@@ -1,3 +1,3 @@
 tests
 testOptional
-	self assertIsNullable: #letter asParser2 optional.
+	self assertIsNullable: #letter asPParser optional.

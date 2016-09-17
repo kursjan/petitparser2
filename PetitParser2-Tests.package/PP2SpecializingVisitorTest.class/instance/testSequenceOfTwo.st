@@ -1,6 +1,6 @@
 tests
 testSequenceOfTwo
-	parser := $a asParser2, $b asParser2.
+	parser := $a asPParser, $b asPParser.
 	
 	visitor visit: parser.
 	

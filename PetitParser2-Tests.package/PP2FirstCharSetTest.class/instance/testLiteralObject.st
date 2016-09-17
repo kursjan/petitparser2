@@ -1,6 +1,6 @@
 tests
 testLiteralObject
-	firstCharSet := $b asParser2 firstCharSet.
+	firstCharSet := $b asPParser firstCharSet.
 	self assert: firstCharSet value: $b.
 
 	self reject: firstCharSet value: $a.

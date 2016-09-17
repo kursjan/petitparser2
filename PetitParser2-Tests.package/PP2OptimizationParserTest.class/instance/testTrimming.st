@@ -1,4 +1,4 @@
 tests
 testTrimming
 	
-	self assert: $a asParser2 trim parse: '   a   '.
+	self assert: $a asPParser trim parse: '   a   '.

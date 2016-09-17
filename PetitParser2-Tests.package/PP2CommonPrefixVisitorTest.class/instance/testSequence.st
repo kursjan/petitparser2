@@ -1,11 +1,11 @@
 as yet unclassified
 testSequence
 	| production |
-	production := 'foo' asParser2 plus wrapped trim ==> [ :foo | foo ]
+	production := 'foo' asPParser plus wrapped trim ==> [ :foo | foo ]
 		name: 'production';
 		yourself.
 	
-	parser := (production, $a asParser2) star, production wrapped.
+	parser := (production, $a asPParser) star, production wrapped.
 	
 	self visit: parser.
 	

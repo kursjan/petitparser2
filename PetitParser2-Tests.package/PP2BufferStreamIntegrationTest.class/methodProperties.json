@@ -1,18 +1,17 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"streamOn:bufferSize:" : "JanKurs 9/3/2016 12:41",
-		"testIdentifier" : "JanKurs 9/3/2016 12:46",
-		"testStreamBacktrackBufferSmall" : "JanKurs 9/3/2016 12:49",
-		"testIdentifierSmallBuffer" : "JanKurs 9/3/2016 12:47",
-		"testToken" : "JanKurs 9/3/2016 12:52",
-		"testStreamBufferTooSmall" : "JanKurs 9/3/2016 12:52",
-		"testStreamBacktrackBufferTooSmall" : "JanKurs 9/3/2016 12:50",
-		"testIdentifierSmallBufferError" : "JanKurs 9/3/2016 12:51",
+		"parse:withParser:withContext:" : "JanKurs 9/3/2016 12:43",
 		"streamOn:" : "JanKurs 9/3/2016 12:41",
-		"testPredicate" : "JanKurs 9/3/2016 12:47",
-		"testSequence" : "JanKurs 9/3/2016 12:48",
-		"testStreamBacktrack" : "JanKurs 9/3/2016 12:49",
-		"parse:withParser:withContext:" : "JanKurs 9/3/2016 12:43"
-	},
-	"class" : { }
-}
+		"streamOn:bufferSize:" : "JanKurs 9/3/2016 12:41",
+		"testIdentifier" : "JanKurs 9/17/2016 23:33",
+		"testIdentifierSmallBuffer" : "JanKurs 9/17/2016 23:33",
+		"testIdentifierSmallBufferError" : "JanKurs 9/17/2016 23:33",
+		"testPredicate" : "JanKurs 9/17/2016 23:33",
+		"testSequence" : "JanKurs 9/17/2016 23:33",
+		"testStreamBacktrack" : "JanKurs 9/17/2016 23:33",
+		"testStreamBacktrackBufferSmall" : "JanKurs 9/17/2016 23:33",
+		"testStreamBacktrackBufferTooSmall" : "JanKurs 9/17/2016 23:33",
+		"testStreamBufferTooSmall" : "JanKurs 9/17/2016 23:33",
+		"testToken" : "JanKurs 9/17/2016 23:33" } }

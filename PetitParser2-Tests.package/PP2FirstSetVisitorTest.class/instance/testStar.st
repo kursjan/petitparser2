@@ -1,7 +1,7 @@
 tests
 testStar
 	| star |
-	parser := $a asParser2.
+	parser := $a asPParser.
 	star := parser star.
 	firstSet := self firstSet: star.
 

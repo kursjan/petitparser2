@@ -1,5 +1,5 @@
 tests
 testWrapping
-	firstCharSet := ($a asParser2 >=> [ :c :cc | cc value ]) firstCharSet.
+	firstCharSet := ($a asPParser >=> [ :c :cc | cc value ]) firstCharSet.
 
 	self assert: firstCharSet isUnknown.

@@ -1,7 +1,6 @@
 {
+	"class" : {
+		 },
 	"instance" : {
 		"assert:hasProperty:withValue:" : "JanKurs 9/13/2016 17:02",
-		"testSanity" : "JanKurs 9/13/2016 17:03"
-	},
-	"class" : { }
-}
+		"testSanity" : "JanKurs 9/13/2016 17:03" } }

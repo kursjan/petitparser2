@@ -1,6 +1,6 @@
 tests
 testLiteralObject
-	parser := $a asParser2.
+	parser := $a asPParser.
 	firstSet := self firstSet: parser.
 
 	self assert: firstSet size equals: 1.

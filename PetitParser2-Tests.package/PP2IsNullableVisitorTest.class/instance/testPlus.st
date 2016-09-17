@@ -1,3 +1,3 @@
 tests
 testPlus
-	self denyIsNullable: #letter asParser2 plus.
+	self denyIsNullable: #letter asPParser plus.

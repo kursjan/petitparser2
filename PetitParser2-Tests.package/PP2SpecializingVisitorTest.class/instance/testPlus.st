@@ -1,6 +1,6 @@
 tests
 testPlus
-	parser := $a asParser2 plus.
+	parser := $a asPParser plus.
 	
 	visitor visit: parser.
 	

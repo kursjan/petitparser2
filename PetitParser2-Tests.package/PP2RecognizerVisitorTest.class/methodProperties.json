@@ -1,16 +1,15 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"testPredicateObject" : "JanKurs 9/2/2016 09:09",
-		"deny:isKindOf:" : "JanKurs 9/1/2016 12:25:21",
-		"testTwoParentsDifferentContext" : "JanKurs 9/15/2016 09:43",
-		"visit:" : "JanKurs 9/13/2016 08:43",
-		"testToken" : "JanKurs 9/2/2016 09:09",
-		"testTwoParentsNoWarning" : "JanKurs 9/15/2016 09:45",
-		"testTwoParents" : "JanKurs 9/15/2016 09:43",
 		"assert:isKindOf:" : "JanKurs 9/1/2016 12:25:21",
-		"testFlatten" : "JanKurs 9/2/2016 09:09",
-		"testSequenceOfTwo" : "JanKurs 9/2/2016 09:09",
-		"setUp" : "JanKurs 9/13/2016 08:42"
-	},
-	"class" : { }
-}
+		"deny:isKindOf:" : "JanKurs 9/1/2016 12:25:21",
+		"setUp" : "JanKurs 9/13/2016 08:42",
+		"testFlatten" : "JanKurs 9/17/2016 23:33",
+		"testPredicateObject" : "JanKurs 9/17/2016 23:33",
+		"testSequenceOfTwo" : "JanKurs 9/17/2016 23:33",
+		"testToken" : "JanKurs 9/17/2016 23:33",
+		"testTwoParents" : "JanKurs 9/17/2016 23:33",
+		"testTwoParentsDifferentContext" : "JanKurs 9/17/2016 23:33",
+		"testTwoParentsNoWarning" : "JanKurs 9/17/2016 23:33",
+		"visit:" : "JanKurs 9/13/2016 08:43" } }

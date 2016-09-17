@@ -2,7 +2,7 @@ tests - profiling
 testParser
 	| parser context |
 
-	parser := #letter asParser2.
+	parser := #letter asPParser.
 	parser strategy: parser strategy cache.
 	
 	context := self contextOn: ''.

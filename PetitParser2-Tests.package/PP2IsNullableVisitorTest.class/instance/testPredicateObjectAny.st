@@ -1,3 +1,3 @@
 tests
 testPredicateObjectAny
-	self denyIsNullable: #any asParser2.
+	self denyIsNullable: #any asPParser.

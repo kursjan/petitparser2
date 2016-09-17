@@ -1,6 +1,6 @@
 tests
 testVisitCharacter
-	parser := $a asParser2.
+	parser := $a asPParser.
 	result := visitor visit: parser.
 	
 	self assert: result equals: visitor

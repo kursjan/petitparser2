@@ -1,7 +1,7 @@
 as yet unclassified
 testSequenceOfTwo
 
-	parser := $a asParser2 wrapped, $b asParser2 wrapped.
+	parser := $a asPParser wrapped, $b asPParser wrapped.
 	parser strategy: (PP2SequenceOfTwo on: parser).
 	
 	self visit: parser.

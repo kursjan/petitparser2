@@ -1,3 +1,3 @@
 tests
 testStartOfLine
-	self denyIsNullable: #startOfLine asParser2
+	self denyIsNullable: #startOfLine asPParser

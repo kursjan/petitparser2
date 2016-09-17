@@ -1,3 +1,3 @@
 tests
 testPlusEplsilon
-	self assertIsNullable: nil asParser2 plus.
+	self assertIsNullable: nil asPParser plus.

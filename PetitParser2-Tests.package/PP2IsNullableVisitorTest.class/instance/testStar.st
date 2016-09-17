@@ -1,3 +1,3 @@
 tests
 testStar
-	self assertIsNullable: #letter asParser2 star.
+	self assertIsNullable: #letter asPParser star.

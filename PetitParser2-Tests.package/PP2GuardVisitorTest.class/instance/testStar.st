@@ -1,6 +1,6 @@
 tests
 testStar
-	parser := 'foo' asParser2 token trim star.
+	parser := 'foo' asPParser token trim star.
 	parser strategy: (PP2Star on: parser).
 	
 	self optimize: parser.

@@ -1,3 +1,3 @@
 tests
 testNotLiteral
-	self assert: $a asParser2 not parse: 'b' to: nil end: 0.
+	self assert: $a asPParser not parse: 'b' to: nil end: 0.

@@ -1,3 +1,3 @@
 operators
 token
-	^ PP2TokenParser on: self
+	^ PP2TokenNode on: self

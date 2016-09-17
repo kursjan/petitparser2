@@ -1,7 +1,7 @@
 as yet unclassified
 testRecognizer
 	| debugStrategy |
-	node := #letter asParser2.
+	node := #letter asPParser.
 	strategy := node strategy.
 	debugStrategy := strategy debug.
 

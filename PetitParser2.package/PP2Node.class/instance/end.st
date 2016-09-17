@@ -1,3 +1,3 @@
 operators
 end
-	^ PP2EndParser on: self
+	^ PP2EndNode on: self

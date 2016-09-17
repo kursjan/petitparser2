@@ -1,6 +1,6 @@
 tests
 testDelegate
-	parser := 'foo' asParser2 plus flatten wrapped.
+	parser := 'foo' asPParser plus flatten wrapped.
 	
 	self optimize: parser.
 	

@@ -1,7 +1,7 @@
 tests
 testChoiceAndPlusInteraction
 	| parser |
-	parser := ($a asParser2 // $b asParser2) plus end.
+	parser := ($a asPParser // $b asPParser) plus end.
 	
 	self assert: parser parse: 'aaa' to: #($a $a $a).
 	self assert: parser parse: 'bbb' to: #($b $b $b).

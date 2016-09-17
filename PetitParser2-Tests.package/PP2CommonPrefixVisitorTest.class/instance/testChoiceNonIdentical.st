@@ -1,14 +1,14 @@
 as yet unclassified
 testChoiceNonIdentical
 	| productionOne productionTwo |
-	productionOne := 'foo' asParser2 plus wrapped trim ==> [ :foo | foo ]
+	productionOne := 'foo' asPParser plus wrapped trim ==> [ :foo | foo ]
 		name: 'production';
 		yourself.
-	productionTwo := 'foo' asParser2 plus wrapped trim ==> [ :foo | foo ]
+	productionTwo := 'foo' asPParser plus wrapped trim ==> [ :foo | foo ]
 		name: 'production';
 		yourself.
 	
-	parser := productionOne / ($a asParser2 optional, productionTwo wrapped).
+	parser := productionOne / ($a asPParser optional, productionTwo wrapped).
 	
 	self visit: parser.
 	

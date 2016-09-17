@@ -5,7 +5,7 @@ visitSmalltalkWhitespace: node
 
 	returnSet := self setWithPossible: node.
 	
-	returnSet addAll: (self visit: #space asParser2).
-	returnSet addAll: (self visit: $" asParser2).
+	returnSet addAll: (self visit: #space asPParser).
+	returnSet addAll: (self visit: $" asPParser).
 	
 	^ returnSet

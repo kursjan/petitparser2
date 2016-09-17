@@ -1,24 +1,23 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"testTrimmingLiteralObjectTokenWrapped" : "JanKurs 9/5/2016 16:57",
-		"testStarPredicateObject2" : "JanKurs 9/1/2016 12:25:21",
-		"testMappingOfTwo" : "JanKurs 9/5/2016 10:02",
 		"assert:isKindOf:" : "JanKurs 9/1/2016 12:25:21",
-		"setUp" : "JanKurs 9/1/2016 12:25:21",
-		"testStarPredicateObject" : "JanKurs 9/1/2016 12:25:21",
-		"testAndLiteraObject" : "JanKurs 9/1/2016 15:11",
-		"testMappingOfThree" : "JanKurs 9/5/2016 10:06",
-		"testStar" : "JanKurs 9/1/2016 12:25:21",
-		"testPlusPredicateObject" : "JanKurs 9/1/2016 12:25:21",
-		"testSequenceOfTwo" : "JanKurs 9/1/2016 12:25:21",
-		"testAndPredicateObject" : "JanKurs 9/1/2016 17:18",
-		"testPlusPredicateObject2" : "JanKurs 9/1/2016 12:25:21",
-		"testOptionalLiteraObject" : "JanKurs 9/1/2016 12:25:21",
-		"testTrimmingLiteralObjectToken" : "JanKurs 9/5/2016 16:57",
 		"deny:isKindOf:" : "JanKurs 9/1/2016 12:25:21",
-		"testSequenceOfThree" : "JanKurs 9/1/2016 12:25:21",
-		"testNotLiteraObject" : "JanKurs 9/1/2016 15:35",
-		"testPlus" : "JanKurs 9/1/2016 12:25:21"
-	},
-	"class" : { }
-}
+		"setUp" : "JanKurs 9/1/2016 12:25:21",
+		"testAndLiteraObject" : "JanKurs 9/17/2016 23:33",
+		"testAndPredicateObject" : "JanKurs 9/17/2016 23:33",
+		"testMappingOfThree" : "JanKurs 9/17/2016 23:33",
+		"testMappingOfTwo" : "JanKurs 9/17/2016 23:33",
+		"testNotLiteraObject" : "JanKurs 9/17/2016 23:33",
+		"testOptionalLiteraObject" : "JanKurs 9/17/2016 23:33",
+		"testPlus" : "JanKurs 9/17/2016 23:33",
+		"testPlusPredicateObject" : "JanKurs 9/17/2016 23:33",
+		"testPlusPredicateObject2" : "JanKurs 9/17/2016 23:33",
+		"testSequenceOfThree" : "JanKurs 9/17/2016 23:33",
+		"testSequenceOfTwo" : "JanKurs 9/17/2016 23:33",
+		"testStar" : "JanKurs 9/17/2016 23:33",
+		"testStarPredicateObject" : "JanKurs 9/17/2016 23:33",
+		"testStarPredicateObject2" : "JanKurs 9/17/2016 23:33",
+		"testTrimmingLiteralObjectToken" : "JanKurs 9/17/2016 23:33",
+		"testTrimmingLiteralObjectTokenWrapped" : "JanKurs 9/17/2016 23:33" } }

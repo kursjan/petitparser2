@@ -1,6 +1,6 @@
 tests
 testLiteralSequence
-	parser := 'foo' asParser2.
+	parser := 'foo' asPParser.
 	firstSet := self firstSet: parser.
 
 	self assert: firstSet size equals: 1.

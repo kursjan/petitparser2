@@ -1,3 +1,3 @@
 operators
 optional
-	^ PP2OptionalParser on: self
+	^ PP2OptionalNode on: self

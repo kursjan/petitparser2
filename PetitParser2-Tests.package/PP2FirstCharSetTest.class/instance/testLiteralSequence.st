@@ -1,6 +1,6 @@
 tests
 testLiteralSequence
-	firstCharSet := 'foobar' asParser2 firstCharSet.
+	firstCharSet := 'foobar' asPParser firstCharSet.
 	self assert: firstCharSet value: $f.
 
 	self reject: firstCharSet value: $e.

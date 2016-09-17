@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "PP2NoopVisitor",
 	"category" : "PetitParser2-Tests-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
-		"visitOrder"
-	],
+		"visitOrder" ],
 	"name" : "PP2MockNoopVisitor",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PP2NoopVisitor",
+	"type" : "normal" }

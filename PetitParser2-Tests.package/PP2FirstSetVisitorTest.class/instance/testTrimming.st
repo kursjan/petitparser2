@@ -1,7 +1,7 @@
 tests
 testTrimming
 	| trimming |
-	parser := 'foo' asParser2.
+	parser := 'foo' asPParser.
 	trimming := parser trim.
 	firstSet := self firstSet: trimming.
 

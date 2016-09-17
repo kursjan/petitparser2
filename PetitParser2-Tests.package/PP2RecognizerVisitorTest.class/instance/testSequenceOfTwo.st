@@ -1,6 +1,6 @@
 tests
 testSequenceOfTwo
-	parser := $a asParser2, $b asParser2.
+	parser := $a asPParser, $b asPParser.
 	parser strategy: (PP2SequenceOfTwo on: parser).
 	token := parser token.
 	

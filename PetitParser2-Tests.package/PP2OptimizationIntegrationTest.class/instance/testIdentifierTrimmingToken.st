@@ -1,6 +1,6 @@
 tests
 testIdentifierTrimmingToken
-	parser := (#letter asParser2, #word asParser2 star) token trim.
+	parser := (#letter asPParser, #word asPParser star) token trim.
 	
 	parser optimize.
 	

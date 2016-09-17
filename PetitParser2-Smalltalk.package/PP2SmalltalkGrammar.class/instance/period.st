@@ -1,3 +1,3 @@
 primitives
 period
-	^ $. asParser2
+	^ $. asPParser

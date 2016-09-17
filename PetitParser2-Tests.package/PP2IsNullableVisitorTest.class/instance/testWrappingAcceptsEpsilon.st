@@ -1,7 +1,7 @@
 tests
 testWrappingAcceptsEpsilon
 	| wrapped |
-	wrapped := $a asParser2 >=> [ :context :cc |  ]
+	wrapped := $a asPParser >=> [ :context :cc |  ]
 		isNullable: true;
 		yourself.
 	

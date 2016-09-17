@@ -1,7 +1,7 @@
 as yet unclassified
 testParsingGuardOptional
 	| classification debugStrategy optional |
-	optional := $a asParser2 optional.
+	optional := $a asPParser optional.
 	
 	debugStrategy := optional strategy debug.
 	classification := Array new: 255 withAll: false.

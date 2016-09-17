@@ -1,3 +1,3 @@
 tests
 testEmptyLiteral
-	self assertIsNullable: '' asParser2
+	self assertIsNullable: '' asPParser

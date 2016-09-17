@@ -1,3 +1,3 @@
 tests
 testSequence
-	self denyIsNullable: #letter asParser2, #word asParser2
+	self denyIsNullable: #letter asPParser, #word asPParser

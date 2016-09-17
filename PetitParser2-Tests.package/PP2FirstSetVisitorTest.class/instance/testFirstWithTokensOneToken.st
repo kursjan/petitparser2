@@ -1,8 +1,8 @@
 tests - tokens
 testFirstWithTokensOneToken
 	| token  |
-	token := $a asParser2 token.
-	parser := $b asParser2.
+	token := $a asPParser token.
+	parser := $b asPParser.
 	
 	firstSet := self firstSetWithTokens: token / parser.
 	

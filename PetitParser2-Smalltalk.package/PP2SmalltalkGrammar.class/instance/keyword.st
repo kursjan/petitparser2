@@ -1,3 +1,3 @@
 primitives
 keyword
-	^ identifier , $: asParser2
+	^ identifier , $: asPParser

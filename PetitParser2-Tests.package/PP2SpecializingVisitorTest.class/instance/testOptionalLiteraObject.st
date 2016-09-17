@@ -1,6 +1,6 @@
 tests
 testOptionalLiteraObject
-	parser := $a asParser2 optional.
+	parser := $a asPParser optional.
 	
 	visitor visit: parser.
 	

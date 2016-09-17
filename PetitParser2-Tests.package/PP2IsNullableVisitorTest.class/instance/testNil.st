@@ -1,3 +1,3 @@
 tests
 testNil
-	self assertIsNullable: nil asParser2 optional.
+	self assertIsNullable: nil asPParser optional.

@@ -1,3 +1,3 @@
 grammar-literals
 byteLiteralArray
-	^ $[ asParser2 smalltalkToken , numberLiteral star , $] asParser2 smalltalkToken
+	^ $[ asPParser smalltalkToken , numberLiteral star , $] asPParser smalltalkToken

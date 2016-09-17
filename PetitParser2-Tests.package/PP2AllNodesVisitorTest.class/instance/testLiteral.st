@@ -1,6 +1,6 @@
 tests
 testLiteral
-	parser := $a asParser2.
+	parser := $a asPParser.
 	children := self visit: parser.
 	
 	self assert: children isCollection.

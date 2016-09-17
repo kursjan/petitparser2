@@ -1,17 +1,16 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"testNot" : "JanKurs 9/1/2016 12:25:21",
-		"reject:value:" : "JanKurs 9/1/2016 12:25:21",
-		"testEmptyLiteralSequence" : "JanKurs 9/1/2016 12:25:21",
-		"testPredicateObject" : "JanKurs 9/1/2016 12:25:21",
 		"assert:value:" : "JanKurs 9/1/2016 12:25:21",
-		"testStartOfLine" : "JanKurs 9/1/2016 12:25:21",
-		"testPluggable" : "JanKurs 9/6/2016 11:37",
-		"testLiteralSequence" : "JanKurs 9/1/2016 12:25:21",
-		"testWrapping" : "JanKurs 9/6/2016 11:36",
-		"testEpsilon" : "JanKurs 9/1/2016 12:25:21",
-		"testLiteralObject" : "JanKurs 9/6/2016 11:34",
-		"testWrappingNonFunctional" : "JanKurs 9/6/2016 11:37"
-	},
-	"class" : { }
-}
+		"reject:value:" : "JanKurs 9/1/2016 12:25:21",
+		"testEmptyLiteralSequence" : "JanKurs 9/17/2016 23:33",
+		"testEpsilon" : "JanKurs 9/17/2016 23:33",
+		"testLiteralObject" : "JanKurs 9/17/2016 23:33",
+		"testLiteralSequence" : "JanKurs 9/17/2016 23:33",
+		"testNot" : "JanKurs 9/17/2016 23:33",
+		"testPluggable" : "JanKurs 9/17/2016 23:33",
+		"testPredicateObject" : "JanKurs 9/17/2016 23:33",
+		"testStartOfLine" : "JanKurs 9/17/2016 23:33",
+		"testWrapping" : "JanKurs 9/17/2016 23:33",
+		"testWrappingNonFunctional" : "JanKurs 9/17/2016 23:33" } }

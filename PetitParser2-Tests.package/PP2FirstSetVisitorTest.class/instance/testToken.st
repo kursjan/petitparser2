@@ -1,7 +1,7 @@
 tests
 testToken
 	| token |
-	parser := 'foo' asParser2.
+	parser := 'foo' asPParser.
 	token := parser token.
 	firstSet := self firstSet: token.
 

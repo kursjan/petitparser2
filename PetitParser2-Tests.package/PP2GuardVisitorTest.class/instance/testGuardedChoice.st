@@ -1,9 +1,9 @@
 tests
 testGuardedChoice
 	| parserOne parserTwo parserThree choiceOne |
-	parserOne := 'foo' asParser2 token trim wrapped.
-	parserTwo := 'bar' asParser2 token trim wrapped.
-	parserThree := 'baz' asParser2 token trim wrapped.
+	parserOne := 'foo' asPParser token trim wrapped.
+	parserTwo := 'bar' asPParser token trim wrapped.
+	parserThree := 'baz' asPParser token trim wrapped.
 	
 	choiceOne := (parserOne / parserTwo) wrapped.
 	

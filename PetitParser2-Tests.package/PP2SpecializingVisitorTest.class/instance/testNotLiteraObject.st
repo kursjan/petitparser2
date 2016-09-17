@@ -1,6 +1,6 @@
 tests
 testNotLiteraObject
-	parser := $a asParser2 not.
+	parser := $a asPParser not.
 	
 	visitor visit: parser.
 	

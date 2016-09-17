@@ -1,7 +1,7 @@
 testing-chars
 testSpace
 	| parser |
-	parser := #space asParser2.
+	parser := #space asPParser.
 	self assertCharacterSets: parser.
 	self assert: parser parse: (String with: Character tab) to: Character tab.
 	self assert: parser parse: ' ' to: Character space.

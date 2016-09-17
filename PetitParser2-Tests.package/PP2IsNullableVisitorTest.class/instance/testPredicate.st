@@ -1,3 +1,3 @@
 tests
 testPredicate
-	self denyIsNullable: #letter asParser2.
+	self denyIsNullable: #letter asPParser.

@@ -1,9 +1,9 @@
 initialize
 startParsing
 	parser := 
-		(('petit' asParser2 ==> [ :literal | 
+		(('petit' asPParser ==> [ :literal | 
 				outputStream nextPutAll: '<<<!!!You wrote my name!!!>>>' ]) / 
-		  #any asParser2
+		  #any asPParser
 		) star. 
 	
 	[ 	

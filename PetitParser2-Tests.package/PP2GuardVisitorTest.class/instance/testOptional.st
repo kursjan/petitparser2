@@ -1,6 +1,6 @@
 tests
 testOptional
-	parser := 'foo' asParser2 token trim optional.
+	parser := 'foo' asPParser token trim optional.
 	
 	self optimize: parser.
 	

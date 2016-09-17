@@ -1,6 +1,6 @@
 tests
 testWrappingNonFunctional
-	firstCharSet := ($b asParser2 >==> [ :c :cc | cc value ]) firstCharSet.
+	firstCharSet := ($b asPParser >==> [ :c :cc | cc value ]) firstCharSet.
 
 	self assert: firstCharSet value: $b.
 

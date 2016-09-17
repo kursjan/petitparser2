@@ -1,8 +1,8 @@
 tests
 testSequenceTwoStars
 	| sequence parserOne parserTwo |
-	parserOne := $a asParser2.
-	parserTwo := $b asParser2.
+	parserOne := $a asPParser.
+	parserTwo := $b asPParser.
 	sequence := parserOne star, parserTwo star.
 	 
 	firstSet := self firstSet: sequence.

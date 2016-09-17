@@ -1,6 +1,6 @@
 tests
 testPlusPredicateObject
-	parser := #letter asParser2 plus.
+	parser := #letter asPParser plus.
 	
 	visitor visit: parser.
 	

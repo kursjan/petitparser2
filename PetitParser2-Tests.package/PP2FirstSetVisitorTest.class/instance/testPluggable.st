@@ -1,6 +1,6 @@
 tests
 testPluggable
-	parser := [:ctx | ctx next] asParser2.
+	parser := [:ctx | ctx next] asPParser.
 	firstSet := self firstSet: parser.
 
 	"JK: Not sure if it should contain epsilon or not"

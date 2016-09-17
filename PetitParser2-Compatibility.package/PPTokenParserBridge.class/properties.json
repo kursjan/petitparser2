@@ -10,5 +10,5 @@
 	"name" : "PPTokenParserBridge",
 	"pools" : [
 		 ],
-	"super" : "PP2TokenParser",
+	"super" : "PP2TokenNode",
 	"type" : "normal" }

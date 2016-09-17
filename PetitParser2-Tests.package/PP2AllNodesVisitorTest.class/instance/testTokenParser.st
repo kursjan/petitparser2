@@ -1,6 +1,6 @@
 tests
 testTokenParser
-	parser := $a asParser2 token.
+	parser := $a asPParser token.
 	children := self visit: parser.
 	
 	self assert: children isCollection.

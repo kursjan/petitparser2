@@ -2,7 +2,7 @@ tests
 testMultipleParents
 	| parentOne parentTwo superParent |
 
-	parser := $a asParser2.
+	parser := $a asPParser.
 	parentOne := parser wrapped.
 	parentTwo := parser star.
 	superParent := parentOne, parentTwo.

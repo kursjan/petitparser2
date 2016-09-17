@@ -1,3 +1,3 @@
 tests
 testLiteralObject
-	self denyIsNullable: $a asParser2.
+	self denyIsNullable: $a asPParser.

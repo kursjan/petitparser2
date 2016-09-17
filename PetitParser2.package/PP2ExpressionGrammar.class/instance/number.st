@@ -1,3 +1,3 @@
 grammar
 number
-	^ ($- asParser2 optional , #digit asParser2 plus , ($. asParser2, #digit asParser2 plus) optional) flatten trim
+	^ ($- asPParser optional , #digit asPParser plus , ($. asPParser, #digit asPParser plus) optional) flatten trim

@@ -1,7 +1,7 @@
 tests
 testTrimmingWithEpsilon
 	| trimming |
-	parser := 'foo' asParser2.
+	parser := 'foo' asPParser.
 	trimming := parser optional trim.
 	firstSet := self firstSet: trimming.
 

@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "PP2FiveNumberSummaryGraph",
 	"category" : "PetitParser2-Benchmarks-GUI-Graphs",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "PP2TimeToRunGraph",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PP2FiveNumberSummaryGraph",
+	"type" : "normal" }

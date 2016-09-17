@@ -1,6 +1,6 @@
 tests
 testNoParent
-	parser := $a asParser2.
+	parser := $a asPParser.
 	
 	visitor visit: parser.
 	

@@ -1,4 +1,4 @@
 tests
 testPluggable
-	firstCharSet := ([ :c | c next ] asParser2) firstCharSet.
+	firstCharSet := ([ :c | c next ] asPParser) firstCharSet.
 	self assert: firstCharSet isUnknown.

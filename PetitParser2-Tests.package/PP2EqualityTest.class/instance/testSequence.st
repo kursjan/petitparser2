@@ -1,7 +1,7 @@
 tests
 testSequence
-	parserOne := $a asParser2, #word asParser2.
-	parserTwo := $a asParser2, #word asParser2.
+	parserOne := $a asPParser, #word asPParser.
+	parserTwo := $a asPParser, #word asPParser.
 	
 	self deny:   parserOne == parserTwo.
 	self assert: parserOne equals: parserTwo.

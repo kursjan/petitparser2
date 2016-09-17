@@ -1,8 +1,8 @@
 tests - tokens
 testFirstWithTokensTwoTokens
 	| tokenOne tokenTwo |
-	tokenOne := $a asParser2 token.
-	tokenTwo := $b asParser2 token trim.
+	tokenOne := $a asPParser token.
+	tokenTwo := $b asPParser token trim.
 	
 	self assert: (tokenTwo isKindOf: PP2TrimmingTokenNode).
 	

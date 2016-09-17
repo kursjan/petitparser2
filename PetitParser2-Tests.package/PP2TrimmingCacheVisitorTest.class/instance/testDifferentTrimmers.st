@@ -1,6 +1,6 @@
 as yet unclassified
 testDifferentTrimmers
-	parser := $a asParser2 trimSpaces, $b asParser2 trimBlanks.
+	parser := $a asPParser trimSpaces, $b asPParser trimBlanks.
 	
 	visitor doPass: parser.
 	self assert: parser firstChild trimmer strategy isKindOf: PP2PossesiveRepeating.

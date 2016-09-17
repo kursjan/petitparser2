@@ -1,7 +1,7 @@
 tests
 testClassificationFor2
 	| classification |
-	parser := #letter asParser2 / #digit asParser2.
+	parser := #letter asPParser / #digit asPParser.
 	
 	classification := visitor classificationFor: parser.
 	

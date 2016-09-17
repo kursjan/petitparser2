@@ -1,6 +1,6 @@
 tests
 testEmptyLiteralSequence
-	firstCharSet := '' asParser2 firstCharSet.
+	firstCharSet := '' asPParser firstCharSet.
 
 	1 to: 255 do: [ :index |
 		self assert: firstCharSet value: (Character codePoint: index).

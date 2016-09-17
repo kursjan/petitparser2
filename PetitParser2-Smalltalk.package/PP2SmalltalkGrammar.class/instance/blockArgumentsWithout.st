@@ -1,3 +1,3 @@
 grammar-blocks
 blockArgumentsWithout
-	^ nil asParser2 ==> [ :nodes | Array with: #() with: nil ]
+	^ nil asPParser ==> [ :nodes | Array with: #() with: nil ]

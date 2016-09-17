@@ -2,7 +2,7 @@ tests
 testTrimParser
 	| trimmer |
 	trimmer := PP2FailingNode instance.
-	parser := $a asParser2 trim: trimmer.
+	parser := $a asPParser trim: trimmer.
 	
 	children := self visit: parser.
 	

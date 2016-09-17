@@ -1,8 +1,8 @@
 tests
 testParentOfSequence
 	| parserOne parserTwo |
-	parserOne := $a asParser2.
-	parserTwo := $b asParser2.
+	parserOne := $a asPParser.
+	parserTwo := $b asPParser.
 	parent := parserOne, parserTwo.
 	
 	visitor visit: parent.

@@ -1,4 +1,4 @@
 as yet unclassified
 setUp
-	node := $a asParser2.
+	node := $a asPParser.
 	strategy := node strategy.

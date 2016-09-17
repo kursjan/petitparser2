@@ -1,9 +1,8 @@
 {
+	"class" : {
+		 },
 	"instance" : {
 		"accept:" : "JanKurs 4/1/2016 16:31",
 		"backtrack" : "JanKurs 4/1/2016 08:35",
-		"resetStrategy" : "JanKurs 9/15/2016 10:44",
-		"parseOn:" : "JanKurs 9/3/2016 14:47"
-	},
-	"class" : { }
-}
+		"parseOn:" : "JanKurs 9/3/2016 14:47",
+		"resetStrategy" : "JanKurs 9/15/2016 10:44" } }

@@ -1,7 +1,7 @@
 tests
 testPossesiveRepeating
-	parserOne := #space asParser2 star.
-	parserTwo := #space asParser2 star.
+	parserOne := #space asPParser star.
+	parserTwo := #space asPParser star.
 	
 	self deny:  	 parserOne == parserTwo.
 	self assert: parserOne equals: parserTwo.

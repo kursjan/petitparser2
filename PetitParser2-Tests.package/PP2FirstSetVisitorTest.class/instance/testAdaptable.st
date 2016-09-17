@@ -1,7 +1,7 @@
 tests
 testAdaptable
 	parser := PP2AdaptableNode new.
-	parser changeChild: $a asParser2.
+	parser changeChild: $a asPParser.
 	firstSet := self firstSet: parser.
 
 	self assert: firstSet size equals: 2.

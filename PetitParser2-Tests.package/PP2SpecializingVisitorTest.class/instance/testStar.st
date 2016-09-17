@@ -1,6 +1,6 @@
 tests
 testStar
-	parser := $a asParser2 star.
+	parser := $a asPParser star.
 	
 	visitor visit: parser.
 	

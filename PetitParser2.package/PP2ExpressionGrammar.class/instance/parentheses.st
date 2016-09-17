@@ -1,4 +1,4 @@
 grammar
 parentheses
-	^ $( asParser2 trim , terms , $) asParser2 trim
+	^ $( asPParser trim , terms , $) asPParser trim
 		==> #second

@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "TestCase",
 	"category" : "PetitParser2-Tests-Analysis",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
-		"firstCharSet"
-	],
+		"firstCharSet" ],
 	"name" : "PP2FirstCharSetTest",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

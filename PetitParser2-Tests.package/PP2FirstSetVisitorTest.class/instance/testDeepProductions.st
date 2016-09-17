@@ -1,8 +1,8 @@
 tests - productions
 testDeepProductions
 	| productionTop productionOne productionTwo |
-	productionOne := 'foo' asParser2 name: 'bar'.
-	productionTwo := 'bar' asParser2 name: 'baz'.
+	productionOne := 'foo' asPParser name: 'bar'.
+	productionTwo := 'bar' asPParser name: 'baz'.
 	productionTop := (productionOne / productionTwo) wrapped name: 'bark'.
 	parser := productionTop plus.
 	

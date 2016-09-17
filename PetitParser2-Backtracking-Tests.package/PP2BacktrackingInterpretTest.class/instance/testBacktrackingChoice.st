@@ -1,7 +1,7 @@
 tests
 testBacktrackingChoice
 	| parser |
-	parser := $a asParser2 // $b asParser2.
+	parser := $a asPParser // $b asPParser.
 	
 	self assert: parser parse: 'a'.
 	self assert: parser parse: 'b'.

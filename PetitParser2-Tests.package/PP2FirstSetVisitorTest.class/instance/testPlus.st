@@ -1,7 +1,7 @@
 tests
 testPlus
 	| plus |
-	parser := $a asParser2.
+	parser := $a asPParser.
 	plus := parser plus.
 	firstSet := self firstSet: plus.
 

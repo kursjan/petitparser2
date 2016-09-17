@@ -1,6 +1,6 @@
 tests
 testPlus
-	parser := 'foo' asParser2 token trim plus.
+	parser := 'foo' asPParser token trim plus.
 	parser strategy: (PP2Plus on: parser).
 	
 	self optimize: parser.

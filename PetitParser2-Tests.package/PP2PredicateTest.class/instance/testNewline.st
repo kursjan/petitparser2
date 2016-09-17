@@ -1,7 +1,7 @@
 testing-chars
 testNewline
 	| parser |
-	parser := #newline asParser2.
+	parser := #newline asPParser.
 
 	self assert: parser parse: String cr to: String cr.
 	self assert: parser parse: String lf to: String lf.

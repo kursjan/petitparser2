@@ -1,6 +1,6 @@
 primitives
 number
-	^ ($- asParser2 optional , #digit asParser2) and , [ :context | 
+	^ ($- asPParser optional , #digit asPParser) and , [ :context | 
 		[ | stream retval |
 			stream := context asPositionableStream.
 		  	retval := (NumberParser on: stream) nextNumber.
@@ -8,4 +8,4 @@ number
 				retval: retval;
 				yourself
 		] on: Error do: [ :err | context failure: err messageText ] 
-	] asParser2
+	] asPParser

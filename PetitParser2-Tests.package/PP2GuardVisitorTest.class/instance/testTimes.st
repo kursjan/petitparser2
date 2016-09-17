@@ -1,6 +1,6 @@
 tests
 testTimes
-	parser := 'foo' asParser2 token trim times: 3.
+	parser := 'foo' asPParser token trim times: 3.
 	
 	self optimize: parser.
 	

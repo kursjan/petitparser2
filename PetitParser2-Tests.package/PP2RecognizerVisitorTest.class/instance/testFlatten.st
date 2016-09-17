@@ -1,7 +1,7 @@
 tests
 testFlatten
 	| flattened |
-	parser := #letter asParser2 star.
+	parser := #letter asPParser star.
 	parser strategy: (PP2StarPredicateObject on: parser).
 	flattened := parser flatten.
 	

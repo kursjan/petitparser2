@@ -1,6 +1,6 @@
 as yet unclassified
 testSequence
-	parser := $a asParser2 trim, $b asParser2 trim.
+	parser := $a asPParser trim, $b asPParser trim.
 	
 	visitor doPass: parser.
 	self assert: parser firstChild trimmer strategy isKindOf: PP2TrimmingCache.

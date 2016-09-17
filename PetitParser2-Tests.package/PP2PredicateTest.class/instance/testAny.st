@@ -1,7 +1,7 @@
 testing-objects
 testAny
 	| parser |
-	parser := #any asParser2.
+	parser := #any asPParser.
 	self assertCharacterSets: parser.
 	self assert: parser parse: ' ' to: $ .
 	self assert: parser parse: '1' to: $1.

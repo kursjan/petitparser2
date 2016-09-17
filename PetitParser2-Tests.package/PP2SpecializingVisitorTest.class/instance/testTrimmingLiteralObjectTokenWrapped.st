@@ -1,6 +1,6 @@
 tests
 testTrimmingLiteralObjectTokenWrapped
-	parser := $a asParser2 wrapped token trim.
+	parser := $a asPParser wrapped token trim.
 	
 	visitor visit: parser.
 	

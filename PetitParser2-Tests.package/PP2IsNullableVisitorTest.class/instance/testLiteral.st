@@ -1,3 +1,3 @@
 tests
 testLiteral
-	self denyIsNullable: 'foo' asParser2
+	self denyIsNullable: 'foo' asPParser

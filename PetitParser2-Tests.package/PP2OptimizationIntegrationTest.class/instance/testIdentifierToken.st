@@ -1,6 +1,6 @@
 tests
 testIdentifierToken
-	parser := (#letter asParser2, #word asParser2 star) token.
+	parser := (#letter asPParser, #word asPParser star) token.
 	
 	parser optimize.
 	

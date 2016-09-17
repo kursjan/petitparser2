@@ -1,0 +1,14 @@
+{
+	"category" : "PetitParser2-Nodes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PP2OptionalNode",
+	"pools" : [
+		 ],
+	"super" : "PP2DelegateNode",
+	"type" : "normal" }

@@ -1,6 +1,6 @@
 tests
 testStartOfLine
-	parser := #startOfLine asParser2.
+	parser := #startOfLine asPParser.
 	firstSet := self firstSet: parser.
 
 	self assert: firstSet size equals: 1.

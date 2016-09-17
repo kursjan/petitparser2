@@ -1,6 +1,6 @@
 tests
 testParent
-	parser := $a asParser2.
+	parser := $a asPParser.
 	parent := parser wrapped.
 	
 	visitor visit: parent.

@@ -1,7 +1,7 @@
 tests
 testPredicateObject
-	parserOne := #space asParser2.
-	parserTwo := #space asParser2.
+	parserOne := #space asPParser.
+	parserTwo := #space asPParser.
 	
 	self deny:   parserOne == parserTwo.
 	self assert: parserOne equals: parserTwo.

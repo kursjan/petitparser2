@@ -2,7 +2,7 @@ as yet unclassified
 testBypassCache
 
 	| cache |
-	cache := $a asParser2 wrapped.
+	cache := $a asPParser wrapped.
 	cache strategy: cache strategy cache.
 	
 	parser := cache plus.

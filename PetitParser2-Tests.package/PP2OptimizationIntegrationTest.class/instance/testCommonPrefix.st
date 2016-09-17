@@ -1,10 +1,10 @@
 tests
 testCommonPrefix
 	| prefixOne prefixTwo |
-	prefixOne := #letter asParser2 star wrapped flatten name: 'id'.
-	prefixTwo := #letter asParser2 star wrapped flatten name: 'id'.
+	prefixOne := #letter asPParser star wrapped flatten name: 'id'.
+	prefixTwo := #letter asPParser star wrapped flatten name: 'id'.
 	
-	parser := (prefixOne token trim) / ((prefixTwo, $a asParser2) token trim).
+	parser := (prefixOne token trim) / ((prefixTwo, $a asPParser) token trim).
 	
 	parser optimize.
 	

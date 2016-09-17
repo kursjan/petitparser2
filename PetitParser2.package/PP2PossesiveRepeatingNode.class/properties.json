@@ -10,5 +10,5 @@
 	"name" : "PP2PossesiveRepeatingNode",
 	"pools" : [
 		 ],
-	"super" : "PP2RepeatingParser",
+	"super" : "PP2RepeatingNode",
 	"type" : "normal" }

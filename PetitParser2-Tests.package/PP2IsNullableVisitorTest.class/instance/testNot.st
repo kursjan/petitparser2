@@ -1,3 +1,3 @@
 tests
 testNot
-	self denyIsNullable: #letter asParser2 not
+	self denyIsNullable: #letter asPParser not

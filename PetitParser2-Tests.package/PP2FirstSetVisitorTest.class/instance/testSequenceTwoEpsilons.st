@@ -1,8 +1,8 @@
 tests
 testSequenceTwoEpsilons
 	| sequence parserOne parserTwo |
-	parserOne := $a asParser2.
-	parserTwo := nil asParser2.
+	parserOne := $a asPParser.
+	parserTwo := nil asPParser.
 	sequence := parserOne star, parserTwo.
 	 
 	firstSet := self firstSet: sequence.

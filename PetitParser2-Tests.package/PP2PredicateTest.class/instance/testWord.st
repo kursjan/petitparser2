@@ -1,7 +1,7 @@
 testing-chars
 testWord
 	| parser |
-	parser := #word asParser2.
+	parser := #word asPParser.
 	self assertCharacterSets: parser.
 	self assert: parser parse: 'a' to: $a.
 	self assert: parser parse: 'A' to: $A.

@@ -1,3 +1,3 @@
 tests
 testAction
-	self denyIsNullable: #letter asParser2 ==> [ :foo | foo ].
+	self denyIsNullable: #letter asPParser ==> [ :foo | foo ].

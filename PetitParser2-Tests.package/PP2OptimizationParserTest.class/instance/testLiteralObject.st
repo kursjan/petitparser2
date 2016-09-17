@@ -1,4 +1,4 @@
 tests
 testLiteralObject
 	
-	self assert: $a asParser2 flatten parse: 'a'.
+	self assert: $a asPParser flatten parse: 'a'.

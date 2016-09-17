@@ -1,3 +1,3 @@
 tests
 testSequenceFirstEpsilon
-	self denyIsNullable: #letter asParser2 optional, #word asParser2
+	self denyIsNullable: #letter asPParser optional, #word asPParser

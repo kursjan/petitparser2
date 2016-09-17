@@ -1,6 +1,6 @@
 tests
 testWrapping
-	parser := $a asParser2 wrapped.
+	parser := $a asPParser wrapped.
 	children := self visit: parser.
 	
 	self assert: children isCollection.

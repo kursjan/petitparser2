@@ -1,7 +1,7 @@
 tests
 testPlusOptional
 	| plus |
-	parser := $a asParser2.
+	parser := $a asPParser.
 	"JK: This should actually throw warning somewhere"
 	plus := parser optional plus.
 	firstSet := self firstSet: plus.

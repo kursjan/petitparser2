@@ -1,7 +1,7 @@
 tests
 testCache2
 	| parser context result |
-	parser := $a asParser2 star.
+	parser := $a asPParser star.
 	parser strategy: parser strategy cache.
 	parser setOptimized.
 	

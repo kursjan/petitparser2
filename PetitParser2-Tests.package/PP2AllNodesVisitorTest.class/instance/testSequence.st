@@ -1,6 +1,6 @@
 tests
 testSequence
-	parser := $a asParser2, $b asParser2.
+	parser := $a asPParser, $b asPParser.
 	children := self visit: parser.
 	
 	self assert: children isCollection.

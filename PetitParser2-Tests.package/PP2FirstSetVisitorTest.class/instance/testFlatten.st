@@ -1,8 +1,8 @@
 tests
 testFlatten
 	| flattened |
-	parser := #letter asParser2.
-	flattened := parser, #word asParser2 star.
+	parser := #letter asPParser.
+	flattened := parser, #word asPParser star.
 	firstSet := self firstSet: flattened.
 
 	self assert: firstSet size equals: 1.

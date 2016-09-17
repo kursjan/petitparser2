@@ -1,14 +1,15 @@
 {
-	"commentStamp" : "",
-	"super" : "TestCase",
 	"category" : "PetitParser2-GUI-Tests-Debug",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"strategy",
-		"node"
-	],
+		"node" ],
 	"name" : "PP2DebuggingStrategyTest",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

@@ -1,7 +1,7 @@
 tests
 testDelegate
 	| delegate  |
-	parser := $a asParser2. 
+	parser := $a asPParser. 
 	delegate := parser wrapped.
 	
 	firstSet := self firstSet: delegate.

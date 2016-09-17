@@ -11,7 +11,7 @@ testExtractProduction
 	self assert: self changes first class equals: RBAddInstanceVariableChange.
 	self assert: self changes first variable equals: 'plus'.
 	self assert: self changes second class equals: RBAddMethodChange.
-	self assert: self changes second parseTree equals: (RBParser parseMethod: 'plus ^ $+ asParser2').
+	self assert: self changes second parseTree equals: (RBParser parseMethod: 'plus ^ $+ asPParser').
 	self assert: self changes last class equals: RBAddMethodChange.
 	self
 		assert: self changes last parseTree

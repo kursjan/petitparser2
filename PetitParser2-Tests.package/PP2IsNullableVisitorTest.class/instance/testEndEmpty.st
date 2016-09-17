@@ -1,3 +1,3 @@
 tests
 testEndEmpty
-	self assertIsNullable: nil asParser2 end
+	self assertIsNullable: nil asPParser end

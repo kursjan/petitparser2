@@ -1,7 +1,7 @@
 tests
 testWrappingNonFunctional
 	| literal |
-	literal := $a asParser2.
+	literal := $a asPParser.
 	parser := literal >==> [:c :cc | cc value].
 	firstSet := self firstSet: parser.
 

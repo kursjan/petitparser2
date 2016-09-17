@@ -1,3 +1,3 @@
 token
 assignmentToken
-	^ ':=' asParser2 smalltalkToken
+	^ ':=' asPParser smalltalkToken

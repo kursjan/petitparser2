@@ -1,6 +1,6 @@
 tests
 testPredicateObject
-	firstCharSet := #digit asParser2 firstCharSet.
+	firstCharSet := #digit asPParser firstCharSet.
 
 	self assert: firstCharSet value: $0.
 	self assert: firstCharSet value: $1.

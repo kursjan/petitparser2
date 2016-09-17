@@ -1,6 +1,6 @@
 tests
 testAndLiteraObject
-	parser := $a asParser2 and.
+	parser := $a asPParser and.
 	
 	visitor visit: parser.
 	

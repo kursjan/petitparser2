@@ -1,3 +1,3 @@
 tests
 testPluggable
-	self denyIsNullable: [:ctx | ctx] asParser2.
+	self denyIsNullable: [:ctx | ctx] asPParser.

@@ -1,8 +1,8 @@
 tests
 testChoice
 	| parserOne parserTwo |
-	parserOne := $a asParser2.
-	parserTwo := $b asParser2.
+	parserOne := $a asPParser.
+	parserTwo := $b asPParser.
 		
 	firstSet := self firstSet: parserOne / parserTwo.
 

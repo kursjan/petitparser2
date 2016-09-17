@@ -1,6 +1,6 @@
 tests
 testMappingOfThree
-	parser := ($a asParser2, $b asParser2, $c asParser2) map: [ :a :b :c | $d ].
+	parser := ($a asPParser, $b asPParser, $c asPParser) map: [ :a :b :c | $d ].
 	
 	visitor visit: parser.
 	

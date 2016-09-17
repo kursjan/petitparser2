@@ -1,7 +1,7 @@
 tests
 testOptional
 	| optional |
-	parser := $a asParser2.
+	parser := $a asPParser.
 	optional := parser optional.
 	firstSet := self firstSet: optional.
 

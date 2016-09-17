@@ -1,6 +1,6 @@
 tests
 testPredicateObject
-	parser := #letter asParser2.
+	parser := #letter asPParser.
 	firstSet := self firstSet: parser.
 
 	self assert: firstSet size equals: 1.

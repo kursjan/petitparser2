@@ -2,7 +2,7 @@ tests
 testGuardStarEmpty
 	| invocations parserOne wrappedOne |
 	invocations := OrderedCollection new.
-	parserOne := nil asParser2 ==> [ :e | invocations add: #a. e. ], $a asParser2.
+	parserOne := nil asPParser ==> [ :e | invocations add: #a. e. ], $a asPParser.
 
 	wrappedOne := parserOne wrapped trim flatten. 
 

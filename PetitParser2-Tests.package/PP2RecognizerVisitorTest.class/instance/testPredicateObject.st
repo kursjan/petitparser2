@@ -1,6 +1,6 @@
 tests
 testPredicateObject
-	parser := #letter asParser2.
+	parser := #letter asPParser.
 	token := parser token.
 	
 	self visit: token.

@@ -2,7 +2,7 @@ accessing
 startExpression
 	"Make the sequence node has a method node as its parent and that the source is set."
 
-	^ ([ :context | context contents ] asParser2 and , super startExpression) map: [ :source :node | 
+	^ ([ :context | context contents ] asPParser and , super startExpression) map: [ :source :node | 
 		(RBMethodNode selector: #doIt body: node)
 			source: source.
 		(node statements size = 1 and: [ node temporaries isEmpty ])

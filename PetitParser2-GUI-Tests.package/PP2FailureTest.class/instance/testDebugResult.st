@@ -1,7 +1,7 @@
 as yet unclassified
 testDebugResult
 	| parser result |
-	parser := 'bar' asParser2 plus.
+	parser := 'bar' asPParser plus.
 	
 	result := parser parse: 'foofoo'.
 	self assert: result isPetit2Failure.

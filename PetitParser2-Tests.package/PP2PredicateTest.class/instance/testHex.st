@@ -1,7 +1,7 @@
 testing-chars
 testHex
 	| parser |
-	parser := #hex asParser2.
+	parser := #hex asPParser.
 	self assertCharacterSets: parser.
 	self assert: parser parse: '0' to: $0.
 	self assert: parser parse: '5' to: $5.

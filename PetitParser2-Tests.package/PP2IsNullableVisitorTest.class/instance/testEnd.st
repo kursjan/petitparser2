@@ -1,3 +1,3 @@
 tests
 testEnd
-	self denyIsNullable: 'foo' asParser2 end
+	self denyIsNullable: 'foo' asPParser end

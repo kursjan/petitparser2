@@ -1,11 +1,10 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"testSimpleTrimming" : "JanKurs 9/2/2016 22:01",
 		"assert:isKindOf:" : "JanKurs 9/1/2016 12:25:21",
-		"testSequence" : "JanKurs 9/2/2016 22:01",
 		"setUp" : "JanKurs 9/2/2016 22:01",
-		"testDifferentTrimmers" : "JanKurs 9/1/2016 12:25:21",
-		"testSimpleTrimmingToken" : "JanKurs 9/2/2016 22:01"
-	},
-	"class" : { }
-}
+		"testDifferentTrimmers" : "JanKurs 9/17/2016 23:33",
+		"testSequence" : "JanKurs 9/17/2016 23:33",
+		"testSimpleTrimming" : "JanKurs 9/17/2016 23:33",
+		"testSimpleTrimmingToken" : "JanKurs 9/17/2016 23:33" } }

@@ -1,5 +1,5 @@
 primitives
 string
-	^ ($' asParser2 , ('''''' asParser2 / $' asParser2 negate) star , $' asParser2)
+	^ ($' asPParser , ('''''' asPParser / $' asPParser negate) star , $' asPParser)
 		forbidCache;
 		yourself
