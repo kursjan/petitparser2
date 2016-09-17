@@ -4,8 +4,4 @@
 	"instance" : {
 		"testExpressionGrammar" : "JanKurs 8/31/2016 16:14",
 		"testExpressionGrammarNoOpt" : "JanKurs 8/31/2016 16:12",
-		"testExpressionParser" : "JanKurs 8/26/2016 23:07",
-		"testJavaParser" : "JanKurs 9/14/2016 08:03",
-		"testJavaParserNoOpt" : "JanKurs 9/14/2016 08:04",
-		"testJavaSyntax" : "JanKurs 9/12/2016 16:57",
-		"testJavaSyntaxNoOpt" : "JanKurs 9/12/2016 17:10" } }
+		"testExpressionParser" : "JanKurs 8/26/2016 23:07" } }
