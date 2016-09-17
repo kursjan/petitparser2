@@ -1,3 +1,3 @@
 accessing
 label
-	^ 'PetitParser'
+	^ 'PetitParser2'

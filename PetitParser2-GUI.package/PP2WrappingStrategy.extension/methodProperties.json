@@ -1,6 +1,7 @@
 {
-	"class" : {
-		 },
 	"instance" : {
 		"debug" : "JanKurs 8/31/2016 20:25",
-		"displayName" : "JanKurs 9/1/2016 15:57" } }
+		"displayName" : "JanKurs 9/1/2016 15:57"
+	},
+	"class" : { }
+}

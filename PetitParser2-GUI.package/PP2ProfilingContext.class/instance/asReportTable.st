@@ -3,7 +3,7 @@ asReportTable
 	| backtrackPerCharacter restoreCount rememberCount table |
 	rememberCount := (self countFor: #remember).
 	restoreCount := (self countFor: #restore).
-	backtrackPerCharacter := restoreCount / (totalSize min: 1).
+	backtrackPerCharacter := (restoreCount / (totalSize max: 1) asFloat).
 	
 	table := OrderedCollection new. 
 	table add: (Array with: backtrackPerCharacter with: #'backtrack per character' with: backtrackPerCharacter).

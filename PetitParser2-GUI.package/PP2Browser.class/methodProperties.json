@@ -1,12 +1,15 @@
 {
-	"class" : {
-		"icon" : "lr 1/30/2013 18:41",
-		"label" : "lr 1/30/2013 18:41",
-		"menuCommandOn:" : "lr 1/30/2013 18:42",
-		"open" : "JanKurs 9/14/2016 12:02",
-		"openOn:" : "JanKurs 9/15/2016 07:58" },
 	"instance" : {
+		"compose" : "JanKurs 9/15/2016 17:34",
 		"addNewSubParserOf:in:" : "JanKurs 9/15/2016 17:23",
 		"classesIn:" : "JanKurs 9/14/2016 11:58",
-		"compose" : "JanKurs 9/15/2016 17:34",
-		"defaultTitle" : "TudorGirba 12/8/2012 14:33" } }
+		"defaultTitle" : "TudorGirba 12/8/2012 14:33"
+	},
+	"class" : {
+		"icon" : "lr 1/30/2013 18:41",
+		"menuCommandOn:" : "lr 1/30/2013 18:42",
+		"open" : "JanKurs 9/14/2016 12:02",
+		"openOn:" : "JanKurs 9/15/2016 07:58",
+		"label" : "JanKurs 9/18/2016 00:06"
+	}
+}

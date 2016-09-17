@@ -1,13 +1,14 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"debug:" : "JanKurs 8/28/2016 22:27",
 		"debug:withContext:" : "JanKurs 8/28/2016 22:26",
-		"debugAdaptableWithContext:" : "JanKurs 8/28/2016 22:26",
-		"displayDetailedName" : "JanKurs 9/14/2016 16:23",
-		"displayName" : "JanKurs 9/14/2016 16:23",
+		"gtWarningsIn:" : "JanKurs 9/15/2016 09:41",
 		"enableDebug" : "JanKurs 9/3/2016 17:29",
 		"gtProperties:" : "JanKurs 8/26/2016 10:08",
+		"debugAdaptableWithContext:" : "JanKurs 8/28/2016 22:26",
+		"displayDetailedName" : "JanKurs 9/14/2016 16:23",
 		"gtTreeViewIn:" : "JanKurs 9/15/2016 10:55",
-		"gtWarningsIn:" : "JanKurs 9/15/2016 09:41" } }
+		"debug:" : "JanKurs 8/28/2016 22:27",
+		"displayName" : "JanKurs 9/14/2016 16:23"
+	},
+	"class" : { }
+}

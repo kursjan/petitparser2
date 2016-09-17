@@ -1,9 +1,12 @@
 {
-	"class" : {
-		"on:" : "JanKurs 8/28/2016 22:32" },
 	"instance" : {
-		"cache" : "JanKurs 9/15/2016 11:02",
 		"debug" : "JanKurs 8/31/2016 20:27",
 		"parseOn:" : "JanKurs 9/5/2016 08:54",
 		"parsingGuard:" : "JanKurs 9/15/2016 11:02",
-		"withoutDebugStrategy" : "JanKurs 9/15/2016 10:46" } }
+		"cache" : "JanKurs 9/15/2016 11:02",
+		"withoutDebugStrategy" : "JanKurs 9/15/2016 10:46"
+	},
+	"class" : {
+		"on:" : "JanKurs 8/28/2016 22:32"
+	}
+}

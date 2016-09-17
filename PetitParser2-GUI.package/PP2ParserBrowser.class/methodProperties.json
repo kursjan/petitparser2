@@ -1,18 +1,21 @@
 {
-	"class" : {
-		"openOn:" : "AlexandreBergel 12/27/2015 21:52" },
 	"instance" : {
-		"buildBrowser" : "JanKurs 11/30/2012 14:53",
-		"compose" : "TudorGirba 11/26/2012 21:10",
-		"exampleIn:" : "JanKurs 9/14/2016 16:50",
-		"firstIn:" : "TudorGirba 12/20/2011 16:26",
-		"followIn:" : "JanKurs 9/17/2016 23:33",
-		"graphIn:" : "TudorGirba 12/4/2011 00:50",
-		"inspectorIn:" : "JanKurs 9/15/2016 17:34",
-		"mapIn:" : "AlexandreBergel 12/27/2015 21:46",
 		"production:from:" : "JanKurs 9/15/2016 08:06",
+		"inspectorIn:" : "JanKurs 9/15/2016 17:34",
 		"productionSelectorsFrom:" : "JanKurs 12/3/2012 12:52",
-		"productionsIn:" : "JanKurs 9/15/2016 17:23",
-		"sourceCodeFrom:selector:" : "JanKurs 12/3/2012 13:26",
+		"firstIn:" : "TudorGirba 12/20/2011 16:26",
+		"mapIn:" : "AlexandreBergel 12/27/2015 21:46",
 		"sourceIn:" : "JanKurs 9/15/2016 17:25",
-		"workspaceIn:" : "JanKurs 9/14/2016 12:07" } }
+		"graphIn:" : "TudorGirba 12/4/2011 00:50",
+		"sourceCodeFrom:selector:" : "JanKurs 12/3/2012 13:26",
+		"compose" : "TudorGirba 11/26/2012 21:10",
+		"buildBrowser" : "JanKurs 11/30/2012 14:53",
+		"productionsIn:" : "JanKurs 9/15/2016 17:23",
+		"workspaceIn:" : "JanKurs 9/14/2016 12:07",
+		"exampleIn:" : "JanKurs 9/14/2016 16:50",
+		"followIn:" : "JanKurs 9/17/2016 23:33"
+	},
+	"class" : {
+		"openOn:" : "AlexandreBergel 12/27/2015 21:52"
+	}
+}
