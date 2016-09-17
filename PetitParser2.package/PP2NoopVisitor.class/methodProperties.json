@@ -1,25 +1,24 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"close:" : "JanKurs 9/13/2016 08:20",
-		"rootContext" : "JanKurs 9/13/2016 08:40",
-		"initialize" : "JanKurs 9/13/2016 08:50",
-		"visitPP2Node:" : "JanKurs 9/1/2016 12:25:21",
-		"closedSet" : "JanKurs 9/1/2016 12:25:21",
-		"open:" : "JanKurs 9/13/2016 08:48",
-		"nodeOpened:" : "JanKurs 9/1/2016 12:25:21",
-		"beforeAccept:" : "JanKurs 9/1/2016 12:25:21",
-		"currentContext" : "JanKurs 9/14/2016 16:45",
 		"afterAccept:result:" : "JanKurs 9/1/2016 12:25:21",
-		"context:" : "JanKurs 9/13/2016 08:52",
-		"openedResultFor:" : "JanKurs 9/1/2016 12:25:21",
-		"nodeClosed:" : "JanKurs 9/1/2016 12:25:21",
-		"visit:" : "JanKurs 9/13/2016 09:07",
-		"isOpened:" : "JanKurs 9/12/2016 17:46",
+		"beforeAccept:" : "JanKurs 9/1/2016 12:25:21",
 		"cacheResult:for:" : "JanKurs 9/13/2016 08:19",
-		"isRoot" : "JanKurs 9/14/2016 16:46",
 		"cachedResultFor:" : "JanKurs 9/1/2016 12:25:21",
+		"close:" : "JanKurs 9/13/2016 08:20",
+		"closedSet" : "JanKurs 9/1/2016 12:25:21",
+		"context:" : "JanKurs 9/13/2016 08:52",
+		"currentContext" : "JanKurs 9/14/2016 16:45",
+		"initialize" : "JanKurs 9/13/2016 08:50",
+		"isClosed:" : "JanKurs 9/1/2016 12:25:21",
+		"isOpened:" : "JanKurs 9/12/2016 17:46",
+		"isRoot" : "JanKurs 9/14/2016 16:46",
+		"nodeClosed:" : "JanKurs 9/1/2016 12:25:21",
+		"nodeOpened:" : "JanKurs 9/1/2016 12:25:21",
+		"open:" : "JanKurs 9/13/2016 08:48",
 		"openSet" : "JanKurs 9/12/2016 17:46",
-		"isClosed:" : "JanKurs 9/1/2016 12:25:21"
-	},
-	"class" : { }
-}
+		"openedResultFor:" : "JanKurs 9/1/2016 12:25:21",
+		"rootContext" : "JanKurs 9/13/2016 08:40",
+		"visit:" : "JanKurs 9/13/2016 09:07",
+		"visitPP2Node:" : "JanKurs 9/1/2016 12:25:21" } }

@@ -1,14 +1,11 @@
 {
-	"instance" : {
-		"value:" : "JanKurs 9/1/2016 12:25:21",
-		"isUnknown" : "JanKurs 9/2/2016 22:40",
-		"classification" : "JanKurs 9/2/2016 22:40",
-		"asCharSetPredicate" : "JanKurs 9/1/2016 12:25:21",
-		"initializeOn:" : "JanKurs 9/1/2016 12:25:21"
-	},
 	"class" : {
-		"empty" : "JanKurs 9/1/2016 12:25:21",
 		"any" : "JanKurs 9/1/2016 12:25:21",
-		"on:" : "JanKurs 9/1/2016 12:25:21"
-	}
-}
+		"empty" : "JanKurs 9/1/2016 12:25:21",
+		"on:" : "JanKurs 9/1/2016 12:25:21" },
+	"instance" : {
+		"asCharSetPredicate" : "JanKurs 9/1/2016 12:25:21",
+		"classification" : "JanKurs 9/2/2016 22:40",
+		"initializeOn:" : "JanKurs 9/1/2016 12:25:21",
+		"isUnknown" : "JanKurs 9/2/2016 22:40",
+		"value:" : "JanKurs 9/1/2016 12:25:21" } }

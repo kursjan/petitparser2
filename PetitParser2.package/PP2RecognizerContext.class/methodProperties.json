@@ -1,11 +1,10 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"parent:" : "JanKurs 9/13/2016 09:14",
-		"inToken" : "JanKurs 9/13/2016 08:13",
-		"parent" : "JanKurs 9/13/2016 08:13",
-		"hash" : "JanKurs 9/13/2016 09:14",
 		"=" : "JanKurs 9/13/2016 09:14",
-		"inToken:" : "JanKurs 9/13/2016 08:13"
-	},
-	"class" : { }
-}
+		"hash" : "JanKurs 9/13/2016 09:14",
+		"inToken" : "JanKurs 9/13/2016 08:13",
+		"inToken:" : "JanKurs 9/13/2016 08:13",
+		"parent" : "JanKurs 9/13/2016 08:13",
+		"parent:" : "JanKurs 9/13/2016 09:14" } }

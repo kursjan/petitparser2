@@ -1,10 +1,9 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"resetCounters" : "JanKurs 9/4/2016 21:16",
+		"cacheHit:" : "JanKurs 9/4/2016 21:07",
 		"hitRatio" : "JanKurs 9/4/2016 21:04",
 		"invocation" : "JanKurs 9/4/2016 21:07",
-		"cacheHit:" : "JanKurs 9/4/2016 21:07",
-		"isProfiling" : "JanKurs 9/5/2016 07:55"
-	},
-	"class" : { }
-}
+		"isProfiling" : "JanKurs 9/5/2016 07:55",
+		"resetCounters" : "JanKurs 9/4/2016 21:16" } }

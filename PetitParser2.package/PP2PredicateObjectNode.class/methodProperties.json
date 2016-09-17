@@ -1,23 +1,20 @@
 {
-	"instance" : {
-		"predicate:" : "JanKurs 9/1/2016 12:25:21",
-		"parseOn:" : "JanKurs 9/1/2016 12:25:21",
-		"firstCharSet" : "JanKurs 9/1/2016 12:25:21",
-		"resetStrategy" : "JanKurs 9/15/2016 09:19",
-		"accept:" : "JanKurs 9/1/2016 12:25:21"
-	},
 	"class" : {
-		"space" : "JanKurs 9/12/2016 15:16",
-		"word" : "JanKurs 9/12/2016 15:17",
 		"any" : "JanKurs 9/1/2016 12:25:21",
-		"newline" : "JanKurs 9/12/2016 15:22",
-		"startOfLine" : "JanKurs 9/1/2016 12:25:21",
-		"letter" : "JanKurs 9/12/2016 15:15",
-		"hex" : "JanKurs 9/12/2016 15:14",
-		"digit" : "JanKurs 9/12/2016 15:11",
-		"blank" : "JanKurs 9/12/2016 15:10",
-		"noneOf:" : "JanKurs 9/12/2016 14:43",
 		"anyOf:" : "JanKurs 9/1/2016 12:25:21",
-		"expect:message:" : "JanKurs 9/1/2016 12:25:21"
-	}
-}
+		"blank" : "JanKurs 9/12/2016 15:10",
+		"digit" : "JanKurs 9/12/2016 15:11",
+		"expect:message:" : "JanKurs 9/1/2016 12:25:21",
+		"hex" : "JanKurs 9/12/2016 15:14",
+		"letter" : "JanKurs 9/12/2016 15:15",
+		"newline" : "JanKurs 9/12/2016 15:22",
+		"noneOf:" : "JanKurs 9/12/2016 14:43",
+		"space" : "JanKurs 9/12/2016 15:16",
+		"startOfLine" : "JanKurs 9/1/2016 12:25:21",
+		"word" : "JanKurs 9/12/2016 15:17" },
+	"instance" : {
+		"accept:" : "JanKurs 9/1/2016 12:25:21",
+		"firstCharSet" : "JanKurs 9/1/2016 12:25:21",
+		"parseOn:" : "JanKurs 9/1/2016 12:25:21",
+		"predicate:" : "JanKurs 9/1/2016 12:25:21",
+		"resetStrategy" : "JanKurs 9/15/2016 09:19" } }

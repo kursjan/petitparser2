@@ -1,11 +1,10 @@
 {
+	"class" : {
+		 },
 	"instance" : {
+		"bypass:to:" : "JanKurs 9/5/2016 13:18",
 		"firstChild" : "JanKurs 9/5/2016 13:07",
 		"initializeFor:" : "JanKurs 9/1/2016 12:25:21",
 		"parseOn:" : "JanKurs 9/1/2016 12:25:21",
-		"bypass:to:" : "JanKurs 9/5/2016 13:18",
 		"recognizer" : "JanKurs 9/1/2016 12:25:21",
-		"secondChild" : "JanKurs 9/5/2016 13:07"
-	},
-	"class" : { }
-}
+		"secondChild" : "JanKurs 9/5/2016 13:07" } }

@@ -1,16 +1,13 @@
 {
+	"class" : {
+		"on:" : "JanKurs 9/1/2016 12:25:21" },
 	"instance" : {
-		"strategy" : "JanKurs 9/1/2016 12:25:21",
 		"allChildren" : "JanKurs 9/2/2016 11:57",
-		"isCache" : "JanKurs 9/2/2016 12:00",
+		"bypass:to:" : "JanKurs 9/5/2016 13:31",
+		"changeStrategy:" : "JanKurs 9/6/2016 15:46",
 		"initializeFor:" : "JanKurs 9/1/2016 12:25:21",
+		"isCache" : "JanKurs 9/2/2016 12:00",
 		"node" : "JanKurs 9/1/2016 12:25:21",
 		"parseOn:" : "JanKurs 9/1/2016 12:25:21",
-		"bypass:to:" : "JanKurs 9/5/2016 13:31",
 		"recognizer" : "JanKurs 9/2/2016 15:37",
-		"changeStrategy:" : "JanKurs 9/6/2016 15:46"
-	},
-	"class" : {
-		"on:" : "JanKurs 9/1/2016 12:25:21"
-	}
-}
+		"strategy" : "JanKurs 9/1/2016 12:25:21" } }

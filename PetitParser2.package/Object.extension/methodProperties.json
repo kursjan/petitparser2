@@ -1,10 +1,9 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"isPetit2Failure" : "JanKurs 9/1/2016 12:25:21",
-		"isToken" : "JanKurs 9/12/2016 14:19",
-		"isPetit2Parser" : "JanKurs 9/1/2016 12:25:21",
 		"asArray" : "JanKurs 9/5/2016 09:58",
-		"isPetit2Success" : "JanKurs 9/1/2016 12:25:21"
-	},
-	"class" : { }
-}
+		"isPetit2Failure" : "JanKurs 9/1/2016 12:25:21",
+		"isPetit2Parser" : "JanKurs 9/1/2016 12:25:21",
+		"isPetit2Success" : "JanKurs 9/1/2016 12:25:21",
+		"isToken" : "JanKurs 9/12/2016 14:19" } }

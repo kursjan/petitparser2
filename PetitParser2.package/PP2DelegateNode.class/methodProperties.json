@@ -1,20 +1,17 @@
 {
-	"instance" : {
-		"child:" : "JanKurs 9/3/2016 14:47",
-		"isJustDelegate" : "JanKurs 9/5/2016 16:56",
-		"isCacheForbidden" : "JanKurs 9/13/2016 09:16",
-		"children" : "JanKurs 9/3/2016 14:47",
-		"parser" : "JanKurs 9/3/2016 14:47",
-		"child" : "JanKurs 9/3/2016 14:47",
-		"changeChild:" : "JanKurs 9/6/2016 14:33",
-		"resetStrategy" : "JanKurs 9/15/2016 09:14",
-		"isDelegate" : "JanKurs 9/5/2016 16:50",
-		"parseOn:" : "JanKurs 9/6/2016 09:01",
-		"replace:with:" : "JanKurs 9/3/2016 14:47",
-		"accept:" : "JanKurs 9/1/2016 12:25:21",
-		"parser:" : "JanKurs 9/3/2016 14:47"
-	},
 	"class" : {
-		"on:" : "JanKurs 9/1/2016 12:25:21"
-	}
-}
+		"on:" : "JanKurs 9/1/2016 12:25:21" },
+	"instance" : {
+		"accept:" : "JanKurs 9/1/2016 12:25:21",
+		"changeChild:" : "JanKurs 9/6/2016 14:33",
+		"child" : "JanKurs 9/3/2016 14:47",
+		"child:" : "JanKurs 9/3/2016 14:47",
+		"children" : "JanKurs 9/3/2016 14:47",
+		"isCacheForbidden" : "JanKurs 9/13/2016 09:16",
+		"isDelegate" : "JanKurs 9/5/2016 16:50",
+		"isJustDelegate" : "JanKurs 9/5/2016 16:56",
+		"parseOn:" : "JanKurs 9/6/2016 09:01",
+		"parser" : "JanKurs 9/3/2016 14:47",
+		"parser:" : "JanKurs 9/3/2016 14:47",
+		"replace:with:" : "JanKurs 9/3/2016 14:47",
+		"resetStrategy" : "JanKurs 9/15/2016 09:14" } }

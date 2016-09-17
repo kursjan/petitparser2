@@ -1,15 +1,16 @@
 {
-	"commentStamp" : "",
-	"super" : "ReadStream",
 	"category" : "PetitParser2-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"parser",
 		"retval",
-		"globals"
-	],
+		"globals" ],
 	"name" : "PP2InMemoryContext",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "ReadStream",
+	"type" : "normal" }

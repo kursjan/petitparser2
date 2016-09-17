@@ -1,7 +1,6 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"doPass:" : "JanKurs 9/3/2016 17:28",
-		"afterAccept:result:" : "JanKurs 9/13/2016 09:08"
-	},
-	"class" : { }
-}
+		"afterAccept:result:" : "JanKurs 9/13/2016 09:08",
+		"doPass:" : "JanKurs 9/3/2016 17:28" } }

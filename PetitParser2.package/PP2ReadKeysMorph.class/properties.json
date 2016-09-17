@@ -1,15 +1,16 @@
 {
-	"commentStamp" : "JanKurs 9/4/2016 14:31",
-	"super" : "Morph",
 	"category" : "PetitParser2-Examples",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JanKurs 9/4/2016 14:31",
 	"instvars" : [
 		"keyStream",
 		"parser",
-		"outputStream"
-	],
+		"outputStream" ],
 	"name" : "PP2ReadKeysMorph",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }
