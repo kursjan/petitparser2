@@ -1,4 +1,4 @@
-smalltalk
+*PetitParser2-Smalltalk
 smalltalkSourcesProfiling
 	^ self cachedValue: #smalltalkSourcesProfiling ifAbsentPut: [ 
 		self 

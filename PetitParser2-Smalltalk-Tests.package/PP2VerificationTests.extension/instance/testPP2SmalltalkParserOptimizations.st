@@ -1,4 +1,4 @@
-optimizations
+*PetitParser2-Smalltalk-Tests
 testPP2SmalltalkParserOptimizations
 	| validator |
 	validator := PP2SmalltalkParserOptimizationsValidator new.

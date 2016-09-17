@@ -1,4 +1,4 @@
-smalltalk
+*PetitParser2-Smalltalk
 smalltalkSourcesVerification
 	^ self cachedValue: #smalltalkSourcesVerification ifAbsentPut: [ 
 		"self smalltalkSourcesInDirectory: self smalltalkSelectedDirectory."
