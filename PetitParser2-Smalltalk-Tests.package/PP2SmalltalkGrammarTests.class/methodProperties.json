@@ -1,9 +1,6 @@
 {
-	"instance" : {
-		"testCompleteness" : "JanKurs 9/6/2016 14:11",
-		"parse:withParser:withContext:" : "JanKurs 8/31/2016 13:07"
-	},
 	"class" : {
-		"shouldInheritSelectors" : "JanKurs 8/31/2016 13:51"
-	}
-}
+		"shouldInheritSelectors" : "JanKurs 8/31/2016 13:51" },
+	"instance" : {
+		"parse:withParser:withContext:" : "JanKurs 8/31/2016 13:07",
+		"testCompleteness" : "JanKurs 9/6/2016 14:11" } }

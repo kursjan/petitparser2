@@ -1,13 +1,16 @@
 {
+	"category" : "PetitParser2-Smalltalk-Tests-Core",
+	"classinstvars" : [
+		 ],
 	"classtraitcomposition" : "TPP2SmalltalkParserTests classTrait",
-	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "PP2SmalltalkParserTests_Optimized",
+	"classvars" : [
+		 ],
 	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PP2SmalltalkParserTests_Optimized",
+	"pools" : [
+		 ],
 	"super" : "PP2SmalltalkGrammarTests_Optimized",
 	"traitcomposition" : "TPP2SmalltalkParserTests",
-	"type" : "normal",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"category" : "PetitParser2-Smalltalk-Tests-Core"
-}
+	"type" : "normal" }

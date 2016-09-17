@@ -1,3 +1,5 @@
 parsing
 parserInstance
-	^ super parserInstance optimize
+	^ super parserInstance optimize;
+		resetCaches;
+		yourself

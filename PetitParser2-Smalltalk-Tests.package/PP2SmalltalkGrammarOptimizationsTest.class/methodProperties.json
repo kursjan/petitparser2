@@ -1,17 +1,16 @@
 {
+	"class" : {
+		 },
 	"instance" : {
 		"assert:allSatisfy:" : "JanKurs 8/31/2016 13:25",
-		"testCaches" : "JanKurs 9/6/2016 15:34",
 		"assert:anySatisfy:" : "JanKurs 9/2/2016 22:39",
-		"testIdentifierToken" : "JanKurs 9/2/2016 19:04",
-		"testFirstProductionSet" : "JanKurs 9/3/2016 17:29",
-		"testVariable" : "JanKurs 9/6/2016 15:33",
 		"assert:isKindOf:" : "JanKurs 8/31/2016 13:38",
+		"testCaches" : "JanKurs 9/6/2016 15:34",
+		"testFirstProductionSet" : "JanKurs 9/3/2016 17:29",
+		"testIdentifierToken" : "JanKurs 9/2/2016 19:04",
+		"testKeywordMessageCache" : "JanKurs 9/3/2016 17:31",
+		"testLiteral" : "JanKurs 9/3/2016 17:32",
 		"testNumberToken" : "JanKurs 9/3/2016 17:32",
 		"testPeriodToken" : "JanKurs 9/5/2016 17:06",
-		"testKeywordMessageCache" : "JanKurs 9/3/2016 17:31",
 		"testTrimmings" : "JanKurs 9/3/2016 17:32",
-		"testLiteral" : "JanKurs 9/3/2016 17:32"
-	},
-	"class" : { }
-}
+		"testVariable" : "JanKurs 9/6/2016 15:33" } }

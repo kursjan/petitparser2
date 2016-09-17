@@ -1,6 +1,5 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"testVisitSmalltalkWhitespace" : "JanKurs 8/31/2016 09:54"
-	},
-	"class" : { }
-}
+		"testVisitSmalltalkWhitespace" : "JanKurs 8/31/2016 09:54" } }
