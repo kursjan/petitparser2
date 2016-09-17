@@ -2,14 +2,14 @@ language: smalltalk
 sudo: false
 
 # Download sources
-before_script: 
-  - ./.utilities/loadSources.sh
+# JK: Disabled, now downloaded using the ZnClient
+#before_script: 
+#  - ./.utilities/loadSources.sh
 
 # Select operating system(s)
 os:
   - linux
-# JK: smalltalk sources cannot be accessed on MAC, dunno why 
-#  - osx
+  - osx
 
 # Select compatible Smalltalk image(s)
 smalltalk:
