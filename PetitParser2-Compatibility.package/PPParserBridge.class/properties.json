@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "PP2Node",
 	"category" : "PetitParser2-Compatibility-Bridge",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "PPParserBridge",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PP2Node",
+	"type" : "normal" }

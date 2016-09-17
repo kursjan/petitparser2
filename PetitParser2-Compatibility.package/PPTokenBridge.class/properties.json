@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "PP2Token",
 	"category" : "PetitParser2-Compatibility-Bridge",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "PPTokenBridge",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PP2Token",
+	"type" : "normal" }

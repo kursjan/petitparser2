@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "PP2CompositeNode",
 	"category" : "PetitParser2-Compatibility-Bridge",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "PPCompositeParserBridge",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PP2CompositeNode",
+	"type" : "normal" }
