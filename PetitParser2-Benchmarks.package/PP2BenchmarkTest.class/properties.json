@@ -1,15 +1,14 @@
 {
-	"category" : "PetitParser2-Benchmarks-Tests",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "PetitParser2-Benchmarks-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"context",
-		"selector" ],
+		"selector"
+	],
 	"name" : "PP2BenchmarkTest",
-	"pools" : [
-		 ],
-	"super" : "TestCase",
-	"type" : "normal" }
+	"type" : "normal"
+}

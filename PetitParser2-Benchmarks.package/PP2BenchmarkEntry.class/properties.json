@@ -1,18 +1,17 @@
 {
-	"category" : "PetitParser2-Benchmarks-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "PetitParser2-Benchmarks-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"name",
 		"size",
 		"time",
 		"timestamp",
-		"gcTime" ],
+		"gcTime"
+	],
 	"name" : "PP2BenchmarkEntry",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}
