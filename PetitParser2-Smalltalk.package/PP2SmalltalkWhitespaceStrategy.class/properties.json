@@ -1,14 +1,13 @@
 {
-	"category" : "PetitParser2-Smalltalk-Strategies",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"failure" ],
-	"name" : "PP2SmalltalkWhitespaceStrategy",
-	"pools" : [
-		 ],
 	"super" : "PP2Strategy",
-	"type" : "normal" }
+	"category" : "PetitParser2-Smalltalk-Strategies",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"failure"
+	],
+	"name" : "PP2SmalltalkWhitespaceStrategy",
+	"type" : "normal"
+}

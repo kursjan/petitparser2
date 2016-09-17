@@ -1,7 +1,8 @@
 {
-	"class" : {
-		 },
 	"instance" : {
 		"comments" : "JanKurs 8/25/2016 17:46",
-		"comments:" : "JanKurs 8/25/2016 17:46",
-		"length" : "JanKurs 8/25/2016 17:46" } }
+		"length" : "JanKurs 8/25/2016 17:46",
+		"comments:" : "JanKurs 8/25/2016 17:46"
+	},
+	"class" : { }
+}
