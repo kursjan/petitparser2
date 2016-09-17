@@ -1,12 +1,9 @@
 {
-	"instance" : {
-		"compose" : "JanKurs 9/15/2016 17:34",
-		"browserStructureFor:" : "TudorGirba 12/18/2013 06:41",
-		"inspectorsIn:" : "JanKurs 9/15/2016 09:41",
-		"sampleIn:" : "JanKurs 9/15/2016 09:41",
-		"gtWarningsIn:for:" : "JanKurs 9/15/2016 10:15"
-	},
 	"class" : {
-		"openOn:" : "JanKurs 11/30/2012 15:00"
-	}
-}
+		"openOn:" : "JanKurs 11/30/2012 15:00" },
+	"instance" : {
+		"browserStructureFor:" : "TudorGirba 12/18/2013 06:41",
+		"compose" : "JanKurs 9/15/2016 17:34",
+		"gtWarningsIn:for:" : "JanKurs 9/15/2016 10:15",
+		"inspectorsIn:" : "JanKurs 9/15/2016 09:41",
+		"sampleIn:" : "JanKurs 9/15/2016 09:41" } }

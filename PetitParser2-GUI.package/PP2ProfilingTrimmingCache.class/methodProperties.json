@@ -1,16 +1,15 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"hits" : "JanKurs 9/4/2016 21:06",
 		"cacheHit:" : "",
-		"isProfiling" : "",
-		"invocations" : "JanKurs 9/4/2016 21:06",
 		"hitRatio" : "",
+		"hits" : "JanKurs 9/4/2016 21:06",
+		"hits:" : "JanKurs 9/4/2016 21:18",
 		"initialize" : "JanKurs 9/4/2016 21:17",
 		"invocation" : "",
+		"invocations" : "JanKurs 9/4/2016 21:06",
 		"invocations:" : "JanKurs 9/4/2016 21:18",
+		"isProfiling" : "",
 		"parseOn:" : "JanKurs 9/4/2016 21:09",
-		"hits:" : "JanKurs 9/4/2016 21:18",
-		"resetCounters" : ""
-	},
-	"class" : { }
-}
+		"resetCounters" : "" } }

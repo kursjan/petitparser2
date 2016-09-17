@@ -1,10 +1,10 @@
 {
-	"commentStamp" : "",
-	"super" : "PP2InMemoryContext",
 	"category" : "PetitParser2-GUI-Profiling",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"totalSize",
 		"selectors",
@@ -15,8 +15,9 @@
 		"fEvents",
 		"fSelectors",
 		"lastStreamIndex",
-		"strategies"
-	],
+		"strategies" ],
 	"name" : "PP2ProfilingContext",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PP2InMemoryContext",
+	"type" : "normal" }

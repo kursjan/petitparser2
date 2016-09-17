@@ -1,7 +1,6 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"compositeParserClass" : "JanKurs 9/15/2016 17:24",
-		"checkCompositeParser2:" : "JanKurs 9/15/2016 17:24"
-	},
-	"class" : { }
-}
+		"checkCompositeParser2:" : "JanKurs 9/17/2016 21:45",
+		"compositeParser2Class" : "JanKurs 9/17/2016 21:45" } }

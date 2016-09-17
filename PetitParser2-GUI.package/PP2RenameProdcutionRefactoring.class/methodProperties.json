@@ -1,12 +1,9 @@
 {
+	"class" : {
+		"onClass:rename:to:" : "lr 12/18/2011 14:34" },
 	"instance" : {
-		"setOldProduction:" : "lr 12/7/2011 19:09",
+		"preconditions" : "JanKurs 9/15/2016 17:24",
 		"setClass:" : "lr 12/18/2011 14:31",
 		"setNewProduction:" : "lr 12/7/2011 19:09",
-		"transform" : "JanKurs 1/25/2015 12:44",
-		"preconditions" : "JanKurs 9/15/2016 17:24"
-	},
-	"class" : {
-		"onClass:rename:to:" : "lr 12/18/2011 14:34"
-	}
-}
+		"setOldProduction:" : "lr 12/7/2011 19:09",
+		"transform" : "JanKurs 1/25/2015 12:44" } }

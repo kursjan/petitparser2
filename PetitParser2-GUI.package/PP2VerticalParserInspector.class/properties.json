@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "PP2ParserInspector",
 	"category" : "PetitParser2-GUI-Browser",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "PP2VerticalParserInspector",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PP2ParserInspector",
+	"type" : "normal" }

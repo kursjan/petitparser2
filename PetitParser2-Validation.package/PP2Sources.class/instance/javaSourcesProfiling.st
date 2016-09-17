@@ -3,6 +3,6 @@ javaSourcesProfiling
 	^ self cachedValue: #javaSourcesProfiling ifAbsentPut: [ 
 		self 
 			selectEvenly: 10
-			from: 	(self javaSourcesInDirectory: self javaAllDirectory)
+			fromFiles: self javaFiles
 			thatSatisfy: self javaWorkingBlock
  	]

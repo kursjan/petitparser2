@@ -1,10 +1,9 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"sources" : "JanKurs 8/23/2016 15:09",
-		"initialize" : "JanKurs 9/3/2016 13:27",
+		"actualForSource:" : "JanKurs 9/3/2016 17:58",
 		"expectedForSource:" : "JanKurs 9/3/2016 17:58",
+		"initialize" : "JanKurs 9/3/2016 13:27",
 		"name" : "JanKurs 8/13/2016 11:30",
-		"actualForSource:" : "JanKurs 9/3/2016 17:58"
-	},
-	"class" : { }
-}
+		"sources" : "JanKurs 8/23/2016 15:09" } }

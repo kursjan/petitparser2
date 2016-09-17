@@ -1,13 +1,10 @@
 {
+	"class" : {
+		"onClass:production:interval:to:" : "lr 12/10/2011 11:03" },
 	"instance" : {
 		"existingSelector" : "lr 12/10/2011 11:11",
 		"getNewMethodName" : "lr 12/10/2011 11:10",
 		"nameNewMethod:" : "lr 12/10/2011 11:15",
+		"preconditions" : "JanKurs 9/15/2016 17:25",
 		"setTargetProduction:" : "lr 12/10/2011 11:02",
-		"shouldExtractAssignmentTo:" : "lr 12/10/2011 11:12",
-		"preconditions" : "JanKurs 9/15/2016 17:25"
-	},
-	"class" : {
-		"onClass:production:interval:to:" : "lr 12/10/2011 11:03"
-	}
-}
+		"shouldExtractAssignmentTo:" : "lr 12/10/2011 11:12" } }

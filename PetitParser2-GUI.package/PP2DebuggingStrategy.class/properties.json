@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "PP2WrappingStrategy",
 	"category" : "PetitParser2-GUI-Debug",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "PP2DebuggingStrategy",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PP2WrappingStrategy",
+	"type" : "normal" }

@@ -1,3 +1,3 @@
 *PetitParser2-GUI
-compositeParserClass
+compositeParser2Class
 	^ self classObjectFor: #PP2CompositeParser

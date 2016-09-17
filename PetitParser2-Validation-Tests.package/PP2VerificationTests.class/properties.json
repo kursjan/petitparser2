@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "JanKurs 8/23/2016 14:32",
-	"super" : "TestCase",
 	"category" : "PetitParser2-Validation-Tests-Verification",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JanKurs 8/23/2016 14:32",
+	"instvars" : [
+		 ],
 	"name" : "PP2VerificationTests",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
