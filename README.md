@@ -1,8 +1,7 @@
 # PetitParser2 [![Build Status](https://travis-ci.org/kursjan/petitparser2.svg?branch=master)](https://travis-ci.org/kursjan/petitparser2)
 
 
-Key Features
-============
+## Key Features
 Why to switch from PetitParser to PetitParser2?
 
 ### Better performance 
@@ -26,8 +25,7 @@ PP2ReadKeysExample example
 TBD
 
 
-Installing PetitParser2
-=======================
+## Installing PetitParser2
 
 Use the configuration manager in your Pharo image and install the stable version.
 
