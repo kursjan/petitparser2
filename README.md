@@ -5,9 +5,9 @@
 Why to switch from PetitParser to PetitParser2?
 
 ### Better performance 
-The performance is (2-5 times better) when used in optimized mode (i.e. after calling the `optimize` method). The optimizations are based on the technologies of [PetitCompiler](http://scg.unibe.ch/scgbib?query=Kurs16a&display=abstract). 
+The performance of PetitParser2 is 2-5 times better compared to PetitParser, when used in optimized mode. The optimizations are based on the technologies of [PetitCompiler](http://scg.unibe.ch/scgbib?query=Kurs16a&display=abstract). To optimize, simply call `optimize` before `parse:`.
 
-Try it on your own, compare the optimized version of `PP2SmalltalkParser`, non optimized version, `SmaCC` and `RBParser`. Inspect the result of the following code:
+Try it out!. Compare the optimized version of `PP2SmalltalkParser`, non optimized version, `SmaCC` and `RBParser`. Evaluate the following code:
 ```
 PP2Benchmark exampleSmalltalk
 ```
@@ -15,7 +15,7 @@ PP2Benchmark exampleSmalltalk
 TBD
 
 ### Support for real streams
-PetitParser2 supports real streams, no need to have whole input in memory (see `PP2BufferStream`). The following demo utilizes a parser created on top of a character stream comming from your keystrokes. The parser waits for the input from the keyboard and proceeds with parsing as characters comes in:
+PetitParser2 supports real streams, no need to have the whole input in memory (see `PP2BufferStream`). The following demo utilizes a parser created on top of a character stream comming from your keystrokes. The parser waits for input from the keyboard and proceeds with parsing as characters comes in:
 
 ```
 PP2ReadKeysExample example
