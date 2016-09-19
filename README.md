@@ -1,8 +1,16 @@
 # PetitParser2 [![Build Status](https://travis-ci.org/kursjan/petitparser2.svg?branch=master)](https://travis-ci.org/kursjan/petitparser2)
 
+PetitParser2 is a new version of [PetitParser](http://www.lukas-renggli.ch/blog/petitparser-1) that allows to define flexible and high-performance parsers.
 
 ## Key Features
-Why to switch from PetitParser to PetitParser2?
+- Modular, composable and easy to extend
+- Natural, easy-to follow grammar definitions
+- High performance
+- Supports sensitive-parsing [TBD]
+- Supports bounded seas [TBD]
+- Contains dedicated browser and debugger
+
+## Why to switch from PetitParser to PetitParser2?
 
 ### Better performance 
 The performance of PetitParser2 is 2-5 times better compared to PetitParser, when used in optimized mode. The optimizations are based on the technologies of [PetitCompiler](http://scg.unibe.ch/scgbib?query=Kurs16a&display=abstract). To optimize, simply call `optimize` before `parse:`.
