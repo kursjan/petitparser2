@@ -1,3 +1,3 @@
 loop control
-openedResultFor: aPP2Node
+openedResultFor: context
 	^ #()

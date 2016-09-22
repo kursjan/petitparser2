@@ -1,7 +1,8 @@
 {
-	"class" : {
-		 },
 	"instance" : {
+		"visitPP2Node:" : "JanKurs 9/13/2016 16:56",
 		"allNodes" : "JanKurs 9/13/2016 16:43",
-		"children" : "JanKurs 9/13/2016 16:49",
-		"visitPP2Node:" : "JanKurs 9/13/2016 16:56" } }
+		"children" : "JanKurs 9/13/2016 16:49"
+	},
+	"class" : { }
+}

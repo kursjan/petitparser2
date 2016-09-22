@@ -1,14 +1,13 @@
 {
-	"category" : "PetitParser2-Nodes",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "JanKurs 9/6/2016 13:58",
-	"instvars" : [
-		"child" ],
-	"name" : "PP2AdaptableNode",
-	"pools" : [
-		 ],
 	"super" : "PP2Node",
-	"type" : "normal" }
+	"category" : "PetitParser2-Nodes",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"child"
+	],
+	"name" : "PP2AdaptableNode",
+	"type" : "normal"
+}

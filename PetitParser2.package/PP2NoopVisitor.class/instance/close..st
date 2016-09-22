@@ -1,9 +1,9 @@
 visiting - utilities
-close: node
-	self assert: (self isOpened: node).
-	self assert: (self isClosed: node) not.
-	self assert: (openStack top == node).
+close: context
+	self assert: (self isOpened: context).
+	self assert: (self isClosed: context) not.
+	self assert: (openStack top == context).
 	
-	openSet remove: node.
+	openSet remove: context.
 	openStack pop.
-	closeSet add: node.
+	closeSet add: context.

@@ -1,3 +1,5 @@
 caching
 rootContext
-	^ nil
+	^ PP2NoopContext new
+		node: nil;
+		yourself

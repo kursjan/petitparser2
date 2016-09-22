@@ -1,5 +1,5 @@
 caching
-cacheResult: anObject for: node
-	cache at: node ifPresent: [ self error: 'already cached' ].
+cacheResult: anObject for: context
+	cache at: context ifPresent: [ self error: 'already cached' ].
 	
-	cache at: node put: anObject
+	cache at: context put: anObject

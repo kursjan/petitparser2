@@ -2,4 +2,6 @@ comparing
 = anotherContext
 	self class == anotherContext class ifFalse: [ ^ false ].
 
-	^ self node == anotherContext node
+	self node == anotherContext node ifFalse: [ ^ false ].
+	
+	^ self properties = anotherContext properties

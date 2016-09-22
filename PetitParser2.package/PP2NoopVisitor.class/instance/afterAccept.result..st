@@ -1,2 +1,2 @@
 hooks
-afterAccept: node result: result
+afterAccept: context result: result

@@ -1,2 +1,2 @@
 hooks
-beforeAccept: node
+beforeAccept: context

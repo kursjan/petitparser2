@@ -1,14 +1,13 @@
 {
-	"category" : "PetitParser2-Strategies",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"predicate" ],
-	"name" : "PP2StarPredicateObject",
-	"pools" : [
-		 ],
 	"super" : "PP2PossesiveRepeating",
-	"type" : "normal" }
+	"category" : "PetitParser2-Strategies",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"predicate"
+	],
+	"name" : "PP2StarPredicateObject",
+	"type" : "normal"
+}

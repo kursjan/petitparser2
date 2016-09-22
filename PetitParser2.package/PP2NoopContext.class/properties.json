@@ -1,14 +1,16 @@
 {
-	"category" : "PetitParser2-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
+	"classtraitcomposition" : "TPP2Properties classTrait",
+	"classvars" : [ ],
 	"instvars" : [
-		"node" ],
+		"node",
+		"properties"
+	],
 	"name" : "PP2NoopContext",
-	"pools" : [
-		 ],
+	"commentStamp" : "",
 	"super" : "Object",
-	"type" : "normal" }
+	"traitcomposition" : "TPP2Properties",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "PetitParser2-Core"
+}

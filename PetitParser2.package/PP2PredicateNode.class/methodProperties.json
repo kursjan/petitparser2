@@ -1,15 +1,18 @@
 {
-	"class" : {
-		"on:message:" : "JanKurs 9/1/2016 12:25:21" },
 	"instance" : {
-		"localEquals:" : "JanKurs 9/1/2016 12:25:21",
-		"localHash" : "JanKurs 9/1/2016 12:25:21",
-		"negate" : "JanKurs 9/14/2016 10:11",
-		"negated" : "JanKurs 9/1/2016 12:25:21",
-		"negated:" : "JanKurs 9/1/2016 12:25:21",
-		"negatedMessage" : "JanKurs 9/1/2016 12:25:21",
 		"negatedMessage:" : "JanKurs 9/1/2016 12:25:21",
-		"predicate" : "JanKurs 9/1/2016 12:25:21",
 		"predicate:" : "JanKurs 9/1/2016 12:25:21",
+		"predicateMessage:" : "JanKurs 9/1/2016 12:25:21",
+		"negate" : "JanKurs 9/14/2016 10:11",
+		"negated:" : "JanKurs 9/1/2016 12:25:21",
+		"negated" : "JanKurs 9/1/2016 12:25:21",
+		"negatedMessage" : "JanKurs 9/1/2016 12:25:21",
+		"localHash" : "JanKurs 9/1/2016 12:25:21",
+		"localEquals:" : "JanKurs 9/1/2016 12:25:21",
 		"predicateMessage" : "JanKurs 9/1/2016 12:25:21",
-		"predicateMessage:" : "JanKurs 9/1/2016 12:25:21" } }
+		"predicate" : "JanKurs 9/1/2016 12:25:21"
+	},
+	"class" : {
+		"on:message:" : "JanKurs 9/1/2016 12:25:21"
+	}
+}

@@ -1,12 +1,13 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"cache:production:" : "JanKurs 9/13/2016 09:17",
-		"cacheMakesSense:" : "JanKurs 9/13/2016 17:11",
-		"cacheProductions:" : "JanKurs 9/13/2016 15:57",
-		"cacheProductions_OLD:" : "JanKurs 9/13/2016 15:51",
-		"doPass:" : "JanKurs 9/1/2016 22:54",
 		"visitChoice:" : "JanKurs 9/6/2016 15:35",
+		"cacheMakesSense:" : "JanKurs 9/13/2016 17:11",
+		"visitSequence:" : "JanKurs 9/15/2016 13:30",
+		"cacheProductions_OLD:" : "JanKurs 9/13/2016 15:51",
+		"cache:production:" : "JanKurs 9/13/2016 09:17",
 		"visitPP2Node:" : "JanKurs 9/2/2016 15:49",
-		"visitSequence:" : "JanKurs 9/15/2016 13:30" } }
+		"doPass:" : "JanKurs 9/1/2016 22:54",
+		"cacheProductions:" : "JanKurs 9/13/2016 15:57"
+	},
+	"class" : { }
+}

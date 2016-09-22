@@ -1,10 +1,11 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"accept:" : "JanKurs 9/3/2016 14:40",
-		"changeChild:" : "JanKurs 9/6/2016 14:33",
 		"child" : "JanKurs 9/3/2016 14:55",
 		"isAdaptable" : "JanKurs 9/3/2016 14:50",
 		"isFirstSetTerminal" : "JanKurs 9/6/2016 14:38",
-		"resetStrategy" : "JanKurs 9/15/2016 09:13" } }
+		"changeChild:" : "JanKurs 9/6/2016 14:33",
+		"resetStrategy" : "JanKurs 9/15/2016 09:13",
+		"accept:" : "JanKurs 9/3/2016 14:40"
+	},
+	"class" : { }
+}

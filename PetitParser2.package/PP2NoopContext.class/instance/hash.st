@@ -1,3 +1,3 @@
 comparing
 hash
-	^ self node identityHash
+	^ self node identityHash bitXor: (self properties hash)

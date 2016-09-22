@@ -1,8 +1,16 @@
 {
-	"class" : {
-		"with:" : "JanKurs 9/13/2016 09:01" },
 	"instance" : {
-		"=" : "JanKurs 9/13/2016 08:49",
-		"hash" : "JanKurs 9/13/2016 08:55",
+		"currentNext" : "JanKurs 9/21/2016 14:24",
+		"initialize" : "JanKurs 9/21/2016 14:56",
+		"=" : "JanKurs 9/21/2016 14:21",
+		"hash" : "JanKurs 9/21/2016 14:21",
+		"currentNext:" : "JanKurs 9/21/2016 14:24",
 		"node" : "JanKurs 9/13/2016 08:53",
-		"node:" : "JanKurs 9/13/2016 08:53" } }
+		"node:" : "JanKurs 9/13/2016 08:53",
+		"properties:" : "JanKurs 9/21/2016 14:18",
+		"properties" : "JanKurs 9/21/2016 14:18"
+	},
+	"class" : {
+		"with:" : "JanKurs 9/13/2016 09:01"
+	}
+}
