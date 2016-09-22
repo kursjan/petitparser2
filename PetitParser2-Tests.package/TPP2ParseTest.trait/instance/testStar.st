@@ -1,7 +1,7 @@
 test
 testStar
 	| parser |
-	parser := $a asParser2 star.
+	parser := $a asPParser star.
 
 	self assert: parser parse: '' to: #().
 	self assert: parser parse: 'a' to: #($a).

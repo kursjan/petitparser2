@@ -1,7 +1,7 @@
 test
 testToken
 	| parser |
-	parser := $a asParser2 token.
+	parser := $a asPParser token.
 
 	self assert: parser parse: 'a'	toTokenValue: 'a'.
 		

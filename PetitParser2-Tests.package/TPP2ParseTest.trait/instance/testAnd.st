@@ -1,7 +1,7 @@
 test
 testAnd
 	| parser |
-	parser := 'foo' asParser2, 'bar' asParser2 and.
+	parser := 'foo' asPParser, 'bar' asPParser and.
 	self
 		assert: parser
 		parse: 'foobar'

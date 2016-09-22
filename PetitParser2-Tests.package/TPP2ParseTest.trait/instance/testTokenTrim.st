@@ -1,7 +1,7 @@
 test
 testTokenTrim
 	| parser |
-	parser := $a asParser2 token trim.
+	parser := $a asPParser token trim.
 	
 	self assert: parser parse: 'a' toTokenValue: 'a'.
 	self assert: parser parse: ' a' toTokenValue: 'a'.

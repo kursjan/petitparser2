@@ -1,21 +1,22 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"assertCharacterSets:" : "JanKurs 9/12/2016 14:51",
-		"charactersDo:" : "JanKurs 9/12/2016 14:51",
-		"parse:withParser:withContext:" : "JanKurs 9/12/2016 14:55",
-		"parsedCharacterSet:" : "JanKurs 9/12/2016 14:51",
-		"testAny" : "JanKurs 9/17/2016 23:33",
-		"testAnyExceptAnyOf" : "JanKurs 9/12/2016 14:52",
-		"testAnyOf" : "JanKurs 9/12/2016 15:01",
-		"testBlank" : "JanKurs 9/17/2016 23:33",
-		"testChar" : "JanKurs 9/17/2016 23:33",
-		"testDigit" : "JanKurs 9/17/2016 23:33",
-		"testExpect" : "JanKurs 9/12/2016 15:37",
 		"testHex" : "JanKurs 9/17/2016 23:33",
+		"assertCharacterSets:" : "JanKurs 9/12/2016 14:51",
 		"testLetter" : "JanKurs 9/17/2016 23:33",
+		"testSpace" : "JanKurs 9/17/2016 23:33",
+		"testWord" : "JanKurs 9/17/2016 23:33",
+		"testAnyOf" : "JanKurs 9/12/2016 15:01",
 		"testNewline" : "JanKurs 9/17/2016 23:33",
 		"testSequenceParser" : "JanKurs 9/12/2016 15:15",
-		"testSpace" : "JanKurs 9/17/2016 23:33",
-		"testWord" : "JanKurs 9/17/2016 23:33" } }
+		"testDigit" : "JanKurs 9/17/2016 23:33",
+		"testAny" : "JanKurs 9/17/2016 23:33",
+		"testBlank" : "JanKurs 9/17/2016 23:33",
+		"testChar" : "JanKurs 9/17/2016 23:33",
+		"charactersDo:" : "JanKurs 9/12/2016 14:51",
+		"parsedCharacterSet:" : "JanKurs 9/12/2016 14:51",
+		"parse:withParser:withContext:" : "JanKurs 9/12/2016 14:55",
+		"testAnyExceptAnyOf" : "JanKurs 9/12/2016 14:52",
+		"testExpect" : "JanKurs 9/12/2016 15:37"
+	},
+	"class" : { }
+}

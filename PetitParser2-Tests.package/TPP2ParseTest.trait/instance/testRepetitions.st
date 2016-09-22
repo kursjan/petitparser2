@@ -1,7 +1,7 @@
 test
 testRepetitions
 	| parser result |
-	parser := ('foo' asParser2, ':=' asParser2) plus.
+	parser := ('foo' asPParser, ':=' asPParser) plus.
 	
 	result := (self assert: parser parse: 'foo:=').
 	

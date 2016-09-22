@@ -1,7 +1,7 @@
 test
 testChoice
 	| parser |
-	parser := $a asParser2 / $b asParser2.
+	parser := $a asPParser / $b asPParser.
 	
 	self assert: parser parse: 'a' to: $a.
 	self assert: parser parse: 'b' to: $b.

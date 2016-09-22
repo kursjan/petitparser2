@@ -1,7 +1,7 @@
 test
 testEnd
 	| parser |
-	parser := $a asParser2 end.
+	parser := $a asPParser end.
 
 	self assert: parser parse: 'a' to: $a.
 	self assert: parser fail: ''.

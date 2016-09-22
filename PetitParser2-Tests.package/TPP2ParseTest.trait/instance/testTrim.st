@@ -1,7 +1,7 @@
 test
 testTrim
 	| parser |
-	parser := 'a' asParser2 trim.
+	parser := 'a' asPParser trim.
 	
 	self assert: parser parse: 'a' to: 'a'.
 	self assert: parser parse: ' a' to: 'a'.

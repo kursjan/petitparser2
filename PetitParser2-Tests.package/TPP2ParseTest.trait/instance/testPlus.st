@@ -1,7 +1,7 @@
 test
 testPlus
 	| parser |
-	parser := $a asParser2 plus.
+	parser := $a asPParser plus.
 
 	self assert: parser parse: 'a' to: #($a).
 	self assert: parser parse: 'aa' to: #($a $a).

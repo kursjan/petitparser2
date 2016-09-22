@@ -1,10 +1,11 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"assert:isKindOf:" : "JanKurs 9/6/2016 15:56",
-		"setUp" : "JanKurs 9/6/2016 15:57",
 		"testChoice" : "JanKurs 9/17/2016 23:33",
-		"testChoiceNonIdentical" : "JanKurs 9/17/2016 23:33",
+		"assert:isKindOf:" : "JanKurs 9/6/2016 15:56",
+		"visit:" : "JanKurs 9/6/2016 15:57",
 		"testSequence" : "JanKurs 9/17/2016 23:33",
-		"visit:" : "JanKurs 9/6/2016 15:57" } }
+		"setUp" : "JanKurs 9/6/2016 15:57",
+		"testChoiceNonIdentical" : "JanKurs 9/17/2016 23:33"
+	},
+	"class" : { }
+}

@@ -2,5 +2,5 @@ test
 testWrappedSequence
 	| parser |
 
-	parser := (($a asParser2 , $b asParser2 ) wrapped , $c asParser2).
+	parser := (($a asPParser , $b asPParser ) wrapped , $c asPParser).
 	self assert: parser parse: 'abc' to: #(#($a $b) $c)

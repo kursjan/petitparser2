@@ -1,5 +1,6 @@
 {
+	"instance" : { },
 	"class" : {
-		"ruleRBBadMessageRuleV1FalsePositive" : "JanKurs 9/1/2016 12:25:21" },
-	"instance" : {
-		 } }
+		"ruleRBBadMessageRuleV1FalsePositive" : "JanKurs 9/1/2016 12:25:21"
+	}
+}

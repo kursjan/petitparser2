@@ -1,17 +1,19 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"contextOn:" : "JanKurs 9/3/2016 13:08",
-		"testAtEnd" : "JanKurs 9/3/2016 12:58",
-		"testContents" : "JanKurs 9/4/2016 14:22",
 		"testNext" : "JanKurs 9/3/2016 13:03",
-		"testNextAtEnd" : "JanKurs 9/3/2016 13:03",
 		"testSuccess" : "JanKurs 9/3/2016 13:04",
+		"testContents" : "JanKurs 9/4/2016 14:22",
+		"testAtEnd" : "JanKurs 9/3/2016 12:58",
+		"testUpTo" : "JanKurs 9/3/2016 13:05",
+		"testUpTo4" : "JanKurs 9/3/2016 13:06",
+		"testUpToEnd" : "JanKurs 9/3/2016 13:07",
+		"contextOn:" : "JanKurs 9/3/2016 13:08",
+		"testUpTo3" : "JanKurs 9/3/2016 13:06",
+		"testNextAtEnd" : "JanKurs 9/3/2016 13:03",
+		"testParser" : "JanKurs 9/22/2016 20:46",
 		"testUncheckedNext" : "JanKurs 9/3/2016 13:04",
 		"testUncheckedPeek" : "JanKurs 9/3/2016 13:05",
-		"testUpTo" : "JanKurs 9/3/2016 13:05",
-		"testUpTo2" : "JanKurs 9/3/2016 13:06",
-		"testUpTo3" : "JanKurs 9/3/2016 13:06",
-		"testUpTo4" : "JanKurs 9/3/2016 13:06",
-		"testUpToEnd" : "JanKurs 9/3/2016 13:07" } }
+		"testUpTo2" : "JanKurs 9/3/2016 13:06"
+	},
+	"class" : { }
+}

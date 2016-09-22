@@ -2,7 +2,7 @@ test
 testPredicateAny
 	|  parser |
 	
-	parser := #any asParser2.
+	parser := #any asPParser.
 
 	self assert: parser parse: 'a' to: $a.
 	self assert: parser parse: Character null asString to: Character null.

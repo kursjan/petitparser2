@@ -1,7 +1,7 @@
 test
 testOptional
 	| parser |
-	parser := $a asParser2 optional.
+	parser := $a asPParser optional.
 	
 	self assert: parser parse: '' to: nil.
 	self assert: parser parse: 'a' to: $a.

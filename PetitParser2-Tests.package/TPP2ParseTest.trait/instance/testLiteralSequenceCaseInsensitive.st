@@ -1,7 +1,7 @@
 test
 testLiteralSequenceCaseInsensitive
 	| parser |
-	parser := 'abc' asParser2 caseInsensitive.
+	parser := 'abc' asPParser caseInsensitive.
 	
 	self assert: parser parse: 'abc' to: 'abc'.
 	self assert: parser parse: 'ABC' to: 'ABC'.

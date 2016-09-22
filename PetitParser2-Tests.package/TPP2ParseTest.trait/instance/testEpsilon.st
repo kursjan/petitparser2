@@ -1,7 +1,7 @@
 test
 testEpsilon
 	| parser |
-	parser := nil asParser2.
+	parser := nil asPParser.
 	
 	self assert: parser parse: '' to: nil.
 	

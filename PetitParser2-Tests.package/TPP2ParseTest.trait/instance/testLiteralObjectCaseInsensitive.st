@@ -1,7 +1,7 @@
 test
 testLiteralObjectCaseInsensitive
 	| parser |
-	parser := $a asParser2 caseInsensitive.
+	parser := $a asPParser caseInsensitive.
 	
 	self assert: parser parse: 'a' to: $a.
 	self assert: parser parse: 'A' to: $A.

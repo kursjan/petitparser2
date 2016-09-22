@@ -1,7 +1,7 @@
 test
 testMap
 	| parser |
-	parser := #any asParser2
+	parser := #any asPParser
 		map: [ :a | Array with: a ].
 
 	self assert: parser parse: 'a' to: #($a).

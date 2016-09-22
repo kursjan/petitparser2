@@ -1,7 +1,7 @@
 test
 testSequence2
 	| parser |
-	parser := ($a asParser2 , $b asParser2) star, $a asParser2.
+	parser := ($a asPParser , $b asPParser) star, $a asPParser.
 
 	self assert: parser parse: 'a' to: (Array with: OrderedCollection new with: $a).
 

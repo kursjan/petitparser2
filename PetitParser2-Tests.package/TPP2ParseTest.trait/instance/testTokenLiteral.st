@@ -1,7 +1,7 @@
 test
 testTokenLiteral
 	| parser |
-	parser := 'foo' asParser2 token.
+	parser := 'foo' asPParser token.
 
 	self assert: parser parse: 'foo' toTokenValue: 'foo'.
 		

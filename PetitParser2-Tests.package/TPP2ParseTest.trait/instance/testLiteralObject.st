@@ -1,7 +1,7 @@
 test
 testLiteralObject
 	| parser |
-	parser := $a asParser2.
+	parser := $a asPParser.
 	
 	self assert: parser literal equals: $a.
 	self assert: parser message equals: 'literal $a expected'.

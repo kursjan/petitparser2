@@ -1,7 +1,7 @@
 test
 testLiteralSequence
 	| parser |
-	parser := 'abc' asParser2.
+	parser := 'abc' asPParser.
 	
 	self assert: parser parse: 'abc' to: 'abc'.
 	self assert: parser parse: 'abcd' to: 'abc' end: 3.

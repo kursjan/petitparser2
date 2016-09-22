@@ -2,7 +2,7 @@ test
 testPredicateLetter
 	|  parser |
 	
-	parser := #letter asParser2.
+	parser := #letter asPParser.
 
 	self assert: parser parse: 'a' to: $a.
 	self assert: parser parse: 'b' to: $b.

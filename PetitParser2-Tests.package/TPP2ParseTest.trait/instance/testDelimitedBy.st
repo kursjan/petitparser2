@@ -1,7 +1,7 @@
 test - operators
 testDelimitedBy
 	| parser |
-	parser := $a asParser2 delimitedBy: $b asParser2.
+	parser := $a asPParser delimitedBy: $b asPParser.
 	
 	self assert: parser parse: 'a' to: #($a).
 	self assert: parser parse: 'aba' to: #($a $b $a).

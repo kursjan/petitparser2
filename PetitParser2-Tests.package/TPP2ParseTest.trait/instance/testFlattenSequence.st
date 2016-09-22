@@ -1,7 +1,7 @@
 test
 testFlattenSequence
 	| parser |
-	parser := ($a asParser2, $b asParser2) flatten.
+	parser := ($a asPParser, $b asPParser) flatten.
 	
 	self assert: parser parse: 'ab' to: 'ab'.
 	
