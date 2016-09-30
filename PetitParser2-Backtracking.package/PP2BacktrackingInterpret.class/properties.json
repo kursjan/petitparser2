@@ -1,14 +1,11 @@
 {
-	"category" : "PetitParser2-Backtracking-Interpretation",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "PP2BacktrackingInterpret",
-	"pools" : [
-		 ],
 	"super" : "PP2Interpret",
-	"type" : "normal" }
+	"category" : "PetitParser2-Backtracking-Interpretation",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PP2BacktrackingInterpret",
+	"type" : "normal"
+}
