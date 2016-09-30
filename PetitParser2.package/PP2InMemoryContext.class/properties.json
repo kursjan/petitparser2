@@ -1,9 +1,5 @@
 {
-	"commentStamp" : "",
-	"super" : "ReadStream",
-	"category" : "PetitParser2-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
+	"classtraitcomposition" : "TPP2Globals classTrait + TPP2Context classTrait",
 	"classvars" : [ ],
 	"instvars" : [
 		"parser",
@@ -11,5 +7,11 @@
 		"globals"
 	],
 	"name" : "PP2InMemoryContext",
-	"type" : "normal"
+	"commentStamp" : "",
+	"super" : "ReadStream",
+	"traitcomposition" : "TPP2Globals + TPP2Context",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "PetitParser2-Core"
 }

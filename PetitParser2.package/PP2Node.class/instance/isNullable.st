@@ -5,6 +5,6 @@ isNullable
 		
 		Use #acceptsEpsilon if it can accept epsilon, but it can fail as well.
 	"
-	^ self propertyAt: #isNullable ifAbsentPut: [ 
+	^ self propertyAt: #isNullable ifAbsent: [ 
 		PP2IsNullableVisitor new visit: self
 	]

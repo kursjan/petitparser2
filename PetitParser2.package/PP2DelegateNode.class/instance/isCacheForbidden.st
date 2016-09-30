@@ -1,4 +1,4 @@
-as yet unclassified
+optimizations - caching
 isCacheForbidden
 	self isJustDelegate ifFalse: [  
 		^ super isCacheForbidden 

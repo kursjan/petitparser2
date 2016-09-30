@@ -1,3 +1,3 @@
-as yet unclassified
+testing
 isDelegate
 	self class == PP2DelegateNode 

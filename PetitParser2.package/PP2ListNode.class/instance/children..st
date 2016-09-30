@@ -1,3 +1,3 @@
 accessing
-children: newChildren
-	^ children := newChildren
+children: aCollection
+	^ children := aCollection

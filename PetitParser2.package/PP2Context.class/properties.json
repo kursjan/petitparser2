@@ -1,9 +1,5 @@
 {
-	"commentStamp" : "JanKurs 9/3/2016 11:50",
-	"super" : "Object",
-	"category" : "PetitParser2-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
+	"classtraitcomposition" : "TPP2Globals classTrait + TPP2Context classTrait",
 	"classvars" : [ ],
 	"instvars" : [
 		"stream",
@@ -13,5 +9,11 @@
 		"globals"
 	],
 	"name" : "PP2Context",
-	"type" : "normal"
+	"commentStamp" : "JanKurs 9/3/2016 11:50",
+	"super" : "Object",
+	"traitcomposition" : "TPP2Globals + TPP2Context",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "PetitParser2-Core"
 }

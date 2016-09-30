@@ -1,0 +1,3 @@
+visiting
+visitEndOfInput: node
+	^ false

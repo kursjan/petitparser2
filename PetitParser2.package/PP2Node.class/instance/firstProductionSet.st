@@ -1,5 +1,5 @@
 analysis - first
 firstProductionSet
-	^ self propertyAt: #firstProductionSet ifAbsentPut: [
+	^ self propertyAt: #firstProductionSet ifAbsent: [
 		PP2FirstSetVisitor productionSet visit: self
 	]

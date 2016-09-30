@@ -2,6 +2,6 @@ accessing-globals
 globalAt: aKey ifAbsent: aBlock
 	"Answer the global property value associated with aKey or, if aKey isn't found, answer the result of evaluating aBlock."
 	
-	^ globals isNil
+	^ self globals isNil
 		ifTrue: [ aBlock value ]
-		ifFalse: [ globals at: aKey ifAbsent: aBlock ]
+		ifFalse: [ self globals at: aKey ifAbsent: aBlock ]
