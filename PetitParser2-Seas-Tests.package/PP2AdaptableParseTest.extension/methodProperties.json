@@ -1,0 +1,11 @@
+{
+	"instance" : {
+		"testWaterDefault" : "JanKurs 9/22/2016 21:44",
+		"testWaterRecursive" : "JanKurs 9/30/2016 17:18",
+		"testWaterRecursive2" : "JanKurs 9/30/2016 17:19",
+		"testWaterBoundary" : "JanKurs 9/22/2016 21:44",
+		"testNonEpsilon" : "JanKurs 9/22/2016 21:44",
+		"testSea" : "JanKurs 9/22/2016 21:44"
+	},
+	"class" : { }
+}

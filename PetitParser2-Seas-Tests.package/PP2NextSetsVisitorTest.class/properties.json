@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "PetitParser2-Seas-Tests-Analysis",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"parser",
+		"visitor",
+		"nextSet",
+		"eoi",
+		"nextParser"
+	],
+	"name" : "PP2NextSetsVisitorTest",
+	"type" : "normal"
+}

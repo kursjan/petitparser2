@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "PP2AbstractParserTest",
+	"category" : "PetitParser2-Seas-Tests-Integration",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"result"
+	],
+	"name" : "PP2SeaIntegrationTest",
+	"type" : "normal"
+}

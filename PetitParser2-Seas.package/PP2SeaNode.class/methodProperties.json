@@ -1,4 +1,23 @@
 {
-	"instance" : { },
-	"class" : { }
+	"instance" : {
+		"nonEpsilon:" : "JanKurs 9/22/2016 21:51",
+		"children" : "JanKurs 9/21/2016 20:56",
+		"island" : "JanKurs 9/21/2016 20:58",
+		"createAfterWater:" : "JanKurs 9/30/2016 22:29",
+		"waterToken:" : "JanKurs 9/22/2016 23:00",
+		"afterWater:" : "JanKurs 9/30/2016 19:00",
+		"beforeWater:" : "JanKurs 9/30/2016 19:01",
+		"initialize" : "JanKurs 9/22/2016 22:46",
+		"createBeforeWater:" : "JanKurs 9/22/2016 22:53",
+		"boundaryFrom:" : "JanKurs 9/22/2016 21:54",
+		"resetStrategy" : "JanKurs 9/21/2016 20:58",
+		"waterToken" : "JanKurs 9/22/2016 23:00",
+		"accept:" : "JanKurs 9/22/2016 22:08",
+		"setBeforeWater:" : "JanKurs 9/22/2016 22:47",
+		"island:" : "JanKurs 9/21/2016 20:58",
+		"setAfterWater:" : "JanKurs 9/22/2016 22:47"
+	},
+	"class" : {
+		"on:" : "JanKurs 9/22/2016 22:02"
+	}
 }
