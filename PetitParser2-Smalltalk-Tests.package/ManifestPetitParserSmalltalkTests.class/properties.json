@@ -1,14 +1,11 @@
 {
-	"category" : "PetitParser2-Smalltalk-Tests",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "<historical>",
-	"instvars" : [
-		 ],
-	"name" : "ManifestPetitParserSmalltalkTests",
-	"pools" : [
-		 ],
 	"super" : "PackageManifest",
-	"type" : "normal" }
+	"category" : "PetitParser2-Smalltalk-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ManifestPetitParserSmalltalkTests",
+	"type" : "normal"
+}
