@@ -1,4 +1,4 @@
-parsing
+parsing - adaptable
 parseAdaptableWithContext: context
 	| retval |
 	context parser: self.

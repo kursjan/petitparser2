@@ -1,4 +1,4 @@
-parsing
+parsing - adaptable
 parseAdaptable: input withContext: context
 	context stream: input asPetit2Stream.
 	context position: 0.

@@ -1,4 +1,4 @@
-operators-convenience
+operators - convenience
 separatedBy: aParser
 	"Answer a new parser that parses the receiver one or more times, separated by aParser."
 	

@@ -1,10 +1,9 @@
 {
 	"instance" : {
-		"testRepetitionReplace" : "JanKurs 10/5/2016 08:51",
-		"testTrimmingReplace" : "JanKurs 10/5/2016 09:03",
-		"testTrimmingTokenReplace" : "JanKurs 10/5/2016 09:04",
 		"testListReplace" : "JanKurs 10/5/2016 08:51",
-		"testDelegateReplace" : "JanKurs 10/5/2016 08:48"
+		"testTrimmingReplace" : "JanKurs 10/5/2016 09:03",
+		"testDelegateReplace" : "JanKurs 10/5/2016 08:48",
+		"testRepetitionReplace" : "JanKurs 10/5/2016 08:51"
 	},
 	"class" : { }
 }

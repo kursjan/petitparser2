@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testTrimmingReplace
 	| one trimmer trimming other otherTrimmer |
 

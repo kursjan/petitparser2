@@ -1,3 +1,3 @@
-parsing - private
+parsing - adaptable
 parseOn: context
 	^ strategy parseOn: context 

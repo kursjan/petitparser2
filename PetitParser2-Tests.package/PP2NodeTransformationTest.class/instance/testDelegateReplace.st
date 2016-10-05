@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testDelegateReplace
 	| one other delegate |
 	one := $a asPParser.

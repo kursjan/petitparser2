@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testRepetitionReplace
 	| one two otherone othertwo repetition |
 	one := $a asParser.

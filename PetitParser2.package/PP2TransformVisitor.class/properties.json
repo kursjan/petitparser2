@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "PP2NoopVisitor",
+	"category" : "PetitParser2-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"predicate",
+		"block",
+		"mapping"
+	],
+	"name" : "PP2TransformVisitor",
+	"type" : "normal"
+}

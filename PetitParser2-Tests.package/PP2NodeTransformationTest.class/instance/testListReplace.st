@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testListReplace
 	| one other another list |
 	one := $a asParser.
