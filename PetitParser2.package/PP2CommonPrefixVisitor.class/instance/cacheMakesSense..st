@@ -1,9 +1,11 @@
 support
-cacheMakesSense: node
-	| theNode |
-	theNode := node.
-	theNode class == PP2DelegateNode ifTrue: [ theNode := theNode child ].
+cacheMakesSense: production
+	| node target |
+	node := production isJustDelegate ifTrue: [ production child ] ifFalse: [ production ].
+
+	target := node.
 	"trimmers are already optimized, I care about the body"
-	theNode isTrimming ifTrue: [ theNode := theNode child ].
+	node isTrimming ifTrue: [ target := node child ].
+	node isTrimmingToken ifTrue: [ target := node child child ].
 	
-	^ (theNode propertyAt: #allNodesSize ifAbsentPut: [ theNode allNodes size ]) > 2
+	^ (target propertyAt: #allNodesSize ifAbsentPut: [ node allNodes size ]) > 2

@@ -22,8 +22,8 @@ newStartingAt: aSymbol
 				ifFalse: [ class startSymbol ]) 
 			dependencies: dependencies ].
 	parsers keysAndValuesDo: [ :class :parser |
-		parser parser: (parser perform: parser children first name).
+		parser child: (parser perform: parser children first name).
 		parser productionNames keysAndValuesDo: [ :key :value |
-			(parser instVarAt: key) parser: (parser perform: value) ] ].
+			(parser instVarAt: key) child: (parser perform: value) ] ].
 	
 	^ parsers at: self

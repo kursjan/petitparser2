@@ -3,7 +3,7 @@ visitSequence: sequence
 	| productions |
 
 	super visitSequence: sequence.
-	"First child never fails, i.e. it accepts epsilon?"
+	"First child is nullable, i.e. it cannot fail, the cache would be superfluous"
 	sequence firstChild isNullable ifFalse: [ ^ self ].
 
 	"so far only for the first two children"

@@ -4,6 +4,7 @@ testIdentifierTrimmingToken
 	
 	parser optimize.
 	
-	self assert: parser child strategy isKindOf: PP2SequenceOfTwoRecognizer.
-	self assert: parser child firstChild strategy isKindOf: PP2PredicateObjectRecognizer.
-	self assert: parser child secondChild strategy isKindOf: PP2StarPredicateObjectRecognizer.
+	self assert: parser strategy isKindOf: PP2TrimmingToken.
+	self assert: parser strategy tokenChild strategy isKindOf: PP2SequenceOfTwoRecognizer.
+	self assert: parser strategy tokenChild firstChild strategy isKindOf: PP2PredicateObjectRecognizer.
+	self assert: parser strategy tokenChild secondChild strategy isKindOf: PP2StarPredicateObjectRecognizer.

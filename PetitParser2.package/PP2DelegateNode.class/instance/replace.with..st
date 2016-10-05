@@ -1,3 +1,3 @@
 transforming
-replace: aParser with: anotherParser
-	child == aParser ifTrue: [ child := anotherParser ]
+replace: node with: anotherNode
+	child == node ifTrue: [ child := anotherNode ]

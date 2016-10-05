@@ -3,8 +3,8 @@ testCycle
 	parserOne := PP2DelegateNode new.
 	parserTwo := PP2DelegateNode new.
 	
-	parserOne parser: parserTwo.
-	parserTwo parser: parserOne.
+	parserOne child: parserTwo.
+	parserTwo child: parserOne.
 	
 	self deny:  parserOne == parserTwo.
 	self assert: parserOne equals: parserTwo.

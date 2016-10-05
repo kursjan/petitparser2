@@ -3,7 +3,7 @@ testVisitCycle
 	| delegate |
 	delegate := PP2DelegateNode new.
 	parser := delegate, delegate.
-	delegate parser: parser.
+	delegate child: parser.
 	
 	result := visitor visit: parser.
 	

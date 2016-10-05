@@ -4,17 +4,16 @@
 		"isJustDelegate" : "JanKurs 9/5/2016 16:56",
 		"isCacheForbidden" : "JanKurs 9/13/2016 09:16",
 		"children" : "JanKurs 9/3/2016 14:47",
-		"parser" : "JanKurs 9/3/2016 14:47",
 		"child" : "JanKurs 9/3/2016 14:47",
 		"changeChild:" : "JanKurs 9/6/2016 14:33",
 		"resetStrategy" : "JanKurs 9/15/2016 09:14",
+		"childSkipDelegate" : "JanKurs 10/5/2016 10:07",
 		"isDelegate" : "JanKurs 9/5/2016 16:50",
 		"parseOn:" : "JanKurs 9/6/2016 09:01",
-		"replace:with:" : "JanKurs 9/3/2016 14:47",
-		"accept:" : "JanKurs 9/1/2016 12:25:21",
-		"parser:" : "JanKurs 9/3/2016 14:47"
+		"replace:with:" : "JanKurs 10/5/2016 08:49",
+		"accept:" : "JanKurs 9/1/2016 12:25:21"
 	},
 	"class" : {
-		"on:" : "JanKurs 9/1/2016 12:25:21"
+		"on:" : "JanKurs 10/5/2016 08:52"
 	}
 }

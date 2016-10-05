@@ -1,16 +1,15 @@
 parsing
-parseOn: aPP2Context
+parseOn: context
 	| position retval start |
-	position := aPP2Context position.
-	node trimmer parseOn: aPP2Context.
+	position := context position.
+	trimmer parseOn: context.
 	
-	start := aPP2Context position.
-	(retval := node child parseOn: aPP2Context) isPetit2Failure ifTrue: [ 
-		aPP2Context position: position.
+	start := context position.
+	(retval := tokenChild parseOn: context) isPetit2Failure ifTrue: [ 
+		context position: position.
 		^ retval
 	].
-	retval := aPP2Context newToken: (node tokenClass) from: start.
-	
-	node trimmer parseOn: aPP2Context.
+	retval := context newToken: tokenClass from: start.
+	trimmer parseOn: context.
 
 	^ retval

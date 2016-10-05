@@ -8,6 +8,7 @@
 		"visitPossesiveRepeating:" : "JanKurs 9/1/2016 12:25:21",
 		"isMappingOfThree:" : "JanKurs 9/5/2016 10:04",
 		"visitSequence:" : "JanKurs 9/1/2016 12:25:21",
+		"visitTrimming:" : "JanKurs 10/5/2016 11:33",
 		"isStar:" : "JanKurs 9/1/2016 12:25:21",
 		"visitMapping:" : "JanKurs 9/5/2016 10:04",
 		"isNotPredicateObject:" : "JanKurs 9/5/2016 08:26",
@@ -15,11 +16,11 @@
 		"isPlus:" : "JanKurs 9/1/2016 12:25:21",
 		"isPlusPredicateObject:" : "JanKurs 9/5/2016 08:26",
 		"visitNot:" : "JanKurs 9/1/2016 17:24",
-		"visitTrimmingToken:" : "JanKurs 9/5/2016 16:52",
+		"isTrimmingToken:" : "JanKurs 10/5/2016 10:08",
 		"doPass:" : "JanKurs 9/1/2016 12:25:21",
 		"isOptionalCharacter:" : "JanKurs 9/5/2016 08:27",
 		"isAndPredicateObject:" : "JanKurs 9/5/2016 08:26",
-		"isTrimmingLiteralObjectToken:" : "JanKurs 9/5/2016 16:58",
+		"isTrimmingLiteralObjectToken:" : "JanKurs 10/5/2016 10:08",
 		"visitAnd:" : "JanKurs 9/1/2016 17:19"
 	},
 	"class" : { }

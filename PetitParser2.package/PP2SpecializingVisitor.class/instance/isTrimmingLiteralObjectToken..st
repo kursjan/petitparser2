@@ -1,8 +1,10 @@
 testing
 isTrimmingLiteralObjectToken: node 
-	| child |
-	self assert: (node isKindOf: PP2TrimmingTokenNode ).
-	child := node child.
-	child isJustDelegate ifTrue: [ child := child child ].
+	self assert: (node isKindOf: PP2TrimmingNode).
 	
-	^ (child isKindOf: PP2LiteralObjectNode) 
+	(node child isKindOf: PP2TokenNode) ifFalse: [ ^ false ].
+	^ (node child childSkipDelegate isKindOf: PP2LiteralObjectNode) 
+	
+	"
+		self new isTrimmingLiteralObjectToken: $a asPParser token trim.
+	"

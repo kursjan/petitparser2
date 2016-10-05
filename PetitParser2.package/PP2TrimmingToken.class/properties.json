@@ -5,7 +5,11 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"tokenClass",
+		"trimmer",
+		"tokenChild"
+	],
 	"name" : "PP2TrimmingToken",
 	"type" : "normal"
 }

@@ -1,6 +1,6 @@
 instance creation
-on: aParser block: aBlock
+on: node block: aBlock
 	^ self new
-		parser: aParser;
+		child: node;
 		block: aBlock;
 		yourself

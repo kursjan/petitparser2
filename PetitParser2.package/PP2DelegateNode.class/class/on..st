@@ -1,3 +1,3 @@
 as yet unclassified
-on: aParser
-	^ self new parser: aParser
+on: node
+	^ self new child: node

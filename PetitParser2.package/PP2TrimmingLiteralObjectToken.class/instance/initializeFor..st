@@ -1,10 +1,9 @@
 as yet unclassified
 initializeFor: aNode
+	| token |
 	super initializeFor: aNode.
 	
-	node child isJustDelegate ifTrue: [ 
-		literal := aNode child child literal
-	] ifFalse: [ 
-		literal := aNode child literal
-	].
+	token := aNode child.
+	literal := token childSkipDelegate literal.
+
 	failure := PP2Failure message: 'literal expected'

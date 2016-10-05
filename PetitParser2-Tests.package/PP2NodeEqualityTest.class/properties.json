@@ -9,6 +9,6 @@
 		"parserOne",
 		"parserTwo"
 	],
-	"name" : "PP2EqualityTest",
+	"name" : "PP2NodeEqualityTest",
 	"type" : "normal"
 }
