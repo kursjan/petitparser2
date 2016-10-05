@@ -9,6 +9,8 @@ baseline: spec
 		spec 
 			package: 'PetitParser2';
 			package: 'PetitParser2-Tests' with: [ spec requires: #('PetitParser2') ];
+			package: 'PetitParser2-Seas' with: [ spec requires: #('PetitParser2') ];
+			package: 'PetitParser2-Seas-Tests' with: [ spec requires: #('PetitParser2-Tests') ];
 			package: 'PetitParser2-Backtracking' with: [ spec requires: #('PetitParser2') ];
 			package: 'PetitParser2-Backtracking-Tests' with: [ spec requires: #('PetitParser2-Validation' 'PetitParser2-Tests') ];
 			package: 'PetitParser2-Validation' with: [ spec requires: #('PetitParser2') ];
@@ -44,6 +46,8 @@ baseline: spec
 		spec group: 'PetitParser2-Headless' with: #(	
 											'PetitParser2' 
 											'PetitParser2-Tests' 
+											'PetitParser2-Seas'
+											'PetitParser2-Seas-Tests'
 											'PetitParser2-Smalltalk' 
 											'PetitParser2-Smalltalk-Tests' 
 											'PetitParser2-Compatibility' 
@@ -59,8 +63,8 @@ baseline: spec
 	
 		spec group: 'Tests' with: #(
 											'PetitParser2-Tests'
+											'PetitParser2-Seas-Tests'
 											'PetitParser2-Smalltalk-Tests' 
 											'PetitParser2-Compatibility-Tests' 
 											'PetitParser2-Validation-Tests').
-	
 	] 
