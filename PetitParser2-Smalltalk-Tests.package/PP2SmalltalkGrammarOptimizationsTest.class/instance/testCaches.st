@@ -8,3 +8,9 @@ testCaches
 	].
 
 	self assert: cached size equals: 3.
+
+	self assert: cached anySatisfy: [:n | n name = #identifierToken].
+	self assert: cached anySatisfy: [:n | n name = #variable].
+		
+	self flag: 'JK: I would like to remove this case'.
+	self assert: cached anySatisfy: [:n | n name = #identifier].
