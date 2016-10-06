@@ -1,0 +1,10 @@
+{
+	"instance" : {
+		"testDelegate" : "JanKurs 9/14/2016 16:40",
+		"testDelegateExcludeSelf" : "JanKurs 9/14/2016 16:41",
+		"visit:" : "JanKurs 9/14/2016 16:38",
+		"assert:anySatisfy:" : "JanKurs 9/14/2016 16:40",
+		"testLiteralObject" : "JanKurs 9/14/2016 16:36"
+	},
+	"class" : { }
+}

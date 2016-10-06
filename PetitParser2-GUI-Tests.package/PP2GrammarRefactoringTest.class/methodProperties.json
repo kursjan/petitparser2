@@ -1,15 +1,16 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"change" : "lr 12/7/2011 22:14",
-		"changes" : "lr 12/7/2011 22:14",
 		"performRefactoring:" : "lr 12/7/2011 22:08",
-		"refactoring" : "lr 12/7/2011 22:09",
-		"testAddParser" : "JanKurs 9/15/2016 17:23",
 		"testAddParserWithSuperclass" : "JanKurs 9/15/2016 17:23",
-		"testDefineProduction" : "JanKurs 9/17/2016 23:35",
+		"testRenameProduction" : "JanKurs 9/17/2016 23:36",
 		"testExtractProduction" : "JanKurs 9/17/2016 23:36",
 		"testRemoveParser" : "JanKurs 9/16/2016 09:56",
+		"changes" : "lr 12/7/2011 22:14",
 		"testRemoveProduction" : "JanKurs 9/16/2016 09:56",
-		"testRenameProduction" : "JanKurs 9/17/2016 23:36" } }
+		"change" : "lr 12/7/2011 22:14",
+		"testDefineProduction" : "JanKurs 9/17/2016 23:35",
+		"refactoring" : "lr 12/7/2011 22:09",
+		"testAddParser" : "JanKurs 9/15/2016 17:23"
+	},
+	"class" : { }
+}

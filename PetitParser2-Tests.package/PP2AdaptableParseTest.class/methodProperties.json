@@ -1,6 +1,5 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"parse:withParser:withContext:" : "JanKurs 9/1/2016 12:25:21"
-	},
-	"class" : { }
-}
+		"parse:withParser:withContext:" : "JanKurs 9/1/2016 12:25:21" } }

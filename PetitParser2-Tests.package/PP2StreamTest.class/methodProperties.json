@@ -1,8 +1,7 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"testContents" : "JanKurs 9/4/2016 14:19",
+		"setUp" : "JanKurs 9/1/2016 12:25:21",
 		"streamOn:" : "JanKurs 9/3/2016 12:18",
-		"setUp" : "JanKurs 9/1/2016 12:25:21"
-	},
-	"class" : { }
-}
+		"testContents" : "JanKurs 9/4/2016 14:19" } }

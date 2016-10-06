@@ -1,8 +1,7 @@
 {
+	"class" : {
+		 },
 	"instance" : {
 		"context" : "JanKurs 9/1/2016 12:25:21",
-		"testPredicateDigit" : "JanKurs 9/17/2016 23:33",
-		"parse:withParser:withContext:" : "JanKurs 9/1/2016 12:25:21"
-	},
-	"class" : { }
-}
+		"parse:withParser:withContext:" : "JanKurs 9/1/2016 12:25:21",
+		"testPredicateDigit" : "JanKurs 9/17/2016 23:33" } }

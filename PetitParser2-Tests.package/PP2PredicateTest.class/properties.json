@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "PP2AbstractParserTest",
 	"category" : "PetitParser2-Tests-Nodes",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "PP2PredicateTest",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PP2AbstractParserTest",
+	"type" : "normal" }

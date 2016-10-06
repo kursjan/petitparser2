@@ -1,10 +1,9 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"testCopyFromTo" : "JanKurs 9/3/2016 12:15",
 		"testAtEnd" : "JanKurs 9/3/2016 12:15",
-		"testAtPositionReversedOrder" : "JanKurs 9/4/2016 14:34",
 		"testAtPosition" : "JanKurs 9/4/2016 14:33",
-		"testNewTokenFromTo" : "JanKurs 9/4/2016 14:35"
-	},
-	"class" : { }
-}
+		"testAtPositionReversedOrder" : "JanKurs 9/4/2016 14:34",
+		"testCopyFromTo" : "JanKurs 9/3/2016 12:15",
+		"testNewTokenFromTo" : "JanKurs 9/4/2016 14:35" } }

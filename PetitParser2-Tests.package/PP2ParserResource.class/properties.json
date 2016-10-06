@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "TestResource",
 	"category" : "PetitParser2-Tests-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
-		"parsers"
-	],
+		"parsers" ],
 	"name" : "PP2ParserResource",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "TestResource",
+	"type" : "normal" }

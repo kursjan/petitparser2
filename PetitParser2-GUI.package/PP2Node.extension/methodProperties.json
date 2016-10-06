@@ -1,14 +1,26 @@
 {
 	"instance" : {
-		"debug:withContext:" : "JanKurs 8/28/2016 22:26",
-		"gtWarningsIn:" : "JanKurs 9/15/2016 09:41",
-		"enableDebug" : "JanKurs 9/3/2016 17:29",
-		"gtProperties:" : "JanKurs 8/26/2016 10:08",
-		"debugAdaptableWithContext:" : "JanKurs 8/28/2016 22:26",
+		"morphicShapeSeen:depth:" : "JanKurs 9/14/2016 12:08",
+		"displayColor" : "JanKurs 9/14/2016 16:23",
 		"displayDetailedName" : "JanKurs 9/14/2016 16:23",
-		"gtTreeViewIn:" : "JanKurs 9/15/2016 10:55",
+		"morphicShapeSeen:depth:do:" : "JanKurs 9/14/2016 12:08",
+		"gtWarningsIn:" : "JanKurs 9/15/2016 09:41",
+		"newRowMorph" : "JanKurs 9/14/2016 12:09",
+		"morphicProduction" : "JanKurs 9/14/2016 12:08",
+		"enableDebug" : "JanKurs 9/3/2016 17:29",
+		"viewAllNamedParsersWithSelection:previewing:on:" : "JanKurs 9/14/2016 16:23",
+		"gtProperties:" : "JanKurs 8/26/2016 10:08",
+		"newColumnMorph" : "JanKurs 9/14/2016 12:09",
 		"debug:" : "JanKurs 8/28/2016 22:27",
-		"displayName" : "JanKurs 9/14/2016 16:23"
+		"gtTreeViewIn:" : "JanKurs 9/15/2016 10:55",
+		"debug:withContext:" : "JanKurs 8/28/2016 22:26",
+		"morphicShapeDefault" : "JanKurs 9/14/2016 12:08",
+		"debugAdaptableWithContext:" : "JanKurs 8/28/2016 22:26",
+		"namedChildren" : "JanKurs 9/14/2016 16:31",
+		"displayName" : "JanKurs 9/14/2016 16:23",
+		"namedNodes" : "JanKurs 9/14/2016 16:23",
+		"newSpacerMorph" : "JanKurs 9/14/2016 12:09",
+		"gtInspectorParserInspectorIn:" : "JanKurs 9/15/2016 17:34"
 	},
 	"class" : { }
 }

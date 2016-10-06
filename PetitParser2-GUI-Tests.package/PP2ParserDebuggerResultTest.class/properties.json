@@ -1,14 +1,11 @@
 {
-	"category" : "PetitParser2-GUI-Tests-Debug",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "PP2ParserDebuggerResultTest",
-	"pools" : [
-		 ],
 	"super" : "TestCase",
-	"type" : "normal" }
+	"category" : "PetitParser2-GUI-Tests-Debug",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PP2ParserDebuggerResultTest",
+	"type" : "normal"
+}

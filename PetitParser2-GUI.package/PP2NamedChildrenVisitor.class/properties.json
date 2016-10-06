@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "JanKurs 9/15/2016 13:17",
+	"super" : "PP2NoopVisitor",
+	"category" : "PetitParser2-GUI-Visitors",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PP2NamedChildrenVisitor",
+	"type" : "normal"
+}
