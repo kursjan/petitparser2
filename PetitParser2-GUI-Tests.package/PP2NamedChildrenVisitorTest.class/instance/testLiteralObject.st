@@ -1,6 +1,6 @@
 as yet unclassified
 testLiteralObject
-	parser := $a asParser2.
+	parser := $a asPParser.
 	
 	self visit: parser.
 	

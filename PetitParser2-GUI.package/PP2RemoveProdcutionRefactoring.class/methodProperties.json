@@ -1,11 +1,8 @@
 {
-	"instance" : {
-		"setProduction:" : "lr 12/7/2011 18:48",
-		"transform" : "lr 12/7/2011 20:18",
-		"preconditions" : "JanKurs 9/15/2016 17:25",
-		"setClass:" : "lr 12/18/2011 14:31"
-	},
 	"class" : {
-		"onClass:production:" : "lr 12/18/2011 14:34"
-	}
-}
+		"onClass:production:" : "lr 12/18/2011 14:34" },
+	"instance" : {
+		"preconditions" : "JanKurs 9/15/2016 17:25",
+		"setClass:" : "lr 12/18/2011 14:31",
+		"setProduction:" : "lr 12/7/2011 18:48",
+		"transform" : "lr 12/7/2011 20:18" } }

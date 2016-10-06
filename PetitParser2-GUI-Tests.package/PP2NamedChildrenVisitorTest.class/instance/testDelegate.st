@@ -1,6 +1,6 @@
 as yet unclassified
 testDelegate
-	named := 'foo' asParser2
+	named := 'foo' asPParser
 		name: 'foo';
 		yourself.
 		

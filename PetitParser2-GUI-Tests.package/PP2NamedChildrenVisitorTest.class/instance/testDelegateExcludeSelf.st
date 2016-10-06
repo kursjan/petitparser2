@@ -1,6 +1,6 @@
 as yet unclassified
 testDelegateExcludeSelf
-	named := 'foo' asParser2
+	named := 'foo' asPParser
 		name: 'foo';
 		yourself.
 		

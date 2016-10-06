@@ -1,7 +1,7 @@
-as yet unclassified
+visiting
 visitPP2Node: node
 	| retval |
-	(self isRoot or: [ node name isNil ]) ifFalse: [ 
+	(self isRoot not and: [ node name isNil not ]) ifTrue: [ 
 		^ IdentitySet with: node 
 	].
 
