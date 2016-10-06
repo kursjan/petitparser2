@@ -1,0 +1,14 @@
+{
+	"category" : "PetitParser2-Seas-Strategies",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"buffer" ],
+	"name" : "PP2MemoizedSea",
+	"pools" : [
+		 ],
+	"super" : "PP2WrappingStrategy",
+	"type" : "normal" }

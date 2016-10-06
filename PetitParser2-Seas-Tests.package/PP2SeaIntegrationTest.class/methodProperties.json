@@ -1,15 +1,7 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"testOverlappingSeas" : "JanKurs 10/4/2016 17:35",
-		"testNestedBlockSpace" : "JanKurs 10/4/2016 17:35",
-		"emptySea" : "JanKurs 10/4/2016 17:35",
-		"assert:parse:" : "JanKurs 10/4/2016 17:35",
-		"testNestedBlockDeepNested" : "JanKurs 10/4/2016 17:35",
-		"testNestedBlockNested" : "JanKurs 10/4/2016 17:35",
-		"nestedBlock" : "JanKurs 10/4/2016 17:35",
-		"seaInstance" : "JanKurs 10/4/2016 17:35",
-		"testNestedBlockEmpty" : "JanKurs 10/4/2016 17:35",
-		"parse:withParser:withContext:" : "JanKurs 10/4/2016 17:35"
-	},
-	"class" : { }
-}
+		"assert:parse:" : "JanKurs 9/30/2016 19:12",
+		"parse:withParser:withContext:" : "JanKurs 9/30/2016 17:34",
+		"result" : "JanKurs 10/5/2016 16:27" } }

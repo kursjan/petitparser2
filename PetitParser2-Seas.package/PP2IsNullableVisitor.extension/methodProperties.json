@@ -1,7 +1,7 @@
 {
+	"class" : {
+		 },
 	"instance" : {
+		"visitNonEpsilon:" : "JanKurs 9/26/2016 08:06",
 		"visitSea:" : "JanKurs 9/22/2016 22:52",
-		"visitNonEpsilon:" : "JanKurs 9/26/2016 08:06"
-	},
-	"class" : { }
-}
+		"visitWater:" : "JanKurs 10/6/2016 15:46" } }

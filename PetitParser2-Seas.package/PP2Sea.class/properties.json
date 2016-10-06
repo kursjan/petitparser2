@@ -1,11 +1,14 @@
 {
+	"category" : "PetitParser2-Seas-Strategies",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
 	"commentStamp" : "",
-	"super" : "PP2Strategy",
-	"category" : "PetitParser2-Seas-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		 ],
 	"name" : "PP2Sea",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PP2Strategy",
+	"type" : "normal" }

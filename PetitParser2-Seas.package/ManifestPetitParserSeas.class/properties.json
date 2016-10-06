@@ -1,0 +1,14 @@
+{
+	"category" : "PetitParser2-Seas",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "ManifestPetitParserSeas",
+	"pools" : [
+		 ],
+	"super" : "PackageManifest",
+	"type" : "normal" }

@@ -1,7 +1,8 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"sea" : "JanKurs 9/22/2016 22:03",
-		"nonEpsilon" : "JanKurs 9/22/2016 21:31"
-	},
-	"class" : { }
-}
+		"firstSeasOrTerminalsSet" : "JanKurs 10/6/2016 10:48",
+		"isSea" : "JanKurs 10/6/2016 10:23",
+		"nonEpsilon" : "JanKurs 9/22/2016 21:31",
+		"sea" : "JanKurs 9/22/2016 22:03" } }

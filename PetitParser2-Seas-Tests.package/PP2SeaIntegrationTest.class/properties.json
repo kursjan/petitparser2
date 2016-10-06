@@ -1,13 +1,16 @@
 {
-	"commentStamp" : "",
-	"super" : "PP2AbstractParserTest",
 	"category" : "PetitParser2-Seas-Tests-Integration",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TPP2SeaIntegrationTest classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
-		"result"
-	],
+		"result" ],
 	"name" : "PP2SeaIntegrationTest",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PP2AbstractParserTest",
+	"traitcomposition" : "TPP2SeaIntegrationTest",
+	"type" : "normal" }
