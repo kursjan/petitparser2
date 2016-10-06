@@ -1,6 +1,6 @@
-predicates creation
+predicates
 word
-	^ self new
+	^ PP2PredicateObjectNode new
 		predicate: (PP2CharSetPredicate on: [ :char | char isAlphaNumeric ]);
 		predicateMessage: 'letter or digit expected';
 		negated: (PP2CharSetPredicate on: [ :char | char isAlphaNumeric not ]);

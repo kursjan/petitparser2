@@ -1,7 +1,6 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"asPetit2Stream" : "JanKurs 9/1/2016 12:25:21",
-		"asPetit2Context" : "JanKurs 9/1/2016 22:44"
-	},
-	"class" : { }
-}
+		"asPetit2Context" : "JanKurs 9/1/2016 22:44",
+		"asPetit2Stream" : "JanKurs 9/1/2016 12:25:21" } }

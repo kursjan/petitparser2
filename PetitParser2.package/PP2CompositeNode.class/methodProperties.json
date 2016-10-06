@@ -1,23 +1,20 @@
 {
-	"instance" : {
-		"dependencyAt:" : "JanKurs 9/1/2016 12:25:21",
-		"initializeStartingAt:dependencies:" : "JanKurs 9/3/2016 14:47",
-		"productionAt:ifAbsent:" : "JanKurs 9/3/2016 14:47",
-		"isProduction" : "JanKurs 9/5/2016 13:52",
-		"productionNames" : "JanKurs 9/1/2016 12:25:21",
-		"productionAt:" : "JanKurs 9/1/2016 12:25:21",
-		"start" : "JanKurs 9/1/2016 12:25:21",
-		"accept:" : "JanKurs 9/5/2016 14:10"
-	},
 	"class" : {
 		"dependencies" : "JanKurs 9/1/2016 12:25:21",
+		"ignoredNames" : "JanKurs 9/5/2016 13:52",
 		"new" : "JanKurs 9/1/2016 12:25:21",
+		"newStartingAt:" : "JanKurs 10/5/2016 08:53",
+		"parse:" : "JanKurs 9/1/2016 12:25:21",
+		"parse:onError:" : "JanKurs 9/1/2016 12:25:21",
 		"parse:startingAt:" : "JanKurs 9/1/2016 12:25:21",
 		"parse:startingAt:onError:" : "JanKurs 9/1/2016 12:25:21",
-		"ignoredNames" : "JanKurs 9/5/2016 13:52",
-		"newStartingAt:" : "JanKurs 10/5/2016 08:53",
-		"parse:onError:" : "JanKurs 9/1/2016 12:25:21",
-		"startSymbol" : "JanKurs 9/1/2016 12:25:21",
-		"parse:" : "JanKurs 9/1/2016 12:25:21"
-	}
-}
+		"startSymbol" : "JanKurs 9/1/2016 12:25:21" },
+	"instance" : {
+		"accept:" : "JanKurs 9/5/2016 14:10",
+		"dependencyAt:" : "JanKurs 9/1/2016 12:25:21",
+		"initializeStartingAt:dependencies:" : "JanKurs 9/3/2016 14:47",
+		"isProduction" : "JanKurs 9/5/2016 13:52",
+		"productionAt:" : "JanKurs 9/1/2016 12:25:21",
+		"productionAt:ifAbsent:" : "JanKurs 9/3/2016 14:47",
+		"productionNames" : "JanKurs 9/1/2016 12:25:21",
+		"start" : "JanKurs 9/1/2016 12:25:21" } }

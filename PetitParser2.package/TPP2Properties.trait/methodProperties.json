@@ -1,14 +1,13 @@
 {
+	"class" : {
+		 },
 	"instance" : {
+		"hasProperty:" : "JanKurs 9/21/2016 14:12",
 		"properties" : "JanKurs 9/21/2016 14:12",
-		"removeProperty:ifAbsent:" : "JanKurs 9/21/2016 14:14",
-		"propertyAt:ifAbsentPut:" : "JanKurs 9/21/2016 14:13",
 		"properties:" : "JanKurs 9/21/2016 14:13",
 		"propertyAt:" : "JanKurs 9/21/2016 14:12",
 		"propertyAt:ifAbsent:" : "JanKurs 9/21/2016 14:13",
+		"propertyAt:ifAbsentPut:" : "JanKurs 9/21/2016 14:13",
 		"propertyAt:put:" : "JanKurs 9/21/2016 14:16",
 		"removeProperty:" : "JanKurs 9/21/2016 14:13",
-		"hasProperty:" : "JanKurs 9/21/2016 14:12"
-	},
-	"class" : { }
-}
+		"removeProperty:ifAbsent:" : "JanKurs 9/21/2016 14:14" } }

@@ -7,7 +7,7 @@ parseAdaptableWithContext: context
 	retval := self parseOn: context.
 
 	^ retval isPetit2Success ifTrue: [ 
-		context retval: retval 
+		context returnValue: retval 
 	] ifFalse: [ 
 		retval 
 			root: context parser;

@@ -1,4 +1,4 @@
 visiting
-visitFailing: aPP2Parser
-	^ self visitPP2Node: aPP2Parser
+visitFailing: node
+	^ self visitPP2Node: node
 	

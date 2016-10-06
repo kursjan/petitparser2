@@ -4,5 +4,5 @@ parseWithContext: startContext
 	currentContext := startContext.
 	retval := self visit: rootParser.
 	
-	^ retval isPetit2Failure ifTrue: [ retval ] ifFalse: [ currentContext retval: retval; yourself ]
+	^ retval isPetit2Failure ifTrue: [ retval ] ifFalse: [ currentContext returnValue: retval; yourself ]
 		

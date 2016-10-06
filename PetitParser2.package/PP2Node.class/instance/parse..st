@@ -1,3 +1,3 @@
 parsing
 parse: input
-	^ self parseAdaptable: input
+	^ (self parseContext: input) returnValue

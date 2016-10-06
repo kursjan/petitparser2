@@ -1,6 +1,6 @@
-predicates creation
+predicates
 any
-	^ self new
+	^ PP2PredicateObjectNode new
 		predicate: [ :each | true ];
 		predicateMessage: 'input expected';
 		negated: [ :each | false ];

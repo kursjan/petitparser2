@@ -1,20 +1,18 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"visitOptional:" : "JanKurs 9/6/2016 08:51",
-		"visitTrimmingToken:" : "JanKurs 9/2/2016 23:04",
 		"classificationFor:" : "JanKurs 9/2/2016 22:40",
 		"doPass:" : "JanKurs 9/1/2016 12:25:21",
-		"visitUnguarded:" : "JanKurs 9/2/2016 21:25",
-		"visitDelegate:" : "JanKurs 9/6/2016 07:48",
+		"guardOf:makesSenseFor:" : "JanKurs 9/13/2016 17:04",
 		"initialize" : "JanKurs 9/2/2016 21:21",
 		"isGuarded" : "JanKurs 9/2/2016 21:13",
-		"visit:guardedWith:" : "JanKurs 9/2/2016 21:14",
-		"visitSequence:" : "JanKurs 9/2/2016 21:26",
-		"guardOf:makesSenseFor:" : "JanKurs 9/13/2016 17:04",
-		"visitChoice:" : "JanKurs 9/6/2016 07:48",
-		"visitTrimming:" : "JanKurs 9/2/2016 23:02",
 		"isWellGuarded:" : "JanKurs 9/2/2016 22:54",
-		"visitPossesiveRepeating:" : "JanKurs 9/6/2016 11:38"
-	},
-	"class" : { }
-}
+		"visit:guardedWith:" : "JanKurs 9/2/2016 21:14",
+		"visitChoice:" : "JanKurs 9/6/2016 07:48",
+		"visitDelegate:" : "JanKurs 9/6/2016 07:48",
+		"visitOptional:" : "JanKurs 9/6/2016 08:51",
+		"visitPossesiveRepeating:" : "JanKurs 9/6/2016 11:38",
+		"visitSequence:" : "JanKurs 9/2/2016 21:26",
+		"visitTrimming:" : "JanKurs 9/2/2016 23:02",
+		"visitUnguarded:" : "JanKurs 9/2/2016 21:25" } }

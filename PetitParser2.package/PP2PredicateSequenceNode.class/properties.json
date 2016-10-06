@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "PP2PredicateNode",
 	"category" : "PetitParser2-Nodes",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
-		"size"
-	],
+		"size" ],
 	"name" : "PP2PredicateSequenceNode",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PP2PredicateNode",
+	"type" : "normal" }

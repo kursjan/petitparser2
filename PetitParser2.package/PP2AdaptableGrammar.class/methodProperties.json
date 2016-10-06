@@ -1,10 +1,9 @@
 {
+	"class" : {
+		 },
 	"instance" : {
 		"body" : "JanKurs 9/3/2016 14:40",
-		"element" : "JanKurs 9/3/2016 17:08",
 		"content" : "JanKurs 9/3/2016 17:08",
+		"element" : "JanKurs 9/3/2016 17:08",
 		"head" : "JanKurs 9/17/2016 23:33",
-		"start" : "JanKurs 9/3/2016 14:45"
-	},
-	"class" : { }
-}
+		"start" : "JanKurs 9/3/2016 14:45" } }

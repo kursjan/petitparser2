@@ -1,15 +1,16 @@
 {
-	"commentStamp" : "",
-	"super" : "PP2WrappingStrategy",
 	"category" : "PetitParser2-Strategies",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"position",
 		"retval",
-		"endPosition"
-	],
+		"endPosition" ],
 	"name" : "PP2Cache",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PP2WrappingStrategy",
+	"type" : "normal" }

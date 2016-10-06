@@ -1,4 +1,6 @@
 {
-	"instance" : { },
-	"class" : { }
-}
+	"class" : {
+		 },
+	"instance" : {
+		"returnValue" : "JanKurs 10/5/2016 17:08",
+		"returnValue:" : "JanKurs 10/5/2016 17:08" } }

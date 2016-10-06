@@ -1,20 +1,17 @@
 {
-	"instance" : {
-		"asPetit2Stream" : "JanKurs 9/1/2016 12:25:21",
-		"atEnd:" : "JanKurs 9/1/2016 12:25:21",
-		"copyFrom:to:" : "JanKurs 9/1/2016 12:25:21",
-		"printOn:position:" : "JanKurs 9/12/2016 16:39",
-		"asPetit2Context" : "JanKurs 9/1/2016 12:25:21",
-		"collection:" : "JanKurs 9/1/2016 12:25:21",
-		"initialize" : "JanKurs 9/3/2016 11:49",
-		"newToken:from:to:" : "JanKurs 9/1/2016 12:25:21",
-		"reset" : "JanKurs 9/4/2016 14:27",
-		"collection" : "JanKurs 9/1/2016 12:25:21",
-		"atPosition:" : "JanKurs 9/1/2016 12:25:21",
-		"contents" : "JanKurs 9/1/2016 12:25:21"
-	},
 	"class" : {
 		"new" : "JanKurs 9/1/2016 12:25:21",
-		"on:" : "JanKurs 9/1/2016 12:25:21"
-	}
-}
+		"on:" : "JanKurs 9/1/2016 12:25:21" },
+	"instance" : {
+		"asPetit2Context" : "JanKurs 9/1/2016 12:25:21",
+		"asPetit2Stream" : "JanKurs 9/1/2016 12:25:21",
+		"atEnd:" : "JanKurs 9/1/2016 12:25:21",
+		"atPosition:" : "JanKurs 9/1/2016 12:25:21",
+		"collection" : "JanKurs 9/1/2016 12:25:21",
+		"collection:" : "JanKurs 9/1/2016 12:25:21",
+		"contents" : "JanKurs 9/1/2016 12:25:21",
+		"copyFrom:to:" : "JanKurs 9/1/2016 12:25:21",
+		"initialize" : "JanKurs 9/3/2016 11:49",
+		"newToken:from:to:" : "JanKurs 9/1/2016 12:25:21",
+		"printOn:position:" : "JanKurs 9/12/2016 16:39",
+		"reset" : "JanKurs 9/4/2016 14:27" } }

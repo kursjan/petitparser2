@@ -1,11 +1,10 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"min" : "JanKurs 9/1/2016 12:25:21",
+		"accept:" : "JanKurs 9/1/2016 12:25:21",
 		"initialize" : "JanKurs 9/1/2016 12:25:21",
 		"max" : "JanKurs 9/1/2016 12:25:21",
-		"min:" : "JanKurs 9/1/2016 12:25:21",
 		"max:" : "JanKurs 9/1/2016 12:25:21",
-		"accept:" : "JanKurs 9/1/2016 12:25:21"
-	},
-	"class" : { }
-}
+		"min" : "JanKurs 9/1/2016 12:25:21",
+		"min:" : "JanKurs 9/1/2016 12:25:21" } }

@@ -1,0 +1,15 @@
+{
+	"category" : "PetitParser2-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"returnValue",
+		"contextMemento" ],
+	"name" : "PP2Memento",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

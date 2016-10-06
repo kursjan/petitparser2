@@ -1,16 +1,17 @@
 {
-	"commentStamp" : "JanKurs 9/3/2016 12:08",
-	"super" : "Object",
 	"category" : "PetitParser2-Streams",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JanKurs 9/3/2016 12:08",
 	"instvars" : [
 		"stream",
 		"buffer",
 		"bufferSize",
-		"position"
-	],
+		"position" ],
 	"name" : "PP2BufferStream",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

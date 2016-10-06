@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "PP2RepeatingNode",
 	"category" : "PetitParser2-Nodes",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "PP2PossesiveRepeatingNode",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PP2RepeatingNode",
+	"type" : "normal" }

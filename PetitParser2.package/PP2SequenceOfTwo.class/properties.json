@@ -1,14 +1,15 @@
 {
-	"commentStamp" : "",
-	"super" : "PP2Sequence",
 	"category" : "PetitParser2-Strategies",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"firstChild",
-		"secondChild"
-	],
+		"secondChild" ],
 	"name" : "PP2SequenceOfTwo",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PP2Sequence",
+	"type" : "normal" }

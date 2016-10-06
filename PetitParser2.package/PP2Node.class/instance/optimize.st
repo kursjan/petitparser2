@@ -2,6 +2,8 @@ optimizations
 optimize
 	self isOptimized ifTrue: [ ^ self ].
 	
+	PP2SeaOptimizationVisitor new doPass: self.
+	
 	PP2SpecializingVisitor new doPass: self.
 
 	PP2ParentAnalysisVisitor new doPass: self.

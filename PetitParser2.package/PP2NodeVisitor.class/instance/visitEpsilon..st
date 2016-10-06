@@ -1,4 +1,4 @@
 visiting
-visitEpsilon: aPP2Parser
-	^ self visitPP2Node: aPP2Parser
+visitEpsilon: node
+	^ self visitPP2Node: node
 	

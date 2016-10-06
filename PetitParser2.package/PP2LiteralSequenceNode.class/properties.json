@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "PP2LiteralNode",
 	"category" : "PetitParser2-Nodes",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "PP2LiteralSequenceNode",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PP2LiteralNode",
+	"type" : "normal" }
