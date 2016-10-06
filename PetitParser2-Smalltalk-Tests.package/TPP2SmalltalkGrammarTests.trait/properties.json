@@ -1,5 +1,4 @@
 {
-	"name" : "TPP2SmalltalkGrammarTests",
+	"category" : "PetitParser2-Smalltalk-Tests-Core",
 	"commentStamp" : "",
-	"category" : "PetitParser2-Smalltalk-Tests-Core"
-}
+	"name" : "TPP2SmalltalkGrammarTests" }

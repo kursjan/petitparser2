@@ -1,8 +1,7 @@
 {
+	"class" : {
+		 },
 	"instance" : {
 		"context" : "JanKurs 8/31/2016 13:08",
 		"parserInstance" : "JanKurs 9/17/2016 22:08",
-		"testOptimized" : "JanKurs 9/3/2016 13:32"
-	},
-	"class" : { }
-}
+		"testOptimized" : "JanKurs 9/3/2016 13:32" } }
