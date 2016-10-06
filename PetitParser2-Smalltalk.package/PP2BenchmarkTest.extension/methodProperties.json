@@ -1,10 +1,9 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"testSmalltalkParserNoOpt" : "JanKurs 9/5/2016 08:22",
-		"testSmalltalkGrammarIM" : "JanKurs 8/28/2016 14:50",
 		"testSmalltalkGrammar" : "JanKurs 9/5/2016 08:22",
+		"testSmalltalkGrammarIM" : "JanKurs 8/28/2016 14:50",
+		"testSmalltalkGrammarNoOpt" : "JanKurs 9/5/2016 08:22",
 		"testSmalltalkParser" : "JanKurs 9/5/2016 08:36",
-		"testSmalltalkGrammarNoOpt" : "JanKurs 9/5/2016 08:22"
-	},
-	"class" : { }
-}
+		"testSmalltalkParserNoOpt" : "JanKurs 9/5/2016 08:22" } }

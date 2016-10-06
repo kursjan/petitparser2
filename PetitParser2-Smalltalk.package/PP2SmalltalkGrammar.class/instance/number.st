@@ -5,7 +5,7 @@ number
 			stream := context asPositionableStream.
 		  	retval := (NumberParser on: stream) nextNumber.
 			(context setPosition: stream position)
-				retval: retval;
+				returnValue: retval;
 				yourself
 		] on: Error do: [ :err | context failure: err messageText ] 
 	] asPParser
