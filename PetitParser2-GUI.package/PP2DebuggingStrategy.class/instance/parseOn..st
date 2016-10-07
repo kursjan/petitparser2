@@ -3,7 +3,7 @@ parseOn: context
 	| parentDebugResult debugResult result |
 	parentDebugResult := context debugResult.
 	
-	debugResult := PP2ParserDebuggerResult new
+	debugResult := PP2DebugResult new
 		parser: self node;
 		start: context position + 1;
 		parent: parentDebugResult;

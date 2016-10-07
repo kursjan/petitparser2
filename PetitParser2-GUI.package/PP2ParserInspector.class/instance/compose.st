@@ -26,7 +26,7 @@ compose
 				to: #sample port: #selectionInterval;
 				transformed: [ :debugResultOrAnything | 
 					"Please forgive me: Or better, teach me, how to transmit selection from treeView to #debugResult port"
-					(debugResultOrAnything isKindOf: PP2ParserDebuggerResult) ifTrue: [ 
+					(debugResultOrAnything isKindOf: PP2DebugResult) ifTrue: [ 
 						debugResultOrAnything startStopInterval ] 
 				]
 		]

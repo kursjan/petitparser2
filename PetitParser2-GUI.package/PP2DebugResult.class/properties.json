@@ -14,7 +14,7 @@
 		"stop",
 		"context",
 		"allChildren" ],
-	"name" : "PP2ParserDebuggerResult",
+	"name" : "PP2DebugResult",
 	"pools" : [
 		 ],
 	"super" : "Object",

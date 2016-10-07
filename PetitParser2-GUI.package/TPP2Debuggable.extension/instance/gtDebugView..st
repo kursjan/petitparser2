@@ -4,7 +4,7 @@ gtDebugView: composite
 
 	| browser |
 	"JK: is there a better way how not to show the presentation?"
-	(self hasGlobal: #debugResult) ifFalse: [ ^ self ].
+	(self hasDebugResult) ifFalse: [ ^ self ].
 	
 	browser := 
 		composite tabulator.

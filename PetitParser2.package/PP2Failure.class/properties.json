@@ -2,6 +2,7 @@
 	"category" : "PetitParser2-Core",
 	"classinstvars" : [
 		 ],
+	"classtraitcomposition" : "TPP2Debuggable classTrait",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -15,4 +16,5 @@
 	"pools" : [
 		 ],
 	"super" : "Object",
+	"traitcomposition" : "TPP2Debuggable",
 	"type" : "normal" }

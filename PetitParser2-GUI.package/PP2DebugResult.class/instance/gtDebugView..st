@@ -14,9 +14,7 @@ gtDebugView: composite
 		from: #tree;
 		to: #source port: #selectionInterval;
 		transformed: [:debuggingResult | 
-			(debuggingResult isNil or: [ debuggingResult start isNil or: [ debuggingResult end isNil ] ])
-			ifTrue: [ 1 to: 0 ]
-			ifFalse: [debuggingResult start to: debuggingResult end]
+			debuggingResult startStopInterval
 		].
 
 	browser transmit

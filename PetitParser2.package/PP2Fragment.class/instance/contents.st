@@ -1,0 +1,3 @@
+accessing
+contents
+	^ stream contents

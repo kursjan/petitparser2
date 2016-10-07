@@ -1,7 +1,7 @@
 profiling
-switchToProfiling: strategy parent: parent
+switchToProfiling: strategy parent: nodeOrStrategy
 	| profilingStrategy |
 	profilingStrategy := strategy profiling.
 	
 	profilingStrategy == strategy ifTrue: [ ^ self ].
-	parent changeStrategy: profilingStrategy.
+	nodeOrStrategy changeStrategy: profilingStrategy.
