@@ -1,0 +1,14 @@
+{
+	"category" : "PetitParser2-Optimizations",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"rootNode" ],
+	"name" : "PP2SeaOptimizationVisitor",
+	"pools" : [
+		 ],
+	"super" : "PP2NoopVisitor",
+	"type" : "normal" }

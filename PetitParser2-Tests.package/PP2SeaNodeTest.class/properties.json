@@ -1,0 +1,16 @@
+{
+	"category" : "PetitParser2-Tests-Nodes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"context",
+		"parser",
+		"sea" ],
+	"name" : "PP2SeaNodeTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

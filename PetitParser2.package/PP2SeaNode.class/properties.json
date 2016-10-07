@@ -1,0 +1,16 @@
+{
+	"category" : "PetitParser2-Nodes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"island",
+		"beforeWater",
+		"afterWater" ],
+	"name" : "PP2SeaNode",
+	"pools" : [
+		 ],
+	"super" : "PP2Node",
+	"type" : "normal" }

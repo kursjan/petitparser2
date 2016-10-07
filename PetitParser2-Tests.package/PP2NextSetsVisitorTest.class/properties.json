@@ -1,0 +1,18 @@
+{
+	"category" : "PetitParser2-Tests-Analysis",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"parser",
+		"visitor",
+		"nextSet",
+		"eoi",
+		"nextParser" ],
+	"name" : "PP2NextSetsVisitorTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

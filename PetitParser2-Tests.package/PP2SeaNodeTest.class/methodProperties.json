@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assert:includes:" : "JanKurs 9/22/2016 23:02",
+		"assert:isKindOf:" : "JanKurs 9/22/2016 22:01",
+		"assert:noneSatisfy:" : "JanKurs 9/22/2016 23:22",
+		"testAfterWater" : "JanKurs 9/30/2016 19:06",
+		"testBeforeWater" : "JanKurs 9/30/2016 19:06",
+		"testChildren" : "JanKurs 9/26/2016 08:17",
+		"testCreateAfterWater" : "JanKurs 9/30/2016 22:28",
+		"testCreateBeforeWater" : "JanKurs 9/30/2016 22:28",
+		"testNonNullableIsland" : "JanKurs 9/26/2016 08:11" } }

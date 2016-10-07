@@ -1,0 +1,15 @@
+{
+	"category" : "PetitParser2-Tests-Optimizations",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"sea",
+		"parser" ],
+	"name" : "PP2SeaOptimizationVisitorTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

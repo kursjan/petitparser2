@@ -1,0 +1,14 @@
+{
+	"category" : "PetitParser2-Tests-Nodes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PP2WaterNodeTest",
+	"pools" : [
+		 ],
+	"super" : "PP2AbstractParserTest",
+	"type" : "normal" }
