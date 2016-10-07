@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 returnValue: anObject
 	self explicitRequirement

@@ -1,3 +1,0 @@
-accessing
-rootNode
-	^ rootNode
