@@ -1,3 +1,3 @@
 requirements
-returnValue: anObject
+position
 	self explicitRequirement

@@ -10,7 +10,7 @@ parseAdaptableWithContext: context
 		context returnValue: retval 
 	] ifFalse: [ 
 		retval 
-			root: context parser;
+			parser: context parser;
 			input: (context contents);
 			yourself 
 	]

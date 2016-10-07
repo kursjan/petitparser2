@@ -1,6 +1,8 @@
 {
 	"class" : {
+		"ruleRBEquivalentSuperclassMethodsRuleV1FalsePositive" : "JanKurs 10/7/2016 18:25",
 		"ruleRBIfTrueReturnsRuleV1FalsePositive" : "JanKurs 9/13/2016 08:51",
+		"ruleRBInconsistentMethodClassificationRuleV1FalsePositive" : "JanKurs 10/7/2016 18:25",
 		"ruleRBTemporaryVariableCapitalizationRuleV1FalsePositive" : "JanKurs 9/3/2016 17:12" },
 	"instance" : {
 		 } }

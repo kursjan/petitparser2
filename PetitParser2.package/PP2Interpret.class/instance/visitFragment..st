@@ -1,11 +1,11 @@
 visiting
 visitFragment: parser
 	| start retval |
-	start := currentContext position.
+	start := currentContext remember.
 	(retval := self visit: parser child) isPetit2Failure ifTrue: [ ^ retval ].
 
-	^ PP2Fragment new
-		parsedValue: retval;
-		start: start;
-		stop: currentContext position;
+	^ currentContext copy 
+		returnValue: retval;
+		startMemento: start;
+		parser: parser;
 		yourself

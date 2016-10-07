@@ -3,6 +3,8 @@ parseAdaptable: input withContext: context
 	context stream: input asPetit2Stream.
 	context position: 0.
 	context parser: self.
+
+	context startMemento: context remember.
 	
 	^ self parseAdaptableWithContext: context
 	

@@ -9,9 +9,9 @@
 	"instvars" : [
 		"position",
 		"message",
-		"root",
 		"input",
-		"debugResult" ],
+		"debugResult",
+		"parser" ],
 	"name" : "PP2Failure",
 	"pools" : [
 		 ],
