@@ -1,3 +1,3 @@
 *PetitParser2-GUI
-debugResult: anObject
+currentDebugResult: anObject
 	self globalAt: #debugResult put: anObject 

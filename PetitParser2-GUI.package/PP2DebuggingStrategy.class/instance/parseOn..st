@@ -1,7 +1,7 @@
 parsing
 parseOn: context
 	| parentDebugResult debugResult result |
-	parentDebugResult := context debugResult.
+	parentDebugResult := context currentDebugResult.
 	
 	debugResult := PP2DebugResult new
 		parser: self node;
@@ -11,9 +11,9 @@ parseOn: context
 	
 	parentDebugResult children add: debugResult.
 		
-	context debugResult: debugResult.
+	context currentDebugResult: debugResult.
 	result := strategy parseOn: context.
-	context debugResult: parentDebugResult.
+	context currentDebugResult: parentDebugResult.
 	
 	debugResult 
 		stop: context position;

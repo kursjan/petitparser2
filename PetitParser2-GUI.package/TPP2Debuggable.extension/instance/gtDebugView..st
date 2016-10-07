@@ -3,8 +3,6 @@ gtDebugView: composite
 	<gtInspectorPresentationOrder: 40>
 
 	| browser |
-	"JK: is there a better way how not to show the presentation?"
-	(self hasDebugResult) ifFalse: [ ^ self ].
 	
 	browser := 
 		composite tabulator.

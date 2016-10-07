@@ -8,4 +8,4 @@ testDebugResultNoDebug
 	
 	self assert: resultContext returnValue isPetit2Success.
 	self assert: context debugResult isNil not.
-	self assert: context debugResult children isEmpty.
+	self assert: context debugResult children size equals: 1.
