@@ -1,11 +1,14 @@
 {
-	"class" : {
-		"name:category:" : "JanKurs 9/14/2016 12:34",
-		"name:category:superclass:" : "lr 12/18/2011 15:06" },
 	"instance" : {
-		"preconditions" : "JanKurs 9/15/2016 17:25",
-		"setCategory:" : "lr 12/18/2011 15:14",
 		"setName:" : "lr 12/18/2011 14:59",
+		"setCategory:" : "lr 12/18/2011 15:14",
 		"setSuperclass:" : "lr 12/18/2011 14:59",
 		"startProductionSource" : "lr 12/18/2011 15:11",
-		"transform" : "lr 12/18/2011 15:08" } }
+		"transform" : "lr 12/18/2011 15:08",
+		"preconditions" : "JanKurs 9/15/2016 17:25"
+	},
+	"class" : {
+		"name:category:" : "JanKurs 9/14/2016 12:34",
+		"name:category:superclass:" : "lr 12/18/2011 15:06"
+	}
+}

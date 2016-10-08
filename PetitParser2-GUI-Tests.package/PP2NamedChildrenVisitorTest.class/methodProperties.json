@@ -1,9 +1,10 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"assert:anySatisfy:" : "JanKurs 9/14/2016 16:40",
 		"testDelegate" : "JanKurs 10/6/2016 14:38",
 		"testDelegateExcludeSelf" : "JanKurs 10/6/2016 14:38",
-		"testLiteralObject" : "JanKurs 10/6/2016 14:38",
-		"visit:" : "JanKurs 9/14/2016 16:38" } }
+		"visit:" : "JanKurs 9/14/2016 16:38",
+		"assert:anySatisfy:" : "JanKurs 9/14/2016 16:40",
+		"testLiteralObject" : "JanKurs 10/6/2016 14:38"
+	},
+	"class" : { }
+}

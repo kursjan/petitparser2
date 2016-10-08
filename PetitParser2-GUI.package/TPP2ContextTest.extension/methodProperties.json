@@ -1,5 +1,6 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"testDebugResult" : "JanKurs 10/7/2016 18:40" } }
+		"testDebugResult" : "JanKurs 10/7/2016 18:40"
+	},
+	"class" : { }
+}

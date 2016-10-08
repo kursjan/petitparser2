@@ -1,9 +1,10 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"contextOn:" : "JanKurs 9/4/2016 20:54",
-		"testDebugResult" : "JanKurs 10/6/2016 16:53",
-		"testDebugResultNoDebug" : "JanKurs 10/7/2016 18:53",
 		"testParser" : "JanKurs 9/17/2016 23:33",
-		"testParserRefreshCache" : "JanKurs 9/17/2016 23:33" } }
+		"contextOn:" : "JanKurs 9/4/2016 20:54",
+		"testDebugResultNoDebug" : "JanKurs 10/7/2016 18:53",
+		"testDebugResult" : "JanKurs 10/6/2016 16:53",
+		"testParserRefreshCache" : "JanKurs 9/17/2016 23:33"
+	},
+	"class" : { }
+}

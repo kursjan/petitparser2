@@ -1,17 +1,16 @@
 {
-	"category" : "PetitParser2-GUI-Refactoring",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "RBRefactoring",
+	"category" : "PetitParser2-GUI-Refactoring",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"class",
 		"source",
 		"protocols",
-		"method" ],
+		"method"
+	],
 	"name" : "PP2DefineProdcutionRefactoring",
-	"pools" : [
-		 ],
-	"super" : "RBRefactoring",
-	"type" : "normal" }
+	"type" : "normal"
+}

@@ -1,6 +1,8 @@
 building
 compose
-	"self new openOn: PPArithmeticParser new"
+	"
+	self new openOn: PP2ExpressionParser new
+	"
 
 	self title: [ :each | 'Parser Inspector on ' , (each name ifNil: [ each class name ]) ].
 	self tabulator

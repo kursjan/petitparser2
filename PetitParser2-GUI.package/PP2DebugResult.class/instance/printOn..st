@@ -7,7 +7,7 @@ printOn: aStream
 		nextPutAll: self parser withoutDebugStrategy displayName;	"first one is the debugging one, skip it"
 		nextPutAll: ']';
 		nextPutAll: '(';
-		nextPutAll: self allChildren size asString;
+		nextPutAll: self allResults size asString;
 "		nextPutAll: ':';
 		nextPutAll: self events size asString;
 "		nextPutAll: ')';

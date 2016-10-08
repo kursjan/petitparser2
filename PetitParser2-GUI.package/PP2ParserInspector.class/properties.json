@@ -1,14 +1,11 @@
 {
-	"category" : "PetitParser2-GUI-Browser",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "TudorGirba 12/3/2011 17:25",
-	"instvars" : [
-		 ],
-	"name" : "PP2ParserInspector",
-	"pools" : [
-		 ],
 	"super" : "GLMCompositePresentation",
-	"type" : "normal" }
+	"category" : "PetitParser2-GUI-Browser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PP2ParserInspector",
+	"type" : "normal"
+}
