@@ -1,10 +1,11 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"asPetit2Stream" : "JanKurs 9/4/2016 13:21",
 		"atEnd" : "JanKurs 9/4/2016 19:38",
 		"close" : "JanKurs 9/4/2016 19:40",
 		"initialize" : "JanKurs 9/4/2016 19:38",
 		"next" : "JanKurs 9/4/2016 19:38",
-		"queueChar:" : "JanKurs 9/4/2016 19:38" } }
+		"queueChar:" : "JanKurs 9/4/2016 19:38",
+		"asPetit2Stream" : "JanKurs 9/4/2016 13:21"
+	},
+	"class" : { }
+}

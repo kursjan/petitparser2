@@ -4,7 +4,5 @@ parseAdaptable: input withContext: context
 	context position: 0.
 	context parser: self.
 
-	context startMemento: context remember.
-	
 	^ self parseAdaptableWithContext: context
 	

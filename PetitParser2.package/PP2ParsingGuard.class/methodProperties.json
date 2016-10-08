@@ -1,10 +1,11 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"classification" : "JanKurs 9/1/2016 12:25:21",
-		"classification:" : "JanKurs 9/5/2016 16:30",
 		"parseOn:" : "JanKurs 9/13/2016 15:36",
 		"parsingGuard:" : "JanKurs 9/6/2016 07:48",
+		"classification" : "JanKurs 9/1/2016 12:25:21",
 		"retval" : "JanKurs 9/6/2016 09:25",
-		"retval:" : "JanKurs 9/6/2016 07:49" } }
+		"classification:" : "JanKurs 9/5/2016 16:30",
+		"retval:" : "JanKurs 9/6/2016 07:49"
+	},
+	"class" : { }
+}

@@ -1,12 +1,15 @@
 {
-	"class" : {
-		"on:message:size:" : "JanKurs 9/1/2016 12:25:21" },
 	"instance" : {
-		"accept:" : "JanKurs 9/1/2016 12:25:21",
-		"firstCharSet" : "JanKurs 9/1/2016 12:25:21",
-		"localEquals:" : "JanKurs 9/1/2016 12:25:21",
 		"localHash" : "JanKurs 9/1/2016 12:25:21",
-		"negate" : "JanKurs 9/14/2016 10:11",
-		"resetStrategy" : "JanKurs 9/15/2016 09:19",
+		"localEquals:" : "JanKurs 9/1/2016 12:25:21",
 		"size" : "JanKurs 9/1/2016 12:25:21",
-		"size:" : "JanKurs 9/1/2016 12:25:21" } }
+		"size:" : "JanKurs 9/1/2016 12:25:21",
+		"negate" : "JanKurs 9/14/2016 10:11",
+		"firstCharSet" : "JanKurs 9/1/2016 12:25:21",
+		"resetStrategy" : "JanKurs 9/15/2016 09:19",
+		"accept:" : "JanKurs 9/1/2016 12:25:21"
+	},
+	"class" : {
+		"on:message:size:" : "JanKurs 9/1/2016 12:25:21"
+	}
+}

@@ -1,16 +1,15 @@
 {
-	"category" : "PetitParser2-Tests-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "PP2AbstractParserTest",
+	"category" : "PetitParser2-Tests-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"result",
 		"parser",
-		"resultContext" ],
+		"resultContext"
+	],
 	"name" : "PP2CompositeParserTest",
-	"pools" : [
-		 ],
-	"super" : "PP2AbstractParserTest",
-	"type" : "normal" }
+	"type" : "normal"
+}

@@ -1,3 +1,3 @@
 requirements
 startMemento
-	^ self globalAt: #startMemento
+	^ self globalAt: #startMemento ifAbsentPut: 0

@@ -1,14 +1,15 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"parsedValue" : "JanKurs 10/7/2016 17:52",
-		"position" : "JanKurs 10/7/2016 17:53",
-		"returnValue" : "JanKurs 10/5/2016 17:08",
-		"returnValue:" : "JanKurs 10/5/2016 17:08",
-		"start" : "JanKurs 10/7/2016 18:19",
-		"startMemento" : "JanKurs 10/7/2016 18:40",
-		"startMemento:" : "JanKurs 10/7/2016 18:33",
 		"stop" : "JanKurs 10/7/2016 17:53",
+		"waterPosition:" : "JanKurs 9/30/2016 16:59",
+		"returnValue" : "JanKurs 10/5/2016 17:08",
+		"parsedValue" : "JanKurs 10/7/2016 17:52",
+		"start" : "JanKurs 10/7/2016 18:19",
+		"returnValue:" : "JanKurs 10/5/2016 17:08",
+		"position" : "JanKurs 10/7/2016 17:53",
 		"waterPosition" : "JanKurs 9/30/2016 17:02",
-		"waterPosition:" : "JanKurs 9/30/2016 16:59" } }
+		"startMemento" : "JanKurs 10/8/2016 14:35",
+		"startMemento:" : "JanKurs 10/7/2016 18:33"
+	},
+	"class" : { }
+}

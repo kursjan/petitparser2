@@ -1,13 +1,14 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"assert:anySatisfy:" : "JanKurs 10/6/2016 14:42",
+		"testSeaPlus" : "JanKurs 10/6/2016 14:43",
+		"testMemoizedSea" : "JanKurs 10/6/2016 16:38",
 		"assert:isKindOf:" : "JanKurs 10/6/2016 12:00",
+		"assert:anySatisfy:" : "JanKurs 10/6/2016 14:42",
+		"testOverlappingSeas" : "JanKurs 10/6/2016 16:39",
+		"visit:" : "JanKurs 10/6/2016 12:00",
 		"assert:noneSatisfy:" : "JanKurs 10/6/2016 13:30",
 		"testJustSea" : "JanKurs 10/6/2016 15:40",
-		"testMemoizedSea" : "JanKurs 10/6/2016 16:38",
-		"testOverlappingSeas" : "JanKurs 10/6/2016 16:39",
-		"testSeaPlus" : "JanKurs 10/6/2016 14:43",
-		"testSeaStar" : "JanKurs 10/6/2016 14:44",
-		"visit:" : "JanKurs 10/6/2016 12:00" } }
+		"testSeaStar" : "JanKurs 10/6/2016 14:44"
+	},
+	"class" : { }
+}

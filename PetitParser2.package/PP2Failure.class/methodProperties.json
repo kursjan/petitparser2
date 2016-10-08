@@ -1,18 +1,21 @@
 {
-	"class" : {
-		"message:" : "JanKurs 9/1/2016 12:25:21",
-		"message:context:" : "JanKurs 9/1/2016 12:25:21" },
 	"instance" : {
-		"context:" : "JanKurs 9/14/2016 18:04",
-		"input" : "JanKurs 9/1/2016 12:25:21",
-		"input:" : "JanKurs 9/14/2016 18:02",
+		"message:" : "JanKurs 9/1/2016 12:25:21",
 		"isPetit2Failure" : "JanKurs 9/1/2016 12:25:21",
+		"input:" : "JanKurs 9/14/2016 18:02",
+		"parser" : "JanKurs 10/7/2016 18:32",
+		"returnValue" : "JanKurs 10/7/2016 17:24",
+		"context:" : "JanKurs 9/14/2016 18:04",
+		"position:" : "JanKurs 9/1/2016 12:25:21",
 		"isPetit2Success" : "JanKurs 9/1/2016 12:25:21",
 		"message" : "JanKurs 9/1/2016 12:25:21",
-		"message:" : "JanKurs 9/1/2016 12:25:21",
-		"message:position:" : "JanKurs 9/1/2016 12:25:21",
-		"parser" : "JanKurs 10/7/2016 18:32",
-		"parser:" : "JanKurs 10/7/2016 18:33",
+		"input" : "JanKurs 9/1/2016 12:25:21",
 		"position" : "JanKurs 9/1/2016 12:25:21",
-		"position:" : "JanKurs 9/1/2016 12:25:21",
-		"returnValue" : "JanKurs 10/7/2016 17:24" } }
+		"message:position:" : "JanKurs 9/1/2016 12:25:21",
+		"parser:" : "JanKurs 10/7/2016 18:33"
+	},
+	"class" : {
+		"message:context:" : "JanKurs 9/1/2016 12:25:21",
+		"message:" : "JanKurs 9/1/2016 12:25:21"
+	}
+}

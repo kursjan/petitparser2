@@ -1,20 +1,21 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"assert:at:" : "JanKurs 9/1/2016 12:25:21",
-		"assert:isKindOf:" : "JanKurs 9/1/2016 12:25:21",
-		"deny:at:" : "JanKurs 9/1/2016 12:25:21",
-		"deny:isKindOf:" : "JanKurs 9/2/2016 21:08",
-		"optimize:" : "JanKurs 9/15/2016 13:29",
-		"setUp" : "JanKurs 9/2/2016 18:56",
-		"testChoice" : "JanKurs 9/17/2016 23:33",
-		"testClassificationFor" : "JanKurs 9/17/2016 23:33",
-		"testClassificationFor2" : "JanKurs 9/17/2016 23:33",
 		"testDelegate" : "JanKurs 9/17/2016 23:33",
 		"testGuardedChoice" : "JanKurs 9/17/2016 23:33",
-		"testGuardedChoice2" : "JanKurs 9/17/2016 23:33",
-		"testOptional" : "JanKurs 9/17/2016 23:33",
-		"testPlus" : "JanKurs 9/17/2016 23:33",
+		"deny:isKindOf:" : "JanKurs 9/2/2016 21:08",
+		"testTimes" : "JanKurs 9/17/2016 23:33",
+		"optimize:" : "JanKurs 9/15/2016 13:29",
 		"testStar" : "JanKurs 9/17/2016 23:33",
-		"testTimes" : "JanKurs 9/17/2016 23:33" } }
+		"testChoice" : "JanKurs 9/17/2016 23:33",
+		"deny:at:" : "JanKurs 9/1/2016 12:25:21",
+		"assert:at:" : "JanKurs 9/1/2016 12:25:21",
+		"assert:isKindOf:" : "JanKurs 9/1/2016 12:25:21",
+		"testGuardedChoice2" : "JanKurs 9/17/2016 23:33",
+		"testClassificationFor2" : "JanKurs 9/17/2016 23:33",
+		"testOptional" : "JanKurs 9/17/2016 23:33",
+		"testClassificationFor" : "JanKurs 9/17/2016 23:33",
+		"testPlus" : "JanKurs 9/17/2016 23:33",
+		"setUp" : "JanKurs 9/2/2016 18:56"
+	},
+	"class" : { }
+}

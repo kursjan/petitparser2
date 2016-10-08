@@ -1,4 +1,5 @@
 {
-	"category" : "PetitParser2-Tests-Core",
+	"name" : "TPP2ContextTest",
 	"commentStamp" : "",
-	"name" : "TPP2ContextTest" }
+	"category" : "PetitParser2-Tests-Core"
+}

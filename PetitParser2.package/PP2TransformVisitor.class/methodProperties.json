@@ -1,13 +1,14 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"block" : "JanKurs 10/5/2016 14:02",
+		"predicate" : "JanKurs 10/5/2016 14:02",
 		"block:" : "JanKurs 10/5/2016 14:02",
 		"initialize" : "JanKurs 10/5/2016 14:05",
-		"initializeMapping:" : "JanKurs 10/5/2016 15:11",
 		"openedResultFor:" : "JanKurs 10/5/2016 15:14",
-		"predicate" : "JanKurs 10/5/2016 14:02",
+		"block" : "JanKurs 10/5/2016 14:02",
 		"predicate:" : "JanKurs 10/5/2016 14:02",
-		"transformed:" : "JanKurs 10/5/2016 15:14",
-		"visitPP2Node:" : "JanKurs 10/5/2016 15:15" } }
+		"visitPP2Node:" : "JanKurs 10/5/2016 15:15",
+		"initializeMapping:" : "JanKurs 10/5/2016 15:11",
+		"transformed:" : "JanKurs 10/5/2016 15:14"
+	},
+	"class" : { }
+}

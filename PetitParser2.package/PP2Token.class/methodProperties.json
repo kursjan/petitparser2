@@ -1,14 +1,17 @@
 {
-	"class" : {
-		"on:start:stop:" : "JanKurs 9/1/2016 12:25:21" },
 	"instance" : {
-		"collection" : "JanKurs 9/1/2016 12:25:21",
-		"collection:" : "JanKurs 9/1/2016 12:25:21",
-		"isToken" : "JanKurs 9/12/2016 14:19",
-		"printOn:" : "JanKurs 9/1/2016 12:25:21",
-		"start" : "JanKurs 9/1/2016 12:25:21",
-		"start:" : "JanKurs 9/1/2016 12:25:21",
 		"stop" : "JanKurs 9/1/2016 12:25:21",
+		"isToken" : "JanKurs 9/12/2016 14:19",
+		"start" : "JanKurs 9/1/2016 12:25:21",
+		"value" : "JanKurs 9/1/2016 12:25:21",
+		"collection:" : "JanKurs 9/1/2016 12:25:21",
+		"printOn:" : "JanKurs 9/1/2016 12:25:21",
+		"start:" : "JanKurs 9/1/2016 12:25:21",
 		"stop:" : "JanKurs 9/1/2016 12:25:21",
-		"toString" : "JanKurs 9/1/2016 12:25:21",
-		"value" : "JanKurs 9/1/2016 12:25:21" } }
+		"collection" : "JanKurs 9/1/2016 12:25:21",
+		"toString" : "JanKurs 9/1/2016 12:25:21"
+	},
+	"class" : {
+		"on:start:stop:" : "JanKurs 9/1/2016 12:25:21"
+	}
+}

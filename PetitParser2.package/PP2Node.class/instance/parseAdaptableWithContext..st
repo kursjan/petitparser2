@@ -1,15 +1,16 @@
 parsing - adaptable
 parseAdaptableWithContext: context
-	| retval |
+	| returnValue |
 	context parser: self.
 	self resetCaches.
 	
-	retval := self parseOn: context.
+	context startMemento: context remember.
+	returnValue := self parseOn: context.
 
-	^ retval isPetit2Success ifTrue: [ 
-		context returnValue: retval 
+	^ returnValue isPetit2Success ifTrue: [ 
+		context returnValue: returnValue 
 	] ifFalse: [ 
-		retval 
+		returnValue 
 			parser: context parser;
 			input: (context contents);
 			yourself 

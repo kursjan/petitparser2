@@ -1,15 +1,14 @@
 {
-	"category" : "PetitParser2-Nodes",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "PP2Node",
+	"category" : "PetitParser2-Nodes",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"boundary",
-		"waterToken" ],
+		"waterToken"
+	],
 	"name" : "PP2WaterNode",
-	"pools" : [
-		 ],
-	"super" : "PP2Node",
-	"type" : "normal" }
+	"type" : "normal"
+}

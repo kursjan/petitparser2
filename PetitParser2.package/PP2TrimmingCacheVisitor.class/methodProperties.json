@@ -1,7 +1,8 @@
 {
-	"class" : {
-		 },
 	"instance" : {
 		"doPass:" : "JanKurs 10/5/2016 11:33",
-		"usingSameTrimmer:" : "JanKurs 9/3/2016 17:28",
-		"visitTrimming:" : "JanKurs 9/2/2016 22:00" } }
+		"visitTrimming:" : "JanKurs 9/2/2016 22:00",
+		"usingSameTrimmer:" : "JanKurs 9/3/2016 17:28"
+	},
+	"class" : { }
+}

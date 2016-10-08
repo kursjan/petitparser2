@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "PP2WrappingStrategy",
+	"category" : "PetitParser2-Strategies",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"buffer"
+	],
+	"name" : "PP2Memoized",
+	"type" : "normal"
+}

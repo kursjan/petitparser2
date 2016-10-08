@@ -1,12 +1,13 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"cache" : "JanKurs 9/2/2016 15:32",
+		"withoutDebugStrategy" : "JanKurs 9/15/2016 10:46",
 		"isCache" : "JanKurs 9/4/2016 20:51",
-		"isProfiling" : "JanKurs 9/5/2016 07:56",
-		"parsingGuard:" : "JanKurs 9/6/2016 07:49",
-		"profiling" : "JanKurs 9/4/2016 20:39",
-		"recognizer" : "JanKurs 9/2/2016 15:32",
 		"trimmingCache" : "JanKurs 9/2/2016 22:01",
-		"withoutDebugStrategy" : "JanKurs 9/15/2016 10:46" } }
+		"profiling" : "JanKurs 9/4/2016 20:39",
+		"parsingGuard:" : "JanKurs 9/6/2016 07:49",
+		"cache" : "JanKurs 9/2/2016 15:32",
+		"recognizer" : "JanKurs 9/2/2016 15:32",
+		"isProfiling" : "JanKurs 9/5/2016 07:56"
+	},
+	"class" : { }
+}

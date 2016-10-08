@@ -1,6 +1,7 @@
 {
-	"class" : {
-		 },
 	"instance" : {
 		"accept:" : "JanKurs 10/7/2016 12:03",
-		"resetStrategy" : "JanKurs 10/7/2016 18:44" } }
+		"resetStrategy" : "JanKurs 10/7/2016 18:44"
+	},
+	"class" : { }
+}

@@ -1,18 +1,19 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"emptySea" : "JanKurs 10/5/2016 16:23",
-		"nestedBlock" : "JanKurs 10/5/2016 16:23",
-		"result" : "JanKurs 10/5/2016 16:26",
-		"seaInstance" : "JanKurs 10/5/2016 17:16",
 		"testEOFBoundary" : "JanKurs 10/6/2016 09:00",
-		"testNestedBlockDeepNested" : "JanKurs 10/5/2016 16:25",
-		"testNestedBlockEmpty" : "JanKurs 10/5/2016 16:25",
-		"testNestedBlockNested" : "JanKurs 10/5/2016 16:26",
-		"testNestedBlockSpace" : "JanKurs 10/5/2016 16:26",
-		"testNullableBoundary" : "JanKurs 10/6/2016 09:04",
-		"testNullableIsland" : "JanKurs 10/6/2016 15:07",
 		"testOverlappingSeas" : "JanKurs 10/6/2016 14:43",
+		"testNestedBlockSpace" : "JanKurs 10/5/2016 16:26",
+		"emptySea" : "JanKurs 10/5/2016 16:23",
 		"testSeaPlus" : "JanKurs 10/6/2016 15:04",
-		"testSeaStar" : "JanKurs 10/6/2016 15:05" } }
+		"testNestedBlockDeepNested" : "JanKurs 10/5/2016 16:25",
+		"testNestedBlockNested" : "JanKurs 10/5/2016 16:26",
+		"nestedBlock" : "JanKurs 10/5/2016 16:23",
+		"seaInstance" : "JanKurs 10/5/2016 17:16",
+		"testNestedBlockEmpty" : "JanKurs 10/5/2016 16:25",
+		"testNullableIsland" : "JanKurs 10/6/2016 15:07",
+		"testSeaStar" : "JanKurs 10/6/2016 15:05",
+		"result" : "JanKurs 10/5/2016 16:26",
+		"testNullableBoundary" : "JanKurs 10/6/2016 09:04"
+	},
+	"class" : { }
+}

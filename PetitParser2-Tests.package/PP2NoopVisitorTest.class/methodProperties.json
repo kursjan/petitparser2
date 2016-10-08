@@ -1,9 +1,10 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"setUp" : "JanKurs 9/1/2016 12:25:21",
-		"testVisitCharacter" : "JanKurs 9/17/2016 23:33",
 		"testVisitCycle" : "JanKurs 10/5/2016 08:54",
+		"testVisitCharacter" : "JanKurs 9/17/2016 23:33",
 		"testVisitDelegate" : "JanKurs 9/17/2016 23:33",
-		"testVisitSequence" : "JanKurs 9/17/2016 23:33" } }
+		"setUp" : "JanKurs 9/1/2016 12:25:21",
+		"testVisitSequence" : "JanKurs 9/17/2016 23:33"
+	},
+	"class" : { }
+}

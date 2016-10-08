@@ -1,9 +1,10 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"cache" : "JanKurs 10/5/2016 16:50",
 		"isCache" : "JanKurs 10/5/2016 16:50",
 		"memoize" : "JanKurs 10/6/2016 11:57",
+		"reset" : "JanKurs 10/5/2016 17:09",
 		"parseOn:" : "JanKurs 10/5/2016 17:10",
-		"reset" : "JanKurs 10/5/2016 17:09" } }
+		"cache" : "JanKurs 10/5/2016 16:50"
+	},
+	"class" : { }
+}

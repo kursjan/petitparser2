@@ -1,16 +1,19 @@
 {
-	"class" : {
-		"with:" : "JanKurs 9/1/2016 12:25:21",
-		"with:with:" : "JanKurs 9/1/2016 12:25:21",
-		"withAll:" : "JanKurs 9/1/2016 12:25:21" },
 	"instance" : {
-		"accept:" : "JanKurs 9/1/2016 12:25:21",
-		"children" : "JanKurs 9/1/2016 12:25:21",
-		"children:" : "JanKurs 10/4/2016 17:35",
-		"copyWith:" : "JanKurs 9/1/2016 12:25:21",
 		"firstChild" : "JanKurs 9/1/2016 12:25:21",
-		"initialize" : "JanKurs 9/1/2016 12:25:21",
+		"children" : "JanKurs 9/1/2016 12:25:21",
+		"copyWith:" : "JanKurs 9/1/2016 12:25:21",
 		"postCopy" : "JanKurs 9/1/2016 12:25:21",
-		"replace:with:" : "JanKurs 10/5/2016 08:49",
+		"initialize" : "JanKurs 9/1/2016 12:25:21",
 		"secondChild" : "JanKurs 9/1/2016 12:25:21",
-		"thirdChild" : "JanKurs 9/1/2016 12:25:21" } }
+		"replace:with:" : "JanKurs 10/5/2016 08:49",
+		"children:" : "JanKurs 10/4/2016 17:35",
+		"thirdChild" : "JanKurs 9/1/2016 12:25:21",
+		"accept:" : "JanKurs 9/1/2016 12:25:21"
+	},
+	"class" : {
+		"withAll:" : "JanKurs 9/1/2016 12:25:21",
+		"with:" : "JanKurs 9/1/2016 12:25:21",
+		"with:with:" : "JanKurs 9/1/2016 12:25:21"
+	}
+}
