@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "PetitParser2-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"buffer",
+		"position",
+		"limit"
+	],
+	"name" : "PP2MementoPromise",
+	"type" : "normal"
+}

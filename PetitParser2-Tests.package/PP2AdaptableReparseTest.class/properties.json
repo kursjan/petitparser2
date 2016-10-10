@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "PP2AbstractParserTest",
+	"category" : "PetitParser2-Tests-Parsing",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"token1",
+		"token2",
+		"parser",
+		"context"
+	],
+	"name" : "PP2AdaptableReparseTest",
+	"type" : "normal"
+}

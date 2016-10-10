@@ -27,5 +27,7 @@ optimize
 	
 	PP2BypassVisitor new doPass: self.
 	
+	PP2ReparsableVisitor new doPass: self.
+	
 	self propertyAt: #allCaches put: self collectCaches.
 	self setOptimized.

@@ -1,0 +1,14 @@
+{
+	"instance" : {
+		"testReparseLowBoundary" : "JanKurs 10/10/2016 07:41",
+		"assert:reparseWithContext:" : "JanKurs 10/9/2016 19:56",
+		"testReparseHighBoundaryError" : "JanKurs 10/10/2016 10:23",
+		"testReparseAfter" : "JanKurs 10/10/2016 10:24",
+		"parse:withParser:withContext:" : "JanKurs 10/9/2016 14:32",
+		"testReparseInRange" : "JanKurs 10/10/2016 10:26",
+		"testReparseBefore" : "JanKurs 10/10/2016 07:42",
+		"testReparseLowBoundaryError" : "JanKurs 10/10/2016 09:35",
+		"testReparseHighBoundary" : "JanKurs 10/10/2016 09:38"
+	},
+	"class" : { }
+}

@@ -6,7 +6,8 @@
 		"position",
 		"parser",
 		"globals",
-		"returnValue"
+		"returnValue",
+		"startMemento"
 	],
 	"name" : "PP2Context",
 	"commentStamp" : "JanKurs 9/3/2016 11:50",

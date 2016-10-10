@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "PetitParser2-Tests-InputChanges",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"key",
+		"change",
+		"context",
+		"memento",
+		"buffer",
+		"newBuffer"
+	],
+	"name" : "PP2InsertCharacterTest",
+	"type" : "normal"
+}

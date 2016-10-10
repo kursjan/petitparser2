@@ -1,0 +1,16 @@
+{
+	"instance" : {
+		"indexBetween:and:" : "JanKurs 10/9/2016 19:32",
+		"updateContext:" : "JanKurs 10/9/2016 16:56",
+		"indexAfter:" : "JanKurs 10/9/2016 19:16",
+		"key:after:" : "JanKurs 10/9/2016 17:48",
+		"key:inRange:" : "JanKurs 10/9/2016 17:48",
+		"removeKey:fromBuffer:" : "JanKurs 10/9/2016 13:21",
+		"updateParser:" : "JanKurs 10/9/2016 19:14",
+		"updateToken:" : "JanKurs 10/9/2016 13:00",
+		"indexBefore:" : "JanKurs 10/9/2016 19:16",
+		"updateBuffer:" : "JanKurs 10/9/2016 19:36",
+		"updateTokens:" : "JanKurs 10/9/2016 11:27"
+	},
+	"class" : { }
+}

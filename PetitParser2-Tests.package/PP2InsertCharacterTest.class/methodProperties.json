@@ -1,0 +1,14 @@
+{
+	"instance" : {
+		"testUpdateTokens" : "JanKurs 10/9/2016 13:04",
+		"assert:isKindOf:" : "JanKurs 10/9/2016 13:16",
+		"testUpdateBuffer" : "JanKurs 10/9/2016 19:25",
+		"setUp" : "JanKurs 10/8/2016 16:19",
+		"testUpdateTokensOnce" : "JanKurs 10/9/2016 13:05",
+		"testUpdateBufferInRange" : "JanKurs 10/9/2016 19:35",
+		"testUpdateBufferBefore" : "JanKurs 10/9/2016 19:22",
+		"testUpdateTokensAfterChange" : "JanKurs 10/9/2016 13:04",
+		"testUpdateBufferAfter" : "JanKurs 10/9/2016 19:23"
+	},
+	"class" : { }
+}

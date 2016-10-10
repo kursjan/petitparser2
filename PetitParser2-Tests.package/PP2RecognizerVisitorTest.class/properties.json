@@ -1,9 +1,5 @@
 {
-	"commentStamp" : "",
-	"super" : "TestCase",
-	"category" : "PetitParser2-Tests-Optimizations",
-	"classinstvars" : [ ],
-	"pools" : [ ],
+	"classtraitcomposition" : "TPP2TypeAssertions classTrait",
 	"classvars" : [ ],
 	"instvars" : [
 		"parser",
@@ -12,5 +8,11 @@
 		"sequence"
 	],
 	"name" : "PP2RecognizerVisitorTest",
-	"type" : "normal"
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"traitcomposition" : "TPP2TypeAssertions",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "PetitParser2-Tests-Optimizations"
 }

@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "PP2InputChange",
+	"category" : "PetitParser2-InputChanges",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"character"
+	],
+	"name" : "PP2InsertCharacter",
+	"type" : "normal"
+}

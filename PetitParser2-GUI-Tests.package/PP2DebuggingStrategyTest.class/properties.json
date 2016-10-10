@@ -1,14 +1,16 @@
 {
-	"commentStamp" : "",
-	"super" : "TestCase",
-	"category" : "PetitParser2-GUI-Tests-Debug",
-	"classinstvars" : [ ],
-	"pools" : [ ],
+	"classtraitcomposition" : "TPP2TypeAssertions classTrait",
 	"classvars" : [ ],
 	"instvars" : [
 		"strategy",
 		"node"
 	],
 	"name" : "PP2DebuggingStrategyTest",
-	"type" : "normal"
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"traitcomposition" : "TPP2TypeAssertions",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "PetitParser2-GUI-Tests-Debug"
 }

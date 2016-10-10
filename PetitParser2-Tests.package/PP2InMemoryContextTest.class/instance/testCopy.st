@@ -7,6 +7,7 @@ testCopy
 		stream: stream;
  		position: 1;
 		parser: #parser;
+		startMemento: #startMemento;
 		yourself.
 		
 	newContext := context copy.
@@ -15,3 +16,4 @@ testCopy
 	self assert: context position = newContext position.
 	self assert: context contents = newContext contents.	
 	self assert: context parser = newContext parser.
+	self assert: context startMemento = newContext startMemento.

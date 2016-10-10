@@ -1,14 +1,16 @@
 {
-	"commentStamp" : "",
-	"super" : "TestCase",
-	"category" : "PetitParser2-Tests-Optimizations",
-	"classinstvars" : [ ],
-	"pools" : [ ],
+	"classtraitcomposition" : "TPP2TypeAssertions classTrait",
 	"classvars" : [ ],
 	"instvars" : [
 		"parser",
 		"visitor"
 	],
 	"name" : "PP2GuardVisitorTest",
-	"type" : "normal"
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"traitcomposition" : "TPP2TypeAssertions",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "PetitParser2-Tests-Optimizations"
 }

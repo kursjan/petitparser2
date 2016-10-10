@@ -1,0 +1,1 @@
+Optimized version of PP2Context. When input fits into the memory, PP2InMemoryContext can be used, providing slightly better perfomance.

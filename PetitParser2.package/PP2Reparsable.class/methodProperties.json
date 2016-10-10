@@ -1,0 +1,14 @@
+{
+	"instance" : {
+		"isReparsable" : "JanKurs 10/9/2016 15:31",
+		"reparsable" : "JanKurs 10/9/2016 14:08",
+		"initialize" : "JanKurs 10/8/2016 13:10",
+		"isCache" : "JanKurs 10/8/2016 11:40",
+		"parseOn:" : "JanKurs 10/9/2016 19:37",
+		"buffer" : "JanKurs 10/9/2016 12:39",
+		"buffer:" : "JanKurs 10/9/2016 12:39",
+		"cache" : "JanKurs 10/8/2016 11:39",
+		"reset" : "JanKurs 10/8/2016 11:51"
+	},
+	"class" : { }
+}

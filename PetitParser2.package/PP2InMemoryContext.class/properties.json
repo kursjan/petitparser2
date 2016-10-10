@@ -4,10 +4,11 @@
 	"instvars" : [
 		"parser",
 		"globals",
-		"returnValue"
+		"returnValue",
+		"startMemento"
 	],
 	"name" : "PP2InMemoryContext",
-	"commentStamp" : "",
+	"commentStamp" : "JanKurs 10/9/2016 12:39",
 	"super" : "ReadStream",
 	"traitcomposition" : "TPP2Globals + TPP2Context + TPP2Debuggable",
 	"type" : "normal",
