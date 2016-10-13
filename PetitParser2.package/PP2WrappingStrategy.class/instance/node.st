@@ -1,3 +1,3 @@
-parsing
+accessing
 node
 	^ strategy node

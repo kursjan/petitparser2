@@ -1,16 +1,10 @@
 {
 	"instance" : {
-		"indexBetween:and:" : "JanKurs 10/9/2016 19:32",
-		"updateContext:" : "JanKurs 10/9/2016 16:56",
-		"indexAfter:" : "JanKurs 10/9/2016 19:16",
-		"key:after:" : "JanKurs 10/9/2016 17:48",
-		"key:inRange:" : "JanKurs 10/9/2016 17:48",
-		"removeKey:fromBuffer:" : "JanKurs 10/9/2016 13:21",
-		"updateParser:" : "JanKurs 10/9/2016 19:14",
-		"updateToken:" : "JanKurs 10/9/2016 13:00",
-		"indexBefore:" : "JanKurs 10/9/2016 19:16",
-		"updateBuffer:" : "JanKurs 10/9/2016 19:36",
-		"updateTokens:" : "JanKurs 10/9/2016 11:27"
+		"changeBetween:and:" : "JanKurs 10/10/2016 17:06",
+		"updateToken:" : "JanKurs 10/11/2016 09:53",
+		"changeAfterRange:" : "JanKurs 10/10/2016 17:00",
+		"changeBeforeRange:" : "JanKurs 10/10/2016 17:25",
+		"updateBuffer:" : "JanKurs 10/13/2016 08:19"
 	},
 	"class" : { }
 }

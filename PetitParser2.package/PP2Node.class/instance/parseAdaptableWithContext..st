@@ -11,7 +11,6 @@ parseAdaptableWithContext: context
 		context returnValue: returnValue 
 	] ifFalse: [ 
 		returnValue 
-			parser: context parser;
-			input: (context contents);
+			setContext: context;
 			yourself 
 	]

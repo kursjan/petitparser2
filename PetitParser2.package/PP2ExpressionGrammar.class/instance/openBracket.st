@@ -1,0 +1,3 @@
+grammar
+openBracket
+	^ $( asPParser

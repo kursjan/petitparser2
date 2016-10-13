@@ -11,7 +11,9 @@
 		"number",
 		"parentheses",
 		"multiplication",
-		"primary"
+		"primary",
+		"openBracket",
+		"closeBracket"
 	],
 	"name" : "PP2ExpressionGrammar",
 	"type" : "normal"

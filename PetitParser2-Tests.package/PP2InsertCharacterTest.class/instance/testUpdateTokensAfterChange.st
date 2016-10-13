@@ -2,21 +2,21 @@ tests
 testUpdateTokensAfterChange
 	| token anotherToken returnValue originalInput |
 
-	originalInput := '_foobar'.
+	originalInput := 'foo__bar'.
 
-	token := PP2Token on: originalInput start: 2 stop: 4.
-	anotherToken := PP2Token on: originalInput start: 5 stop: 7.
+	token := PP2Token on: originalInput start: 1 stop: 3.
+	anotherToken := PP2Token on: originalInput start: 6 stop: 8.
 	
 	returnValue := OrderedCollection with: token with: #foobar with: anotherToken.
 
-	change input: '_foo+bar'.
-	change position: 4.
+	change input: 'foo___bar'.
+	change position: 5.
 	change updateTokens: returnValue.
 	
-	self assert: token start equals: 2.
-	self assert: token stop equals: 4.
+	self assert: token start equals: 1.
+	self assert: token stop equals: 3.
 	self assert: token value = 'foo'.
 	
-	self assert: anotherToken start equals: 6.
-	self assert: anotherToken stop equals: 8.
+	self assert: anotherToken start equals: 7.
+	self assert: anotherToken stop equals: 9.
 	self assert: anotherToken value equals: 'bar'.

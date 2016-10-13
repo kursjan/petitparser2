@@ -18,4 +18,4 @@ testExtractProduction
 		equals:
 			(RBParser
 				parseMethod:
-					'addition	^ primary, plus, terms')
+					'addition	^ primary, plus trim, terms')

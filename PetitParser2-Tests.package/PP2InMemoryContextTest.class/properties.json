@@ -1,11 +1,11 @@
 {
-	"classtraitcomposition" : "TPP2ContextTest classTrait",
+	"classtraitcomposition" : "TPP2ContextTest classTrait + TPP2TypeAssertions classTrait",
 	"classvars" : [ ],
 	"instvars" : [ ],
 	"name" : "PP2InMemoryContextTest",
 	"commentStamp" : "",
 	"super" : "TestCase",
-	"traitcomposition" : "TPP2ContextTest",
+	"traitcomposition" : "TPP2ContextTest + TPP2TypeAssertions",
 	"type" : "normal",
 	"classinstvars" : [ ],
 	"pools" : [ ],

@@ -1,5 +1,5 @@
 copying
 postCopy
 	super postCopy.
-	globals := globals copy.
 	
+	globals := globals copy.

@@ -6,7 +6,7 @@ parseOn: aPP2Context
 	node trimmer parseOn: aPP2Context.
 	
 	(retval := node child parseOn: aPP2Context) isPetit2Failure ifTrue: [ 
-		aPP2Context position: position.
+		aPP2Context restorePosition: position.
 		^ retval
 	].
 	

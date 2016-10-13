@@ -1,8 +1,6 @@
 parsing
 parseOn: context
 	| memento mementoPromise |
-	
-	Halt if: [Sensor shiftPressed ].
 	mementoPromise := buffer at: context position ifAbsentPut: [ 
 		PP2MementoPromise new
 			position: context position;

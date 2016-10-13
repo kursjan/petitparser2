@@ -1,15 +1,18 @@
 {
-	"commentStamp" : "",
-	"super" : "Object",
-	"category" : "PetitParser2-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
+	"classtraitcomposition" : "TPP2Properties classTrait",
 	"classvars" : [ ],
 	"instvars" : [
 		"collection",
 		"start",
-		"stop"
+		"stop",
+		"properties"
 	],
 	"name" : "PP2Token",
-	"type" : "normal"
+	"commentStamp" : "",
+	"super" : "Object",
+	"traitcomposition" : "TPP2Properties",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "PetitParser2-Core"
 }

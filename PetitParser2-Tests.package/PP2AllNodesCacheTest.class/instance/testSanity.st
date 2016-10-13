@@ -8,5 +8,5 @@ testSanity
 		self assert: (child hasProperty: #allNodesSize).
 	].
 
-	self assert: (parser productionAt: #number) hasProperty: #allNodesSize withValue: 15.
+	self assert: (parser productionAt: #number) hasProperty: #allNodesSize withValue: 12.
 	self assert: parser hasProperty: #allNodesSize withValue: parser allNodes size.	

@@ -1,0 +1,10 @@
+{
+	"instance" : {
+		"testCopy" : "JanKurs 10/10/2016 14:28",
+		"testDuplicateSequence" : "JanKurs 10/10/2016 15:15",
+		"testCopyDelegate" : "JanKurs 10/10/2016 14:56",
+		"testDuplicateDelegate" : "JanKurs 10/10/2016 15:15",
+		"testCopyProperties" : "JanKurs 10/10/2016 14:29"
+	},
+	"class" : { }
+}

@@ -1,0 +1,9 @@
+{
+	"instance" : {
+		"parser" : "JanKurs 10/12/2016 11:54",
+		"testReparse" : "JanKurs 10/13/2016 08:41",
+		"setUp" : "JanKurs 10/12/2016 11:55",
+		"testRecoverFromFailure" : "JanKurs 10/13/2016 09:01"
+	},
+	"class" : { }
+}

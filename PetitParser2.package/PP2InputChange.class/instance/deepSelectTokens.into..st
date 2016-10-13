@@ -1,4 +1,4 @@
-as yet unclassified
+enumerating
 deepSelectTokens: node into: aSet
 	node isToken ifTrue: [ aSet add: node ].
 	

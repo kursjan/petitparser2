@@ -2,7 +2,7 @@ initialize
 startParsing
 	parser := 
 		(('petit' asPParser ==> [ :literal | 
-				outputStream nextPutAll: '<<<!!!You wrote my name!!!>>>' ]) / 
+				GrowlMorph openWithLabel: '"petit" detected' contents: '' ]) / 
 		  #any asPParser
 		) star. 
 	

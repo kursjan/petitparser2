@@ -1,3 +1,3 @@
 accessing
 input: anObject
-	input := anObject
+	self halt.

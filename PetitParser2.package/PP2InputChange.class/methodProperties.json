@@ -1,10 +1,15 @@
 {
 	"instance" : {
-		"position" : "JanKurs 10/8/2016 15:14",
-		"deepSelectTokens:into:" : "JanKurs 10/9/2016 11:30",
 		"input:" : "JanKurs 10/8/2016 16:18",
+		"updateContext:" : "JanKurs 10/10/2016 15:51",
+		"deepSelectTokens:into:" : "JanKurs 10/9/2016 11:30",
 		"position:" : "JanKurs 10/8/2016 15:14",
-		"input" : "JanKurs 10/8/2016 16:18"
+		"updateParser:" : "JanKurs 10/11/2016 17:42",
+		"updateBuffer:" : "JanKurs 10/10/2016 15:52",
+		"position" : "JanKurs 10/8/2016 15:14",
+		"input" : "JanKurs 10/8/2016 16:18",
+		"updateToken:" : "JanKurs 10/10/2016 15:51",
+		"updateTokens:" : "JanKurs 10/10/2016 15:52"
 	},
 	"class" : {
 		"on:at:" : "JanKurs 10/9/2016 08:37"

@@ -7,7 +7,8 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"returnValue",
-		"contextMemento"
+		"contextMemento",
+		"furthestPosition"
 	],
 	"name" : "PP2Memento",
 	"type" : "normal"

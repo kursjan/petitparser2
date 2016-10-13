@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "Object",
-	"category" : "PetitParser2-InputChanges",
+	"category" : "PetitParser2-Reparsing",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

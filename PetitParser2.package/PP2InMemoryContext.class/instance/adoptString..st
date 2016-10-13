@@ -1,4 +1,5 @@
 reparsing
 adoptString: newString
 	collection := newString.
-	readLimit := newString size
+	readLimit := newString size.
+	self assert: readLimit isNotNil.

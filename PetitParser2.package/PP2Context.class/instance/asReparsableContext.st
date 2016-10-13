@@ -1,0 +1,3 @@
+converting
+asReparsableContext
+	^ self collection asReparsableContext

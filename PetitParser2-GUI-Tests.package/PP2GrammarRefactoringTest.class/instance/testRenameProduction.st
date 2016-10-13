@@ -11,6 +11,6 @@ testRenameProduction
 		equals:
 			(RBParser
 				parseMethod:
-					'add ^ primary, $+ asPParser, terms').
+					'add ^ primary, $+ asPParser trim, terms').
 	self assert: self changes last class equals: RBRemoveMethodChange.
 	self assert: self changes last selector equals: #addition

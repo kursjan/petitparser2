@@ -8,11 +8,11 @@
 		"peekFor:" : "JanKurs 9/1/2016 12:25:21",
 		"startMemento" : "JanKurs 10/9/2016 16:35",
 		"upTo:" : "JanKurs 9/1/2016 12:25:21",
-		"postCopy" : "JanKurs 9/1/2016 12:25:21",
+		"postCopy" : "JanKurs 10/10/2016 14:48",
 		"value" : "JanKurs 10/5/2016 17:07",
 		"position:" : "JanKurs 9/1/2016 12:25:21",
 		"next:" : "JanKurs 9/1/2016 12:25:21",
-		"setPosition:" : "JanKurs 9/1/2016 12:25:21",
+		"setPosition:" : "JanKurs 10/13/2016 08:50",
 		"parser:" : "JanKurs 9/1/2016 12:25:21",
 		"globals:" : "JanKurs 9/30/2016 16:40",
 		"returnValue" : "JanKurs 10/5/2016 17:07",
@@ -25,6 +25,7 @@
 		"restore:" : "JanKurs 9/1/2016 12:25:21",
 		"atEnd" : "JanKurs 9/1/2016 12:25:21",
 		"uncheckedNext" : "JanKurs 9/1/2016 12:25:21",
+		"asReparsableContext" : "JanKurs 10/13/2016 07:41",
 		"returnValue:" : "JanKurs 10/5/2016 17:07",
 		"shift" : "JanKurs 9/1/2016 12:25:21",
 		"position" : "JanKurs 9/1/2016 12:25:21",
@@ -36,7 +37,8 @@
 		"stream" : "JanKurs 9/1/2016 12:25:21",
 		"globals" : "JanKurs 9/1/2016 12:25:21",
 		"parser" : "JanKurs 9/1/2016 12:25:21",
-		"upToEnd" : "JanKurs 9/1/2016 12:25:21"
+		"upToEnd" : "JanKurs 9/1/2016 12:25:21",
+		"restorePosition:" : "JanKurs 10/13/2016 08:51"
 	},
 	"class" : {
 		"on:position:" : "JanKurs 9/1/2016 12:25:21",

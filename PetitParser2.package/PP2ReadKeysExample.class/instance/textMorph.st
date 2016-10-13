@@ -7,5 +7,8 @@ textMorph
 		on: self;
 		yourself.
 	textMorph hasUnacceptedEdits: false.
-	textMorph updateTextWith: 'start typing ... (and try to write "petit")'.
+	self nextPutAll: 'Keep focus on the blue area and start typing.
+		- as you type, parsing is happening (the input is NOT reparsed with every key stroke!)
+		- whenever the "petit" sequence is recognized, the info morph appears
+'.
 	^ textMorph

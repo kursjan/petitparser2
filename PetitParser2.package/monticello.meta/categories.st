@@ -2,10 +2,10 @@ SystemOrganization addCategory: #PetitParser2!
 SystemOrganization addCategory: 'PetitParser2-Analysis'!
 SystemOrganization addCategory: 'PetitParser2-Core'!
 SystemOrganization addCategory: 'PetitParser2-Examples'!
-SystemOrganization addCategory: 'PetitParser2-InputChanges'!
 SystemOrganization addCategory: 'PetitParser2-Interpretation'!
 SystemOrganization addCategory: 'PetitParser2-Nodes'!
 SystemOrganization addCategory: 'PetitParser2-Optimizations'!
+SystemOrganization addCategory: 'PetitParser2-Reparsing'!
 SystemOrganization addCategory: 'PetitParser2-Strategies'!
 SystemOrganization addCategory: 'PetitParser2-Streams'!
 SystemOrganization addCategory: 'PetitParser2-Tools'!

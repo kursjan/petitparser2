@@ -1,14 +1,15 @@
 {
 	"instance" : {
-		"isReparsable" : "JanKurs 10/9/2016 15:31",
 		"reparsable" : "JanKurs 10/9/2016 14:08",
-		"initialize" : "JanKurs 10/8/2016 13:10",
 		"isCache" : "JanKurs 10/8/2016 11:40",
-		"parseOn:" : "JanKurs 10/9/2016 19:37",
+		"postCopy" : "JanKurs 10/10/2016 14:00",
+		"initialize" : "JanKurs 10/8/2016 13:10",
+		"isReparsable" : "JanKurs 10/9/2016 15:31",
 		"buffer" : "JanKurs 10/9/2016 12:39",
-		"buffer:" : "JanKurs 10/9/2016 12:39",
+		"parseOn:" : "JanKurs 10/13/2016 07:44",
 		"cache" : "JanKurs 10/8/2016 11:39",
-		"reset" : "JanKurs 10/8/2016 11:51"
+		"reset" : "JanKurs 10/8/2016 11:51",
+		"buffer:" : "JanKurs 10/9/2016 12:39"
 	},
 	"class" : { }
 }

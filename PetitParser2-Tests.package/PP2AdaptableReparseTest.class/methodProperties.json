@@ -1,14 +1,24 @@
 {
 	"instance" : {
-		"testReparseLowBoundary" : "JanKurs 10/10/2016 07:41",
-		"assert:reparseWithContext:" : "JanKurs 10/9/2016 19:56",
-		"testReparseHighBoundaryError" : "JanKurs 10/10/2016 10:23",
-		"testReparseAfter" : "JanKurs 10/10/2016 10:24",
-		"parse:withParser:withContext:" : "JanKurs 10/9/2016 14:32",
-		"testReparseInRange" : "JanKurs 10/10/2016 10:26",
-		"testReparseBefore" : "JanKurs 10/10/2016 07:42",
-		"testReparseLowBoundaryError" : "JanKurs 10/10/2016 09:35",
-		"testReparseHighBoundary" : "JanKurs 10/10/2016 09:38"
+		"testReparseDeleteHighBoundary" : "JanKurs 10/11/2016 10:13",
+		"testReparseDeleteAfter" : "JanKurs 10/13/2016 08:37",
+		"testReparseDeleteHighBoundaryError" : "JanKurs 10/12/2016 11:14",
+		"parse:withParser:withContext:" : "JanKurs 10/10/2016 15:22",
+		"testReparseInsertHighBoundaryError" : "JanKurs 10/11/2016 09:58",
+		"testReparseInsertBefore" : "JanKurs 10/11/2016 08:37",
+		"assert:reparseWithContext:" : "JanKurs 10/12/2016 10:58",
+		"testReparseMultipleChanges" : "JanKurs 10/13/2016 08:40",
+		"context" : "JanKurs 10/13/2016 08:38",
+		"testReparseInsertLowBoundaryError" : "JanKurs 10/11/2016 09:06",
+		"testReparseDeleteBefore" : "JanKurs 10/11/2016 09:44",
+		"testReparseInsertInRange" : "JanKurs 10/11/2016 08:37",
+		"testReparseDeleteLowBoundary" : "JanKurs 10/11/2016 10:12",
+		"testReparseInsertAfter" : "JanKurs 10/11/2016 08:36",
+		"testReparseAndReparse" : "JanKurs 10/13/2016 08:23",
+		"testReparseDeleteInRange" : "JanKurs 10/11/2016 09:53",
+		"testReparseInsertHighBoundary" : "JanKurs 10/11/2016 08:36",
+		"testReparseNested" : "JanKurs 10/12/2016 11:49",
+		"testReparseInsertLowBoundary" : "JanKurs 10/11/2016 08:37"
 	},
 	"class" : { }
 }

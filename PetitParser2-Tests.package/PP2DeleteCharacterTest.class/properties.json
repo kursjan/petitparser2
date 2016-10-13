@@ -1,0 +1,20 @@
+{
+	"classtraitcomposition" : "TPP2TypeAssertions classTrait",
+	"classvars" : [ ],
+	"instvars" : [
+		"key",
+		"change",
+		"context",
+		"memento",
+		"buffer",
+		"newBuffer"
+	],
+	"name" : "PP2DeleteCharacterTest",
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"traitcomposition" : "TPP2TypeAssertions",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "PetitParser2-Tests-Reparsing"
+}

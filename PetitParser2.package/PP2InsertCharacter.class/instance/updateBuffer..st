@@ -4,21 +4,27 @@ updateBuffer: buffer
 	newBuffer := IdentityDictionary new.
 	
 	buffer associationsDo: [ :assoc |
-		| key memento |
-		key := assoc key.
+		| key lowIndex highIndex memento contextMemento |
+		"for some reason, key has indexing from zero"
 		memento := assoc value.
-		
-		(self indexBefore: memento contextMemento) ifTrue: [ newBuffer at: key put: memento ].
-		(self indexAfter: key) ifTrue: [ 
-			memento contextMemento: memento contextMemento + 1.
-			newBuffer at: key + 1 put: memento 
-		].
-		(self indexBetween: key and: memento contextMemento) ifTrue: [ 
+		key := assoc key.
+		lowIndex := (assoc key + 1).
+		highIndex := assoc value furthestPosition.
+		contextMemento := assoc value contextMemento.
+
+		(self changeAfterRange: highIndex) ifTrue: [ newBuffer at: key put: memento ].
+		(self changeBetween: lowIndex and: highIndex) ifTrue: [ 
 			newBuffer at: key put: (PP2MementoPromise new
-				limit: memento contextMemento + 1;
+				contextMemento: contextMemento + 1;
+				position: key;
 				buffer: newBuffer;
 				yourself)
-		]
+		].
+		(self changeBeforeRange: lowIndex) ifTrue: [ 
+			memento contextMemento: contextMemento + 1.
+			newBuffer at: (key + 1) put: memento 
+		].
+
 	].
 
 	^ newBuffer

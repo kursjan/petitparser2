@@ -6,7 +6,7 @@ testMemoHit
 	parser := (memoized, $b asPParser) / (memoized, $c asPParser).
 	parser setOptimized.
 	
-	context := parser parseContext: 'aac'.
+	context := parser parseWithContext: 'aac' asReparsableContext.
 	
 	self assert: context debugResult allResults size equals: 11.
 	self assert: context returnValue size equals: 2.

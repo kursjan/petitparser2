@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "GLMHighlighterTextStylerDecorator",
+	"category" : "PetitParser2-GUI-Highlighting",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"parser",
+		"context"
+	],
+	"name" : "GLMExpressionHighlighterTextStyler",
+	"type" : "normal"
+}

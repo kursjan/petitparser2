@@ -7,7 +7,7 @@ testMemoMiss
 	parser := (memoized, $b asPParser) / ($a asPParser, memoized).
 	parser setOptimized.
 	
-	context := parser parseContext: 'aaa'.
+	context := parser parseWithContext: 'aaa' asReparsableContext.
 	
 	self assert: context debugResult steps equals: 15.
 	self assert: context returnValue size equals: 2.
