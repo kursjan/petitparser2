@@ -13,5 +13,6 @@ testUpdateBufferInRange
 	self assert: (newBuffer at: key) isKindOf: PP2MementoPromise.
 	self assert: (newBuffer at: key) buffer equals: newBuffer.
 	self assert: (newBuffer at: key) contextMemento equals: 2.
+	self assert: (newBuffer at: key) furthestPosition equals: 2.	"not 100% it should be 2 or 3"
 	self assert: (newBuffer at: key) position equals: key.
 	

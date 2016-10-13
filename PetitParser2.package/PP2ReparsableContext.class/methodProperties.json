@@ -2,11 +2,12 @@
 	"instance" : {
 		"on:" : "JanKurs 10/13/2016 07:47",
 		"furthestPosition:" : "JanKurs 10/13/2016 07:28",
-		"furthestPosition" : "JanKurs 10/13/2016 07:28",
+		"furthestPosition" : "JanKurs 10/13/2016 10:09",
 		"next:" : "JanKurs 10/13/2016 08:59",
 		"asReparsableContext" : "JanKurs 10/13/2016 07:40",
 		"restore:" : "JanKurs 10/13/2016 08:58",
-		"stream:" : "JanKurs 10/13/2016 08:39"
+		"stream:" : "JanKurs 10/13/2016 08:39",
+		"restorePosition:" : "JanKurs 10/13/2016 09:59"
 	},
 	"class" : { }
 }

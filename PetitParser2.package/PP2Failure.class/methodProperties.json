@@ -2,18 +2,16 @@
 	"instance" : {
 		"message:" : "JanKurs 9/1/2016 12:25:21",
 		"isPetit2Failure" : "JanKurs 9/1/2016 12:25:21",
-		"input:" : "JanKurs 10/13/2016 08:04",
 		"setContext:" : "JanKurs 10/13/2016 08:12",
 		"parser" : "JanKurs 10/13/2016 08:05",
+		"furthestPosition" : "JanKurs 10/13/2016 10:12",
 		"returnValue" : "JanKurs 10/7/2016 17:24",
 		"context:" : "JanKurs 10/13/2016 08:12",
 		"position:" : "JanKurs 9/1/2016 12:25:21",
 		"isPetit2Success" : "JanKurs 9/1/2016 12:25:21",
 		"message" : "JanKurs 9/1/2016 12:25:21",
-		"input" : "JanKurs 9/1/2016 12:25:21",
 		"position" : "JanKurs 9/1/2016 12:25:21",
-		"message:position:" : "JanKurs 9/1/2016 12:25:21",
-		"parser:" : "JanKurs 10/13/2016 08:05"
+		"message:position:" : "JanKurs 9/1/2016 12:25:21"
 	},
 	"class" : {
 		"message:context:" : "JanKurs 9/1/2016 12:25:21",

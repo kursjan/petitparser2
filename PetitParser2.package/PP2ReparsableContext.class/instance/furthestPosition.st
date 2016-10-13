@@ -1,3 +1,3 @@
 accessing
 furthestPosition
-	^ furthestPosition
+	^ furthestPosition max: position

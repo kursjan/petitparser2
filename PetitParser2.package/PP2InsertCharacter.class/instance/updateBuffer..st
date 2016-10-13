@@ -2,7 +2,7 @@ private - updates
 updateBuffer: buffer
 	| newBuffer |
 	newBuffer := IdentityDictionary new.
-	
+
 	buffer associationsDo: [ :assoc |
 		| key lowIndex highIndex memento contextMemento |
 		"for some reason, key has indexing from zero"
@@ -16,6 +16,7 @@ updateBuffer: buffer
 		(self changeBetween: lowIndex and: highIndex) ifTrue: [ 
 			newBuffer at: key put: (PP2MementoPromise new
 				contextMemento: contextMemento + 1;
+				furthestPosition: highIndex +1;
 				position: key;
 				buffer: newBuffer;
 				yourself)

@@ -1,5 +1,5 @@
 reparsing
 allReparsables
-	^ self propertyAt: #allReparsables ifAbsent: [
+	^ self propertyAt: #allReparsables ifAbsentPut: [
 		self collectReparsables
 	]

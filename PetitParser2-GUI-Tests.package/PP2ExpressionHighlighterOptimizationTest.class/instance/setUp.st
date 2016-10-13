@@ -1,3 +1,3 @@
 as yet unclassified
 setUp
-	highliter := PP2ExpressionHighlighter new
+	highlighter := PP2ExpressionHighlighter new

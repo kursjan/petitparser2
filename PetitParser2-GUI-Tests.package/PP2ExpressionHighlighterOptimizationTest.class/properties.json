@@ -2,8 +2,8 @@
 	"classtraitcomposition" : "TPP2ReparsableAssertions classTrait",
 	"classvars" : [ ],
 	"instvars" : [
-		"highliter",
-		"context"
+		"context",
+		"highlighter"
 	],
 	"name" : "PP2ExpressionHighlighterOptimizationTest",
 	"commentStamp" : "",

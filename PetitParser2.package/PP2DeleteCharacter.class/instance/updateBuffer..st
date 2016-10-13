@@ -16,6 +16,7 @@ updateBuffer: buffer
 		(self changeBetween: lowIndex and: highIndex) ifTrue: [ 
 			newBuffer at: key put: (PP2MementoPromise new
 				contextMemento: contextMemento - 1;
+				furthestPosition: highIndex - 1;
 				buffer: newBuffer;
 				position: key;
 				yourself)

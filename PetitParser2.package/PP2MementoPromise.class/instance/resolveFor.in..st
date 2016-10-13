@@ -4,7 +4,7 @@ resolveFor: parser in: context
 	memento := PP2Memento new
 		returnValue: (parser parseOn: context);
 		contextMemento: context remember;
-		furthestPosition: (context furthestPosition max: context position);
+		furthestPosition: context furthestPosition;
 		yourself.
 
 	(contextMemento isNotNil and: [ memento contextMemento ~= contextMemento ]) ifTrue: [ 
