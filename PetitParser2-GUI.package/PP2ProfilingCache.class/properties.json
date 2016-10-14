@@ -1,16 +1,17 @@
 {
+	"category" : "PetitParser2-GUI-Profiling",
+	"classinstvars" : [
+		 ],
 	"classtraitcomposition" : "TPP2ProfilingCache classTrait",
-	"classvars" : [ ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"invocations",
-		"hits"
-	],
+		"hits" ],
 	"name" : "PP2ProfilingCache",
-	"commentStamp" : "",
+	"pools" : [
+		 ],
 	"super" : "PP2Cache",
 	"traitcomposition" : "TPP2ProfilingCache",
-	"type" : "normal",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"category" : "PetitParser2-GUI-Profiling"
-}
+	"type" : "normal" }
