@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "RBRemoveClassRefactoring",
 	"category" : "PetitParser2-GUI-Refactoring",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
-		"class"
-	],
+		"class" ],
 	"name" : "PP2RemoveParserRefactoring",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "RBRemoveClassRefactoring",
+	"type" : "normal" }

@@ -7,9 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"parser",
-		"context" ],
-	"name" : "GLMExpressionHighlighterTextStyler",
+		"attributeMapper" ],
+	"name" : "PP2TextHighlighter",
 	"pools" : [
 		 ],
-	"super" : "GLMHighlighterTextStylerDecorator",
+	"super" : "Object",
 	"type" : "normal" }

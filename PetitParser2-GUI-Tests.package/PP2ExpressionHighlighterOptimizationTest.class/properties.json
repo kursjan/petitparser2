@@ -1,16 +1,17 @@
 {
+	"category" : "PetitParser2-GUI-Tests-Highlighting",
+	"classinstvars" : [
+		 ],
 	"classtraitcomposition" : "TPP2ReparsableAssertions classTrait",
-	"classvars" : [ ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"context",
-		"highlighter"
-	],
+		"highlighter" ],
 	"name" : "PP2ExpressionHighlighterOptimizationTest",
-	"commentStamp" : "",
+	"pools" : [
+		 ],
 	"super" : "PP2CompositeParserTest",
 	"traitcomposition" : "TPP2ReparsableAssertions",
-	"type" : "normal",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"category" : "PetitParser2-GUI-Tests-Highlighting"
-}
+	"type" : "normal" }
