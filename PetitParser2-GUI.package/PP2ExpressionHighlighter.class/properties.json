@@ -1,14 +1,11 @@
 {
-	"category" : "PetitParser2-GUI-Highlighting",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "PP2ExpressionHighlighter",
-	"pools" : [
-		 ],
 	"super" : "PP2ExpressionGrammar",
-	"type" : "normal" }
+	"category" : "PetitParser2-GUI-Highlighting",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PP2ExpressionHighlighter",
+	"type" : "normal"
+}

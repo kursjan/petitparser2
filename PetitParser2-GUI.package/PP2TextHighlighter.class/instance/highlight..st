@@ -13,5 +13,5 @@ highlight: aString
 							to: token stop ].
 					token ] ]
 			ifAbsent: [ p ] ].
-	highlighter parse: text.
+	highlighter optimize parse: text.
 	^ text

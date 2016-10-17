@@ -1,14 +1,11 @@
 {
-	"category" : "PetitParser2-GUI-Strategies",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "PP2NilStrategy",
-	"pools" : [
-		 ],
 	"super" : "PP2AbstractStrategy",
-	"type" : "normal" }
+	"category" : "PetitParser2-GUI-Strategies",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PP2NilStrategy",
+	"type" : "normal"
+}
