@@ -1,15 +1,16 @@
 {
-	"commentStamp" : "",
-	"super" : "PP2NoopVisitor",
 	"category" : "PetitParser2-Analysis",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"eoi",
 		"nextSets",
-		"currentNext"
-	],
+		"currentNext" ],
 	"name" : "PP2NextSetsVisitor",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PP2NoopVisitor",
+	"type" : "normal" }

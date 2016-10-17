@@ -1,14 +1,15 @@
 {
-	"commentStamp" : "",
-	"super" : "PP2NoopContext",
 	"category" : "PetitParser2-Optimizations",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"inToken",
-		"parent"
-	],
+		"parent" ],
 	"name" : "PP2RecognizerContext",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PP2NoopContext",
+	"type" : "normal" }

@@ -1,16 +1,17 @@
 {
-	"commentStamp" : "JanKurs 9/6/2016 14:06",
-	"super" : "PP2NodeVisitor",
 	"category" : "PetitParser2-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JanKurs 9/6/2016 14:06",
 	"instvars" : [
 		"closeSet",
 		"cache",
 		"openSet",
-		"openStack"
-	],
+		"openStack" ],
 	"name" : "PP2NoopVisitor",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PP2NodeVisitor",
+	"type" : "normal" }

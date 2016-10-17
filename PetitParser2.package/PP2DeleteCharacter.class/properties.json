@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "PP2InputChange",
 	"category" : "PetitParser2-Reparsing",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "PP2DeleteCharacter",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PP2InputChange",
+	"type" : "normal" }

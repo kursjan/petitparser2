@@ -1,5 +1,4 @@
 {
-	"name" : "TPP2Context",
+	"category" : "PetitParser2-Core",
 	"commentStamp" : "",
-	"category" : "PetitParser2-Core"
-}
+	"name" : "TPP2Context" }

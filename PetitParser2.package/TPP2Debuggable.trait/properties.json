@@ -1,5 +1,4 @@
 {
-	"name" : "TPP2Debuggable",
+	"category" : "PetitParser2-Core",
 	"commentStamp" : "",
-	"category" : "PetitParser2-Core"
-}
+	"name" : "TPP2Debuggable" }

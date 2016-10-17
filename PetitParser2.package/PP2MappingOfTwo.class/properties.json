@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "PP2Mapping",
 	"category" : "PetitParser2-Strategies",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "PP2MappingOfTwo",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PP2Mapping",
+	"type" : "normal" }

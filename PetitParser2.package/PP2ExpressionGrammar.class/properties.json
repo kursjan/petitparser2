@@ -1,10 +1,10 @@
 {
-	"commentStamp" : "",
-	"super" : "PP2CompositeNode",
 	"category" : "PetitParser2-Examples",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"terms",
 		"addition",
@@ -13,8 +13,9 @@
 		"multiplication",
 		"primary",
 		"openBracket",
-		"closeBracket"
-	],
+		"closeBracket" ],
 	"name" : "PP2ExpressionGrammar",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PP2CompositeNode",
+	"type" : "normal" }

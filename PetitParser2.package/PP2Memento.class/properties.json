@@ -1,15 +1,16 @@
 {
-	"commentStamp" : "",
-	"super" : "Object",
 	"category" : "PetitParser2-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"returnValue",
 		"contextMemento",
-		"furthestPosition"
-	],
+		"furthestPosition" ],
 	"name" : "PP2Memento",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
