@@ -1,4 +1,4 @@
-*PetitParser2-GUI
+tests - profiling
 testAsFrequencyTable
 	| parser context table |
 	parser := PP2ExpressionParser new optimize enableDebug.

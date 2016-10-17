@@ -1,5 +1,5 @@
 {
-	"category" : "PetitParser2-GUI-Tests-Visitors",
+	"category" : "PetitParser2-GUI-Highlighting",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -7,10 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"parser",
-		"result",
-		"named" ],
-	"name" : "PP2NamedChildrenVisitorTest",
+		"attributeMapper" ],
+	"name" : "PP2TextHighlighter",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "Object",
 	"type" : "normal" }
