@@ -1,0 +1,13 @@
+{
+	"instance" : {
+		"existingSelector" : " 10/17/2016 02:12:26",
+		"getNewMethodName" : " 10/17/2016 02:12:26",
+		"nameNewMethod:" : " 10/17/2016 02:12:26",
+		"setTargetProduction:" : " 10/17/2016 02:12:26",
+		"shouldExtractAssignmentTo:" : " 10/17/2016 02:12:26",
+		"preconditions" : " 10/17/2016 02:12:26"
+	},
+	"class" : {
+		"onClass:production:interval:to:" : " 10/17/2016 02:12:26"
+	}
+}
