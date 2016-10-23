@@ -1,0 +1,30 @@
+{
+	"category" : "PetitParser2-JSON",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"CharacterTable" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"members",
+		"pair",
+		"string",
+		"value",
+		"elements",
+		"number",
+		"object",
+		"array",
+		"trueToken",
+		"falseToken",
+		"nullToken",
+		"char",
+		"stringToken",
+		"numberToken",
+		"charEscape",
+		"charNormal",
+		"charOctal" ],
+	"name" : "PP2JsonGrammar",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
