@@ -7,8 +7,8 @@ addStatements: aCollection into: aNode
 			ifFalse: [ aNode addNode:  each ]
 			ifTrue: [
 				aNode statements isEmpty
-					ifTrue: [ aNode addComments: each comments ]
-					ifFalse: [ aNode statements last addComments: each comments ].
+					ifTrue: [ aNode pp2AddComments: each comments ]
+					ifFalse: [ aNode statements last pp2AddComments: each comments ].
 				aNode periods: (aNode periods asOrderedCollection
 					addLast: each start;
 					yourself) ] ].

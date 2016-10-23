@@ -5,12 +5,12 @@ buildMethod: aMethodNode
 "	aMethodNode selectorParts 
 		do: [ :each | aMethodNode addComments: each comments ].
 "	aMethodNode arguments
-		do: [ :each | aMethodNode addComments: each comments ].
+		do: [ :each | aMethodNode pp2AddComments: each comments ].
 	aMethodNode pragmas do: [ :aPragma |
-		aMethodNode addComments: aPragma comments.
-		aMethodNode addComments: aPragma comments.
+		aMethodNode pp2AddComments: aPragma comments.
+		aMethodNode pp2AddComments: aPragma comments.
 		aPragma arguments do: [ :each | 
 			each isLiteralArray
-				ifFalse: [ aMethodNode addComments: each comments ] ].
+				ifFalse: [ aMethodNode pp2AddComments: each comments ] ].
 		aPragma comments: #() ].
 	^ aMethodNode
