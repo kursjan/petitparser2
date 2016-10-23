@@ -18,7 +18,8 @@ baseline: spec
 			package: 'PetitParser2-Smalltalk-Tests' with: [ spec requires: #('PetitParser2-Smalltalk' 'PetitParser2-Tests') ];
 			package: 'PetitParser2-CSV' with: [ spec requires: #('PetitParser2') ];
 			package: 'PetitParser2-JSON' with: [ spec requires: #('PetitParser2') ];
-			package: 'PetitParser2-MSE' with: [ spec requires: #('PetitParser2') ].
+			package: 'PetitParser2-MSE' with: [ spec requires: #('PetitParser2') ];
+			package: 'PetitParser2-ManifestMf' with: [spec requires: #('PetitParser2') ].
 
 		spec project: 'Glamour' with: [
 			spec
