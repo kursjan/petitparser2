@@ -1,0 +1,14 @@
+{
+	"category" : "PetitParser2-MSE",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"stream" ],
+	"name" : "PP2MSEPrettyPrinter",
+	"pools" : [
+		 ],
+	"super" : "PP2MSEArrayParser",
+	"type" : "normal" }

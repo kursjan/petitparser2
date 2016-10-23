@@ -1,0 +1,32 @@
+{
+	"category" : "PetitParser2-MSE",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"elements",
+		"element",
+		"attributeValue",
+		"attribute",
+		"elementName",
+		"primitive",
+		"reference",
+		"id",
+		"string",
+		"number",
+		"boolean",
+		"integerReference",
+		"nameReference",
+		"open",
+		"close",
+		"simpleName",
+		"natural",
+		"e",
+		"stringText" ],
+	"name" : "PP2MSEGrammar",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

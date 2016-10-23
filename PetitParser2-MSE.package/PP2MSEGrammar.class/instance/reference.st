@@ -1,0 +1,3 @@
+grammar
+reference 
+	^ integerReference / nameReference

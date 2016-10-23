@@ -1,0 +1,3 @@
+basic
+open
+	^ $( asPParser trim
