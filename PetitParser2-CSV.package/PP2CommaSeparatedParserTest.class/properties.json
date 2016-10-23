@@ -12,5 +12,5 @@
 	"name" : "PP2CommaSeparatedParserTest",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "PP2CompositeParserTest",
 	"type" : "normal" }

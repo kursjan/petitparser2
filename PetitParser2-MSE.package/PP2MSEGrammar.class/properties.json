@@ -28,5 +28,5 @@
 	"name" : "PP2MSEGrammar",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "PP2CompositeNode",
 	"type" : "normal" }

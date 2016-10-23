@@ -26,5 +26,5 @@
 	"name" : "PP2JsonGrammar",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "PP2CompositeNode",
 	"type" : "normal" }

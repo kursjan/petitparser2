@@ -10,5 +10,5 @@
 	"name" : "PP2JsonParserTest",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "PP2CompositeParserTest",
 	"type" : "normal" }

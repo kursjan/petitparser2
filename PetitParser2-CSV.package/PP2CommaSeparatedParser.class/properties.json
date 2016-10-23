@@ -15,5 +15,5 @@
 	"name" : "PP2CommaSeparatedParser",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "PP2CompositeNode",
 	"type" : "normal" }
