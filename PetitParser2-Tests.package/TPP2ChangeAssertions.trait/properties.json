@@ -1,5 +1,4 @@
 {
-	"name" : "TPP2ChangeAssertions",
+	"category" : "PetitParser2-Tests-Reparsing",
 	"commentStamp" : "",
-	"category" : "PetitParser2-Tests-Reparsing"
-}
+	"name" : "TPP2ChangeAssertions" }

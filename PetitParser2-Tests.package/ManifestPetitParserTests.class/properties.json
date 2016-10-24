@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "<historical>",
-	"super" : "PackageManifest",
 	"category" : "PetitParser2-Tests",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
 	"name" : "ManifestPetitParserTests",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PackageManifest",
+	"type" : "normal" }

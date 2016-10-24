@@ -1,15 +1,16 @@
 {
-	"commentStamp" : "",
-	"super" : "PP2AbstractParserTest",
 	"category" : "PetitParser2-Tests-Streams",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"parser",
 		"stream",
-		"tokens"
-	],
+		"tokens" ],
 	"name" : "PP2BufferStreamIntegrationTest",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PP2AbstractParserTest",
+	"type" : "normal" }

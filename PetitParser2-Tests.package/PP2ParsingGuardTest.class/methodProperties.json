@@ -1,9 +1,0 @@
-{
-	"instance" : {
-		"testParseOnUnicode" : "JanKurs 9/17/2016 23:33",
-		"testParseOnFailure" : "JanKurs 9/17/2016 23:33",
-		"testParseOn" : "JanKurs 9/17/2016 23:33",
-		"guardOn:" : "JanKurs 9/13/2016 15:31"
-	},
-	"class" : { }
-}

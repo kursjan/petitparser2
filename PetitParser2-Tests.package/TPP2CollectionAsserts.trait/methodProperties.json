@@ -1,9 +1,0 @@
-{
-	"instance" : {
-		"assert:allSatisfy:" : "JanKurs 10/8/2016 12:54",
-		"assert:includes:" : "JanKurs 10/8/2016 12:52",
-		"assert:noneSatisfy:" : "JanKurs 10/8/2016 12:52",
-		"assert:anySatisfy:" : "JanKurs 10/8/2016 12:52"
-	},
-	"class" : { }
-}
