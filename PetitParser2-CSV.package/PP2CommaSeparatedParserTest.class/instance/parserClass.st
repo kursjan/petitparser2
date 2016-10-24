@@ -1,3 +1,3 @@
 as yet unclassified
 parserClass
-	^ PPCommaSeparatedParser
+	^ PP2CommaSeparatedParser

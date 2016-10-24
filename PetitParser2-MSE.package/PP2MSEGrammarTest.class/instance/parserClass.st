@@ -1,3 +1,3 @@
 accessing
 parserClass
-	^ PPMSEGrammar
+	^ PP2MSEGrammar

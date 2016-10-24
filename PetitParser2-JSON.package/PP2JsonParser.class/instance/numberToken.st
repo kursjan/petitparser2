@@ -1,3 +1,3 @@
 tokens
 numberToken
-	^ super numberToken ==> [ :token | (token inputValue copyWithout: $+) asLowercase asNumber ]
+	^ super numberToken ==> [ :token | (token value copyWithout: $+) asLowercase asNumber ]

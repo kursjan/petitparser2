@@ -1,3 +1,3 @@
 accessing
 parserClass
-	^ PPMSEArrayParser
+	^ PP2MSEArrayParser

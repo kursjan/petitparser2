@@ -1,3 +1,3 @@
 accessing
 parserClass
-	^ PPJsonParser
+	^ PP2JsonParser

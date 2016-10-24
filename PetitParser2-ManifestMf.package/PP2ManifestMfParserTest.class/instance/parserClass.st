@@ -1,3 +1,3 @@
 as yet unclassified
 parserClass
-	^ PPManifestMfParser
+	^ PP2ManifestMfParser
