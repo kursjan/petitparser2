@@ -11,10 +11,8 @@ testNonNullableIsland
 		
 	parser := sea, boundary.
 	
-	context := PP2Context new.
-	context parser: parser.
-
-	beforeWater := sea createBeforeWater: context.
+	sea updateBeforeWater: parser.
+	beforeWater := sea beforeWater.
 			
 	elements := beforeWater boundary child children.
 	self assert: elements size equals: 2.	

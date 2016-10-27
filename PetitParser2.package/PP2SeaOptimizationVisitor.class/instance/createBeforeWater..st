@@ -1,6 +1,8 @@
 seas optimizations
 createBeforeWater: node
 	| nextSet |
+	self halt: 'depr.'.
+	
 	nextSet := self nextSet: node.
 	nextSet := self removeSeas: nextSet.
 	

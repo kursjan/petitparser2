@@ -1,3 +1,3 @@
-as yet unclassified
 javascript
-	^ javascriptElementBegin, javascriptContent, javascriptElementEnd
+javascript
+	^ jsElementBegin, jsContent, jsElementEnd

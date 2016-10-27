@@ -8,7 +8,8 @@
 	"instvars" : [
 		"island",
 		"beforeWater",
-		"afterWater" ],
+		"afterWater",
+		"root" ],
 	"name" : "PP2SeaNode",
 	"pools" : [
 		 ],

@@ -2,5 +2,9 @@ initialization
 initialize
 	super initialize.
 	
-	beforeWater := PP2AdaptableNode new.
-	afterWater := PP2AdaptableNode new.
+	beforeWater := PP2WaterNode new
+		waterToken: self waterToken;
+		yourself.
+	afterWater := PP2WaterNode new
+		waterToken: self waterToken;
+		yourself.

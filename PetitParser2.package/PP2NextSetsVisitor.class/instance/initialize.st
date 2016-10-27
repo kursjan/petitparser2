@@ -6,4 +6,4 @@ initialize
 	nextSets := IdentityDictionary new.
 	
 	"make sure the current next is immutable, otherwise you will have a non-deterministic behaviour"
-	currentNext := OrderedCollection with: eoi.
+	currentNext := IdentitySet with: eoi.

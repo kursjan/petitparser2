@@ -1,0 +1,3 @@
+javascript
+jsElementEnd
+	^ '</script>' asPParser

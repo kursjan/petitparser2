@@ -1,3 +1,3 @@
-as yet unclassified
-javascriptElementBegin
+javascript
+jsElementBegin
 	^ '<script type=''text/javascript''>' asPParser

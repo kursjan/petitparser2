@@ -1,5 +1,5 @@
 tests
-testCreateBeforeWater
+testUpdateBeforeWater
 	| waterToken island beforeWater boundary elements |
 	waterToken := #space asPParser.
 	island := $a asPParser.
@@ -11,10 +11,8 @@ testCreateBeforeWater
 		
 	parser := sea, boundary.
 	
-	context := PP2Context new.
-	context parser: parser.
-
-	beforeWater := sea createBeforeWater: context.
+	sea updateBeforeWater: parser.
+	beforeWater := sea beforeWater.
 	
 	self assert: beforeWater isKindOf: PP2WaterNode.
 	self assert: beforeWater waterToken equals: waterToken.

@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"context",
 		"parser",
 		"sea" ],
 	"name" : "PP2SeaNodeTest",

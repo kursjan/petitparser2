@@ -1,3 +1,3 @@
 as yet unclassified
 testJavascript
-	self parse: '<script type=''text/javascript''>alert("foobar")</script>' rule: #javascript
+	self parse: '<script type=''text/javascript''>alert(1+2)</script>' rule: #javascript

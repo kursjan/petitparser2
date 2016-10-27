@@ -1,5 +1,5 @@
 accessing
 waterToken
-	^ self propertyAt: #waterToken ifAbsentPut: [  
+	^ self propertyAt: #waterToken ifAbsent: [  
 		#any asPParser 
 	]
