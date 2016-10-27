@@ -1,0 +1,18 @@
+{
+	"category" : "PetitParser2-Tests-Analysis",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"o1",
+		"o2",
+		"context1",
+		"context2",
+		"o3" ],
+	"name" : "PP2NextSetsContextTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

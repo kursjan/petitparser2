@@ -7,6 +7,7 @@ parseOn: context
 	
 	"Recursive Water case"
 	(context waterPosition = context position) ifTrue: [  ^ '' ].
+	Halt if: [ Sensor shiftPressed ].
 	
 	[
 		context waterPosition: context position.
@@ -18,5 +19,5 @@ parseOn: context
 			^ PP2Failure message: 'water boundary not found' context: context.
 		].
 	].
-
+	context waterPosition: startWaterPosition.
 	^ context copyFrom: start + 1 to: context position

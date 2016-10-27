@@ -1,5 +1,6 @@
 caching
 context: node
-	^ (super context: node) 
+	^ PP2NextSetsContext new
+		node: node;
 		currentNext: currentNext;
 		yourself

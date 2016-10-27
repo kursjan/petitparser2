@@ -1,3 +1,3 @@
 javascript
 javascript
-	^ jsElementBegin, jsContent, jsElementEnd
+	^ jsOpen, jsContent, jsClose

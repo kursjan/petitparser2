@@ -4,4 +4,4 @@ emptySea
 	nilSea := self seaInstance.
 	nilSea island: nil asPParser.
 	nilSea name: 'nil sea'.
-	^ nilSea ==> #first
+	^ nilSea
