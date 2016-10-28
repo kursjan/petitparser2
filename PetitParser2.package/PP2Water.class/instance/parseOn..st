@@ -7,7 +7,6 @@ parseOn: context
 	
 	"Recursive Water case"
 	(context waterPosition = context position) ifTrue: [  ^ '' ].
-	Halt if: [ Sensor shiftPressed ].
 	
 	[
 		context waterPosition: context position.

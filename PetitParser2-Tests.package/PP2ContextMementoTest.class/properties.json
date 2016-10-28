@@ -1,0 +1,14 @@
+{
+	"category" : "PetitParser2-Tests-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"memento" ],
+	"name" : "PP2ContextMementoTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

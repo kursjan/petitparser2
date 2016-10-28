@@ -1,3 +1,3 @@
 accessing
 start
-	^ self startMemento
+	^ self startMemento position

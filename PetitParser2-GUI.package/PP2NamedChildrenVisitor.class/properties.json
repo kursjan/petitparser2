@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "JanKurs 9/15/2016 13:17",
-	"super" : "PP2NoopVisitor",
 	"category" : "PetitParser2-GUI-Visitors",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JanKurs 9/15/2016 13:17",
+	"instvars" : [
+		 ],
 	"name" : "PP2NamedChildrenVisitor",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PP2NoopVisitor",
+	"type" : "normal" }

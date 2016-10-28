@@ -11,4 +11,4 @@ testUpdateBufferChangeAfter
 	
 	newBuffer := change updateBuffer: buffer.
 	self assert: (newBuffer at: key) equals: memento.
-	self assert: memento contextMemento equals: 1.
+	self assert: memento contextMemento position equals: 1.

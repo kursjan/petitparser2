@@ -1,7 +1,7 @@
 parsing
 parseOn: context
 	| position retval start |
-	position := context position.
+	position := context rememberPosition.
 	trimmer parseOn: context.
 
 	start := context position.

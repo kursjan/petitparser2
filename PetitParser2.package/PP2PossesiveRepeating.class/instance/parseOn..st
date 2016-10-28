@@ -1,19 +1,19 @@
 parsing
-parseOn: aPP2Context
+parseOn: context
 	| memento elements retval |
 	elements := OrderedCollection new.
-	memento := aPP2Context remember.
+	memento := context remember.
 	
 	[ elements size < node min ] whileTrue: [
-		(retval := node child parseOn: aPP2Context) isPetit2Failure ifTrue: [
-			aPP2Context restore: memento.
+		(retval := node child parseOn: context) isPetit2Failure ifTrue: [
+			context restore: memento.
 			^ retval
 		].
 		elements addLast: retval 
 	].
 	
 	[ elements size < node max ] whileTrue: [
-	 	(retval := node child parseOn: aPP2Context) isPetit2Failure ifTrue: [ 
+	 	(retval := node child parseOn: context) isPetit2Failure ifTrue: [ 
 			^ elements 
 		].
 		elements addLast: retval 

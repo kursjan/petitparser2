@@ -1,14 +1,15 @@
 {
-	"commentStamp" : "",
-	"super" : "Object",
 	"category" : "PetitParser2-GUI-Highlighting",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"parser",
-		"attributeMapper"
-	],
+		"attributeMapper" ],
 	"name" : "PP2TextHighlighter",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

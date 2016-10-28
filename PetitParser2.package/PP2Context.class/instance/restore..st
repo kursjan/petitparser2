@@ -1,3 +1,4 @@
 memoization
-restore: aPPContextMemento
-	position := aPPContextMemento
+restore: contextMemento
+	position := contextMemento position.
+	properties := contextMemento propertiesCopy.

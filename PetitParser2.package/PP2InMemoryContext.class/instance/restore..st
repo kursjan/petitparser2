@@ -1,3 +1,4 @@
 memoization
-restore: anInteger
-	position := anInteger 
+restore: contextMemento
+	position := contextMemento position.
+	properties := contextMemento propertiesCopy.

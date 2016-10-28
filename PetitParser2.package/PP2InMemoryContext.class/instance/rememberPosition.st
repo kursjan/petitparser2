@@ -1,0 +1,3 @@
+memoization
+rememberPosition
+	^ position

@@ -1,0 +1,18 @@
+{
+	"category" : "PetitParser2-Core",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TPP2Properties classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"stream",
+		"position",
+		"properties" ],
+	"name" : "PP2ContextMemento",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "TPP2Properties",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "PetitParser2-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PP2NilProperties",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

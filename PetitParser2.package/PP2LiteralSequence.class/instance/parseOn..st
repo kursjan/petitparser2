@@ -1,7 +1,7 @@
 parsing
 parseOn: aPP2Context
 	| position |
-	position := aPP2Context position.
+	position := aPP2Context rememberPosition.
 	(node literal = (aPP2Context next: node size)) ifTrue: [  
 		^ node literal
 	].
