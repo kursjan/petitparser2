@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testElContent
 	self parse: '' rule: #elContent.
 	self parse: 'foobar' rule: #elContent.

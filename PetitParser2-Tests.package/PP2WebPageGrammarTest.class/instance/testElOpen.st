@@ -1,3 +1,3 @@
-as yet unclassified
+tests
 testElOpen
 	self parse: '<foo id="bar">' rule: #elOpen
