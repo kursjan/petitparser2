@@ -1,3 +1,3 @@
 accessing
 start
-	^ document
+	^ element star

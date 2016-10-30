@@ -21,8 +21,7 @@
 		"elContent",
 		"jsType",
 		"jsTypeString",
-		"rawText",
-		"document" ],
+		"rawText" ],
 	"name" : "PP2WebPageGrammar",
 	"pools" : [
 		 ],
