@@ -1,3 +1,3 @@
-javascript seas
-waterToken
+javascript
+jsWater
 	^ jsDoubleQuoteString / whitespaces / any
