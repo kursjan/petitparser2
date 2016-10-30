@@ -1,3 +1,0 @@
-javascript
-jsClose
-	^ '</script>' asPParser
