@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"exampleSmalltalk" : " 10/30/2016 18:26:47" },
+	"instance" : {
+		"benchmarkRBParser" : " 10/30/2016 18:26:47",
+		"benchmarkSmalltalkGrammar" : " 10/30/2016 18:26:47",
+		"benchmarkSmalltalkGrammarIM" : " 10/30/2016 18:26:47",
+		"benchmarkSmalltalkGrammarNoOpt" : " 10/30/2016 18:26:47",
+		"benchmarkSmalltalkParser" : " 10/30/2016 18:26:47",
+		"benchmarkSmalltalkParserNoOpt" : " 10/30/2016 18:26:47",
+		"benchmarkSmalltalkParserSmacc" : " 10/30/2016 18:26:47",
+		"setupRBParser" : " 10/30/2016 18:26:47",
+		"setupSmalltalkGrammar" : " 10/30/2016 18:26:47",
+		"setupSmalltalkGrammarIM" : " 10/30/2016 18:26:47",
+		"setupSmalltalkGrammarNoOpt" : " 10/30/2016 18:26:47",
+		"setupSmalltalkParser" : " 10/30/2016 18:26:47",
+		"setupSmalltalkParserNoOpt" : " 10/30/2016 18:26:47",
+		"setupSmalltalkParserSmacc" : " 10/30/2016 18:26:47" } }

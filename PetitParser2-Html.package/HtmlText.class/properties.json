@@ -10,5 +10,5 @@
 	"name" : "HtmlText",
 	"pools" : [
 		 ],
-	"super" : "HtmlAbstractElement",
+	"super" : "WebElement",
 	"type" : "normal" }

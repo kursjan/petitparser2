@@ -1,3 +1,3 @@
 accessing
 scripts: rootElement
-	^ rootElement allNodes select: [ :e | e isKindOf: JavascriptElement  ]
+	^ rootElement allElements select: [ :e | e isKindOf: JavascriptElement  ]

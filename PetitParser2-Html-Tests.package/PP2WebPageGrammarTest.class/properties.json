@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"context" ],
+		"context",
+		"input" ],
 	"name" : "PP2WebPageGrammarTest",
 	"pools" : [
 		 ],
