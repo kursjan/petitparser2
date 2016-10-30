@@ -1,10 +1,11 @@
 tests
 testGuardStarEmpty
-	| invocations parserOne wrappedOne |
-	invocations := OrderedCollection new.
-	parserOne := nil asPParser ==> [ :e | invocations add: #a. e. ], $a asPParser.
+	| parser wrappedOne result |
 
-	wrappedOne := parserOne wrapped trim flatten. 
+	wrappedOne := $a asPParser wrapped trim flatten. 
+	parser := wrappedOne star.
+	parser optimize.
+	parser enableDebug.
 
-	self assert: wrappedOne star optimize parse: 'c' to: #() end: 0.
-	self assert: invocations size equals: 0
+	result := self assert: parser parse: 'c' to: #() end: 0.
+	self assert: result debugResult steps equals: 2.

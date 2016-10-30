@@ -1,4 +1,4 @@
-as yet unclassified
+javascript
 javascript
 	^ super javascript 
 	

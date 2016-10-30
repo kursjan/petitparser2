@@ -1,4 +1,4 @@
-as yet unclassified
+enumerating
 allElements
 	| result |
 	result := OrderedCollection new.

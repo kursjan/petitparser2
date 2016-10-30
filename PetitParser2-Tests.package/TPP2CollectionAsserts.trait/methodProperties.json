@@ -1,8 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"assert:allSatisfy:" : " 10/30/2016 14:10:27",
-		"assert:anySatisfy:" : " 10/30/2016 14:10:27",
-		"assert:includes:" : " 10/30/2016 14:10:27",
-		"assert:noneSatisfy:" : " 10/30/2016 14:10:27" } }

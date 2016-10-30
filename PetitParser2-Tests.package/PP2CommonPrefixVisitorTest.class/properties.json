@@ -2,6 +2,7 @@
 	"category" : "PetitParser2-Tests-Optimizations",
 	"classinstvars" : [
 		 ],
+	"classtraitcomposition" : "TPP2TypeAssertions classTrait",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -12,4 +13,5 @@
 	"pools" : [
 		 ],
 	"super" : "TestCase",
+	"traitcomposition" : "TPP2TypeAssertions",
 	"type" : "normal" }

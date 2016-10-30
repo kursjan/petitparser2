@@ -1,3 +1,3 @@
 accessing
 parse: aStream withParser: aParser withContext: aContext
-	^ aParser optimize parseAdaptable: aStream withContext: aContext
+	^ aParser parseAdaptable: aStream withContext: aContext

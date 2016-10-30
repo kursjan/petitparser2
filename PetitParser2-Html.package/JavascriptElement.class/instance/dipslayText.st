@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 dipslayText
 	^ self code

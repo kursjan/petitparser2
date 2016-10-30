@@ -1,10 +1,11 @@
 tests
 testGuardOptionalFailure
-	| invocations parserOne wrappedOne |
-	invocations := OrderedCollection new.
+	|  wrappedOne parser result |
 
-	parserOne := $a asPParser >==> [ :c :cc | invocations add: #a. cc value. ].
-	wrappedOne := parserOne wrapped trim flatten >==> [:c :cc | invocations add: #opt. cc value ]. 
+	wrappedOne := $a asPParser wrapped trim flatten.
+	parser := wrappedOne optional.
+	parser optimize.
+	parser enableDebug.
 
-	self assert: wrappedOne optional optimize parse: 'c' to: nil end: 0.
-	self assert: invocations size equals: 0
+	result := self assert: parser parse: 'c' to: nil end: 0.
+	self assert: result debugResult steps equals: 2

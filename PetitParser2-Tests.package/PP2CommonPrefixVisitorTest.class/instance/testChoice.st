@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testChoice
 	| production |
 	production := 'foo' asPParser plus wrapped trim ==> [ :foo | foo ]

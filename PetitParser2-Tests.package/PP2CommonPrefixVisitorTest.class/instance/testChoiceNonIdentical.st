@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testChoiceNonIdentical
 	| productionOne productionTwo |
 	productionOne := 'foo' asPParser plus wrapped trim ==> [ :foo | foo ]

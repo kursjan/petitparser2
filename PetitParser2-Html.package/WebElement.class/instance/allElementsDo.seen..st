@@ -1,4 +1,4 @@
-as yet unclassified
+enumerating
 allElementsDo: aBlock seen: aSet
 	"
 		Iterate over all the parse nodes of the receiver, do not visit the ones contained in aSet.

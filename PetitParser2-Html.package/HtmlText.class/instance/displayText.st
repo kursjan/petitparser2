@@ -1,3 +1,3 @@
 accessing
 displayText
-	'abstract element'
+	^ self text trim

@@ -1,11 +1,11 @@
 tests
-testSequence
+testSea
 	| production |
 	production := 'foo' asPParser plus wrapped trim ==> [ :foo | foo ]
 		name: 'production';
 		yourself.
 	
-	parser := (production, $a asPParser) star, production wrapped.
+	parser := production sea.
 	
 	self visit: parser.
 	

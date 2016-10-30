@@ -1,5 +1,3 @@
 element
 element
-	^ elOpen,
-		elContent,
-	elClose
+	^ elOpen, elContent, elClose
