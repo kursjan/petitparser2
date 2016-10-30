@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assert:at:" : " 10/30/2016 14:10:27",
+		"deny:at:" : " 10/30/2016 14:10:27",
+		"optimize:" : " 10/30/2016 14:10:27",
+		"setUp" : " 10/30/2016 14:10:27",
+		"testChoice" : " 10/30/2016 14:10:27",
+		"testClassificationFor" : " 10/30/2016 14:10:27",
+		"testClassificationFor2" : " 10/30/2016 14:10:27",
+		"testDelegate" : " 10/30/2016 14:10:27",
+		"testGuardedChoice" : " 10/30/2016 14:10:27",
+		"testGuardedChoice2" : " 10/30/2016 14:10:27",
+		"testOptional" : " 10/30/2016 14:10:27",
+		"testPlus" : " 10/30/2016 14:10:27",
+		"testStar" : " 10/30/2016 14:10:27",
+		"testTimes" : " 10/30/2016 14:10:27" } }

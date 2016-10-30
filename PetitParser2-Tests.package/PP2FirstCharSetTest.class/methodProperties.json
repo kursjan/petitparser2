@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assert:value:" : " 10/30/2016 14:10:27",
+		"reject:value:" : " 10/30/2016 14:10:27",
+		"testEmptyLiteralSequence" : " 10/30/2016 14:10:27",
+		"testEpsilon" : " 10/30/2016 14:10:27",
+		"testLiteralObject" : " 10/30/2016 14:10:27",
+		"testLiteralSequence" : " 10/30/2016 14:10:27",
+		"testNot" : " 10/30/2016 14:10:27",
+		"testPluggable" : " 10/30/2016 14:10:27",
+		"testPredicateObject" : " 10/30/2016 14:10:27",
+		"testStartOfLine" : " 10/30/2016 14:10:27",
+		"testWrapping" : " 10/30/2016 14:10:27",
+		"testWrappingNonFunctional" : " 10/30/2016 14:10:27" } }

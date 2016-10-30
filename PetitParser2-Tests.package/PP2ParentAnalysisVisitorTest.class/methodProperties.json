@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assert:includes:" : " 10/30/2016 14:10:27",
+		"setUp" : " 10/30/2016 14:10:27",
+		"testCycle" : " 10/30/2016 14:10:27",
+		"testDeepParent" : " 10/30/2016 14:10:27",
+		"testMultipleParents" : " 10/30/2016 14:10:27",
+		"testNoParent" : " 10/30/2016 14:10:27",
+		"testParent" : " 10/30/2016 14:10:27",
+		"testParentOfSequence" : " 10/30/2016 14:10:27" } }

@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assert:indexBefore:" : " 10/30/2016 14:10:27",
+		"setUp" : " 10/30/2016 14:10:27",
+		"testChangeAfterRange" : " 10/30/2016 14:10:27",
+		"testChangeBeforeRange" : " 10/30/2016 14:10:27",
+		"testChangeBetweenAnd" : " 10/30/2016 14:10:27",
+		"testUpdateBufferChangeAfter" : " 10/30/2016 14:10:27",
+		"testUpdateBufferChangeBefore" : " 10/30/2016 14:10:27",
+		"testUpdateBufferInRange" : " 10/30/2016 14:10:27",
+		"testUpdateBufferInRangeHighBoundary" : " 10/30/2016 14:10:27",
+		"testUpdateBufferInRangeLowBoundary" : " 10/30/2016 14:10:27",
+		"testUpdateTokens" : " 10/30/2016 14:10:27",
+		"testUpdateTokensAfterChange" : " 10/30/2016 14:10:27",
+		"testUpdateTokensOnce" : " 10/30/2016 14:10:27",
+		"testUpdateTokensSingleToken" : " 10/30/2016 14:10:27" } }

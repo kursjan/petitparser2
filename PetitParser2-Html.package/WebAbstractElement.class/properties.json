@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"text" ],
-	"name" : "HtmlText",
+		 ],
+	"name" : "WebAbstractElement",
 	"pools" : [
 		 ],
-	"super" : "WebAbstractElement",
+	"super" : "Object",
 	"type" : "normal" }

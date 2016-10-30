@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"deny:equals:" : " 10/30/2016 14:10:27",
+		"testCycle" : " 10/30/2016 14:10:27",
+		"testPossesiveRepeating" : " 10/30/2016 14:10:27",
+		"testPossesiveRepeatingDifferent" : " 10/30/2016 14:10:27",
+		"testPossesiveRepeatingDifferent2" : " 10/30/2016 14:10:27",
+		"testPredicateObject" : " 10/30/2016 14:10:27",
+		"testSequence" : " 10/30/2016 14:10:27" } }

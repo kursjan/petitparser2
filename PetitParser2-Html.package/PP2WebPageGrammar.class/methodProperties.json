@@ -3,6 +3,7 @@
 		 },
 	"instance" : {
 		"any" : "JanKurs 10/24/2016 15:26",
+		"document" : "JanKurs 10/30/2016 18:01",
 		"elClose" : "JanKurs 10/30/2016 11:01",
 		"elContent" : "JanKurs 10/30/2016 13:25",
 		"elOpen" : "JanKurs 10/30/2016 14:03",
@@ -12,10 +13,10 @@
 		"jsClose" : "JanKurs 10/27/2016 10:01",
 		"jsContent" : "JanKurs 10/24/2016 15:24",
 		"jsDoubleQuoteString" : "JanKurs 10/24/2016 15:15",
-		"jsOpen" : "JanKurs 10/27/2016 10:16",
+		"jsOpen" : "JanKurs 10/30/2016 18:02",
 		"jsType" : "JanKurs 10/27/2016 10:15",
-		"jsTypeString" : "JanKurs 10/27/2016 10:16",
+		"jsTypeString" : "JanKurs 10/30/2016 18:02",
 		"rawText" : "JanKurs 10/30/2016 13:25",
-		"start" : "JanKurs 10/27/2016 14:26",
+		"start" : "JanKurs 10/30/2016 17:57",
 		"waterToken" : "JanKurs 10/24/2016 15:25",
 		"whitespaces" : "JanKurs 10/24/2016 15:25" } }

@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"contextOn:" : " 10/30/2016 14:10:27",
+		"testAsPetit2Context" : " 10/30/2016 14:10:27",
+		"testAsPetit2ContextDirect" : " 10/30/2016 14:10:27",
+		"testAsPositionableStream" : " 10/30/2016 14:10:27",
+		"testCopy" : " 10/30/2016 14:10:27" } }

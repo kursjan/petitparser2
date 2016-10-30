@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assert:isKindOf:" : " 10/30/2016 14:10:27",
+		"setUp" : " 10/30/2016 14:10:27",
+		"testDifferentTrimmers" : " 10/30/2016 14:10:27",
+		"testSequence" : " 10/30/2016 14:10:27",
+		"testSimpleTrimming" : " 10/30/2016 14:10:27",
+		"testSimpleTrimmingToken" : " 10/30/2016 14:10:27" } }
