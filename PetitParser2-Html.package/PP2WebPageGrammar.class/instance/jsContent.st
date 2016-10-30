@@ -1,5 +1,5 @@
 javascript
 jsContent
 	^ nil asPParser sea 
-		waterToken: waterToken;
+		waterToken: jsWater;
 		flatten
