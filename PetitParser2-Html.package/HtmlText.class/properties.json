@@ -1,0 +1,14 @@
+{
+	"category" : "PetitParser2-Html-AST",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"text" ],
+	"name" : "HtmlText",
+	"pools" : [
+		 ],
+	"super" : "HtmlAbstractElement",
+	"type" : "normal" }
