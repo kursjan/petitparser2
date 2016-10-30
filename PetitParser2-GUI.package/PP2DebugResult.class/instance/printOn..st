@@ -12,4 +12,4 @@ printOn: aStream
 		nextPutAll: self events size asString;
 "		nextPutAll: ')';
 		nextPutAll: ' - ';   
-		nextPutAll: (self result printStringLimitedTo: 20).
+		nextPutAll: (self result printStringLimitedTo: 50).

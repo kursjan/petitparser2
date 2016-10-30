@@ -1,12 +1,12 @@
 utilities
 assert: aParser parse: aCollection to: aTargetObject end: anInteger
-	| stream result context |
+	| stream result ctx |
 
 	self assert: aParser isPetit2Parser description: 'Parser invalid'.
 	stream := aCollection asPetit2Stream.
-	context := self context.
+	ctx := self context.
 	
-	result := self parse: stream withParser: aParser withContext: context.
+	result := self parse: stream withParser: aParser withContext: ctx.
 	
 	aTargetObject isNil
 		ifTrue: [ self deny: result isPetit2Failure ]

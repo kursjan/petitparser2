@@ -1,3 +1,3 @@
 element
 elementName
-	^ #word asPParser plus
+	^ #word asPParser plus flatten

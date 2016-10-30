@@ -1,5 +1,6 @@
 SystemOrganization addCategory: #PetitParser2!
 SystemOrganization addCategory: 'PetitParser2-Analysis'!
+SystemOrganization addCategory: 'PetitParser2-Context'!
 SystemOrganization addCategory: 'PetitParser2-Core'!
 SystemOrganization addCategory: 'PetitParser2-Examples'!
 SystemOrganization addCategory: 'PetitParser2-Interpretation'!

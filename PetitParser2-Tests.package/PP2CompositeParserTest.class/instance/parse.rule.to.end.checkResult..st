@@ -1,10 +1,10 @@
 parsing
 parse: aString rule: aSymbol to: expectedResult end: end checkResult: aBoolean
-	| production context |
+	| production ctx |
 	production := self parserInstanceFor: aSymbol.
-	context := self context.
+	ctx := self context.
 	
-	resultContext := self parse: aString withParser: production withContext: context.
+	resultContext := self parse: aString withParser: production withContext: ctx.
 	result := resultContext value.
 	
 	self

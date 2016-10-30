@@ -1,3 +1,4 @@
 *PetitParser2-GUI
 contents
-	^ input contents
+	^ context contents
+	

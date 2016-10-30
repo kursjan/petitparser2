@@ -1,3 +1,3 @@
 element
 elClose
-	^ '</' asPParser, elementName, $> asPParser
+	^ '</' asPParser, elementName match pop, $> asPParser
