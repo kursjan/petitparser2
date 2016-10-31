@@ -1,0 +1,3 @@
+accessing
+startStopInterval
+	^ reference startStopInterval

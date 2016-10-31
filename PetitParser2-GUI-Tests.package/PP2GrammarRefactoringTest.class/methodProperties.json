@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"change" : " 10/30/2016 18:27:02",
+		"changes" : " 10/30/2016 18:27:02",
+		"performRefactoring:" : " 10/30/2016 18:27:02",
+		"refactoring" : " 10/30/2016 18:27:02",
+		"testAddParser" : " 10/30/2016 18:27:02",
+		"testAddParserWithSuperclass" : " 10/30/2016 18:27:02",
+		"testDefineProduction" : " 10/30/2016 18:27:02",
+		"testExtractProduction" : " 10/30/2016 18:27:02",
+		"testRemoveParser" : " 10/30/2016 18:27:02",
+		"testRemoveProduction" : " 10/30/2016 18:27:02",
+		"testRenameProduction" : " 10/30/2016 18:27:02" } }

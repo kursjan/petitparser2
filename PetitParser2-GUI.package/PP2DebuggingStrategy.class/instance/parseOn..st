@@ -13,6 +13,7 @@ parseOn: context
 		
 	context currentDebugResult: debugResult.
 	result := strategy parseOn: context.
+	self cacheIfNeeded: result debugResult: debugResult.
 	context currentDebugResult: parentDebugResult.
 	
 	debugResult 

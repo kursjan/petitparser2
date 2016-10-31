@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"beforeAccept:" : " 10/30/2016 18:26:47",
+		"createAfterWater:" : " 10/30/2016 18:26:47",
+		"createBeforeWater:" : " 10/30/2016 18:26:47",
+		"doPass:" : " 10/30/2016 18:26:47",
+		"nextSet:" : " 10/30/2016 18:26:47",
+		"optimizedNextSet:" : " 10/30/2016 18:26:47",
+		"removeSeas:" : " 10/30/2016 18:26:47",
+		"rootNode" : " 10/30/2016 18:26:47",
+		"rootNode:" : " 10/30/2016 18:26:47",
+		"seaCanBeRemoved:ifTrue:ifFalse:" : " 10/30/2016 18:26:47",
+		"updateNode:" : " 10/30/2016 18:26:47",
+		"visitSea:" : " 10/30/2016 18:26:47" } }

@@ -2,13 +2,15 @@
 	"category" : "PetitParser2-GUI-Tests-Debug",
 	"classinstvars" : [
 		 ],
+	"classtraitcomposition" : "TPP2CollectionAsserts classTrait",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "PP2ParserDebuggerResultTest",
+	"name" : "PP2DebugResultIntegrationTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",
+	"traitcomposition" : "TPP2CollectionAsserts",
 	"type" : "normal" }

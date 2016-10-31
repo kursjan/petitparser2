@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testArithmetic" : "JanKurs 10/31/2016 09:48",
+		"testArithmeticCache" : "JanKurs 10/31/2016 09:53",
+		"testArithmeticFailure" : "JanKurs 10/31/2016 09:49",
+		"testNumberParser" : "JanKurs 10/31/2016 09:49" } }
