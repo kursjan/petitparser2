@@ -1,18 +1,19 @@
 {
-	"class" : {
-		 },
 	"instance" : {
+		"visitOptional:" : " 10/30/2016 18:26:47",
 		"classificationFor:" : " 10/30/2016 18:26:47",
 		"doPass:" : " 10/30/2016 18:26:47",
-		"guardOf:makesSenseFor:" : " 10/30/2016 18:26:47",
+		"visitUnguarded:" : " 10/30/2016 18:26:47",
+		"visitDelegate:" : " 10/30/2016 18:26:47",
 		"initialize" : " 10/30/2016 18:26:47",
 		"isGuarded" : " 10/30/2016 18:26:47",
-		"isWellGuarded:" : " 10/30/2016 18:26:47",
 		"visit:guardedWith:" : " 10/30/2016 18:26:47",
-		"visitChoice:" : " 10/30/2016 18:26:47",
-		"visitDelegate:" : " 10/30/2016 18:26:47",
-		"visitOptional:" : " 10/30/2016 18:26:47",
-		"visitPossesiveRepeating:" : " 10/30/2016 18:26:47",
 		"visitSequence:" : " 10/30/2016 18:26:47",
+		"guardOf:makesSenseFor:" : " 10/30/2016 18:26:47",
+		"visitChoice:" : " 10/30/2016 18:26:47",
 		"visitTrimming:" : " 10/30/2016 18:26:47",
-		"visitUnguarded:" : " 10/30/2016 18:26:47" } }
+		"isWellGuarded:" : " 10/30/2016 18:26:47",
+		"visitPossesiveRepeating:" : " 10/30/2016 18:26:47"
+	},
+	"class" : { }
+}

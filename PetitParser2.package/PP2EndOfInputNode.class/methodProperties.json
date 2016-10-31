@@ -1,8 +1,9 @@
 {
-	"class" : {
-		 },
 	"instance" : {
 		"accept:" : " 10/30/2016 18:26:47",
 		"firstCharSet" : " 10/30/2016 18:26:47",
 		"isEOI" : "JanKurs 10/31/2016 11:46",
-		"resetStrategy" : " 10/30/2016 18:26:47" } }
+		"resetStrategy" : " 10/30/2016 18:26:47"
+	},
+	"class" : { }
+}

@@ -1,12 +1,13 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"cache:production:" : " 10/30/2016 18:26:47",
-		"cacheMakesSense:" : " 10/30/2016 18:26:47",
-		"cacheProductions:" : " 10/30/2016 18:26:47",
-		"doPass:" : " 10/30/2016 18:26:47",
 		"visitChoice:" : " 10/30/2016 18:26:47",
+		"cacheMakesSense:" : " 10/30/2016 18:26:47",
+		"visitSequence:" : " 10/30/2016 18:26:47",
+		"cache:production:" : " 10/30/2016 18:26:47",
 		"visitPP2Node:" : " 10/30/2016 18:26:47",
-		"visitSea:" : "JanKurs 10/31/2016 15:18",
-		"visitSequence:" : " 10/30/2016 18:26:47" } }
+		"doPass:" : " 10/30/2016 18:26:47",
+		"cacheProductions:" : " 10/30/2016 18:26:47",
+		"visitSea:" : "JanKurs 10/31/2016 15:18"
+	},
+	"class" : { }
+}

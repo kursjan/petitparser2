@@ -1,15 +1,14 @@
 {
-	"category" : "PetitParser2-Strategies",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "PP2TrimmingToken",
+	"category" : "PetitParser2-Strategies",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"literal",
-		"failure" ],
+		"failure"
+	],
 	"name" : "PP2TrimmingLiteralObjectToken",
-	"pools" : [
-		 ],
-	"super" : "PP2TrimmingToken",
-	"type" : "normal" }
+	"type" : "normal"
+}

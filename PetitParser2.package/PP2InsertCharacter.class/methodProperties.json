@@ -1,9 +1,10 @@
 {
-	"class" : {
-		 },
 	"instance" : {
+		"changeBetween:and:" : " 10/30/2016 18:26:47",
+		"updateToken:" : " 10/30/2016 18:26:47",
 		"changeAfterRange:" : " 10/30/2016 18:26:47",
 		"changeBeforeRange:" : " 10/30/2016 18:26:47",
-		"changeBetween:and:" : " 10/30/2016 18:26:47",
-		"updateBuffer:" : " 10/30/2016 18:26:47",
-		"updateToken:" : " 10/30/2016 18:26:47" } }
+		"updateBuffer:" : " 10/30/2016 18:26:47"
+	},
+	"class" : { }
+}

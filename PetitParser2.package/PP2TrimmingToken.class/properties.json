@@ -1,16 +1,15 @@
 {
-	"category" : "PetitParser2-Strategies",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "PP2Strategy",
+	"category" : "PetitParser2-Strategies",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"tokenClass",
 		"trimmer",
-		"tokenChild" ],
+		"tokenChild"
+	],
 	"name" : "PP2TrimmingToken",
-	"pools" : [
-		 ],
-	"super" : "PP2Strategy",
-	"type" : "normal" }
+	"type" : "normal"
+}

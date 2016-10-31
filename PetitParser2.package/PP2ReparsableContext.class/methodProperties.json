@@ -1,13 +1,14 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"asReparsableContext" : " 10/30/2016 18:26:47",
-		"furthestPosition" : " 10/30/2016 18:26:47",
-		"furthestPosition:" : " 10/30/2016 18:26:47",
-		"next:" : " 10/30/2016 18:26:47",
 		"on:" : " 10/30/2016 18:26:47",
+		"furthestPosition:" : " 10/30/2016 18:26:47",
+		"furthestPosition" : " 10/30/2016 18:26:47",
+		"next:" : " 10/30/2016 18:26:47",
+		"asReparsableContext" : " 10/30/2016 18:26:47",
 		"restore:" : " 10/30/2016 18:26:47",
-		"restorePosition:" : " 10/30/2016 18:26:47",
 		"startMemento:" : " 10/30/2016 18:26:47",
-		"stream:" : " 10/30/2016 18:26:47" } }
+		"stream:" : " 10/30/2016 18:26:47",
+		"restorePosition:" : " 10/30/2016 18:26:47"
+	},
+	"class" : { }
+}

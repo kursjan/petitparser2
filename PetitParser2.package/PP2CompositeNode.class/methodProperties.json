@@ -1,18 +1,21 @@
 {
-	"class" : {
-		"ignoredNames" : " 10/30/2016 18:26:47",
-		"new" : " 10/30/2016 18:26:47",
-		"newStartingAt:" : " 10/30/2016 18:26:47",
-		"parse:" : " 10/30/2016 18:26:47",
-		"parse:onError:" : " 10/30/2016 18:26:47",
-		"parse:startingAt:" : " 10/30/2016 18:26:47",
-		"parse:startingAt:onError:" : " 10/30/2016 18:26:47",
-		"startSymbol" : " 10/30/2016 18:26:47" },
 	"instance" : {
-		"accept:" : " 10/30/2016 18:26:47",
-		"initializeStartingAt:" : " 10/30/2016 18:26:47",
+		"productionNames" : " 10/30/2016 18:26:47",
+		"start" : " 10/30/2016 18:26:47",
+		"productionAt:ifAbsent:" : " 10/30/2016 18:26:47",
 		"isProduction" : " 10/30/2016 18:26:47",
 		"productionAt:" : " 10/30/2016 18:26:47",
-		"productionAt:ifAbsent:" : " 10/30/2016 18:26:47",
-		"productionNames" : " 10/30/2016 18:26:47",
-		"start" : " 10/30/2016 18:26:47" } }
+		"initializeStartingAt:" : " 10/30/2016 18:26:47",
+		"accept:" : " 10/30/2016 18:26:47"
+	},
+	"class" : {
+		"parse:startingAt:onError:" : " 10/30/2016 18:26:47",
+		"new" : " 10/30/2016 18:26:47",
+		"parse:startingAt:" : " 10/30/2016 18:26:47",
+		"ignoredNames" : " 10/30/2016 18:26:47",
+		"newStartingAt:" : " 10/30/2016 18:26:47",
+		"parse:onError:" : " 10/30/2016 18:26:47",
+		"startSymbol" : " 10/30/2016 18:26:47",
+		"parse:" : " 10/30/2016 18:26:47"
+	}
+}

@@ -1,10 +1,11 @@
 {
+	"instance" : { },
 	"class" : {
-		"ruleRBBadMessageRuleV1FalsePositive" : " 10/30/2016 18:26:47",
-		"ruleRBEquivalentSuperclassMethodsRuleV1FalsePositive" : " 10/30/2016 18:26:47",
 		"ruleRBIfTrueReturnsRuleV1FalsePositive" : " 10/30/2016 18:26:47",
 		"ruleRBInconsistentMethodClassificationRuleV1FalsePositive" : " 10/30/2016 18:26:47",
 		"ruleRBTemporaryVariableCapitalizationRuleV1FalsePositive" : " 10/30/2016 18:26:47",
-		"ruleRBUtilityMethodsRuleV1FalsePositive" : "JanKurs 10/31/2016 11:33" },
-	"instance" : {
-		 } }
+		"ruleRBEquivalentSuperclassMethodsRuleV1FalsePositive" : " 10/30/2016 18:26:47",
+		"ruleRBBadMessageRuleV1FalsePositive" : " 10/30/2016 18:26:47",
+		"ruleRBUtilityMethodsRuleV1FalsePositive" : "JanKurs 10/31/2016 11:33"
+	}
+}

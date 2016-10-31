@@ -1,17 +1,18 @@
 {
-	"category" : "PetitParser2-Nodes",
-	"classinstvars" : [
-		"spaceTrimmer" ],
 	"classtraitcomposition" : "TPP2Properties classTrait",
-	"classvars" : [
-		 ],
-	"commentStamp" : "JanKurs 9/6/2016 13:58",
+	"classvars" : [ ],
 	"instvars" : [
 		"properties",
-		"strategy" ],
+		"strategy"
+	],
 	"name" : "PP2Node",
-	"pools" : [
-		 ],
+	"commentStamp" : "JanKurs 9/6/2016 13:58",
 	"super" : "Object",
 	"traitcomposition" : "TPP2Properties",
-	"type" : "normal" }
+	"type" : "normal",
+	"classinstvars" : [
+		"spaceTrimmer"
+	],
+	"pools" : [ ],
+	"category" : "PetitParser2-Nodes"
+}

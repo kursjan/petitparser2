@@ -1,6 +1,7 @@
 {
-	"class" : {
-		 },
 	"instance" : {
 		"asPParser" : " 10/30/2016 18:26:47",
-		"isSeparator" : " 10/30/2016 18:26:47" } }
+		"isSeparator" : " 10/30/2016 18:26:47"
+	},
+	"class" : { }
+}

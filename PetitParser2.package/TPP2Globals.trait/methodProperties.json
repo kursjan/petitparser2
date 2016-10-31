@@ -1,12 +1,13 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"globalAt:" : " 10/30/2016 18:26:47",
-		"globalAt:ifAbsent:" : " 10/30/2016 18:26:47",
-		"globalAt:ifAbsentPut:" : " 10/30/2016 18:26:47",
+		"removeGlobal:ifAbsent:" : " 10/30/2016 18:26:47",
 		"globalAt:put:" : " 10/30/2016 18:26:47",
-		"globals" : " 10/30/2016 18:26:47",
 		"hasGlobal:" : " 10/30/2016 18:26:47",
+		"globals" : " 10/30/2016 18:26:47",
+		"globalAt:ifAbsentPut:" : " 10/30/2016 18:26:47",
+		"globalAt:" : " 10/30/2016 18:26:47",
 		"removeGlobal:" : " 10/30/2016 18:26:47",
-		"removeGlobal:ifAbsent:" : " 10/30/2016 18:26:47" } }
+		"globalAt:ifAbsent:" : " 10/30/2016 18:26:47"
+	},
+	"class" : { }
+}

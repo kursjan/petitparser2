@@ -1,13 +1,14 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"beforeAccept:" : " 10/30/2016 18:26:47",
-		"doPass:" : " 10/30/2016 18:26:47",
+		"removeSeas:" : " 10/30/2016 18:26:47",
+		"updateNode:" : "JanKurs 10/31/2016 13:33",
+		"seaCanBeRemoved:ifTrue:ifFalse:" : "JanKurs 10/31/2016 13:11",
 		"nextSet:" : " 10/30/2016 18:26:47",
 		"optimizedNextSet:" : "JanKurs 10/31/2016 13:14",
-		"removeRepetitions:" : "JanKurs 10/31/2016 11:32",
-		"removeSeas:" : " 10/30/2016 18:26:47",
-		"seaCanBeRemoved:ifTrue:ifFalse:" : "JanKurs 10/31/2016 13:11",
-		"updateNode:" : "JanKurs 10/31/2016 13:33",
-		"visitSea:" : " 10/30/2016 18:26:47" } }
+		"visitSea:" : " 10/30/2016 18:26:47",
+		"doPass:" : " 10/30/2016 18:26:47",
+		"beforeAccept:" : " 10/30/2016 18:26:47",
+		"removeRepetitions:" : "JanKurs 10/31/2016 11:32"
+	},
+	"class" : { }
+}

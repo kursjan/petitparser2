@@ -1,14 +1,11 @@
 {
-	"category" : "PetitParser2-Tools",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "PP2CompositeNode",
-	"pools" : [
-		 ],
 	"super" : "PP2DelegateNode",
-	"type" : "normal" }
+	"category" : "PetitParser2-Tools",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PP2CompositeNode",
+	"type" : "normal"
+}
