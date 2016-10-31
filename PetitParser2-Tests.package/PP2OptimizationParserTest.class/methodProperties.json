@@ -1,0 +1,25 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"parse:withParser:withContext:" : " 10/31/2016 10:04:05",
+		"testAndLiteralObject" : " 10/31/2016 10:04:05",
+		"testAndPredicateObject" : " 10/31/2016 10:04:05",
+		"testCache" : " 10/31/2016 10:04:05",
+		"testCache2" : " 10/31/2016 10:04:05",
+		"testGuardChoiceFailure" : " 10/31/2016 10:04:05",
+		"testGuardChoiceOptionOne" : " 10/31/2016 10:04:05",
+		"testGuardChoiceOptionTwo" : " 10/31/2016 10:04:05",
+		"testGuardOptional" : " 10/31/2016 10:04:05",
+		"testGuardOptionalFailure" : " 10/31/2016 10:04:05",
+		"testGuardPlus" : " 10/31/2016 10:04:05",
+		"testGuardPlusFailure" : " 10/31/2016 10:04:05",
+		"testGuardPlusTwo" : " 10/31/2016 10:04:05",
+		"testGuardStar" : " 10/31/2016 10:04:05",
+		"testGuardStarEmpty" : " 10/31/2016 10:04:05",
+		"testLiteralObject" : " 10/31/2016 10:04:05",
+		"testLiteralObjectTrimmingToken" : " 10/31/2016 10:04:05",
+		"testNotLiteral" : " 10/31/2016 10:04:05",
+		"testNotPredicateObject" : " 10/31/2016 10:04:05",
+		"testSea" : "JanKurs 10/31/2016 15:11",
+		"testTrimming" : " 10/31/2016 10:04:05" } }

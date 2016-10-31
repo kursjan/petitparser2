@@ -1,0 +1,21 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assertCharacterSets:" : " 10/31/2016 10:04:05",
+		"charactersDo:" : " 10/31/2016 10:04:05",
+		"parse:withParser:withContext:" : " 10/31/2016 10:04:05",
+		"parsedCharacterSet:" : " 10/31/2016 10:04:05",
+		"testAny" : " 10/31/2016 10:04:05",
+		"testAnyExceptAnyOf" : " 10/31/2016 10:04:05",
+		"testAnyOf" : " 10/31/2016 10:04:05",
+		"testBlank" : " 10/31/2016 10:04:05",
+		"testChar" : " 10/31/2016 10:04:05",
+		"testDigit" : " 10/31/2016 10:04:05",
+		"testExpect" : " 10/31/2016 10:04:05",
+		"testHex" : " 10/31/2016 10:04:05",
+		"testLetter" : " 10/31/2016 10:04:05",
+		"testNewline" : " 10/31/2016 10:04:05",
+		"testSequenceParser" : " 10/31/2016 10:04:05",
+		"testSpace" : " 10/31/2016 10:04:05",
+		"testWord" : " 10/31/2016 10:04:05" } }

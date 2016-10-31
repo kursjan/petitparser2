@@ -1,3 +1,5 @@
 accessing
 boundary: anObject
-	boundary := anObject and
+	boundary := anObject and.
+	
+	self strategy isDebugging ifTrue: [ boundary enableDebug ]

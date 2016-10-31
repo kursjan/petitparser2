@@ -7,4 +7,4 @@ testSea
 
 	parser optimize.
 	result := parser debug: '..aa..'.
-	self assert: result debugResult steps equals: 20.	
+	self assert: result debugResult steps equals: 37.	

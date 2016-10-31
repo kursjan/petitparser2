@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testAtEnd" : " 10/31/2016 10:04:05",
+		"testAtPosition" : " 10/31/2016 10:04:05",
+		"testAtPositionReversedOrder" : " 10/31/2016 10:04:05",
+		"testCopyFromTo" : " 10/31/2016 10:04:05",
+		"testNewTokenFromTo" : " 10/31/2016 10:04:05" } }

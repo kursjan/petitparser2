@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : " 10/31/2016 10:04:05",
+		"testFlatten" : " 10/31/2016 10:04:05",
+		"testPredicateObject" : " 10/31/2016 10:04:05",
+		"testSequenceOfTwo" : " 10/31/2016 10:04:05",
+		"testToken" : " 10/31/2016 10:04:05",
+		"testTwoParents" : " 10/31/2016 10:04:05",
+		"testTwoParentsDifferentContext" : " 10/31/2016 10:04:05",
+		"testTwoParentsNoWarning" : " 10/31/2016 10:04:05",
+		"visit:" : " 10/31/2016 10:04:05" } }
