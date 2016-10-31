@@ -1,5 +1,6 @@
 parsing
 parseOn: context
+	| start |
 	(context position == position) ifTrue: [ 
 		context position: endPosition.
 		^ retval

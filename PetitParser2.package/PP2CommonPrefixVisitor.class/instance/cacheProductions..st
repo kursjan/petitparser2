@@ -1,4 +1,4 @@
-visiting
+caching - choice
 cacheProductions: productions
 	| names |
 	names := productions collect: [:p | p name ].

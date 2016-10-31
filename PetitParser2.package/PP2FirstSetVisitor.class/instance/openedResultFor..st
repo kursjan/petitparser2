@@ -1,6 +1,6 @@
 loop control
 openedResultFor: context
-	context node isSea ifTrue: [ 
+	leftRecursionAllowed ifTrue: [ 
 		^ super openedResultFor: context
 	].
 

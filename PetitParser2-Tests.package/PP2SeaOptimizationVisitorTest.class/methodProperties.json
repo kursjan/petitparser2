@@ -1,17 +1,19 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"assert:anySatisfy:" : " 10/31/2016 10:04:05",
-		"assert:isKindOf:" : " 10/31/2016 10:04:05",
-		"assert:noneSatisfy:" : " 10/31/2016 10:04:05",
-		"testJustSea" : " 10/31/2016 10:04:05",
-		"testMemoizedSea" : " 10/31/2016 10:04:05",
 		"testOverlappingSeas" : " 10/31/2016 10:04:05",
-		"testRepetitionInBoundary" : "JanKurs 10/31/2016 13:14",
-		"testSeaInBoundary" : "JanKurs 10/31/2016 11:44",
-		"testSeaOptimizations" : "JanKurs 10/31/2016 13:35",
+		"visit:" : " 10/31/2016 10:04:05",
 		"testSeaOptimizationsReset" : "JanKurs 10/31/2016 13:35",
+		"testJustSea" : " 10/31/2016 10:04:05",
+		"testSeaOptimizations" : "JanKurs 10/31/2016 13:35",
+		"assert:anySatisfy:" : " 10/31/2016 10:04:05",
+		"testSeaInBoundary" : "JanKurs 10/31/2016 11:44",
 		"testSeaPlus" : " 10/31/2016 10:04:05",
+		"assert:isKindOf:" : " 10/31/2016 10:04:05",
+		"testMemoizedSea" : " 10/31/2016 10:04:05",
+		"testNestedSea" : "JanKurs 10/31/2016 15:56",
 		"testSeaStar" : " 10/31/2016 10:04:05",
-		"visit:" : " 10/31/2016 10:04:05" } }
+		"testRepetitionInBoundary" : "JanKurs 10/31/2016 13:14",
+		"assert:noneSatisfy:" : " 10/31/2016 10:04:05"
+	},
+	"class" : { }
+}

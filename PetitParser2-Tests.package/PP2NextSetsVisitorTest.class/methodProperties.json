@@ -1,25 +1,26 @@
 {
-	"class" : {
-		 },
 	"instance" : {
+		"testSequence" : " 10/31/2016 10:04:05",
 		"assert:includes:" : " 10/31/2016 10:04:05",
 		"nextSet:in:" : " 10/31/2016 10:04:05",
 		"setUp" : " 10/31/2016 10:04:05",
-		"testAction" : " 10/31/2016 10:04:05",
-		"testChoice" : " 10/31/2016 10:04:05",
 		"testDelegate" : " 10/31/2016 10:04:05",
-		"testEpsilon" : " 10/31/2016 10:04:05",
+		"testTrim" : " 10/31/2016 10:04:05",
+		"testToken" : " 10/31/2016 10:04:05",
 		"testFlatten" : " 10/31/2016 10:04:05",
-		"testLiteralObject" : " 10/31/2016 10:04:05",
 		"testLiteralSequence" : " 10/31/2016 10:04:05",
 		"testOptional" : " 10/31/2016 10:04:05",
-		"testPossesiveRepeating" : " 10/31/2016 10:04:05",
-		"testRoot" : " 10/31/2016 10:04:05",
-		"testSequence" : " 10/31/2016 10:04:05",
-		"testSequenceOfDelegates" : " 10/31/2016 10:04:05",
-		"testSequenceOfThree" : " 10/31/2016 10:04:05",
-		"testSequenceOfThreeWithNullable" : " 10/31/2016 10:04:05",
+		"testAction" : " 10/31/2016 10:04:05",
+		"testLiteralObject" : " 10/31/2016 10:04:05",
 		"testSequenceOptional" : " 10/31/2016 10:04:05",
-		"testToken" : " 10/31/2016 10:04:05",
-		"testTrim" : " 10/31/2016 10:04:05",
-		"testTrimmingToken" : " 10/31/2016 10:04:05" } }
+		"testChoice" : " 10/31/2016 10:04:05",
+		"testEpsilon" : " 10/31/2016 10:04:05",
+		"testSequenceOfDelegates" : " 10/31/2016 10:04:05",
+		"testRoot" : " 10/31/2016 10:04:05",
+		"testSequenceOfThreeWithNullable" : " 10/31/2016 10:04:05",
+		"testTrimmingToken" : " 10/31/2016 10:04:05",
+		"testSequenceOfThree" : " 10/31/2016 10:04:05",
+		"testPossesiveRepeating" : " 10/31/2016 10:04:05"
+	},
+	"class" : { }
+}

@@ -1,10 +1,11 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"parse:withParser:withContext:" : " 10/31/2016 10:04:05",
-		"testNonEpsilon" : " 10/31/2016 10:04:05",
-		"testWaterBoundary" : " 10/31/2016 10:04:05",
 		"testWaterDefault" : " 10/31/2016 10:04:05",
 		"testWaterRecursive" : " 10/31/2016 10:04:05",
-		"testWaterRecursive2" : " 10/31/2016 10:04:05" } }
+		"testWaterRecursive2" : " 10/31/2016 10:04:05",
+		"testWaterBoundary" : " 10/31/2016 10:04:05",
+		"parse:withParser:withContext:" : " 10/31/2016 10:04:05",
+		"testNonEpsilon" : " 10/31/2016 10:04:05"
+	},
+	"class" : { }
+}

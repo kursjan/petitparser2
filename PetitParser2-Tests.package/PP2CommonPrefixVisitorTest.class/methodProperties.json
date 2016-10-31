@@ -1,10 +1,13 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"setUp" : " 10/31/2016 10:04:05",
 		"testChoice" : " 10/31/2016 10:04:05",
-		"testChoiceNonIdentical" : " 10/31/2016 10:04:05",
-		"testSea" : " 10/31/2016 10:04:05",
+		"testSeaBoundary" : "JanKurs 10/31/2016 15:49",
+		"setUp" : " 10/31/2016 10:04:05",
+		"testSeaNested" : "JanKurs 10/31/2016 16:33",
 		"testSequence" : " 10/31/2016 10:04:05",
-		"visit:" : " 10/31/2016 10:04:05" } }
+		"testChoiceNonIdentical" : " 10/31/2016 10:04:05",
+		"visit:" : " 10/31/2016 10:04:05",
+		"testSea" : "JanKurs 10/31/2016 15:50"
+	},
+	"class" : { }
+}

@@ -1,9 +1,10 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"parserClass" : " 10/31/2016 10:04:05",
 		"testContent" : " 10/31/2016 10:04:05",
-		"testElement" : " 10/31/2016 10:04:05",
 		"testElementNumberInBody" : " 10/31/2016 10:04:05",
-		"testHead" : " 10/31/2016 10:04:05" } }
+		"testHead" : " 10/31/2016 10:04:05",
+		"testElement" : " 10/31/2016 10:04:05",
+		"parserClass" : " 10/31/2016 10:04:05"
+	},
+	"class" : { }
+}

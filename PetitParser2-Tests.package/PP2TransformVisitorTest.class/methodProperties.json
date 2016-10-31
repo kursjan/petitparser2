@@ -1,10 +1,11 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"grammarA" : " 10/31/2016 10:04:05",
 		"grammarB" : " 10/31/2016 10:04:05",
 		"testTransformIdentityGrammarA" : " 10/31/2016 10:04:05",
+		"testTransformWrapGrammarB" : " 10/31/2016 10:04:05",
 		"testTransformIdentityGrammarB" : " 10/31/2016 10:04:05",
-		"testTransformWrapGrammarA" : " 10/31/2016 10:04:05",
-		"testTransformWrapGrammarB" : " 10/31/2016 10:04:05" } }
+		"grammarA" : " 10/31/2016 10:04:05",
+		"testTransformWrapGrammarA" : " 10/31/2016 10:04:05"
+	},
+	"class" : { }
+}

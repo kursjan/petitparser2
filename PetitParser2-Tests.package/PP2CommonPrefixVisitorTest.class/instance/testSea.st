@@ -1,12 +1,12 @@
 tests
 testSea
-	| production |
-	production := 'foo' asPParser plus wrapped trim ==> [ :foo | foo ]
+	| island |
+	island := 'foo' asPParser plus wrapped trim ==> [ :foo | foo ]
 		name: 'production';
 		yourself.
 	
-	parser := production sea.
+	parser := island sea.
 	
 	self visit: parser.
 	
-	self assert: production strategy isKindOf: PP2Cache.
+	self assert: island strategy isKindOf: PP2Cache.

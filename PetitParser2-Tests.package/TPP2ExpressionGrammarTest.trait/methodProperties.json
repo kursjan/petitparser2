@@ -1,11 +1,12 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"parserClass" : " 10/31/2016 10:04:05",
-		"testAddition" : " 10/31/2016 10:04:05",
+		"testTerms" : " 10/31/2016 10:04:05",
+		"testParentheses" : " 10/31/2016 10:04:05",
 		"testMultiplication" : " 10/31/2016 10:04:05",
 		"testNumber" : " 10/31/2016 10:04:05",
-		"testParentheses" : " 10/31/2016 10:04:05",
+		"testAddition" : " 10/31/2016 10:04:05",
 		"testPrimary" : " 10/31/2016 10:04:05",
-		"testTerms" : " 10/31/2016 10:04:05" } }
+		"parserClass" : " 10/31/2016 10:04:05"
+	},
+	"class" : { }
+}

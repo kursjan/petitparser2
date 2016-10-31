@@ -1,5 +1,6 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"testBoundary" : " 10/31/2016 10:04:05" } }
+		"testBoundary" : " 10/31/2016 10:04:05"
+	},
+	"class" : { }
+}

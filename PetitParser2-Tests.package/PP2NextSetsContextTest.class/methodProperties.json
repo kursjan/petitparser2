@@ -1,9 +1,10 @@
 {
-	"class" : {
-		 },
 	"instance" : {
+		"testHash" : " 10/31/2016 10:04:05",
+		"testHashNotEqual" : " 10/31/2016 10:04:05",
 		"setUp" : " 10/31/2016 10:04:05",
 		"testEqual" : " 10/31/2016 10:04:05",
-		"testEqualNot" : " 10/31/2016 10:04:05",
-		"testHash" : " 10/31/2016 10:04:05",
-		"testHashNotEqual" : " 10/31/2016 10:04:05" } }
+		"testEqualNot" : " 10/31/2016 10:04:05"
+	},
+	"class" : { }
+}

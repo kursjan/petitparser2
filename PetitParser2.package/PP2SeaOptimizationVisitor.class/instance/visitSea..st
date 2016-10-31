@@ -1,5 +1,7 @@
 visiting
 visitSea: node
+
+	super visitSea: node.
 	self updateNode: node.
 		
 	"memoize, if there are seas in water"

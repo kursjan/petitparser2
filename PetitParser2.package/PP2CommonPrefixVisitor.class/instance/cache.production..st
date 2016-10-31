@@ -1,4 +1,4 @@
-visiting
+caching - choice
 cache: node production: production
 	| strategy |
 	node isCacheForbidden ifTrue: [ ^ self ].

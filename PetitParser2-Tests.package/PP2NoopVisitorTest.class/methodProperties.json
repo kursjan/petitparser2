@@ -1,9 +1,10 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"setUp" : " 10/31/2016 10:04:05",
-		"testVisitCharacter" : " 10/31/2016 10:04:05",
 		"testVisitCycle" : " 10/31/2016 10:04:05",
+		"testVisitCharacter" : " 10/31/2016 10:04:05",
 		"testVisitDelegate" : " 10/31/2016 10:04:05",
-		"testVisitSequence" : " 10/31/2016 10:04:05" } }
+		"setUp" : " 10/31/2016 10:04:05",
+		"testVisitSequence" : " 10/31/2016 10:04:05"
+	},
+	"class" : { }
+}

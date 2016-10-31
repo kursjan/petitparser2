@@ -1,9 +1,10 @@
 {
-	"class" : {
-		 },
 	"instance" : {
 		"testCopy" : " 10/31/2016 10:04:05",
+		"testDuplicateSequence" : " 10/31/2016 10:04:05",
 		"testCopyDelegate" : " 10/31/2016 10:04:05",
-		"testCopyProperties" : " 10/31/2016 10:04:05",
 		"testDuplicateDelegate" : " 10/31/2016 10:04:05",
-		"testDuplicateSequence" : " 10/31/2016 10:04:05" } }
+		"testCopyProperties" : " 10/31/2016 10:04:05"
+	},
+	"class" : { }
+}

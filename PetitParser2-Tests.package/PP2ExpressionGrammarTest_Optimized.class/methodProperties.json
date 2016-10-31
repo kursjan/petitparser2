@@ -1,6 +1,7 @@
 {
-	"class" : {
-		 },
 	"instance" : {
 		"context" : " 10/31/2016 10:04:05",
-		"parserInstance" : " 10/31/2016 10:04:05" } }
+		"parserInstance" : " 10/31/2016 10:04:05"
+	},
+	"class" : { }
+}

@@ -1,22 +1,23 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"setUp" : " 10/31/2016 10:04:05",
 		"testAndLiteraObject" : " 10/31/2016 10:04:05",
+		"testOptionalLiteraObject" : " 10/31/2016 10:04:05",
+		"testPlus" : " 10/31/2016 10:04:05",
+		"testSequenceOfThree" : " 10/31/2016 10:04:05",
+		"testPlusPredicateObject" : " 10/31/2016 10:04:05",
+		"testSequenceOfTwo" : " 10/31/2016 10:04:05",
+		"testStarPredicateObject" : " 10/31/2016 10:04:05",
+		"testTrimmingLiteralObjectTokenWrapped" : " 10/31/2016 10:04:05",
+		"testStar" : " 10/31/2016 10:04:05",
 		"testAndPredicateObject" : " 10/31/2016 10:04:05",
+		"testTrimmingToken" : " 10/31/2016 10:04:05",
+		"testPlusPredicateObject2" : " 10/31/2016 10:04:05",
+		"testStarPredicateObject2" : " 10/31/2016 10:04:05",
+		"testTrimmingLiteralObjectToken" : " 10/31/2016 10:04:05",
 		"testMappingOfThree" : " 10/31/2016 10:04:05",
 		"testMappingOfTwo" : " 10/31/2016 10:04:05",
 		"testNotLiteraObject" : " 10/31/2016 10:04:05",
-		"testOptionalLiteraObject" : " 10/31/2016 10:04:05",
-		"testPlus" : " 10/31/2016 10:04:05",
-		"testPlusPredicateObject" : " 10/31/2016 10:04:05",
-		"testPlusPredicateObject2" : " 10/31/2016 10:04:05",
-		"testSequenceOfThree" : " 10/31/2016 10:04:05",
-		"testSequenceOfTwo" : " 10/31/2016 10:04:05",
-		"testStar" : " 10/31/2016 10:04:05",
-		"testStarPredicateObject" : " 10/31/2016 10:04:05",
-		"testStarPredicateObject2" : " 10/31/2016 10:04:05",
-		"testTrimmingLiteralObjectToken" : " 10/31/2016 10:04:05",
-		"testTrimmingLiteralObjectTokenWrapped" : " 10/31/2016 10:04:05",
-		"testTrimmingToken" : " 10/31/2016 10:04:05" } }
+		"setUp" : " 10/31/2016 10:04:05"
+	},
+	"class" : { }
+}
