@@ -4,7 +4,7 @@ invokedMethods
 	methods := OrderedCollection new.
 	events withIndexDo: [ :event :index | 
 		(event == #methodInvoked) ifTrue: [ 
-			methods add: (selectors at: index)
+			methods add: (nodes at: index)
 		]
 	].
 	^ methods

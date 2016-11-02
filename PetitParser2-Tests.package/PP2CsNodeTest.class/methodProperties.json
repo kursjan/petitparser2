@@ -13,6 +13,7 @@
 		"parse:withParser:withContext:" : " 10/31/2016 10:04:05",
 		"testMatchNoMatch" : " 10/31/2016 10:04:05",
 		"testPush" : " 10/31/2016 10:04:05",
+		"testMatchEmpty" : "JanKurs 11/2/2016 16:11",
 		"testPopStarOne" : " 10/31/2016 10:04:05"
 	},
 	"class" : { }

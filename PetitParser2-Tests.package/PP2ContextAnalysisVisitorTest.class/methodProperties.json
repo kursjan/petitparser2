@@ -1,0 +1,18 @@
+{
+	"instance" : {
+		"testDelegate" : "JanKurs 11/1/2016 16:57",
+		"testSequenceWithPushPop" : "JanKurs 11/2/2016 11:29",
+		"testMatch" : "JanKurs 11/1/2016 17:13",
+		"testWrappingSetProperty" : "JanKurs 11/1/2016 16:57",
+		"testPop" : "JanKurs 11/1/2016 17:12",
+		"testSequenceWithPush" : "JanKurs 11/1/2016 17:14",
+		"denyChangesContext:" : "JanKurs 11/1/2016 16:48",
+		"testWrapping" : "JanKurs 11/1/2016 16:56",
+		"testLiteralObject" : "JanKurs 11/1/2016 16:47",
+		"testSequence" : "JanKurs 11/1/2016 17:14",
+		"assertChangesContext:" : "JanKurs 11/1/2016 16:56",
+		"testPush" : "JanKurs 11/1/2016 17:10",
+		"setUp" : "JanKurs 11/1/2016 16:48"
+	},
+	"class" : { }
+}

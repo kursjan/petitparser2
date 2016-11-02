@@ -1,11 +1,11 @@
 parsing
 parseOn: context
-	| retval stackTop memento |
+	| retval stackTop memento stack |
 	memento := context remember.
 	retval := node child parseOn: context.
 	retval isPetit2Failure ifTrue: [ ^ retval ].
-	
-	^ ((stackTop := (context stackNamed: node stackId) top) = retval) ifTrue: [  
+	stack := context stackNamed: node stackId.
+	^ (stack isEmpty not and: [(stackTop :=  stack top) = retval]) ifTrue: [  
 		retval
 	] ifFalse: [ 
 		context restore: memento.

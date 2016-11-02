@@ -1,7 +1,7 @@
 parsing
 parseOn: context
 	| start memento startWaterPosition |
-	memento := context remember.
+	memento := self remember: context.
 	start := context position.
 	startWaterPosition := context waterPosition.
 	
@@ -13,7 +13,7 @@ parseOn: context
 		(node boundary parseOn: context) isPetit2Failure 
 	] whileTrue: [  
 		(node waterToken parseOn: context) isPetit2Failure ifTrue: [  
-			context restore: memento.
+			self restore: context from: memento.
 			context waterPosition: startWaterPosition.
 			^ PP2Failure message: 'water boundary not found' context: context.
 		].

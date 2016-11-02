@@ -2,7 +2,7 @@ parsing
 parseOn: context
 
 	| awr bwr ir memento |
-	memento := context remember.
+	memento := self remember: context.
 	node reset: context.
 	
 	(bwr := node beforeWater parseOn: context) isPetit2Failure ifTrue: [
@@ -10,12 +10,12 @@ parseOn: context
 	].
 
 	(ir := node island parseOn: context) isPetit2Failure ifTrue: [  
-		context restore: memento.
+		self restore: context from: memento.
 		^ PP2Failure message: 'island not found' context: context
 	].
 
 	(awr := node afterWater parseOn: context) isPetit2Failure ifTrue: [  
-		context restore: memento.
+		self restore: context from: memento.
 		^  PP2Failure message: 'boundary not found' context: context
 	].
 

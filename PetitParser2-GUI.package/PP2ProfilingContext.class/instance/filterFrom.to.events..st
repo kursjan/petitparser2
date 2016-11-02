@@ -9,7 +9,7 @@ filterFrom: start to: stop events: eventsCollection
 		e := events at: index.
 		(eventsCollection isNil or: [ eventsCollection includes: e ]) ifTrue: [
 			fPositions addLast: (self positions at: index).
-			fSelectors addLast: (self selectors at: index).
+			fSelectors addLast: (self nodes at: index).
 			fEvents addLast: e.
 		]
 	].

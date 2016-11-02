@@ -1,3 +1,3 @@
-as yet unclassified
+requirements
 setAsStartState
 	^ self startMemento: super remember

@@ -1,14 +1,13 @@
 {
-	"category" : "PetitParser2-GUI-Tests-Refactoring",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"refactoring" ],
-	"name" : "PP2GrammarRefactoringTest",
-	"pools" : [
-		 ],
 	"super" : "TestCase",
-	"type" : "normal" }
+	"category" : "PetitParser2-GUI-Tests-Refactoring",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"refactoring"
+	],
+	"name" : "PP2GrammarRefactoringTest",
+	"type" : "normal"
+}

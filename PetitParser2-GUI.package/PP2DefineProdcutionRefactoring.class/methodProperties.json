@@ -1,12 +1,15 @@
 {
-	"class" : {
-		"onClass:source:protocols:" : " 10/30/2016 18:27:02" },
 	"instance" : {
-		"checkSource" : " 10/30/2016 18:27:02",
 		"preconditions" : " 10/30/2016 18:27:02",
-		"selector" : " 10/30/2016 18:27:02",
 		"setClass:" : " 10/30/2016 18:27:02",
 		"setProtocols:" : " 10/30/2016 18:27:02",
 		"setSource:" : " 10/30/2016 18:27:02",
+		"selector" : " 10/30/2016 18:27:02",
 		"sourceRewriter" : " 10/30/2016 18:27:02",
-		"transform" : " 10/30/2016 18:27:02" } }
+		"transform" : " 10/30/2016 18:27:02",
+		"checkSource" : " 10/30/2016 18:27:02"
+	},
+	"class" : {
+		"onClass:source:protocols:" : " 10/30/2016 18:27:02"
+	}
+}

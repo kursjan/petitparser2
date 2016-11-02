@@ -1,3 +1,3 @@
-as yet unclassified
+initialization
 resetStrategy
 	strategy := PP2Pop on: self

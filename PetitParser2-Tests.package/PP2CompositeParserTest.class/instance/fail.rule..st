@@ -4,9 +4,9 @@ fail: aString rule: aSymbol
 	production := self parserInstanceFor: aSymbol.
 	context := self context.
 	
-	result := production end parse: aString withContext: context.
+	result := production parse: aString withContext: context.
 	
 	self
-		assert: result isPetit2Failure
+		assert: (result isPetit2Failure or: [context atEnd not])
 		description: 'Able to parse ' , aString printString.
 	^ result

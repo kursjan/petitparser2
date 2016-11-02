@@ -1,11 +1,14 @@
 {
-	"class" : {
-		"name:category:" : " 10/30/2016 18:27:02",
-		"name:category:superclass:" : " 10/30/2016 18:27:02" },
 	"instance" : {
-		"preconditions" : " 10/30/2016 18:27:02",
-		"setCategory:" : " 10/30/2016 18:27:02",
 		"setName:" : " 10/30/2016 18:27:02",
+		"setCategory:" : " 10/30/2016 18:27:02",
 		"setSuperclass:" : " 10/30/2016 18:27:02",
 		"startProductionSource" : " 10/30/2016 18:27:02",
-		"transform" : " 10/30/2016 18:27:02" } }
+		"transform" : " 10/30/2016 18:27:02",
+		"preconditions" : " 10/30/2016 18:27:02"
+	},
+	"class" : {
+		"name:category:" : " 10/30/2016 18:27:02",
+		"name:category:superclass:" : " 10/30/2016 18:27:02"
+	}
+}

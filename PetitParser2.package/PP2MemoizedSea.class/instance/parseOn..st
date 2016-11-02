@@ -1,9 +1,9 @@
 parsing
 parseOn: context
 	| contextMemento returnValue |
-	contextMemento := context remember.
+	contextMemento := self remember: context.
 	buffer at: contextMemento ifPresent: [:memento |
-		context restore: memento contextMemento.
+		self restore: context from: memento contextMemento.
 		^ memento returnValue
 	].
 
@@ -13,7 +13,7 @@ parseOn: context
 		| result |
 		result := PP2Memento new 
 			returnValue: returnValue;
-			contextMemento: context remember;
+			contextMemento: (self remember: context);
 			yourself.
 
 		buffer at: contextMemento put: result

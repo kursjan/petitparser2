@@ -1,9 +1,12 @@
 {
-	"class" : {
-		"example" : " 10/30/2016 18:27:02" },
 	"instance" : {
-		"context:" : " 10/30/2016 18:27:02",
 		"defaultStyler" : " 10/30/2016 18:27:02",
 		"initialize" : " 10/30/2016 18:27:02",
 		"parse:onError:" : " 10/30/2016 18:27:02",
-		"replaceFrom:to:with:" : " 10/30/2016 18:27:02" } }
+		"context:" : " 10/30/2016 18:27:02",
+		"replaceFrom:to:with:" : " 10/30/2016 18:27:02"
+	},
+	"class" : {
+		"example" : " 10/30/2016 18:27:02"
+	}
+}

@@ -1,16 +1,13 @@
 {
-	"category" : "PetitParser2-GUI-Tests-Debug",
-	"classinstvars" : [
-		 ],
 	"classtraitcomposition" : "TPP2ContextTest classTrait + TPP2CollectionAsserts classTrait",
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
-	"instvars" : [
-		 ],
+	"classvars" : [ ],
+	"instvars" : [ ],
 	"name" : "PP2ProfilingContextTest",
-	"pools" : [
-		 ],
+	"commentStamp" : "",
 	"super" : "TestCase",
 	"traitcomposition" : "TPP2ContextTest + TPP2CollectionAsserts",
-	"type" : "normal" }
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "PetitParser2-GUI-Tests-Debug"
+}

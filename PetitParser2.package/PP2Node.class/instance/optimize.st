@@ -29,5 +29,8 @@ optimize
 	
 	PP2ReparsableVisitor new doPass: self.
 	
+	"Inject CF memoizations when possible"
+	PP2MemoizationVisitor new doPass: self.
+	
 	self propertyAt: #allCaches put: self collectCaches.
 	self setOptimized.

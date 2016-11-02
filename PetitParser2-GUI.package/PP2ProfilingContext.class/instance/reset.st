@@ -4,7 +4,7 @@ reset
 	
 	events := OrderedCollection new.
 	positions := OrderedCollection new.
-	selectors := OrderedCollection new.
+	nodes := OrderedCollection new.
 	strategies := OrderedCollection new.
 	
 	colors := nil.

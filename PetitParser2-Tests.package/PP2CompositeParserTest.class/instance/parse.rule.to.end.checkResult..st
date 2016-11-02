@@ -3,7 +3,6 @@ parse: aString rule: aSymbol to: expectedResult end: end checkResult: aBoolean
 	| production ctx |
 	production := self parserInstanceFor: aSymbol.
 	ctx := self context.
-	
 	resultContext := self parse: aString withParser: production withContext: ctx.
 	result := resultContext value.
 	

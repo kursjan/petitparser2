@@ -1,5 +1,4 @@
 visiting
 visitSea: node
-	Halt if: [ Sensor shiftPressed  ].
 	self addAll: currentNext to: node.
 	self visitChildrenOf: node

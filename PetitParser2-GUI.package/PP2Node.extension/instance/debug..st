@@ -1,3 +1,3 @@
 *PetitParser2-GUI
 debug: input
-	^ self enableDebug parseContext: input
+	^ self enableDebug parse: input withContext: PP2ProfilingContext new

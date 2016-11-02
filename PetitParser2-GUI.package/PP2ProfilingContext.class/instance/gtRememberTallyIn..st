@@ -8,5 +8,5 @@ gtRememberTallyIn: composite
 		column: 'Count' evaluated: [ :each | each second printString ];
 		column: 'Percentage (%)' evaluated: [ :each | each third printString ];
 		display: [ self asFrequencyTableForEvent: #remember ];
-		noSelection;
+"		noSelection;"
 		showOnly: 50

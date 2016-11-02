@@ -1,13 +1,16 @@
 {
-	"class" : {
-		"on:" : " 10/30/2016 18:27:02" },
 	"instance" : {
-		"cache" : " 10/30/2016 18:27:02",
+		"reparsable" : " 10/30/2016 18:27:02",
 		"cacheIfNeeded:debugResult:" : "JanKurs 10/31/2016 09:38",
 		"debug" : " 10/30/2016 18:27:02",
 		"initialize" : "JanKurs 10/31/2016 09:02",
 		"isDebugging" : "JanKurs 10/31/2016 15:09",
 		"parseOn:" : "JanKurs 10/31/2016 09:38",
 		"parsingGuard:" : " 10/30/2016 18:27:02",
-		"reparsable" : " 10/30/2016 18:27:02",
-		"withoutDebugStrategy" : " 10/30/2016 18:27:02" } }
+		"cache" : " 10/30/2016 18:27:02",
+		"withoutDebugStrategy" : " 10/30/2016 18:27:02"
+	},
+	"class" : {
+		"on:" : " 10/30/2016 18:27:02"
+	}
+}

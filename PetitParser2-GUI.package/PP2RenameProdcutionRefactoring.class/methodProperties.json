@@ -1,9 +1,12 @@
 {
-	"class" : {
-		"onClass:rename:to:" : " 10/30/2016 18:27:02" },
 	"instance" : {
-		"preconditions" : " 10/30/2016 18:27:02",
+		"setOldProduction:" : " 10/30/2016 18:27:02",
 		"setClass:" : " 10/30/2016 18:27:02",
 		"setNewProduction:" : " 10/30/2016 18:27:02",
-		"setOldProduction:" : " 10/30/2016 18:27:02",
-		"transform" : " 10/30/2016 18:27:02" } }
+		"transform" : " 10/30/2016 18:27:02",
+		"preconditions" : " 10/30/2016 18:27:02"
+	},
+	"class" : {
+		"onClass:rename:to:" : " 10/30/2016 18:27:02"
+	}
+}
