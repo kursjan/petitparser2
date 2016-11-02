@@ -1,0 +1,10 @@
+{
+	"instance" : {
+		"testAndCS" : "JanKurs 11/2/2016 15:06",
+		"testAnd" : "JanKurs 11/2/2016 15:04",
+		"denyCFMemoization:" : "JanKurs 11/2/2016 15:06",
+		"setUp" : "JanKurs 11/2/2016 15:05",
+		"assertCFMemoization:" : "JanKurs 11/2/2016 15:05"
+	},
+	"class" : { }
+}

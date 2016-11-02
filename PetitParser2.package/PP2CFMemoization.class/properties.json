@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "PP2Memoization",
+	"category" : "PetitParser2-Context",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PP2CFMemoization",
+	"type" : "normal"
+}

@@ -1,0 +1,24 @@
+{
+	"instance" : {
+		"testElementNested" : " 10/31/2016 15:27:09",
+		"testJavascriptWithString" : " 10/31/2016 15:27:09",
+		"testDocument2" : "JanKurs 11/2/2016 14:17",
+		"context" : " 10/31/2016 15:27:09",
+		"testJavascript" : " 10/31/2016 15:27:09",
+		"testElOpen" : " 10/31/2016 15:27:09",
+		"testElementMalformedSwapped" : " 10/31/2016 15:27:09",
+		"testElement" : " 10/31/2016 15:27:09",
+		"testRawText" : " 10/31/2016 15:27:09",
+		"testElementEmpty" : " 10/31/2016 15:27:09",
+		"testElContent" : " 10/31/2016 15:27:09",
+		"testJsDoubleQuoteStringJavascript" : " 10/31/2016 15:27:09",
+		"testDocument3" : "JanKurs 11/2/2016 14:18",
+		"testElementMalformedExtraClose" : " 10/31/2016 15:27:09",
+		"testElementMalformed" : " 10/31/2016 15:27:09",
+		"parserClass" : " 10/31/2016 15:27:09",
+		"testDocument" : " 10/31/2016 15:27:09",
+		"testJavascriptContentString" : " 10/31/2016 15:27:09",
+		"testElClose" : " 10/31/2016 15:27:09"
+	},
+	"class" : { }
+}

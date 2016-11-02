@@ -1,0 +1,15 @@
+{
+	"instance" : {
+		"testElement" : " 10/31/2016 15:27:09",
+		"testRawText" : " 10/31/2016 15:27:09",
+		"testElementMalformed" : " 10/31/2016 15:27:09",
+		"testElementEmpty" : " 10/31/2016 15:27:09",
+		"testElementNested" : "JanKurs 11/2/2016 11:59",
+		"testJavascript" : " 10/31/2016 15:27:09",
+		"testElementMalformedExtraClose" : " 10/31/2016 15:27:09",
+		"parserClass" : " 10/31/2016 15:27:09",
+		"result" : "JanKurs 11/2/2016 15:17",
+		"testJavascriptWithString" : " 10/31/2016 15:27:09"
+	},
+	"class" : { }
+}

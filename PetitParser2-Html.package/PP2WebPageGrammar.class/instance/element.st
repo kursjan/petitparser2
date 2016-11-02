@@ -1,3 +1,5 @@
 element
 element
-	^ elOpen, elContent, elClose
+	^ (elOpen, elContent, elClose)
+		changesContext: false;
+		yourself
