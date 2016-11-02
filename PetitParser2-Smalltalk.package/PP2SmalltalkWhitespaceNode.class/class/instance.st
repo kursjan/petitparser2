@@ -9,5 +9,5 @@ instance
 		The reason to reset is that optimizations set some strategies. And these will not get 
 		restored.
 	"
-	instance resetStrategy.
+	instance resetStrategies.
 	^ instance 

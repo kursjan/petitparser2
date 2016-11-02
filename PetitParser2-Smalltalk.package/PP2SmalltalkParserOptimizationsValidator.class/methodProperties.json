@@ -1,9 +1,10 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"actualForSource:" : " 10/30/2016 18:26:47",
-		"expectedForSource:" : " 10/30/2016 18:26:47",
+		"sources" : " 10/30/2016 18:26:47",
 		"initialize" : " 10/30/2016 18:26:47",
+		"expectedForSource:" : " 10/30/2016 18:26:47",
 		"name" : " 10/30/2016 18:26:47",
-		"sources" : " 10/30/2016 18:26:47" } }
+		"actualForSource:" : " 10/30/2016 18:26:47"
+	},
+	"class" : { }
+}
