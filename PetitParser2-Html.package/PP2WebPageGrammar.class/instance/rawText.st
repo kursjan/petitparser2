@@ -1,3 +1,3 @@
 element
 rawText
-	^ (nil asPParser sea: rawWater) flatten 
+	^ (nil asPParser sea: elWater) flatten 

@@ -11,8 +11,4 @@ asReportTable
 	table add: (Array with: rememberCount with: #'remember count' with: rememberCount).
 	table add: (Array with: restoreCount with: #'restore count' with: restoreCount).
 
-	parser allCaches do: [ :c | 
-		table add: (Array with: c with: c printString, ' hit rate' with: c hitRatio).
-	].
-
 	^ table
