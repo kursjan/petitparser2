@@ -1,0 +1,13 @@
+{
+	"instance" : {
+		"restore:from:" : "JanKurs 11/3/2016 22:53",
+		"isCache" : "JanKurs 11/2/2016 17:56",
+		"memoize" : "JanKurs 11/2/2016 18:01",
+		"parseOn:" : "JanKurs 11/3/2016 21:53",
+		"profiling" : "JanKurs 11/3/2016 22:17",
+		"reset" : "JanKurs 11/3/2016 22:51",
+		"remember:" : "JanKurs 11/3/2016 22:53",
+		"isMemoized" : "JanKurs 11/2/2016 17:55"
+	},
+	"class" : { }
+}

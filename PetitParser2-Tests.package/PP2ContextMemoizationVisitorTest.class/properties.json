@@ -9,6 +9,6 @@
 		"parser",
 		"visitor"
 	],
-	"name" : "PP2MemoizationVisitorTest",
+	"name" : "PP2ContextMemoizationVisitorTest",
 	"type" : "normal"
 }

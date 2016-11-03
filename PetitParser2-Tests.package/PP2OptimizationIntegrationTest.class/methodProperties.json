@@ -6,7 +6,8 @@
 		"testTrimming" : " 10/31/2016 10:04:05",
 		"testIdentifier" : " 10/31/2016 10:04:05",
 		"testIdentifierTrimmingToken" : " 10/31/2016 10:04:05",
-		"testCommonPrefix" : " 10/31/2016 10:04:05"
+		"testCommonPrefix" : " 10/31/2016 10:04:05",
+		"testMemoization" : "JanKurs 11/3/2016 22:05"
 	},
 	"class" : { }
 }

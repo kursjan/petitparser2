@@ -22,7 +22,8 @@
 		"jsType",
 		"jsTypeString",
 		"rawText",
-		"document"
+		"document",
+		"rawWater"
 	],
 	"name" : "PP2WebPageGrammar",
 	"type" : "normal"

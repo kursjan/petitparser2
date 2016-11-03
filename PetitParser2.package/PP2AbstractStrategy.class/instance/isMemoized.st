@@ -1,0 +1,3 @@
+testing
+isMemoized
+	^ false

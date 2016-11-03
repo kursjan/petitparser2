@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"buffer"
+		"buffer",
+		"memoizationStrategy"
 	],
 	"name" : "PP2MemoizedSea",
 	"type" : "normal"

@@ -2,11 +2,10 @@
 	"instance" : {
 		"isCache" : " 10/30/2016 18:26:47",
 		"memoize" : " 10/30/2016 18:26:47",
-		"parseOn:" : "JanKurs 11/2/2016 13:47",
-		"reset" : " 10/30/2016 18:26:47",
+		"parseOn:" : "JanKurs 11/2/2016 17:56",
+		"reset" : "JanKurs 11/3/2016 23:04",
 		"cache" : " 10/30/2016 18:26:47",
-		"remember:" : "JanKurs 11/2/2016 13:47",
-		"restore:from:" : "JanKurs 11/2/2016 13:47"
+		"isMemoized" : "JanKurs 11/2/2016 17:56"
 	},
 	"class" : { }
 }

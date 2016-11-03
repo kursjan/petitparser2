@@ -1,3 +1,3 @@
 testing
 isDebugging
-	^ self strategy isDebugging
+	^ self strategies anySatisfy: [ :s | s isDebugging ]

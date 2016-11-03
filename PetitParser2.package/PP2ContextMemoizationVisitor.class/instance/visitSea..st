@@ -1,7 +1,7 @@
 visiting
-visitFlatten: node
-	super visitFlatten: node.
-	
+visitSea: node
 	node changesContext ifFalse: [ 
 		node memoizationStrategy: PP2CFMemoization new
-	]
+	].
+
+	^ 	super visitSea: node

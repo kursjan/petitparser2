@@ -18,6 +18,9 @@ optimize
 	"
 	PP2TrimmingCacheVisitor new doPass: self.
 
+	"Use packrat parsing"
+	PP2PackratVisitor new doPass: self.
+
 	"Cache the intermediate results for the Guard and Common Prefix visitors"
 	PP2AllNodesCache new doPass: self.
 	PP2FirstProductionSetCache new doPass: self.
@@ -30,7 +33,7 @@ optimize
 	PP2ReparsableVisitor new doPass: self.
 	
 	"Inject CF memoizations when possible"
-	PP2MemoizationVisitor new doPass: self.
+	PP2ContextMemoizationVisitor new doPass: self.
 	
 	self propertyAt: #allCaches put: self collectCaches.
 	self setOptimized.

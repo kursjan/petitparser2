@@ -1,4 +1,4 @@
-as yet unclassified
+arithmetic
 + anInteger
 	^ (self copy)
 		position: position + anInteger;

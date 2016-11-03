@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "PP2MemoizationVisitor",
+	"name" : "PP2PackratVisitor",
 	"type" : "normal"
 }

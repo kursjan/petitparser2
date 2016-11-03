@@ -1,3 +1,3 @@
-as yet unclassified
+memoization
 remember: context
 	^ context rememberPosition 
