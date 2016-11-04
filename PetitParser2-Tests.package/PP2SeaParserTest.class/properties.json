@@ -1,13 +1,13 @@
 {
-	"classtraitcomposition" : "TPP2SeaIntegrationTest classTrait",
+	"classtraitcomposition" : "TPP2SeaParserTest classTrait",
 	"classvars" : [ ],
 	"instvars" : [
 		"result"
 	],
-	"name" : "PP2SeaIntegrationTest",
+	"name" : "PP2SeaParserTest",
 	"commentStamp" : "",
 	"super" : "PP2AbstractParserTest",
-	"traitcomposition" : "TPP2SeaIntegrationTest",
+	"traitcomposition" : "TPP2SeaParserTest",
 	"type" : "normal",
 	"classinstvars" : [ ],
 	"pools" : [ ],

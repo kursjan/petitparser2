@@ -1,12 +1,18 @@
 {
 	"instance" : {
-		"testMatch" : "JanKurs 11/4/2016 12:22",
-		"testSeaWithCSIsland" : "JanKurs 11/4/2016 15:35",
 		"assertIsContextSensitive:" : "JanKurs 11/4/2016 12:22",
-		"setUp" : "JanKurs 11/4/2016 12:22",
-		"testLiteralObject" : "JanKurs 11/4/2016 12:22",
+		"testSequenceWithMatch" : "JanKurs 11/4/2016 17:04",
+		"testMatch" : "JanKurs 11/4/2016 12:22",
+		"testSequenceWithPushMatch" : "JanKurs 11/4/2016 17:17",
+		"testSequenceWithPushMatchPop" : "JanKurs 11/4/2016 17:15",
+		"testSequenceWithPush" : "JanKurs 11/4/2016 17:05",
 		"denyIsContextSensitive:" : "JanKurs 11/4/2016 12:21",
-		"testSea" : "JanKurs 11/4/2016 15:35"
+		"testAndMatch" : "JanKurs 11/4/2016 17:19",
+		"testSequence" : "JanKurs 11/4/2016 17:04",
+		"testLiteralObject" : "JanKurs 11/4/2016 12:22",
+		"testSea" : "JanKurs 11/4/2016 15:35",
+		"testSeaWithCSIsland" : "JanKurs 11/4/2016 15:35",
+		"setUp" : "JanKurs 11/4/2016 12:22"
 	},
 	"class" : { }
 }

@@ -1,6 +1,7 @@
-as yet unclassified
+test - context
 testPushStarZero
+	| node |
 	node := $a asPParser push star.
 	
 	self assert: node parse: ''.
-	self assert: context defaultStack size equals: 0.
+	self assert: self context defaultStack size equals: 0.

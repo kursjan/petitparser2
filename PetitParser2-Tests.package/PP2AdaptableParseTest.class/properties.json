@@ -1,7 +1,9 @@
 {
 	"classtraitcomposition" : "TPP2ParseTest classTrait",
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"context"
+	],
 	"name" : "PP2AdaptableParseTest",
 	"commentStamp" : "",
 	"super" : "PP2AbstractParserTest",

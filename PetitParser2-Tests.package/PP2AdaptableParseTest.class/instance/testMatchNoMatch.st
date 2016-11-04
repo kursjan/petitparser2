@@ -1,5 +1,6 @@
-as yet unclassified
+test - context
 testMatchNoMatch
+	| node |
 	node := $a asPParser match.
 	
 	self context defaultStack push: $b.

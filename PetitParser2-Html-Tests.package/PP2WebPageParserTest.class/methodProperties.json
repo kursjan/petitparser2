@@ -1,8 +1,9 @@
 {
 	"instance" : {
 		"testElement" : " 10/31/2016 15:27:09",
-		"testRawText" : " 10/31/2016 15:27:09",
+		"testElementUnclosed" : "JanKurs 11/4/2016 18:08",
 		"testElementMalformed" : " 10/31/2016 15:27:09",
+		"testRawText" : " 10/31/2016 15:27:09",
 		"testElementEmpty" : " 10/31/2016 15:27:09",
 		"testElementNested" : "JanKurs 11/2/2016 11:59",
 		"testJavascript" : " 10/31/2016 15:27:09",

@@ -1,5 +1,6 @@
-as yet unclassified
+test - context
 testPop
+	| node |
 	node := nil asPParser pop.
 	
 	self context defaultStack push: $a.

@@ -1,5 +1,6 @@
-as yet unclassified
+test - context
 testPush
+	| node |
 	node := $a asPParser push.
 	
 	self assert: node parse: 'a'.

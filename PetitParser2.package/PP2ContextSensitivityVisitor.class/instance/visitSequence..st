@@ -1,5 +1,6 @@
 as yet unclassified
-visitMatch: node
+visitSequence: node
 	^ node propertyAt: #isContextSensitive ifAbsentPut: [ 
-		true
+		super visitSequence: node.
+		self sequenceResult: node
 	]

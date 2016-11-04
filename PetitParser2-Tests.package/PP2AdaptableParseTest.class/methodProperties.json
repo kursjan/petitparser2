@@ -1,11 +1,24 @@
 {
 	"instance" : {
-		"testWaterDefault" : " 10/31/2016 10:04:05",
-		"testWaterRecursive" : " 10/31/2016 10:04:05",
-		"testWaterRecursive2" : " 10/31/2016 10:04:05",
-		"testWaterBoundary" : " 10/31/2016 10:04:05",
+		"testPop" : "JanKurs 11/4/2016 15:57",
 		"parse:withParser:withContext:" : " 10/31/2016 10:04:05",
-		"testNonEpsilon" : " 10/31/2016 10:04:05"
+		"testMatchFailure" : "JanKurs 11/4/2016 15:56",
+		"testPopStarTwo" : "JanKurs 11/4/2016 15:58",
+		"context" : "JanKurs 11/4/2016 15:55",
+		"testPushStarZero" : "JanKurs 11/4/2016 15:58",
+		"testWaterRecursive" : " 10/31/2016 10:04:05",
+		"testPushStarOne" : "JanKurs 11/4/2016 15:58",
+		"testMatchNoMatch" : "JanKurs 11/4/2016 15:56",
+		"testMatchEmpty" : "JanKurs 11/4/2016 15:56",
+		"testWaterBoundary" : " 10/31/2016 10:04:05",
+		"testPushStarTwo" : "JanKurs 11/4/2016 15:58",
+		"testNonEpsilon" : " 10/31/2016 10:04:05",
+		"testPopStarZero" : "JanKurs 11/4/2016 15:58",
+		"testWaterDefault" : " 10/31/2016 10:04:05",
+		"testPush" : "JanKurs 11/4/2016 15:58",
+		"testWaterRecursive2" : " 10/31/2016 10:04:05",
+		"testMatch" : "JanKurs 11/4/2016 15:56",
+		"testPopStarOne" : "JanKurs 11/4/2016 15:57"
 	},
 	"class" : { }
 }

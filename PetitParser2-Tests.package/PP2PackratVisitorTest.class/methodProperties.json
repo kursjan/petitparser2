@@ -1,8 +1,13 @@
 {
 	"instance" : {
-		"assertMemoized:" : "JanKurs 11/3/2016 21:51",
-		"testMemoize" : "JanKurs 11/3/2016 21:51",
-		"setUp" : "JanKurs 11/3/2016 21:59"
+		"testMemoizeMatch" : "JanKurs 11/4/2016 15:43",
+		"assertMemoized:" : "JanKurs 11/4/2016 15:42",
+		"denyMemoized:" : "JanKurs 11/4/2016 15:42",
+		"setUp" : "JanKurs 11/3/2016 21:59",
+		"testMemoizeMemoized" : "JanKurs 11/4/2016 15:41",
+		"testMemoizePop" : "JanKurs 11/4/2016 15:47",
+		"testMemoizePush" : "JanKurs 11/4/2016 15:45",
+		"testMemoize" : "JanKurs 11/3/2016 21:51"
 	},
 	"class" : { }
 }

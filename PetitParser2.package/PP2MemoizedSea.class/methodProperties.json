@@ -1,10 +1,12 @@
 {
 	"instance" : {
+		"restore:from:" : "JanKurs 11/4/2016 19:57",
 		"isCache" : " 10/30/2016 18:26:47",
 		"memoize" : " 10/30/2016 18:26:47",
-		"parseOn:" : "JanKurs 11/2/2016 17:56",
-		"reset" : "JanKurs 11/4/2016 15:25",
+		"parseOn:" : "JanKurs 11/2/2016 13:47",
+		"reset" : "JanKurs 11/4/2016 17:19",
 		"cache" : " 10/30/2016 18:26:47",
+		"remember:" : "JanKurs 11/4/2016 19:53",
 		"isMemoized" : "JanKurs 11/2/2016 17:56"
 	},
 	"class" : { }
