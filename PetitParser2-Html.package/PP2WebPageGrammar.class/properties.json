@@ -23,7 +23,10 @@
 		"jsTypeString",
 		"rawText",
 		"document",
-		"elWater"
+		"elWater",
+		"identifier",
+		"jsString",
+		"jsSingleQuoteString"
 	],
 	"name" : "PP2WebPageGrammar",
 	"type" : "normal"

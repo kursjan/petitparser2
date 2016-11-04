@@ -1,0 +1,16 @@
+{
+	"classtraitcomposition" : "TPP2ProfilingCache classTrait",
+	"classvars" : [ ],
+	"instvars" : [
+		"invocations",
+		"hits"
+	],
+	"name" : "PP2ProfilingMemoizedSea",
+	"commentStamp" : "",
+	"super" : "PP2MemoizedSea",
+	"traitcomposition" : "TPP2ProfilingCache",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "PetitParser2-GUI-Profiling"
+}

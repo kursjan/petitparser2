@@ -19,21 +19,22 @@
 		"visitTrimming:" : " 10/30/2016 18:26:47",
 		"context:" : " 10/30/2016 18:26:47",
 		"visitLiteralObject:" : " 10/30/2016 18:26:47",
-		"visitComposite:" : "JanKurs 10/31/2016 08:32",
+		"visitComposite:" : "JanKurs 11/4/2016 20:58",
 		"visitWater:" : " 10/30/2016 18:26:47",
-		"visitToken:" : " 10/30/2016 18:26:47",
+		"visitToken:" : "JanKurs 11/4/2016 20:59",
 		"add:to:" : " 10/30/2016 18:26:47",
 		"visitEpsilon:" : " 10/30/2016 18:26:47",
 		"addAll:to:" : " 10/30/2016 18:26:47",
-		"visitAction:" : " 10/30/2016 18:26:47",
+		"visitAction:" : "JanKurs 11/4/2016 20:58",
 		"visitEnd:" : " 10/30/2016 18:26:47",
 		"visitPop:" : "JanKurs 11/1/2016 17:34",
+		"visitNot:" : "JanKurs 11/4/2016 20:59",
 		"visitPredicateObject:" : " 10/30/2016 18:26:47",
 		"visitLiteralSequence:" : " 10/30/2016 18:26:47",
 		"visitChoice:" : " 10/30/2016 18:26:47",
 		"visitEndOfInput:" : " 10/30/2016 18:26:47",
 		"visitSea:" : "JanKurs 11/2/2016 15:47",
-		"visitAnd:" : " 10/30/2016 18:26:47"
+		"visitAnd:" : "JanKurs 11/4/2016 20:58"
 	},
 	"class" : { }
 }

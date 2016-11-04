@@ -1,14 +1,16 @@
 {
 	"instance" : {
-		"reset" : "JanKurs 11/4/2016 15:25",
-		"restore:from:" : "JanKurs 11/3/2016 22:53",
+		"cacheHit:" : "JanKurs 11/4/2016 20:37",
+		"isMemoized" : "JanKurs 11/2/2016 17:55",
 		"isCache" : "JanKurs 11/2/2016 17:56",
+		"profiling" : "JanKurs 11/3/2016 22:17",
+		"invocation" : "JanKurs 11/4/2016 20:37",
+		"remember:" : "JanKurs 11/3/2016 22:53",
+		"reset" : "JanKurs 11/4/2016 15:25",
 		"memoize" : "JanKurs 11/2/2016 18:01",
 		"buffer" : "JanKurs 11/4/2016 16:03",
 		"parseOn:" : "JanKurs 11/4/2016 16:45",
-		"profiling" : "JanKurs 11/3/2016 22:17",
-		"remember:" : "JanKurs 11/3/2016 22:53",
-		"isMemoized" : "JanKurs 11/2/2016 17:55"
+		"restore:from:" : "JanKurs 11/3/2016 22:53"
 	},
 	"class" : { }
 }

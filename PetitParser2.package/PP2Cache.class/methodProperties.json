@@ -1,9 +1,11 @@
 {
 	"instance" : {
-		"cache" : " 10/30/2016 18:26:47",
+		"invocation" : "JanKurs 11/4/2016 20:36",
 		"isCache" : " 10/30/2016 18:26:47",
+		"parseOn:" : "JanKurs 11/1/2016 16:27",
 		"reset" : " 10/30/2016 18:26:47",
-		"parseOn:" : "JanKurs 11/1/2016 16:27"
+		"cache" : " 10/30/2016 18:26:47",
+		"cacheHit:" : "JanKurs 11/4/2016 20:36"
 	},
 	"class" : { }
 }

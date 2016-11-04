@@ -1,3 +1,4 @@
 javascript
 jsOpen
-	^ '<script type=' asPParser, jsTypeString, '>' asPParser
+	^ ('<script type=' asPParser, jsTypeString, '>' asPParser) /
+	  ('<script>' asPParser)

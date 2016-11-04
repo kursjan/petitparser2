@@ -1,3 +1,3 @@
 accessing
-dipslayText
+displayText
 	^ self code

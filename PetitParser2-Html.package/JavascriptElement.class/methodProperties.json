@@ -1,7 +1,8 @@
 {
 	"instance" : {
+		"displayText" : "JanKurs 11/4/2016 21:30",
 		"code:" : " 10/31/2016 10:04:07",
-		"dipslayText" : " 10/31/2016 10:04:07",
+		"gtText:" : "JanKurs 11/4/2016 21:30",
 		"code" : " 10/31/2016 10:04:07"
 	},
 	"class" : { }

@@ -1,0 +1,3 @@
+profiling
+invocations
+	^ invocations

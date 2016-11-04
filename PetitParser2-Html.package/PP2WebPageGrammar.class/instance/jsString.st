@@ -1,0 +1,3 @@
+javascript
+jsString
+	^ jsDoubleQuoteString / jsSingleQuoteString

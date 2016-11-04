@@ -1,3 +1,3 @@
 javascript
 jsWater
-	^ jsDoubleQuoteString / whitespaces / any
+	^ identifier / jsString / whitespaces / any

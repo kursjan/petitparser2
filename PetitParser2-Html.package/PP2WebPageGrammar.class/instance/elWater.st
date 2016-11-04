@@ -1,3 +1,3 @@
 element
 elWater
-	^ whitespaces / any
+	^ identifier / whitespaces / any
