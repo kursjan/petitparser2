@@ -1,6 +1,6 @@
 visiting
 visitSea: node
-	node changesContext ifFalse: [ 
+	node contextChanges isContextChange ifFalse: [ 
 		node memoizationStrategy: PP2CFMemoization new
 	].
 

@@ -1,3 +1,3 @@
 visiting
 accept: visitor
-	^ visitor visitPush: self
+	^ visitor visitMatch: self

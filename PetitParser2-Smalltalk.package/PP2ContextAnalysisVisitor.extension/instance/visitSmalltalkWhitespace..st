@@ -1,3 +1,3 @@
 *PetitParser2-Smalltalk
 visitSmalltalkWhitespace: node
-	^ false
+	^ PP2CaChange noChange 

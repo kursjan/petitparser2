@@ -1,0 +1,3 @@
+testing
+isContextChange
+	self subclassResponsibility 

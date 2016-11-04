@@ -1,0 +1,3 @@
+testing
+isPush
+	^ false

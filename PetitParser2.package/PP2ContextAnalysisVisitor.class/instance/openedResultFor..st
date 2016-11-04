@@ -1,3 +1,3 @@
 loop control
 openedResultFor: context
-	^ false
+	^ PP2CaResult noChange 

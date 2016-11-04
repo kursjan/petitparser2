@@ -1,12 +1,14 @@
-tests
+tests - guards
 testGuardChoiceOptionOne
-	| invocations parserOne parserTwo wrappedOne wrappedTwo |
-	invocations := OrderedCollection new.
-	parserOne := $a asPParser >==> [ :c :cc | invocations add: #a. cc value ].
-	parserTwo := $b asPParser >==> [ :c :cc | invocations add: #b. cc value ].
+	| parserOne parserTwo wrappedOne wrappedTwo parser result |
+	parserOne := $a asPParser.
+	parserTwo := $b asPParser.
 
 	wrappedOne := parserOne wrapped trim flatten. 
 	wrappedTwo := parserTwo wrapped trim flatten.
+	parser := wrappedOne / wrappedTwo.
+	parser optimize.
+	parser enableDebug.
 
-	self assert: (wrappedOne / wrappedTwo) optimize parse: 'a ' to: 'a '.
-	self assert: invocations size equals: 1
+	result := self assert: parser parse: 'a ' to: 'a '.
+	self assert: result debugResult steps equals: 8

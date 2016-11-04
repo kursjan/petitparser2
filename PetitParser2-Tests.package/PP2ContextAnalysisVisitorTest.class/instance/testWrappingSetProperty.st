@@ -1,7 +1,7 @@
-as yet unclassified
+tests
 testWrappingSetProperty
 	parser := $a asPParser >=> [ :ctx :cc | cc value ]
-		changesContext: false;
+		contextChanges: PP2CaChange noChange;
 		yourself.
 	
 	 self denyChangesContext: parser

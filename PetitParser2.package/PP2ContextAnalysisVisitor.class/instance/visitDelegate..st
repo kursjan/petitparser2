@@ -1,5 +1,5 @@
 visiting
 visitDelegate: node
-	^ node propertyAt: #changesContext ifAbsent: [ 
+	^ node propertyAt: #contextChanges ifAbsentPut: [ 
 		self visit: node child
 	]

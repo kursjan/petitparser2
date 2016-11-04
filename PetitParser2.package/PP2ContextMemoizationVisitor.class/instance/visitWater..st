@@ -1,6 +1,6 @@
 visiting
 visitWater: node
-	node waterToken changesContext ifFalse: [ 
+	node waterToken contextChanges isContextChange ifFalse: [ 
 		node memoizationStrategy: PP2CFMemoization new
 	].
 

@@ -1,5 +1,6 @@
-as yet unclassified
+tests
 testPop
 	parser := $a asPParser pop.
 	
-	self assertChangesContext: parser
+	self assertChangesContext: parser.
+	self assertPop: parser.

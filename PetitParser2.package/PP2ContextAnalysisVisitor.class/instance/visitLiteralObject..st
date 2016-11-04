@@ -1,5 +1,5 @@
 visiting
 visitLiteralObject: node
-	^ node propertyAt: #changesContext ifAbsent: [ 
-		false
+	^ node propertyAt: #contextChanges ifAbsentPut: [ 
+		PP2CaResult noChange 
 	]

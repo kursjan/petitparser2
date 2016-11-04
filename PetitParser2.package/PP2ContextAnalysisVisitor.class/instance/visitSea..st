@@ -1,5 +1,7 @@
 visiting
 visitSea: node
-	^ node propertyAt: #changesContext ifAbsent: [ 
-		node children anySatisfy: [:child | self visit: child ]
+	^ node propertyAt: #contextChanges ifAbsentPut: [ 
+		self assert: (self visit: node beforeWater) isContextChange not.
+		self assert: (self visit: node afterWater) isContextChange not.
+		^ self visit: node island
 	]

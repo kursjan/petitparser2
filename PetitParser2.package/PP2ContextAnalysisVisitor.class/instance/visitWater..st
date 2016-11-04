@@ -1,5 +1,7 @@
 visiting
 visitWater: node
-	^ node propertyAt: #changesContext ifAbsent: [ 
-		node children anySatisfy: [:child | self visit: child ]
+	^ node propertyAt: #contextChanges ifAbsent: [ 
+		self assert: (self visit: node waterToken) isContextChange not.
+		self assert: (self visit: node boundary) isContextChange not.
+		PP2CaChange noChange 
 	]

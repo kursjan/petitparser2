@@ -1,10 +1,11 @@
-tests
+tests - guards
 testGuardPlusTwo
-	| invocations parserOne wrappedOne |
-	invocations := OrderedCollection new.
-	
-	parserOne := $a asPParser >==> [ :c :cc | invocations add: #a. cc value. ].
-	wrappedOne := parserOne wrapped trim flatten >==> [:c :cc | invocations add: #plus. cc value ]. 
+	| parserOne wrappedOne parser result |
+	parserOne := $a asPParser.
+	wrappedOne := parserOne wrapped trim flatten. 
+	parser := wrappedOne plus.
+	parser optimize.
+	parser enableDebug.
 
-	self assert: wrappedOne plus optimize parse: 'aa' to: #('a' 'a') end: 2.
-	self assert: invocations size equals: 6
+	result := self assert: parser parse: 'aa' to: #('a' 'a') end: 2.
+	self assert: result debugResult steps equals: 19

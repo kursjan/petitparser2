@@ -1,5 +1,5 @@
 visiting
 visitWrapping: node
-	^ node propertyAt: #changesContext ifAbsent: [ 
-		^ true
+	^ node propertyAt: #contextChanges ifAbsent: [ 
+		^ PP2CaChange change
 	]

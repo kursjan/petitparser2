@@ -1,0 +1,15 @@
+{
+	"instance" : {
+		"isPop" : "JanKurs 11/4/2016 12:40",
+		"isContextChange" : "JanKurs 11/4/2016 12:40",
+		"isPush" : "JanKurs 11/4/2016 12:40",
+		"isUnknownChange" : "JanKurs 11/4/2016 12:55"
+	},
+	"class" : {
+		"pop" : "JanKurs 11/4/2016 12:43",
+		"instance" : "JanKurs 11/4/2016 12:44",
+		"push" : "JanKurs 11/4/2016 12:43",
+		"noChange" : "JanKurs 11/4/2016 12:44",
+		"change" : "JanKurs 11/4/2016 12:43"
+	}
+}

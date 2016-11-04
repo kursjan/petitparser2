@@ -1,5 +1,5 @@
 visiting
 visitPredicateObject: node
-	^ node propertyAt: #changesContext ifAbsent: [ 
-		false
+	^ node propertyAt: #contextChanges ifAbsent: [ 
+		PP2CaChange noChange 
 	]

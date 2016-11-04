@@ -1,3 +1,3 @@
-as yet unclassified
+asserting
 denyChangesContext: node
-	self deny: (visitor visit: node) 
+	self deny: (visitor visit: node) isContextChange

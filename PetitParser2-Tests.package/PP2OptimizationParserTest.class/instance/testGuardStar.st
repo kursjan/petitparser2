@@ -1,4 +1,4 @@
-tests
+tests - guards
 testGuardStar
 	| parser wrappedOne result |
 

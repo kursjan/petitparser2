@@ -1,5 +1,5 @@
 visiting
 visitSequence: node
-	^ node propertyAt: #changesContext ifAbsent: [ 
-		node children anySatisfy: [:child | self visit: child ]
+	^ node propertyAt: #contextChanges ifAbsentPut: [ 
+		self sequenceResult: node
 	]

@@ -1,0 +1,12 @@
+{
+	"instance" : {
+		"testMatch" : "JanKurs 11/4/2016 12:22",
+		"testSeaWithCSIsland" : "JanKurs 11/4/2016 15:35",
+		"assertIsContextSensitive:" : "JanKurs 11/4/2016 12:22",
+		"setUp" : "JanKurs 11/4/2016 12:22",
+		"testLiteralObject" : "JanKurs 11/4/2016 12:22",
+		"denyIsContextSensitive:" : "JanKurs 11/4/2016 12:21",
+		"testSea" : "JanKurs 11/4/2016 15:35"
+	},
+	"class" : { }
+}

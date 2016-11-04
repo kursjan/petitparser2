@@ -1,6 +1,6 @@
 initialization
 reset
-	self node changesContext ifTrue: [  
+	self node isContextSensitive ifTrue: [  
 		memoizationStrategy := PP2CSMemoization new.
 		buffer := Dictionary new
 	] ifFalse: [  

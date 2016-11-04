@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "PP2CaResult",
+	"category" : "PetitParser2-Analysis",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PP2CaChange",
+	"type" : "normal"
+}

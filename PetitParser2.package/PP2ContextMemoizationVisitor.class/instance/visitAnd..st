@@ -1,6 +1,6 @@
 visiting
 visitAnd: node
-	node child changesContext ifFalse: [ 
+	node child contextChanges isContextChange ifFalse: [ 
 		node memoizationStrategy: PP2CFMemoization new
 	].
 
