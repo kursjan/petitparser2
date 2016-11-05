@@ -1,11 +1,16 @@
 {
-	"commentStamp" : "",
-	"super" : "PP2FirstSetVisitor",
 	"category" : "PetitParser2-Optimizations",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TPP2AnalysisCache classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "PP2FirstSetCache",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PP2FirstSetVisitor",
+	"traitcomposition" : "TPP2AnalysisCache",
+	"type" : "normal" }

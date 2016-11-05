@@ -1,5 +1,4 @@
 {
-	"name" : "TPP2NullProfiling",
+	"category" : "PetitParser2-Strategies",
 	"commentStamp" : "",
-	"category" : "PetitParser2-Strategies"
-}
+	"name" : "TPP2NullProfiling" }

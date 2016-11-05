@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "PP2Strategy",
 	"category" : "PetitParser2-Strategies",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "PP2NonEpsilon",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PP2Strategy",
+	"type" : "normal" }

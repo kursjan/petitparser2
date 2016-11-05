@@ -1,0 +1,14 @@
+{
+	"category" : "PetitParser2-Analysis",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PP2CcPush",
+	"pools" : [
+		 ],
+	"super" : "PP2CcResult",
+	"type" : "normal" }

@@ -1,3 +1,3 @@
 running
 setUp
-	visitor := PP2ContextAnalysisVisitor new
+	visitor := PP2ContextChangesVisitor new

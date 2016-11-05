@@ -1,0 +1,16 @@
+{
+	"category" : "PetitParser2-Optimizations",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TPP2AnalysisCache classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PP2ContextSensitivityCache",
+	"pools" : [
+		 ],
+	"super" : "PP2ContextSensitivityVisitor",
+	"traitcomposition" : "TPP2AnalysisCache",
+	"type" : "normal" }

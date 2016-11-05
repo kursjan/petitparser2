@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "PP2Strategy",
 	"category" : "PetitParser2-Strategies",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
-		"failure"
-	],
+		"failure" ],
 	"name" : "PP2EndOfInput",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PP2Strategy",
+	"type" : "normal" }

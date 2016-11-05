@@ -33,6 +33,8 @@ optimize
 	PP2ReparsableVisitor new doPass: self.
 	
 	"Inject CF memoizations when possible"
+	PP2ContextChangesCache new doPass: self.
+	PP2ContextSensitivityCache new doPass: self.
 	PP2ContextMemoizationVisitor new doPass: self.
 	
 	self propertyAt: #allCaches put: self collectCaches.

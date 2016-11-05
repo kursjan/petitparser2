@@ -1,16 +1,17 @@
 {
+	"category" : "PetitParser2-Tests-Optimizations",
+	"classinstvars" : [
+		 ],
 	"classtraitcomposition" : "TPP2TypeAssertions classTrait + TPP2CollectionAsserts classTrait",
-	"classvars" : [ ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"parser",
-		"visitor"
-	],
+		"visitor" ],
 	"name" : "PP2CommonPrefixVisitorTest",
-	"commentStamp" : "",
+	"pools" : [
+		 ],
 	"super" : "TestCase",
 	"traitcomposition" : "TPP2TypeAssertions + TPP2CollectionAsserts",
-	"type" : "normal",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"category" : "PetitParser2-Tests-Optimizations"
-}
+	"type" : "normal" }

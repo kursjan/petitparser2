@@ -1,15 +1,16 @@
 {
-	"commentStamp" : "",
-	"super" : "PP2NoopVisitor",
 	"category" : "PetitParser2-Analysis",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"terminalBlock",
 		"predicateBlock",
-		"leftRecursionAllowed"
-	],
+		"leftRecursionAllowed" ],
 	"name" : "PP2FirstSetVisitor",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PP2NoopVisitor",
+	"type" : "normal" }

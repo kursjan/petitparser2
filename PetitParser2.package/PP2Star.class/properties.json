@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "PP2PossesiveRepeating",
 	"category" : "PetitParser2-Strategies",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
-		"child"
-	],
+		"child" ],
 	"name" : "PP2Star",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PP2PossesiveRepeating",
+	"type" : "normal" }

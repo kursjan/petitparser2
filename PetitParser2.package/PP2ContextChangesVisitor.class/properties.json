@@ -1,0 +1,14 @@
+{
+	"category" : "PetitParser2-Analysis",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JanKurs 11/5/2016 19:41",
+	"instvars" : [
+		 ],
+	"name" : "PP2ContextChangesVisitor",
+	"pools" : [
+		 ],
+	"super" : "PP2NoopVisitor",
+	"type" : "normal" }

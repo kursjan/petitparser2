@@ -1,8 +1,10 @@
 as yet unclassified
 sequenceResult: node
-	| pushes matches pushIndex matchIndices |
+	| pushes matches pushIndex matchIndices childrenResult |
+	childrenResult := node children collect: [ :child | child -> (self  visit: child) ].
+	
 	pushes := node children select: [ :child | child contextChanges isPush ].
-	matches := node children select: [ :child | child isContextSensitive  ].
+	matches := childrenResult select: [ :assoc | assoc value ] thenCollect: #key.
 	
 	matches isEmpty ifTrue: [ ^ false ].
 	pushes isEmpty ifTrue: [ ^ true ].

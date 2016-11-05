@@ -1,9 +1,0 @@
-{
-	"instance" : {
-		"testReparse" : " 10/31/2016 10:04:05",
-		"testMemoHit" : " 10/31/2016 10:04:05",
-		"testMemoMiss" : " 10/31/2016 10:04:05",
-		"testParseAndParse" : " 10/31/2016 10:04:05"
-	},
-	"class" : { }
-}

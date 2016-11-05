@@ -1,5 +1,4 @@
 {
-	"name" : "TPP2ExpressionParserTest",
+	"category" : "PetitParser2-Tests-Examples",
 	"commentStamp" : "",
-	"category" : "PetitParser2-Tests-Examples"
-}
+	"name" : "TPP2ExpressionParserTest" }

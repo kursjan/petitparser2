@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "PP2Node",
 	"category" : "PetitParser2-Smalltalk-Core",
 	"classinstvars" : [
-		"instance"
-	],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+		"instance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "PP2SmalltalkWhitespaceNode",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PP2Node",
+	"type" : "normal" }

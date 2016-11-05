@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "PP2InMemoryContext",
 	"category" : "PetitParser2-Reparsing",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
-		"furthestPosition"
-	],
+		"furthestPosition" ],
 	"name" : "PP2ReparsableContext",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PP2InMemoryContext",
+	"type" : "normal" }

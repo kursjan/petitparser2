@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "PP2CsNode",
 	"category" : "PetitParser2-Context",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "PP2PopNode",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PP2CsNode",
+	"type" : "normal" }

@@ -1,19 +1,20 @@
 {
+	"category" : "PetitParser2-Core",
+	"classinstvars" : [
+		 ],
 	"classtraitcomposition" : "TPP2Globals classTrait + TPP2Context classTrait + TPP2Debuggable classTrait + TPP2Properties classTrait",
-	"classvars" : [ ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JanKurs 10/9/2016 12:39",
 	"instvars" : [
 		"parser",
 		"properties",
 		"globals",
 		"returnValue",
-		"startMemento"
-	],
+		"startMemento" ],
 	"name" : "PP2InMemoryContext",
-	"commentStamp" : "JanKurs 10/9/2016 12:39",
+	"pools" : [
+		 ],
 	"super" : "ReadStream",
 	"traitcomposition" : "TPP2Globals + TPP2Context + TPP2Debuggable + TPP2Properties",
-	"type" : "normal",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"category" : "PetitParser2-Core"
-}
+	"type" : "normal" }

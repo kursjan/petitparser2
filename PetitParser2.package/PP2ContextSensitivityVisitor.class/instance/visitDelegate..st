@@ -1,5 +1,5 @@
 as yet unclassified
 visitDelegate: node
-	^ node propertyAt: #isContextSensitive ifAbsentPut: [ 
+	^ node propertyAt: #isContextSensitive ifAbsent: [ 
 		self visit: node child
 	]

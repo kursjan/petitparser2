@@ -1,0 +1,3 @@
+accessing
+propertySymbol
+	self explicitRequirement
