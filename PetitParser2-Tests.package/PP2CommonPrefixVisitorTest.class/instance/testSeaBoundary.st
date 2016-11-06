@@ -4,7 +4,7 @@ testSeaBoundary
 	sea := $a asPParser star trim flatten wrapped sea.
 	
 	parser := $b asPParser plus trim wrapped flatten.
-	sea beforeWater boundary: parser.
+	sea beforeWater boundaryElements: parser.
 	sea afterWater boundary: parser.
 	
 	self visit: sea.

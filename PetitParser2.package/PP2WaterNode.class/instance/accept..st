@@ -1,3 +1,3 @@
-as yet unclassified
+visiting
 accept: visitor
 	^ visitor visitWater: self

@@ -1,3 +1,0 @@
-operators
-nonEpsilon
-	^ self

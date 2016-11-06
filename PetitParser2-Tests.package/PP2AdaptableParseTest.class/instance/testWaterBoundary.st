@@ -2,7 +2,7 @@ test - water
 testWaterBoundary
 	| water |
 	water := PP2WaterNode new
-		boundary: 'foo' asPParser;
+		boundaryElements: 'foo' asPParser;
 		yourself.
 	
 	self assert: water parse: 'foobar' to: '' end: 0.

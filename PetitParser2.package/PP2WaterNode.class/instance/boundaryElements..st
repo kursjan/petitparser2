@@ -1,7 +1,8 @@
 accessing
-boundaryElements: collection
+boundaryElements: collectionOrElement
 	| elements |
-	elements := collection collect: #nonEpsilon.
+	elements := collectionOrElement asCollection.
+	elements := elements collect: [:e | self nonEpsilon: e ].
 	elements := elements collect: #and.
 		
 	boundary := (PP2ChoiceNode withAll: elements).
