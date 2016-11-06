@@ -1,14 +1,14 @@
 parsing
-parseOn: aPP2Context
+parseOn: context
 	| retval elements memento |
 
-	memento := aPP2Context remember.
+	memento := self remember: context.
 	elements := Array new: node children size.
 	
 	1 to: elements size do: [ :index |
-		retval := (node childAt: index) parseOn: aPP2Context.
+		retval := (node childAt: index) parseOn: context.
 		retval isPetit2Failure ifTrue: [ 
-			aPP2Context restore: memento. 
+			self restore: context from: memento. 
 			^ retval
 		].
 		elements at: index put: retval 

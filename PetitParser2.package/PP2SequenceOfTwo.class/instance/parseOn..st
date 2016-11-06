@@ -1,15 +1,15 @@
 parsing
-parseOn: aPP2Context
+parseOn: context
 	| retval elements memento |
-	memento := aPP2Context remember.
-	(retval := firstChild parseOn: aPP2Context) isPetit2Failure ifTrue: [ 
+	memento := self remember: context.
+	(retval := firstChild parseOn: context) isPetit2Failure ifTrue: [ 
 		^ retval
 	].
 	elements := Array new: 2.
 	elements at: 1 put: retval.
 	
-	(retval := secondChild parseOn: aPP2Context) isPetit2Failure ifTrue: [ 
-		aPP2Context restore: memento.
+	(retval := secondChild parseOn: context) isPetit2Failure ifTrue: [ 
+		self restore: context from: memento.
 		^ retval
 	].
 	elements at: 2 put: retval.

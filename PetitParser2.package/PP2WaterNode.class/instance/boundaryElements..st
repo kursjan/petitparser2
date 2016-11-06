@@ -1,5 +1,9 @@
 accessing
 boundaryElements: collection
-	boundary := (PP2ChoiceNode withAll: collection) and.
+	| elements |
+	elements := collection collect: #nonEpsilon.
+	elements := elements collect: #and.
+		
+	boundary := (PP2ChoiceNode withAll: elements).
 	
 	self strategy isDebugging ifTrue: [ boundary enableDebug ]

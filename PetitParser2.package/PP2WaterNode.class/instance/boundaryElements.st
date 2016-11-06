@@ -1,3 +1,3 @@
 accessing
 boundaryElements
-	^ boundary child children
+	^ boundary children collect: #child

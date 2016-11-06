@@ -4,4 +4,4 @@ updateAfterWater: rootParser
 	self assert: rootParser isPetit2Parser.
 	
 	next := self nextSetIn: rootParser.
-	afterWater boundary: (self boundaryFrom: (OrderedCollection withAll: next))
+	afterWater boundaryElements: (OrderedCollection withAll: next)

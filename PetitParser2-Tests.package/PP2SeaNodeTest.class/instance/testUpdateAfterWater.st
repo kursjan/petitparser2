@@ -17,11 +17,10 @@ testUpdateAfterWater
 	
 	self assert: afterWater isKindOf: PP2WaterNode.
 	self assert: afterWater waterToken equals: waterToken.
-	self assert: afterWater boundary isKindOf: PP2AndNode.
-	self assert: afterWater boundary child isKindOf: PP2ChoiceNode.	
+	self assert: afterWater boundary isKindOf: PP2ChoiceNode.
+	self assert: afterWater boundary children allSatisfy: [ :child | child isKindOf: PP2AndNode].	
 		
-	elements := afterWater boundary child children.
-	self assert: elements isKindOf: OrderedCollection.
+	elements := afterWater boundaryElements.
 	self assert: elements size equals: 2.	
 	self assert: elements noneSatisfy: [ :n | n isNullable ].
 	self assert: elements includes: nextBoundary.	

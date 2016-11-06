@@ -14,6 +14,6 @@ testNonNullableIsland
 	sea updateBeforeWater: parser.
 	beforeWater := sea beforeWater.
 			
-	elements := beforeWater boundary child children.
+	elements := beforeWater boundaryElements.
 	self assert: elements size equals: 2.	
 	self assert: elements noneSatisfy: [ :e | e isNullable  ].
