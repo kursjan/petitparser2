@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "PP2PopMemoization",
+		"size" ],
+	"name" : "PP2Stack",
 	"pools" : [
 		 ],
-	"super" : "PP2Memoization",
+	"super" : "Stack",
 	"type" : "normal" }

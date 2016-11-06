@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "PP2PopMemoization",
+		"position",
+		"stackSize" ],
+	"name" : "PP2PushMemento",
 	"pools" : [
 		 ],
-	"super" : "PP2Memoization",
+	"super" : "Object",
 	"type" : "normal" }

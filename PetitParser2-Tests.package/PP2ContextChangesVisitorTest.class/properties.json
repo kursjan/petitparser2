@@ -8,7 +8,7 @@
 	"instvars" : [
 		"parser",
 		"visitor" ],
-	"name" : "PP2ContextAnalysisVisitorTest",
+	"name" : "PP2ContextChangesVisitorTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",
