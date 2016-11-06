@@ -4,23 +4,23 @@ PetitParser2 is a new version of [PetitParser](http://www.lukas-renggli.ch/blog/
 
 ## Key Features
 - Modular, composable and easy to extend
-- Natural, easy-to follow grammar definitions
+- Natural, easy-to follow definitions
 - High performance
-- Supports sensitive-parsing [TBD]
-- Supports bounded seas [TBD]
-- Contains dedicated browser and debugger
+- Supports context-sensitive parsing
+- Supports tolerant parsing
+- Rich IDE support
 
 ## Why to switch from PetitParser to PetitParser2?
 
 ### Better performance 
-The performance of PetitParser2 is 2-5 times better compared to PetitParser, when used in optimized mode. The optimizations are based on the technologies of [PetitCompiler](http://scg.unibe.ch/scgbib?query=Kurs16a&display=abstract). To optimize, simply call `optimize` before `parse:`.
+The performance of PetitParser2 is 2-5 times better compared to PetitParser when used in optimized mode. The optimizations are based on the technologies of [PetitCompiler](http://scg.unibe.ch/scgbib?query=Kurs16a&display=abstract). To optimize, simply call `optimize` before `parse:`.
 
 Try it out!. Compare the optimized version of `PP2SmalltalkParser`, non optimized version, `SmaCC` and `RBParser`. Evaluate the following code:
 ```
 PP2Benchmark exampleSmalltalk
 ```
 ### Much faster context-sensitive parsing
-TBD
+PetitParser2 applies many optimizations to reduce the overhead of context-sensitive combinators, when used in optimized mode.
 
 ### Support for real streams
 PetitParser2 supports real streams, no need to have the whole input in memory (see `PP2BufferStream`). The following demo utilizes a parser created on top of a character stream comming from your keystrokes. The parser waits for input from the keyboard and proceeds with parsing as characters comes in:
@@ -30,7 +30,7 @@ PP2ReadKeysExample example
 ```
 
 ### Support for bounded seas
-TBD
+With PetitParser2 you can define only part of the grammar and skip an uniteresting input. Bounded seas are extensible so you can always add more rules to your grammar to extract more data.
 
 
 ## Installing PetitParser2
