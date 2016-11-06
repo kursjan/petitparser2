@@ -1,3 +1,3 @@
 asserting
 assertPop: node
-	self assert: (visitor visit: node) isPop
+	self assert: (visitor visit: node) isContextPop

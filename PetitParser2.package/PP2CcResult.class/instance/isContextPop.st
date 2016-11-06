@@ -1,3 +1,3 @@
 testing
-isPop
+isContextPop
 	^ false

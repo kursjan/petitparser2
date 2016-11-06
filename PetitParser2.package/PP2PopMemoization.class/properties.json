@@ -1,0 +1,14 @@
+{
+	"category" : "PetitParser2-Context",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"stack" ],
+	"name" : "PP2PopMemoization",
+	"pools" : [
+		 ],
+	"super" : "PP2Memoization",
+	"type" : "normal" }

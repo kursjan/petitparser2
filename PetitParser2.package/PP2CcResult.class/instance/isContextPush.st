@@ -1,3 +1,3 @@
 testing
-isPush
+isContextPush
 	^ false

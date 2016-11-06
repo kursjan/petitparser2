@@ -3,7 +3,7 @@ sequenceResult: node
 	| pushes matches pushIndex matchIndices childrenResult |
 	childrenResult := node children collect: [ :child | child -> (self  visit: child) ].
 	
-	pushes := node children select: [ :child | child contextChanges isPush ].
+	pushes := node children select: [ :child | child contextChanges isContextPush ].
 	matches := childrenResult select: [ :assoc | assoc value ] thenCollect: #key.
 	
 	matches isEmpty ifTrue: [ ^ false ].

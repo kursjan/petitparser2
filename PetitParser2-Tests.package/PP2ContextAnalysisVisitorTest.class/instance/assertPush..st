@@ -1,3 +1,3 @@
 asserting
 assertPush: node
-	self assert: (visitor visit: node) isPush
+	self assert: (visitor visit: node) isContextPush

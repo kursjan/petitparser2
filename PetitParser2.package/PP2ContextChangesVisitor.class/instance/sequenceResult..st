@@ -11,8 +11,8 @@ sequenceResult: node
 		^ PP2CcResult change
 	].
 
-	pushes := (node children select: [ :child | (self visit: child) isPush ]).
-	pops := (node children select: [ :child | (self visit: child) isPop ]).
+	pushes := (node children select: [ :child | (self visit: child) isContextPush ]).
+	pops := (node children select: [ :child | (self visit: child) isContextPop ]).
 	
 	pushes size > 1 ifTrue: [ ^ PP2CcResult change ].
 	pops size > 1 ifTrue: [ ^ PP2CcResult change ].

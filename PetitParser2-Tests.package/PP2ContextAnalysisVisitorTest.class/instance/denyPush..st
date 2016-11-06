@@ -1,3 +1,3 @@
 asserting
 denyPush: node
-	self deny: (visitor visit: node) isPush
+	self deny: (visitor visit: node) isContextPush

@@ -1,0 +1,3 @@
+accessing
+stackTop
+	^ top

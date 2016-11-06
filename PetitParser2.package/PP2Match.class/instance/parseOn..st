@@ -5,6 +5,7 @@ parseOn: context
 	retval := node child parseOn: context.
 	retval isPetit2Failure ifTrue: [ ^ retval ].
 	stack := context stackNamed: node stackId.
+	
 	^ (stack isEmpty not and: [(stackTop :=  stack top) = retval]) ifTrue: [  
 		retval
 	] ifFalse: [ 

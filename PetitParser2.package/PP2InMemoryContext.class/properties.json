@@ -2,7 +2,7 @@
 	"category" : "PetitParser2-Core",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "TPP2Globals classTrait + TPP2Context classTrait + TPP2Debuggable classTrait + TPP2Properties classTrait",
+	"classtraitcomposition" : "TPP2Context classTrait + TPP2Debuggable classTrait + TPP2Properties classTrait + TPP2Globals classTrait",
 	"classvars" : [
 		 ],
 	"commentStamp" : "JanKurs 10/9/2016 12:39",
@@ -16,5 +16,5 @@
 	"pools" : [
 		 ],
 	"super" : "ReadStream",
-	"traitcomposition" : "TPP2Globals + TPP2Context + TPP2Debuggable + TPP2Properties",
+	"traitcomposition" : "TPP2Context + TPP2Debuggable + TPP2Properties + TPP2Globals",
 	"type" : "normal" }

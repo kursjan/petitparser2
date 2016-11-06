@@ -1,3 +1,3 @@
 asserting
 denyPop: node
-	self deny: (visitor visit: node) isPop
+	self deny: (visitor visit: node) isContextPop
