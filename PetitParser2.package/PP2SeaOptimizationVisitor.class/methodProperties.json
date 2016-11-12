@@ -1,0 +1,14 @@
+{
+	"instance" : {
+		"removeSeas:" : " 11/6/2016 18:03:51",
+		"updateNode:" : " 11/6/2016 18:03:51",
+		"seaCanBeRemoved:ifTrue:ifFalse:" : " 11/6/2016 18:03:51",
+		"nextSet:" : " 11/6/2016 18:03:51",
+		"optimizedNextSet:" : " 11/6/2016 18:03:51",
+		"visitSea:" : " 11/6/2016 18:03:51",
+		"doPass:" : " 11/6/2016 18:03:51",
+		"beforeAccept:" : " 11/6/2016 18:03:51",
+		"removeRepetitions:" : " 11/6/2016 18:03:51"
+	},
+	"class" : { }
+}
