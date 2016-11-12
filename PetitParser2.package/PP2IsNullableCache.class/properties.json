@@ -1,16 +1,13 @@
 {
-	"category" : "PetitParser2-Optimizations",
-	"classinstvars" : [
-		 ],
 	"classtraitcomposition" : "TPP2AnalysisCache classTrait",
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
-	"instvars" : [
-		 ],
+	"classvars" : [ ],
+	"instvars" : [ ],
 	"name" : "PP2IsNullableCache",
-	"pools" : [
-		 ],
+	"commentStamp" : "",
 	"super" : "PP2IsNullableVisitor",
 	"traitcomposition" : "TPP2AnalysisCache",
-	"type" : "normal" }
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "PetitParser2-Optimizations"
+}

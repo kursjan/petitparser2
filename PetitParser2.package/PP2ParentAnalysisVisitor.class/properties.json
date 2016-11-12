@@ -1,14 +1,13 @@
 {
-	"category" : "PetitParser2-Optimizations",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"parent" ],
-	"name" : "PP2ParentAnalysisVisitor",
-	"pools" : [
-		 ],
 	"super" : "PP2NoopVisitor",
-	"type" : "normal" }
+	"category" : "PetitParser2-Optimizations",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"parent"
+	],
+	"name" : "PP2ParentAnalysisVisitor",
+	"type" : "normal"
+}
