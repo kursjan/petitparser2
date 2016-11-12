@@ -1,0 +1,25 @@
+{
+	"commentStamp" : "",
+	"super" : "PP2CompositeNode",
+	"category" : "PetitParser2-SeasTutorial",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"document",
+		"javascript",
+		"elOpen",
+		"elContent",
+		"elClose",
+		"elementName",
+		"element",
+		"text",
+		"jsOpen",
+		"jsContent",
+		"jsClose",
+		"jsString",
+		"structuredDocument"
+	],
+	"name" : "WebGrammar",
+	"type" : "normal"
+}

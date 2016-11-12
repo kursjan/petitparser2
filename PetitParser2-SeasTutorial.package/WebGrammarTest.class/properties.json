@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "PP2CompositeNodeTest",
+	"category" : "PetitParser2-SeasTutorial",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WebGrammarTest",
+	"type" : "normal"
+}

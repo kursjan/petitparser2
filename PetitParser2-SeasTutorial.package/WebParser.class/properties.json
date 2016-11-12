@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "WebGrammar",
+	"category" : "PetitParser2-SeasTutorial",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WebParser",
+	"type" : "normal"
+}

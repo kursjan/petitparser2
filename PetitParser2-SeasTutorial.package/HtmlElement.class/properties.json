@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "WebElement",
+	"category" : "PetitParser2-SeasTutorial",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"name",
+		"children"
+	],
+	"name" : "HtmlElement",
+	"type" : "normal"
+}

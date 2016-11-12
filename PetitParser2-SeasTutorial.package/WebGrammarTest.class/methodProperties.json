@@ -1,0 +1,17 @@
+{
+	"instance" : {
+		"testText" : "JanKurs 11/8/2016 21:50",
+		"testElement" : "JanKurs 11/8/2016 21:50",
+		"testElementEmpty" : "JanKurs 11/8/2016 21:50",
+		"testElementMalformedUnclosed" : "JanKurs 11/8/2016 21:51",
+		"testElementNested" : "JanKurs 11/8/2016 21:50",
+		"testJavascript" : "JanKurs 11/9/2016 07:55",
+		"testElementMalformedWrongClose" : "JanKurs 11/8/2016 21:50",
+		"testElementMalformedExtraClose" : "JanKurs 11/8/2016 21:51",
+		"testDocument" : "JanKurs 11/10/2016 18:38",
+		"parserClass" : "JanKurs 11/7/2016 07:04",
+		"testJavascriptWithString" : "JanKurs 11/9/2016 07:29",
+		"testStructuredDocument" : "JanKurs 11/10/2016 18:58"
+	},
+	"class" : { }
+}
