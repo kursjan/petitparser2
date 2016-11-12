@@ -3,7 +3,7 @@ element
 	^ super element 
 	
 	map: [ :_open :_content :_close | 
-	 	(HtmlElement new)
+	 	(PP2HtmlElement new)
 			name: _open;
 			children: _content;
 			yourself

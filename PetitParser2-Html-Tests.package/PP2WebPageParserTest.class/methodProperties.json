@@ -1,16 +1,18 @@
 {
 	"instance" : {
 		"testElement" : " 10/31/2016 15:27:09",
-		"testElementUnclosed" : "JanKurs 11/4/2016 18:08",
+		"testDocument2" : "JanKurs 11/8/2016 08:53",
 		"testElementMalformed" : " 10/31/2016 15:27:09",
-		"testRawText" : " 10/31/2016 15:27:09",
+		"testRawText" : "JanKurs 11/8/2016 08:53",
 		"testElementEmpty" : " 10/31/2016 15:27:09",
+		"testElementMalformedUnclosed" : "JanKurs 11/8/2016 08:48",
 		"testElementNested" : "JanKurs 11/2/2016 11:59",
-		"testJavascript" : " 10/31/2016 15:27:09",
+		"testJavascript" : "JanKurs 11/8/2016 08:53",
 		"testElementMalformedExtraClose" : " 10/31/2016 15:27:09",
 		"parserClass" : " 10/31/2016 15:27:09",
 		"result" : "JanKurs 11/2/2016 15:17",
-		"testJavascriptWithString" : " 10/31/2016 15:27:09"
+		"testJavascriptWithString" : "JanKurs 11/8/2016 08:53",
+		"scripts:" : "JanKurs 11/8/2016 08:53"
 	},
 	"class" : { }
 }

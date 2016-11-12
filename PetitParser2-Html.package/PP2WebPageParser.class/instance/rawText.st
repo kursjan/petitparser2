@@ -3,7 +3,7 @@ rawText
 	^ super rawText 
 	
 	map: [ :_value | 
-		HtmlText new
+		PP2HtmlText new
 			text: _value;
 			yourself	
 	]

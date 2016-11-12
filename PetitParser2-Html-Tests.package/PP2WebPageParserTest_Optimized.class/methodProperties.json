@@ -1,8 +1,10 @@
 {
 	"instance" : {
-		"parserClass" : "JanKurs 11/2/2016 15:19",
+		"scripts:" : "JanKurs 11/8/2016 08:53",
 		"parserInstanceFor:" : "JanKurs 11/2/2016 16:09",
-		"result" : "JanKurs 11/2/2016 15:18"
+		"result" : "JanKurs 11/2/2016 15:18",
+		"testDocument2" : "JanKurs 11/8/2016 08:53",
+		"parserClass" : "JanKurs 11/2/2016 15:19"
 	},
 	"class" : { }
 }

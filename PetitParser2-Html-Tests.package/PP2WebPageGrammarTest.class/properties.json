@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "PP2CompositeParserTest",
+	"super" : "PP2CompositeNodeTest",
 	"category" : "PetitParser2-Html-Tests-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],

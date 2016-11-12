@@ -1,3 +1,3 @@
 element
 elContent
-	^ (javascript / element / rawText) nonEpsilon star
+	^ (javascript / element / rawText nonEpsilon)  star

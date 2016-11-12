@@ -1,6 +1,7 @@
 {
-	"class" : {
-		 },
 	"instance" : {
 		"testContents" : "JanKurs 11/4/2016 11:52",
-		"testStartStopInterval" : "JanKurs 10/31/2016 09:55" } }
+		"testStartStopInterval" : "JanKurs 10/31/2016 09:55"
+	},
+	"class" : { }
+}

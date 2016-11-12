@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "WebElement",
+	"super" : "PP2WebElement",
 	"category" : "PetitParser2-Html-AST",
 	"classinstvars" : [ ],
 	"pools" : [ ],
@@ -9,6 +9,6 @@
 		"name",
 		"children"
 	],
-	"name" : "HtmlElement",
+	"name" : "PP2HtmlElement",
 	"type" : "normal"
 }

@@ -4,15 +4,15 @@ document
 	
 	map: [ :_bw :_document :_aw |
 		| beforeWater afterWater |
-		beforeWater := HtmlText new
+		beforeWater := PP2HtmlText new
 			text: _bw;
 			yourself.
 			
-		afterWater := HtmlText new
+		afterWater := PP2HtmlText new
 			text: _aw;
 			yourself.
 			
-		HtmlElement new
+		PP2HtmlElement new
 			name: 'ROOT';
 			children: (Array with: beforeWater with: _document with: afterWater);
 			yourself

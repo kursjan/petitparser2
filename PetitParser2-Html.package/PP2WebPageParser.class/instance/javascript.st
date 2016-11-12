@@ -3,7 +3,7 @@ javascript
 	^ super javascript 
 	
 	map: [ :_open :_content :_close | 
-	 	(JavascriptElement new)
+	 	(PP2JavascriptElement new)
 			code: _content;
 			yourself
 	]
