@@ -1,14 +1,11 @@
 {
-	"category" : "PetitParser2-JSON",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
+	"super" : "PP2CompositeNodeTest",
+	"category" : "PetitParser2-JSON",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
 	"name" : "PP2JsonParserTest",
-	"pools" : [
-		 ],
-	"super" : "PP2CompositeParserTest",
-	"type" : "normal" }
+	"type" : "normal"
+}

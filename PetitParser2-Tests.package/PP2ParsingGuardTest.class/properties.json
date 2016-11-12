@@ -1,15 +1,14 @@
 {
-	"category" : "PetitParser2-Tests-Strategies",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "PetitParser2-Tests-Strategies",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"classification",
-		"retval" ],
+		"retval"
+	],
 	"name" : "PP2ParsingGuardTest",
-	"pools" : [
-		 ],
-	"super" : "TestCase",
-	"type" : "normal" }
+	"type" : "normal"
+}

@@ -1,4 +1,5 @@
 {
-	"category" : "PetitParser2-Tests-Streams",
+	"name" : "TPP2StreamContextInterface",
 	"commentStamp" : "",
-	"name" : "TPP2StreamContextInterface" }
+	"category" : "PetitParser2-Tests-Streams"
+}

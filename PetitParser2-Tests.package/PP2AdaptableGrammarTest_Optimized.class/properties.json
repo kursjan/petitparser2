@@ -1,16 +1,13 @@
 {
-	"category" : "PetitParser2-Tests-Examples",
-	"classinstvars" : [
-		 ],
 	"classtraitcomposition" : "TPP2AdaptableGrammarTest classTrait",
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
-	"instvars" : [
-		 ],
+	"classvars" : [ ],
+	"instvars" : [ ],
 	"name" : "PP2AdaptableGrammarTest_Optimized",
-	"pools" : [
-		 ],
-	"super" : "PP2CompositeParserTest",
+	"commentStamp" : "",
+	"super" : "PP2CompositeNodeTest",
 	"traitcomposition" : "TPP2AdaptableGrammarTest",
-	"type" : "normal" }
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "PetitParser2-Tests-Examples"
+}

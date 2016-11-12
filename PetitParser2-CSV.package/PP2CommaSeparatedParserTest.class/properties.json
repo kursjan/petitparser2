@@ -1,16 +1,15 @@
 {
-	"category" : "PetitParser2-CSV",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "PP2CompositeNodeTest",
+	"category" : "PetitParser2-CSV",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"row",
 		"cell",
-		"rows" ],
+		"rows"
+	],
 	"name" : "PP2CommaSeparatedParserTest",
-	"pools" : [
-		 ],
-	"super" : "PP2CompositeParserTest",
-	"type" : "normal" }
+	"type" : "normal"
+}

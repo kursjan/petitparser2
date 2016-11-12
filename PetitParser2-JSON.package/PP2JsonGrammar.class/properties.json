@@ -1,10 +1,12 @@
 {
-	"category" : "PetitParser2-JSON",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		"CharacterTable" ],
 	"commentStamp" : "",
+	"super" : "PP2CompositeNode",
+	"category" : "PetitParser2-JSON",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"CharacterTable"
+	],
 	"instvars" : [
 		"members",
 		"pair",
@@ -22,9 +24,8 @@
 		"numberToken",
 		"charEscape",
 		"charNormal",
-		"charOctal" ],
+		"charOctal"
+	],
 	"name" : "PP2JsonGrammar",
-	"pools" : [
-		 ],
-	"super" : "PP2CompositeNode",
-	"type" : "normal" }
+	"type" : "normal"
+}

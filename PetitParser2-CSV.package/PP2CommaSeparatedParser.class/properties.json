@@ -1,19 +1,18 @@
 {
-	"category" : "PetitParser2-CSV",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "PP2CompositeNode",
+	"category" : "PetitParser2-CSV",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"row",
 		"cell",
 		"rows",
 		"endOfLine",
 		"whitespace",
-		"nonComma" ],
+		"nonComma"
+	],
 	"name" : "PP2CommaSeparatedParser",
-	"pools" : [
-		 ],
-	"super" : "PP2CompositeNode",
-	"type" : "normal" }
+	"type" : "normal"
+}

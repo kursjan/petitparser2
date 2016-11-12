@@ -1,0 +1,19 @@
+{
+	"instance" : {
+		"testOverlappingSeas" : " 11/6/2016 18:03:51",
+		"visit:" : " 11/6/2016 18:03:51",
+		"testSeaOptimizationsReset" : " 11/6/2016 18:03:51",
+		"testJustSea" : " 11/6/2016 18:03:51",
+		"testSeaOptimizations" : " 11/6/2016 18:03:51",
+		"assert:anySatisfy:" : " 11/6/2016 18:03:51",
+		"testSeaInBoundary" : " 11/6/2016 18:03:51",
+		"testSeaPlus" : " 11/6/2016 18:03:51",
+		"assert:isKindOf:" : " 11/6/2016 18:03:51",
+		"testMemoizedSea" : " 11/6/2016 18:03:51",
+		"testNestedSea" : " 11/6/2016 18:03:51",
+		"testSeaStar" : " 11/6/2016 18:03:51",
+		"testRepetitionInBoundary" : " 11/6/2016 18:03:51",
+		"assert:noneSatisfy:" : " 11/6/2016 18:03:51"
+	},
+	"class" : { }
+}

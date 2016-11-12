@@ -1,0 +1,13 @@
+{
+	"instance" : {
+		"assert:isKindOf:" : " 11/6/2016 18:03:51",
+		"testStar" : " 11/6/2016 18:03:51",
+		"setUp" : " 11/6/2016 18:03:51",
+		"testPlus" : " 11/6/2016 18:03:51",
+		"testSequenceOfTwo" : " 11/6/2016 18:03:51",
+		"testSequenceOfTwoRecognizer" : " 11/6/2016 18:03:51",
+		"visit:" : " 11/6/2016 18:03:51",
+		"testBypassCache" : " 11/6/2016 18:03:51"
+	},
+	"class" : { }
+}

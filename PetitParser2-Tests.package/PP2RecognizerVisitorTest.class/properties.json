@@ -1,19 +1,18 @@
 {
-	"category" : "PetitParser2-Tests-Optimizations",
-	"classinstvars" : [
-		 ],
 	"classtraitcomposition" : "TPP2TypeAssertions classTrait",
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
+	"classvars" : [ ],
 	"instvars" : [
 		"parser",
 		"visitor",
 		"token",
-		"sequence" ],
+		"sequence"
+	],
 	"name" : "PP2RecognizerVisitorTest",
-	"pools" : [
-		 ],
+	"commentStamp" : "",
 	"super" : "TestCase",
 	"traitcomposition" : "TPP2TypeAssertions",
-	"type" : "normal" }
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "PetitParser2-Tests-Optimizations"
+}

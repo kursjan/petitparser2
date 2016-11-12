@@ -1,0 +1,16 @@
+{
+	"instance" : {
+		"testClose" : " 11/6/2016 18:03:52",
+		"testStringText" : " 11/6/2016 18:03:52",
+		"testOpen" : " 11/6/2016 18:03:52",
+		"testElementName" : " 11/6/2016 18:03:52",
+		"testNatural" : " 11/6/2016 18:03:52",
+		"parserClass" : " 11/6/2016 18:03:52",
+		"testString" : " 11/6/2016 18:03:52",
+		"testNumberWithE" : " 11/6/2016 18:03:52",
+		"testStringEscape" : " 11/6/2016 18:03:52",
+		"testNaturalWithSpace" : " 11/6/2016 18:03:52",
+		"testStringTextWithEscapeChars" : " 11/6/2016 18:03:52"
+	},
+	"class" : { }
+}

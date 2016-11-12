@@ -1,15 +1,14 @@
 {
-	"category" : "PetitParser2-Tests-Optimizations",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "PetitParser2-Tests-Optimizations",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"parser",
-		"visitor" ],
+		"visitor"
+	],
 	"name" : "PP2ContextMemoizationVisitorTest",
-	"pools" : [
-		 ],
-	"super" : "TestCase",
-	"type" : "normal" }
+	"type" : "normal"
+}

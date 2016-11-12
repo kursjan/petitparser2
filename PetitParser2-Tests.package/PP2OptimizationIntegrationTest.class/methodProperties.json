@@ -1,0 +1,13 @@
+{
+	"instance" : {
+		"testTrimmingToken" : " 11/6/2016 18:03:51",
+		"testIdentifierToken" : " 11/6/2016 18:03:51",
+		"testBypass" : " 11/6/2016 18:03:51",
+		"testTrimming" : " 11/6/2016 18:03:51",
+		"testIdentifier" : " 11/6/2016 18:03:51",
+		"testIdentifierTrimmingToken" : " 11/6/2016 18:03:51",
+		"testCommonPrefix" : " 11/6/2016 18:03:51",
+		"testMemoization" : " 11/6/2016 18:03:51"
+	},
+	"class" : { }
+}

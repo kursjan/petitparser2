@@ -1,0 +1,21 @@
+{
+	"instance" : {
+		"testStringEscape" : " 11/6/2016 18:03:52",
+		"testOneElementWithNumericAttribute" : " 11/6/2016 18:03:52",
+		"testStringTextWithEscapeChars" : " 11/6/2016 18:03:52",
+		"testOneElementWithSubElement" : " 11/6/2016 18:03:52",
+		"testOneElementWithStringAttribute" : " 11/6/2016 18:03:52",
+		"testElementName" : " 11/6/2016 18:03:52",
+		"testOneElementWithId" : " 11/6/2016 18:03:52",
+		"testNatural" : " 11/6/2016 18:03:52",
+		"testNumberWithE" : " 11/6/2016 18:03:52",
+		"testOneElementWithMultipleSubElements" : " 11/6/2016 18:03:52",
+		"testEmpty" : " 11/6/2016 18:03:52",
+		"testOneElement" : " 11/6/2016 18:03:52",
+		"parserClass" : " 11/6/2016 18:03:52",
+		"testNaturalWithSpace" : " 11/6/2016 18:03:52",
+		"testString" : " 11/6/2016 18:03:52",
+		"testOneElementWithBooleanAttribute" : " 11/6/2016 18:03:52"
+	},
+	"class" : { }
+}

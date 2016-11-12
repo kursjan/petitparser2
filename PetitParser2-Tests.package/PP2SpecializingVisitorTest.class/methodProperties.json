@@ -1,0 +1,23 @@
+{
+	"instance" : {
+		"testAndLiteraObject" : " 11/6/2016 18:03:51",
+		"testOptionalLiteraObject" : " 11/6/2016 18:03:51",
+		"testPlus" : " 11/6/2016 18:03:51",
+		"testSequenceOfThree" : " 11/6/2016 18:03:51",
+		"testPlusPredicateObject" : " 11/6/2016 18:03:51",
+		"testSequenceOfTwo" : " 11/6/2016 18:03:51",
+		"testStarPredicateObject" : " 11/6/2016 18:03:51",
+		"testTrimmingLiteralObjectTokenWrapped" : " 11/6/2016 18:03:51",
+		"testStar" : " 11/6/2016 18:03:51",
+		"testAndPredicateObject" : " 11/6/2016 18:03:51",
+		"testTrimmingToken" : " 11/6/2016 18:03:51",
+		"testPlusPredicateObject2" : " 11/6/2016 18:03:51",
+		"testStarPredicateObject2" : " 11/6/2016 18:03:51",
+		"testTrimmingLiteralObjectToken" : " 11/6/2016 18:03:51",
+		"testMappingOfThree" : " 11/6/2016 18:03:51",
+		"testMappingOfTwo" : " 11/6/2016 18:03:51",
+		"testNotLiteraObject" : " 11/6/2016 18:03:51",
+		"setUp" : " 11/6/2016 18:03:51"
+	},
+	"class" : { }
+}

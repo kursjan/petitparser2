@@ -1,14 +1,11 @@
 {
-	"category" : "PetitParser2-MSE",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "PP2MSEArrayParser",
-	"pools" : [
-		 ],
 	"super" : "PP2MSEGrammar",
-	"type" : "normal" }
+	"category" : "PetitParser2-MSE",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PP2MSEArrayParser",
+	"type" : "normal"
+}

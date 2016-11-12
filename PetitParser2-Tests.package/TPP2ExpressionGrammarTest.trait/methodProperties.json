@@ -1,0 +1,12 @@
+{
+	"instance" : {
+		"testTerms" : " 11/6/2016 18:03:51",
+		"testParentheses" : " 11/6/2016 18:03:51",
+		"testMultiplication" : " 11/6/2016 18:03:51",
+		"testNumber" : " 11/6/2016 18:03:51",
+		"testAddition" : " 11/6/2016 18:03:51",
+		"testPrimary" : " 11/6/2016 18:03:51",
+		"parserClass" : " 11/6/2016 18:03:51"
+	},
+	"class" : { }
+}
