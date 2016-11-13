@@ -1,13 +1,16 @@
 {
+	"category" : "PetitParser2-SeasTutorial",
+	"classinstvars" : [
+		 ],
 	"classtraitcomposition" : "TPP2TypeAssertions classTrait",
-	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "WebParserTest",
+	"classvars" : [
+		 ],
 	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WebParserTest",
+	"pools" : [
+		 ],
 	"super" : "WebGrammarTest",
 	"traitcomposition" : "TPP2TypeAssertions",
-	"type" : "normal",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"category" : "PetitParser2-SeasTutorial"
-}
+	"type" : "normal" }
