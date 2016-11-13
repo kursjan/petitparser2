@@ -1,10 +1,10 @@
 {
-	"commentStamp" : "",
-	"super" : "Object",
 	"category" : "PetitParser2-Benchmarks-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"preferredRepetitions",
 		"report",
@@ -15,8 +15,9 @@
 		"sourcesSize",
 		"properties",
 		"contextClass",
-		"selector"
-	],
+		"selector" ],
 	"name" : "PP2Benchmark",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

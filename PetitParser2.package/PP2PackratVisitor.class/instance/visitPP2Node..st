@@ -1,4 +1,4 @@
-as yet unclassified
+visiting
 visitPP2Node: node
 	(node shouldMemoize) ifTrue: [  
 		(node contextChanges isContextChange) ifTrue: [  

@@ -1,6 +1,6 @@
 tests
 testStructuredDocument
-	| html |
+	| html body |
 	super testStructuredDocument.
 	
 	self assert: result name equals: 'DOCUMENT'.
@@ -10,3 +10,6 @@ testStructuredDocument
 
 	self assert: html firstChild name equals: 'head'.	
 	self assert: html secondChild name equals: 'body'.
+	
+	body := html secondChild.
+	self assert: body children size equals: 4.

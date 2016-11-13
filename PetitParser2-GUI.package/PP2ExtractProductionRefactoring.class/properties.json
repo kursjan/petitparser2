@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "RBExtractMethodRefactoring",
 	"category" : "PetitParser2-GUI-Refactoring",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
-		"targetProduction"
-	],
+		"targetProduction" ],
 	"name" : "PP2ExtractProductionRefactoring",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "RBExtractMethodRefactoring",
+	"type" : "normal" }

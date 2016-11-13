@@ -18,6 +18,7 @@ parseOn: context
 	
 	debugResult 
 		stop: context position;
+		furthestPosition: context furthestPosition;
 		result: result.
 	
 	^ result

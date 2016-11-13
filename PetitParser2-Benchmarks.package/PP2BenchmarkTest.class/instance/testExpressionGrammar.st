@@ -1,4 +1,4 @@
-testing - expressions
+tests
 testExpressionGrammar
 	| parser bench result input |
 	bench := PP2Benchmark new setupExpressionGrammar.

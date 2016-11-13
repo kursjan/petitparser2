@@ -20,5 +20,6 @@ htmlSample
 		Hi there!
 	</div>
 	<script>alert("All scripts ends with: ''</script>''...")</script>
+	<!-- <p>obsolete conentent</p> -->
 </body>
 </html>'

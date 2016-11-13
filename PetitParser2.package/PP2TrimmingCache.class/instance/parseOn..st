@@ -1,7 +1,11 @@
 parsing
 parseOn: context
 	| retval |
-	(context position == lastTrimming) ifTrue: [ ^ failure ].
+	self invocation.
+	(context position == lastTrimming) ifTrue: [ 
+		self cacheHit: context.
+		^ failure 
+	].
 	retval := strategy parseOn: context.
 	lastTrimming := context position.
 	^ retval

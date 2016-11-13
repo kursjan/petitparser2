@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 text
-	^ #any asPParser starLazy
+	^ (comment / #any asPParser) starLazy

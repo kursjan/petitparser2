@@ -1,3 +1,5 @@
-as yet unclassified
+accessing
 element
 	^ (elOpen, elContent, elClose)
+		memoize;
+		yourself
