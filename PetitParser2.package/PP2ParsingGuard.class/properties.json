@@ -1,14 +1,15 @@
 {
-	"commentStamp" : "",
-	"super" : "PP2WrappingStrategy",
 	"category" : "PetitParser2-Strategies",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"classification",
-		"retval"
-	],
+		"retval" ],
 	"name" : "PP2ParsingGuard",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PP2WrappingStrategy",
+	"type" : "normal" }

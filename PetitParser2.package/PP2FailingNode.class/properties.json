@@ -1,15 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "PP2Node",
 	"category" : "PetitParser2-Nodes",
 	"classinstvars" : [
-		"instance"
-	],
-	"pools" : [ ],
-	"classvars" : [ ],
+		"instance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
-		"message"
-	],
+		"message" ],
 	"name" : "PP2FailingNode",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PP2Node",
+	"type" : "normal" }

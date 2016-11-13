@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "PP2WebPageGrammar",
 	"category" : "PetitParser2-Html-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "PP2WebPageParser",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PP2WebPageGrammar",
+	"type" : "normal" }

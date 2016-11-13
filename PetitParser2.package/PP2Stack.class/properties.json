@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "Stack",
 	"category" : "PetitParser2-Context",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
-		"size"
-	],
+		"size" ],
 	"name" : "PP2Stack",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Stack",
+	"type" : "normal" }

@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "JanKurs 11/5/2016 19:41",
-	"super" : "PP2NoopVisitor",
 	"category" : "PetitParser2-Analysis",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JanKurs 11/5/2016 19:41",
+	"instvars" : [
+		 ],
 	"name" : "PP2ContextChangesVisitor",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PP2NoopVisitor",
+	"type" : "normal" }

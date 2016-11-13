@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "PP2NoopContext",
 	"category" : "PetitParser2-Analysis",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
-		"currentNext"
-	],
+		"currentNext" ],
 	"name" : "PP2NextSetsContext",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PP2NoopContext",
+	"type" : "normal" }

@@ -1,14 +1,15 @@
 {
-	"commentStamp" : "",
-	"super" : "PP2PossesiveRepeating",
 	"category" : "PetitParser2-Strategies",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"predicate",
-		"failure"
-	],
+		"failure" ],
 	"name" : "PP2PlusPredicateObject",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PP2PossesiveRepeating",
+	"type" : "normal" }

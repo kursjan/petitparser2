@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "PP2And",
 	"category" : "PetitParser2-Strategies",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
-		"literal"
-	],
+		"literal" ],
 	"name" : "PP2AndLiteralObject",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PP2And",
+	"type" : "normal" }

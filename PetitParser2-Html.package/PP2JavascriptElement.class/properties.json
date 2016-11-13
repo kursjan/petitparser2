@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "PP2WebElement",
 	"category" : "PetitParser2-Html-AST",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
-		"code"
-	],
+		"code" ],
 	"name" : "PP2JavascriptElement",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PP2WebElement",
+	"type" : "normal" }

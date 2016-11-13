@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "PP2Node",
 	"category" : "PetitParser2-Nodes",
 	"classinstvars" : [
-		"instance"
-	],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+		"instance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "PP2EpsilonNode",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PP2Node",
+	"type" : "normal" }

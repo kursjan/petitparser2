@@ -2,6 +2,14 @@ accessing
 boundaryElements: collectionOrElement
 	| elements |
 	elements := collectionOrElement asCollection.
+	"
+		#rejectXYZ are optimizations. 
+		
+		This is kind of design issue, but I need to make seas at least a bit useable
+		in in non-optimized mode as well.
+	"
+	elements := elements collect: [:e | self rejectSeas: e ].
+	elements := elements collect: [:e | self rejectPossessive: e ].
 	elements := elements collect: [:e | self nonEpsilon: e ].
 	elements := elements collect: #and.
 		

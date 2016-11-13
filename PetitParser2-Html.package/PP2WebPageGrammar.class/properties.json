@@ -1,10 +1,10 @@
 {
-	"commentStamp" : "",
-	"super" : "PP2CompositeNode",
 	"category" : "PetitParser2-Html-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"javascript",
 		"jsDoubleQuoteString",
@@ -26,11 +26,9 @@
 		"elWater",
 		"identifier",
 		"jsString",
-		"jsSingleQuoteString",
-		"elOpenCF",
-		"elCloseCF",
-		"elementCF"
-	],
+		"jsSingleQuoteString" ],
 	"name" : "PP2WebPageGrammar",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PP2CompositeNode",
+	"type" : "normal" }

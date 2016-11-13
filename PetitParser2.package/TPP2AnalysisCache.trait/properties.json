@@ -1,5 +1,4 @@
 {
-	"name" : "TPP2AnalysisCache",
+	"category" : "PetitParser2-Optimizations",
 	"commentStamp" : "",
-	"category" : "PetitParser2-Optimizations"
-}
+	"name" : "TPP2AnalysisCache" }

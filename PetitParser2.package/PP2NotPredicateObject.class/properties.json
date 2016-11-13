@@ -1,14 +1,15 @@
 {
-	"commentStamp" : "",
-	"super" : "PP2Not",
 	"category" : "PetitParser2-Strategies",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"predicate",
-		"literal"
-	],
+		"literal" ],
 	"name" : "PP2NotPredicateObject",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PP2Not",
+	"type" : "normal" }
