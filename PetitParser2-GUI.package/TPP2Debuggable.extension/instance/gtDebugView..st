@@ -4,26 +4,21 @@ gtDebugView: composite
 
 	| browser |
 	
-	browser := 
-		composite tabulator.
-
+	browser := composite tabulator.
 	browser title: 'Debug View'.
 	browser row: #tree;
-			  row: #source.
-				
-	browser transmit 
-		from: #tree;
-		to: #source port: #selectionInterval;
-		transformed: [:debuggerResult |
-			debuggerResult startStopInterval
-		].
+			  row: #tabs.
 
-	browser transmit
-		to: #source;
-		andShow: [ :a |  self gtSampleIn: a ].
-	
 	browser transmit 
 		to: #tree;
 		andShow: [ :a | self gtTreeViewIn: a ].
+
+	browser transmit
+		to: #tabs;
+		andShow: [ :a | self gtTabsIn: a ].
+
+	browser transmit 
+		from: #tree;
+		to: #tabs.
 		
 	browser startOn: self

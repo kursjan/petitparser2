@@ -1,7 +1,9 @@
 parsing
 parseOn: context
 	| start |
+	self invocation.
 	(context position == position) ifTrue: [ 
+		self cacheHit: context.
 		context position: endPosition.
 		^ retval
 	].

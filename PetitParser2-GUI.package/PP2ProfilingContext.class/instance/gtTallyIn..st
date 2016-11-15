@@ -1,4 +1,4 @@
-gt
+gui
 gtTallyIn: composite
 	<gtInspectorPresentationOrder: 35>
 	composite table 

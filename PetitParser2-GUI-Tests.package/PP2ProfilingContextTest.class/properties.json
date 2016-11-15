@@ -2,7 +2,7 @@
 	"category" : "PetitParser2-GUI-Tests-Debug",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "TPP2ContextTest classTrait + TPP2CollectionAssertions classTrait",
+	"classtraitcomposition" : "TPP2ContextTest classTrait + TPP2DebuggableTest classTrait + TPP2CollectionAssertions classTrait",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -12,5 +12,5 @@
 	"pools" : [
 		 ],
 	"super" : "TestCase",
-	"traitcomposition" : "TPP2ContextTest + TPP2CollectionAssertions",
+	"traitcomposition" : "TPP2ContextTest + TPP2DebuggableTest + TPP2CollectionAssertions",
 	"type" : "normal" }

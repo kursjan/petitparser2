@@ -1,3 +1,3 @@
-as yet unclassified
+initialization
 initialize
 	resultCache := IdentityDictionary new.

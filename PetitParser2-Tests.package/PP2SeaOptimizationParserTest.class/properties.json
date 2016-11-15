@@ -1,15 +1,16 @@
 {
+	"category" : "PetitParser2-Tests-Seas",
+	"classinstvars" : [
+		 ],
 	"classtraitcomposition" : "TPP2SeaParserTest classTrait",
-	"classvars" : [ ],
-	"instvars" : [
-		"result"
-	],
-	"name" : "PP2SeaOptimizationParserTest",
+	"classvars" : [
+		 ],
 	"commentStamp" : "",
+	"instvars" : [
+		"result" ],
+	"name" : "PP2SeaOptimizationParserTest",
+	"pools" : [
+		 ],
 	"super" : "PP2AbstractParserTest",
 	"traitcomposition" : "TPP2SeaParserTest",
-	"type" : "normal",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"category" : "PetitParser2-Tests-Seas"
-}
+	"type" : "normal" }

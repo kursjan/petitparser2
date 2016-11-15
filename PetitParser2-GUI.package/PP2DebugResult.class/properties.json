@@ -14,7 +14,9 @@
 		"start",
 		"stop",
 		"context",
-		"allChildren" ],
+		"allChildren",
+		"furthestPosition",
+		"eventsTrace" ],
 	"name" : "PP2DebugResult",
 	"pools" : [
 		 ],

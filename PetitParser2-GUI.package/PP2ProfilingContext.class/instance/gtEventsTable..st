@@ -1,4 +1,4 @@
-gt
+gui
 gtEventsTable: composite
 	<gtInspectorPresentationOrder: 30>
 	composite table 
@@ -7,4 +7,4 @@ gtEventsTable: composite
 		column: 'Event' evaluated: [ :each | each second printString ];
 		column: 'Strategy' evaluated: [ :each | each third printString ];
 		column: 'Node' evaluated: [ :each | each fourth printString ];
-		display: [:context | context eventsTrace ].
+		display: [:context | context eventsTable ].

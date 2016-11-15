@@ -1,4 +1,4 @@
-as yet unclassified
+caching
 cacheIfNeeded: result debugResult: debugResult
 	
 	(strategy includesCache and: [ (resultCache includesKey: result) and: [ (debugResult allResults size = 1 )]]) ifTrue:[

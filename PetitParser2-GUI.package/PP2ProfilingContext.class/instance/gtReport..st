@@ -1,4 +1,4 @@
-gt
+gui
 gtReport: composite
 	<gtInspectorPresentationOrder: 40>
 	composite table 

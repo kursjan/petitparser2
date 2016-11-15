@@ -1,4 +1,4 @@
-gt
+gui
 gtRememberTallyIn: composite
 	<gtInspectorPresentationOrder: 34>
 

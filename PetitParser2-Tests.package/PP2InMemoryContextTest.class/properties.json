@@ -1,13 +1,16 @@
 {
-	"classtraitcomposition" : "TPP2ContextTest classTrait + TPP2TypeAssertions classTrait",
-	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "PP2InMemoryContextTest",
+	"category" : "PetitParser2-Tests-Core",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TPP2ContextTest classTrait + TPP2DebuggableTest classTrait + TPP2TypeAssertions classTrait",
+	"classvars" : [
+		 ],
 	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PP2InMemoryContextTest",
+	"pools" : [
+		 ],
 	"super" : "TestCase",
-	"traitcomposition" : "TPP2ContextTest + TPP2TypeAssertions",
-	"type" : "normal",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"category" : "PetitParser2-Tests-Core"
-}
+	"traitcomposition" : "TPP2ContextTest + TPP2DebuggableTest + TPP2TypeAssertions",
+	"type" : "normal" }

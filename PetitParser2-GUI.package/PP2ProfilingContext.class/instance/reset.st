@@ -8,5 +8,4 @@ reset
 	strategies := OrderedCollection new.
 	
 	furthestPosition := -1.
-	colors := nil.
 	totalSize := 0.

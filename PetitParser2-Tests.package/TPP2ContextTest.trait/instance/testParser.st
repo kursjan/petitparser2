@@ -1,8 +1,10 @@
 tests
 testParser
-	| context |
+	| context parser |
+	parser := $a asPParser.
+	
 	context := (self contextOn: 'bar')
-		parser: #root;
+		parser: parser;
 		yourself.
 	
-	self assert: context parser equals: #root.
+	self assert: context parser equals: parser.
