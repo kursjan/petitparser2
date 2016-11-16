@@ -6,4 +6,5 @@ asEventsMorph
 		events: events;
 		positions: positions;
 		selectors: strategies;
+		nodes: nodes;
 		eventsMorph.

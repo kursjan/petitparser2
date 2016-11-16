@@ -14,7 +14,9 @@
 		"fSelectors",
 		"start",
 		"stop",
-		"colors" ],
+		"colors",
+		"nodes",
+		"fNodes" ],
 	"name" : "PP2EventsTrace",
 	"pools" : [
 		 ],
