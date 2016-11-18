@@ -1,3 +1,8 @@
 reporting
 countFor: event
-	^ (events select: [ :e | e == event ]) size
+	| count |
+	count := 0.
+	entries do: [ :e |
+		(e event == event) ifTrue: [ count := count + 1 ].
+	].
+	^ count

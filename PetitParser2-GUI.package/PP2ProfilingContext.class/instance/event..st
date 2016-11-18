@@ -1,6 +1,11 @@
-private
+accessing
 event: value
-	positions addLast: self position.
-	nodes addLast: self node.
-	strategies addLast: self strategy.
-	events addLast: value.
+	| entry |
+
+	entry := PP2ProfilingEntry new
+		position: self position;
+		strategy: self strategy;
+		event: value;
+		yourself.
+		
+	entries addLast: entry

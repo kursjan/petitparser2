@@ -6,11 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"totalSize",
-		"entries",
-		"furthestPosition" ],
-	"name" : "PP2ProfilingContext",
+		"event",
+		"position",
+		"strategy",
+		"debugResult" ],
+	"name" : "PP2ProfilingEntry",
 	"pools" : [
 		 ],
-	"super" : "PP2InMemoryContext",
+	"super" : "Object",
 	"type" : "normal" }

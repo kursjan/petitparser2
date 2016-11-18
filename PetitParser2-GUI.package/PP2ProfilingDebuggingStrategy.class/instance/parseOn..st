@@ -2,17 +2,17 @@ parsing
 parseOn: context
 	| start result eventsTrace |
 	self node hasName ifTrue: [ context event: #namedInvoked 	] ifFalse: [ context event: #invoked ].
-	start := context events size.
+	start := context entries size.
+	
 	result := super parseOn: context.
 	
 	eventsTrace := PP2EventsTrace new
-		events: context events;
-		selectors: context strategies;
-		nodes: context nodes;
-		positions: context positions;
+		entries: context entries;
 		startPosition: start;
-		stopPosition: context events size;
+		stopPosition: context entries size;
+		debugResult: context lastDebugResult;
 		yourself.
 		
-	context currentDebugResult children last eventsTrace: eventsTrace.
+	context lastDebugResult eventsTrace: eventsTrace.
+	
 	^ result
