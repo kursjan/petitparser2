@@ -2,4 +2,4 @@ initialization
 initialize
 	super initialize.
 	
-	highlight := nil -> nil.
+	entries := OrderedCollection new

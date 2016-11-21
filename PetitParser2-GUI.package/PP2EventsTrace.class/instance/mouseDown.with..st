@@ -1,9 +1,10 @@
-converting
+private
 mouseDown: anEvent with: aMorph
-	| location msg |
+	| location msg entry |
 	location := anEvent position.
 	(location  y < fEntries size and: [ location y > 0 ]) ifTrue: [ 
-		msg := ((fEntries position at: location y) asString, ':', (fEntries event at: location y), ': ', (fEntries node at: location y) asString).
+		entry := fEntries at: location y.
+		msg := (entry position asString, ':', entry event, ': ', entry node asString).
 		aMorph showBalloon: msg.
 		Transcript cr; show: msg.
 	]

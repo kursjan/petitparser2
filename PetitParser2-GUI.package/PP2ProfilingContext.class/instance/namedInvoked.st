@@ -1,11 +1,11 @@
-accessing
-event: value
+events
+namedInvoked
 	| entry |
 
-	entry := PP2ProfilingEntry new
+	entry := PP2InvocationEntry new
 		position: self position;
 		strategy: self strategy;
-		event: value;
+		event: #namedInvoked;
 		yourself.
 		
 	eventsTrace addLast: entry

@@ -2,6 +2,6 @@ initialization
 reset
 	super reset.
 	
-	entries := OrderedCollection new.
+	eventsTrace := PP2EventsTrace new.
 	furthestPosition := -1.
 	totalSize := 0.

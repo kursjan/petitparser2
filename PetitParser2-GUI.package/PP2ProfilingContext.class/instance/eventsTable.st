@@ -2,12 +2,12 @@ converting
 eventsTable
 	| trace |
 	trace := OrderedCollection new.
-	1 to: (10*1000 min: entries size) do: [ :index | 
+	1 to: (10*1000 min: eventsTrace entriesCount) do: [ :index | 
 		trace addLast: { 
-			(entries at: index) position . 
-			(entries at: index) event . 
-			(entries at: index) strategy .
-			(entries at: index) node 
+			(eventsTrace entryAt: index) position . 
+			(eventsTrace entryAt: index) event . 
+			(eventsTrace entryAt: index) strategy .
+			(eventsTrace entryAt: index) node 
 		}
 	].
 

@@ -3,7 +3,7 @@ asFrequencyTableForEvent: event
 	| bag total result filtered |
 	
 	filtered := OrderedCollection new.
-	entries do: [ :e | 
+	eventsTrace entriesDo: [ :e | 
 		event == e event ifTrue: [ filtered add: e strategy ]
 	].
 	

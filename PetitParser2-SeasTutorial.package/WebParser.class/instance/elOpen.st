@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 elOpen
-	^ super elOpen trim
+	^ super elOpen trimRight

@@ -8,8 +8,7 @@
 	"instvars" : [
 		"event",
 		"position",
-		"strategy",
-		"debugResult" ],
+		"strategy" ],
 	"name" : "PP2ProfilingEntry",
 	"pools" : [
 		 ],

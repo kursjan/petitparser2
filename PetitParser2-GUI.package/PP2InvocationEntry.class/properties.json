@@ -4,11 +4,13 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "JanKurs 11/19/2016 16:53",
+	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "PP2ProfilingDebuggingStrategy",
+		"start",
+		"stop",
+		"debugResult" ],
+	"name" : "PP2InvocationEntry",
 	"pools" : [
 		 ],
-	"super" : "PP2DebuggingStrategy",
+	"super" : "PP2ProfilingEntry",
 	"type" : "normal" }

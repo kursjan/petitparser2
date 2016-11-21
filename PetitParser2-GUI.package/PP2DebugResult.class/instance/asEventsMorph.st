@@ -1,4 +1,7 @@
 converting
 asEventsMorph
-	eventsTrace isNil ifTrue: [ ^ Morph new ].
-	^ eventsTrace eventsMorph
+	invocationEntry isNil ifTrue: [ ^ Morph new ].
+	
+	^ (self findContext eventsTrace)
+		selection: invocationEntry;
+		eventsMorph

@@ -2,7 +2,7 @@ reporting
 countFor: event
 	| count |
 	count := 0.
-	entries do: [ :e |
+	self eventsTrace entriesDo: [ :e |
 		(e event == event) ifTrue: [ count := count + 1 ].
 	].
 	^ count

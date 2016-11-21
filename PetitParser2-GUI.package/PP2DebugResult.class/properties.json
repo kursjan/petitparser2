@@ -16,7 +16,7 @@
 		"context",
 		"allChildren",
 		"furthestPosition",
-		"eventsTrace" ],
+		"invocationEntry" ],
 	"name" : "PP2DebugResult",
 	"pools" : [
 		 ],

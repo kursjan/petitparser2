@@ -12,4 +12,4 @@ testAsFrequencyTable
 	self assert: (table collect: #third) allSatisfy: [ :e | e isNumber ].
 	
 	"This comes from the parseAdaptableWithContext, when remember is called"
-	self assert: (context strategies) anySatisfy: [ :e | e isKindOf: PP2NilStrategy  ]
+	self assert: (context eventsTrace strategies) anySatisfy: [ :e | e isKindOf: PP2NilStrategy  ]

@@ -1,18 +1,17 @@
 parsing
 parseOn: context
-	| start result eventsTrace |
-	self node hasName ifTrue: [ context event: #namedInvoked 	] ifFalse: [ context event: #invoked ].
-	start := context entries size.
+	| result entry |
+	self flag: 'JK: refactor to profiling and debugging strategy'.
+	self node hasName ifTrue: [ context namedInvoked 	] ifFalse: [ context invoked ].
+	entry := context eventsTrace last.
+	entry start: context eventsTrace entriesCount.
 	
 	result := super parseOn: context.
 	
-	eventsTrace := PP2EventsTrace new
-		entries: context entries;
-		startPosition: start;
-		stopPosition: context entries size;
-		debugResult: context lastDebugResult;
-		yourself.
-		
-	context lastDebugResult eventsTrace: eventsTrace.
+	entry stop: context eventsTrace entriesCount.
+	entry debugResult: context lastDebugResult.
+
+	"JK: I don't like this reference from debugResult to entry..."
+	context lastDebugResult invocationEntry: entry.
 	
 	^ result

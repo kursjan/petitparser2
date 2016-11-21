@@ -8,10 +8,8 @@
 	"instvars" : [
 		"entries",
 		"fEntries",
-		"start",
-		"stop",
 		"colors",
-		"debugResult" ],
+		"selection" ],
 	"name" : "PP2EventsTrace",
 	"pools" : [
 		 ],
