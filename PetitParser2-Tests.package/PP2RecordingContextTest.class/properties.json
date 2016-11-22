@@ -1,0 +1,16 @@
+{
+	"category" : "PetitParser2-Tests-Profiling",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TPP2ContextTest classTrait + TPP2DebuggableTest classTrait + TPP2CollectionAssertions classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PP2RecordingContextTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"traitcomposition" : "TPP2ContextTest + TPP2DebuggableTest + TPP2CollectionAssertions",
+	"type" : "normal" }
