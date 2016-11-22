@@ -1,3 +1,3 @@
-accessing-globals
+accessing - globals
 globals
 	self explicitRequirement

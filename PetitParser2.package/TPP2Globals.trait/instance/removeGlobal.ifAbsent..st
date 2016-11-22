@@ -1,4 +1,4 @@
-accessing-globals
+accessing - globals
 removeGlobal: aKey ifAbsent: aBlock
 	"Remove the global property with aKey. Answer the value or, if aKey isn't found, answer the result of evaluating aBlock."
 	

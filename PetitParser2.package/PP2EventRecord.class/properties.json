@@ -1,0 +1,16 @@
+{
+	"category" : "PetitParser2-Profiling",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"event",
+		"position",
+		"strategy" ],
+	"name" : "PP2EventRecord",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

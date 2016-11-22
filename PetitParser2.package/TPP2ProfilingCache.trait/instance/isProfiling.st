@@ -1,3 +1,0 @@
-testing
-isProfiling
-	^ true

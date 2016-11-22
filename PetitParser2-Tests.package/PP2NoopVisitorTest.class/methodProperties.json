@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : " 11/16/2016 18:57:10",
+		"testVisitCharacter" : " 11/16/2016 18:57:10",
+		"testVisitCycle" : " 11/16/2016 18:57:10",
+		"testVisitDelegate" : " 11/16/2016 18:57:10",
+		"testVisitSequence" : " 11/16/2016 18:57:10" } }

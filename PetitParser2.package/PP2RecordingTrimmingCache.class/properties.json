@@ -1,0 +1,17 @@
+{
+	"category" : "PetitParser2-Profiling",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TPP2RecordingCache classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"invocations",
+		"hits" ],
+	"name" : "PP2RecordingTrimmingCache",
+	"pools" : [
+		 ],
+	"super" : "PP2TrimmingCache",
+	"traitcomposition" : "TPP2RecordingCache",
+	"type" : "normal" }

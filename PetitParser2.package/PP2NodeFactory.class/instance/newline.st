@@ -1,3 +1,3 @@
-as yet unclassified
+instance creation
 newline
 	^ PP2NewLineNode new

@@ -1,3 +1,3 @@
-as yet unclassified
+instance creation
 epsilon
 	^ PP2EpsilonNode instance

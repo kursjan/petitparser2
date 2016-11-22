@@ -1,0 +1,14 @@
+{
+	"category" : "PetitParser2-Debug",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"reference" ],
+	"name" : "PP2DebugResultLink",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testEqualsWithStack
 	| anotherMemento |
 	memento := PP2ContextMemento new.

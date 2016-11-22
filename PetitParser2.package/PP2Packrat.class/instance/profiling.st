@@ -1,3 +1,3 @@
 conversion
 profiling
-	^ PP2ProfilingPackrat on: strategy
+	^ PP2RecordingPackrat on: strategy

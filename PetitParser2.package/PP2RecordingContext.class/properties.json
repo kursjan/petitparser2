@@ -1,0 +1,16 @@
+{
+	"category" : "PetitParser2-Profiling",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"totalSize",
+		"eventsTrace",
+		"furthestPosition" ],
+	"name" : "PP2RecordingContext",
+	"pools" : [
+		 ],
+	"super" : "PP2InMemoryContext",
+	"type" : "normal" }

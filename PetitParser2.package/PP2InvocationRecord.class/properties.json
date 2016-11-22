@@ -1,0 +1,16 @@
+{
+	"category" : "PetitParser2-Profiling",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"start",
+		"stop",
+		"debugResult" ],
+	"name" : "PP2InvocationRecord",
+	"pools" : [
+		 ],
+	"super" : "PP2EventRecord",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "PetitParser2-Profiling",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PP2RecordingStrategy",
+	"pools" : [
+		 ],
+	"super" : "PP2WrappingStrategy",
+	"type" : "normal" }

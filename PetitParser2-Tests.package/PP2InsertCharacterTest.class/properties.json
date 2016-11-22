@@ -2,7 +2,7 @@
 	"category" : "PetitParser2-Tests-Reparsing",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "TPP2TypeAssertions classTrait + TPP2ChangeAssertions classTrait",
+	"classtraitcomposition" : "TPP2TypeAssertions classTrait",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -17,5 +17,5 @@
 	"pools" : [
 		 ],
 	"super" : "TestCase",
-	"traitcomposition" : "TPP2TypeAssertions + TPP2ChangeAssertions",
+	"traitcomposition" : "TPP2TypeAssertions",
 	"type" : "normal" }

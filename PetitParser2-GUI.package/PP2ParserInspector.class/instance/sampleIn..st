@@ -11,7 +11,7 @@ sampleIn: composite
 			with: [ :presentation :parser | 
 				| input context result |
 				input := presentation text asString.
-				context := PP2ProfilingContext new.
+				context := PP2RecordingContext new.
 				result := (parser deoptimize; debug: input withContext: context) value.
 				
 				(presentation pane port: #context) value: context.
@@ -24,7 +24,7 @@ sampleIn: composite
 			with: [ :presentation :parser | 
 				| input context result |
 				input := presentation text asString.
-				context := PP2ProfilingContext new.
+				context := PP2RecordingContext new.
 				result := (parser optimize; debug: input withContext: context) value.
 				
 				(presentation pane port: #context) value: context.

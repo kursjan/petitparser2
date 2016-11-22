@@ -1,3 +1,3 @@
 *PetitParser2-GUI
 profiling
-	^ PP2ProfilingTrimmingCache on: strategy
+	^ PP2RecordingTrimmingCache on: strategy

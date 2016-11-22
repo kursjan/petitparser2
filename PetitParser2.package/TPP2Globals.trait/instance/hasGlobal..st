@@ -1,4 +1,4 @@
-accessing-globals
+accessing - globals
 hasGlobal: aKey
 	"Test if the global property aKey is present."
 	

@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testHash
 	| anotherMemento |
 	memento := PP2ContextMemento new.

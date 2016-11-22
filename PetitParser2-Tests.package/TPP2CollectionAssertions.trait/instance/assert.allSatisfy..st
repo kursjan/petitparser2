@@ -1,3 +1,3 @@
-as yet unclassified
+assertions
 assert: aCollection allSatisfy: aBlock
 	self assert: (aCollection allSatisfy: aBlock)

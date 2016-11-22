@@ -1,4 +1,4 @@
-accessing-globals
+accessing - globals
 globalAt: aKey
 	"Answer the global property value associated with aKey."
 	

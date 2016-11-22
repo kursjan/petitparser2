@@ -1,3 +1,3 @@
 conversion
 profiling
-	^ PP2ProfilingMemoizedSea on: strategy
+	^ PP2RecordingMemoizedSea on: strategy

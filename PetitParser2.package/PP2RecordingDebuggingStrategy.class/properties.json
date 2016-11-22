@@ -1,0 +1,14 @@
+{
+	"category" : "PetitParser2-Profiling",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JanKurs 11/19/2016 16:53",
+	"instvars" : [
+		 ],
+	"name" : "PP2RecordingDebuggingStrategy",
+	"pools" : [
+		 ],
+	"super" : "PP2DebuggingStrategy",
+	"type" : "normal" }

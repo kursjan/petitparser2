@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testEquals
 	| anotherMemento |
 	memento := PP2ContextMemento new.
