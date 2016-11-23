@@ -1,3 +1,3 @@
-profiling
+recording
 cacheHit
 	self event: #cacheHit

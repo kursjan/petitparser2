@@ -1,3 +1,3 @@
 conversion
 recording
-	^ PP2RecordingDebuggingStrategy on: strategy
+	^ PP2RecordingDebuggingStrategy on: strategy 

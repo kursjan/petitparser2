@@ -1,3 +1,3 @@
-profiling
+recording
 invocations: anInteger
 	self explicitRequirement

@@ -7,7 +7,7 @@ parser: aPP2Node
 	aPP2Node allNodesDo: [ :node | 
 		parent := node.
 		node strategies do: [ :strategy | 
-			parent := self switchToProfiling: strategy parent: parent.
+			parent := self switchToRecording: strategy parent: parent.
 		]
 	].
 

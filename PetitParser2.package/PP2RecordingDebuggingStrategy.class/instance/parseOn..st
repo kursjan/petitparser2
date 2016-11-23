@@ -1,7 +1,6 @@
 parsing
 parseOn: context
 	| result entry |
-	self flag: 'JK: refactor to profiling and debugging strategy'.
 	self node hasName ifTrue: [ context namedInvoked 	] ifFalse: [ context invoked ].
 	entry := context eventsTrace last.
 	entry start: context eventsTrace entriesCount.
