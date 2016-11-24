@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testEnableDebug" : "JanKurs 11/24/2016 07:18",
+		"testEnableDebugAndRecordingTwice" : "JanKurs 11/24/2016 07:54",
+		"testEnableDebugAndRecordingTwiceOptimized" : "JanKurs 11/24/2016 07:57",
+		"testEnableDebugTwice" : "JanKurs 11/24/2016 07:18",
+		"testEnableRecordingCaches" : "JanKurs 11/24/2016 07:47",
+		"testEnableRecordingDebugInvocations" : "JanKurs 11/24/2016 07:51",
+		"testEnableRecordingInvocations" : "JanKurs 11/24/2016 07:53",
+		"testEnableRecordingRefreshCaches" : "JanKurs 11/24/2016 07:48" } }

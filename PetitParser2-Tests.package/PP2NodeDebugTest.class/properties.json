@@ -1,0 +1,16 @@
+{
+	"category" : "PetitParser2-Tests-Nodes",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TPP2CollectionAssertions classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"parser" ],
+	"name" : "PP2NodeDebugTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"traitcomposition" : "TPP2CollectionAssertions",
+	"type" : "normal" }
