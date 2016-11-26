@@ -1,5 +1,5 @@
 accessing
 element
 	^ (elOpen, elContent, elClose)
-"		memoize;"
+		memoize;
 		yourself
