@@ -3,6 +3,7 @@ gtDebugView: composite
 	<gtInspectorPresentationOrder: 40>
 
 	| browser |
+	self allowsDebug ifFalse: [ ^ self ].
 	
 	browser := composite tabulator.
 	browser title: 'Debug View'.

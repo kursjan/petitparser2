@@ -6,9 +6,9 @@ testNullableIsland
 	parser := sea.
 	
 	self assert: parser parse: '..'.
-	self assert: self result first equals: '..'.
+	self assert: self result first equals: #($. $.) asOrderedCollection.
 	self assert: self result second equals: nil.
-	self assert: self result third equals: ''.
+	self assert: self result third equals: #() asOrderedCollection.
 
 
 	self assert: parser parse: ''.

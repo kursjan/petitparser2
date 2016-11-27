@@ -1,5 +1,10 @@
 operators
 starLazy
-	^ (#epsilon asPParser sea)
+	| sea |
+	sea := (#epsilon asPParser sea)
 		waterToken: self;
-		flatten
+		yourself.
+	^ (sea map: [:_before :_epsilon :_after | 
+			"return just before water, because island is nil and after water is empty"
+			_before
+		]) 
