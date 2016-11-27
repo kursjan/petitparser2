@@ -1,5 +1,5 @@
 TODO: Find a better name for this.
 
-I represent a stream which input comes asynchronously from different source, e.g. keyboard, or network.
+I represent a stream which is filled by some other input that comes  asynchronously.
 
-This is not relaly thread safe...
+E.g. keyboard  keyboard source can queue the characters that can be read by parser.

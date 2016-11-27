@@ -4,12 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "JanKurs 11/27/2016 17:17",
+	"commentStamp" : "JanKurs 11/27/2016 17:36",
 	"instvars" : [
-		"queue",
-		"closed" ],
-	"name" : "PP2AsyncStream",
+		"stream",
+		"encoder" ],
+	"name" : "PP2CharacterStream",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "Stream",
 	"type" : "normal" }

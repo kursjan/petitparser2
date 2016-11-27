@@ -1,0 +1,1 @@
+I am an adapter from stream of bytes (stream instance varaible) to stream of characters. I use encoder (instance variable) to translate these bytes into characters.
