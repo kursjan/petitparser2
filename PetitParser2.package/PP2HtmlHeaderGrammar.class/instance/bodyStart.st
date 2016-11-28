@@ -1,0 +1,3 @@
+rules
+bodyStart
+	^ '<body' asPParser

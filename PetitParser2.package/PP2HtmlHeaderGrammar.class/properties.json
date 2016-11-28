@@ -1,0 +1,18 @@
+{
+	"category" : "PetitParser2-Examples",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JanKurs 11/28/2016 07:50",
+	"instvars" : [
+		"headerStart",
+		"bodyStart",
+		"header",
+		"htmlFragment",
+		"headerStart" ],
+	"name" : "PP2HtmlHeaderGrammar",
+	"pools" : [
+		 ],
+	"super" : "PP2CompositeNode",
+	"type" : "normal" }
