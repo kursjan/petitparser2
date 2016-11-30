@@ -1,11 +1,14 @@
-+Pillar logo>figures/pillar.png|width=30+
-Welcome to Pillar's little user-guide !!
+The easiest way to start this tutorial is to use Moose. 
+Moose is a software and data analysis platform that has everything we need already installed.
 
-To write a book, you can create chapters and include them into ''book.pillar'' (see the ''book.pillar'' file)
-or directly edit the file.
-If you don't know ''Pillar'', its documentation is *here>https://ci.inria.fr/pharo-contribution/job/EnterprisePharoBook/lastSuccessfulBuild/artifact/book-result/PillarChap/Pillar.html*
+Alternatively, you can download clean Pharo 6 image and install PetitParser2 using the following command:
 
-The book is generated directly in HTML and LaTeX with the command ==make book==
 
-You can compile just one chapter with the command ==make book-result/chapterPathAndName.format==
-For example, for the first chapter in LaTeX: ==make book-result/Chapters/Chapter1/chapter1.tex==
+[[[
+Metacello new
+    	baseline: 'PetitParser2';
+	repository: 'github://kursjan/petitparser2';
+    	load
+]]]
+
+!!!Installation
