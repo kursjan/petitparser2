@@ -1,14 +1,118 @@
-The easiest way to start this tutorial is to use Moose. 
-Moose is a software and data analysis platform that has everything we need already installed.
+!!Extracting Javascript
+Our task is to extract javascript from the html files. 
+Let us start with a scripting solution. 
+Open your playground and start coding. 
+First of all, we define what we want to parse:
 
-Alternatively, you can download clean Pharo 6 image and install PetitParser2 using the following command:
+[[[
+source := PP2Sources current htmlSample.
+]]]
+
+Second, we define javascript and try to parse the source:
+
+[[[
+js := '<script>' asPParser, #any asPParser starLazy, '</script>' asPParser ==> #second.
+]]]
+
+The ==starLazy== operator is a new feature of PetitParser2 and it is build on top of bounded seas. 
+It repetitively invokes the given given parser (any character in this case) until a string recognized by the following parser appears. 
+What makes it convenient is that you don’t need to specify what is the following parser, it is inferred automatically based on the grammar specification. 
+If you want to define the same rule in PetitParser, it would be:
+
+[[[
+#any asParser starLazy: ‘<script>’ asParser.
+]]]
+
+In order to extract the javascript itself and throw away the begin and end tags, we use 
+
+[[[
+==> #second
+]]]
+
+Let us try if the javascript rule can parse our source:
+
+[[[
+js parse: source.
+]]]
+
+The result is failure. 
+If we inspect the failure object and switch to ''Debug View'' we notice that ''<script>'' is expected at the beginning of a file, yet our input starts with ''<!DOCTYPE html>''. 
+If you use bounded seas, the solution to fix this is simple: we define ==jsSea== as a javascript island in a sea of an uninteresting water:
 
 
 [[[
-Metacello new
-    	baseline: 'PetitParser2';
-	repository: 'github://kursjan/petitparser2';
-    	load
+jsSea := js sea.
+jsSea parse: source.
 ]]]
 
-!!!Installation
+Good, the result is not failure! 
+But it is not exactly what we want neither. 
+Sea returns an array of three elements: 
+# before-water 
+# island and 
+# after-water
+Island is the result of the javascript rule, before and after water contain the rest of an input. We are interested only in the the javascript, so we redefine the document rule as follows:
+
+[[[
+jsSea := js sea ==> #second.
+jsSea parse: source.
+]]]
+
+Looks better, but we are missing some results! 
+This is because we never specified that there could be multiple occurrences of ==jsSea==. 
+Therefore the sea rule finds only one --- the first one. 
+We can easily add more ==jsSea== rules:
+
+[[[
+document := jsSea star.
+document parse: source.
+]]]
+
+Now we extracted both scripts. 
+Yet, there is something fishy about the second result. 
+The second javascript is has ended prematurely! 
+It is because the javascript rule as we defined it does not know about strings. 
+Therefore, the javascript rule thinks that there is a closing of the script tag even though it is a part of the alert message string. 
+We fix it by defining javascript strings and redefining the ==js== rule:
+
+[[[
+jsString := ($' asPParser, #any starLazy, $' asPParser) flatten.
+any := #any asPParser.
+js := '<script>' asPParser, ((jsString / any) starLazy), '</script>' asPParser ==> #second.
+
+jsSea := js sea ==> #second.
+document := jsSea star.
+document parse: source.
+]]]
+
+
+Great, everything works as expected!
+
+
+!!!StarLazy 
+In this section, we shortly inspect how does the startLazy operator works. The code  parser ==starLazy== is a shorthand for the following:
+
+[[[
+^ (#epsilon asPParser sea)
+	waterToken: parser;
+	flatten
+]]]
+
+The island of the sea is epsilon. 
+Such an island will be always found. 
+And it will be surrounded by water that consumes anything until the next parser succeeds. 
+By default, water token is #any asPParser. This means that the sea will test if the next parser succeeds. 
+If not, it invokes ==#any asPParser== and tries again. 
+This is repeated until the the next parser succeeds.
+
+
+But as we have seen in the case of the javascript rule, invoking ==#any asPParser== may not be sufficient, the water can get confused by end tag in a string. 
+Therefore, bounded seas allow you to define tokens that are expected to be in water. 
+Such token can be string or comment and the contents of them is ignored and does not confuse the parser. 
+In our case the tokens are jsString and any character:
+
+[[[
+^ (#epsilon asPParser sea)
+	waterToken: jsString / #any asPParser;
+	flatten
+]]]

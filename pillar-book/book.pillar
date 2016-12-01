@@ -1,15 +1,26 @@
 !Parsing with PetitParser2
 
-
 !!Introduction
 In this tutorial we describe how to quickly build a parser to extract a javascript code  from any HTML source, including malformed documents. 
 We show how can we utilize bounded seas - a tool that allows us to focus on the interesting parts of an input (i.e. javascript in our case) and ignore the rest (the remaining HTML code). 
 This saves our time and allows us to obtain results as fast as possible.
 
-!!Getting Started
+!!!Installation
+The easiest way to start this tutorial is to use Moose. 
+Moose is a software and data analysis platform that has everything we need already installed.
+
+Alternatively, you can download clean Pharo 6 image and install PetitParser2 using the following command:
+
+
+[[[
+Metacello new
+    	baseline: 'PetitParser2';
+	repository: 'github://kursjan/petitparser2';
+    	load
+]]]
+
+
 ${inputFile:Chapters/Chapter1/chapter1.pillar}$
-
-
 ${inputFile:Chapters/Chapter2/chapter2.pillar}$
 
 %+>figures/pharo.png|width=30+
