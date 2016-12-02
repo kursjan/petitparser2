@@ -14,13 +14,17 @@ Alternatively, you can download clean Pharo 6 image and install PetitParser2 usi
 
 [[[
 Metacello new
-    	baseline: 'PetitParser2';
+    baseline: 'PetitParser2';
 	repository: 'github://kursjan/petitparser2';
-    	load
+   	load
 ]]]
 
 
+!Extracting Javascript
 ${inputFile:Chapters/Chapter1/chapter1.pillar}$
+
+
+!Intermezzo: Turning the script into a real parser
 ${inputFile:Chapters/Chapter2/chapter2.pillar}$
 
 %+>figures/pharo.png|width=30+

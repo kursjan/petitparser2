@@ -1,4 +1,10 @@
-!!Extracting Javascript
+ {
+    "metadata" : {
+        "title" : "baf",
+    },
+    "headingLevelOffset":2
+} 
+
 Our task is to extract javascript from the html files. 
 Let us start with a scripting solution. 
 Open your playground and start coding. 
@@ -88,9 +94,9 @@ document parse: source.
 
 Great, everything works as expected!
 
-
-!!!StarLazy 
-In this section, we shortly inspect how does the startLazy operator works. The code  parser ==starLazy== is a shorthand for the following:
+!StarLazy 
+In this section, we shortly inspect how does the ==startLazy== operator works. 
+The code  parser ==starLazy== is a shorthand for the following:
 
 [[[
 ^ (#epsilon asPParser sea)

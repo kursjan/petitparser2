@@ -1,16 +1,93 @@
-There is also a template system, you can find template in the folder ''support/template''.
-Some template are already written, but if you want to have your own, you had two solutions:
--edit the existing template related to the format you want to change (recommanded)
--create your own template with its own name and change used template in the Makefile
+Once you decide to extend the grammar, it is inconvenient to keep it in a script. 
+It is a good practice to define a proper parser, because it allows us to
+manage cyclic dependencies, 
+simplify testing and 
+easily extend with new functionality. 
+We create a parser by subclassing ==PP2CompositeNode==:
 
-You will found some template examples in ''support/template'' folder to see how it works.
 
-The default template system is ''Mustache'' but if you want to use another one it is possible.
-In that case you will have to edit the makefile to use your own template system.
+[[[
+PP2CompositeNode subclass: #WebGrammar
+	instanceVariableNames: 'javascript'
+	classVariableNames: ''
+	package: 'PetitParser2-SeasTutorial'
+]]]
 
-You can also create your own ''Makefile'' rule.
-We let you know that there is a rule ''copySupport'' which copy all figures in the output directory,
-so you can use this rule when you want to.
+We define a ==javascipt== rule as follows:
 
-Output directory's default name is ''book-result'' but you can change it in the Makefile by editing the
-==OUTPUTDIRECTORY== variable
+[[[
+WebGrammar>>javascript
+	^ jsOpen, jsContent, jsClose ==> #second
+]]]
+
+[[[
+WebGrammar>>jsOpen
+^ '<script>' asPParser
+
+WebGrammar>>jsContent
+	^ (jsString / any) starLazy
+
+
+WebGrammar>>jsClose
+	^ '</script>' asPParser
+
+
+WebGrammar>>jsString
+	^ $' asPParser, #any asPParser starLazy, $' asPParser
+
+
+WebGrammar>>any
+	^ #any asPParser
+]]]
+
+
+First, we would like to cover ==javascript== rule with some test to make sure the rule works as expected. 
+We start by subclassing ==PP2CompositeParserTest==:
+
+[[[
+PP2CompositeNodeTest subclass: #WebGrammarTest
+	instanceVariableNames: ''
+	classVariableNames: ''
+	package: 'PetitParser2-SeasTutorial'
+
+WebGrammarTest>>parserClass
+	^ WebGrammar
+
+
+WebGrammarTest>>testJavascript
+	self parse: '<script>alert("hi there!")</script>' rule: #javascript.	
+]]]
+
+
+To extract a javascript from an html document, we first define the ==document== rule simply as ==javascript== because we are interested only in javascript:
+
+[[[
+WebGrammar>>document
+	^ javascript islandInSea star
+]]]
+
+The ==islandInSea== operator is just a shorthand for:
+[[[
+sea ==> #second
+]]]
+
+And finally we define the start rule as a document:
+
+[[[
+WebGrammar>>start
+	^ document
+]]]
+
+And finally, we write a test for ==document==:
+
+[[[
+WebGrammarTest>>testDocument
+	| input |
+	input := PP2Sources current htmlSample.
+	
+	self parse: input rule: #document.
+	Self assert: result size equals: 2.
+]]]
+
+The ==WebGrammar== and ==WebParser== can be downloaded here.
+@@todo create a link.
