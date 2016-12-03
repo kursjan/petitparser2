@@ -22,9 +22,10 @@ Metacello new
 ${inputFile:Chapters/chapter1.pillar}$
 
 
+!!Turning the script into a real parser
 ${inputFile:Chapters/chapter2.pillar}$
 
 ${inputFile:Chapters/chapter3.pillar}$
 
-%+>figures/pharo.png|width=30+
-%+>figures/rmod.png|width=30+
+${inputFile:Chapters/chapter4.pillar}$
+

@@ -102,7 +102,7 @@ The code  parser ==starLazy== is a shorthand for the following:
 [[[
 ^ (#epsilon asPParser sea)
 	waterToken: parser;
-	flatten
+	yourself
 ]]]
 
 The island of the sea is epsilon. 
