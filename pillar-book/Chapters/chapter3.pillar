@@ -1,0 +1,555 @@
+!Extracting the Structure
+In the previous parts of this tutorial we analyzed an anatomy of bounded seas.
+We described how they can be used to:
+# extract islands --- parts of our interest while skipping the rest as a water (javascript seas in document), and 
+# implement a starLazy operator that skips an input until an interesting input appears (e.g. ==(jsString / any) starLazy== in ==jsContent==). 
+
+
+In this part we extend our parser and we extract the HTML structure. 
+We use bounded seas again to skip content of html elements and malformed or unclosed elements.
+
+
+!!Matching the Names
+
+
+The elements of HTML has an interesting property: the name of an opening tag has to match the name of a closing tag. 
+Even though natural for human beings, this is, surprisingly, rather difficult task from the parsing theory point of view.
+
+
+One of the standard solutions provided by parsing frameworks (including PetitParser) are parsing actions. 
+We define an action to assert that the name of an open tag corresponds to the name of a close tag:
+
+[[[
+WebGrammar>>element
+	^ elOpen, content, elClose
+
+	map: [:_open :_content :_close |
+	(_open = _close) ifTrue: [
+		_content
+	] ifFalse: [ 
+		PP2Failure message: ‘open and close do not match’.
+	]
+]]]
+
+
+Unfortunately, this solution has a problem with unclosed elements like these:
+
+[[[
+<b><i>bold and italics</b>
+]]]
+
+The first ==elOpen== consumes ''<b>'', 
+the second ==elOpen== consumes 
+''<i>'', 
+content consumes ''bold and italics'' and 
+==elClose== consumes ''</b>''. 
+The action checks if ''i = b'' and returns failure. 
+The failure will be the final result because such a code does not restore position to recover from the failure and actions do not offer a way to do so. 
+Other options based on custom parsers or wrapping parsers will sooner or later run into a hard to debug issues with backtracking as well.
+
+The PetitParser2 offers more formal way of such definitions. 
+It can store a result of a rule (e.g. ==elOpen==) onto a stack using the push operator and assert that the result of a rule (e.g. ==elClose==) matches the top of the stack using the match operator and finally pop the result using the pop operator. 
+Here is the concrete example. 
+
+
+First we define an element name as a repetition of letters and digits:
+
+[[[
+WebGrammar>>elementName
+	^ #word asPParser plus flatten
+]]]
+
+Than we define element as a sequence of ==elOpen==, ==elContent== and ==elClose==:
+
+[[[
+WebGrammar>>element
+	^ (elOpen, elContent, elClose)
+]]]
+
+In ==elOpen==, we push the element name as well as we consume water in case an element contains arguments:
+
+[[[
+WebGrammar>>elOpen
+	^ $< asPParser, elementName push, #any starLazy, $> asPParser ==> #second
+]]]
+
+In ==elClose==, we first match the element name against the top of a stack and we pop the stack in case of success:
+
+[[[
+WebGrammar>>elClose
+	^ '</' asPParser, elementName match pop, $> asPParser
+]]]
+
+
+Now we need to define what is a content of an element. 
+It is a list of the following components in the given order: 
+# a javascript code, 
+# another element or 
+# an unknown text. 
+We add javascript to the first position because it is kind of an element and therefore must be ordered first to take precedence. 
+The same goes for an element, it is also ''kind of'' a text. 
+
+
+Furthermore, we mark text as ==nonEpsilon==, which allows only for non-empty parses. 
+Remember ==#water asPParser== can consume anything, even the empty string. 
+The star repetition would end up in an infinite loop recognizing an epsilon in each of its iteration, never failing, never stopping.
+
+[[[
+WebGrammar>>text
+	^ #any starLazy
+
+WebGrammar>>elContent
+	^ (javascript / element / text nonEpsilon) star
+]]]
+
+
+We have defined a lots of code. Let us try, if it works. 
+We start with ==text==:
+
+[[[
+WebGrammarTest>>testText
+	self parse: 'foobar' rule: #text
+]]]
+
+And ==element== follows:
+
+[[[
+WebGrammarTest>>testElementEmpty
+	self parse: '<foo></foo>' rule: #element
+
+WebGrammarTest>>testElement
+	self parse: '<p>lorem ipsum</p>' rule: #element
+
+WebGrammarTest>>testElementNested
+	self parse: '<p>lorem <i>ipsum</i></p>' rule: #element
+]]]
+
+We should be able to parse malformed elements as well:
+
+[[[
+WebGrammarTest>>testElementMalformedWrongClose
+	self parse: '<foo><bar>meh</baz></foo>' rule: #element.
+
+WebGrammarTest>>testElementMalformedExtraClose
+	self parse: '<foo><bar>meh</bar></fii></foo>' rule: #element
+
+WebGrammarTest>>testElementMalformedUnclosed
+	self parse: '<head><meta content="mess"></head>' rule: #element.
+]]]
+
+!!Create an Abstract Syntax Tree
+
+That looks good. 
+But our tests are telling us only that element can parse the given input, it does not tell us how it parses the input. 
+We should assert that the proper element names and the right content is extracted. 
+
+
+It is the time to return a more convenient representation of the input: ''an abstract syntax tree''. 
+Abstract syntax tree, contrary to the very low-level and detailed array of arrays  (so called concrete syntax tree), contains information closer to the target domain. 
+In our case the domain should be some kind of a javascript and html representation.
+
+
+It is considered to be a good practice in PetitParser to split grammar, which returns concrete syntax tree, from parser, which returns abstract syntax tree. 
+We do this by subclassing ==WebGrammar==:
+
+[[[
+WebGrammar subclass: #WebParser
+	instanceVariableNames: ''
+	classVariableNames: ''
+	package: 'PetitParser2-SeasTutorial'
+]]]
+
+Parsing is great use case for test driven development. 
+If you made it so far, you probably mean it with parsing.
+So let us abandon on a totorial friendly mode and do it the proper way:
+start with tests. 
+Actually, they give us a clear idea what kind of interface do we expect from our abstract syntax tree:
+
+[[[
+WebGrammarTest subclass: #WebParserTest
+	instanceVariableNames: ''
+	classVariableNames: ''
+	package: 'PetitParser2-SeasTutorial'
+
+WebParserTest>>parserClass
+	^ WebParser
+
+WebParserTest>>testElement
+	super testElement.
+	
+	self assert: result name equals: 'p'.
+	self assert: result firstChild text equals: 'lorem ipsum'
+
+WebParserTest>>testElementEmpty
+	super testElementEmpty.
+	
+	self assert: result name equals: 'foo'.
+
+WebParserTest>>testElementNested
+	super testElementNested.
+	
+	self assert: result name equals: 'p'.
+	self assert: result firstChild text trim equals: 'lorem'.
+	self assert: result secondChild name equals: 'i'.
+	self assert: result secondChild firstChild text equals: 'ipsum'
+]]]
+
+And for malformed elements, we expect the following results:
+
+[[[
+WebParserTest>>testElementMalformed
+	super testElementMalformed.
+	
+	self assert: result name equals: 'foo'.
+	self assert: result firstChild text equals: '<bar>meh</baz>'
+
+WebParserTest>>testElementMalformedExtraClose
+	super testElementMalformedExtraClose.
+	
+	self assert: result name equals: 'foo'.
+	self assert: result secondChild text equals: '</fii>'
+
+WebParserTest>>testElementMalformedUnclosed
+	super testElementMalformedUnclosed.
+	
+	self assert: result name equals: 'head'.
+	self assert: result firstChild text trim equals: '<meta content="mess">'
+
+WebParserTest>>testElementMalformedWrongClose
+	super testElementMalformedWrongClose.
+	
+	self assert: result name equals: 'foo'.
+	self assert: result firstChild text equals: '<bar>meh</baz>'
+]]]
+
+
+
+And of course, we expect javascript code to be extracted as follows:
+
+[[[
+WebParserTest>>testJavascript
+	super testJavascript.
+	
+	self assert: result code equals: 'alert(1+2)'
+
+WebParserTest>>testJavascriptWithString
+	super testJavascriptWithString.
+	
+	self assert: result code equals: 'alert(''</script>'')'
+]]]
+
+
+
+If we want to pass these test, the result of a parse should be a tree consisting of three different nodes: 
+# an html element 
+# a javascript code and 
+# a text. 
+We define these nodes as follows, starting with its abstract predecessor ==WebElement==:
+
+
+[[[
+Object subclass: #WebElement
+	instanceVariableNames: ''
+	classVariableNames: ''
+	package: 'PetitParser2-SeasTutorial'
+
+WebElement>>children
+	^ #()
+
+WebElement>>firstChild
+	"Just for convenience"
+	^ self children first
+
+WebElement>>secondChild
+	"Just for convenience"
+	^ self children second
+
+WebElement>>gtTreeViewIn: composite
+	<gtInspectorPresentationOrder: 40>
+
+	composite tree
+		title: 'Tree';
+		children: [:n | n children ];
+		format: [:n| n displayText printStringLimitedTo: 50 ];
+		shouldExpandToLevel: 6
+]]]
+
+
+==HtmlElement== follows:
+
+[[[
+WebElement subclass: #HtmlElement
+	instanceVariableNames: 'name children'
+	classVariableNames: ''
+	package: 'PetitParser2-SeasTutorial'
+
+
+HtmlElement>>children
+	^ children
+
+
+children: anObject
+	children := anObject
+
+
+name
+	^ name
+
+
+name: newName
+	name := newName
+	
+displayText
+	^ self name
+]]]
+
+
+As well as ==UnknownText==:
+WebElement subclass: #UnknownText
+	instanceVariableNames: 'text'
+	classVariableNames: ''
+	package: 'PetitParser2-SeasTutorial'
+
+
+UnknownText>>text
+	^ text
+
+
+UnknownText>>text: anObject
+	text := anObject
+
+
+
+
+UnknownText>>displayText
+	^ self text trim
+
+
+UnknownText>>gtText: composite
+	<gtInspectorPresentationOrder: 40>
+	
+	composite text
+		title: 'Text';
+		display: [ :context | text ]
+
+
+=========================================================================
+
+
+WebElement subclass: #JavascriptElement
+	instanceVariableNames: 'code'
+	classVariableNames: ''
+	package: 'PetitParser2-SeasTutorial'
+
+
+JavascriptElement>>code
+	^ code
+
+
+JavascriptElement>>code: anObject
+	code := anObject
+
+
+JavascriptElement>>displayText
+	^ self code
+
+
+JavascriptElement>>gtText: composite
+	<gtInspectorPresentationOrder: 40>
+	
+	composite text
+		title: 'Text';
+		display: [ :context | code ]
+
+
+Now we use WebParser to update the javascript rule, to return JavascriptElement, the element rule to return HtmlElement and the text rule to return UnknownText:
+
+
+WebParser>>javascript
+	^ super javascript 
+	
+	map: [ :_open :_content :_close | 
+	 	(JavascriptElement new)
+			code: _content;
+			yourself
+	]
+
+
+
+
+WebParser>>element
+	^ super element 
+	
+	map: [ :_open :_content :_close | 
+	 	(HtmlElement new)
+			name: _open;
+			children: _content;
+			yourself
+	]
+
+
+WebParser>>text
+	^ super text 
+	
+	map: [ :_value | 
+		UnknownText new
+			text: _value;
+			yourself	
+	]
+
+
+And finally, for convenience, we trim whitespaces around html elements:
+
+
+WebParser>>elClose
+	^ super elClose trim
+
+
+WebParser>>elOpen
+	^ super elOpen trim
+Structured Document
+We defined document in WebGrammar as a repetition of javascript seas. Now we define structured document, i.e. a document with an html structure. The root of an html file is an element that can be surrounded by some other information (e.g. doctype or comments), therefore we define it as sea:
+
+
+WebGrammar>>structuredDocument
+	^ element sea
+
+
+WebGrammar>>start
+	^ structuredDocument
+
+
+
+
+And we should write tests for this:
+
+
+WebGrammarTest>>testStructuredDocument
+	| input |
+	input := '<html>
+		<body>
+			<script type="text/javascript">alert("hello world")</script>
+		</body>
+	</html>'.
+	
+	self parse: input rule: #structuredDocument
+
+
+WebGrammarTest>>testStructuredDocumentWithDoctype
+	| input |
+	input := '
+<!DOCTYPE html>
+<!-- comment -->
+<html>
+	<meta content="origin" name="referrer">
+
+
+	<body>
+		<script type="text/javascript">alert("hello world")</script>
+	</body>
+</html>'.
+	
+	self parse: input rule: #structuredDocument
+
+
+
+
+And we create a root element from the structured document:
+
+
+WebParser>>structuredDocument
+	^ super structuredDocument
+	
+	map: [ :_bw :_document :_aw |
+		| beforeWater afterWater |
+		beforeWater := UnknownText new
+			text: _bw;
+			yourself.
+			
+		afterWater := UnknownText new
+			text: _aw;
+			yourself.
+			
+		HtmlElement new
+			name: 'DOCUMENT';
+			children: (Array with: beforeWater with: _document with: afterWater);
+			yourself
+	
+	]
+
+
+And we cover the rule with a test:
+
+
+testStructuredDocument
+	| html |
+	super testStructuredDocument.
+	
+	self assert: result name equals: 'DOCUMENT'.
+
+
+	html := result secondChild.
+	self assert: html name equals: 'html'.
+
+
+	self assert: html firstChild name equals: 'head'.	
+	self assert: html secondChild name equals: 'body'.
+
+
+Comments
+In this section we focus a bit more how to handle comments. They may contain scripts or other elements and they may confuse the parser. Actually this is happening in WebParser, which extracts one element that is not in the HTML. Inspect the following and switch to the tree view:
+
+
+WebParser new parse: input.
+
+
+There is a <p> element in the <body>. But <p> is a part of comment, it should not be included in the document structure. We write a test to cover this:
+
+
+
+
+testStructuredDocument
+	| html |
+	super testStructuredDocument.
+	
+	self assert: result name equals: 'DOCUMENT'.
+
+
+	html := result secondChild.
+	self assert: html name equals: 'html'.
+
+
+	self assert: html firstChild name equals: 'head'.	
+	self assert: html secondChild name equals: 'body'.
+
+
+	body := html secondChild.
+	self assert: body children size equals: 4.
+
+
+The problem is, as in the case of prematurely ended javascript, that our parser has no notion of a comment and handles a content of comment as an ordinary html code. Therefore we define what is an html comment:
+
+
+WebGrammar>>comment
+	^ '<!--' asPParser, #any asPParser starLazy, '-->' asPParser
+
+
+And now we can redefine the text so that it knows what is a comment:
+
+
+WebGrammar>>text
+	^ (comment / #any asPParser) starLazy
+
+
+We already mentioned that starLazy utilizes bounded seas and the above code is equivalent to:
+
+
+nil asPParser
+  waterToken: (comment / #any asPParser)
+  flatten
+
+
+Because now water knows what is a comment, it will skip the complete comment including the <p> element inside.
+
+
+This is it. Your tests are passing right now.

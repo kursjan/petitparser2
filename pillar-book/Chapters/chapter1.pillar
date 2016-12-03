@@ -1,13 +1,14 @@
- {
+{
     "metadata" : {
-        "title" : "baf",
-    },
-    "headingLevelOffset":2
+    	"title" : "foobar"
+   }
 } 
 
-Our task is to extract javascript from the html files. 
-Let us start with a scripting solution. 
-Open your playground and start coding. 
+!Extracting Javascript
+In this chapter we will extract javascript from html files.
+We will script our solution in this chapter and we will create the real parser later.
+
+Open your playground and let's start coding. 
 First of all, we define what we want to parse:
 
 [[[
@@ -94,7 +95,7 @@ document parse: source.
 
 Great, everything works as expected!
 
-!StarLazy 
+!!StarLazy 
 In this section, we shortly inspect how does the ==startLazy== operator works. 
 The code  parser ==starLazy== is a shorthand for the following:
 
