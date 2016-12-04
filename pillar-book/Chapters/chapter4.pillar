@@ -96,13 +96,13 @@ We already mentioned ==PP2Cache==, but PetitParser2 utilizes four different cach
 
 You can inspect the performance of caches in the cache view:
 
-+>figures/optimized-caches.png|+
++>figures/optimized-caches.png|width=100%+
 
 
 There are three caches visble in the cache view: (i) cache and (ii) trimming cache belong to the first category and (iii) sea memoization cache belongs to the second category. 
 
-!!!Cache
-Cache improves performance of choice that has alternatives with the same prefix, e.g.:
+;Cache
+:Cache improves performance of choice that has alternatives with the same prefix, e.g.:
 [[[
 identifier, $: asPParser not / identifier
 ]]]
@@ -111,16 +111,16 @@ Normally, if the identifier is not followed by $:, the parser backtracks and par
 Optimizations of PetitParser2 can detect such a case and enwrap the identifier with a cache, preventing superfluous invocations.
 
 
-!!!Trimming Cache
-The trimming cache improves the performance of grammars using trimmed tokens, e.g.:
+;Trimming Cache
+:The trimming cache improves the performance of grammars using trimmed tokens, e.g.:
 [[[
 keyword token trim, identifier token trim
 ]]]
 Because each token trims whitespaces before and after itself, the trimming in between tokens happens twice. 
 The trimming cache prevents this. 
 
-!!!Sea Memoization Cache
-The sea memoization cache is tailored to bounded seas. 
+;Sea Memoization Cache
+:The sea memoization cache is tailored to bounded seas. 
 In some cases, parsing a grammar with bounded can seas result in an exponential complexity, performing lots of redundant work. 
 Because the traditional cache would not be able to reduce the exponential complexity, the seas are memoized.
 This will preserve the linear complexity of parsing expression grammars.

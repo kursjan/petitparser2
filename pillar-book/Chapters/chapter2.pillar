@@ -1,3 +1,4 @@
+@grammar
 
 Once you decide to extend the grammar, it is inconvenient to keep it in a script. 
 It is a good practice to define a proper parser, because it allows us to

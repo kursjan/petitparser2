@@ -4,7 +4,11 @@
    }
 } 
 
+@scripting
+
 !Extracting Javascript
+
+
 In this chapter we will extract javascript from html files.
 We will script our solution in this chapter and we will create the real parser later.
 

@@ -1,15 +1,29 @@
 %!Parsing with PetitParser2
 
-In this tutorial we describe how to quickly build a parser to extract a javascript code  from any HTML source, including malformed documents. 
+In this tutorial we describe how to quickly build a parser to extract a javascript code from any HTML source. 
 We show how can we utilize bounded seas - a tool that allows us to focus on the interesting parts of an input (i.e. javascript in our case) and ignore the rest (the remaining HTML code). 
 This saves our time and allows us to obtain results as fast as possible.
 
+We also describe performance optimizations abilities of PetitParser, that will allow us to generate high-performance parsers from our grammars.
+
+!!!Structure
+In *Extracting Javascript>@scripting* we start with a simple script.
+Later in *Real Grammar>@grammar*, we turn script into a proper grammar and add tests.
+In *@structure*, we extend the parser to extract an html structure and we add tolerance for malformed documents.
+
+In *Optimizations>@optimizations* we inspect optimizations capabilities of PetitParser2
+and in *Memoizations>@manualoptimizations* we describe tooling of PetitParser2 that will help us to pinpoint the perofrmance bottlenecks of a parser and how to fix them.
+
+In TODO we describe how to use the parser to do syntax highlighting.
+@@todo create a chapter
+
+
+
 !!Installation
-The easiest way to start this tutorial is to use Moose. 
+The easiest way to start this tutorial is to use *Moose>http://moosetechnology.org*. 
 Moose is a software and data analysis platform that has everything we need already installed.
 
-Alternatively, you can download clean Pharo 6 image and install PetitParser2 using the following command:
-
+Alternatively, you can download clean *Pharo 6+ image>http://pharo.org* and install PetitParser2 using the following command:
 
 [[[
 Metacello new
@@ -28,4 +42,6 @@ ${inputFile:Chapters/chapter2.pillar}$
 ${inputFile:Chapters/chapter3.pillar}$
 
 ${inputFile:Chapters/chapter4.pillar}$
+
+${inputFile:Chapters/chapter5.pillar}$
 
