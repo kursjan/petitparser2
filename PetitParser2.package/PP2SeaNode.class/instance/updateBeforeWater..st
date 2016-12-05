@@ -1,8 +1,10 @@
 boundaries
 updateBeforeWater: rootParser
-	| next |
+	| next elements |
 	self assert: rootParser isPetit2Parser.
 
 	next := self nextSetIn: rootParser.
-	beforeWater	boundaryElements: (OrderedCollection with: island withAll: next).
+	elements := OrderedCollection with: island.
+	elements addAll: next.
+	beforeWater	boundaryElements: elements.
 	

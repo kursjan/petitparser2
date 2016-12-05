@@ -1,3 +1,7 @@
+{
+	"headingLevelOffset" : 2
+}
+!Turning the script into a real parser
 @grammar
 
 Once you decide to extend the grammar, it is inconvenient to keep it in a script. 

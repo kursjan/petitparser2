@@ -1,4 +1,6 @@
+@sec:structure
 !Extracting the Structure
+
 In the previous parts of this tutorial we analyzed an anatomy of bounded seas.
 We described how they can be used to:
 # extract islands --- parts of our interest while skipping the rest as a water (javascript seas in document), and 

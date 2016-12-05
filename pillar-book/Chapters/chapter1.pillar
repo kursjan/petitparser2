@@ -1,16 +1,9 @@
-{
-    "metadata" : {
-    	"title" : "foobar"
-   }
-} 
-
-@scripting
-
 !Extracting Javascript
+@sec:scripting
 
-
-In this chapter we will extract javascript from html files.
-We will script our solution in this chapter and we will create the real parser later.
+In this chapter we extract javascript from html files.
+The solution provided in this chapter is a simple script.
+We create the real parser *later>chapter2.pillar*.
 
 Open your playground and let's start coding. 
 First of all, we define what we want to parse:
@@ -19,7 +12,17 @@ First of all, we define what we want to parse:
 source := PP2Sources current htmlSample.
 ]]]
 
-Second, we define javascript and try to parse the source:
+The source is based on the HMTL of *Wikipedia>wikipedia.org* and contains the following text:
+[[[eval=true
+stream 
+	nextPutAll: '[[[';
+	lf;
+	nextPutAll: PP2Sources current htmlSample;
+	lf;
+	nextPutAll: ']]]'.
+]]]
+
+Second, we define javascript as a ==js== rule:
 
 [[[
 js := '<script>' asPParser, #any asPParser starLazy, '</script>' asPParser ==> #second.
@@ -40,7 +43,7 @@ In order to extract the javascript itself and throw away the begin and end tags,
 ==> #second
 ]]]
 
-Let us try if the javascript rule can parse our source:
+Let us try if the javascript rule can parse our ==source==:
 
 [[[
 js parse: source.
@@ -48,8 +51,7 @@ js parse: source.
 
 The result is failure. 
 If we inspect the failure object and switch to ''Debug View'' we notice that ''<script>'' is expected at the beginning of a file, yet our input starts with ''<!DOCTYPE html>''. 
-If you use bounded seas, the solution to fix this is simple: we define ==jsSea== as a javascript island in a sea of an uninteresting water:
-
+The fix to this is simple: we create a new rule ==jsSea== as a javascript island in a sea of an uninteresting water:
 
 [[[
 jsSea := js sea.
@@ -72,14 +74,16 @@ jsSea parse: source.
 Looks better, but we are missing some results! 
 This is because we never specified that there could be multiple occurrences of ==jsSea==. 
 Therefore the sea rule finds only one --- the first one. 
-We can easily add more ==jsSea== rules:
+We can easily add more ==jsSea== rules by defining a ==document== rule:
 
 [[[
 document := jsSea star.
 document parse: source.
 ]]]
 
-Now we extracted both scripts. 
+Now we extracted both scripts, the result should look like: 
+
+
 Yet, there is something fishy about the second result. 
 The second javascript is has ended prematurely! 
 It is because the javascript rule as we defined it does not know about strings. 

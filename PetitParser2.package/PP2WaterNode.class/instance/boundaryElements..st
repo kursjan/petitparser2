@@ -1,7 +1,7 @@
 accessing
 boundaryElements: collectionOrElement
 	| elements |
-	elements := collectionOrElement asCollection.
+	elements := collectionOrElement isCollection ifTrue: [ collectionOrElement ] ifFalse: [ OrderedCollection with: collectionOrElement ].
 	"
 		#rejectXYZ are optimizations. 
 		

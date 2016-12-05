@@ -118,7 +118,7 @@ WebParser new optimize debug: compact.
 ]]]
 
 
-+>figures/optimized-trace.png|width=100%+
++>figures/memoized-trace.png|width=100%+
 
 
 This is the result we want to see. 
