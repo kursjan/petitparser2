@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assertCFMemoization:" : " 12/6/2016 07:12:31",
+		"assertMemoized:" : " 12/6/2016 07:12:31",
+		"assertPopMemoization:" : " 12/6/2016 07:12:31",
+		"assertPushMemoization:" : " 12/6/2016 07:12:31",
+		"denyCFMemoization:" : " 12/6/2016 07:12:31",
+		"setUp" : " 12/6/2016 07:12:31",
+		"testAnd" : " 12/6/2016 07:12:31",
+		"testAndCS" : " 12/6/2016 07:12:31",
+		"testAndPop" : " 12/6/2016 07:12:31",
+		"testAndPush" : " 12/6/2016 07:12:31",
+		"testNonEpsilon" : " 12/6/2016 07:12:31",
+		"testSequence" : " 12/6/2016 07:12:31",
+		"testSequencePop" : " 12/6/2016 07:12:31",
+		"testSequencePush" : " 12/6/2016 07:12:31",
+		"testSequencePushPop" : " 12/6/2016 07:12:31" } }

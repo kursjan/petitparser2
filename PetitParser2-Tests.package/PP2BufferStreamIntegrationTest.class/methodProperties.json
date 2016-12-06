@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"parse:withParser:withContext:" : " 12/6/2016 07:12:31",
+		"streamOn:" : " 12/6/2016 07:12:31",
+		"streamOn:bufferSize:" : " 12/6/2016 07:12:31",
+		"testIdentifier" : " 12/6/2016 07:12:31",
+		"testIdentifierSmallBuffer" : " 12/6/2016 07:12:31",
+		"testIdentifierSmallBufferError" : " 12/6/2016 07:12:31",
+		"testPredicate" : " 12/6/2016 07:12:31",
+		"testSequence" : " 12/6/2016 07:12:31",
+		"testStreamBacktrack" : " 12/6/2016 07:12:31",
+		"testStreamBacktrackBufferSmall" : " 12/6/2016 07:12:31",
+		"testStreamBacktrackBufferTooSmall" : " 12/6/2016 07:12:31",
+		"testStreamBufferTooSmall" : " 12/6/2016 07:12:31",
+		"testToken" : " 12/6/2016 07:12:31" } }

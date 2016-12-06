@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"cache" : "12/5/2016 22:12:51",
+		"includesCache" : "12/5/2016 22:12:51",
+		"isCache" : "12/5/2016 22:12:51",
+		"isDebugging" : "12/5/2016 22:12:51",
+		"isMemoized" : "12/5/2016 22:12:51",
+		"isRecording" : "12/5/2016 22:12:51",
+		"isReparsable" : "12/5/2016 22:12:51",
+		"memoize" : "12/5/2016 22:12:51",
+		"parsingGuard:" : "12/5/2016 22:12:51",
+		"recognizer" : "12/5/2016 22:12:51",
+		"recording" : "12/5/2016 22:12:51",
+		"reparsable" : "12/5/2016 22:12:51",
+		"trimmingCache" : "12/5/2016 22:12:51",
+		"withoutDebugStrategy" : "12/5/2016 22:12:51" } }

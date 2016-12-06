@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"classificationFor:" : "12/5/2016 22:12:51",
+		"doPass:" : "12/5/2016 22:12:51",
+		"guardOf:makesSenseFor:" : "12/5/2016 22:12:51",
+		"initialize" : "12/5/2016 22:12:51",
+		"isGuarded" : "12/5/2016 22:12:51",
+		"isWellGuarded:" : "12/5/2016 22:12:51",
+		"visit:guardedWith:" : "12/5/2016 22:12:51",
+		"visitChoice:" : "12/5/2016 22:12:51",
+		"visitDelegate:" : "12/5/2016 22:12:51",
+		"visitOptional:" : "12/5/2016 22:12:51",
+		"visitPossesiveRepeating:" : "12/5/2016 22:12:51",
+		"visitSequence:" : "12/5/2016 22:12:51",
+		"visitTrimming:" : "12/5/2016 22:12:51",
+		"visitUnguarded:" : "12/5/2016 22:12:51" } }

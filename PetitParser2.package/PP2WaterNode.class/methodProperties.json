@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"boundary:" : "12/5/2016 22:12:51" },
+	"instance" : {
+		"accept:" : "12/5/2016 22:12:51",
+		"boundary" : "12/5/2016 22:12:51",
+		"boundary:" : "12/5/2016 22:12:51",
+		"boundaryElements" : "12/5/2016 22:12:51",
+		"boundaryElements:" : "JanKurs 12/5/2016 22:24",
+		"children" : "12/5/2016 22:12:51",
+		"initialize" : "12/5/2016 22:12:51",
+		"nonEpsilon:" : "12/5/2016 22:12:51",
+		"rejectPossessive:" : "12/5/2016 22:12:51",
+		"rejectSeas:" : "12/5/2016 22:12:51",
+		"resetStrategy" : "12/5/2016 22:12:51",
+		"waterToken" : "12/5/2016 22:12:51",
+		"waterToken:" : "12/5/2016 22:12:51" } }

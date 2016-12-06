@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assertMemoized:" : " 12/6/2016 07:12:31",
+		"denyMemoized:" : " 12/6/2016 07:12:31",
+		"setUp" : " 12/6/2016 07:12:31",
+		"testMemoize" : " 12/6/2016 07:12:31",
+		"testMemoizeMatch" : " 12/6/2016 07:12:31",
+		"testMemoizeMemoized" : " 12/6/2016 07:12:31",
+		"testMemoizePop" : " 12/6/2016 07:12:31",
+		"testMemoizePush" : " 12/6/2016 07:12:31" } }

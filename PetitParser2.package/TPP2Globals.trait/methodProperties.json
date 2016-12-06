@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"globalAt:" : "12/5/2016 22:12:51",
+		"globalAt:ifAbsent:" : "12/5/2016 22:12:51",
+		"globalAt:ifAbsentPut:" : "12/5/2016 22:12:51",
+		"globalAt:put:" : "12/5/2016 22:12:51",
+		"globals" : "12/5/2016 22:12:51",
+		"hasGlobal:" : "12/5/2016 22:12:51",
+		"removeGlobal:" : "12/5/2016 22:12:51",
+		"removeGlobal:ifAbsent:" : "12/5/2016 22:12:51" } }

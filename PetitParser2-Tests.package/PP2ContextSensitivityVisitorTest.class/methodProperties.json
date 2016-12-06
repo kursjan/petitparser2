@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assertIsContextSensitive:" : " 12/6/2016 07:12:31",
+		"denyIsContextSensitive:" : " 12/6/2016 07:12:31",
+		"setUp" : " 12/6/2016 07:12:31",
+		"testAndMatch" : " 12/6/2016 07:12:31",
+		"testLiteralObject" : " 12/6/2016 07:12:31",
+		"testMatch" : " 12/6/2016 07:12:31",
+		"testSea" : " 12/6/2016 07:12:31",
+		"testSeaWithCSIsland" : " 12/6/2016 07:12:31",
+		"testSequence" : " 12/6/2016 07:12:31",
+		"testSequenceWithMatch" : " 12/6/2016 07:12:31",
+		"testSequenceWithPush" : " 12/6/2016 07:12:31",
+		"testSequenceWithPushMatch" : " 12/6/2016 07:12:31",
+		"testSequenceWithPushMatchPop" : " 12/6/2016 07:12:31" } }

@@ -1,0 +1,23 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"contextOn:" : " 12/6/2016 07:12:31",
+		"testAdoptString" : " 12/6/2016 07:12:31",
+		"testAtEnd" : " 12/6/2016 07:12:31",
+		"testContents" : " 12/6/2016 07:12:31",
+		"testCopyGlobals" : " 12/6/2016 07:12:31",
+		"testMemo" : " 12/6/2016 07:12:31",
+		"testNext" : " 12/6/2016 07:12:31",
+		"testNextAtEnd" : " 12/6/2016 07:12:31",
+		"testParser" : " 12/6/2016 07:12:31",
+		"testRemember" : " 12/6/2016 07:12:31",
+		"testRestore" : " 12/6/2016 07:12:31",
+		"testSuccess" : " 12/6/2016 07:12:31",
+		"testUncheckedNext" : " 12/6/2016 07:12:31",
+		"testUncheckedPeek" : " 12/6/2016 07:12:31",
+		"testUpTo" : " 12/6/2016 07:12:31",
+		"testUpTo2" : " 12/6/2016 07:12:31",
+		"testUpTo3" : " 12/6/2016 07:12:31",
+		"testUpTo4" : " 12/6/2016 07:12:31",
+		"testUpToEnd" : " 12/6/2016 07:12:31" } }

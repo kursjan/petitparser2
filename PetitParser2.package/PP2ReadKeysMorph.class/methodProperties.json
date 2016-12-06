@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"close" : "12/5/2016 22:12:51",
+		"handlesKeyboard:" : "12/5/2016 22:12:51",
+		"handlesMouseDown:" : "12/5/2016 22:12:51",
+		"initialize" : "12/5/2016 22:12:51",
+		"keyStroke:" : "12/5/2016 22:12:51",
+		"mouseDown:" : "12/5/2016 22:12:51",
+		"openInWorld" : "12/5/2016 22:12:51",
+		"outputStream:" : "12/5/2016 22:12:51",
+		"startParsing" : "12/5/2016 22:12:51",
+		"takesKeyboardFocus" : "12/5/2016 22:12:51" } }

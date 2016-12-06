@@ -1,0 +1,14 @@
+{
+	"category" : "PetitParser2-Tutorial",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WebGrammarTest",
+	"pools" : [
+		 ],
+	"super" : "PP2CompositeNodeTest",
+	"type" : "normal" }

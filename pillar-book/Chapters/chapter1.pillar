@@ -83,6 +83,10 @@ document parse: source.
 
 Now we extracted both scripts, the result should look like: 
 
+[[[eval=true
+stream 
+	nextPutAll: 'ab'
+]]]
 
 Yet, there is something fishy about the second result. 
 The second javascript is has ended prematurely! 

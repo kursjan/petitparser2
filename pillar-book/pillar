@@ -12,7 +12,7 @@ fi
 PILLAR_IMAGE=${PILLAR_IMAGE}
 # Pharo.image has a higher priority than PILLAR_IMAGE env if it exists
 if [ -f Pharo.image ]; then
-	PILLAR_IMAGE="./Pharo.image"
+	PILLAR_IMAGE="./PharoPP2.image"
 fi
 
 command=$1

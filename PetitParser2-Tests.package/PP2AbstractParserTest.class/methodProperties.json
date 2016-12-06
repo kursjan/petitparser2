@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"isAbstract" : " 12/6/2016 07:12:31",
+		"packageNamesUnderTest" : " 12/6/2016 07:12:31" },
+	"instance" : {
+		"assert:fail:" : " 12/6/2016 07:12:31",
+		"assert:fail:end:" : " 12/6/2016 07:12:31",
+		"assert:includesSubstring:" : " 12/6/2016 07:12:31",
+		"assert:parse:" : " 12/6/2016 07:12:31",
+		"assert:parse:end:" : " 12/6/2016 07:12:31",
+		"assert:parse:to:" : " 12/6/2016 07:12:31",
+		"assert:parse:to:end:" : " 12/6/2016 07:12:31",
+		"assert:parse:toTokenValue:" : " 12/6/2016 07:12:31",
+		"assert:parse:toTokenValue:end:" : " 12/6/2016 07:12:31",
+		"context" : " 12/6/2016 07:12:31",
+		"initialize" : " 12/6/2016 07:12:31",
+		"parse:withParser:withContext:" : " 12/6/2016 07:12:31" } }

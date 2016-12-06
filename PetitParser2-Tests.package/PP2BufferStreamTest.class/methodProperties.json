@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : " 12/6/2016 07:12:31",
+		"streamOn:" : " 12/6/2016 07:12:31",
+		"streamOn:bufferSize:" : " 12/6/2016 07:12:31",
+		"testAtEndDifferentPosition" : " 12/6/2016 07:12:31",
+		"testContents" : " 12/6/2016 07:12:31",
+		"testContentsAfterRead" : " 12/6/2016 07:12:31",
+		"testCopyFromToBufferOverflow" : " 12/6/2016 07:12:31",
+		"testCopyFromToOOB" : " 12/6/2016 07:12:31",
+		"testCopyFromToSmallBuffer" : " 12/6/2016 07:12:31",
+		"testInstanceCreation" : " 12/6/2016 07:12:31",
+		"testInstanceCreationSize" : " 12/6/2016 07:12:31",
+		"testRandomAccessTooMuchBacktrack" : " 12/6/2016 07:12:31",
+		"testRandomAccessTwoPasses" : " 12/6/2016 07:12:31",
+		"testUncheckedNext" : " 12/6/2016 07:12:31" } }

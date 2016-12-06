@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"beforeAccept:" : "12/5/2016 22:12:51",
+		"doPass:" : "12/5/2016 22:12:51",
+		"nextSet:" : "12/5/2016 22:12:51",
+		"optimizedNextSet:" : "12/5/2016 22:12:51",
+		"removeRepetitions:" : "12/5/2016 22:12:51",
+		"removeSeas:" : "12/5/2016 22:12:51",
+		"seaCanBeRemoved:ifTrue:ifFalse:" : "12/5/2016 22:12:51",
+		"updateNode:" : "JanKurs 12/6/2016 07:45",
+		"visitSea:" : "12/5/2016 22:12:51" } }

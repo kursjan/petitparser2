@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"on:message:" : "12/5/2016 22:12:51" },
+	"instance" : {
+		"localEquals:" : "12/5/2016 22:12:51",
+		"localHash" : "12/5/2016 22:12:51",
+		"negate" : "12/5/2016 22:12:51",
+		"negated" : "12/5/2016 22:12:51",
+		"negated:" : "12/5/2016 22:12:51",
+		"negatedMessage" : "12/5/2016 22:12:51",
+		"negatedMessage:" : "12/5/2016 22:12:51",
+		"predicate" : "12/5/2016 22:12:51",
+		"predicate:" : "12/5/2016 22:12:51",
+		"predicateMessage" : "12/5/2016 22:12:51",
+		"predicateMessage:" : "12/5/2016 22:12:51" } }

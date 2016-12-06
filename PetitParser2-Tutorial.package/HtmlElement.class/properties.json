@@ -1,0 +1,15 @@
+{
+	"category" : "PetitParser2-Tutorial",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"name",
+		"children" ],
+	"name" : "HtmlElement",
+	"pools" : [
+		 ],
+	"super" : "WebElement",
+	"type" : "normal" }

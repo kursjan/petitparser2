@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testEquals" : " 12/6/2016 07:12:31",
+		"testEqualsWithStack" : " 12/6/2016 07:12:31",
+		"testHash" : " 12/6/2016 07:12:31",
+		"testMinus" : " 12/6/2016 07:12:31",
+		"testPlus" : " 12/6/2016 07:12:31" } }

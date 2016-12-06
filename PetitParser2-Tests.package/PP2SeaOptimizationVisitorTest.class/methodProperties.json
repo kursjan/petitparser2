@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assert:anySatisfy:" : " 12/6/2016 07:12:31",
+		"assert:isKindOf:" : " 12/6/2016 07:12:31",
+		"assert:noneSatisfy:" : " 12/6/2016 07:12:31",
+		"testJustSea" : " 12/6/2016 07:12:31",
+		"testMemoizedSea" : " 12/6/2016 07:12:31",
+		"testNestedSea" : " 12/6/2016 07:12:31",
+		"testOverlappingSeas" : " 12/6/2016 07:12:31",
+		"testRepetitionInBoundary" : " 12/6/2016 07:12:31",
+		"testSeaInBoundary" : " 12/6/2016 07:12:31",
+		"testSeaOptimizations" : " 12/6/2016 07:12:31",
+		"testSeaOptimizationsReset" : " 12/6/2016 07:12:31",
+		"testSeaPlus" : " 12/6/2016 07:12:31",
+		"testSeaStar" : " 12/6/2016 07:12:31",
+		"visit:" : " 12/6/2016 07:12:31" } }

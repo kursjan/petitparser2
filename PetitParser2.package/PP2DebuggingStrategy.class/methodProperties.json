@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"on:" : "12/5/2016 22:12:51" },
+	"instance" : {
+		"cache" : "12/5/2016 22:12:51",
+		"cacheIfNeeded:debugResult:" : "12/5/2016 22:12:51",
+		"debug" : "12/5/2016 22:12:51",
+		"initialize" : "12/5/2016 22:12:51",
+		"isDebugging" : "12/5/2016 22:12:51",
+		"parseOn:" : "12/5/2016 22:12:51",
+		"parsingGuard:" : "12/5/2016 22:12:51",
+		"recording" : "12/5/2016 22:12:51",
+		"reparsable" : "12/5/2016 22:12:51",
+		"withoutDebugStrategy" : "12/5/2016 22:12:51" } }

@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"ignoredNames" : "12/5/2016 22:12:51",
+		"new" : "12/5/2016 22:12:51",
+		"newStartingAt:" : "12/5/2016 22:12:51",
+		"parse:" : "12/5/2016 22:12:51",
+		"parse:onError:" : "12/5/2016 22:12:51",
+		"parse:startingAt:" : "12/5/2016 22:12:51",
+		"parse:startingAt:onError:" : "12/5/2016 22:12:51",
+		"startSymbol" : "12/5/2016 22:12:51" },
+	"instance" : {
+		"accept:" : "12/5/2016 22:12:51",
+		"initializeStartingAt:" : "12/5/2016 22:12:51",
+		"isProduction" : "12/5/2016 22:12:51",
+		"productionAt:" : "12/5/2016 22:12:51",
+		"productionAt:ifAbsent:" : "12/5/2016 22:12:51",
+		"productionNames" : "12/5/2016 22:12:51",
+		"start" : "12/5/2016 22:12:51" } }

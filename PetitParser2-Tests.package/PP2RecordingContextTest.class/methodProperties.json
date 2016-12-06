@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"contextOn:" : " 12/6/2016 07:12:31",
+		"testAsFrequencyTable" : " 12/6/2016 07:12:31",
+		"testDebugResultDebug" : " 12/6/2016 07:12:31",
+		"testDebugResultNoDebug" : " 12/6/2016 07:12:31",
+		"testFurthestPosition" : " 12/6/2016 07:12:31",
+		"testFurthestPositionBactrack" : " 12/6/2016 07:12:31",
+		"testFurthestPositionLiteralChoice" : " 12/6/2016 07:12:31",
+		"testMultipleProfilingStrategies" : " 12/6/2016 07:12:31",
+		"testParserRefreshCache" : " 12/6/2016 07:12:31",
+		"testRecordingCache" : " 12/6/2016 07:12:31",
+		"testSwitchToDebugging" : " 12/6/2016 07:12:31" } }
