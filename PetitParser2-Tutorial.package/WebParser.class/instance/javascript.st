@@ -1,9 +1,9 @@
 as yet unclassified
 javascript
-	^ super javascript 
+	^ super javascript
 	
 	map: [ :_code | 
-	 	(JavascriptElement new)
+		(JavascriptElement new)
 			code: _code;
 			yourself
 	]

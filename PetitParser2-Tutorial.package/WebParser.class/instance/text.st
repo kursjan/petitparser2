@@ -1,6 +1,6 @@
 as yet unclassified
 text
-	^ super text 
+	^ super text flatten
 	
 	map: [ :_value | 
 		UnknownText new

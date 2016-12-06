@@ -1,3 +1,3 @@
 as yet unclassified
 elClose
-	^ super elClose trimLeft
+	^ super elClose trim
