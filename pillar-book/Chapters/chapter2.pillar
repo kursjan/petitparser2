@@ -8,44 +8,49 @@ Once you decide to extend the grammar, it is inconvenient to keep it in a script
 It is a good practice to define a proper parser, because it allows us to
 manage cyclic dependencies, 
 simplify testing and 
-easily extend with new functionality. 
+extend with new functionality. 
 We create a parser by subclassing ==PP2CompositeNode==:
 
-
-[[[
-PP2CompositeNode subclass: #WebGrammar
-	instanceVariableNames: 'javascript'
-	classVariableNames: ''
-	package: 'PetitParser2-SeasTutorial'
+[[[eval=true
+stream 
+	nextPutAll: '[[[';
+	lf;
+	nextPutAll: (PP2Tutorial new definitionFor: WebGrammar);
+	lf;
+	nextPutAll: ']]]'
 ]]]
 
 We define a ==javascipt== rule as follows:
 
-[[[
-WebGrammar>>javascript
-	^ jsOpen, jsContent, jsClose ==> #second
+[[[eval=true
+| t |
+t := PP2Tutorial new.
+t printAsCode: (t sourceFor: #javascript in: WebGrammar) stream: stream.
 ]]]
 
-[[[
-WebGrammar>>jsOpen
-^ '<script>' asPParser
-
-WebGrammar>>jsContent
-	^ (jsString / any) starLazy
-
-
-WebGrammar>>jsClose
-	^ '</script>' asPParser
-
-
-WebGrammar>>jsString
-	^ $' asPParser, #any asPParser starLazy, $' asPParser
-
-
-WebGrammar>>any
-	^ #any asPParser
+The rules of ==javascript== are defined as follows:
+[[[eval=true
+| t |
+t := PP2Tutorial new.
+stream 
+	nextPutAll: '[[['; 
+	lf;
+	nextPutAll: (t sourceFor: #jsOpen in: WebGrammar);
+	lf;
+	lf;
+	nextPutAll: (t sourceFor: #jsClose in: WebGrammar);
+	lf;
+	lf;
+	nextPutAll: (t sourceFor: #jsContent in: WebGrammar);
+	lf;
+	lf;
+	nextPutAll: (t sourceFor: #jsString in: WebGrammar);
+	lf;
+	lf;
+	nextPutAll: (t sourceFor: #any in: WebGrammar);
+	lf;
+	nextPutAll: ']]]'
 ]]]
-
 
 First, we would like to cover ==javascript== rule with some test to make sure the rule works as expected. 
 We start by subclassing ==PP2CompositeParserTest==:

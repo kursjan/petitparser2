@@ -19,7 +19,8 @@
 		"jsClose",
 		"jsString",
 		"structuredDocument",
-		"comment" ],
+		"comment",
+		"any" ],
 	"name" : "WebGrammar",
 	"pools" : [
 		 ],

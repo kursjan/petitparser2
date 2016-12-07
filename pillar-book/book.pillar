@@ -38,8 +38,8 @@ Metacello new
 
 
 ${inputFile:Chapters/chapter1.pillar}$
-%${inputFile:Chapters/chapter2.pillar}$
-%${inputFile:Chapters/chapter3.pillar}$
-%${inputFile:Chapters/chapter4.pillar}$
-%${inputFile:Chapters/chapter5.pillar}$
+${inputFile:Chapters/chapter2.pillar}$
+${inputFile:Chapters/chapter3.pillar}$
+${inputFile:Chapters/chapter4.pillar}$
+${inputFile:Chapters/chapter5.pillar}$
 

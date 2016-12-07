@@ -1,3 +1,3 @@
 as yet unclassified
 jsString
-	^ $' asPParser, #any asPParser starLazy, $' asPParser
+	^ $' asPParser, any starLazy, $' asPParser

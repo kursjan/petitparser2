@@ -15,7 +15,7 @@ source := PP2Sources current htmlSample.
 The source is based on the HMTL of *Wikipedia>wikipedia.org* and contains the following text:
 [[[eval=true
 stream 
-	nextPutAll: '[[[';
+	nextPutAll: '[[[language=xml';
 	lf;
 	nextPutAll: PP2Sources current htmlSample;
 	lf;
@@ -25,7 +25,8 @@ stream
 Second, we define javascript as a ==js== rule:
 
 [[[
-js := '<script>' asPParser, #any asPParser starLazy, '</script>' asPParser ==> #second.
+js := '<script>' asPParser, #any asPParser starLazy flatten, '</script>' asPParser 
+	==> #second.
 ]]]
 
 The ==starLazy== operator is a new feature of PetitParser2 and it is build on top of bounded seas. 
@@ -78,14 +79,31 @@ We can easily add more ==jsSea== rules by defining a ==document== rule:
 
 [[[
 document := jsSea star.
-document parse: source.
 ]]]
 
-Now we extracted both scripts, the result should look like: 
-
+The whole script looks like: 
 [[[eval=true
 stream 
-	nextPutAll: 'ab'
+	nextPutAll: '[[[';
+	lf;
+	nextPutAll: (PP2Tutorial new sourceForScript: #scriptWithoutString);
+	lf;
+	nextPutAll: ']]]'
+]]]
+
+Now by calling ==document parse: source== we extract both scripts, the result should look like: 
+
+[[[eval=true
+| tutorial |
+tutorial := PP2Tutorial new.
+stream 
+	nextPutAll: '[[[language=javascript';
+	lf;
+	nextPutAll: (tutorial scriptWithoutString parse: tutorial source) first;
+	lf;
+	nextPutAll: (tutorial scriptWithoutString parse: tutorial source) second;
+	lf;
+	nextPutAll: ']]]'
 ]]]
 
 Yet, there is something fishy about the second result. 
@@ -94,16 +112,29 @@ It is because the javascript rule as we defined it does not know about strings.
 Therefore, the javascript rule thinks that there is a closing of the script tag even though it is a part of the alert message string. 
 We fix it by defining javascript strings and redefining the ==js== rule:
 
-[[[
-jsString := ($' asPParser, #any starLazy, $' asPParser) flatten.
-any := #any asPParser.
-js := '<script>' asPParser, ((jsString / any) starLazy), '</script>' asPParser ==> #second.
-
-jsSea := js sea ==> #second.
-document := jsSea star.
-document parse: source.
+[[[eval=true
+stream 
+	nextPutAll: '[[[';
+	lf;
+	nextPutAll: (PP2Tutorial new sourceForScript: #script);
+	lf;
+	nextPutAll: ']]]'
 ]]]
 
+The result looks better now:
+
+[[[eval=true
+| tutorial |
+tutorial := PP2Tutorial new.
+stream 
+	nextPutAll: '[[[language=javascript';
+	lf;
+	nextPutAll: (tutorial script parse: tutorial source) first;
+	lf;
+	nextPutAll: (tutorial script parse: tutorial source) second;
+	lf;
+	nextPutAll: ']]]'
+]]]
 
 Great, everything works as expected!
 
@@ -118,16 +149,17 @@ The code  parser ==starLazy== is a shorthand for the following:
 ]]]
 
 The island of the sea is epsilon. 
-Such an island will be always found. 
+Such an island will always be found. 
 And it will be surrounded by water that consumes anything until the next parser succeeds. 
-By default, water token is #any asPParser. This means that the sea will test if the next parser succeeds. 
+By default, water token is ==#any asPParser==. 
+This means that the sea will test if the next parser succeeds. 
 If not, it invokes ==#any asPParser== and tries again. 
 This is repeated until the the next parser succeeds.
 
 
-But as we have seen in the case of the javascript rule, invoking ==#any asPParser== may not be sufficient, the water can get confused by end tag in a string. 
-Therefore, bounded seas allow you to define tokens that are expected to be in water. 
-Such token can be string or comment and the contents of them is ignored and does not confuse the parser. 
+Yet as we have seen in the case of the javascript rule, invoking ==#any asPParser== may not be sufficient, the water can get confused by an end tag hidden in a string. 
+Therefore, bounded seas allow you to define tokens that are expected in water. 
+Such token can be a string or a comment and thus does not confuse the parser. 
 In our case the tokens are jsString and any character:
 
 [[[
@@ -135,3 +167,19 @@ In our case the tokens are jsString and any character:
 	waterToken: jsString / #any asPParser;
 	flatten
 ]]]
+
+We have missed one detail.
+The actual implementation of ==starLazy== actually extracts only before water:
+[[[eval=true
+| tutorial |
+tutorial := PP2Tutorial new.
+stream 
+	nextPutAll: '[[[';
+	lf;
+	nextPutAll: (tutorial sourceFor: #starLazy in: PP2Node);
+	lf;
+	nextPutAll: ']]]'
+]]]
+
+If your island is parse an empty string (e.g. island is optional, zero or more repetitions or simply epsilon), seas postpone the epsilon parse as far as possible, until the boundary is found.
+Therefore, in case of ==starLazy==, all the consumed input is in the before water and after water is empty.
