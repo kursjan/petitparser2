@@ -1,14 +1,16 @@
-@sec:structure
-!Extracting the Structure
+${inputFile:Chapters/navigation.pillar}$
 
-In the previous parts of this tutorial we analyzed an anatomy of bounded seas.
+!Extracting the Structure
+@sec:structure
+
+In the previous parts of this tutorial we analyzed the anatomy of bounded seas.
 We described how they can be used to:
 # extract islands --- parts of our interest while skipping the rest as a water (javascript seas in document), and 
 # implement a starLazy operator that skips an input until an interesting input appears (e.g. ==(jsString / any) starLazy== in ==jsContent==). 
 
 
 In this part we extend our parser and we extract the HTML structure. 
-We use bounded seas again to skip content of html elements and malformed or unclosed elements.
+We use bounded seas again to skip the content of html elements and recover from malformed or unclosed elements.
 
 
 !!Matching the Names

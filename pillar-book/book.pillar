@@ -11,35 +11,20 @@ We also describe performance optimizations abilities of PetitParser, that will a
 @@todo what about streaming capabilities?
 
 !!!Structure
-In *Extracting Javascript>@sec:scripting* we start with a simple script.
-Later in *Real Grammar>@grammar*, we turn the script into a proper grammar and add tests.
-In *Extracting Structure>Chapters/chapter3.pillar@sec:structure*, we extend the parser to extract an html structure and we add tolerance for malformed documents.
+In *Extracting Javascript>Chapters/chapter1.pillar* we start with a simple script.
+Later in *Real Grammar>Chapters/chapter2.pillar*, we turn the script into a proper grammar and add tests.
+In *Extracting Structure>Chapters/chapter3.pillar*, we extend the parser to extract an html structure and we add tolerance for malformed documents.
 
-In *Optimizations>@optimizations* we inspect optimizations capabilities of PetitParser2
-and in *Memoizations>@manualoptimizations* we describe tooling of PetitParser2 that will help us to pinpoint the perofrmance bottlenecks and we show some techniques how to fix them.
+In *Optimizations>Chapters/chapter4.pillar* we inspect optimizations capabilities of PetitParser2
+and in *Memoizations>Chapters/chapter5.pillar* we describe tooling of PetitParser2 that will help us to pinpoint the perofrmance bottlenecks and we show some techniques how to fix them.
 
 In TODO we describe how to use the parser to do syntax highlighting.
 @@todo create a chapter
 
 
-
-!!!Installation
-The easiest way to start this tutorial is to use *Moose>http://moosetechnology.org*. 
-Moose is a software and data analysis platform that has everything we need already installed.
-
-Alternatively, you can download clean *Pharo 6>http://pharo.org* (or higher) image and install PetitParser2 using the following command:
-
-[[[
-Metacello new
-	baseline: 'PetitParser2';
-	repository: 'github://kursjan/petitparser2';
-   	load
-]]]
-
-
-${inputFile:Chapters/chapter1.pillar}$
-${inputFile:Chapters/chapter2.pillar}$
-${inputFile:Chapters/chapter3.pillar}$
-${inputFile:Chapters/chapter4.pillar}$
-${inputFile:Chapters/chapter5.pillar}$
+%${inputFile:Chapters/chapter1.pillar}$
+%${inputFile:Chapters/chapter2.pillar}$
+%${inputFile:Chapters/chapter3.pillar}$
+%${inputFile:Chapters/chapter4.pillar}$
+%${inputFile:Chapters/chapter5.pillar}$
 
