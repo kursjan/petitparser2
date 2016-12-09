@@ -1,0 +1,17 @@
+\usepackage[%
+        shash={09c2e6b},
+        lhash={09c2e6b95dbbafde9d183e747242f90d1f6cfed0},
+        authname={Jan Kurs},
+        authemail={kurs.jan@gmail.com},
+        authsdate={2016-12-07},
+        authidate={2016-12-07 08:09:07 +0100},
+        authudate={1481094547},
+        commname={Jan Kurs},
+        commemail={kurs.jan@gmail.com},
+        commsdate={2016-12-07},
+        commidate={2016-12-07 08:09:07 +0100},
+        commudate={1481094547},
+        refnames={ (HEAD -> master, origin/master, origin/HEAD)},
+        firsttagdescribe={09c2e6b-*},
+        reltag={09c2e6b-*}
+    ]{gitexinfo}

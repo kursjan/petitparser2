@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>PetitParser2 and Bounded Seas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Highlight js -->
+    <link rel="stylesheet" href="../support/html/highlightjs/styles/default.css">
+    <link rel="stylesheet" href="../support/html/css/highlight-commands.css">
+    <script src="../support/html/highlightjs/highlight.pack.js"></script>
+    <script src="../support/html/js/highlight-commands.js"></script>
+
+    <!-- Bootstrap -->
+    <link href="../support/html/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../support/html/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="../support/html/css/square-braket-associates.css" rel="stylesheet">
+    <style>
+/*        .container { max-width: 55em; } */
+    </style>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container text-justify">
+      <section>
+        <h1>PetitParser2 and Bounded Seas</h1>
+        <div class="attribution"></div>
+
+        <section>
+<h1>Optimizations</h1>
+
+<p>
+When running the <code>testStructuredDocument</code>, you might have noticed that the performance is not good. 
+It is actually terribly bad. Let us inspect in in detail:
+</p>
+<figure><pre><code class="smalltalk">WebParser new debug: input.</code></pre><figcaption></figcaption></figure>
+
+<p>
+This will run the parser in a debug mode, which collects lots of useful information. Unfortunately, it also takes considerable amount of time so be patient. Once you get the result, inspect the Report tab (note that numbers might slightly differ in your case):
+</p>
+
+<p>
+
+<figure>
+	<img src="figures/unoptimized-report.png" width="100%%"/>
+	<figcaption></figcaption>
+</figure>
+</p>
+<p>
+The total stream size is 1171 characters. 
+The parser has remembered the full context 510197 times and restored 387667 times. 
+This means that the full copy of the context (including the stack of opened elements) has been created 510197 times and the context has been restored from this full copy (by doing another copy) 387667 times. 
+This is in average 331 backtrackings per consumed character. 
+</p>
+
+<p>
+Some of the parsers do not need to perform the full context copy. 
+These are prefixed with ‘lightweight’. 
+In the lightweight case, only the position is remembered and restored (which is much faster than the full copy of a stack). 
+This happened in average 92 times per character.
+</p>
+
+<p>
+Honestly, these numbers are brutal. 
+In ideal case, the number of full restores should be zero. 
+Full remember and restore is very expensive. 
+This is very often the case, since many grammars are context-free, i.e. they do not use push and pop parsers. 
+Regarding lightweight backtracking, in ideal case, the average of lightweight backtracks per character should be below 1. 
+This can happen in case of deterministic grammars, which do not do many speculations and exactly know which alternative of a choice is the correct one. 
+</p>
+
+<p>
+So why are the numbers so bad in our case? Let us inspect in more detail how this was happening, using the Debug view:
+</p>
+<p>
+
+<figure>
+	<img src="figures/unoptimized-debug.png" width="100%%"/>
+	<figcaption></figcaption>
+</figure>
+</p>
+<p>
+The view shows us that 1502165 parsers were invoked to consume the input. 
+Most of it (751559 invocations) happened when parsing first two lines of the input - the before water of the sea.
+</p>
+<p>
+This is too much for such a short input. 
+Such a bad performance is caused by the fact that bounded seas have to verify at every position if the next parser can be parsed. 
+If the next parser happens to be another sea (as in the case of <code>WebGrammar</code>), the number of invocations grows really fast (exponentially in fact). 
+</p>
+
+<p>
+We see that the element rule took approximately one half of the invocations (750598). 
+Majority of 751559 invocations of before water were spent by testing for element. 
+Luckily, PetitParser2 comes with an automated optimizations that are able to reduce most of the unnecessary overhead. 
+Let it give a try:
+</p>
+<figure><pre><code class="smalltalk">WebParser new optimize debug: input.</code></pre><figcaption></figcaption></figure>
+
+<p>
+The report looks much better now:
+
+<figure>
+	<img src="figures/optimized-report.png" width="100%%"/>
+	<figcaption></figcaption>
+</figure>
+</p>
+
+
+<p>
+Only one full remember, and only 7 lightweight backtracks per character. 
+This is reasonably good for a grammar with bounded seas. 
+</p>
+<p>
+Because of the nature of bounded seas and implementation of PetitParser2, we do not recommend to parse grammars with more complicated bounded seas without optimizations.
+</p>
+<p>
+But let us inspect some of the optimizations that happened. 
+Let us try the Debug view:
+</p>
+<p>
+
+<figure>
+	<img src="figures/optimized-debug.png" width="100%%"/>
+	<figcaption></figcaption>
+</figure>
+</p>
+<p>
+We see that total number of invoked parsers is 55144, roughly 30x less. 
+We also see that, as in the previous case, most of the parsers were invoked in the before-water of the initial sea, even though roughly 10x less. 
+But we can also notice that the following island and after water are parsed using only 2 and 4 parser invocations respectively! 
+</p>
+<p>
+This is because of caching. 
+Under the <code>element</code> rule, there is a mapping node. 
+The mapping node returns the complete HTML element just in two invocations. 
+The fact that the result has been cached is visualized via the result reference. 
+</p>
+
+<p>
+The reference indicates that at the time of that invocation the result has already been computed during some previous invocation. 
+The parser remembered it and it returned the result without invoking the parser again. 
+This is done by the <code>PP2Cache</code> strategy (you can see its profiling version in the screenshot). The cache has been added to the element during the optimization phase. 
+</p>
+
+<p class="note">getting too verbose here: <s>Because it is extremely annoying (trust me) to see only the cached result without the steps how the result was cached, the reference link can be expanded showing. When expanded, it shows the original parsing attempt so that we don’t need to search for it in the previous invocations. But remember, all the parser invocations under the reference node happened at some earlier point in time and are debug trace is visible for the user convenience.</s></p>
+<section>
+<h2>I. Caches</h2>
+<p>
+We already mentioned <code>PP2Cache</code>, but PetitParser2 utilizes four different caches that can be split into two categories:
+</p>
+<ul>
+<li>First category contains fast and memory efficient caches, which remember only the last result of an underlying parser. If it happens that a parser is invoked at the same position again, the result is returned without any parsing. If the position differs, the underlying parser is invoked and the result is remembered for the new position. <s>The fast caches cannot be applied for the context-sensitive parsers, i.e. for parsers whose result depends on some other parameters than a position, e.g. the parser generated from the <code>elClose</code> rule.</s></li>
+</ul>
+
+
+<ul>
+<li>The second category contains slower and more memory intense caches, which remember every result for the given position, we call these caches memoizing caches. If it happens that a parser is invoked at any position it has been invoked before, the result is returned without any parsing. <s>Furthermore, if a parser is context-sensitive, the cache uses the whole context as a key.</s></li>
+</ul>
+
+
+<p>
+You can inspect the performance of caches in the cache view:
+</p>
+<p>
+
+<figure>
+	<img src="figures/optimized-caches.png" width="100%%"/>
+	<figcaption></figcaption>
+</figure>
+</p>
+
+<p>
+There are three caches visble in the cache view: (i) cache and (ii) trimming cache belong to the first category and (iii) sea memoization cache belongs to the second category. 
+</p>
+<dl><dt>Cache</dt>
+<dd>Cache improves performance of choice that has alternatives with the same prefix, e.g.:</dd>
+</dl>
+<figure><pre><code class="smalltalk">identifier, $: asPParser not / identifier</code></pre><figcaption></figcaption></figure>
+
+<p>
+Normally, if the identifier is not followed by $:, the parser backtracks and parses identifier again. 
+Optimizations of PetitParser2 can detect such a case and enwrap the identifier with a cache, preventing superfluous invocations.
+</p>
+
+<dl><dt>Trimming Cache</dt>
+<dd>The trimming cache improves the performance of grammars using trimmed tokens, e.g.:</dd>
+</dl>
+<figure><pre><code class="smalltalk">keyword token trim, identifier token trim</code></pre><figcaption></figcaption></figure>
+<p>
+Because each token trims whitespaces before and after itself, the trimming in between tokens happens twice. 
+The trimming cache prevents this. 
+</p>
+<dl><dt>Sea Memoization Cache</dt>
+<dd>The sea memoization cache is tailored to bounded seas. </dd>
+</dl>
+<p>
+In some cases, parsing a grammar with bounded can seas result in an exponential complexity, performing lots of redundant work. 
+Because the traditional cache would not be able to reduce the exponential complexity, the seas are memoized.
+This will preserve the linear complexity of parsing expression grammars.
+</p>
+<p>
+We are still missing the last fourth cache. 
+That cache is a bit special and we will dedicate it a the next post.
+
+</p></section></section>
+      </section>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../support/html/js/bootstrap.min.js"></script>
+
+    <!-- Syntax highlighting of code blocks -->
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    <!-- Prettify annotated paragraphs-->
+    <script src="../support/html/js/annotated-paragraphs.js"></script>
+
+  </body>
+</html>
