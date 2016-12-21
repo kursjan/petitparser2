@@ -1,3 +1,3 @@
 as yet unclassified
 elOpen
-	^ $< asPParser, elementName push, #water asPParser, $> asPParser ==> #second
+	^ $< asPParser, elementName push, #any asPParser starLazy, $> asPParser ==> #second
