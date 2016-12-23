@@ -1,4 +1,4 @@
-as yet unclassified
+pillar-support
 testResultFor: selector in: class
 	"
 		self new testResultFor: #testText in: WebGrammarTest

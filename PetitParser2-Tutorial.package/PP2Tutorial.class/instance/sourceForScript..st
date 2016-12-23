@@ -1,4 +1,4 @@
-as yet unclassified
+pillar-support
 sourceForScript: selector
 	| lines |
 	lines := Character cr split: (self sourceFor: selector).

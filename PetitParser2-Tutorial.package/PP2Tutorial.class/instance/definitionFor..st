@@ -1,3 +1,3 @@
-as yet unclassified
+pillar-support
 definitionFor: aClass
 	^ aClass definition

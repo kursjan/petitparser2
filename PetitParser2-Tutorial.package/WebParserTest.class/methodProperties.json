@@ -3,9 +3,14 @@
 		 },
 	"instance" : {
 		"parserClass" : "11/16/2016 19:01:21",
+		"testElement" : "JanKurs 12/21/2016 19:39",
+		"testElementEmpty" : "JanKurs 12/21/2016 19:39",
 		"testElementMalformedExtraClose" : "11/16/2016 19:01:21",
 		"testElementMalformedUnclosed" : "11/16/2016 19:01:21",
 		"testElementMalformedWrongClose" : "11/16/2016 19:01:21",
+		"testElementNested" : "JanKurs 12/21/2016 19:40",
 		"testJavascript" : "11/16/2016 19:01:21",
 		"testJavascriptWithString" : "11/16/2016 19:01:21",
-		"testStructuredDocument" : "11/16/2016 19:01:21" } }
+		"testStructuredDocument" : "11/16/2016 19:01:21",
+		"testStructuredDocumentSimple" : "JanKurs 12/21/2016 20:50",
+		"testStructuredDocumentWithDoctype" : "JanKurs 12/21/2016 20:51" } }

@@ -1,4 +1,4 @@
-as yet unclassified
+pillar-support
 printAsCode: aString stream: stream
 	stream nextPutAll: '[[[';
 		lf;
