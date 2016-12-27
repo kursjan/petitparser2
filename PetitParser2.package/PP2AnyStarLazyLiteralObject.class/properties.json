@@ -1,0 +1,14 @@
+{
+	"category" : "PetitParser2-Strategies",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"literal" ],
+	"name" : "PP2AnyStarLazyLiteralObject",
+	"pools" : [
+		 ],
+	"super" : "PP2StarLazy",
+	"type" : "normal" }

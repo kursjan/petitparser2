@@ -5,7 +5,9 @@ visitPossesiveRepeating: node
 	].
 
 	(self isStarPredicateObject: node) ifTrue: [  
-		node strategy: (PP2StarPredicateObject on: node)
+		node strategy: (PP2StarPredicateObject 
+			on: node 
+			predicate: node child predicate)
 	].
 
 	(self isPlus: node) ifTrue: [  

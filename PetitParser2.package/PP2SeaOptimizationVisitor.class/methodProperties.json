@@ -2,12 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"beforeAccept:" : "12/5/2016 22:12:51",
-		"doPass:" : "12/5/2016 22:12:51",
-		"nextSet:" : "12/5/2016 22:12:51",
-		"optimizedNextSet:" : "12/5/2016 22:12:51",
-		"removeRepetitions:" : "12/5/2016 22:12:51",
-		"removeSeas:" : "12/5/2016 22:12:51",
-		"seaCanBeRemoved:ifTrue:ifFalse:" : "12/5/2016 22:12:51",
-		"updateNode:" : "JanKurs 12/6/2016 07:45",
-		"visitSea:" : "12/5/2016 22:12:51" } }
+		"beforeAccept:" : " 11/16/2016 18:57:10",
+		"doPass:" : " 11/16/2016 18:57:10",
+		"nextSet:" : " 11/16/2016 18:57:10",
+		"optimizedNextSet:" : " 11/16/2016 18:57:10",
+		"removeRepetitions:" : " 11/16/2016 18:57:10",
+		"removeSeas:" : " 11/16/2016 18:57:10",
+		"seaCanBeRemoved:ifTrue:ifFalse:" : " 11/16/2016 18:57:10",
+		"updateNode:" : "JanKurs 12/26/2016 19:01",
+		"visitSea:" : " 11/16/2016 18:57:10" } }

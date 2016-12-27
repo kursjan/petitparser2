@@ -2,11 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testEnableDebug" : " 12/6/2016 07:12:31",
-		"testEnableDebugAndRecordingTwice" : " 12/6/2016 07:12:31",
-		"testEnableDebugAndRecordingTwiceOptimized" : " 12/6/2016 07:12:31",
-		"testEnableDebugTwice" : " 12/6/2016 07:12:31",
-		"testEnableRecordingCaches" : " 12/6/2016 07:12:31",
-		"testEnableRecordingDebugInvocations" : " 12/6/2016 07:12:31",
-		"testEnableRecordingInvocations" : " 12/6/2016 07:12:31",
-		"testEnableRecordingRefreshCaches" : " 12/6/2016 07:12:31" } }
+		"testEnableDebug" : "JanKurs 11/24/2016 07:18",
+		"testEnableDebugAndRecordingTwice" : "JanKurs 11/24/2016 07:54",
+		"testEnableDebugAndRecordingTwiceOptimized" : "JanKurs 11/24/2016 07:57",
+		"testEnableDebugTwice" : "JanKurs 11/24/2016 07:18",
+		"testEnableRecordingCaches" : "JanKurs 11/24/2016 07:47",
+		"testEnableRecordingDebugInvocations" : "JanKurs 11/24/2016 07:51",
+		"testEnableRecordingInvocations" : "JanKurs 11/24/2016 07:53",
+		"testEnableRecordingRefreshCaches" : "JanKurs 11/24/2016 07:48" } }

@@ -1,10 +1,10 @@
 {
 	"class" : {
-		"ruleRBBadMessageRuleV1FalsePositive" : "12/5/2016 22:12:51",
-		"ruleRBEquivalentSuperclassMethodsRuleV1FalsePositive" : "12/5/2016 22:12:51",
-		"ruleRBIfTrueReturnsRuleV1FalsePositive" : "12/5/2016 22:12:51",
-		"ruleRBInconsistentMethodClassificationRuleV1FalsePositive" : "12/5/2016 22:12:51",
-		"ruleRBTemporaryVariableCapitalizationRuleV1FalsePositive" : "12/5/2016 22:12:51",
-		"ruleRBUtilityMethodsRuleV1FalsePositive" : "12/5/2016 22:12:51" },
+		"ruleRBBadMessageRuleV1FalsePositive" : " 11/16/2016 18:57:10",
+		"ruleRBEquivalentSuperclassMethodsRuleV1FalsePositive" : " 11/16/2016 18:57:10",
+		"ruleRBIfTrueReturnsRuleV1FalsePositive" : " 11/16/2016 18:57:10",
+		"ruleRBInconsistentMethodClassificationRuleV1FalsePositive" : " 11/16/2016 18:57:10",
+		"ruleRBTemporaryVariableCapitalizationRuleV1FalsePositive" : " 11/16/2016 18:57:10",
+		"ruleRBUtilityMethodsRuleV1FalsePositive" : " 11/16/2016 18:57:10" },
 	"instance" : {
 		 } }

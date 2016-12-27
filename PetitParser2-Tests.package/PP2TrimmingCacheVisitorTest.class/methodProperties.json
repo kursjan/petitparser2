@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"assert:isKindOf:" : " 12/6/2016 07:12:31",
-		"setUp" : " 12/6/2016 07:12:31",
-		"testDifferentTrimmers" : " 12/6/2016 07:12:31",
-		"testSequence" : " 12/6/2016 07:12:31",
-		"testSimpleTrimming" : " 12/6/2016 07:12:31",
-		"testSimpleTrimmingToken" : " 12/6/2016 07:12:31" } }
+		"assert:isKindOf:" : " 11/16/2016 18:57:10",
+		"setUp" : " 11/16/2016 18:57:10",
+		"testDifferentTrimmers" : " 11/16/2016 18:57:10",
+		"testSequence" : " 11/16/2016 18:57:10",
+		"testSimpleTrimming" : " 11/16/2016 18:57:10",
+		"testSimpleTrimmingToken" : " 11/16/2016 18:57:10" } }

@@ -1,0 +1,3 @@
+parsing
+predicate
+	^ predicate

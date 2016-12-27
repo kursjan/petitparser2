@@ -6,13 +6,15 @@ optimize
 	
 	PP2SpecializingVisitor new doPass: self.
 
-	PP2ParentAnalysisVisitor new doPass: self.
 	PP2RecognizerVisitor new doPass: self.
 
+	"
+		Pre-compute isNullable and firstSet properties
+	"
 	PP2IsNullableCache new doPass: self.
 	PP2FirstSetCache new doPass: self.
 
-	 "
+	"
 		Should be called before CommonPrefix. Both do caching, but trimming is tailored to the
 		whitespace handling in PP2 and has more suitable cache.
 	"

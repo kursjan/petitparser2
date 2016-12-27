@@ -2,11 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testBypass" : " 12/6/2016 07:12:31",
-		"testCommonPrefix" : " 12/6/2016 07:12:31",
-		"testIdentifier" : " 12/6/2016 07:12:31",
-		"testIdentifierToken" : " 12/6/2016 07:12:31",
-		"testIdentifierTrimmingToken" : " 12/6/2016 07:12:31",
-		"testMemoization" : " 12/6/2016 07:12:31",
-		"testTrimming" : " 12/6/2016 07:12:31",
-		"testTrimmingToken" : " 12/6/2016 07:12:31" } }
+		"testAnyStarLazyLiteralObject" : "JanKurs 12/27/2016 16:17",
+		"testAnyStarLazyPredicateObject" : "JanKurs 12/27/2016 16:16",
+		"testBypass" : " 11/16/2016 18:57:10",
+		"testCommonPrefix" : " 11/16/2016 18:57:10",
+		"testIdentifier" : " 11/16/2016 18:57:10",
+		"testIdentifierToken" : " 11/16/2016 18:57:10",
+		"testIdentifierTrimmingToken" : " 11/16/2016 18:57:10",
+		"testMemoization" : " 11/16/2016 18:57:10",
+		"testTrimming" : " 11/16/2016 18:57:10",
+		"testTrimmingToken" : " 11/16/2016 18:57:10" } }

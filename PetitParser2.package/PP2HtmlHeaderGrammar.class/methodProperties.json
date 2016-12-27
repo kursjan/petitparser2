@@ -1,9 +1,9 @@
 {
 	"class" : {
-		"example" : "12/5/2016 22:12:51" },
+		"example" : "JanKurs 11/28/2016 07:43" },
 	"instance" : {
-		"bodyStart" : "12/5/2016 22:12:51",
-		"header" : "12/5/2016 22:12:51",
-		"headerStart" : "12/5/2016 22:12:51",
-		"htmlFragment" : "12/5/2016 22:12:51",
-		"start" : "12/5/2016 22:12:51" } }
+		"bodyStart" : "JanKurs 11/28/2016 07:44",
+		"header" : "JanKurs 11/28/2016 07:43",
+		"headerStart" : "JanKurs 11/28/2016 07:45",
+		"htmlFragment" : "JanKurs 11/28/2016 07:48",
+		"start" : "JanKurs 11/28/2016 07:43" } }
