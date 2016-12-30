@@ -1,3 +1,3 @@
-as yet unclassified
+tests
 testElementEmpty
 	self parse: '<foo></foo>' rule: #element

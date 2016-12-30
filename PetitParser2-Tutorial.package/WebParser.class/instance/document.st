@@ -1,4 +1,4 @@
-as yet unclassified
+various
 document
 	^ super document
 	

@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testDocument
 	| input |
 	input := PP2Sources current htmlSample.

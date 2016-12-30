@@ -1,3 +1,3 @@
-as yet unclassified
+javascript
 javascript
 	^ jsOpen, jsContent, jsClose ==> #second

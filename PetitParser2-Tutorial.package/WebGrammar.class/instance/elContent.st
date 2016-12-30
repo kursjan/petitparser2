@@ -1,3 +1,3 @@
-as yet unclassified
+element
 elContent
 	^ (javascript / element / text nonEpsilon) star

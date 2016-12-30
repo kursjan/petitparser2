@@ -1,3 +1,3 @@
-as yet unclassified
+javascript
 jsOpen
 	^ '<script>' asPParser

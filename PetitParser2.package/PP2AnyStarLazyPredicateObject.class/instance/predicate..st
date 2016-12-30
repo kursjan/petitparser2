@@ -1,3 +1,3 @@
-parsing
+accessing
 predicate: newPredicate
 	predicate := newPredicate 

@@ -1,3 +1,3 @@
-as yet unclassified
+tests
 testJavascript
 	self parse: '<script>alert("hi there!")</script>' rule: #javascript	

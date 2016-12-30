@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 text: anObject
 	text := anObject

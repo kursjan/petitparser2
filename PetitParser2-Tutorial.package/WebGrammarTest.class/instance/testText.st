@@ -1,3 +1,3 @@
-as yet unclassified
+tests
 testText
 	self parse: 'foobar' rule: #text

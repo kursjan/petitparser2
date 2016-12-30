@@ -1,4 +1,4 @@
-as yet unclassified
+gui
 gtTreeViewIn: composite
 	<gtInspectorPresentationOrder: 40>
 

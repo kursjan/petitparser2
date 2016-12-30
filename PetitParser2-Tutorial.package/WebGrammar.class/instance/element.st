@@ -1,4 +1,4 @@
-accessing
+element
 element
 	^ (elOpen, elContent, elClose)
 "		memoize;"

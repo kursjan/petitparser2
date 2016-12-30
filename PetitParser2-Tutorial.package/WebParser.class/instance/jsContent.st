@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 jsContent
 	^ super jsContent flatten

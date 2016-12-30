@@ -1,3 +1,3 @@
-as yet unclassified
+various
 document
 	^ (javascript sea ==> #second) star

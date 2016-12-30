@@ -1,3 +1,3 @@
-parsing
+accessing
 literal: newLiteral
 	literal := newLiteral 
