@@ -1,13 +1,13 @@
 parsing
 parseOn: context
-	| retval memento |
+	| retval position |
 
 	retval := OrderedCollection new.
-	memento := self remember: context.	
+	position := context rememberPosition.
 
 	[ 
 		context atEnd ifTrue: [ 
-			self restore: context from: memento.
+			context restorePosition: position.
 			^ PP2Failure message: 'boundary not found' context: context
 		].
 
