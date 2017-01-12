@@ -54,3 +54,8 @@ Metacello new
     repository: 'github://kursjan/petitparser2';
     load: 'PetitParser2-Headless'
 ```
+
+## [PetitParser2 Book](https://kursjan.github.io/petitparser2/pillar-book/build/book.html)
+Lear more about PetitParser. In the book we cover all the topics related to PetitParser. We discuss basics of parsing such as testing or AST generation as well as advanced topics including context-sensitive parsing or optimizations.
+
+https://kursjan.github.io/petitparser2/pillar-book/build/book.html
