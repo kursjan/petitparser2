@@ -1,3 +1,3 @@
 javascript
 jsContent
-	^ (jsString / #any asPParser) starLazy
+	^ (jsString / any) starLazy

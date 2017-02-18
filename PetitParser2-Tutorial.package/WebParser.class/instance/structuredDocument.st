@@ -2,7 +2,7 @@ accessing
 structuredDocument
 	^ super structuredDocument
 	
-	map: [ :_bw :_document :_aw |
+	map: [ :_bw :_html :_aw |
 		| beforeWater afterWater |
 		beforeWater := UnknownText new
 			text: _bw;
@@ -14,6 +14,9 @@ structuredDocument
 			
 		HtmlElement new
 			name: 'DOCUMENT';
-			children: (Array with: beforeWater with: _document with: afterWater);
+			children: (Array 
+				with: beforeWater 
+				with: _html 
+				with: afterWater);
 			yourself
 	]
