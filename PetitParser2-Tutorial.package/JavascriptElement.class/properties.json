@@ -1,14 +1,13 @@
 {
-	"category" : "PetitParser2-Tutorial",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"code" ],
-	"name" : "JavascriptElement",
-	"pools" : [
-		 ],
 	"super" : "WebElement",
-	"type" : "normal" }
+	"category" : "PetitParser2-Tutorial",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"code"
+	],
+	"name" : "JavascriptElement",
+	"type" : "normal"
+}

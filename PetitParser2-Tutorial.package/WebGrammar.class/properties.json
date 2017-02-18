@@ -1,10 +1,10 @@
 {
-	"category" : "PetitParser2-Tutorial",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "PP2CompositeNode",
+	"category" : "PetitParser2-Tutorial",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"document",
 		"javascript",
@@ -20,9 +20,8 @@
 		"jsString",
 		"structuredDocument",
 		"comment",
-		"any" ],
+		"any"
+	],
 	"name" : "WebGrammar",
-	"pools" : [
-		 ],
-	"super" : "PP2CompositeNode",
-	"type" : "normal" }
+	"type" : "normal"
+}
