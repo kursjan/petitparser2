@@ -1,3 +1,3 @@
 various
 text
-	^ (comment / #any asPParser) starLazy
+	^ (comment / any) starLazy

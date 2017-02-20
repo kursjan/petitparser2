@@ -1,3 +1,3 @@
 element
 elOpen
-	^ $< asPParser, elementName push, #any asPParser starLazy, $> asPParser ==> #second
+	^ $< asPParser, elementName push, any starLazy, $> asPParser ==> #second

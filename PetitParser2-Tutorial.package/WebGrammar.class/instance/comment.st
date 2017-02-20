@@ -1,3 +1,3 @@
 various
 comment
-	^ '<!--' asPParser, #any asPParser starLazy, '-->' asPParser
+	^ '<!--' asPParser, any starLazy, '-->' asPParser
