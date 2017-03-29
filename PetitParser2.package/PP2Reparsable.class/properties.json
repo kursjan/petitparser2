@@ -1,14 +1,13 @@
 {
-	"category" : "PetitParser2-Reparsing",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"buffer" ],
-	"name" : "PP2Reparsable",
-	"pools" : [
-		 ],
 	"super" : "PP2WrappingStrategy",
-	"type" : "normal" }
+	"category" : "PetitParser2-Reparsing",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"buffer"
+	],
+	"name" : "PP2Reparsable",
+	"type" : "normal"
+}

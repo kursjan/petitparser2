@@ -1,11 +1,6 @@
 {
-	"category" : "PetitParser2-Debug",
-	"classinstvars" : [
-		 ],
 	"classtraitcomposition" : "TPP2Debuggable classTrait",
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
+	"classvars" : [ ],
 	"instvars" : [
 		"parser",
 		"result",
@@ -16,10 +11,14 @@
 		"context",
 		"allChildren",
 		"furthestPosition",
-		"invocationEntry" ],
+		"invocationEntry"
+	],
 	"name" : "PP2DebugResult",
-	"pools" : [
-		 ],
+	"commentStamp" : "",
 	"super" : "Object",
 	"traitcomposition" : "TPP2Debuggable",
-	"type" : "normal" }
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "PetitParser2-Debug"
+}

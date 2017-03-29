@@ -1,4 +1,5 @@
 {
-	"category" : "PetitParser2-Recording",
+	"name" : "TPP2RecordingCache",
 	"commentStamp" : "",
-	"name" : "TPP2RecordingCache" }
+	"category" : "PetitParser2-Recording"
+}

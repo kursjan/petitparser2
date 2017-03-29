@@ -1,17 +1,16 @@
 {
-	"category" : "PetitParser2-Recording",
-	"classinstvars" : [
-		 ],
 	"classtraitcomposition" : "TPP2RecordingCache classTrait",
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
+	"classvars" : [ ],
 	"instvars" : [
 		"invocations",
-		"hits" ],
+		"hits"
+	],
 	"name" : "PP2RecordingMemoizedSea",
-	"pools" : [
-		 ],
+	"commentStamp" : "",
 	"super" : "PP2MemoizedSea",
 	"traitcomposition" : "TPP2RecordingCache",
-	"type" : "normal" }
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "PetitParser2-Recording"
+}

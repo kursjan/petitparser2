@@ -1,16 +1,15 @@
 {
-	"category" : "PetitParser2-Context",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "PetitParser2-Context",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"top",
 		"position",
-		"stackSize" ],
+		"stackSize"
+	],
 	"name" : "PP2PopMemento",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

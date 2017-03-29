@@ -1,17 +1,16 @@
 {
-	"category" : "PetitParser2-Reparsing",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "PetitParser2-Reparsing",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"buffer",
 		"position",
 		"contextMemento",
-		"furthestPosition" ],
+		"furthestPosition"
+	],
 	"name" : "PP2MementoPromise",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

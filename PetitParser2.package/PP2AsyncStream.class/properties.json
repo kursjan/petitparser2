@@ -1,15 +1,14 @@
 {
-	"category" : "PetitParser2-Streams",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "JanKurs 11/27/2016 17:17",
+	"super" : "Object",
+	"category" : "PetitParser2-Streams",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"queue",
-		"closed" ],
+		"closed"
+	],
 	"name" : "PP2AsyncStream",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

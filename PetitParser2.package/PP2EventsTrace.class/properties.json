@@ -1,17 +1,16 @@
 {
-	"category" : "PetitParser2-Recording",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "PetitParser2-Recording",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"entries",
 		"fEntries",
 		"colors",
-		"selection" ],
+		"selection"
+	],
 	"name" : "PP2EventsTrace",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

@@ -1,14 +1,13 @@
 {
+	"commentStamp" : "",
+	"super" : "Object",
 	"category" : "PetitParser2-Analysis",
 	"classinstvars" : [
-		"Instance" ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
-	"instvars" : [
-		 ],
+		"Instance"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
 	"name" : "PP2CcResult",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}
