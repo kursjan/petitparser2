@@ -1,0 +1,15 @@
+{
+	"instance" : {
+		"propertyAt:" : " 1/27/2017 07:41:38",
+		"propertiesCopy" : " 1/27/2017 07:41:38",
+		"propertyAt:put:" : " 1/27/2017 07:41:38",
+		"propertyAt:ifAbsent:" : " 1/27/2017 07:41:38",
+		"removeProperty:" : " 1/27/2017 07:41:38",
+		"properties" : " 1/27/2017 07:41:38",
+		"hasProperty:" : " 1/27/2017 07:41:38",
+		"properties:" : " 1/27/2017 07:41:38",
+		"removeProperty:ifAbsent:" : " 1/27/2017 07:41:38",
+		"propertyAt:ifAbsentPut:" : " 1/27/2017 07:41:38"
+	},
+	"class" : { }
+}
