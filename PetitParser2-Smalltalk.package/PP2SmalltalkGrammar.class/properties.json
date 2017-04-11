@@ -1,10 +1,10 @@
 {
-	"category" : "PetitParser2-Smalltalk-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "PP2CompositeNode",
+	"category" : "PetitParser2-Smalltalk-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"array",
 		"arrayItem",
@@ -80,9 +80,8 @@
 		"unaryMethod",
 		"unaryPragma",
 		"unaryToken",
-		"variable" ],
+		"variable"
+	],
 	"name" : "PP2SmalltalkGrammar",
-	"pools" : [
-		 ],
-	"super" : "PP2CompositeNode",
-	"type" : "normal" }
+	"type" : "normal"
+}
