@@ -1,7 +1,6 @@
 testing
 testArray3
 	super testArray3.
-	self assert: self result isArray.
 	self assert: self result periods size equals: 1.
 	self assert: self result statements size equals: 2.
 	self assert: self result statements first isMessage.
