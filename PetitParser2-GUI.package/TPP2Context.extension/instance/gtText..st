@@ -7,6 +7,6 @@ gtText: composite
 		display: [ :context | 
 			| printStream |
 			printStream := WriteStream on: String new.
-			context stream printOn: printStream position: self position.
+			context stream asPetit2Stream printOn: printStream position: self position.
 			printStream contents
 	]
