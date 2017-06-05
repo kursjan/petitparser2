@@ -59,3 +59,6 @@ Metacello new
 Lear more about PetitParser. In the book we cover all the topics related to PetitParser. We discuss basics of parsing such as testing or AST generation as well as advanced topics including context-sensitive parsing or optimizations.
 
 https://kursjan.github.io/petitparser2/pillar-book/build/book.html
+
+## Need Help?
+Feel free to [open an issue](https://github.com/kursjan/petitparser2/issues) or post a [StackOverflow](https://stackoverflow.com/questions/tagged/petitparser2) question with the `petitparser2` tag.
