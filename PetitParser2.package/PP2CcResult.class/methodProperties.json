@@ -1,0 +1,16 @@
+{
+	"instance" : {
+		"isContextPush" : " 7/2/2017 13:42:21",
+		"isContextPop" : " 7/2/2017 13:42:21",
+		"isUnknownChange" : " 7/2/2017 13:42:21",
+		"isNotContextChange" : " 7/2/2017 13:42:21",
+		"isContextChange" : " 7/2/2017 13:42:21"
+	},
+	"class" : {
+		"pop" : " 7/2/2017 13:42:21",
+		"instance" : " 7/2/2017 13:42:21",
+		"push" : " 7/2/2017 13:42:21",
+		"noChange" : " 7/2/2017 13:42:21",
+		"change" : " 7/2/2017 13:42:21"
+	}
+}

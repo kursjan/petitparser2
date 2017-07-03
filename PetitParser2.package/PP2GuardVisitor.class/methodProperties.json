@@ -1,0 +1,19 @@
+{
+	"instance" : {
+		"visitOptional:" : " 7/2/2017 13:42:21",
+		"classificationFor:" : " 7/2/2017 13:42:21",
+		"doPass:" : " 7/2/2017 13:42:21",
+		"visitUnguarded:" : " 7/2/2017 13:42:21",
+		"visitDelegate:" : " 7/2/2017 13:42:21",
+		"initialize" : " 7/2/2017 13:42:21",
+		"isGuarded" : " 7/2/2017 13:42:21",
+		"visit:guardedWith:" : " 7/2/2017 13:42:21",
+		"visitSequence:" : " 7/2/2017 13:42:21",
+		"guardOf:makesSenseFor:" : " 7/2/2017 13:42:21",
+		"visitChoice:" : " 7/2/2017 13:42:21",
+		"visitTrimming:" : " 7/2/2017 13:42:21",
+		"isWellGuarded:" : " 7/2/2017 13:42:21",
+		"visitPossesiveRepeating:" : " 7/2/2017 13:42:21"
+	},
+	"class" : { }
+}
