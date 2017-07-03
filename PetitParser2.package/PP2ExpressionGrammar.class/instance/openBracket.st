@@ -1,3 +1,3 @@
-grammar
+tokens
 openBracket
 	^ $( asPParser

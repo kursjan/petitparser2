@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "PetitParser2-RewriteEngine-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"children",
+		"completeSource"
+	],
+	"name" : "PP2RewriteAstNode",
+	"type" : "normal"
+}

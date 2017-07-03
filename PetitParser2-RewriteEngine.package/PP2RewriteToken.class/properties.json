@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "PetitParser2-RewriteEngine-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"collection",
+		"start",
+		"stop"
+	],
+	"name" : "PP2RewriteToken",
+	"type" : "normal"
+}

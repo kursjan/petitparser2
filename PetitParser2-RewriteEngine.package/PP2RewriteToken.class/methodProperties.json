@@ -1,0 +1,16 @@
+{
+	"instance" : {
+		"collection" : "JanKurs 7/2/2017 16:26",
+		"collection:" : "JanKurs 7/2/2017 16:26",
+		"printOn:" : "JanKurs 7/2/2017 16:27",
+		"stop:" : "JanKurs 7/2/2017 16:26",
+		"value" : "JanKurs 7/2/2017 16:28",
+		"stop" : "JanKurs 7/2/2017 16:26",
+		"children" : "JanKurs 7/2/2017 16:33",
+		"start" : "JanKurs 7/2/2017 16:26",
+		"start:" : "JanKurs 7/2/2017 16:26"
+	},
+	"class" : {
+		"on:start:stop:" : "JanKurs 7/2/2017 16:25"
+	}
+}

@@ -1,3 +1,3 @@
-accessing
+tokens
 number
 	^ super number ==> #asNumber

@@ -1,0 +1,15 @@
+{
+	"classtraitcomposition" : "TPP2RewritePattern classTrait",
+	"classvars" : [ ],
+	"instvars" : [
+		"pattern"
+	],
+	"name" : "PP2SmaCCTokenStrategy",
+	"commentStamp" : "",
+	"super" : "PP2Strategy",
+	"traitcomposition" : "TPP2RewritePattern",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "PetitParser2-RewriteEngine-Strategies"
+}

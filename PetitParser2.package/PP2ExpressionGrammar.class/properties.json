@@ -13,7 +13,9 @@
 		"multiplication",
 		"primary",
 		"openBracket",
-		"closeBracket"
+		"closeBracket",
+		"plus",
+		"star"
 	],
 	"name" : "PP2ExpressionGrammar",
 	"type" : "normal"

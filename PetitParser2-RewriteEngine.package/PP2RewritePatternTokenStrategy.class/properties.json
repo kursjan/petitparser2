@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "PP2Strategy",
+	"category" : "PetitParser2-RewriteEngine-Strategies",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"pattern"
+	],
+	"name" : "PP2RewritePatternTokenStrategy",
+	"type" : "normal"
+}

@@ -1,3 +1,3 @@
 grammar
 addition
-	^ primary, $+ asPParser trim, terms
+	^ primary, plus trim, terms

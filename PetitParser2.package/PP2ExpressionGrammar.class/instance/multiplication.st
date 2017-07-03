@@ -1,3 +1,3 @@
 grammar
 multiplication
-	^ primary, $* asPParser trim, terms
+	^ primary, star trim, terms
