@@ -3,7 +3,7 @@ testExtractProduction
 	self
 		performRefactoring:
 			(PP2ExtractProductionRefactoring
-				onClass: PP2ExpressionGrammar
+				onClass: PP2GrammarRefactoringStubParser
 				production: #addition
 				interval: (22 to: 33)
 				to: #plus).

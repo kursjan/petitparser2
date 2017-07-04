@@ -1,6 +1,6 @@
 testing-productions
 testRenameProduction
-	self performRefactoring: (PP2RenameProdcutionRefactoring onClass: PP2ExpressionGrammar rename: #addition to: #add).
+	self performRefactoring: (PP2RenameProdcutionRefactoring onClass: PP2GrammarRefactoringStubParser rename: #addition to: #add).
 	self assert: self changes size equals: 3.
 	self assert: self changes first class equals: RBRenameInstanceVariableChange.
 	self assert: self changes first oldName equals: 'addition'.

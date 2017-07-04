@@ -3,7 +3,7 @@ testDefineProduction
 	self
 		performRefactoring:
 			(PP2DefineProdcutionRefactoring
-				onClass: PP2ExpressionGrammar
+				onClass: PP2GrammarRefactoringStubParser
 				source: 'function ^ #any asPParser plus , $( asPParser , $) asPParser ==> [ :e | 0 ]'
 				protocols: (Array with: #productions)).
 	self assert: self changes size equals: 2.

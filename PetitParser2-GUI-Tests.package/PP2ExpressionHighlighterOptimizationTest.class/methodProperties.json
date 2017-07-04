@@ -1,10 +1,11 @@
 {
-	"class" : {
-		 },
 	"instance" : {
+		"testRecoverFromFailureMoreLookahead" : "JanKurs 7/4/2017 20:53",
 		"parser" : " 11/16/2016 18:57:26",
 		"setUp" : " 11/16/2016 18:57:26",
 		"testMultipleSteps" : " 11/16/2016 18:57:26",
-		"testRecoverFromFailure" : " 11/16/2016 18:57:26",
-		"testRecoverFromFailureMoreLookahead" : " 11/16/2016 18:57:26",
-		"testReparse" : " 11/16/2016 18:57:26" } }
+		"testRecoverFromFailure" : "JanKurs 7/4/2017 20:53",
+		"testReparse" : "JanKurs 7/4/2017 20:53"
+	},
+	"class" : { }
+}
