@@ -7,8 +7,9 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"children",
-		"completeSource"
+		"completeSource",
+		"patternToken"
 	],
-	"name" : "PP2RewriteAstNode",
+	"name" : "PP2RewriteNode",
 	"type" : "normal"
 }
