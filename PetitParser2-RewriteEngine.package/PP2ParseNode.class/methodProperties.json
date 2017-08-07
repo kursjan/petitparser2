@@ -1,0 +1,15 @@
+{
+	"instance" : {
+		"completeSource" : "JanKurs 8/7/2017 21:06",
+		"children" : "JanKurs 8/7/2017 21:08",
+		"isParseNode" : "JanKurs 8/7/2017 21:08",
+		"startPosition:" : "JanKurs 8/7/2017 21:12",
+		"startPosition" : "JanKurs 8/7/2017 21:12",
+		"stopPosition" : "JanKurs 8/7/2017 21:16",
+		"match:inContext:" : "JanKurs 8/7/2017 21:07",
+		"children:" : "JanKurs 8/7/2017 21:06",
+		"stopPosition:" : "JanKurs 8/7/2017 21:13",
+		"completeSource:" : "JanKurs 8/7/2017 21:06"
+	},
+	"class" : { }
+}

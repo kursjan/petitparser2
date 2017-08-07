@@ -1,3 +1,3 @@
 *PetitParser2-RewriteEngine
 asSmaCCString
-	^ (Smalltalk at: #SmaCCString) on: collection
+	^ self globalAt: #SmaccString ifAbsentPut: [ (Smalltalk at: #SmaCCString) on: collection ]

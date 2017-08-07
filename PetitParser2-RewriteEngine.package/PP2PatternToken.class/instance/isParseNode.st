@@ -1,0 +1,3 @@
+testing
+isParseNode
+	^ false

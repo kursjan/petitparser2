@@ -6,10 +6,10 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"collection",
-		"start",
-		"stop"
+		"children",
+		"completeSource",
+		"patternToken"
 	],
-	"name" : "PP2RewriteToken",
+	"name" : "PP2PatternParseNode",
 	"type" : "normal"
 }

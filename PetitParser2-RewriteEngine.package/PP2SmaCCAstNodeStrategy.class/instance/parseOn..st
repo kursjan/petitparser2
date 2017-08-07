@@ -1,17 +1,21 @@
 parsing
 parseOn: context
-	| retval |
+	| retval startPosition |
+	startPosition := context start.
 	(retval := node child parseOn: context) isPetit2Failure ifTrue: [ 
-		| patternToken start |
-		start := context position.
-		patternToken := self pattern parseOn: context.
+		| patternToken |
+		"TODO JK: avoid instnace creation"
+		patternToken := PP2RewritePatternTokenStrategy new parseOn: context.
 		patternToken isPetit2Failure ifTrue: [ ^ retval ].
-		^  (PP2RewriteNode new)
-			patternToken: (context newToken: PP2RewriteToken from: start);
+		self halt.
+		^  (PP2PatternParseNode new)
+			patternToken: patternToken;
 			yourself
 	].
 
-	^ PP2RewriteNode new
+	^ PP2ParseNode new
 		children: retval asCollection;
 		completeSource: context asSmaCCString;
+		startPosition: (startPosition + 1);
+		stopPosition: context position;
 		yourself
