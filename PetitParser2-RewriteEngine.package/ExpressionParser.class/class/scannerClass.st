@@ -1,0 +1,3 @@
+generated-accessing
+scannerClass
+	^ExpressionScanner

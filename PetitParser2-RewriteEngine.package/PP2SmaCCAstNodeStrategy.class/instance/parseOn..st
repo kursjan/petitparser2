@@ -7,7 +7,6 @@ parseOn: context
 		"TODO JK: avoid instnace creation"
 		patternToken := PP2RewritePatternTokenStrategy new parseOn: context.
 		patternToken isPetit2Failure ifTrue: [ ^ retval ].
-		self halt.
 		^  (PP2PatternParseNode new)
 			patternToken: patternToken;
 			yourself

@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "ASTExpressionNode",
+	"category" : "PetitParser2-RewriteEngine-SmaCC",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"nameToken",
+		"leftParen",
+		"arguments",
+		"commaTokens",
+		"rightParen"
+	],
+	"name" : "ASTFunctionNode",
+	"type" : "normal"
+}

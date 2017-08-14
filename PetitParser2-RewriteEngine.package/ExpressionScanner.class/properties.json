@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SmaCCScanner",
+	"category" : "PetitParser2-RewriteEngine-SmaCC",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ExpressionScanner",
+	"type" : "normal"
+}

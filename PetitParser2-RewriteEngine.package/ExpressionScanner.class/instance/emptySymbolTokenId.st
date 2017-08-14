@@ -1,0 +1,3 @@
+generated
+emptySymbolTokenId
+	^ 17

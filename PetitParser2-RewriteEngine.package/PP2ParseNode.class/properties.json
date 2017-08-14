@@ -9,7 +9,8 @@
 		"children",
 		"completeSource",
 		"startPosition",
-		"stopPosition"
+		"stopPosition",
+		"parent"
 	],
 	"name" : "PP2ParseNode",
 	"type" : "normal"

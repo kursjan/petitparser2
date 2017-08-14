@@ -1,0 +1,23 @@
+{
+	"instance" : {
+		"symbolNames" : "JanKurs 8/6/2017 17:39",
+		"reduceActionForExpression8:" : "JanKurs 8/6/2017 17:39",
+		"reduceTable" : "JanKurs 8/6/2017 17:39",
+		"reduceActionFor_Arguments2:" : "JanKurs 8/6/2017 17:39",
+		"reduceActionForArguments1:" : "JanKurs 8/6/2017 17:39",
+		"transitionTable" : "JanKurs 8/6/2017 17:39",
+		"reduceActionForFunction1:" : "JanKurs 8/6/2017 17:39",
+		"reduceActionFor_Arguments1:" : "JanKurs 8/6/2017 17:39",
+		"reduceActionForExpression2:" : "JanKurs 8/6/2017 17:39",
+		"symbolTypes" : "JanKurs 8/6/2017 17:39",
+		"reduceActionForArguments2:" : "JanKurs 8/6/2017 17:39",
+		"reduceActionForNumber1:" : "JanKurs 8/6/2017 17:39",
+		"reduceActionForExpression6:" : "JanKurs 8/6/2017 17:39"
+	},
+	"class" : {
+		"startingStateForExpression" : "JanKurs 8/6/2017 17:39",
+		"definitionComment" : "JanKurs 8/6/2017 17:39",
+		"scannerClass" : "JanKurs 8/6/2017 17:39",
+		"cacheId" : "JanKurs 8/6/2017 17:39"
+	}
+}

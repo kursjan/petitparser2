@@ -1,0 +1,3 @@
+generated
+ignoredCompositeTokenVariables
+	^ #(#leftParenTokens #rightParenTokens)

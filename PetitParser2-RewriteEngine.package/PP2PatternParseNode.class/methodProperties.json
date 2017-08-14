@@ -1,13 +1,16 @@
 {
 	"instance" : {
-		"isParseNode" : "JanKurs 8/7/2017 21:08",
-		"completeSource:" : "JanKurs 7/2/2017 16:47",
-		"match:inContext:" : "JanKurs 8/7/2017 21:20",
-		"patternToken:" : "JanKurs 8/6/2017 20:21",
-		"children:" : "JanKurs 8/6/2017 20:19",
-		"children" : "JanKurs 8/7/2017 21:08",
 		"completeSource" : "JanKurs 7/2/2017 16:47",
-		"isPatternParseNode" : "JanKurs 8/7/2017 21:23"
+		"patternToken:" : "JanKurs 8/14/2017 08:09",
+		"children" : "JanKurs 8/14/2017 08:09",
+		"name" : "JanKurs 8/8/2017 08:03",
+		"isParseNode" : "JanKurs 8/7/2017 21:08",
+		"parent" : "JanKurs 8/14/2017 08:11",
+		"match:inContext:" : "JanKurs 8/8/2017 08:16",
+		"isPatternParseNode" : "JanKurs 8/7/2017 21:23",
+		"children:" : "JanKurs 8/14/2017 08:08",
+		"parent:" : "JanKurs 8/14/2017 08:11",
+		"completeSource:" : "JanKurs 7/2/2017 16:47"
 	},
 	"class" : { }
 }
