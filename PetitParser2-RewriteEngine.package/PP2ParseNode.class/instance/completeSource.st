@@ -1,3 +1,5 @@
 accessing
 completeSource
-	^ completeSource 
+	^ parent isNil
+		ifTrue: [ completeSource ]
+		ifFalse: [ parent completeSource ]

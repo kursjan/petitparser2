@@ -1,0 +1,13 @@
+{
+	"classtraitcomposition" : "TPP2ExpressionGrammarTest classTrait",
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PP2ExpressionRewriterTest",
+	"commentStamp" : "",
+	"super" : "PP2CompositeNodeTest",
+	"traitcomposition" : "TPP2ExpressionGrammarTest",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "PetitParser2-RewriteEngine-Tests-Example"
+}

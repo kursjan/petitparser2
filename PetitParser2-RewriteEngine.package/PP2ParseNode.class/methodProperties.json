@@ -1,11 +1,13 @@
 {
 	"instance" : {
-		"completeSource" : "JanKurs 8/7/2017 21:06",
+		"completeSource" : "JanKurs 8/14/2017 21:40",
 		"children" : "JanKurs 8/7/2017 21:08",
 		"isParseNode" : "JanKurs 8/7/2017 21:08",
-		"startPosition:" : "JanKurs 8/7/2017 21:12",
+		"name:" : "JanKurs 8/14/2017 08:26",
 		"parent" : "JanKurs 8/14/2017 08:10",
-		"startPosition" : "JanKurs 8/7/2017 21:12",
+		"printOn:" : "JanKurs 8/14/2017 21:33",
+		"startPosition" : "JanKurs 8/14/2017 21:07",
+		"startPosition:" : "JanKurs 8/7/2017 21:12",
 		"stopPosition" : "JanKurs 8/7/2017 21:16",
 		"match:inContext:" : "JanKurs 8/8/2017 08:00",
 		"children:" : "JanKurs 8/14/2017 08:17",

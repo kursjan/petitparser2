@@ -9,7 +9,8 @@
 		"children",
 		"completeSource",
 		"patternToken",
-		"parent"
+		"parent",
+		"name"
 	],
 	"name" : "PP2PatternParseNode",
 	"type" : "normal"

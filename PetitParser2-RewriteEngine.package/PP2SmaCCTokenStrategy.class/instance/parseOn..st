@@ -7,4 +7,4 @@ parseOn: context
 		^ PP2RewritePatternTokenStrategy new parseOn: context 
 	].
 
-	^ context newToken: PP2PatternToken from: start
+	^ context newToken: PP2Token from: start

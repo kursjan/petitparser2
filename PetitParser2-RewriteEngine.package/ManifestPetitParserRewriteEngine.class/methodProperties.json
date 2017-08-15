@@ -1,6 +1,8 @@
 {
 	"instance" : { },
 	"class" : {
-		"ruleOverridesDeprecatedMethodRuleV1FalsePositive" : "JanKurs 8/8/2017 08:04"
+		"ruleOverridesDeprecatedMethodRuleV1FalsePositive" : "JanKurs 8/8/2017 08:04",
+		"ruleGRGuradGuardClauseRuleV1FalsePositive" : "JanKurs 8/14/2017 21:20",
+		"ruleRBGuardingClauseRuleV1FalsePositive" : "JanKurs 8/14/2017 21:20"
 	}
 }

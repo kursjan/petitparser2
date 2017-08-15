@@ -9,12 +9,13 @@ parseOn: context
 		patternToken isPetit2Failure ifTrue: [ ^ retval ].
 		^  (PP2PatternParseNode new)
 			patternToken: patternToken;
+			name: node nodeName;
 			yourself
 	].
 
 	^ PP2ParseNode new
 		children: retval asCollection;
-		completeSource: context asSmaCCString;
 		startPosition: (startPosition + 1);
 		stopPosition: context position;
+		name: node nodeName;
 		yourself

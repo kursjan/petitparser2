@@ -14,4 +14,4 @@ rewrite: input
 	compositeRewrite addTransformation: rewrite.
 	rewriter := SmaCCRewriteEngine new.
 	rewriter rewriteRule: compositeRewrite.
-	^ rewriter rewriteTree: (self parse: input)
+	^ rewriter rewriteTree: ((self parse: input) completeSource: (SmaCCString on: input))
