@@ -1,3 +1,5 @@
-as yet unclassified
+instance creation
 on: node
 	^ self new child: node
+		
+	

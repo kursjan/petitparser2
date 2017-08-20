@@ -1,8 +1,12 @@
 parsing
-parseOn: aPP2Context
+parseOn: context
 	| start retval |
-
-	start := aPP2Context position.
-	(retval := self pattern parseOn: aPP2Context) isPetit2Failure ifTrue: [ ^ retval ].
-
-	^ aPP2Context newToken: PP2PatternToken from: start
+	start := context position.
+	(retval := self pattern parseOn: context) isPetit2Failure
+		ifTrue: [ ^ retval ].
+	(name notNil and: [ retval fourth notNil ]) ifTrue: [ 
+		(retval fourth second = name)
+				ifFalse: [ context restorePosition: start.
+					^ PP2Failure message: 'name do not match' context: context ] ].
+			
+	^ context newToken: PP2PatternToken from: start

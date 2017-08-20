@@ -9,5 +9,5 @@
 	"type" : "normal",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"category" : "PetitParser2-RewriteEngine-Tests-Example"
+	"category" : "PetitParser2-RewriteEngine-Tests-Examples"
 }

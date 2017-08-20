@@ -1,7 +1,9 @@
 {
 	"instance" : {
 		"completeSource" : "JanKurs 8/14/2017 21:40",
+		"gtTreeViewIn:" : "JanKurs 8/18/2017 08:06",
 		"children" : "JanKurs 8/7/2017 21:08",
+		"name" : "JanKurs 8/18/2017 09:15",
 		"isParseNode" : "JanKurs 8/7/2017 21:08",
 		"name:" : "JanKurs 8/14/2017 08:26",
 		"parent" : "JanKurs 8/14/2017 08:10",
@@ -9,7 +11,8 @@
 		"startPosition" : "JanKurs 8/14/2017 21:07",
 		"startPosition:" : "JanKurs 8/7/2017 21:12",
 		"stopPosition" : "JanKurs 8/7/2017 21:16",
-		"match:inContext:" : "JanKurs 8/8/2017 08:00",
+		"match:inContext:" : "JanKurs 8/20/2017 11:47",
+		"nodesDo:" : "JanKurs 8/20/2017 12:41",
 		"children:" : "JanKurs 8/14/2017 08:17",
 		"parent:" : "JanKurs 8/14/2017 08:10",
 		"stopPosition:" : "JanKurs 8/7/2017 21:13",

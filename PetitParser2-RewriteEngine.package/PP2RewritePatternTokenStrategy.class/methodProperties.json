@@ -1,8 +1,9 @@
 {
 	"instance" : {
-		"rewritePattern" : "JanKurs 8/7/2017 08:27",
+		"parseOn:" : "JanKurs 8/20/2017 10:28",
 		"pattern" : "JanKurs 7/2/2017 18:35",
-		"parseOn:" : "JanKurs 8/7/2017 21:03"
+		"rewritePattern" : "JanKurs 8/19/2017 19:11",
+		"name:" : "JanKurs 8/19/2017 19:09"
 	},
 	"class" : {
 		"new" : "JanKurs 8/7/2017 08:27"

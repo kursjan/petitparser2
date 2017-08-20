@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"pattern"
+		"pattern",
+		"name"
 	],
 	"name" : "PP2RewritePatternTokenStrategy",
 	"type" : "normal"

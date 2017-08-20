@@ -1,3 +1,4 @@
 parsing
 rewritePattern
-	^ $` asPParser, #letter asPParser star, $` asPParser 
+	^ $` asPParser , #letter asPParser plus , $` asPParser
+		, (${ asPParser , #letter asPParser plus flatten , $} asPParser) optional
