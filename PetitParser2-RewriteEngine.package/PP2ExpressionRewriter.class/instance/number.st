@@ -1,4 +1,3 @@
 accessing
 number
-	^ (super number ==> #asNumber) smaccToken
-	
+	^ (super number ==> #asNumber) smaccToken	

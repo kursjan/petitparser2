@@ -1,3 +1,5 @@
 accessing
 addition
-	^ super addition smaccNode 
+	^ super addition smaccNode
+		nodeName: #add;
+		yourself

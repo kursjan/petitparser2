@@ -1,8 +1,9 @@
 {
 	"instance" : {
-		"testPatternExpression" : "JanKurs 8/20/2017 10:52",
+		"testPatternExpression" : "JanKurs 8/20/2017 13:03",
 		"testRewriteSumLong" : "JanKurs 8/20/2017 12:43",
-		"testPattern" : "JanKurs 8/18/2017 09:12",
+		"testPattern" : "JanKurs 8/20/2017 13:23",
+		"testRewriteDeep" : "JanKurs 8/20/2017 13:23",
 		"parserClass" : "JanKurs 8/15/2017 07:37",
 		"assert:isKindOf:" : "JanKurs 8/18/2017 09:11",
 		"testRewriteSum" : "JanKurs 8/20/2017 11:35",
