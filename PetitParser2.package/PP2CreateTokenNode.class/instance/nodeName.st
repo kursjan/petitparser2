@@ -1,0 +1,3 @@
+visiting
+nodeName
+	^ self name

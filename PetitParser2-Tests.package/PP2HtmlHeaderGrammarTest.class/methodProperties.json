@@ -1,9 +1,10 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"parserClass" : "JanKurs 11/28/2016 07:46",
-		"testHeader" : "JanKurs 11/28/2016 07:47",
-		"testHtmlFragment" : "JanKurs 11/28/2016 07:48",
 		"testHtmlFragmentNoHeader" : "JanKurs 11/28/2016 07:49",
-		"testZincClientIntegration" : "JanKurs 11/28/2016 07:55" } }
+		"testHeader" : "JanKurs 11/28/2016 07:47",
+		"testZincClientIntegration" : "JanKurs 11/28/2016 07:55",
+		"testHtmlFragment" : "JanKurs 11/28/2016 07:48",
+		"parserClass" : "JanKurs 11/28/2016 07:46"
+	},
+	"class" : { }
+}

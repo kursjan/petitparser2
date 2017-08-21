@@ -1,4 +1,5 @@
 {
-	"category" : "PetitParser2-Tests-Core",
+	"name" : "TPP2CollectionAssertions",
 	"commentStamp" : "",
-	"name" : "TPP2CollectionAssertions" }
+	"category" : "PetitParser2-Tests-Core"
+}

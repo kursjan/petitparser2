@@ -1,5 +1,5 @@
 operators
 token: tokenClass
-	^ (PP2TokenNode on: self)
+	^ (PP2CreateTokenNode on: self)
 		tokenClass: tokenClass;
 		yourself

@@ -8,6 +8,6 @@
 	"instvars" : [
 		"tokenClass"
 	],
-	"name" : "PP2TokenNode",
+	"name" : "PP2CreateTokenNode",
 	"type" : "normal"
 }

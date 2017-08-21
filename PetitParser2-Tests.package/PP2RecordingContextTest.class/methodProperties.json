@@ -1,15 +1,16 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"contextOn:" : "JanKurs 11/22/2016 07:25",
-		"testAsFrequencyTable" : "JanKurs 11/20/2016 12:23",
-		"testDebugResultDebug" : "JanKurs 11/22/2016 07:25",
-		"testDebugResultNoDebug" : "JanKurs 11/22/2016 07:25",
-		"testFurthestPosition" : " 11/16/2016 18:57:26",
-		"testFurthestPositionBactrack" : " 11/16/2016 18:57:26",
 		"testFurthestPositionLiteralChoice" : " 11/16/2016 18:57:26",
-		"testMultipleProfilingStrategies" : "JanKurs 11/22/2016 07:22",
+		"testFurthestPositionBactrack" : " 11/16/2016 18:57:26",
+		"testAsFrequencyTable" : "JanKurs 11/20/2016 12:23",
+		"testDebugResultNoDebug" : "JanKurs 11/22/2016 07:25",
+		"testSwitchToDebugging" : "JanKurs 11/22/2016 07:34",
+		"contextOn:" : "JanKurs 11/22/2016 07:25",
 		"testParserRefreshCache" : "JanKurs 11/22/2016 07:34",
 		"testRecordingCache" : "JanKurs 11/22/2016 07:42",
-		"testSwitchToDebugging" : "JanKurs 11/22/2016 07:34" } }
+		"testDebugResultDebug" : "JanKurs 11/22/2016 07:25",
+		"testMultipleProfilingStrategies" : "JanKurs 11/22/2016 07:22",
+		"testFurthestPosition" : " 11/16/2016 18:57:26"
+	},
+	"class" : { }
+}

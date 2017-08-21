@@ -1,21 +1,22 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"assertCharacterSets:" : " 11/16/2016 18:57:10",
-		"charactersDo:" : " 11/16/2016 18:57:10",
-		"parse:withParser:withContext:" : " 11/16/2016 18:57:10",
-		"parsedCharacterSet:" : " 11/16/2016 18:57:10",
-		"testAny" : " 11/16/2016 18:57:10",
-		"testAnyExceptAnyOf" : " 11/16/2016 18:57:10",
-		"testAnyOf" : " 11/16/2016 18:57:10",
-		"testBlank" : " 11/16/2016 18:57:10",
-		"testChar" : " 11/16/2016 18:57:10",
-		"testDigit" : " 11/16/2016 18:57:10",
-		"testExpect" : " 11/16/2016 18:57:10",
 		"testHex" : " 11/16/2016 18:57:10",
+		"assertCharacterSets:" : " 11/16/2016 18:57:10",
 		"testLetter" : " 11/16/2016 18:57:10",
+		"testSpace" : " 11/16/2016 18:57:10",
+		"testWord" : " 11/16/2016 18:57:10",
+		"testAnyOf" : " 11/16/2016 18:57:10",
 		"testNewline" : " 11/16/2016 18:57:10",
 		"testSequenceParser" : " 11/16/2016 18:57:10",
-		"testSpace" : " 11/16/2016 18:57:10",
-		"testWord" : " 11/16/2016 18:57:10" } }
+		"testDigit" : " 11/16/2016 18:57:10",
+		"testAny" : " 11/16/2016 18:57:10",
+		"testBlank" : " 11/16/2016 18:57:10",
+		"testChar" : " 11/16/2016 18:57:10",
+		"charactersDo:" : " 11/16/2016 18:57:10",
+		"parsedCharacterSet:" : " 11/16/2016 18:57:10",
+		"parse:withParser:withContext:" : " 11/16/2016 18:57:10",
+		"testAnyExceptAnyOf" : " 11/16/2016 18:57:10",
+		"testExpect" : " 11/16/2016 18:57:10"
+	},
+	"class" : { }
+}

@@ -1,21 +1,20 @@
 {
-	"category" : "PetitParser2-Tests-Reparsing",
-	"classinstvars" : [
-		 ],
 	"classtraitcomposition" : "TPP2TypeAssertions classTrait",
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
+	"classvars" : [ ],
 	"instvars" : [
 		"key",
 		"change",
 		"context",
 		"memento",
 		"buffer",
-		"newBuffer" ],
+		"newBuffer"
+	],
 	"name" : "PP2InsertCharacterTest",
-	"pools" : [
-		 ],
+	"commentStamp" : "",
 	"super" : "TestCase",
 	"traitcomposition" : "TPP2TypeAssertions",
-	"type" : "normal" }
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "PetitParser2-Tests-Reparsing"
+}

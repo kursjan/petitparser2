@@ -1,0 +1,1 @@
+Strategy that can be used as a decorator around another strategy.

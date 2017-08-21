@@ -1,6 +1,7 @@
 {
-	"class" : {
-		 },
 	"instance" : {
 		"assert:isKindOf:" : " 11/16/2016 18:57:10",
-		"deny:isKindOf:" : " 11/16/2016 18:57:10" } }
+		"deny:isKindOf:" : " 11/16/2016 18:57:10"
+	},
+	"class" : { }
+}

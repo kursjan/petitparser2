@@ -1,18 +1,19 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"setUp" : " 11/16/2016 18:57:10",
-		"streamOn:" : " 11/16/2016 18:57:10",
-		"streamOn:bufferSize:" : " 11/16/2016 18:57:10",
-		"testAtEndDifferentPosition" : " 11/16/2016 18:57:10",
-		"testContents" : " 11/16/2016 18:57:10",
-		"testContentsAfterRead" : " 11/16/2016 18:57:10",
-		"testCopyFromToBufferOverflow" : " 11/16/2016 18:57:10",
-		"testCopyFromToOOB" : " 11/16/2016 18:57:10",
-		"testCopyFromToSmallBuffer" : " 11/16/2016 18:57:10",
-		"testInstanceCreation" : " 11/16/2016 18:57:10",
-		"testInstanceCreationSize" : " 11/16/2016 18:57:10",
 		"testRandomAccessTooMuchBacktrack" : " 11/16/2016 18:57:10",
+		"testContents" : " 11/16/2016 18:57:10",
+		"testInstanceCreation" : " 11/16/2016 18:57:10",
+		"streamOn:bufferSize:" : " 11/16/2016 18:57:10",
 		"testRandomAccessTwoPasses" : " 11/16/2016 18:57:10",
-		"testUncheckedNext" : " 11/16/2016 18:57:10" } }
+		"testCopyFromToBufferOverflow" : " 11/16/2016 18:57:10",
+		"testAtEndDifferentPosition" : " 11/16/2016 18:57:10",
+		"streamOn:" : " 11/16/2016 18:57:10",
+		"testCopyFromToSmallBuffer" : " 11/16/2016 18:57:10",
+		"testCopyFromToOOB" : " 11/16/2016 18:57:10",
+		"testInstanceCreationSize" : " 11/16/2016 18:57:10",
+		"testUncheckedNext" : " 11/16/2016 18:57:10",
+		"testContentsAfterRead" : " 11/16/2016 18:57:10",
+		"setUp" : " 11/16/2016 18:57:10"
+	},
+	"class" : { }
+}

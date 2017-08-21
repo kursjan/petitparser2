@@ -1,12 +1,13 @@
 {
-	"class" : {
-		 },
 	"instance" : {
+		"testMemoizeMatch" : " 11/16/2016 18:57:10",
 		"assertMemoized:" : " 11/16/2016 18:57:10",
 		"denyMemoized:" : " 11/16/2016 18:57:10",
 		"setUp" : " 11/16/2016 18:57:10",
-		"testMemoize" : " 11/16/2016 18:57:10",
-		"testMemoizeMatch" : " 11/16/2016 18:57:10",
 		"testMemoizeMemoized" : " 11/16/2016 18:57:10",
 		"testMemoizePop" : " 11/16/2016 18:57:10",
-		"testMemoizePush" : " 11/16/2016 18:57:10" } }
+		"testMemoizePush" : " 11/16/2016 18:57:10",
+		"testMemoize" : " 11/16/2016 18:57:10"
+	},
+	"class" : { }
+}

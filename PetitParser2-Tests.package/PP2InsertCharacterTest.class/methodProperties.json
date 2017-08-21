@@ -1,17 +1,18 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"setUp" : " 11/16/2016 18:57:10",
-		"testChangeAfterRange" : " 11/16/2016 18:57:10",
-		"testChangeBeforeRange" : " 11/16/2016 18:57:10",
-		"testChangeBetweenAnd" : " 11/16/2016 18:57:10",
-		"testUpdateBufferChangeAfter" : " 11/16/2016 18:57:10",
-		"testUpdateBufferChangeBefore" : " 11/16/2016 18:57:10",
-		"testUpdateBufferInRange" : " 11/16/2016 18:57:10",
-		"testUpdateBufferInRangeHighBoundary" : " 11/16/2016 18:57:10",
-		"testUpdateBufferInRangeLowBoundary" : " 11/16/2016 18:57:10",
 		"testUpdateTokens" : " 11/16/2016 18:57:10",
+		"testUpdateTokensSingleToken" : " 11/16/2016 18:57:10",
+		"testUpdateBufferInRange" : " 11/16/2016 18:57:10",
 		"testUpdateTokensAfterChange" : " 11/16/2016 18:57:10",
+		"testChangeBeforeRange" : " 11/16/2016 18:57:10",
+		"testUpdateBufferChangeBefore" : " 11/16/2016 18:57:10",
+		"testUpdateBufferInRangeHighBoundary" : " 11/16/2016 18:57:10",
+		"testChangeBetweenAnd" : " 11/16/2016 18:57:10",
+		"testUpdateBufferInRangeLowBoundary" : " 11/16/2016 18:57:10",
 		"testUpdateTokensOnce" : " 11/16/2016 18:57:10",
-		"testUpdateTokensSingleToken" : " 11/16/2016 18:57:10" } }
+		"testUpdateBufferChangeAfter" : " 11/16/2016 18:57:10",
+		"testChangeAfterRange" : " 11/16/2016 18:57:10",
+		"setUp" : " 11/16/2016 18:57:10"
+	},
+	"class" : { }
+}

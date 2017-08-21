@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "PP2TokenStrategy",
+	"name" : "PP2CreateToken",
 	"type" : "normal"
 }

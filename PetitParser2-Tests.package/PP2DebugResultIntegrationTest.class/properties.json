@@ -1,16 +1,13 @@
 {
-	"category" : "PetitParser2-Tests-Debug",
-	"classinstvars" : [
-		 ],
 	"classtraitcomposition" : "TPP2CollectionAssertions classTrait + TPP2TypeAssertions classTrait",
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
-	"instvars" : [
-		 ],
+	"classvars" : [ ],
+	"instvars" : [ ],
 	"name" : "PP2DebugResultIntegrationTest",
-	"pools" : [
-		 ],
+	"commentStamp" : "",
 	"super" : "TestCase",
 	"traitcomposition" : "TPP2CollectionAssertions + TPP2TypeAssertions",
-	"type" : "normal" }
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "PetitParser2-Tests-Debug"
+}
