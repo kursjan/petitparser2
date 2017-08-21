@@ -1,3 +1,3 @@
-testing - rpc rewritter
+testing - rpn rewritter
 testRewriteSumAfterMultiplication
-	self assertRpcRewrite: '1 * 2 + 3' to: '1 * 2 3 +'.
+	self assertRpnRewrite: '1 * 2 + 3' to: '1 * 2 3 +'.

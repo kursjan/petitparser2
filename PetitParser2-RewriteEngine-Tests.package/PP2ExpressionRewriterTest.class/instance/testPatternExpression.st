@@ -1,7 +1,7 @@
 testing - pattern
 testPatternExpression
 	| addition bPattern |
-	self parse: '`a` + `b`' rule: #terms.
+	self parsePattern: '`a` + `b`' rule: #terms.
 	
 	addition := result children first.
 	self assert: addition name = 'add'.

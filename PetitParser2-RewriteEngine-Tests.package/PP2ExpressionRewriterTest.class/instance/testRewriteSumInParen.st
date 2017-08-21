@@ -1,3 +1,3 @@
-testing - rpc rewritter
+testing - rpn rewritter
 testRewriteSumInParen
-	self assertRpcRewrite: '(1 + 2)' to: '(1 2 +)'.
+	self assertRpnRewrite: '(1 + 2)' to: '(1 2 +)'.

@@ -1,3 +1,3 @@
-testing - rpc rewritter
+testing - rpn rewritter
 testRewriteDeep
-	self assertRpcRewrite: '(1 + 2) + (3 + 4)' to: '(1 2 +)  (3 4 +) +'.
+	self assertRpnRewrite: '(1 + 2) + (3 + 4)' to: '(1 2 +)  (3 4 +) +'.

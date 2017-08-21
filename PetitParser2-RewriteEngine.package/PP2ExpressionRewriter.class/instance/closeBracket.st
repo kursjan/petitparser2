@@ -1,3 +1,3 @@
 accessing
 closeBracket
-	^ super closeBracket smaccToken
+	^ super closeBracket parseToken

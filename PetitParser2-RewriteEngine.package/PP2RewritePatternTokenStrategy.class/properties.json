@@ -7,7 +7,7 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"pattern",
-		"name"
+		"ruleName"
 	],
 	"name" : "PP2RewritePatternTokenStrategy",
 	"type" : "normal"

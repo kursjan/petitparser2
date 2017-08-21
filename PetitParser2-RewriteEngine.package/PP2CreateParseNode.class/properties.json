@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "PP2DelegateNode",
+	"category" : "PetitParser2-RewriteEngine-Nodes",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"nodeName"
+	],
+	"name" : "PP2CreateParseNode",
+	"type" : "normal"
+}

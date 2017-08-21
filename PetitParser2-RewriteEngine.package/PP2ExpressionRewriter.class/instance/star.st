@@ -1,3 +1,3 @@
 accessing
 star
-	^ super star smaccToken
+	^ super star parseToken

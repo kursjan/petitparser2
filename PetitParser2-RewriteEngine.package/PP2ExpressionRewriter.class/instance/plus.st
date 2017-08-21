@@ -1,3 +1,3 @@
 accessing
 plus
-	^ super plus smaccToken
+	^ super plus parseToken

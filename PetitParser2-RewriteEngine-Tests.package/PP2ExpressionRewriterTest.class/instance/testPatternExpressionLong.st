@@ -1,3 +1,3 @@
 testing - pattern
 testPatternExpressionLong
-	self parse: '`a` + `b` + `c`' rule: #terms.
+	self parsePattern: '`a` + `b` + `c`' rule: #terms.

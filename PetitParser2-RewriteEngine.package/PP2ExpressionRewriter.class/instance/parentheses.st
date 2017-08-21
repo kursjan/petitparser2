@@ -1,5 +1,5 @@
 accessing
 parentheses
-	^ super parentheses smaccNode 
+	^ super parentheses parseNode 
 		nodeName: #parentheses;
 		yourself

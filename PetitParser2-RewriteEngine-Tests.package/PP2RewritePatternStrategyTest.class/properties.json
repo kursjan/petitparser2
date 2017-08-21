@@ -1,0 +1,18 @@
+{
+	"classtraitcomposition" : "TPP2TypeAssertions classTrait",
+	"classvars" : [ ],
+	"instvars" : [
+		"node",
+		"strategy",
+		"createParseNode",
+		"createParseNodeStrategy"
+	],
+	"name" : "PP2RewritePatternStrategyTest",
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"traitcomposition" : "TPP2TypeAssertions",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "PetitParser2-RewriteEngine-Tests-Strategies"
+}

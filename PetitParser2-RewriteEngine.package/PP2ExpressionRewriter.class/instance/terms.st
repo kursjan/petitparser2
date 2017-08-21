@@ -1,5 +1,5 @@
 accessing
 terms
-	^ super terms smaccNode
+	^ super terms parseNode
 		nodeName: #terms;
 		yourself

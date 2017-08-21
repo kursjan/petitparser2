@@ -1,5 +1,5 @@
 accessing
 addition
-	^ super addition smaccNode
+	^ super addition parseNode
 		nodeName: #add;
 		yourself

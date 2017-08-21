@@ -1,0 +1,15 @@
+{
+	"classtraitcomposition" : "TPP2TypeAssertions classTrait",
+	"classvars" : [ ],
+	"instvars" : [
+		"result"
+	],
+	"name" : "TPP2RewritePatternTest",
+	"commentStamp" : "",
+	"super" : "PP2AbstractParserTest",
+	"traitcomposition" : "TPP2TypeAssertions",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "PetitParser2-RewriteEngine-Tests-Parsing"
+}

@@ -1,15 +1,16 @@
 {
 	"instance" : {
-		"primary" : "JanKurs 8/20/2017 13:20",
-		"closeBracket" : "JanKurs 8/15/2017 07:38",
-		"openBracket" : "JanKurs 8/15/2017 07:38",
-		"star" : "JanKurs 8/15/2017 07:38",
-		"addition" : "JanKurs 8/20/2017 13:04",
-		"terms" : "JanKurs 8/20/2017 13:05",
-		"parentheses" : "JanKurs 8/20/2017 13:05",
+		"primary" : "JanKurs 8/20/2017 18:06",
+		"rewriteRpn:" : "JanKurs 8/20/2017 18:33",
+		"closeBracket" : "JanKurs 8/20/2017 18:07",
+		"openBracket" : "JanKurs 8/20/2017 18:07",
+		"star" : "JanKurs 8/20/2017 18:07",
+		"addition" : "JanKurs 8/20/2017 18:06",
+		"terms" : "JanKurs 8/20/2017 18:06",
+		"parentheses" : "JanKurs 8/20/2017 18:06",
 		"rewrite:" : "JanKurs 8/20/2017 10:28",
-		"plus" : "JanKurs 7/2/2017 14:59",
-		"number" : "JanKurs 8/20/2017 13:05"
+		"plus" : "JanKurs 8/20/2017 18:07",
+		"number" : "JanKurs 8/20/2017 18:07"
 	},
 	"class" : { }
 }

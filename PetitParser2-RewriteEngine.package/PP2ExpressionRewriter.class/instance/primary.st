@@ -1,5 +1,5 @@
 accessing
 primary
-	^ super primary smaccNode
+	^ super primary parseNode
 		nodeName: #primary;
 		yourself

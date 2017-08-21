@@ -1,0 +1,13 @@
+{
+	"instance" : {
+		"testRewritePatternLongestMatch" : "JanKurs 8/21/2017 08:29",
+		"testRewritePatternParseNode" : "JanKurs 8/21/2017 08:40",
+		"testRewritePattern" : "JanKurs 8/21/2017 08:33",
+		"testRewritePatternParseNode_pattern" : "JanKurs 8/21/2017 08:40",
+		"testRewritePatternToken" : "JanKurs 8/21/2017 08:37",
+		"parse:withParser:withContext:" : "JanKurs 8/21/2017 08:36",
+		"testRewritePatternRepetition" : "JanKurs 8/21/2017 08:30",
+		"testRewritePatternToken_pattern" : "JanKurs 8/21/2017 08:43"
+	},
+	"class" : { }
+}
