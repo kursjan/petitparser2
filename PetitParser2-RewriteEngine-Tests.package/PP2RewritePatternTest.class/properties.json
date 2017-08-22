@@ -4,7 +4,7 @@
 	"instvars" : [
 		"result"
 	],
-	"name" : "TPP2RewritePatternTest",
+	"name" : "PP2RewritePatternTest",
 	"commentStamp" : "",
 	"super" : "PP2AbstractParserTest",
 	"traitcomposition" : "TPP2TypeAssertions",

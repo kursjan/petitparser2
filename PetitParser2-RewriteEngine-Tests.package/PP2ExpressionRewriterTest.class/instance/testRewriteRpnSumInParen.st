@@ -1,3 +1,3 @@
 testing - rpn rewritter
-testRewriteSumInParen
+testRewriteRpnSumInParen
 	self assertRpnRewrite: '(1 + 2)' to: '(1 2 +)'.
