@@ -1,6 +1,6 @@
 accessing
-patternToken: aPP2RewriteToken
+patternToken: token
 	self assert: patternToken isNil.
 	
-	children := OrderedCollection  with: aPP2RewriteToken.
-	patternToken := aPP2RewriteToken
+	children := OrderedCollection  with: token.
+	patternToken := token

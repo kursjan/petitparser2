@@ -1,15 +1,18 @@
 {
 	"instance" : {
 		"completeSource" : "JanKurs 7/2/2017 16:47",
-		"patternToken:" : "JanKurs 8/14/2017 08:09",
+		"patternToken:" : "JanKurs 8/22/2017 21:36",
 		"children" : "JanKurs 8/20/2017 10:52",
 		"name" : "JanKurs 8/8/2017 08:03",
 		"isParseNode" : "JanKurs 8/7/2017 21:08",
+		"=" : "JanKurs 8/22/2017 21:35",
 		"name:" : "JanKurs 8/14/2017 08:26",
 		"parent" : "JanKurs 8/14/2017 08:11",
 		"startPosition" : "JanKurs 8/19/2017 19:15",
-		"match:inContext:" : "JanKurs 8/20/2017 11:47",
+		"match:inContext:" : "JanKurs 8/22/2017 21:52",
+		"hash" : "JanKurs 8/22/2017 21:21",
 		"isPatternParseNode" : "JanKurs 8/7/2017 21:23",
+		"patternToken" : "JanKurs 8/22/2017 21:36",
 		"parent:" : "JanKurs 8/14/2017 08:11",
 		"completeSource:" : "JanKurs 7/2/2017 16:47"
 	},
