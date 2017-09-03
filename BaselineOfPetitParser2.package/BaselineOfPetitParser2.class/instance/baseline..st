@@ -11,9 +11,9 @@ baseline: spec
 			package: 'PetitParser2-Tests' with: [ spec requires: #('PetitParser2') ];
 			package: 'PetitParser2-Backtracking' with: [ spec requires: #('PetitParser2') ];
 			package: 'PetitParser2-Backtracking-Tests' with: [ spec requires: #('PetitParser2-Validation' 'PetitParser2-Tests') ];
-			package: 'PetitParser2-Tutorial' with: [ spec requires: #('PetitParser2') ];
 			package: 'PetitParser2-Validation' with: [ spec requires: #('PetitParser2') ];
 			package: 'PetitParser2-Validation-Tests' with: [ spec requires: #('PetitParser2-Validation' 'PetitParser2-Tests') ];
+			package: 'PetitParser2-Tutorial' with: [ spec requires: #('PetitParser2' 'PetitParser2-Validation') ];
 			package: 'PetitParser2-Benchmarks' with: [ spec requires: #('PetitParser2' 'PetitParser2-Validation') ];
 			package: 'PetitParser2-Smalltalk' with: [ spec requires: #('PetitParser2' 'PetitParser2-Benchmarks') ];
 			package: 'PetitParser2-Smalltalk-Tests' with: [ spec requires: #('PetitParser2-Smalltalk' 'PetitParser2-Tests') ];
