@@ -1,7 +1,7 @@
 parsing
 parseOn: context
 	| retval memento tokenEndPosition patternToken |
-	"TODO JK: avoid instance creation"
+
 	memento := self remember: context.
 	patternToken := self patternTokenStrategy parseOn: context.
 	tokenEndPosition := context position.
