@@ -3,6 +3,7 @@ SmalltalkCISpec {
     SCIMetacelloLoadSpec {
       #baseline : 'PetitParser2',
       #platforms : [ #pharo ],
+      #load : [ 'PetitParser2-IDE', 'PetitParser2-Headless' ],
       #directory : ''
     }
   ]
