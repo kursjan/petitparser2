@@ -1,11 +1,6 @@
 language: smalltalk
 sudo: false
 
-# Download sources
-# JK: Disabled, now downloaded using the ZnClient
-#before_script: 
-#  - ./.utilities/loadSources.sh
-
 # Select operating system(s)
 os:
   - linux
@@ -19,3 +14,8 @@ smalltalk:
   - Pharo-6.0
 #  - Moose-trunk
 #  - Moose-6.1
+#
+
+smalltalk_config:
+  - .smalltalk.ston
+  - .bleedingEdge.ston
