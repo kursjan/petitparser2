@@ -5,7 +5,7 @@ SmalltalkCISpec {
       #platforms : [ #pharo ],
       #load : [ 'PetitParser2-Headless' ],
       #directory : '',
-      #varsion : #headless
+      #version : #headless
     }
   ]
 }
