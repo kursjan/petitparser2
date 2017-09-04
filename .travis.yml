@@ -13,7 +13,7 @@ os:
 
 # Select compatible Smalltalk image(s)
 smalltalk:
-  - Pharo-alpha
+#  - Pharo-alpha
   - Pharo-stable
   - Pharo-5.0
   - Pharo-6.0
