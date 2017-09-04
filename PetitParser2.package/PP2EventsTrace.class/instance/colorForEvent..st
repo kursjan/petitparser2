@@ -5,6 +5,7 @@ colorForEvent: event
 	
 	colors isNil ifTrue: [ 
 		eventSet := (entries collect: #event) asIdentitySet asArray.
-		colors := RTMultiLinearColorForIdentity new objects: eventSet.
+		self flag: 'JK: Dependency on Roassal? Should probably move this method!'.
+		colors := (Smalltalk at: #RTMultiLinearColorForIdentity) new objects: eventSet.
 	].
 	^ colors 	rtValue: event

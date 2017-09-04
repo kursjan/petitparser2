@@ -10,5 +10,5 @@ testDocument2
 	htmlElement := self result secondChild.
 	self assert: htmlElement name equals: 'html'.
 	self assert: htmlElement children size equals: 2.
-	self assert: htmlElement firstChild isKindOf: HtmlText.
+	self assert: htmlElement firstChild isKindOf: PP2HtmlText.
 	self assert: htmlElement secondChild name equals: 'body'.
