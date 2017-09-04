@@ -18,4 +18,4 @@ smalltalk:
 
 smalltalk_config:
   - .smalltalk.ston
-  - .bleedingEdge.ston
+  - .smalltalk-headless.ston
