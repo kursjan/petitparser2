@@ -23,9 +23,12 @@ smalltalk_config:
 matrix:
   include:
     - smalltalk: Pharo-stable
-      smalltalk_config: .smalltalk.ston
+      smalltalk_config: .headless.ston
   include:
-    - smalltalk: Pharo-stable
+    - smalltalk: Pharo-6.0
+      smalltalk_config: .headless.ston
+  include:
+    - smalltalk: Pharo-5.0
       smalltalk_config: .headless.ston
   allow_failures:
    - smalltalk: Pharo-alpha
