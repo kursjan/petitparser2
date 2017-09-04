@@ -8,7 +8,7 @@ os:
 
 # Select compatible Smalltalk image(s)
 smalltalk:
-#  - Pharo-alpha
+  - Pharo-alpha
   - Pharo-stable
   - Pharo-5.0
   - Pharo-6.0
@@ -19,3 +19,7 @@ smalltalk:
 smalltalk_config:
   - .smalltalk.ston
   - .headless.ston
+
+matrix:
+  allow_failures:
+          - smalltalk: Pharo-alpha
