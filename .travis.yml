@@ -21,5 +21,11 @@ smalltalk_config:
   - .headless.ston
 
 matrix:
+  include:
+    - smalltalk: Pharo-stable
+      smalltalk_config: .smalltalk.ston
+  include:
+    - smalltalk: Pharo-stable
+      smalltalk_config: .headless.ston
   allow_failures:
-          - smalltalk: Pharo-alpha
+   - smalltalk: Pharo-alpha
