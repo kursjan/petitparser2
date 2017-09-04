@@ -1,0 +1,11 @@
+SmalltalkCISpec {
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #baseline : 'PetitParser2',
+      #platforms : [ #pharo ],
+      #load : [ 'PetitParser2-Headless' ],
+      #directory : '',
+      #version : #headless
+    }
+  ]
+}

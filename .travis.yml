@@ -1,11 +1,6 @@
 language: smalltalk
 sudo: false
 
-# Download sources
-# JK: Disabled, now downloaded using the ZnClient
-#before_script: 
-#  - ./.utilities/loadSources.sh
-
 # Select operating system(s)
 os:
   - linux
@@ -13,9 +8,25 @@ os:
 
 # Select compatible Smalltalk image(s)
 smalltalk:
-#  - Pharo-alpha
+  - Pharo-alpha
   - Pharo-stable
   - Pharo-5.0
   - Pharo-6.0
 #  - Moose-trunk
 #  - Moose-6.1
+#
+
+smalltalk_config:
+  - .smalltalk.ston
+  - .headless.ston
+
+matrix:
+  include:
+    - smalltalk: Pharo-stable
+      smalltalk_config: .headless.ston
+    - smalltalk: Pharo-6.0
+      smalltalk_config: .headless.ston
+    - smalltalk: Pharo-5.0
+      smalltalk_config: .headless.ston
+  allow_failures:
+   - smalltalk: Pharo-alpha
