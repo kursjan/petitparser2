@@ -18,4 +18,4 @@ smalltalk:
 
 smalltalk_config:
   - .smalltalk.ston
-  - .smalltalk-headless.ston
+  - .headless.ston
