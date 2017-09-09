@@ -1,3 +1,3 @@
-*PetitParser2-GUI
+debugging
 debugAdaptableWithContext: context
 	^ self enableDebug parseAdaptableWithContext: context

@@ -1,9 +1,9 @@
 tests
 testListReplace
 	| one other another list |
-	one := $a asParser.
-	other := $b asParser.
-	another := $c asParser.
+	one := $a asPParser.
+	other := $b asPParser.
+	another := $c asPParser.
 	list := one , another , one.
 	self assert: list children first == one.
 	self assert: list children second == another.

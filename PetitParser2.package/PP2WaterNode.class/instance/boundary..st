@@ -1,3 +1,3 @@
 accessing
 boundary: anObject
-	self boundaryElements: anObject asCollection
+	self boundaryElements: (self toCollection: anObject)
