@@ -1,3 +1,3 @@
-*PetitParser2-GUI
+conversion
 recording
 	^ PP2RecordingTrimmingCache on: strategy

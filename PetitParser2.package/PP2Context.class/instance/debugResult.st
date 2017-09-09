@@ -1,4 +1,4 @@
-*PetitParser2-GUI
+debugging
 debugResult
 	^ self globalAt: #debugResult ifAbsentPut: [ 
 		| context |

@@ -4,7 +4,9 @@ printOn: aStream
 	aStream nextPutAll: literal asString.
 	aStream nextPut: $'.
 	
+	self flag: 'JK: delete?'
+"	
 	aStream nextPut: $(.
-	aStream nextPutAll: self displayName.
+	aStream nextPutAll: literal printString.
 	aStream nextPut: $).
-		
+"

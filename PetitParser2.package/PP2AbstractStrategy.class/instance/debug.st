@@ -1,3 +1,3 @@
-*PetitParser2-GUI
+conversion
 debug
 	^ PP2DebuggingStrategy on: self

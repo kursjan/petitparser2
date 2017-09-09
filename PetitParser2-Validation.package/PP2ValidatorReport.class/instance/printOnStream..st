@@ -1,6 +1,6 @@
 printing
 printOnStream: stream
-	stream cr; nextPutAll: 'Validated in: ', time asMilliseconds asString, 'ms on ', sources  size asString, ' files'.
+	stream cr; nextPutAll: 'Validated in: ', time asMilliSeconds asString, 'ms on ', sources  size asString, ' files'.
 	stream cr; nextPutAll: 'precision: ', (self precision printShowingDecimalPlaces: 3).
 	stream cr; nextPutAll: 'recall: ', (self recall printShowingDecimalPlaces: 3).
 	stream cr; nextPutAll: 'total elements: ', (self total asString).
