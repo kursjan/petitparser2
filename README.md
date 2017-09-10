@@ -52,7 +52,7 @@ Use the `PetitParser2-Headless` to avoid loading `GToolkit` and `Roassal2`:
 Metacello new
     baseline: 'PetitParser2';
     repository: 'github://kursjan/petitparser2';
-    load: 'PetitParser2-Headless'
+    load: 'Headless'
 ```
 
 ## [PetitParser2 Book](https://kursjan.github.io/petitparser2/pillar-book/build/book.html)
