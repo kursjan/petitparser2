@@ -1,17 +1,17 @@
-rewriting
-rewrite: input
+*PetitParser2-RewriteEngine
+rewriterFrom: pattern to: output named: comment
 	| compositeRewrite matcher transformation rewrite rewriter |
 	compositeRewrite := SmaCCRewriteFile new.
 	compositeRewrite parserClass: self class.
 	matcher := SmaCCRewriteTreeMatch new.
-	matcher source: '`a` + `b`'.
+	matcher source: pattern.
 	transformation := SmaCCRewriteStringTransformation new.
-	transformation string: '`a` `b` +'.
+	transformation string: output.
 	rewrite := SmaCCRewrite 
-		comment: 'Postfix rewriter' 
+		comment: comment 
 		match: matcher
 		transformation: transformation.
 	compositeRewrite addTransformation: rewrite.
 	rewriter := SmaCCRewriteEngine new.
 	rewriter rewriteRule: compositeRewrite.
-	^ rewriter rewriteTree: ((self parse: input) completeSource: (SmaCCString on: input))
+	^ rewriter
