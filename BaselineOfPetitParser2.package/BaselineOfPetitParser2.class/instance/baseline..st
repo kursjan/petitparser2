@@ -24,6 +24,11 @@ baseline: spec
 			package: 'PetitParser2-MSE' with: [ spec requires: #('PetitParser2') ];
 			package: 'PetitParser2-ManifestMf' with: [spec requires: #('PetitParser2') ].
 
+		spec baseline: 'SmaCC' with: [ 
+			spec
+				repository: 'github://ThierryGoubier/SmaCC';
+				loads: 'Rewrite' ].
+
 		spec project: 'Glamour' with: [
 			spec
 				versionString: #'development';
@@ -35,6 +40,7 @@ baseline: spec
 					versionString: #'development';
 					className: #ConfigurationOfRoassal2;
 					repository: 'http://www.smalltalkhub.com/mc/ObjectProfile/Roassal2/main' ].
+				
 		spec project: 'GToolkit' with: [
 				spec
 					className: #ConfigurationOfGToolkit;
@@ -45,6 +51,10 @@ baseline: spec
 			package: 'PetitParser2-GUI' with: [ spec requires: #('Glamour' 'Roassal2' 'PetitParser2') ];
 			package: 'PetitParser2-GUI-Tests' with: [ spec requires: #('PetitParser2-GUI') ];
 			package: 'PetitParser2-Benchmarks-GUI' with: [ spec requires: #('PetitParser2-Benchmarks') ].
+			
+		spec
+			package: 'PetitParser2-RewriteEngine' with: [ spec requires: #('PetitParser2' 'SmaCC') ];
+			package: 'PetitParser2-RewriteEngine-Tests' with: [ spec requires: #('PetitParser2-RewriteEngine' 'PetitParser2-Tests') ].
 			
 		spec group: 'PetitParser2-Headless' with: #(	
 											'PetitParser2' 
@@ -68,4 +78,8 @@ baseline: spec
 											'PetitParser2-Smalltalk-Tests' 
 											'PetitParser2-Html-Tests' 
 											'PetitParser2-Validation-Tests').
-	] 
+		
+		spec group: 'RewriteEngine' with: #(
+											'PetitParser2-RewriteEngine'
+											'PetitParser2-RewriteEngine-Tests').
+	]
