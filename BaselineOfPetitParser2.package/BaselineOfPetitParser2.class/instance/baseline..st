@@ -56,7 +56,7 @@ baseline: spec
 			package: 'PetitParser2-RewriteEngine' with: [ spec requires: #('PetitParser2' 'SmaCC') ];
 			package: 'PetitParser2-RewriteEngine-Tests' with: [ spec requires: #('PetitParser2-RewriteEngine' 'PetitParser2-Tests') ].
 			
-		spec group: 'default' with: #('Tools').
+		spec group: 'default' with: #('UI').
 		spec group: 'Headless' with: #(	
 											'PetitParser2' 
 											'PetitParser2-Tests' 
@@ -71,7 +71,7 @@ baseline: spec
 											).		
 													
 		spec group: 'UI' with: #( 
-											'PetitParser2-Headless'
+											'Headless'
 											'PetitParser2-GUI').
 	
 		spec group: 'Tests' with: #(
