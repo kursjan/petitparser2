@@ -7,7 +7,7 @@ parseOn: context
 	].
 	
 	^ PP2ParseNode new
-		children: retval asCollection;
+		children: (self toCollection: retval);
 		startPosition: startPosition + 1;
 		stopPosition: context position;
 		name: self node nodeName;

@@ -1,6 +1,7 @@
 {
 	"instance" : { },
 	"class" : {
-		"parseAndCacheAll:startingAt:" : "JanKurs 8/22/2017 07:47"
+		"parseAndCacheAllPossibleStates:" : "JanKurs 9/10/2017 13:37",
+		"parseAndCacheAll:startingAt:" : "JanKurs 9/10/2017 13:37"
 	}
 }

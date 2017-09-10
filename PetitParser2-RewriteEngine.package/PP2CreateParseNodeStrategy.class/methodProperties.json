@@ -1,7 +1,8 @@
 {
 	"instance" : {
 		"patternMatching" : "JanKurs 8/21/2017 07:17",
-		"parseOn:" : "JanKurs 8/20/2017 18:26"
+		"toCollection:" : "JanKurs 9/10/2017 13:12",
+		"parseOn:" : "JanKurs 9/10/2017 13:12"
 	},
 	"class" : { }
 }
