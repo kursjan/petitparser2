@@ -1,16 +1,19 @@
 {
 	"instance" : {
 		"primary" : "JanKurs 8/20/2017 18:06",
-		"rewriteRpn:" : "JanKurs 9/10/2017 20:34",
+		"rewriteRpn:" : "JanKurs 9/10/2017 21:17",
 		"closeBracket" : "JanKurs 8/20/2017 18:07",
 		"openBracket" : "JanKurs 8/20/2017 18:07",
 		"star" : "JanKurs 8/20/2017 18:07",
 		"addition" : "JanKurs 8/20/2017 18:06",
+		"sumRewriter" : "JanKurs 9/10/2017 21:17",
 		"terms" : "JanKurs 8/20/2017 18:06",
 		"parentheses" : "JanKurs 8/20/2017 18:06",
+		"rpnRewriter" : "JanKurs 9/10/2017 21:29",
+		"multiplication" : "JanKurs 9/10/2017 21:38",
 		"plus" : "JanKurs 8/20/2017 18:07",
 		"number" : "JanKurs 8/20/2017 18:07",
-		"rewriteSums:" : "JanKurs 9/10/2017 20:32"
+		"rewriteSums:" : "JanKurs 9/10/2017 21:17"
 	},
 	"class" : { }
 }
