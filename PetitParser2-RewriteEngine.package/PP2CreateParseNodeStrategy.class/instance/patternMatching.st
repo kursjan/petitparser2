@@ -1,3 +1,3 @@
 *PetitParser2-RewriteEngine
 patternMatching
-	^ PP2RewritePatternStrategy on: self
+	^ PP2PatternStrategy on: self

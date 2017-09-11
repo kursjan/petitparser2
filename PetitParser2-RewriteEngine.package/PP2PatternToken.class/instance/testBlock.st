@@ -1,3 +1,3 @@
 accessing
 testBlock
-	^ [ :arg | true ]
+	^ testBlock ifNil: [ [ :arg | true ] ]

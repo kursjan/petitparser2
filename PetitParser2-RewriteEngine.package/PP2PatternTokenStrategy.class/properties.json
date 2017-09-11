@@ -9,6 +9,6 @@
 		"pattern",
 		"ruleName"
 	],
-	"name" : "PP2RewritePatternTokenStrategy",
+	"name" : "PP2PatternTokenStrategy",
 	"type" : "normal"
 }

@@ -1,6 +1,6 @@
 accessing
 patternTokenStrategy
 	patternTokenStrategy ifNil: [ 
-		patternTokenStrategy := PP2RewritePatternTokenStrategy new
+		patternTokenStrategy := PP2PatternTokenStrategy new
 	].
 	^ patternTokenStrategy 
