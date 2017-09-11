@@ -9,7 +9,9 @@
 		"collection",
 		"start",
 		"stop",
-		"parent"
+		"parent",
+		"testBlock",
+		"name"
 	],
 	"name" : "PP2PatternToken",
 	"type" : "normal"

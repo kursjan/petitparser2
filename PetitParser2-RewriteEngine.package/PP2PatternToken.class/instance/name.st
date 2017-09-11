@@ -1,3 +1,5 @@
 accessing
 name
-	^ self value copyFrom: 2 to: (self value size - 1)
+	self assert: name isNotNil.
+	
+	^ name	

@@ -1,8 +1,12 @@
 {
 	"instance" : {
+		"stopIndexFor:" : "JanKurs 8/8/2017 08:17",
+		"move:after:withWhitespace:" : "JanKurs 9/11/2017 19:40",
+		"insert:before:" : "JanKurs 9/10/2017 22:15",
 		"computeStringFor:" : "JanKurs 9/10/2017 13:48",
+		"originalStartIndexFor:" : "JanKurs 9/11/2017 19:41",
 		"startIndexFor:" : "JanKurs 8/14/2017 21:09",
-		"stopIndexFor:" : "JanKurs 8/8/2017 08:17"
+		"insert:after:" : "JanKurs 9/11/2017 19:40"
 	},
 	"class" : { }
 }

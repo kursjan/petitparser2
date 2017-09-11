@@ -1,5 +1,5 @@
 parsing
 pattern
 	^ pattern ifNil: [ 
-		pattern := self rewritePattern
+		pattern := self patternToken
 	]

@@ -8,6 +8,6 @@
 	"instvars" : [
 		"patternTokenStrategy"
 	],
-	"name" : "PP2RewritePatternStrategy",
+	"name" : "PP2PatternStrategy",
 	"type" : "normal"
 }
