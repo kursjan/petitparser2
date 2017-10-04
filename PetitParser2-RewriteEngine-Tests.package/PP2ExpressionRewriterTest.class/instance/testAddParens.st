@@ -1,5 +1,5 @@
 testing - rewrite
-testRewriteAddParens
+testAddParens
 	| pattern |
 	pattern := self patternFrom: '`a` `op{beToken}` `b`' to: '`(a)` `op` `(b)`'.
 	
