@@ -1,3 +1,7 @@
 *PetitParser2-RewriteEngine
 parseAndCacheAllPossibleStates: source
-	^ Array  with: (self new enablePatternMatching parse: source)
+	| result | 
+	
+	result := self new enablePatternMatching parse: source.
+	self assert: result isPetit2Success.
+	^ Array with: result

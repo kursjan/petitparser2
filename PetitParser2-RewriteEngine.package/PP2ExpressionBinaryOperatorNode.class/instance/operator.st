@@ -1,0 +1,3 @@
+accessing
+operator
+	^ self second

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "PP2ParseNode",
+	"category" : "PetitParser2-RewriteEngine-Examples",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PP2ExpressionBinaryOperatorNode",
+	"type" : "normal"
+}

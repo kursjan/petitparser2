@@ -1,6 +1,13 @@
 accessing
 whitespaceRpnRewriter
-    ^ self parserInstance
-        rewriterFrom: '`a` `op{beToken}` `b`'
-        to: '`\a\` `\b\` `op`'
-        named: 'Whitespace RPN Rewriter'
+	| rewriter |
+	rewriter := SmaCCRewriteEngine new.
+	rewriter
+		rewriteRule:
+			(SmaCCRewriteRuleFileParser
+				parse:
+					'Parser: PP2ExpressionRewriter
+					>>>`a` `op{beToken}` `b`<<<
+					->
+					>>>`\a\` `\b\` `op`<<<').
+	^ rewriter

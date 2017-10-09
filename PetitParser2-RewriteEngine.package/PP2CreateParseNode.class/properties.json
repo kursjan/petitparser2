@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"nodeName"
+		"nodeName",
+		"nodeClass"
 	],
 	"name" : "PP2CreateParseNode",
 	"type" : "normal"

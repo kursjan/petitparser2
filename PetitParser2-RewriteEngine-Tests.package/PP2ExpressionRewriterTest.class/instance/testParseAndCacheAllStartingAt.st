@@ -1,4 +1,4 @@
-testing - rewrite
+tests
 testParseAndCacheAllStartingAt
 	result := self parserClass parseAndCacheAll: '`a` + `b`' startingAt: 0. 
 	self assert: result size equals: 1.
