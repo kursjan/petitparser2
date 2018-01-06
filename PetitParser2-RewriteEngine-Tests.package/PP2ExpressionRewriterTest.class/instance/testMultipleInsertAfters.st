@@ -1,0 +1,17 @@
+testing - rewrite
+testMultipleInsertAfters
+	| rewriter |
+	rewriter := SmaCCRewriteEngine new.
+	rewriter
+		rewriteRule:
+			(SmaCCRewriteRuleFileParser
+				parse:
+					'PP2ExpressionBinaryOperatorNode
+					->
+					[match parent notNil 
+						ifTrue:
+							[self insert: ''()'' after: match.
+							self insert: ''[]'' after: match].
+					self continue]').
+				
+	self assert: '1+2+3' isRewrittenTo: '1+2+3()[]()[]' using: rewriter
