@@ -1,0 +1,3 @@
+generated
+leftParen
+	^ self first
