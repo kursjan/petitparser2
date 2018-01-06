@@ -6,8 +6,7 @@ testTypeAddParens
 		rewriteRule:
 			(SmaCCRewriteRuleFileParser
 				parse:
-					'Parser: SmaCCRewriteTestParser
-					PP2ExpressionBinaryOperatorNode
+					'PP2ExpressionBinaryOperatorNode
 					->
 					>>>`(left)` `operator` `(right)`<<<').
 	self
