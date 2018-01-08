@@ -1,9 +1,9 @@
 {
 	"instance" : {
 		"pattern" : "JanKurs 9/11/2017 07:43",
-		"patternToken" : "JanKurs 9/11/2017 19:35",
-		"testBlock:" : "JanKurs 9/11/2017 19:21",
-		"parseOn:" : "JanKurs 9/11/2017 19:35"
+		"patternToken" : "JanKurs 1/8/2018 16:02",
+		"testBlock:into:" : "JanKurs 1/8/2018 16:24",
+		"parseOn:" : "JanKurs 1/8/2018 16:21"
 	},
 	"class" : {
 		"new" : "JanKurs 8/7/2017 08:27"

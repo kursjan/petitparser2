@@ -1,10 +1,11 @@
 parsing
 parseOn: context
-    | start retval |
+    | start parseValue patternToken |
     start := context position.
-    (retval := self pattern parseOn: context) isPetit2Failure ifTrue: [ ^ retval ].
+    (parseValue := self pattern parseOn: context) isPetit2Failure ifTrue: [ ^ parseValue ].
 
-    ^ (context newToken: PP2PatternToken from: start)
-        testBlock: (self testBlock: retval);
-		  name: retval second;
-        yourself
+    patternToken := (context newToken: PP2PatternToken from: start)
+        name: parseValue second;
+        yourself.
+    self testBlock: parseValue into: patternToken.
+    ^ patternToken

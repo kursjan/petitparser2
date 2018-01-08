@@ -1,5 +1,5 @@
 parsing
 patternToken
     ^ $` asPParser , #letter asPParser plus flatten,
-        (${ asPParser , #letter asPParser plus flatten , $} asPParser) optional ,
+        (${ asPParser , ((#any asPParser starLazy: $} asPParser) flatten) , $} asPParser) optional ,
 		$` asPParser

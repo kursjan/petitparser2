@@ -31,6 +31,7 @@
 		"testPatternExpressionLong" : "JanKurs 8/21/2017 08:46",
 		"testRewriteRpnDeep" : "JanKurs 8/22/2017 08:04",
 		"testAddParens" : "JanKurs 10/9/2017 14:43",
+		"testCodeExpressionToRemoveParens" : "JanKurs 1/8/2018 14:24",
 		"parserInstance" : "JanKurs 9/10/2017 21:18",
 		"testRewriteRpnSumLong" : "JanKurs 8/22/2017 08:04",
 		"testOneExpression" : "JanKurs 9/10/2017 21:57",
