@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "JanKurs 4/14/2018 20:35",
 	"super" : "PP2NodeVisitor",
 	"category" : "PetitParser2-Interpretation",
 	"classinstvars" : [ ],

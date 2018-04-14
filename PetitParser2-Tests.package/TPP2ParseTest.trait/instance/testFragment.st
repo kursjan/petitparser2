@@ -1,6 +1,8 @@
 test
 testFragment
+	"
 	| fragment parser result |
+
 	fragment := $a asPParser plus fragment.
 	parser := fragment wrapped.
 	
@@ -16,3 +18,4 @@ testFragment
 	
 	self assert: parser fail: 'b'.
 	self assert: parser fail: ''.
+	"

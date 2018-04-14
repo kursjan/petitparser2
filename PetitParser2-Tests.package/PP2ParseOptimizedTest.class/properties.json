@@ -4,7 +4,7 @@
 	"instvars" : [
 		"context"
 	],
-	"name" : "PP2AdaptableParseTest",
+	"name" : "PP2ParseOptimizedTest",
 	"commentStamp" : "",
 	"super" : "PP2AbstractParserTest",
 	"traitcomposition" : "TPP2ParseTest",

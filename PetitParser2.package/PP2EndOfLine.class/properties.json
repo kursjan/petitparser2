@@ -5,7 +5,9 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "PP2Fragment",
+	"instvars" : [
+		"failure"
+	],
+	"name" : "PP2EndOfLine",
 	"type" : "normal"
 }

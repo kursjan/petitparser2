@@ -1,3 +1,3 @@
-as yet unclassified
+reparsing
 adoptString: newString
 	collection := newString
