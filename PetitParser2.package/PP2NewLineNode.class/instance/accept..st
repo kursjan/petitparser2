@@ -1,3 +1,3 @@
 visiting
 accept: visitor
-	^ visitor visitStartOfLine: self
+	^ visitor visitNewline: self
