@@ -31,20 +31,20 @@ baseline: spec
 
 		spec project: 'Glamour' with: [
 			spec
-				versionString: #'development';
+				versionString: #'stable';
 				className: 'ConfigurationOfGlamour';
 				repository: 'http://www.smalltalkhub.com/mc/Moose/Glamour/main' ].
 			
 		spec project: 'Roassal2' with: [
 				spec
-					versionString: #'development';
+					versionString: #'stable';
 					className: #ConfigurationOfRoassal2;
 					repository: 'http://www.smalltalkhub.com/mc/ObjectProfile/Roassal2/main' ].
 				
 		spec project: 'GToolkit' with: [
 				spec
 					className: #ConfigurationOfGToolkit;
-					versionString: #'development';
+					versionString: #'stable';
 					repository: 'http://www.smalltalkhub.com/mc/Moose/GToolkit/main' ].
 
 		spec 
