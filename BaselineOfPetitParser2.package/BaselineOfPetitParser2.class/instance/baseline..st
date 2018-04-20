@@ -27,10 +27,7 @@ baseline: spec
 			package: 'PetitParser2-ManifestMf' with: [spec requires: #('PetitParser2') ];
 
 			"Experimental packages"
-			package: 'PetitParser2-Interpret' with: [ spec requires: #('PetitParser2') ];
-			package: 'PetitParser2-Interpret-Tests' with: [ spec requires: #('PetitParser2-Validation' 'PetitParser2-Tests') ];
-			package: 'PetitParser2-Backtracking' with: [ spec requires: #('PetitParser2') ];
-			package: 'PetitParser2-Backtracking-Tests' with: [ spec requires: #('PetitParser2-Validation' 'PetitParser2-Tests') ].
+			package: 'PetitParser2-Experiments' with: [ spec requires: #('PetitParser2', 'PetitParser2-Validation' 'PetitParser2-Tests') ].
 
 		spec baseline: 'SmaCC' with: [ 
 			spec
@@ -93,10 +90,7 @@ baseline: spec
 											'PetitParser2-RewriteEngine-Tests').
 		
 		spec group: 'Experimental' with: #(
-											'PetitParser2-Interpret' 
-											'PetitParser2-Interpret-Tests' 
-											'PetitParser2-Backtracking' 
-											'PetitParser2-Backtracking-Tests').
+											'PetitParser2-Experiments' ).
 
 		spec group: 'Languages' with: #(
 											'PetitParser2-Html' 

@@ -1,3 +1,0 @@
-initialization
-close
-	keyStream close

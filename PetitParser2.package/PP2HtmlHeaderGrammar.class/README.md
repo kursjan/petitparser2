@@ -1,4 +1,4 @@
-Parser that can extract an HTML headers from an html file without downloading the whole file. Try with:
+Parser that can extract HTML headers from an html file without downloading the whole file. Try with:
 
 PP2HtmlHeaderGrammar example
 
