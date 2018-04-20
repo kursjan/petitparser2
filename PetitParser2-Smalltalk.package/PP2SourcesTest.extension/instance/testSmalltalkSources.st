@@ -9,4 +9,5 @@ testSmalltalkSources
 		
 		self assert: s1 equals: s2.
 	] ensure: [ 
-		PP2Sources current smalltalkAllUrl asFileReference ensureDelete ]	
+		PP2Sources current smalltalkAllUrl asFileReference ensureDelete 
+	]	

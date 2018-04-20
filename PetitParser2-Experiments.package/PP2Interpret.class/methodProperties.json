@@ -1,0 +1,43 @@
+{
+	"instance" : {
+		"visitPredicateSequence:" : " 4/17/2018 07:53:02",
+		"visitFlatten:" : " 4/17/2018 07:53:02",
+		"visitFragment:" : " 4/17/2018 07:53:02",
+		"visitOptional:" : " 4/17/2018 07:53:02",
+		"visitFailing:" : " 4/17/2018 07:53:02",
+		"visitPP2Node:" : " 4/17/2018 07:53:02",
+		"visitPluggable:" : " 4/17/2018 07:53:02",
+		"visitStartOfLine:" : "JanKurs 4/20/2018 08:01",
+		"visitPossesiveRepeating:" : " 4/17/2018 07:53:02",
+		"visitSequence:" : " 4/17/2018 07:53:02",
+		"visitWrapping:" : " 4/17/2018 07:53:02",
+		"visitTrimming:" : " 4/17/2018 07:53:02",
+		"visitEndOfLine:" : "JanKurs 4/20/2018 08:01",
+		"visitDelegate:" : " 4/17/2018 07:53:02",
+		"parse:" : " 4/17/2018 07:53:02",
+		"visitMapping:" : " 4/17/2018 07:53:02",
+		"visitNewLine:" : "JanKurs 4/20/2018 08:09",
+		"initializeFor:" : " 4/17/2018 07:53:02",
+		"visitComposite:" : " 4/17/2018 07:53:02",
+		"visitLiteralObject:" : " 4/17/2018 07:53:02",
+		"visitToken:" : " 4/17/2018 07:53:02",
+		"insideCRLF:" : "JanKurs 4/20/2018 08:02",
+		"visitEpsilon:" : " 4/17/2018 07:53:02",
+		"visitAction:" : " 4/17/2018 07:53:02",
+		"visitEnd:" : " 4/17/2018 07:53:02",
+		"visitPredicateObject:" : " 4/17/2018 07:53:02",
+		"discardFailure" : " 4/17/2018 07:53:02",
+		"visitNot:" : " 4/17/2018 07:53:02",
+		"parse:withContext:" : " 4/17/2018 07:53:02",
+		"visitLiteralSequence:" : " 4/17/2018 07:53:02",
+		"visitChoice:" : " 4/17/2018 07:53:02",
+		"parseWithContext:" : " 4/17/2018 07:53:02",
+		"visitEndOfInput:" : "JanKurs 4/20/2018 08:01",
+		"isEndOfLine:" : "JanKurs 4/20/2018 08:02",
+		"isStartOfLine:" : "JanKurs 4/20/2018 08:02",
+		"visitAnd:" : " 4/17/2018 07:53:02"
+	},
+	"class" : {
+		"on:" : " 4/17/2018 07:53:02"
+	}
+}

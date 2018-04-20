@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "PP2Interpret",
+	"category" : "PetitParser2-Experiments-Backtracking",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PP2BacktrackingInterpret",
+	"type" : "normal"
+}

@@ -9,12 +9,14 @@ baseline: spec
 		spec 
 			package: 'PetitParser2';
 			package: 'PetitParser2-Tests' with: [ spec requires: #('PetitParser2') ];
-			package: 'PetitParser2-Backtracking' with: [ spec requires: #('PetitParser2') ];
-			package: 'PetitParser2-Backtracking-Tests' with: [ spec requires: #('PetitParser2-Validation' 'PetitParser2-Tests') ];
 			package: 'PetitParser2-Validation' with: [ spec requires: #('PetitParser2') ];
 			package: 'PetitParser2-Validation-Tests' with: [ spec requires: #('PetitParser2-Validation' 'PetitParser2-Tests') ];
-			package: 'PetitParser2-Tutorial' with: [ spec requires: #('PetitParser2' 'PetitParser2-Validation') ];
+
 			package: 'PetitParser2-Benchmarks' with: [ spec requires: #('PetitParser2' 'PetitParser2-Validation') ];
+			package: 'PetitParser2-Examples' with: [ spec requires: #('PetitParser2' 'PetitParser2-Validation') ];
+			package: 'PetitParser2-Tutorial' with: [ spec requires: #('PetitParser2' 'PetitParser2-Validation') ];
+			
+			"Misc grammars"
 			package: 'PetitParser2-Smalltalk' with: [ spec requires: #('PetitParser2' 'PetitParser2-Benchmarks') ];
 			package: 'PetitParser2-Smalltalk-Tests' with: [ spec requires: #('PetitParser2-Smalltalk' 'PetitParser2-Tests') ];
 			package: 'PetitParser2-Html' with: [ spec requires: #('PetitParser2' 'PetitParser2-Benchmarks') ];
@@ -22,7 +24,13 @@ baseline: spec
 			package: 'PetitParser2-CSV' with: [ spec requires: #('PetitParser2') ];
 			package: 'PetitParser2-JSON' with: [ spec requires: #('PetitParser2') ];
 			package: 'PetitParser2-MSE' with: [ spec requires: #('PetitParser2') ];
-			package: 'PetitParser2-ManifestMf' with: [spec requires: #('PetitParser2') ].
+			package: 'PetitParser2-ManifestMf' with: [spec requires: #('PetitParser2') ];
+
+			"Experimental packages"
+			package: 'PetitParser2-Interpret' with: [ spec requires: #('PetitParser2') ];
+			package: 'PetitParser2-Interpret-Tests' with: [ spec requires: #('PetitParser2-Validation' 'PetitParser2-Tests') ];
+			package: 'PetitParser2-Backtracking' with: [ spec requires: #('PetitParser2') ];
+			package: 'PetitParser2-Backtracking-Tests' with: [ spec requires: #('PetitParser2-Validation' 'PetitParser2-Tests') ].
 
 		spec baseline: 'SmaCC' with: [ 
 			spec
@@ -83,4 +91,26 @@ baseline: spec
 		spec group: 'RewriteEngine' with: #(
 											'PetitParser2-RewriteEngine'
 											'PetitParser2-RewriteEngine-Tests').
+		
+		spec group: 'Experimental' with: #(
+											'PetitParser2-Interpret' 
+											'PetitParser2-Interpret-Tests' 
+											'PetitParser2-Backtracking' 
+											'PetitParser2-Backtracking-Tests').
+
+		spec group: 'Languages' with: #(
+											'PetitParser2-Html' 
+											'PetitParser2-Html-Tests' 
+											'PetitParser2-CSV' 
+											'PetitParser2-JSON' 
+											'PetitParser2-MSE' 
+											'PetitParser2-Smalltalk-Tests' 
+											'PetitParser2-ManifestMf' ).
+
+		spec group: 'All' with: #(
+											'UI' 
+											'Experimental' 
+											'Languages'
+											'RewriteEngine' ).
+
 	]

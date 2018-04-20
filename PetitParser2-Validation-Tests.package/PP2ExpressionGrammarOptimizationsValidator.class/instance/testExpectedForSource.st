@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testExpectedForSource
 	| result |
 	result := validator expectedForSource: '1+2'.

@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testActualForSource
 	| result |
 	result := validator actualForSource: '1+2'.

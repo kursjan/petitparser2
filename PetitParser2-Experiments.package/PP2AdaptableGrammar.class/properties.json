@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "JanKurs 7/2/2017 20:53",
+	"super" : "PP2CompositeNode",
+	"category" : "PetitParser2-Experiments-Adaptable",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"body",
+		"content",
+		"head",
+		"element"
+	],
+	"name" : "PP2AdaptableGrammar",
+	"type" : "normal"
+}

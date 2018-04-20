@@ -1,0 +1,15 @@
+{
+	"instance" : {
+		"keyStroke:" : " 4/17/2018 07:53:02",
+		"openInWorld" : " 4/17/2018 07:53:02",
+		"handlesKeyboard:" : " 4/17/2018 07:53:02",
+		"close" : " 4/17/2018 07:53:02",
+		"outputStream:" : " 4/17/2018 07:53:02",
+		"handlesMouseDown:" : " 4/17/2018 07:53:02",
+		"initialize" : " 4/17/2018 07:53:02",
+		"takesKeyboardFocus" : " 4/17/2018 07:53:02",
+		"startParsing" : " 4/17/2018 07:53:02",
+		"mouseDown:" : " 4/17/2018 07:53:02"
+	},
+	"class" : { }
+}

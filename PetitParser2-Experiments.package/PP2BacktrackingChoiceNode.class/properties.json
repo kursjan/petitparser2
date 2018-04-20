@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "PP2ListNode",
+	"category" : "PetitParser2-Experiments-Backtracking",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PP2BacktrackingChoiceNode",
+	"type" : "normal"
+}

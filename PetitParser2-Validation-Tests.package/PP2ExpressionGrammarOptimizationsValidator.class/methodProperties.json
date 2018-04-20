@@ -1,8 +1,9 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"setUp" : "JanKurs 9/3/2016 13:29",
 		"testActualForSource" : "JanKurs 9/3/2016 13:29",
 		"testExpectedForSource" : "JanKurs 9/3/2016 13:30",
-		"testOptimization" : "JanKurs 9/3/2016 13:30" } }
+		"setUp" : "JanKurs 9/3/2016 13:29",
+		"testOptimization" : "JanKurs 9/3/2016 13:30"
+	},
+	"class" : { }
+}
