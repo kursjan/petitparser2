@@ -1,4 +1,4 @@
-tests
+*PetitParser2-Experiments-Reparsing
 testReparsable
 	| debugStrategy |
 	debugStrategy := strategy debug.
