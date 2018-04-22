@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testParsingGuard
 	| classification debugStrategy |
 	debugStrategy := strategy debug.

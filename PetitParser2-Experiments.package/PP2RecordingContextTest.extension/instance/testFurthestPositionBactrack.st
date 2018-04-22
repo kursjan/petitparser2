@@ -1,4 +1,4 @@
-tests
+*PetitParser2-Experiments-Reparsing
 testFurthestPositionBactrack
 	| parser context |
 	parser := 'a' asPParser star, 'b' asPParser.

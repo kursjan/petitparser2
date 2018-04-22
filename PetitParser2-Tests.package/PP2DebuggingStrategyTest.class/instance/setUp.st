@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 setUp
 	node := $a asPParser.
 	strategy := node strategy.

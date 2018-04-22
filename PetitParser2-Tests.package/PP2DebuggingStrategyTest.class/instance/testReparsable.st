@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testReparsable
 	| debugStrategy |
 	debugStrategy := strategy debug.

@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "PP2NoopVisitor",
-	"category" : "PetitParser2-Optimizations",
+	"category" : "PetitParser2-Experiments-Reparsing",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

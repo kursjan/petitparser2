@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testParsingGuardOptional
 	| classification debugStrategy optional |
 	optional := $a asPParser optional.

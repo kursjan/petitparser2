@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testRecognizer
 	| debugStrategy |
 	node := #letter asPParser.

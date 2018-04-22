@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testCache
 	| debugStrategy |
 	debugStrategy := strategy debug.

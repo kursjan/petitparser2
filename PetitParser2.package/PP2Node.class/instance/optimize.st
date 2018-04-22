@@ -32,7 +32,12 @@ optimize
 	
 	PP2BypassVisitor new doPass: self.
 	
-	PP2ReparsableVisitor new doPass: self.
+	"
+		TODO(JanKurs): hack to inject reparsable visitor from experiments.
+	"
+	(Smalltalk at: #PP2ReparsableVisitor) ifNotNil: [ :reparsableVisitor |
+		reparsableVisitor new doPass: self.
+	].
 	
 	"Inject CF memoizations when possible"
 	PP2ContextChangesCache new doPass: self.

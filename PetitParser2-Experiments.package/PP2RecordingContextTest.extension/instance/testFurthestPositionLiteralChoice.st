@@ -1,4 +1,4 @@
-tests
+*PetitParser2-Experiments-Reparsing
 testFurthestPositionLiteralChoice
 	| context parser |
 	context := 'a' asReparsableContext.
