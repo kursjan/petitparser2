@@ -33,5 +33,7 @@ matrix:
       smalltalk_config: .headless.ston
     - smalltalk: Pharo-stable
       smalltalk_config: .rewrite.ston
+    - smalltalk: Pharo-stable
+      smalltalk_config: .all.ston
   allow_failures:
    - smalltalk: Pharo-alpha
