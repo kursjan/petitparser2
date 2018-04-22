@@ -27,7 +27,7 @@ baseline: spec
 			package: 'PetitParser2-ManifestMf' with: [spec requires: #('PetitParser2') ];
 
 			"Experimental packages"
-			package: 'PetitParser2-Experiments' with: [ spec requires: #('PetitParser2', 'PetitParser2-Validation' 'PetitParser2-Tests') ].
+			package: 'PetitParser2-Experiments' with: [ spec requires: #('PetitParser2' 'PetitParser2-Validation' 'PetitParser2-Tests') ].
 
 		spec baseline: 'SmaCC' with: [ 
 			spec
