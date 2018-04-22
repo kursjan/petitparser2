@@ -77,7 +77,8 @@ baseline: spec
 													
 		spec group: 'UI' with: #( 
 											'Headless'
-											'PetitParser2-GUI').
+											'PetitParser2-GUI'
+											'PetitParser2-GUI-Tests' ).
 	
 		spec group: 'Tests' with: #(
 											'PetitParser2-Tests'
@@ -90,7 +91,11 @@ baseline: spec
 											'PetitParser2-RewriteEngine-Tests').
 		
 		spec group: 'Experimental' with: #(
-											'PetitParser2-Experiments' ).
+											'PetitParser2-Experiments'
+											'RewriteEngine' ).
+
+		spec group: 'Extras' with: #(
+											'PetitParser2-Benchmarks-GUI' ).
 
 		spec group: 'Languages' with: #(
 											'PetitParser2-Html' 
@@ -105,6 +110,6 @@ baseline: spec
 											'UI' 
 											'Experimental' 
 											'Languages'
-											'RewriteEngine' ).
+											'Extras' ).
 
 	]

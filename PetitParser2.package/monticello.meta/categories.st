@@ -7,7 +7,6 @@ SystemOrganization addCategory: 'PetitParser2-Examples'!
 SystemOrganization addCategory: 'PetitParser2-Nodes'!
 SystemOrganization addCategory: 'PetitParser2-Optimizations'!
 SystemOrganization addCategory: 'PetitParser2-Recording'!
-SystemOrganization addCategory: 'PetitParser2-Reparsing'!
 SystemOrganization addCategory: 'PetitParser2-Strategies'!
 SystemOrganization addCategory: 'PetitParser2-Streams'!
 SystemOrganization addCategory: 'PetitParser2-Tools'!
