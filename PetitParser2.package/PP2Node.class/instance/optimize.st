@@ -35,7 +35,7 @@ optimize
 	"
 		TODO(JanKurs): hack to inject reparsable visitor from experiments.
 	"
-	(Smalltalk at: #PP2ReparsableVisitor) ifNotNil: [ :reparsableVisitor |
+	(Smalltalk at: #PP2ReparsableVisitor ifAbsent: nil) ifNotNil: [ :reparsableVisitor |
 		reparsableVisitor new doPass: self.
 	].
 	
