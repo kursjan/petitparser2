@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "TestCase",
-	"category" : "PetitParser2-Tests-Reparsing",
+	"category" : "PetitParser2-Experiments-Reparsing",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

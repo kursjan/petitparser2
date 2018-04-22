@@ -9,12 +9,12 @@
 		"buffer",
 		"newBuffer"
 	],
-	"name" : "PP2DeleteCharacterTest",
+	"name" : "PP2InsertCharacterTest",
 	"commentStamp" : "",
 	"super" : "TestCase",
 	"traitcomposition" : "TPP2TypeAssertions",
 	"type" : "normal",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"category" : "PetitParser2-Tests-Reparsing"
+	"category" : "PetitParser2-Experiments-Reparsing"
 }
