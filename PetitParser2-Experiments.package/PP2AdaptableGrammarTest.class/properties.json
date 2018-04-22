@@ -2,12 +2,12 @@
 	"classtraitcomposition" : "TPP2AdaptableGrammarTest classTrait",
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "PP2AdaptableGrammarTest_Optimized",
+	"name" : "PP2AdaptableGrammarTest",
 	"commentStamp" : "",
 	"super" : "PP2CompositeNodeTest",
 	"traitcomposition" : "TPP2AdaptableGrammarTest",
 	"type" : "normal",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"category" : "PetitParser2-Tests-Examples"
+	"category" : "PetitParser2-Experiments-Adaptable"
 }

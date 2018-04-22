@@ -1,6 +1,7 @@
-*PetitParser2-Smalltalk
+*PetitParser2-Experiments-Interpret
 testSmalltalkGrammarIM
 	| input  bench |
+	"Interpreted with Mutable context"
 	bench := PP2Benchmark new.
 	bench setupSmalltalkGrammarIM.
 

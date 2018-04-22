@@ -1,4 +1,4 @@
-*PetitParser2-Smalltalk
+*PetitParser2-Experiments-Interpret
 setupSmalltalkGrammarIM
 	"IM: Interpreted with Mutable context"
 	
