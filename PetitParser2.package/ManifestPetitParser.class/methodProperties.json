@@ -1,0 +1,11 @@
+{
+	"instance" : { },
+	"class" : {
+		"ruleRBIfTrueReturnsRuleV1FalsePositive" : " 4/17/2018 07:53:02",
+		"ruleRBInconsistentMethodClassificationRuleV1FalsePositive" : " 4/17/2018 07:53:02",
+		"ruleRBTemporaryVariableCapitalizationRuleV1FalsePositive" : " 4/17/2018 07:53:02",
+		"ruleRBEquivalentSuperclassMethodsRuleV1FalsePositive" : " 4/17/2018 07:53:02",
+		"ruleRBBadMessageRuleV1FalsePositive" : " 4/17/2018 07:53:02",
+		"ruleRBUtilityMethodsRuleV1FalsePositive" : " 4/17/2018 07:53:02"
+	}
+}

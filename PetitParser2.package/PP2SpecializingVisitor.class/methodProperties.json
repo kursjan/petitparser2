@@ -1,0 +1,31 @@
+{
+	"instance" : {
+		"isNotLiteralObject:" : " 4/17/2018 07:53:02",
+		"isStarPredicateObject:" : " 4/17/2018 07:53:02",
+		"visitOptional:" : " 4/17/2018 07:53:02",
+		"visitAdaptable:" : " 4/17/2018 07:53:02",
+		"isMappingOfTwo:" : " 4/17/2018 07:53:02",
+		"isAnyStarLazyLiteralObject:" : " 4/17/2018 07:53:02",
+		"visitPossesiveRepeating:" : " 4/17/2018 07:53:02",
+		"isMappingOfThree:" : " 4/17/2018 07:53:02",
+		"isAnyStarLazyPredicateObject:" : " 4/17/2018 07:53:02",
+		"visitSequence:" : " 4/17/2018 07:53:02",
+		"visitTrimming:" : " 4/17/2018 07:53:02",
+		"isStar:" : " 4/17/2018 07:53:02",
+		"visitMapping:" : " 4/17/2018 07:53:02",
+		"isNotPredicateObject:" : " 4/17/2018 07:53:02",
+		"isAndLiteralObject:" : " 4/17/2018 07:53:02",
+		"isPlus:" : " 4/17/2018 07:53:02",
+		"isAny:" : " 4/17/2018 07:53:02",
+		"isPlusPredicateObject:" : " 4/17/2018 07:53:02",
+		"isTrimmingToken:" : " 4/17/2018 07:53:02",
+		"visitNot:" : " 4/17/2018 07:53:02",
+		"isAnyStarLazyObject:" : " 4/17/2018 07:53:02",
+		"doPass:" : " 4/17/2018 07:53:02",
+		"isOptionalCharacter:" : " 4/17/2018 07:53:02",
+		"isAndPredicateObject:" : " 4/17/2018 07:53:02",
+		"isTrimmingLiteralObjectToken:" : " 4/17/2018 07:53:02",
+		"visitAnd:" : " 4/17/2018 07:53:02"
+	},
+	"class" : { }
+}
