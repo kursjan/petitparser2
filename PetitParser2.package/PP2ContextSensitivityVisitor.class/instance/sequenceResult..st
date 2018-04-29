@@ -1,4 +1,4 @@
-as yet unclassified
+visiting
 sequenceResult: node
 	| pushes matches pushIndex matchIndices childrenResult |
 	childrenResult := node children collect: [ :child | child -> (self  visit: child) ].

@@ -1,4 +1,4 @@
-as yet unclassified
+visiting
 visitMatch: node
 	^ node propertyAt: #isContextSensitive ifAbsent: [ 
 		true
