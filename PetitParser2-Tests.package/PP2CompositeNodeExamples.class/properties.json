@@ -6,6 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
+		"result",
 		"parserInstance"
 	],
 	"name" : "PP2CompositeNodeExamples",
