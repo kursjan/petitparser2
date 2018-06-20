@@ -1,8 +1,9 @@
 SmalltalkCISpec {
   #loading : [
     SCIMetacelloLoadSpec {
-      #baseline : 'PetitParser2RewriteEngine',
+      #baseline : 'PetitParser2Core',
       #platforms : [ #pharo ],
+      #directory : ''
     }
   ]
 }
