@@ -8,8 +8,9 @@ baseline: spec
 		spec repository: 'github://kursjan/petitparser2:master'.
 		spec baseline: 'PetitParser2Core' with: [ 
 			spec repository: 'github://kursjan/petitparser2:master' ].
-		spec baseline: 'PetitParser2Languages' with: [ 
-			spec repository: 'github://kursjan/petitparser2:master' ].
-		spec baseline: 'PetitParser2RewriteEngine' with: [ 
-			spec repository: 'github://kursjan/petitparser2:master' ] 
+
+		spec
+			"Experimental packages"
+			package: 'PetitParser2-Experiments' with: [ 
+				spec requires: #('PetitParser2Core') ].
 	]
