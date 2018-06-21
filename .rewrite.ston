@@ -2,7 +2,7 @@ SmalltalkCISpec {
   #loading : [
     SCIMetacelloLoadSpec {
       #baseline : 'PetitParser2RewriteEngine',
-      #platforms : [ #pharo ],
+      #platforms : [ #pharo ]
     }
   ]
 }
