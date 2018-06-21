@@ -37,22 +37,22 @@ With PetitParser2 you can define only part of the grammar and skip an uninterest
 
 Use the configuration manager in your Pharo image and install the stable version.
 
-Installing a Development version for the latest Pharo (with no guarantees):
+Installing standard version for the latest Pharo:
 
 ```smalltalk
 Metacello new
     baseline: 'PetitParser2';
     repository: 'github://kursjan/petitparser2';
-    load
+    load.
 ```
 
-Use the `PetitParser2-Headless` to avoid loading `GToolkit` and `Roassal2`:
+To install graphical tools (with `GToolkit` and `Roassal2` dependencies):
 
 ```smalltalk
 Metacello new
-    baseline: 'PetitParser2';
+    baseline: 'PetitParser2Gui';
     repository: 'github://kursjan/petitparser2';
-    load: 'Headless'
+    load.
 ```
 
 ## [PetitParser2 Book](https://kursjan.github.io/petitparser2/pillar-book/build/book.html)
