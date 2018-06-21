@@ -5,9 +5,9 @@ baseline: spec
 	spec for: #'common' do: [
 		spec blessing: #'baseline'.
 		spec description: 'PetitParser2Gui'.
-		spec repository: 'github://feenkcom/petitparser2:master'.
+		spec repository: 'github://kursjan/petitparser2:master'.
 		spec baseline: 'PetitParser2' with: [ 
-			spec repository: 'github://feenkcom/petitparser2:master' ].
+			spec repository: 'github://kursjan/petitparser2:master' ].
 
 		spec project: 'Glamour' with: [
 			spec
