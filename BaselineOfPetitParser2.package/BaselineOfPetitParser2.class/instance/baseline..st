@@ -10,6 +10,4 @@ baseline: spec
 			spec repository: 'github://kursjan/petitparser2:master' ].
 		spec baseline: 'PetitParser2Languages' with: [ 
 			spec repository: 'github://kursjan/petitparser2:master' ].
-		spec baseline: 'PetitParser2RewriteEngine' with: [ 
-			spec repository: 'github://kursjan/petitparser2:master' ] 
 	]
