@@ -18,22 +18,24 @@ smalltalk:
 #
 
 smalltalk_config:
-  - .smalltalk.ston
-  - .headless.ston
-  - .all.ston
+  - .core.ston
+  - .experimental.ston
+  - .gui.ston
+  - .languages.ston
   - .rewrite.ston
+  - .smalltalk.ston
 
 matrix:
   include:
     - smalltalk: Pharo-stable
-      smalltalk_config: .headless.ston
+      smalltalk_config: .smalltalk.ston
     - smalltalk: Pharo-6.0
-      smalltalk_config: .headless.ston
+      smalltalk_config: .smalltalk.ston
     - smalltalk: Pharo-5.0
-      smalltalk_config: .headless.ston
+      smalltalk_config: .smalltalk.ston
     - smalltalk: Pharo-stable
       smalltalk_config: .rewrite.ston
     - smalltalk: Pharo-stable
-      smalltalk_config: .all.ston
+      smalltalk_config: .gui.ston
   allow_failures:
    - smalltalk: Pharo-alpha

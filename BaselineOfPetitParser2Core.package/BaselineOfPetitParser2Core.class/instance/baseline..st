@@ -5,7 +5,7 @@ baseline: spec
 	spec for: #'common' do: [
 		spec blessing: #'baseline'.
 		spec description: 'PetitParser2Core'.
-		spec repository: 'github://kursjan/petitparser2:master'.
+		spec repository: 'github://feenkcom/petitparser2:master'.
 		spec 
 			package: 'PetitParser2';
 			package: 'PetitParser2-Tests' with: [ 
@@ -16,8 +16,5 @@ baseline: spec
 				spec requires: #('PetitParser2-Validation' 'PetitParser2-Tests') ];
 
 			package: 'PetitParser2-Benchmarks' with: [ 
-				spec requires: #('PetitParser2' 'PetitParser2-Validation') ];
-			package: 'PetitParser2-Examples' with: [ 
-				spec requires: #('PetitParser2' 'PetitParser2-Validation') ];
-			package: 'PetitParser2-Tutorial' with: [ 
-				spec requires: #('PetitParser2' 'PetitParser2-Validation') ] ]
+				spec requires: #('PetitParser2' 'PetitParser2-Validation') ]
+	]

@@ -5,9 +5,9 @@ baseline: spec
 	spec for: #'common' do: [
 		spec blessing: #'baseline'.
 		spec description: 'PetitParser2Languages'.
-		spec repository: 'github://kursjan/petitparser2:master'.
+		spec repository: 'github://feenkcom/petitparser2:master'.
 		spec baseline: 'PetitParser2Core' with: [ 
-			spec repository: 'github://kursjan/petitparser2:master' ].
+			spec repository: 'github://feenkcom/petitparser2:master' ].
 
 		spec
 			"Misc grammars"
@@ -22,5 +22,8 @@ baseline: spec
 			package: 'PetitParser2-CSV' with: [ spec requires: #('PetitParser2Core') ];
 			package: 'PetitParser2-JSON' with: [ spec requires: #('PetitParser2Core') ];
 			package: 'PetitParser2-MSE' with: [ spec requires: #('PetitParser2Core') ];
-			package: 'PetitParser2-ManifestMf' with: [ spec requires: #('PetitParser2Core') ]
+			package: 'PetitParser2-ManifestMf' with: [ spec requires: #('PetitParser2Core') ];
+			
+			package: 'PetitParser2-Tutorial' with: [ 
+				spec requires: #('PetitParser2Core' 'PetitParser2-Html' 'PetitParser2-Smalltalk') ]
 	]
