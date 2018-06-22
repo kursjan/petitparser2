@@ -7,7 +7,7 @@
 	"name" : "PP2ParseOptimizedTest",
 	"commentStamp" : "",
 	"super" : "PP2AbstractParserTest",
-	"traitcomposition" : "TPP2ParseTest",
+	"traitcomposition" : "TPP2ParseTest - {#testEndOfInput2}",
 	"type" : "normal",
 	"classinstvars" : [ ],
 	"pools" : [ ],

@@ -1,3 +1,3 @@
 accessing
 firstCharSet
-	^ PP2CharSetPredicate empty
+	^ PP2UnknownCharSetPredicate instance
