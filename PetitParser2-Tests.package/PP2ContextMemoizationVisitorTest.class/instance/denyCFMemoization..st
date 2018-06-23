@@ -1,4 +1,4 @@
-as yet unclassified
+asserting
 denyCFMemoization: node
 
 	visitor visit: node.

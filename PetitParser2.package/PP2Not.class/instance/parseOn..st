@@ -1,10 +1,10 @@
 parsing
-parseOn: aPP2Context
+parseOn: context
 	| memento retval |
-	memento := aPP2Context remember.
-	retval := node child parseOn: aPP2Context.
+	memento := self remember: context.
+	retval := node child parseOn: context.
 	
-	aPP2Context restore: memento.
+	self restore: context from: memento.
 	^ retval isPetit2Failure 
 		ifTrue: [ nil ]
-		ifFalse: [ PP2Failure message: 'Child was not expected to pass' context: aPP2Context  ]
+		ifFalse: [ PP2Failure message: 'Child was not expected to pass' context: context  ]

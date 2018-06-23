@@ -1,5 +1,5 @@
 tests
-testAnd
-	parser := $a asPParser and.
+testNot
+	parser := $a asPParser not.
 	
 	self assertCFMemoization: parser.

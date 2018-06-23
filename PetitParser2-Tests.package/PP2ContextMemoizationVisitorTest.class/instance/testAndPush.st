@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testAndPush
 	parser := $a asPParser push and.
 	

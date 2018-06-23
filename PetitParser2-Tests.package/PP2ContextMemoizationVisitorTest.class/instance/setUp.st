@@ -1,3 +1,3 @@
-as yet unclassified
+initialization
 setUp
 	visitor := PP2ContextMemoizationVisitor new

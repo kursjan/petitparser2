@@ -1,4 +1,4 @@
-as yet unclassified
+asserting
 assertPushMemoization: node
 
 	visitor visit: node.

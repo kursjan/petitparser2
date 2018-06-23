@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testNonEpsilon
 	parser := $a asPParser nonEpsilon.
 	

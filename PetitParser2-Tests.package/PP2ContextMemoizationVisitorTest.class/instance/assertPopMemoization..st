@@ -1,4 +1,4 @@
-as yet unclassified
+asserting
 assertPopMemoization: node
 
 	visitor visit: node.

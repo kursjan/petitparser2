@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testSequencePop
 	parser := $a asPParser, $b asPParser pop, $c asPParser.
 	
