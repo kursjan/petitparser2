@@ -73,6 +73,9 @@ Metacello new
     load.
 ```
 
+## Debugging Parsers
+
+[Here](https://github.com/kursjan/petitparser2/issues/20#issuecomment-399667230) you can find an illustrative explanation how to debug when parsers do not work as expected.
 
 ## [PetitParser2 Book](https://kursjan.github.io/petitparser2/pillar-book/build/book.html)
 Learn more about PetitParser. In the book we cover all the topics related to PetitParser. We discuss basics of parsing such as testing or AST generation as well as advanced topics including context-sensitive parsing or optimizations.
