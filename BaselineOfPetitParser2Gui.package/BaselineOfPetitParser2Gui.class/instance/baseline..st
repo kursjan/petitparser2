@@ -20,12 +20,6 @@ baseline: spec
 					versionString: #'stable';
 					className: #ConfigurationOfRoassal2;
 					repository: 'http://www.smalltalkhub.com/mc/ObjectProfile/Roassal2/main' ].
-				
-		spec project: 'GToolkit' with: [
-				spec
-					className: #ConfigurationOfGToolkit;
-					versionString: #'stable';
-					repository: 'http://www.smalltalkhub.com/mc/Moose/GToolkit/main' ].
 
 		spec 
 			package: 'PetitParser2-GUI' with: [ 
@@ -34,4 +28,12 @@ baseline: spec
 				spec requires: #('PetitParser2-GUI') ];
 			package: 'PetitParser2-Benchmarks-GUI' with: [ 
 				spec requires: #('PetitParser2') ].
-	]
+	].
+
+	spec for: #'pharo5.x' do: [
+		spec project: 'GToolkit' with: [
+				spec
+					className: #ConfigurationOfGToolkit;
+					versionString: #'stable';
+					repository: 'http://www.smalltalkhub.com/mc/Moose/GToolkit/main' ].
+	].
