@@ -1,0 +1,1 @@
+A parser that answers a flat copy of the range my delegate parses.

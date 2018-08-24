@@ -3,6 +3,7 @@ gtTreeViewIn: composite
 	composite tree
 		title: 'Execution Traces';
 		display: [ :context | context debugResult children first ];
+		when: [ :context | context debugResult children notEmpty ];
 		format: [:debuggerResult | debuggerResult  formattedText ];
 		selectionAct: [ :presentation | presentation selection inspect ] entitled: 'Inspect';
 		selectionAct: [ :presentation | presentation selection asEventsMorph inspect ] entitled: 'Events' enabledWhen: [:presentation | presentation selection hasEvents ];
