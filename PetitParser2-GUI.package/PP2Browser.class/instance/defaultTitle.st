@@ -1,3 +1,3 @@
 building
 defaultTitle
-	^ 'PetitParser Browser'
+	^ 'PetitParser2 Browser'

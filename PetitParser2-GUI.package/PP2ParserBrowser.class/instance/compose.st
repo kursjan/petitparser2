@@ -1,7 +1,9 @@
 building
 compose
-	"self openOn: PPArithmeticParser"
-	self title: [:each | each name].
+	"
+	self openOn: PP2ExpressionGrammar
+	"
+	self title: [:each | each name ].
 	self tabulator with: [ :tabulator |
 		tabulator 
 			row: [:r | r column: #productions ; column: #workspace span: 2];
