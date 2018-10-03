@@ -1,3 +1,0 @@
-javascript
-jsOpen
-	^ '<script>' asPParser

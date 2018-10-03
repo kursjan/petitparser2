@@ -1,3 +1,0 @@
-operators
-backtrack
-	^ self

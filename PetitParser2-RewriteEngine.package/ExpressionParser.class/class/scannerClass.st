@@ -1,3 +1,0 @@
-generated-accessing
-scannerClass
-	^ExpressionScanner

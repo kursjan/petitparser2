@@ -1,3 +1,0 @@
-various
-any
-	^ #any asPParser

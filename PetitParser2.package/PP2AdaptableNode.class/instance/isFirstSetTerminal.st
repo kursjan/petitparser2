@@ -1,3 +1,0 @@
-testing
-isFirstSetTerminal
-	^ false

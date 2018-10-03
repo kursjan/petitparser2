@@ -1,3 +1,0 @@
-accessing
-size
-	^ entries size

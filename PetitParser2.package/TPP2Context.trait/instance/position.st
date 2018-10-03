@@ -1,3 +1,0 @@
-requirements
-position
-	self explicitRequirement

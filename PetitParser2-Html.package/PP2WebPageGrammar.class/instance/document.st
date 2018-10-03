@@ -1,3 +1,0 @@
-accessing
-document
-	^ element sea

@@ -1,3 +1,0 @@
-visiting
-visitEpsilon: parser
-	^ nil

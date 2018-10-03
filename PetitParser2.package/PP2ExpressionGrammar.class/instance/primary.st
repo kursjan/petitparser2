@@ -1,3 +1,0 @@
-grammar
-primary
-	^ number / parentheses

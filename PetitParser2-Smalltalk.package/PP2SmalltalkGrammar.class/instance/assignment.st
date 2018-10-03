@@ -1,3 +1,0 @@
-grammar
-assignment
-	^ variable , assignmentToken

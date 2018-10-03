@@ -1,3 +1,0 @@
-generated
-errorTokenId
-	^ 18

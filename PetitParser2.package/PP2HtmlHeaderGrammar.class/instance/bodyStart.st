@@ -1,3 +1,0 @@
-rules
-bodyStart
-	^ '<body' asPParser

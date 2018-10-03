@@ -1,3 +1,0 @@
-accessing
-furthestPosition
-	^ context furthestPosition

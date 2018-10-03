@@ -1,3 +1,0 @@
-operators
-end
-	^ self

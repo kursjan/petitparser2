@@ -1,1 +1,0 @@
-An abstract class representing a result of context change analysis.

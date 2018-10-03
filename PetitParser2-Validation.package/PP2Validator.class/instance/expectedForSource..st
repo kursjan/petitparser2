@@ -1,3 +1,0 @@
-validation
-expectedForSource: source
-	self subclassResponsibility

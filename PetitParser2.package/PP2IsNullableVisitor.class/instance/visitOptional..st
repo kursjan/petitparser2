@@ -1,3 +1,0 @@
-visiting
-visitOptional: node
-	^ true

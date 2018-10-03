@@ -1,3 +1,0 @@
-testing
-isParseNode
-	^ true

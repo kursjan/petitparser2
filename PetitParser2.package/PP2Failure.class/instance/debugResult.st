@@ -1,3 +1,0 @@
-debugging
-debugResult
-	^ context debugResult

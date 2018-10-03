@@ -1,3 +1,0 @@
-compatiblity
-length
-	^ self size

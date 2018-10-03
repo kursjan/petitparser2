@@ -1,3 +1,0 @@
-visiting
-visitPredicateObject: node
-	^ false

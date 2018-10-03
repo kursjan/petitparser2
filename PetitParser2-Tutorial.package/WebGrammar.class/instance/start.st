@@ -1,3 +1,0 @@
-various
-start
-	^ structuredDocument 

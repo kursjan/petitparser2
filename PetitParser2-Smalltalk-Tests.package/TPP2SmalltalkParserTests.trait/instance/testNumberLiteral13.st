@@ -1,6 +1,0 @@
-testing-literals
-testNumberLiteral13
-	super testNumberLiteral13.
-	self assert: self result isLiteralNode.
-	self assert: self result value equals: 202.9921875.
-	self assert: self result value isFloat

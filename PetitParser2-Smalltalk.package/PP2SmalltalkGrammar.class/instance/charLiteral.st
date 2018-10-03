@@ -1,3 +1,0 @@
-grammar-literals
-charLiteral
-	^ charToken

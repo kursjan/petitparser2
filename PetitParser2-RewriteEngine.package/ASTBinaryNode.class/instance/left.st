@@ -1,3 +1,0 @@
-generated
-left
-	^ left

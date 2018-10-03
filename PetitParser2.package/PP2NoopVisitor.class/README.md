@@ -1,1 +1,0 @@
-Traverses all PP2Nodes, takes care about recursive sub-structures.

@@ -1,3 +1,0 @@
-memoization
-rememberPosition
-	^ position

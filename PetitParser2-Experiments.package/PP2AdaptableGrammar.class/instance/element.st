@@ -1,3 +1,0 @@
-accessing
-element
-	^ head, body

@@ -1,3 +1,0 @@
-testing
-isContextPop
-	^ true

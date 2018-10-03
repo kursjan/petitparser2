@@ -1,3 +1,0 @@
-stats
-tpc
-	^ time / size

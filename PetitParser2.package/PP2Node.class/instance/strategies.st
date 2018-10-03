@@ -1,3 +1,0 @@
-accessing
-strategies
-	^ strategy allChildren

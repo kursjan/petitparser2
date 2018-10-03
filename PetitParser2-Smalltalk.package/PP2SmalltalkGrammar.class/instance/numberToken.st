@@ -1,3 +1,0 @@
-token
-numberToken
-	^ number smalltalkToken

@@ -1,3 +1,0 @@
-accessing
-contents
-	^ reference contents

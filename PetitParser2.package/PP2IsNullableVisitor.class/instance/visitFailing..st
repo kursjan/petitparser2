@@ -1,3 +1,0 @@
-visiting
-visitFailing: node
-	^ false

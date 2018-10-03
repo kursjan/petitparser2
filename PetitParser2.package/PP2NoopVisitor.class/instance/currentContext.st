@@ -1,3 +1,0 @@
-accessing
-currentContext
-	^ openStack top

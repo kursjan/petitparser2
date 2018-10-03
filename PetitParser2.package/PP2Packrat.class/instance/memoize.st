@@ -1,3 +1,0 @@
-conversion
-memoize
-	^ self

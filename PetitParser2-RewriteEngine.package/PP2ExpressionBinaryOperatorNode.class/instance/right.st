@@ -1,3 +1,0 @@
-accessing
-right
-	^ self third

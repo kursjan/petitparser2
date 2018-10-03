@@ -1,3 +1,0 @@
-accessing - private
-bufferSize
-	^ bufferSize

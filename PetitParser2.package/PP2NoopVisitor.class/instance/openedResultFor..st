@@ -1,3 +1,0 @@
-loop control
-openedResultFor: context
-	^ #()

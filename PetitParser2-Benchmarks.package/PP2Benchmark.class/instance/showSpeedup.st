@@ -1,3 +1,0 @@
-reporting
-showSpeedup
-	report speedup

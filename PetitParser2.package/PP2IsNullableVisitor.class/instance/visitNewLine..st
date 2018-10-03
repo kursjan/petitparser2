@@ -1,3 +1,0 @@
-visiting
-visitNewLine: node
-	^ false

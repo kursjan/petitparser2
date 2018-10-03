@@ -1,1 +1,0 @@
-TODO(JanKurs): I wonder what is the value of this class... except for a purely experimental purposes.

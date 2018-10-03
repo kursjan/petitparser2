@@ -1,3 +1,0 @@
-grammar
-variable
-	^ identifierToken

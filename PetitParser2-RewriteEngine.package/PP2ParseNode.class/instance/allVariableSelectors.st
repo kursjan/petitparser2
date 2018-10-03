@@ -1,3 +1,0 @@
-variables
-allVariableSelectors
-	^ #(#nodeVariables)

@@ -1,3 +1,0 @@
-testing
-isContextChange
-	self subclassResponsibility 

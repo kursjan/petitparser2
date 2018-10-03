@@ -1,3 +1,0 @@
-accessing
-displayText
-	'abstract element'

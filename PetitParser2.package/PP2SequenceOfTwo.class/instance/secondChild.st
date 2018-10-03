@@ -1,3 +1,0 @@
-accessing
-secondChild
-	^ secondChild

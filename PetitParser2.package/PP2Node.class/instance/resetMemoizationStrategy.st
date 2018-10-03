@@ -1,3 +1,0 @@
-initialization
-resetMemoizationStrategy
-	memoizationStrategy := PP2CSMemoization new

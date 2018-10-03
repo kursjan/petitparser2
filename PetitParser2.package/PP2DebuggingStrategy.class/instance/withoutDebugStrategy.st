@@ -1,3 +1,0 @@
-accessing
-withoutDebugStrategy
-	^ strategy withoutDebugStrategy

@@ -1,3 +1,0 @@
-accessing-globals
-globals
-	^ globals

@@ -1,3 +1,0 @@
-recording
-hits
-	self explicitRequirement

@@ -1,3 +1,0 @@
-testing
-isRepeating
-	^ true

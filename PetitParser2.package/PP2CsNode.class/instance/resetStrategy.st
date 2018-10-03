@@ -1,3 +1,0 @@
-initialization
-resetStrategy
-	self subclassResponsibility 

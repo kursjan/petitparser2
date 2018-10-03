@@ -1,3 +1,0 @@
-requests
-shouldExtractAssignmentTo: aString
-	^ false

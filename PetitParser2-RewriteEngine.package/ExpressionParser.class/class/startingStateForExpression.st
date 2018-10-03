@@ -1,3 +1,0 @@
-generated
-startingStateForExpression
-	^ 1

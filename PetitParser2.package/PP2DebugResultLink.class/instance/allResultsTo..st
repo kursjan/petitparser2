@@ -1,3 +1,0 @@
-analysis
-allResultsTo: aSet
-	^ aSet

@@ -1,3 +1,0 @@
-analysis - first
-isFirstSetTerminal
-	^ false

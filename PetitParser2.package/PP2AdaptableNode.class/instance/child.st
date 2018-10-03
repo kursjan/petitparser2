@@ -1,3 +1,0 @@
-visiting
-child
-	^ child

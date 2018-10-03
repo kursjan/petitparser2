@@ -1,3 +1,0 @@
-reporting
-showDetailedReport
-	report showDetailed

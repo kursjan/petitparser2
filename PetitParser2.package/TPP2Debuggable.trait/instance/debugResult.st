@@ -1,3 +1,0 @@
-debugging
-debugResult
-	self explicitRequirement

@@ -1,3 +1,0 @@
-accessing
-last
-	^ entries last

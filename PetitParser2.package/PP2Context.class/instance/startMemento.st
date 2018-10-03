@@ -1,3 +1,0 @@
-requirements
-startMemento
-	^ startMemento

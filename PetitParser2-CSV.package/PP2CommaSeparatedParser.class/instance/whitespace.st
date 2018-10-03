@@ -1,3 +1,0 @@
-accessing
-whitespace
-	^ #blank asPParser
