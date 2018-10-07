@@ -75,11 +75,11 @@ WebParser >> structuredDocument [
 	map: [ :_bw :_html :_aw |
 		| beforeWater afterWater |
 		beforeWater := UnknownText new
-			text: _bw;
+			text: (String new writeStream nextPutAll: _bw; yourself) contents;
 			yourself.
 			
 		afterWater := UnknownText new
-			text: _aw;
+			text: (String new writeStream nextPutAll: _aw; yourself) contents;
 			yourself.
 			
 		HtmlElement new
@@ -97,7 +97,7 @@ WebParser >> structuredDocument [
 WebParser >> text [
 	^ super text flatten
 	
-	map: [ :_value | 
+	map: [ :_value |
 		UnknownText new
 			text: _value;
 			yourself	
