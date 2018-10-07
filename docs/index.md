@@ -29,7 +29,7 @@ We cover many topics, some of them well-known in the area of parsing, neverthele
 - **Context-sensitive rules** that allow us to detect matching begin and end HTML tags and recover from malformed inputs.
 - **Optimizations** of PetitParser to turn our prototype into a an efficient top-down parser. 
 
-In [Extracting Javascript]({% link scripting.md %}) we start with a simple script.
+In [Extracting Javascript](scripting.md) we start with a simple script.
 Later in [From a Script to a Parser](Chapters/chapter2.pillar), we turn the script into a proper grammar and add tests.
 In [Extracting the Structure](Chapters/chapter3.pillar) we extend the parser with rules to recognize HTML structure, even if the HTML source is malformed. In [Abstract Syntax Tree](Chapters/AST.pillar), we show how to build a suitable representation of the HTML source.
 
