@@ -1,6 +1,6 @@
 # Extracting the Structure
 
-In the [previous chapter](grammar.md) we created a parser to extract a list of javascript strings from an HTML source.
+In the [previous chapter](grammar.md) we created a parser to extract a list of JavaScript strings from an HTML source.
 Now we extend the parser to extract an HTML structure as well. 
 
 ## Matching Open And Close Tags
@@ -158,7 +158,5 @@ WebGrammarTest>>testElementMalformedUnclosed
 
 ## Summary
 
-In this chapter we used context-sensitive ```push```, ```pop``` and ```matches``` rules to match opening and closing elements of HTML code.
-This works even for malformed inputs.
-
-In the [next chapter], we show how to return an *an abstract syntax tree* --- more convenient representation of an input.
+We extended our parser to match opening and closing elements of HTML.
+To do so, we used context-sensitive extension of PetitParser2: ```push```, ```pop``` and ```matches``` rules.

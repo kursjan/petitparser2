@@ -1,10 +1,8 @@
 # Comments
 
-In this chapter we inspect HTML comments. 
-Comments can contain scripts or other elements that are not part of the HTML document (they are just comments, right?). 
-Problem with comments is that they confuse the parser a lot!
+Code comments may contain scripts or other elements that are not part of the HTML document (they are just comments, right?). 
 
-Actually they do so in our tests as well!
+## Find a Bug
 There is an error in ```WebParser``` that we have not found. 
 It extracts one extra HTML element, which is not part of the HTML document.
 Inspect the following and switch to the tree view:
@@ -15,6 +13,8 @@ WebParser new parse: input.
 
 There is a ''<p>'' element in the ''<body>''. 
 But ''<p>'' is a part of a comment, it should not be included in the document structure. 
+
+![AST is wrong](img/ast-wrong.png)
 
 {% include note.html content="
 Check the our sample input:
@@ -75,7 +75,9 @@ WebGrammar>>text
 	^ (comment / any) starLazy
 ```
 
-Now the test will pass.
+Now tests pass and AST looks good:
+![AST is OK](img/ast-correct.png)
+
 
 {% include note.html content="
 TODO(kurs): do we have starLazy chapter?
@@ -83,8 +85,9 @@ If you are interested in the details of the ```starLazy``` operator, check out t
 "%}
 
 ## Summary
-TODO(kurs): add summary
+Parsers unaware of comments sooner or later return wrong results. 
+We fixed the issue by specifying the ```comment``` rule, which properly skips over comments in input.
 
 ### Sources
-The sources of this tutorial are part of the PetitParser2 package, you just need to install PetitParser2 or use Moose as described in the [Introduction](index.md).
+The sources of this tutorial are part of the PetitParser2 package, you just need to install PetitParser2 or use Moose as described in the [introduction](index.md).
 

@@ -8,7 +8,7 @@ In this series we describe [PetitParser2](https://github.com/kursjan/petitparser
 
 ## Structure
 
-The text guides the readar through a parser development. It starts from scripting in a workspace and ends with a full-fledged, tested and high-performance parser. 
+The text guides the readar through a parser development. It starts from scripting in a playground and ends with a full-fledged, tested and high-performance parser. 
 
 ### Prerequsities
 This text expects a basic knowledge of parsing with PetitParser.

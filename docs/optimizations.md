@@ -1,4 +1,5 @@
 # Optimizations Overview
+When running the ```testStructuredDocument```, you might have noticed that the performance is not good. 
 
 {% include note.html content="
 The ```WebGrammar``` you see in the Pharo image already contains optimized version of the ```element``` rule. 
@@ -10,7 +11,6 @@ WebGrammar>>element
 "%}
 
 ## Basic Analysis
-When running the ```testStructuredDocument```, you might have noticed that the performance is not good. 
 It is actually terribly bad. Let us inspect in in detail:
 
 ```smalltalk
@@ -123,8 +123,7 @@ But as mentioned these have happened before and mapping node shows them just for
 "%}
 
 {% include todo.html content="
-TODO(kurs): do we have caches chapter?
-@@note More about caches can be found in the [Caching chapter](caches.md).
+More about caches can be found in the [caching chapter](caches.md).
 "%}
 
 ### <a id="specializations" /> Specializations
@@ -148,16 +147,15 @@ The PetitParser2 recognized an *any-star-lazy* pattern that, in this case, means
 This can be implemented as a single while loop saving 252 parser invocations.
 "%}
 
-
+<!--
 {% include todo.html content="
 TODO(kurs):
 @@todo More details about specializations are provided in the [Smalltalk Parser](smalltalkOptimizations.md) chapter.
 "%}
+-->
 
-## Conclusion
-In general, PEG-based parser combinator parsers (such as PetitParser) are popular because they are easy to understand, easy to extend and easy to debug.
-But these advantages come at the price of low efficiency. 
-In order to target this problem, PetitParser2 comes with optimizations that dramatically improve efficiency while preserving advantages of parser combinators.
+## Summary
+Top-down parser combinators (such as PetitParser2) are popular because they are easy to understand, extend and debug.
+These advantages come at the price of low efficiency. 
 
-Yet, some of these optimizations cannot be done automatically.
-There is a kind of optimizations that has to be done manually, we describe them in the next chapter about [Memoization](memoization.md).
+PetitParser2 offers optimizations that dramatically improve efficiency while preserving advantages of parser combinators.

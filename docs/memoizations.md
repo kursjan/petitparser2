@@ -1,4 +1,5 @@
 # Manual Memoization
+In the previous [chapter](optimizations.md) we greatly improved the performance of our parser by calling ```optimize``` method. 
 
 {% include note.html content="
 The ```WebGrammar``` you see in the Pharo image already contains optimized version of the ```element``` rule. 
@@ -9,7 +10,6 @@ WebGrammar>>element
 ```
 "%}
 
-In the previous [chapter](optimizations.md) we greatly improved the performance of our parser by calling ```optimize``` method. 
 Let's try the real sources then.
 The home page of we [wikipedia](https://wikipedia.org), [github](https://github.com), [facebook](https://facebook.com) and [google](https://google.com) can be parsed invoking this commands:
 
@@ -21,11 +21,11 @@ sources collect: [ :s |
 ]
 ```
 
-Unfortunately, this still takes too much (event with the automated optimizations). 
+Unfortunately, this still takes too much time (event with the automated optimizations). 
 Can we do something, that the optimizations can't? 
 Usually, hard to say. 
 It depends on the nature of a grammar and input to be parsed.
-In this case, we can really improve the performance (obviously, we wouldn't write this chapter otherwise).
+In this case, we can improve the performance (we wouldn't write this chapter otherwise).
 
 ### Trace View
 It is a good time to check the events morph of a debug result. 
@@ -50,6 +50,9 @@ For long inputs the *Event* tab shows only a beginning of the input and first fe
 Even though optimizations in PetitParser2 work reasonably well, not all of them can be applied automatically and must be done by poor humans.
 Luckily, there are tools to help those humans. 
 
+
+## Searching for the cause
+
 For the convenience of the visualization, we will use a compacted and simplified input.
 ```smalltalk
 compact := '
@@ -68,8 +71,6 @@ WebParser new optimize debug: compact.
 <a id="compactTrace" />
 ![Visualization of invocations of the optimized parser on compact input](img/short-trace.png)
 
-
-## Searching for the cause
 
 In the events morph we see how does the parser backtrack, over and over. 
 We have to do a bit of detective work to figure out when and why. 
@@ -116,7 +117,7 @@ To suggest PetitParser2 to add memoization, add a ```memoize``` keyword to the `
 
 {% include note.html content="
 Memoization is a technique to remember all the results for all the positions (while caching remembered only the last result for the last position).
-Memoizations are costly as well, therefore they should be applied carefully.
+Memoizations are costly, they should be applied carefully.
 "%}
 
 ```smalltalk
@@ -162,9 +163,10 @@ sources collect: [ :s |
 ]
 ```
 
-## Conclusion
-Momoziation reduced exponential parsing time complexity to a linear complexity.
-Memoization is hard to apply automatically, therefore PetitParser2 provides tools to identify which parsers should be memoized.
+## Summary
+Momoziation can turn exponential parsing-time complexity to a linear one. 
+As PetitParser2 cannot apply memoization automatically, it provides tools to for users to identify which parsers should be memoized.
+By applying optimizations, we are able to parse real-world websites by a parser developed in a few hours.
 
 ### Sources
 The sources of this tutorial are part of the PetitParser2 package, you just need to install PetitParser2 or use Moose as described in the [Introduction](index.md).

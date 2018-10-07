@@ -1,7 +1,7 @@
 # Create an Abstract Syntax Tree
-In the [previous chapter](csgrammar.md) we tested our grammar to parse nested elements.
-We know it the grammar parses the input, but we don't know what is the result.
-We implement structured html representation in this chapter.
+In the [previous chapter](csgrammar.md) we created a grammar to parse nested HTML elements.
+The grammar parses the input, but we don't know what is the result.
+Now, we implement structured html representation of an HTML input.
 
 
 {% include note.html content="
@@ -335,7 +335,8 @@ Try if tests pass:
 ```
 
 ## Summary 
-We defined ```WebParser```, which extends the ```WebGrammar``` and builds the AST nodes.
+We extended grammar to return convenient input: an abstract syntax tree.
+The AST is constructed in```WebParser```, which extends the ```WebGrammar```.
 
 ### Sources
 The sources of this tutorial are part of the PetitParser2 package, you just need to install PetitParser2 or use Moose as described in the [Introduction](index.md).

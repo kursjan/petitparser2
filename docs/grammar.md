@@ -1,6 +1,6 @@
 # <a id="sec:grammar" />Turning the script into a real parser
 
-To scale we should turn the playground script (see post about [scripting]({% link scripting.md %})).
+To scale we should turn the playground script into a proper parser.
 
 
 {% include note.html content="
@@ -157,4 +157,4 @@ Both tests should pass now:
 ```
 
 ## Summary
-We turned the script from previous chapter into a parser class, to be able to test and further extend our parser.
+We turned the script from previous chapter into a parser to be able to test and further extend our parser.

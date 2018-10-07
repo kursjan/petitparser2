@@ -31,11 +31,11 @@ WebParser>>structuredDocument
   map: [ :_bw :_html :_aw |
     | beforeWater afterWater |
     beforeWater := UnknownText new
-      text: _bw;
+			text: (String new writeStream nextPutAll: _bw; yourself) contents;
       yourself.
       
     afterWater := UnknownText new
-      text: _aw;
+			text: (String new writeStream nextPutAll: _aw; yourself) contents;
       yourself.
       
     HtmlElement new
@@ -184,7 +184,7 @@ By this time all the tests should pass:
 ```
 
 ## Summary
-TODO(kurs): add summary
+We finished parser from the [previous](parsing.md) chapter to properly parse the whole html document.
 
 ### Sources
 The sources of this tutorial are part of the PetitParser2 package, you just need to install PetitParser2 or use Moose as described in the [Introduction](index.md).
