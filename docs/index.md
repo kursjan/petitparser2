@@ -10,18 +10,18 @@ In this series we describe [PetitParser2](https://github.com/kursjan/petitparser
 
 The text is organized into two parts: 
 1. The first part covers the basic developer's workflow with PetitParser.  It is suitable for anyone who has a bit of experience with PetitParser and would like to learn how to efficiently develop production quality parsers with PetitParser.
-1. The second part covers advanced topics and inspects internals of PettiParser into more depth.It is for those who would like to fully levereage capatbilities of PetitParser to better fit their needs.
+1. The second part covers advanced topics and inspects internals of PettiParser into more depth. It is for those who would like to fully levereage capatbilities of PetitParser to better fit their needs.
 
 ### Prerequsities
 This text expects a basic knowledge of parsing with PetitParser.
 If you are not sure, if you have the required level of knoledge, we recommend the following:
-- [Writing Parser with PetitParser](https://www.lukas-renggli.ch/blog/petitparser-1) from Lukas Renggli
+- [Writing Parser with PetitParser](https://www.lukas-renggli.ch/blog/petitparser-1) from Lukas Renggli.
 - [Introduction to PetitParser2](http://www.humane-assessment.com/blog/introducing-petitparser2/) by Tudor Girba.
 - Optionally, there is a dedicated [PetitParser chapter](http://scg.unibe.ch/archive/papers/Kurs13a-PetitParser.pdf) in the [Deep into Pharo](http://www.deepintopharo.com/) book.
 
 
-### Part I, Developer's Workflow
-In this part we demonstrate how to quickly build a high-performance parser on the example of extracting a Javascript code from any HTML source, including a malformed source.
+### Part I: Developer's Workflow
+In part I we quickly build a high-performance parser extracting a Javascript code from any HTML source and we add error recovery if the source is malformed.
 
 From prototyping in a playground we reach a full-fledged and tested parser that effectively builds a structured HTML representaion. 
 We cover many topics, some of them well-known in the area of parsing, nevertheless, the following technologies are unique for PetitParser:
@@ -29,7 +29,7 @@ We cover many topics, some of them well-known in the area of parsing, neverthele
 - **Context-sensitive rules** that allow us to detect matching begin and end HTML tags and recover from malformed inputs.
 - **Optimizations** of PetitParser to turn our prototype into a an efficient top-down parser. 
 
-In [Extracting Javascript](Chapters/chapter1.pillar) we start with a simple script.
+In [Extracting Javascript]({% link scripting.md %}) we start with a simple script.
 Later in [From a Script to a Parser](Chapters/chapter2.pillar), we turn the script into a proper grammar and add tests.
 In [Extracting the Structure](Chapters/chapter3.pillar) we extend the parser with rules to recognize HTML structure, even if the HTML source is malformed. In [Abstract Syntax Tree](Chapters/AST.pillar), we show how to build a suitable representation of the HTML source.
 
@@ -71,14 +71,14 @@ Moose is a software and data analysis platform that has everything we need alrea
 
 Alternatively, you can download clean [Pharo 6](http://pharo.org) (or higher) image and install PetitParser2 using the following command:
 
-```
-Metacello newlink
-	baseline: 'PetitParser2';
-	replinkository: 'github://kursjan/petitparser2';
+```smalltalk
+Metacello new
+	baseline: 'PetitParser2Gui';
+	repository: 'github://kursjan/petitparser2';
    	load
 ```
 
-In case nothing of the previous works, please let me know: <kurs.jan@gmail.com>. 
+In case it does not work, please let me know: <kurs.jan@gmail.com>. 
 
 
 ### Book Chapters
