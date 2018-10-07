@@ -67,7 +67,7 @@ js parse: source.
 The result is failure. 
 Inspect the failure and switch to *Debug View*. Notice that *\<script\>* is expected at the beginning of a file, but input starts with *<!DOCTYPE html>*. 
 
-<img src="/img/scripting-failure.png" alt="Scripting Failure">
+<img src="img/scripting-failure.png" alt="Scripting Failure">
 
 To fix it, create a new rule ```jsSea```: a javascript island in a sea of an uninteresting water, using the ```sea``` operator:
 
@@ -108,7 +108,7 @@ document := jsSea star.
 
 Now by calling ```document parse: source``` we extract both javascripts from the source, the result should look like: 
 
-<img src="/img/scripting-result.png" alt="Scripting Result">
+<img src="img/scripting-result.png" alt="Scripting Result">
 
 <!--
 tutorial := PP2Tutorial new.
