@@ -1,6 +1,6 @@
 # <a id="sec:scripting" />Extracting Javascript: scripting with bounded seas
 
-In this chapter we extract javascript from html files using a simple script.
+In this chapter we extract javascript from html files using a Smalltalk playground.
 <!-- We create the real parser *later>chapter2.pillar*. -->
 
 ## Hands On 
@@ -18,23 +18,23 @@ The source very simplified (and slightly modified) version of *Wikipedia>wikiped
 <!-- saved from url=(0026)https://www.wikipedia.org/ -->
 <html lang="mul" dir="ltr" class="js-enabled">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>Wikipedia</title>
-	<meta name="description" content="Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.">
-	<!--[if gt IE 7]-->
-	<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)no-js(\s|$)/, "$1js-enabled$2" );</script>
-	<!--[endif]-->
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Wikipedia</title>
+  <meta name="description" content="Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.">
+  <!--[if gt IE 7]-->
+  <script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)no-js(\s|$)/, "$1js-enabled$2" );</script>
+  <!--[endif]-->
 </head>
 <body id="www-wikipedia-org">
-	<h1 class="central-textlogo" style="font-variant: small-caps" alt="WikipediA" title="Wikipedia">
-		<img src="./Wikipedia_files/Wikipedia_wordmark.png" srcset="portal/wikipedia.org/assets/img/Wikipedia_wordmark@1.5x.png 1.5x" width="174" height="30" alt="WikipediA" title="Wikipedia">
-		<strong id="js-localized-slogan" class="localized-slogan" style="visibility: visible;">The Free Encyclopedia</strong>
-	</h1>
-	<div id="mydiv">
-		Hi there!
-	</div>
-	<script>alert("All scripts ends with: '</script>'...")</script>
-	<!-- <p>obsolete conentent</p> -->
+  <h1 class="central-textlogo" style="font-variant: small-caps" alt="WikipediA" title="Wikipedia">
+    <img src="./Wikipedia_files/Wikipedia_wordmark.png" srcset="portal/wikipedia.org/assets/img/Wikipedia_wordmark@1.5x.png 1.5x" width="174" height="30" alt="WikipediA" title="Wikipedia">
+    <strong id="js-localized-slogan" class="localized-slogan" style="visibility: visible;">The Free Encyclopedia</strong>
+  </h1>
+  <div id="mydiv">
+    Hi there!
+  </div>
+  <script>alert("All scripts ends with: '</script>'...")</script>
+  <!-- <p>obsolete conentent</p> -->
 </body>
 </html>
 ```
@@ -42,8 +42,10 @@ The source very simplified (and slightly modified) version of *Wikipedia>wikiped
 Second, we define javascript as a ```js``` rule:
 
 ```smalltalk
-js := '<script>' asPParser, #any asPParser starLazy flatten, '</script>' asPParser 
-	==> #second.
+js := '<script>' asPParser, 
+  #any asPParser starLazy flatten, 
+      '</script>' asPParser 
+  ==> #second.
 ```
 
 The ```starLazy``` operator is a new feature of PetitParser2.
@@ -55,8 +57,9 @@ And with any change in the grammar, the ```starLazy``` updates itself.
 If you want to define the same rule in the previous version of PetitParser, it would be:
 ```smalltalk
 '<script>' asParser, 
-	(#any asParser starLazy: '</script>' asParser) flatten, 
-'</script>' asParser.
+  (#any asParser starLazy: '</script>' asParser) flatten, 
+'</script>' asParser
+  ==> #second
 ```
 " %}
 
@@ -103,8 +106,10 @@ The whole script looks like:
 <!-- PP2Tutorial new sourceForScript: #scriptWithoutString. -->
 ```smalltalk
 source := PP2Sources current htmlSample.
-js := '<script>' asPParser, #any asPParser starLazy flatten, '</script>' asPParser
-	==> #second.
+js := '<script>' asPParser, 
+  #any asPParser starLazy flatten, 
+'</script>' asPParser
+  ==> #second.
 jsSea := js sea ==> #second.
 document := jsSea star.
 ```
@@ -144,8 +149,10 @@ PP2Tutorial new sourceForScript: #script.
 ```smalltalk
 any := #any asPParser.
 jsString := $' asPParser, any starLazy, $' asPParser.
-js := '<script>' asPParser, ((jsString / any) starLazy) flatten, '</script>' asPParser
-	 ==> #second.
+js := '<script>' asPParser, 
+  ((jsString / any) starLazy) flatten, 
+'</script>' asPParser
+  ==> #second.
 ```
 
 Great, everything works as expected!
@@ -170,7 +177,3 @@ We prototyped a parser to extract javascript from html files.
 In the PetitParser2, there are ```sea``` and ```starLazy``` operators to help us skip an uninteresting input.
 
 TODO(kurs): verify link: More details are provided in [this chapter](starLazy.pillar). 
-
-
-TODO(kurs): replace TOC
-${inputFile:Chapters/toc.pillar}$
