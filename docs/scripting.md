@@ -54,7 +54,9 @@ And with any change in the grammar, the ```starLazy``` updates itself.
 {% include note.html content="
 If you want to define the same rule in the previous version of PetitParser, it would be:
 ```smalltalk
-'<script>' asParser, (#any asParser starLazy: '</script>' asParser) flatten, '</script>' asParser.
+'<script>' asParser, 
+	(#any asParser starLazy: '</script>' asParser) flatten, 
+'</script>' asParser.
 ```
 " %}
 
@@ -79,6 +81,7 @@ jsSea parse: source.
 {% include note.html content="
 The ```sea``` operator does some magic and the result is not a failure! 
 Sea returns an array of three elements: 
+
 1. before-water 
 1. island and 
 1. after-water

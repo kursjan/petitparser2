@@ -1,0 +1,15 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.alert {
+	background-color: #f0f7fb;
+     	//background-image: url(../Images/icons/Pencil-48.png);
+     	//background-position: 9px 0px;
+     	//background-repeat: no-repeat;
+     	border-left: solid 4px #3498db;
+     	line-height: 18px;
+     	overflow: hidden;
+     	padding: 15px 30px;
+}
