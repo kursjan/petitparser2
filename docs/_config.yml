@@ -1,3 +1,5 @@
 ---
 name: Petit Parser
 description: Simple, modular and flexible high-performance parsing framework.
+
+theme: jekyll-theme-minimal
