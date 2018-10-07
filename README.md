@@ -77,10 +77,12 @@ Metacello new
 
 [Here](https://github.com/kursjan/petitparser2/issues/20#issuecomment-399667230) you can find an illustrative explanation how to debug when parsers do not work as expected.
 
-## [PetitParser2 Book](https://kursjan.github.io/petitparser2/pillar-book/build/book.html)
-Learn more about PetitParser. In the book we cover all the topics related to PetitParser. We discuss basics of parsing such as testing or AST generation as well as advanced topics including context-sensitive parsing or optimizations.
+## [PetitParser2 Tutorial](https://kursjan.github.io/petitparser2/)
+Learn more about PetitParser2. 
+In the tutorial we cover all the topics related to PetitParser2. 
+We discuss PetitParser2 best practices, testing, abstract syntax tree generation, optimizations or even context-sensitive parsing.
 
-https://kursjan.github.io/petitparser2/pillar-book/build/book.html
+https://kursjan.github.io/petitparser2/
 
 ## Need Help?
 Feel free to [open an issue](https://github.com/kursjan/petitparser2/issues) or post a [StackOverflow](https://stackoverflow.com/questions/tagged/petitparser2) question with the `petitparser2` tag.
