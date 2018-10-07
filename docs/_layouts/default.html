@@ -23,10 +23,23 @@
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
 	      <p>
-        <b>Topics</b><br/>
-        <a href="{{ site.baseurl }}{% link scripting.md %}">Scripting</a><br/>
+        <b>Parser Development</b><br/>
+        <a href="{{ site.baseurl }}{% link scripting.md %}">Scripting in Playground</a><br/>
         <a href="{{ site.baseurl }}{% link grammar.md %}">Grammar</a><br/>
-        <a href="{{ site.baseurl }}{% link parser.md %}">Parser</a><br/>
+        <a href="{{ site.baseurl }}{% link csgrammar.md %}">Context-Sensitive Grammar</a><br/>
+        <a href="{{ site.baseurl }}{% link parser.md %}">Abstract-Syntax Tree</a><br/>
+        <a href="{{ site.baseurl }}{% link parser-part2.md %}">Full Parser</a><br/>
+        <a href="{{ site.baseurl }}{% link comments.md %}">Comments</a><br/>
+        <a href="{{ site.baseurl }}{% link optimizations.md %}">Optimizations</a><br/>
+        <a href="{{ site.baseurl }}{% link memoizations.md %}">Memoization</a><br/>
+	      </p>
+        
+        <p> 
+        <b>PetitParser2 Internals</b><br/>
+        <a href="{{ site.baseurl }}{% link starlazy.md %}">Star Lazy (In Progress)</a><br/>
+        <a href="{{ site.baseurl }}{% link caches.md %}">Caches (In Progress)</a><br/>
+        <a href="{{ site.baseurl }}{% link matchingTags.md %}">Matching Tags (In Progress)</a><br/>
+        <a href="{{ site.baseurl }}{% link contextSensitiveParsing.md %}">Context-Sensitivity (In Progress)</a><br/>
 	      </p>
 
         {% if site.github.is_project_page %}

@@ -176,4 +176,6 @@ Nevertheless, this is just a first step, PetitParser2 will boldly go where no re
 We prototyped a parser to extract javascript from html files.
 In the PetitParser2, there are ```sea``` and ```starLazy``` operators to help us skip an uninteresting input.
 
-TODO(kurs): verify link: More details are provided in [this chapter](starLazy.pillar). 
+<!--
+{% include note.html content="More details are provided in [Star Lazy](starlazy.md) chapter. "%}
+-->
