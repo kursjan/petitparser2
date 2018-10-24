@@ -19,10 +19,17 @@ PP2DebuggingStrategy >> cache [
 
 { #category : #caching }
 PP2DebuggingStrategy >> cacheIfNeeded: result debugResult: debugResult [
-	
-	(strategy includesCache and: [ (resultCache includesKey: result) and: [ (debugResult allResults size = 1 )]]) ifTrue:[
-		debugResult children add: (PP2DebugResultLink on: (resultCache at: result))
-	] ifFalse: [ 
+	(strategy includesCache) ifFalse: [  
+		^ self
+	].
+
+	"
+		If the underlying strategy is cache, try to provide debug result even for cached results by
+		remembering debug result for each result.
+	"
+	((resultCache includesKey: result) and: [ (debugResult allResults size = 1 )]) ifTrue:[
+		debugResult children: (Array with: (PP2DebugResultLink on: (resultCache at: result)))
+	] ifFalse: [
 		resultCache at: result put: debugResult.
 	]
 ]
