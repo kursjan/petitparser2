@@ -11,8 +11,8 @@ smalltalk:
   - Pharo-alpha
   - Pharo-stable
   - Pharo-6.0
-  - Pharo-6.1
-  - Pharo-5.0
+#  - Pharo-6.1
+#  - Pharo-5.0
 #  - Moose-trunk
   - Moose-6.1
 #
@@ -26,16 +26,5 @@ smalltalk_config:
   - .smalltalk.ston
 
 matrix:
-#  include:
-#    - smalltalk: Pharo-stable
-#      smalltalk_config: .smalltalk.ston
-#    - smalltalk: Pharo-6.0
-#      smalltalk_config: .smalltalk.ston
-#    - smalltalk: Pharo-5.0
-#      smalltalk_config: .smalltalk.ston
-#    - smalltalk: Pharo-stable
-#      smalltalk_config: .rewrite.ston
-#    - smalltalk: Pharo-stable
-#      smalltalk_config: .gui.ston
   allow_failures:
    - smalltalk: Pharo-alpha
