@@ -167,7 +167,7 @@ PP2PEGGrammarTest >> testReference [
 	grammar := 'Grammar <- Foo / Bar
 			    Foo <- "Foo"
 			    Bar <- "Bar"'.
-	parser := PP2PEGParserParser grammar: grammar start: 'Grammar'.
+	parser := self grammar: grammar start: 'Grammar'.
 	self
 		assert: (parser parse: 'Foo') equals: 'Foo';
 		assert: (parser parse: 'Bar') equals: 'Bar'
