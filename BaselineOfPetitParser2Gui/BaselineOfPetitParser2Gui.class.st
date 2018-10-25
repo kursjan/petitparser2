@@ -19,7 +19,7 @@ BaselineOfPetitParser2Gui >> baseline: spec [
 			spec
 				versionString: #'stable';
 				className: 'ConfigurationOfGlamour';
-				repository: 'http://www.smalltalkhub.com/mc/Moose/Glamour/main' ].
+				repository: 'github://moosetechnology/Glamour/src' ].
 			
 		spec project: 'Roassal2' with: [
 				spec
@@ -35,13 +35,4 @@ BaselineOfPetitParser2Gui >> baseline: spec [
 			package: 'PetitParser2-Benchmarks-GUI' with: [ 
 				spec requires: #('PetitParser2') ].
 	].
-
-	spec for: #'pharo5.x' do: [
-		spec project: 'GToolkit' with: [
-				spec
-					className: #ConfigurationOfGToolkit;
-					versionString: #'stable';
-					repository: 'http://www.smalltalkhub.com/mc/Moose/GToolkit/main' ].
-	].
-
 ]
