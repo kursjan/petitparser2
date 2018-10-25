@@ -75,7 +75,7 @@ PP2PEGParserParser >> Class [
 			| sets predicate |
 			sets := args second collect: #second.
 			predicate := [:char | sets anySatisfy: [:range | range value: char]].
-			PP2PredicateObjectNode on: predicate message: 'char set expected']
+			PP2PredicateObjectNode on: predicate message: 'expected char from char set']
 ]
 
 { #category : #'lexical symbols' }
@@ -229,15 +229,15 @@ PP2PEGParserParser >> escape: characters [
 	| character |
 	character := characters second.
 	"whitespace"
-	character = $n ifTrue: [^Character cr].
-	character = $r ifTrue: [^Character lf].
+	character = $n ifTrue: [^Character lf].
+	character = $r ifTrue: [^Character cr].
 	character = $t ifTrue: [^Character tab].
 	"octal code"
 	character isDigit
 		ifTrue: 
 			[| code |
 			code := characters reject: [:c | c isNil or: [c isCollection]].
-			('8r' , (String withAll: code)) asNumber asCharacter].
+			^('8r' , (String withAll: code)) asNumber asCharacter].
 	"literal character"
 	^character
 ]
