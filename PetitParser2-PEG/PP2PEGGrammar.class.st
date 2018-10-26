@@ -44,17 +44,20 @@ Class {
 		'Parenthesised',
 		'Prefix',
 		'AND',
-		'Expression'
+		'Expression',
+		'CharEscape',
+		'CharOctal',
+		'CharNormal'
 	],
 	#category : #'PetitParser2-PEG'
 }
 
-{ #category : #parsers }
+{ #category : #'initialize-release' }
 PP2PEGGrammar class >> bootstrap [
 	"Generate the receiver's production methods and variables from the textual description.
 	Warning: This is circular and ovewrites the receiver's productions. Hence, be sure the grammar is correct."
 	
-	^(PP2PEGParserCompiler parser: self) parse: self grammarPEG
+	^(PP2PEGParserCompiler parser: self grammar: self grammarPEG)
 ]
 
 { #category : #grammars }
@@ -90,10 +93,10 @@ Literal		<- [''] (![''] Char)* [''] Spacing
 			  / ["] (!["] Char)* ["] Spacing
 Class		<- ''['' (!'']'' Range)* '']'' Spacing
 Range		<- Char (''-'' Char)?
-Char		<- ''\\'' [nrt''"\[\]\\]
-			  / ''\\'' [0-2][0-7][0-7]
-			  / ''\\'' [0-7][0-7]?
-			  / !''\\'' .
+Char		<- CharEscape / CharOctal / CharNormal
+CharEscape	<- ''\\'' [nrt''"\[\]\\]
+CharOctal	<- "\\" ( [0-2][0-7][0-7] / [0-7][0-7] / [0-7] )
+CharNormal	<- !''\\'' .
 
 LEFTARROW	<- ''<-'' Spacing
 SLASH		<- ''/'' Spacing
@@ -113,6 +116,22 @@ EndOfLine	<- ''\r\n'' / ''\n'' / ''\r''
 EndOfFile	<- !.'
 ]
 
+{ #category : #'initialize-release' }
+PP2PEGGrammar class >> resetProductions [
+	"Warning: Use with care, resetting breaks this parser and its subclasses."
+
+	| ignore |
+	ignore := self ignoredNames.
+	self instVarNames do: 
+			[:prod |
+			(ignore includes: prod)
+				ifFalse: 
+					[self
+						removeInstVarName: prod;
+						removeSelector: prod asSymbol;
+						removeSelector: #start]]
+]
+
 { #category : #'lexical symbols' }
 PP2PEGGrammar >> AND [
 
@@ -128,7 +147,25 @@ PP2PEGGrammar >> CLOSE [
 { #category : #lexical }
 PP2PEGGrammar >> Char [
 
-	^ (('\' asPParser , (PP2PredicateObjectNode on: [:char | char = $n or: [char = $r or: [char = $t or: [char = $' or: [char = $" or: [char = $[ or: [char = $] or: [char = $\]]]]]]]] message: 'char set expected')) / ('\' asPParser , (PP2PredicateObjectNode on: [:char | (char between: $0 and: $2)] message: 'char set expected') , (PP2PredicateObjectNode on: [:char | (char between: $0 and: $7)] message: 'char set expected') , (PP2PredicateObjectNode on: [:char | (char between: $0 and: $7)] message: 'char set expected')) / ('\' asPParser , (PP2PredicateObjectNode on: [:char | (char between: $0 and: $7)] message: 'char set expected') , (PP2PredicateObjectNode on: [:char | (char between: $0 and: $7)] message: 'char set expected') optional) / ('\' asPParser not , #any asPParser))
+	^ (CharEscape / CharOctal / CharNormal)
+]
+
+{ #category : #lexical }
+PP2PEGGrammar >> CharEscape [
+
+	^ ('\' asPParser , (PP2PredicateObjectNode on: [:char | char = $n or: [char = $r or: [char = $t or: [char = $' or: [char = $" or: [char = $[ or: [char = $] or: [char = $\]]]]]]]] message: 'expected char from char set'))
+]
+
+{ #category : #lexical }
+PP2PEGGrammar >> CharNormal [
+
+	^ ('\' asPParser not , #any asPParser)
+]
+
+{ #category : #lexical }
+PP2PEGGrammar >> CharOctal [
+
+	^ ('\' asPParser , (((PP2PredicateObjectNode on: [:char | (char between: $0 and: $2)] message: 'expected char from char set') , (PP2PredicateObjectNode on: [:char | (char between: $0 and: $7)] message: 'expected char from char set') , (PP2PredicateObjectNode on: [:char | (char between: $0 and: $7)] message: 'expected char from char set')) / ((PP2PredicateObjectNode on: [:char | (char between: $0 and: $7)] message: 'expected char from char set') , (PP2PredicateObjectNode on: [:char | (char between: $0 and: $7)] message: 'expected char from char set')) / (PP2PredicateObjectNode on: [:char | (char between: $0 and: $7)] message: 'expected char from char set')))
 ]
 
 { #category : #lexical }
@@ -164,11 +201,7 @@ PP2PEGGrammar >> EndOfFile [
 { #category : #'lexical whitespace' }
 PP2PEGGrammar >> EndOfLine [
 
-	^ ('
-
-' asPParser / '
-' asPParser / '
-' asPParser)
+	^ ((String new writeStream nextPut: Character cr; nextPut: Character lf; contents) asPParser / (String new writeStream nextPut: Character lf; contents) asPParser / (String new writeStream nextPut: Character cr; contents) asPParser)
 ]
 
 { #category : #hierarchical }
@@ -186,13 +219,13 @@ PP2PEGGrammar >> Grammar [
 { #category : #lexical }
 PP2PEGGrammar >> IdentCont [
 
-	^ (IdentStart / (PP2PredicateObjectNode on: [:char | (char between: $0 and: $9)] message: 'char set expected'))
+	^ (IdentStart / (PP2PredicateObjectNode on: [:char | (char between: $0 and: $9)] message: 'expected char from char set'))
 ]
 
 { #category : #lexical }
 PP2PEGGrammar >> IdentStart [
 
-	^ (PP2PredicateObjectNode on: [:char | (char between: $a and: $z) or: [(char between: $A and: $Z) or: [char = $_]]] message: 'char set expected')
+	^ (PP2PredicateObjectNode on: [:char | (char between: $a and: $z) or: [(char between: $A and: $Z) or: [char = $_]]] message: 'expected char from char set')
 ]
 
 { #category : #lexical }
@@ -210,7 +243,7 @@ PP2PEGGrammar >> LEFTARROW [
 { #category : #lexical }
 PP2PEGGrammar >> Literal [
 
-	^ (((PP2PredicateObjectNode on: [:char | char = $'] message: 'char set expected') , ((PP2PredicateObjectNode on: [:char | char = $'] message: 'char set expected') not , Char) star , (PP2PredicateObjectNode on: [:char | char = $'] message: 'char set expected') , Spacing) / ((PP2PredicateObjectNode on: [:char | char = $"] message: 'char set expected') , ((PP2PredicateObjectNode on: [:char | char = $"] message: 'char set expected') not , Char) star , (PP2PredicateObjectNode on: [:char | char = $"] message: 'char set expected') , Spacing))
+	^ (((PP2PredicateObjectNode on: [:char | char = $'] message: 'expected char from char set') , ((PP2PredicateObjectNode on: [:char | char = $'] message: 'expected char from char set') not , Char) star , (PP2PredicateObjectNode on: [:char | char = $'] message: 'expected char from char set') , Spacing) / ((PP2PredicateObjectNode on: [:char | char = $"] message: 'expected char from char set') , ((PP2PredicateObjectNode on: [:char | char = $"] message: 'expected char from char set') not , Char) star , (PP2PredicateObjectNode on: [:char | char = $"] message: 'expected char from char set') , Spacing))
 ]
 
 { #category : #'lexical symbols' }
@@ -301,6 +334,12 @@ PP2PEGGrammar >> Spacing [
 PP2PEGGrammar >> Suffix [
 
 	^ (Primary , (QUESTION / STAR / PLUS) optional)
+]
+
+{ #category : #accessing }
+PP2PEGGrammar >> at: aProductionName [
+
+	^super productionAt: aProductionName
 ]
 
 { #category : #accessing }

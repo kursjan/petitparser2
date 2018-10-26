@@ -18,3 +18,9 @@ PP2PEGParserParserTest >> grammar: aPEG start: aProductionName [
 
 	^PP2PEGParserParser grammar: aPEG start: aProductionName
 ]
+
+{ #category : #parsers }
+PP2PEGParserParserTest >> parser [
+
+	 ^PP2PEGParserParser new
+]

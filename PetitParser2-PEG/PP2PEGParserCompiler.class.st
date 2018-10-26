@@ -45,11 +45,18 @@ PP2PEGParserCompiler class >> ignoredNames [
 	^super ignoredNames , #(#definitions #parserClass #references #start)
 ]
 
-{ #category : #'instance creation' }
-PP2PEGParserCompiler class >> parser: aClass [
-	"Use aClass as compilation target and assume 'Grammar' as start production"
+{ #category : #parsing }
+PP2PEGParserCompiler class >> parser: aClass grammar: aPEG [
+	"Parse a grammar and answer a dictionary of named productions."
 
-	^self new parser: aClass start: 'Grammar'
+	^self parser: aClass grammar: aPEG start: 'Grammar'
+]
+
+{ #category : #parsing }
+PP2PEGParserCompiler class >> parser: aClass grammar: aPEG start: aProductionName [
+	"Parse a grammar and answer the parser for aProductionName."
+
+	^((self parser: aClass start: aProductionName) parse: aPEG) new
 ]
 
 { #category : #'instance creation' }
@@ -66,13 +73,28 @@ PP2PEGParserCompiler >> AND [
 ]
 
 { #category : #lexical }
-PP2PEGParserCompiler >> Char [
+PP2PEGParserCompiler >> CharEscape [
 
-	^super Char ==> 
+	^super CharEscape ==> [:args | self escape: args second]
+]
+
+{ #category : #lexical }
+PP2PEGParserCompiler >> CharNormal [
+
+	^super CharNormal ==> [:args | args second]
+]
+
+{ #category : #lexical }
+PP2PEGParserCompiler >> CharOctal [
+
+	^super CharOctal ==> 
 			[:args |
-			| char |
-			char := args second.
-			args first = '\' ifTrue: [self escape: args] ifFalse: [char]]
+			| octals |
+			octals := args second.
+			octals := octals isCollection
+						ifTrue: [String withAll: octals]
+						ifFalse: [String with: octals].
+			('8r' , octals) asNumber asCharacter]
 ]
 
 { #category : #lexical }
@@ -179,10 +201,26 @@ PP2PEGParserCompiler >> Literal [
 	^super Literal ==> 
 			[:args |
 			| characters stream |
-			characters := args second.
-			stream := (String new: characters size) writeStream.
-			characters do: [:each | stream nextPut: each second].
-			stream contents storeString , ' asPParser']
+			characters := args second collect: #second.
+			"Make sure that line endings CR and LF are preserved."
+			(characters
+				contains: [:char | char = Character cr or: [char = Character lf]])
+					ifFalse: 
+						[stream := (String new: characters size) writeStream.
+						characters do: [:char | stream nextPut: char].
+						stream contents storeString , ' asPParser']
+					ifTrue: 
+						[stream := String new writeStream.
+						stream nextPutAll: '(String new writeStream'.
+						characters do: 
+								[:char |
+								stream
+									nextPutAll: ' nextPut: ';
+									nextPutAll: char storeString;
+									nextPut: $;].
+						stream
+							nextPutAll: ' contents) asPParser';
+							contents]]
 ]
 
 { #category : #'lexical symbols' }
@@ -270,21 +308,11 @@ PP2PEGParserCompiler >> Suffix [
 ]
 
 { #category : #private }
-PP2PEGParserCompiler >> escape: characters [
+PP2PEGParserCompiler >> escape: character [
 
-	| character |
-	character := characters second.
-	"whitespace"
 	character = $n ifTrue: [^Character lf].
 	character = $r ifTrue: [^Character cr].
 	character = $t ifTrue: [^Character tab].
-	"octal code"
-	character isDigit
-		ifTrue: 
-			[| code |
-			code := characters reject: [:c | c isNil or: [c isCollection]].
-			^('8r' , (String withAll: code)) asNumber asCharacter].
-	"literal character"
 	^character
 ]
 

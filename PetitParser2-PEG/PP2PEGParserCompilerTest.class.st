@@ -13,16 +13,24 @@ Class {
 { #category : #parsers }
 PP2PEGParserCompilerTest >> grammar: aPEG [
 
-	(PP2PEGParserCompiler parser: PP2PEGCompilationTarget) parse: aPEG.
-	^PP2PEGCompilationTarget new
+	^PP2PEGParserCompiler
+		parser: PP2PEGCompilationTarget
+		grammar: aPEG
 ]
 
 { #category : #parsers }
 PP2PEGParserCompilerTest >> grammar: aPEG start: aProductionName [
 
-	(PP2PEGParserCompiler parser: PP2PEGCompilationTarget start: aProductionName)
-		parse: aPEG.
-	^PP2PEGCompilationTarget new
+	^PP2PEGParserCompiler
+		parser: PP2PEGCompilationTarget
+		grammar: aPEG
+		start: aProductionName
+]
+
+{ #category : #parsers }
+PP2PEGParserCompilerTest >> parser [
+
+	 ^PP2PEGParserCompiler new
 ]
 
 { #category : #'initialize-release' }

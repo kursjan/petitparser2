@@ -7,15 +7,20 @@ Class {
 	#category : #'PetitParser2-PEG'
 }
 
-{ #category : #'instance creation' }
+{ #category : #'initialize-release' }
 PP2PEGCompilationTarget class >> resetProductions [
+	"Warning: Use with care, resetting breaks this parser and its subclasses."
 
+	| ignore |
+	ignore := self ignoredNames.
 	self instVarNames do: 
 			[:prod |
-			self
-				removeInstVarNamed: prod;
-				removeSelector: prod asSymbol;
-				removeSelector: #start]
+			(ignore includes: prod)
+				ifFalse: 
+					[self
+						removeInstVarNamed: prod;
+						removeSelector: prod asSymbol;
+						removeSelector: #start]]
 ]
 
 { #category : #accessing }

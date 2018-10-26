@@ -58,13 +58,28 @@ PP2PEGParserParser >> AND [
 ]
 
 { #category : #lexical }
-PP2PEGParserParser >> Char [
+PP2PEGParserParser >> CharEscape [
 
-	^super Char ==> 
+	^super CharEscape ==> [:args | self escape: args second]
+]
+
+{ #category : #lexical }
+PP2PEGParserParser >> CharNormal [
+
+	^super CharNormal ==> [:args | args second]
+]
+
+{ #category : #lexical }
+PP2PEGParserParser >> CharOctal [
+
+	^super CharOctal ==> 
 			[:args |
-			| character |
-			character := args second.
-			args first = '\' ifTrue: [self escape: args] ifFalse: [character]]
+			| octals |
+			octals := args second.
+			octals := octals isCollection
+						ifTrue: [String withAll: octals]
+						ifFalse: [String with: octals].
+			('8r' , octals) asNumber asCharacter]
 ]
 
 { #category : #lexical }
@@ -224,21 +239,11 @@ PP2PEGParserParser >> Suffix [
 ]
 
 { #category : #private }
-PP2PEGParserParser >> escape: characters [
+PP2PEGParserParser >> escape: character [
 
-	| character |
-	character := characters second.
-	"whitespace"
 	character = $n ifTrue: [^Character lf].
 	character = $r ifTrue: [^Character cr].
 	character = $t ifTrue: [^Character tab].
-	"octal code"
-	character isDigit
-		ifTrue: 
-			[| code |
-			code := characters reject: [:c | c isNil or: [c isCollection]].
-			^('8r' , (String withAll: code)) asNumber asCharacter].
-	"literal character"
 	^character
 ]
 

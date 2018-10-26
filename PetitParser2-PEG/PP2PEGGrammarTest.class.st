@@ -7,7 +7,7 @@ Class {
 	#category : #'PetitParser2-PEG'
 }
 
-{ #category : #'instance creation' }
+{ #category : #testing }
 PP2PEGGrammarTest class >> isAbstract [
 
 	^self name = #PP2PEGGrammarTest
@@ -28,6 +28,12 @@ PP2PEGGrammarTest >> grammar: grammar [
 
 { #category : #parsers }
 PP2PEGGrammarTest >> grammar: aPEG start: aProductionName [
+
+	self subclassResponsibility
+]
+
+{ #category : #parsers }
+PP2PEGGrammarTest >> parser [
 
 	self subclassResponsibility
 ]
@@ -90,6 +96,21 @@ PP2PEGGrammarTest >> testClassQuotes [
 				reject: [:c | chars includes: c].
 	chars do: [:c | self assert: (parser parse: c asString) equals: c].
 	others do: [:c | self assert: ((parser parse: c asString) isKindOf: PP2Failure)].
+]
+
+{ #category : #'tests whitespace' }
+PP2PEGGrammarTest >> testEndOfLine [
+	"Check that line endings CR and LF are preserved."
+
+	| parser cr lf crlf |
+	parser := self parser at: 'EndOfLine'.
+	cr := String with: Character cr.
+	lf := String with: Character lf.
+	crlf := String with: Character cr with: Character lf.
+	self
+		assert: (parser parse: cr) equals: cr;
+		assert: (parser parse: lf) equals: lf;
+		assert: (parser parse: crlf) equals: crlf
 ]
 
 { #category : #'tests terminals' }
