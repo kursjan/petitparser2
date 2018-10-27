@@ -15,11 +15,12 @@ BaselineOfPetitParser2Gui >> baseline: spec [
 		spec baseline: 'PetitParser2' with: [ 
 			spec repository: 'github://kursjan/petitparser2:master' ].
 
-		spec project: 'Glamour' with: [
-			spec
-				versionString: #'stable';
-				className: 'ConfigurationOfGlamour';
-				repository: 'github://moosetechnology/Glamour/src' ].
+		spec baseline: 'Glamour' with: [ 
+			spec repository: 'github://moosetechnology/Glamour/src' ].  
+		spec for: #'pharo6.x' do: [ 
+		   spec baseline: 'Glamour' with: [ 
+			spec repository: 'github://moosetechnology/Glamour:pharo6/src' ].  
+		].			
 			
 		spec project: 'Roassal2' with: [
 				spec
