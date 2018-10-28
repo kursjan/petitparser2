@@ -40,11 +40,6 @@ PP2AbstractStrategy >> isRecording [
 	^ false
 ]
 
-{ #category : #testing }
-PP2AbstractStrategy >> isReparsable [
-	^ false
-]
-
 { #category : #conversion }
 PP2AbstractStrategy >> memoize [
 	^ PP2Packrat on: self
@@ -66,11 +61,6 @@ PP2AbstractStrategy >> recognizer [
 { #category : #conversion }
 PP2AbstractStrategy >> recording [
 	^ self
-]
-
-{ #category : #conversion }
-PP2AbstractStrategy >> reparsable [
-	^ PP2Reparsable on: self
 ]
 
 { #category : #conversion }

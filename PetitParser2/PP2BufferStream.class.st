@@ -69,13 +69,13 @@ PP2BufferStream >> atPosition: readPosition [
 
 	(readPosition > position) ifTrue: [ 
 		self upToPosition: readPosition.
-		(readPosition > position) ifTrue: [ SubscriptOutOfBounds signal ].
+		(readPosition > position) ifTrue: [ PP2OutOfBoundsException signalFor: readPosition ].
 		^ self last
 	].
 
 	"backtrack case"
 	(position - readPosition >= bufferSize) ifTrue: [ 
-		SubscriptOutOfBounds signalFor: readPosition.
+		PP2OutOfBoundsException signalFor: readPosition.
 	].
 	^ buffer at: ((readPosition - 1) % bufferSize) + 1.
 
@@ -104,18 +104,18 @@ PP2BufferStream >> copyFrom: start to: stop [
 	| bufferStart bufferStop |	
 	(stop - start >= bufferSize ) ifTrue: [ 
 		"range bigger than buffer"
-		SubscriptOutOfBounds signalFor: start.
+		PP2OutOfBoundsException signalFor: start.
 	].
 
 	(position - start >= bufferSize) ifTrue: [ 
 		"buffer not big enough"
-		SubscriptOutOfBounds signalFor: start.
+		PP2OutOfBoundsException signalFor: start.
 	].
 
 	self upToPosition: stop.
 	
 	(position < stop) ifTrue: [ 
-		SubscriptOutOfBounds signalFor: stop.
+		PP2OutOfBoundsException signalFor: stop.
 	].
 
 

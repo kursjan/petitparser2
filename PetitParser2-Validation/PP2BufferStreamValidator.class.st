@@ -13,7 +13,7 @@ PP2BufferStreamValidator >> actualForSource: source [
 	
 	[
 		result := parser parse: (PP2BufferStream on: (PP2MinimalStream on: source) bufferSize: 64).
-	] on: SubscriptOutOfBounds do: [  
+	] on: PP2OutOfBoundsException do: [  
 		(PP2SkipValidation reason: 'To small buffer') signal
 	].
 

@@ -51,7 +51,7 @@ PP2BufferStreamIntegrationTest >> testIdentifierSmallBufferError [
 	parser := (#letter asPParser, #word asPParser plus) flatten.
 	stream := self streamOn: 'hi123' bufferSize: 1.
 	
-	self should: [ self assert: parser parse: stream to: 'hi123' end: 5 ] raise: SubscriptOutOfBounds 
+	self should: [ self assert: parser parse: stream to: 'hi123' end: 5 ] raise: PP2OutOfBoundsException 
 ]
 
 { #category : #tests }
@@ -101,7 +101,7 @@ PP2BufferStreamIntegrationTest >> testStreamBacktrackBufferTooSmall [
 	
 	parser := ('aa' asPParser, 'aa' asPParser) / 'aa' asPParser.
 	
-	self should: [ self assert: parser parse: stream to: 'aa' end: 2 ] raise: SubscriptOutOfBounds 
+	self should: [ self assert: parser parse: stream to: 'aa' end: 2 ] raise: PP2OutOfBoundsException  
 	
 ]
 
@@ -109,7 +109,7 @@ PP2BufferStreamIntegrationTest >> testStreamBacktrackBufferTooSmall [
 PP2BufferStreamIntegrationTest >> testStreamBufferTooSmall [
 	parser := 'aa' asPParser.
 	stream := self streamOn: 'aa' bufferSize: 1.
-	self should: [ self assert: parser parse: stream to: 'aa' end: 2 ] raise: SubscriptOutOfBounds.	
+	self should: [ self assert: parser parse: stream to: 'aa' end: 2 ] raise: PP2OutOfBoundsException	
 
 ]
 
