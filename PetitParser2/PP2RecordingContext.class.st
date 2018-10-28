@@ -21,13 +21,6 @@ PP2RecordingContext >> asCacheReport [
 ]
 
 { #category : #converting }
-PP2RecordingContext >> asEventsMorph [
-	^ eventsTrace 
-		selection: nil;
-		eventsMorph
-]
-
-{ #category : #converting }
 PP2RecordingContext >> asFrequencyTable [
 	| bag total result |
 	bag := (eventsTrace entriesCollect: #strategy) asBag.

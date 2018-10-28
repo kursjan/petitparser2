@@ -1,6 +1,13 @@
 Extension { #name : #PP2RecordingContext }
 
 { #category : #'*PetitParser2-GUI' }
+PP2RecordingContext >> asEventsMorph [
+	^ eventsTrace 
+		selection: nil;
+		eventsMorph
+]
+
+{ #category : #'*PetitParser2-GUI' }
 PP2RecordingContext >> gtCacheReport: composite [
 	<gtInspectorPresentationOrder: 40>
 	composite table 

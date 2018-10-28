@@ -35,15 +35,6 @@ PP2DebugResult >> allResultsTo: set [
 	self children do: [ :child | child allResultsTo: set ].
 ]
 
-{ #category : #converting }
-PP2DebugResult >> asEventsMorph [
-	invocationEntry isNil ifTrue: [ ^ Morph new ].
-	
-	^ (self findContext eventsTrace)
-		selection: invocationEntry;
-		eventsMorph
-]
-
 { #category : #accessing }
 PP2DebugResult >> children [
 	^ children

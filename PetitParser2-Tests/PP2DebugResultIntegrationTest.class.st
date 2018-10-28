@@ -41,15 +41,6 @@ PP2DebugResultIntegrationTest >> testArithmeticFailure [
 ]
 
 { #category : #tests }
-PP2DebugResultIntegrationTest >> testGtCacheReport [
-	| parser result wrapper |
-	parser := PP2ExpressionParser new.
-	result := parser debug: '1 + 2'.
-	wrapper := GLMWrapper new.
-	self shouldnt: [ wrapper show: [:a | result gtCacheReport: a ] ] raise: Exception.
-]
-
-{ #category : #tests }
 PP2DebugResultIntegrationTest >> testNumberParser [
 	| parser result |
 	parser := PP2ExpressionParser new productionAt: #number.
