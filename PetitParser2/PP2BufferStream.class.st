@@ -126,7 +126,7 @@ PP2BufferStream >> copyFrom: start to: stop [
 		^ buffer copyFrom: bufferStart to: bufferStop
 	] ifFalse: [
 		| retval |
-		retval := ByteString new: stop - start + 1. 
+		retval := String new: stop - start + 1. 
 		0 to: stop - start do: [ :index |
 			retval at: (index + 1) put: (buffer at: ((start - 1 + index) % bufferSize) + 1)
 		].
@@ -143,7 +143,7 @@ PP2BufferStream >> initialize [
 PP2BufferStream >> initializeForSize: size [
 	"nothing to do"
 	bufferSize := size.
-	buffer := ByteString new: bufferSize.
+	buffer := String new: bufferSize.
 	position := 0.
 ]
 
