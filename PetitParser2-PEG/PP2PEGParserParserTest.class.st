@@ -10,17 +10,17 @@ Class {
 { #category : #parsers }
 PP2PEGParserParserTest >> grammar: aPEG [
 
-	^PP2PEGParserParser grammar: aPEG
+	^self parserClass grammar: aPEG
 ]
 
 { #category : #parsers }
 PP2PEGParserParserTest >> grammar: aPEG start: aProductionName [
 
-	^PP2PEGParserParser grammar: aPEG start: aProductionName
+	^self parserClass grammar: aPEG start: aProductionName
 ]
 
 { #category : #parsers }
-PP2PEGParserParserTest >> parser [
+PP2PEGParserParserTest >> parserClass [
 
-	 ^PP2PEGParserParser new
+	^PP2PEGParserParser
 ]
