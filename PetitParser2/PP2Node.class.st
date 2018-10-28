@@ -175,6 +175,15 @@ PP2Node >> changeStrategy: aPP2Strategy [
 	strategy := aPP2Strategy
 ]
 
+{ #category : #reparsing }
+PP2Node >> checkPromises [
+	self allReparsables do: [ :reparsable | 
+		(reparsable buffer values anySatisfy: [ :e | e isPromise ]) ifTrue: [  
+			PP2ReparseException signal: 'Some of the promises were not resolved'
+		]
+	]
+]
+
 { #category : #accessing }
 PP2Node >> childAt: index [
 	^ self children at: index
@@ -879,6 +888,35 @@ PP2Node >> refreshCaches [
 { #category : #optimizations }
 PP2Node >> reparsable [
 	self propertyAt: #reparsable put: true
+]
+
+{ #category : #'parsing - adaptable' }
+PP2Node >> reparseAdaptableWithContext: context [
+	| reparsableContext returnValue |
+	[
+		reparsableContext := context asReparsableContext.
+		reparsableContext reset.
+		reparsableContext parser 
+			ifNil: [ self resetCaches. reparsableContext parser: self ] 
+			ifNotNil: [ self assert: reparsableContext parser == self. self resetNonReparsableCaches ].
+		reparsableContext restore: reparsableContext startMemento.
+		returnValue := self parseOn: reparsableContext.
+
+		self checkPromises.
+
+		^ returnValue isPetit2Success ifTrue: [ 
+			reparsableContext returnValue: returnValue 
+		] ifFalse: [ 
+			returnValue 
+				setContext: reparsableContext;
+				yourself 
+		]
+	] on: PP2ReparseException do: [ 
+		"reparse did not worked, do the full parse instead"
+		reparsableContext reset.
+		reparsableContext restore: reparsableContext startMemento.	
+		^ self parseAdaptableWithContext: reparsableContext
+	]
 ]
 
 { #category : #reparsing }

@@ -7,15 +7,15 @@ Class {
 	#name : #PP2CompositeNodeExamples,
 	#superclass : #Object,
 	#instVars : [
-		'result',
 		'parserInstance'
 	],
-	#category : 'PetitParser2-Tests-Core'
+	#category : #'PetitParser2-Tests-Core'
 }
 
 { #category : #utilities }
 PP2CompositeNodeExamples >> assert: aCollection is: anObject [
-	self parse: aCollection.
+	| result |
+	result := self parse: aCollection.
 	self
 		assert: result = anObject
 		description: 'Got: ' , result printString , '; Expected: ' , anObject printString
@@ -29,7 +29,7 @@ PP2CompositeNodeExamples >> context [
 
 { #category : #parsing }
 PP2CompositeNodeExamples >> fail: aString rule: aSymbol [ 
-	| production context |
+	| production context result |
 	production := self parserInstanceFor: aSymbol.
 	context := self context.
 	

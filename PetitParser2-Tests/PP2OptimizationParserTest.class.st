@@ -151,19 +151,19 @@ PP2OptimizationParserTest >> testCache [
 
 { #category : #tests }
 PP2OptimizationParserTest >> testCache2 [
-	| parser context result |
+	| parser ctx result |
 	parser := $a asPParser star.
 	parser strategy: parser strategy cache.
 	parser setOptimized.
 	
-	context := 'aaa' asPetit2Context.
+	ctx := 'aaa' asPetit2Context.
 
-	result := parser parseAdaptableWithContext: context.
+	result := parser parseAdaptableWithContext: ctx.
 	self assert: result position equals: 3.
 	
-	context := 'aabb' asPetit2Context.
+	ctx := 'aabb' asPetit2Context.
 
-	result := parser parseAdaptableWithContext: context.
+	result := parser parseAdaptableWithContext: ctx.
 	self assert: result position equals: 2.
 ]
 
