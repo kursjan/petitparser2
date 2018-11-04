@@ -55,7 +55,6 @@ PP2FirstSetVisitor class >> tokenSet [
 
 { #category : #support }
 PP2FirstSetVisitor >> addIfPossible: node to: collection [
-	Halt if: [ node isKindOf: PP2CompositeNode  ].
 	(predicateBlock value: node) ifTrue: [ collection add: node ]
 ]
 
