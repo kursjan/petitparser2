@@ -30,6 +30,17 @@ PP2RecognizerVisitorTest >> testFlatten [
 ]
 
 { #category : #tests }
+PP2RecognizerVisitorTest >> testPlus [
+	parser := #letter asPParser plus.
+	parser strategy: (PP2Plus on: parser).
+	token := parser token.
+	
+	self visit: token.
+	
+	self assert: parser strategy isKindOf: PP2PlusRecognizer   
+]
+
+{ #category : #tests }
 PP2RecognizerVisitorTest >> testPredicateObject [
 	parser := #letter asPParser.
 	token := parser token.
@@ -48,6 +59,17 @@ PP2RecognizerVisitorTest >> testSequenceOfTwo [
 	self visit: token.
 	
 	self assert: parser strategy isKindOf: PP2SequenceOfTwoRecognizer 
+]
+
+{ #category : #tests }
+PP2RecognizerVisitorTest >> testStar [
+	parser := #letter asPParser star.
+	parser strategy: (PP2Star on: parser).
+	token := parser token.
+	
+	self visit: token.
+	
+	self assert: parser strategy isKindOf: PP2StarRecognizer    
 ]
 
 { #category : #tests }

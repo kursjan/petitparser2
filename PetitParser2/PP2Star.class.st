@@ -40,9 +40,14 @@ PP2Star >> parseOn: aPP2Context [
 	^ elements
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #conversion }
 PP2Star >> parsingGuard: classification [
 	^ (super parsingGuard: classification)
 		retval: #();
 		yourself
+]
+
+{ #category : #conversion }
+PP2Star >> recognizer [
+	^ PP2StarRecognizer on: self node
 ]

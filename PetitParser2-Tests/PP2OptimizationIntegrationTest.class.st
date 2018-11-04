@@ -95,6 +95,15 @@ PP2OptimizationIntegrationTest >> testMemoization [
 ]
 
 { #category : #tests }
+PP2OptimizationIntegrationTest >> testStarInToken [
+	parser := 'ab' asPParser star token.
+	
+	parser optimize.
+	
+	self assert: parser child strategy isKindOf: PP2StarRecognizer.
+]
+
+{ #category : #tests }
 PP2OptimizationIntegrationTest >> testTrimming [
 	parser := #letter asPParser trim optimize.
 	
