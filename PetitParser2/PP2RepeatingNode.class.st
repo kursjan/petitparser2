@@ -17,7 +17,7 @@ PP2RepeatingNode >> accept: aPP2Visitor [
 PP2RepeatingNode >> initialize [
 	super initialize.
 	min := 0.
-	max := SmallInteger maxVal.
+	max := Float infinity.
 ]
 
 { #category : #testing }

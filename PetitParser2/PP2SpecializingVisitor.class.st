@@ -101,7 +101,7 @@ PP2SpecializingVisitor >> isPlus: node [
 { #category : #testing }
 PP2SpecializingVisitor >> isPlusPredicateObject: node [ 
 	^ (node min = 1) and: [ 
-	  (node max = SmallInteger maxVal) and: [ 
+	  (node max = Float infinity) and: [ 
 	  node child isKindOf: PP2PredicateObjectNode 
 	]]
 ]
@@ -114,7 +114,7 @@ PP2SpecializingVisitor >> isStar: node [
 { #category : #testing }
 PP2SpecializingVisitor >> isStarPredicateObject: node [ 
 	^ (node min = 0) and: [ 
-	  (node max = SmallInteger maxVal) and: [ 
+	  (node max = Float infinity) and: [ 
 	  node child isKindOf: PP2PredicateObjectNode 
 	]]
 ]
