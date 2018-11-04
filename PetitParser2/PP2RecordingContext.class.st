@@ -124,6 +124,11 @@ PP2RecordingContext >> eventsTrace [
 	^ eventsTrace 
 ]
 
+{ #category : #private }
+PP2RecordingContext >> findContextSuchThat: aBlock [
+	^ thisContext findContextSuchThat: aBlock
+]
+
 { #category : #accessing }
 PP2RecordingContext >> furthestPosition [
 	^ furthestPosition max: position
@@ -203,7 +208,7 @@ PP2RecordingContext >> next: number [
 
 { #category : #private }
 PP2RecordingContext >> node [
-	^ (thisContext findContextSuchThat: [ :ctxt | (ctxt receiver isKindOf: PP2AbstractStrategy)])
+	^ (self findContextSuchThat: [ :ctxt | (ctxt receiver isKindOf: PP2AbstractStrategy)])
 		ifNil: [ nil ]
 		ifNotNil: [ :aContext |
 			aContext receiver node
@@ -268,7 +273,7 @@ PP2RecordingContext >> setAsStartState [
 
 { #category : #private }
 PP2RecordingContext >> strategy [
-	^ (thisContext findContextSuchThat: [ :ctxt | (ctxt receiver isKindOf: PP2AbstractStrategy)])
+	^ (self findContextSuchThat: [ :ctxt | (ctxt receiver isKindOf: PP2AbstractStrategy)])
 		ifNil: [ PP2NilStrategy new ]
 		ifNotNil: [ :aContext | aContext receiver ].	
 
