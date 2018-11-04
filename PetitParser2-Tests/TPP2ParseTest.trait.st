@@ -374,6 +374,19 @@ TPP2ParseTest >> testPlus2 [
 ]
 
 { #category : #test }
+TPP2ParseTest >> testPossesiveRepeatingNode [
+	|  parser |
+	
+	parser := $a asPParser min: 1 max: 2.
+
+	self assert: parser fail: ''.
+	self assert: parser parse: 'a' to: #($a).
+	self assert: parser parse: 'aa' to: #($a $a).
+	self assert: parser parse: 'aaa' to: #($a $a) end: 2.
+
+]
+
+{ #category : #test }
 TPP2ParseTest >> testPredicateAny [
 	|  parser |
 	
