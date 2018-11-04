@@ -77,7 +77,7 @@ PP2BufferStream >> atPosition: readPosition [
 	(position - readPosition >= bufferSize) ifTrue: [ 
 		PP2OutOfBoundsException signalFor: readPosition.
 	].
-	^ buffer at: ((readPosition - 1) % bufferSize) + 1.
+	^ buffer at: ((readPosition - 1) \\ bufferSize) + 1.
 
 
 ]
@@ -119,8 +119,8 @@ PP2BufferStream >> copyFrom: start to: stop [
 	].
 
 
-	bufferStart := ((start - 1) % bufferSize) + 1.
-	bufferStop := ((stop -1) % bufferSize) + 1.
+	bufferStart := ((start - 1) \\ bufferSize) + 1.
+	bufferStop := ((stop -1) \\ bufferSize) + 1.
 	
 	(bufferStart <= bufferStop) ifTrue: [ 
 		^ buffer copyFrom: bufferStart to: bufferStop
@@ -128,7 +128,7 @@ PP2BufferStream >> copyFrom: start to: stop [
 		| retval |
 		retval := String new: stop - start + 1. 
 		0 to: stop - start do: [ :index |
-			retval at: (index + 1) put: (buffer at: ((start - 1 + index) % bufferSize) + 1)
+			retval at: (index + 1) put: (buffer at: ((start - 1 + index) \\ bufferSize) + 1)
 		].
 		^ retval
 	]
@@ -154,7 +154,7 @@ PP2BufferStream >> isBuffered [
 
 { #category : #private }
 PP2BufferStream >> last [
-	^ buffer at: ((position - 1) % bufferSize) + 1
+	^ buffer at: ((position - 1) \\ bufferSize) + 1
 ]
 
 { #category : #'context interface' }
@@ -187,7 +187,7 @@ PP2BufferStream >> stream: aStream [
 { #category : #private }
 PP2BufferStream >> uncheckedNext [
 	| bufferIndex |
-	bufferIndex := (position % bufferSize) + 1.
+	bufferIndex := (position \\ bufferSize) + 1.
 	position := position + 1.
 	
 	buffer at: bufferIndex put: stream next.
