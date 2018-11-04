@@ -15,8 +15,8 @@ PP2FirstProductionSetCache >> doPass: node [
 	self visit: node.
 	allNodes := node allNodes.
 	
-	[child := allNodes detect: [ :e | (e hasProperty: #firstProductionSet) not ] 
-							ifNone: [ nil ] ] notNil whileTrue: [ 		
+	[(child := allNodes detect: [ :e | (e hasProperty: #firstProductionSet) not ] 
+							ifNone: [ nil ]) notNil ] whileTrue: [ 		
 		self visit: child
 	]
 ]
