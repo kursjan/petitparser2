@@ -33,7 +33,7 @@ PP2BenchmarkReport >> addEntry: parserName size: inputSize time: milliseconds gc
 { #category : #converting }
 PP2BenchmarkReport >> asString [
 	| stream |
-	stream := WriteStream on: ''.
+	stream := WriteStream on: String new.
 	self show: stream.
 	^ stream contents
 ]
