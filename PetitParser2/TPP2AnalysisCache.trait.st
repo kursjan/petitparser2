@@ -15,7 +15,7 @@ TPP2AnalysisCache >> doPass: node [
 	children := node allNodes.
 	
 	[child := children detect: [ :e | (e hasProperty: self propertySymbol) not ] 
-							ifNone: [ nil ] ] whileNotNil: [ 		
+							ifNone: [ nil ] ] notNil whileTrue: [ 		
 		self visit: child
 	]
 ]
