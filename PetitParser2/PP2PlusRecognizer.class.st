@@ -11,9 +11,6 @@ PP2PlusRecognizer >> parseOn: aPP2Context [
 	(retval := node child parseOn: aPP2Context) isPetit2Failure
 		ifTrue: [ ^ retval ].
 
-	[ (retval := node child parseOn: aPP2Context) isPetit2Failure
-		ifTrue: [ ^ self ].
-	] repeat.
-
+	[ (retval := node child parseOn: aPP2Context) isPetit2Failure ] whileFalse.
 
 ]

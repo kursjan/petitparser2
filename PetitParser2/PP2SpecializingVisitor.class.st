@@ -95,7 +95,7 @@ PP2SpecializingVisitor >> isOptionalCharacter: node [
 
 { #category : #testing }
 PP2SpecializingVisitor >> isPlus: node [ 
-	^ node min = 1
+	^ node min = 1 and: [ node max = Float infinity ] 
 ]
 
 { #category : #testing }
@@ -108,7 +108,7 @@ PP2SpecializingVisitor >> isPlusPredicateObject: node [
 
 { #category : #testing }
 PP2SpecializingVisitor >> isStar: node [ 
-	^ node min = 0
+	^ node min = 0 and: [ node max = Float infinity ]
 ]
 
 { #category : #testing }
