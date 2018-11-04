@@ -64,7 +64,7 @@ PP2MementoPromise >> resolveFor: parser in: context [
 		furthestPosition: context furthestPosition;
 		yourself.
 
-	(contextMemento isNotNil and: [ memento contextMemento position ~= contextMemento position ]) ifTrue: [ 
+	(contextMemento notNil and: [ memento contextMemento position ~= contextMemento position ]) ifTrue: [ 
 		PP2ReparseException signal: 'reparse consumed more or less characters than expected'
 	].
 		

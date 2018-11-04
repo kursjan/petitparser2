@@ -1,7 +1,7 @@
-Extension { #name : #TPP2ContextTest }
+Extension { #name : #PP2ContextTest }
 
 { #category : #'*PetitParser2-GUI' }
-TPP2ContextTest >> testDebugResult [
+PP2ContextTest >> testDebugResult [
 	| context |
 	context := self contextOn: 'baab'.
 	context parser: $a asPParser plus.

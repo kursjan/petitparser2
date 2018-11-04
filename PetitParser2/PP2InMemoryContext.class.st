@@ -34,7 +34,7 @@ PP2InMemoryContext class >> on: aCollection position: position [
 PP2InMemoryContext >> adoptString: newString [
 	collection := newString.
 	readLimit := newString size.
-	self assert: readLimit isNotNil.
+	self assert: readLimit notNil.
 ]
 
 { #category : #reparsing }

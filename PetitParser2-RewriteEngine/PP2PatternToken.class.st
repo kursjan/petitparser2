@@ -71,7 +71,7 @@ PP2PatternToken >> match: parseNode inContext: aDictionary [
 
 { #category : #accessing }
 PP2PatternToken >> name [
-	self assert: name isNotNil.
+	self assert: name notNil.
 	
 	^ name	
 ]

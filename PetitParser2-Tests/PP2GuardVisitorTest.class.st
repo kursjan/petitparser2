@@ -43,10 +43,10 @@ PP2GuardVisitorTest >> testChoice [
 	self optimize: parserOne / parserTwo.
 	
 	self assert: parserOne strategy isKindOf: PP2ParsingGuard.
-	self assert: parserOne strategy classification isNotNil.
+	self assert: parserOne strategy classification notNil.
 	
 	self assert: parserTwo strategy isKindOf: PP2ParsingGuard.
-	self assert: parserTwo strategy classification isNotNil.
+	self assert: parserTwo strategy classification notNil.
 ]
 
 { #category : #tests }
@@ -91,7 +91,7 @@ PP2GuardVisitorTest >> testDelegate [
 	self optimize: parser.
 	
 	self assert: parser strategy isKindOf: PP2ParsingGuard.
-	self assert: parser strategy classification isNotNil.
+	self assert: parser strategy classification notNil.
 ]
 
 { #category : #tests }
@@ -115,10 +115,10 @@ PP2GuardVisitorTest >> testGuardedChoice [
 	self optimize: choiceOne / parserThree.
 	
 	self assert: choiceOne strategy isKindOf: PP2ParsingGuard.
-	self assert: choiceOne strategy classification isNotNil.
+	self assert: choiceOne strategy classification notNil.
 	
 	self assert: parserThree strategy isKindOf: PP2ParsingGuard.
-	self assert: parserThree strategy classification isNotNil.
+	self assert: parserThree strategy classification notNil.
 	
 	self assert: parserOne strategy isKindOf: PP2ParsingGuard.
 	self assert: parserTwo strategy isKindOf: PP2ParsingGuard.
@@ -138,10 +138,10 @@ PP2GuardVisitorTest >> testGuardedChoice2 [
 	self optimize: parser.
 	
 	self assert: choiceOne strategy isKindOf: PP2ParsingGuard.
-	self assert: choiceOne strategy classification isNotNil.
+	self assert: choiceOne strategy classification notNil.
 	
 	self assert: parserThree strategy isKindOf: PP2ParsingGuard.
-	self assert: parserThree strategy classification isNotNil.
+	self assert: parserThree strategy classification notNil.
 	
 	"already guarded by a parent!"
 	self deny: parserOne strategy isKindOf: PP2ParsingGuard.
@@ -188,6 +188,6 @@ PP2GuardVisitorTest >> testTimes [
 	self optimize: parser.
 	
 	self assert: parser strategy isKindOf: PP2ParsingGuard.
-	self assert: parser strategy classification isNotNil.
+	self assert: parser strategy classification notNil.
 	self assert: parser strategy retval isPetit2Failure
 ]

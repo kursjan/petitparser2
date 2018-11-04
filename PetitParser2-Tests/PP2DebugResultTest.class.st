@@ -18,5 +18,5 @@ PP2DebugResultTest >> testStartStopInterval [
 	| result |
 	result := PP2DebugResult new.
 	
-	self assert: result startStopInterval isNotNil.
+	self assert: result startStopInterval notNil.
 ]

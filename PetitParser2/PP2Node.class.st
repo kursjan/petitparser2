@@ -508,7 +508,7 @@ PP2Node >> isPetit2Parser [
 
 { #category : #testing }
 PP2Node >> isProduction [
-	^ self name isNotNil
+	^ self name notNil
 ]
 
 { #category : #testing }
