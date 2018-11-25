@@ -12,3 +12,10 @@ PP2StarRecognizer >> parseOn: aPP2Context [
 
 
 ]
+
+{ #category : #parsing }
+PP2StarRecognizer >> parsingGuard: classification [
+	^ (super parsingGuard: classification)
+		retval: #();
+		yourself
+]

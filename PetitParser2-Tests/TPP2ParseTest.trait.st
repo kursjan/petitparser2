@@ -522,6 +522,17 @@ TPP2ParseTest >> testStar [
 ]
 
 { #category : #test }
+TPP2ParseTest >> testStarInToken [
+	| parser |
+	parser := ($a asPParser / $b asPParser) star token.
+
+	self assert: parser parse: '' toTokenValue: ''.
+	self assert: parser parse: 'a' toTokenValue: 'a'.
+	self assert: parser parse: 'b' toTokenValue: 'b'.
+	self assert: parser parse: 'ab' toTokenValue: 'ab'.		
+]
+
+{ #category : #test }
 TPP2ParseTest >> testStartOfLine [
 	| parser |
 	parser := #startOfLine asPParser.
