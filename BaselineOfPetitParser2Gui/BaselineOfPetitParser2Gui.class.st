@@ -11,7 +11,6 @@ BaselineOfPetitParser2Gui >> baseline: spec [
 	spec for: #'common' do: [
 		spec blessing: #'baseline'.
 		spec description: 'PetitParser2Gui'.
-		spec repository: 'github://kursjan/petitparser2:master'.
 		spec baseline: 'PetitParser2' with: [ 
 			spec repository: 'github://kursjan/petitparser2:master' ].
 
