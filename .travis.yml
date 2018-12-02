@@ -10,12 +10,8 @@ os:
 smalltalk:
   - Pharo-alpha
   - Pharo-stable
-#  - Pharo-6.0
   - Pharo-6.1
-#  - Pharo-5.0
-#  - Moose-trunk
   - Moose-6.1
-#
 
 smalltalk_config:
   - .core.ston
@@ -23,7 +19,7 @@ smalltalk_config:
   - .gui.ston
   - .languages.ston
   - .rewrite.ston
-  - .smalltalk.ston
+  - .pp2.ston
 
 matrix:
   allow_failures:
