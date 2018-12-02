@@ -15,11 +15,11 @@ smalltalk:
 
 smalltalk_config:
   - .core.ston
-  - .experimental.ston
-  - .gui.ston
-  - .languages.ston
-  - .rewrite.ston
   - .pp2.ston
+  - .languages.ston
+  - .gui.ston
+  - .rewrite.ston
+  - .experimental.ston
 
 matrix:
   allow_failures:
