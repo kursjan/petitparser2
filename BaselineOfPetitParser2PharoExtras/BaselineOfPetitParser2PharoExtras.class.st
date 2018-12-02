@@ -11,7 +11,9 @@ BaselineOfPetitParser2PharoExtras >> baseline: spec [
 		for: #common
 		do: [ spec blessing: #baseline.
 			spec description: 'PetitParser2PharoExtras'.
-			spec package: 'PetitParser2-PharoExtras' with: [ 
-				spec requires: #('PetitParser2') ] 
+			spec 
+				package: 'PetitParser2';			
+				package: 'PetitParser2-PharoExtras' with: [ 
+					spec requires: #('PetitParser2') ] 
 		]
 ]
