@@ -19,6 +19,7 @@ PP2ActionNode >> accept: aPP2Visitor [
 { #category : #'parsing - private' }
 PP2ActionNode >> parseOld: aPP2Context [
 	| context |
+	self deprecated: 'This seems to be leftover to be deleted.'.
 	^ (context := child parseWithContext:  aPP2Context) isPetit2Failure
 		ifFalse: [ context setValue: (block value: context value) ]
 		ifTrue: [ context ]

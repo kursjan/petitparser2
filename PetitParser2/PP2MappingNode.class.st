@@ -1,3 +1,10 @@
+"
+A parser that performs an action block with the given number of arguments with the successful parse result of the delegate.
+
+Instance Variables:
+	block	<BlockClosure>	The action block to be executed.
+
+"
 Class {
 	#name : #PP2MappingNode,
 	#superclass : #PP2AbstractActionNode,

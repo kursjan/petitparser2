@@ -1,3 +1,6 @@
+"
+Matches start of a line.
+"
 Class {
 	#name : #PP2StartOfLineNode,
 	#superclass : #PP2Node,

@@ -84,3 +84,8 @@ PP2PredicateNode >> predicateMessage [
 PP2PredicateNode >> predicateMessage: anObject [
 	predicateMessage := anObject
 ]
+
+{ #category : #initialization }
+PP2PredicateNode >> resetStrategy [
+  self subclassResponsibility 
+]

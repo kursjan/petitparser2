@@ -7,7 +7,7 @@ Class {
 	#classVars : [
 		'DataDirectory'
 	],
-	#category : 'PetitParser2-Validation-Core'
+	#category : #'PetitParser2-Validation-Core'
 }
 
 { #category : #'as yet unclassified' }
@@ -480,8 +480,10 @@ PP2Sources >> selectEvenly: n fromFiles: collection thatSatisfy: aBlock [
 	self assert: collection atRandom isFile.
 	
 	[set size = n] whileFalse: [ 
+		| file |
 		index := ((index + step) \\ size).
-		(aBlock value: (sorted at: (index + 1) )) ifTrue: [ 
+		file := (sorted at: (index + 1)).
+		((aBlock value: file) and: [ file exists ] ) ifTrue: [
 			set add: (sorted at: (index + 1)).
 		].
 	].

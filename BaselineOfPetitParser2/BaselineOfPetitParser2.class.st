@@ -1,7 +1,7 @@
 Class {
 	#name : #BaselineOfPetitParser2,
 	#superclass : #BaselineOf,
-	#category : 'BaselineOfPetitParser2'
+	#category : #BaselineOfPetitParser2
 }
 
 { #category : #baselines }

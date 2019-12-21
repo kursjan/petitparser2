@@ -4,7 +4,7 @@ Class {
 	#instVars : [
 		'parser'
 	],
-	#category : 'PetitParser2-Validation-Streams'
+	#category : #'PetitParser2-Validation-Streams'
 }
 
 { #category : #validation }

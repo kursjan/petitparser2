@@ -1,3 +1,6 @@
+"
+Base class for all PP2 strategies. All PP2Strategy is 'strategy' design pattern. Each PP2Node has default parsing strategy, which specifies how the given node parses an input. During optimization, default strategies can be replaced with more specific (and hopefully faster) parsing strategies.
+"
 Class {
 	#name : #PP2Strategy,
 	#superclass : #PP2AbstractStrategy,

@@ -1,7 +1,7 @@
 "
-Purpose of this node is to refer to a piece of grammar, that changes dynamically, during parsing. 
+This node is refers to a subset of grammar that changes dynamically, during parsing. 
 
-The node is essential to run optimization analyses properly. If no optimizations are done, this node is completely useless.
+The node is used to tell PP2 optimizations that input parsed by this node can change at any time.
 "
 Class {
 	#name : #PP2AdaptableNode,

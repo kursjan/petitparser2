@@ -4,12 +4,12 @@ Class {
 	#category : #'PetitParser2-Nodes'
 }
 
-{ #category : #'as yet unclassified' }
+{ #category : #visiting }
 PP2NonEpsilonNode >> accept: visitor [
 	^ visitor visitNonEpsilon: self
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #initialization }
 PP2NonEpsilonNode >> resetStrategy [
 	strategy := PP2NonEpsilon on: self
 ]

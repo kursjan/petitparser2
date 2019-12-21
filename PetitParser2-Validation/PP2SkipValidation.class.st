@@ -7,7 +7,7 @@ Class {
 	#instVars : [
 		'reason'
 	],
-	#category : 'PetitParser2-Validation-Core'
+	#category : #'PetitParser2-Validation-Core'
 }
 
 { #category : #'instance creation' }

@@ -1,8 +1,16 @@
+"
+Base class for all PP2 strategies. See PP2Strategy for more details.
+"
 Class {
 	#name : #PP2AbstractStrategy,
 	#superclass : #Object,
 	#category : #'PetitParser2-Strategies'
 }
+
+{ #category : #accessing }
+PP2AbstractStrategy >> allChildren [
+	self shouldBeImplemented 
+]
 
 { #category : #conversion }
 PP2AbstractStrategy >> cache [

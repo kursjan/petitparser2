@@ -1,7 +1,10 @@
+"
+Baseline with languages: Smalltalk, HTML, SCV, JSON, MSE, Manifest, ...
+"
 Class {
 	#name : #BaselineOfPetitParser2Languages,
 	#superclass : #BaselineOf,
-	#category : 'BaselineOfPetitParser2Languages'
+	#category : #BaselineOfPetitParser2Languages
 }
 
 { #category : #baselines }

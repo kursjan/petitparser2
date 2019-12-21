@@ -10,7 +10,7 @@ Class {
 		'entries',
 		'parserName'
 	],
-	#category : 'PetitParser2-Validation-Core'
+	#category : #'PetitParser2-Validation-Core'
 }
 
 { #category : #events }

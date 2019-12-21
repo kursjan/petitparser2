@@ -5,7 +5,7 @@ Class {
 		'expected',
 		'actual'
 	],
-	#category : 'PetitParser2-Validation-Core'
+	#category : #'PetitParser2-Validation-Core'
 }
 
 { #category : #accessing }

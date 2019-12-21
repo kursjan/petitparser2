@@ -10,7 +10,7 @@ Class {
 		'report',
 		'silent'
 	],
-	#category : 'PetitParser2-Validation-Core'
+	#category : #'PetitParser2-Validation-Core'
 }
 
 { #category : #validation }

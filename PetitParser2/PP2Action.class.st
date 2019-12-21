@@ -1,3 +1,6 @@
+"
+Default Strategy of PP2ActionNode.
+"
 Class {
 	#name : #PP2Action,
 	#superclass : #PP2Strategy,
