@@ -1,3 +1,8 @@
+"
+Pacakage for Pharo specific extension.
+
+PharoExtras are referenced from PetitParser2, but not from PetitParser2-Core.
+"
 Class {
 	#name : #BaselineOfPetitParser2PharoExtras,
 	#superclass : #BaselineOf,
