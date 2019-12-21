@@ -4,7 +4,7 @@ A parser that performs an action block upon activation with the stream and a con
 Class {
 	#name : #PP2WrappingNode,
 	#superclass : #PP2AbstractActionNode,
-	#category : 'PetitParser2-Nodes'
+	#category : #'PetitParser2-Nodes'
 }
 
 { #category : #visiting }

@@ -4,7 +4,7 @@ Class {
 	#classInstVars : [
 		'Instance'
 	],
-	#category : 'PetitParser2-Core'
+	#category : #'PetitParser2-Core'
 }
 
 { #category : #accessing }

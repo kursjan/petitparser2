@@ -5,7 +5,7 @@ Class {
 		'min',
 		'max'
 	],
-	#category : 'PetitParser2-Nodes'
+	#category : #'PetitParser2-Nodes'
 }
 
 { #category : #visiting }

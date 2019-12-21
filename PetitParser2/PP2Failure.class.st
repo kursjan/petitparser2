@@ -10,7 +10,7 @@ Class {
 		'debugResult',
 		'parser'
 	],
-	#category : 'PetitParser2-Core'
+	#category : #'PetitParser2-Core'
 }
 
 { #category : #'instance creation' }

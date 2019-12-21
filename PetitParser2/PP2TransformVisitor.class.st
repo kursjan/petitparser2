@@ -6,7 +6,7 @@ Class {
 		'block',
 		'mapping'
 	],
-	#category : 'PetitParser2-Core'
+	#category : #'PetitParser2-Core'
 }
 
 { #category : #accessing }

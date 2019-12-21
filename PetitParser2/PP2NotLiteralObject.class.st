@@ -4,7 +4,7 @@ Class {
 	#instVars : [
 		'literal'
 	],
-	#category : 'PetitParser2-Strategies'
+	#category : #'PetitParser2-Strategies'
 }
 
 { #category : #initialization }

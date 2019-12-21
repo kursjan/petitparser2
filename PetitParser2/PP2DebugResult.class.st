@@ -15,7 +15,7 @@ Class {
 		'furthestPosition',
 		'invocationEntry'
 	],
-	#category : 'PetitParser2-Debug'
+	#category : #'PetitParser2-Debug'
 }
 
 { #category : #analysis }

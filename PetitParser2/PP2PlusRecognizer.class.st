@@ -1,7 +1,7 @@
 Class {
 	#name : #PP2PlusRecognizer,
 	#superclass : #PP2PossesiveRepeating,
-	#category : 'PetitParser2-Strategies'
+	#category : #'PetitParser2-Strategies'
 }
 
 { #category : #parsing }

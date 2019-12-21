@@ -5,7 +5,7 @@ Class {
 		'buffer',
 		'memoizationStrategy'
 	],
-	#category : 'PetitParser2-Strategies'
+	#category : #'PetitParser2-Strategies'
 }
 
 { #category : #conversion }

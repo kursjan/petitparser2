@@ -4,7 +4,7 @@ Class {
 	#instVars : [
 		'rootNode'
 	],
-	#category : 'PetitParser2-Optimizations'
+	#category : #'PetitParser2-Optimizations'
 }
 
 { #category : #visiting }

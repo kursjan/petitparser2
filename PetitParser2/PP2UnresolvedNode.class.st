@@ -1,7 +1,7 @@
 Class {
 	#name : #PP2UnresolvedNode,
 	#superclass : #PP2Node,
-	#category : 'PetitParser2-Core'
+	#category : #'PetitParser2-Core'
 }
 
 { #category : #testing }

@@ -1,5 +1,5 @@
 "
-Base class for all the nodes of PP2
+Base class for all the nodes of PP2.
 "
 Class {
 	#name : #PP2Node,
@@ -14,7 +14,7 @@ Class {
 	#classInstVars : [
 		'spaceTrimmer'
 	],
-	#category : 'PetitParser2-Nodes'
+	#category : #'PetitParser2-Nodes'
 }
 
 { #category : #'instance creation' }

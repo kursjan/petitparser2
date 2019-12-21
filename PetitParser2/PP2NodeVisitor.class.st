@@ -4,7 +4,7 @@ Defines base interface for PP2Node visitors.
 Class {
 	#name : #PP2NodeVisitor,
 	#superclass : #Object,
-	#category : 'PetitParser2-Core'
+	#category : #'PetitParser2-Core'
 }
 
 { #category : #visiting }

@@ -4,7 +4,7 @@ Class {
 	#instVars : [
 		'block'
 	],
-	#category : 'PetitParser2-Nodes'
+	#category : #'PetitParser2-Nodes'
 }
 
 { #category : #'as yet unclassified' }

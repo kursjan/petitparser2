@@ -6,7 +6,7 @@ todo: Refactor to two strategies:
 Class {
 	#name : #PP2RecordingDebuggingStrategy,
 	#superclass : #PP2DebuggingStrategy,
-	#category : 'PetitParser2-Recording'
+	#category : #'PetitParser2-Recording'
 }
 
 { #category : #testing }

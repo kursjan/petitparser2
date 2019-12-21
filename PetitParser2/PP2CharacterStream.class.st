@@ -8,7 +8,7 @@ Class {
 		'stream',
 		'encoder'
 	],
-	#category : 'PetitParser2-Streams'
+	#category : #'PetitParser2-Streams'
 }
 
 { #category : #'as yet unclassified' }

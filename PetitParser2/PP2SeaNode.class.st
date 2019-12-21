@@ -7,7 +7,7 @@ Class {
 		'afterWater',
 		'root'
 	],
-	#category : 'PetitParser2-Nodes'
+	#category : #'PetitParser2-Nodes'
 }
 
 { #category : #'instance creation' }

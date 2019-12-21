@@ -1,7 +1,7 @@
 Class {
 	#name : #PP2MappingOfThree,
 	#superclass : #PP2Mapping,
-	#category : 'PetitParser2-Strategies'
+	#category : #'PetitParser2-Strategies'
 }
 
 { #category : #'as yet unclassified' }

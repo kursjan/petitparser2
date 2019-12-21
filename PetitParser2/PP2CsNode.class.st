@@ -4,7 +4,7 @@ Class {
 	#instVars : [
 		'stackId'
 	],
-	#category : 'PetitParser2-Context'
+	#category : #'PetitParser2-Context'
 }
 
 { #category : #visiting }

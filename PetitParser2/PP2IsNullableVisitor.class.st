@@ -7,7 +7,7 @@ I return true, if parser ALWAYS accepts epsilon without a failure, i.e it cannot
 Class {
 	#name : #PP2IsNullableVisitor,
 	#superclass : #PP2NoopVisitor,
-	#category : 'PetitParser2-Analysis'
+	#category : #'PetitParser2-Analysis'
 }
 
 { #category : #'loop control' }

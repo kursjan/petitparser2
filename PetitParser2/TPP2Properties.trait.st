@@ -1,6 +1,6 @@
 Trait {
 	#name : #TPP2Properties,
-	#category : 'PetitParser2-Core'
+	#category : #'PetitParser2-Core'
 }
 
 { #category : #'accessing - properties' }

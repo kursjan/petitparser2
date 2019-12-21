@@ -1,7 +1,7 @@
 Class {
 	#name : #PP2SpecializingVisitor,
 	#superclass : #PP2NoopVisitor,
-	#category : 'PetitParser2-Optimizations'
+	#category : #'PetitParser2-Optimizations'
 }
 
 { #category : #optimizations }

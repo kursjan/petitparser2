@@ -6,7 +6,7 @@ Gives an information if a given node does not change a context, pushes, pops, or
 Class {
 	#name : #PP2ContextChangesVisitor,
 	#superclass : #PP2NoopVisitor,
-	#category : 'PetitParser2-Analysis'
+	#category : #'PetitParser2-Analysis'
 }
 
 { #category : #'loop control' }

@@ -1,7 +1,7 @@
 Class {
 	#name : #PP2PredicateObjectNode,
 	#superclass : #PP2PredicateNode,
-	#category : 'PetitParser2-Nodes'
+	#category : #'PetitParser2-Nodes'
 }
 
 { #category : #'factory-objects' }

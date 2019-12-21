@@ -5,7 +5,7 @@ Class {
 		'boundary',
 		'waterToken'
 	],
-	#category : 'PetitParser2-Nodes'
+	#category : #'PetitParser2-Nodes'
 }
 
 { #category : #accessing }

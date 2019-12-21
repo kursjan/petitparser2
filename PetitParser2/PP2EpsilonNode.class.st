@@ -4,7 +4,7 @@ Class {
 	#classInstVars : [
 		'instance'
 	],
-	#category : 'PetitParser2-Nodes'
+	#category : #'PetitParser2-Nodes'
 }
 
 { #category : #accessing }

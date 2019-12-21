@@ -1,7 +1,7 @@
 Class {
 	#name : #PP2LiteralSequenceNode,
 	#superclass : #PP2LiteralNode,
-	#category : 'PetitParser2-Nodes'
+	#category : #'PetitParser2-Nodes'
 }
 
 { #category : #visiting }

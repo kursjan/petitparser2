@@ -1,7 +1,7 @@
 Class {
 	#name : #PP2AllNodesVisitor,
 	#superclass : #PP2NoopVisitor,
-	#category : 'PetitParser2-Analysis'
+	#category : #'PetitParser2-Analysis'
 }
 
 { #category : #visiting }

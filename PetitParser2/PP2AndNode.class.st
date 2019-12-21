@@ -4,7 +4,7 @@ The and-predicate, a parser that succeeds whenever its delegate does, but does n
 Class {
 	#name : #PP2AndNode,
 	#superclass : #PP2DelegateNode,
-	#category : 'PetitParser2-Nodes'
+	#category : #'PetitParser2-Nodes'
 }
 
 { #category : #visiting }

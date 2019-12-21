@@ -1,6 +1,6 @@
 Trait {
 	#name : #TPP2RecordingCache,
-	#category : 'PetitParser2-Recording'
+	#category : #'PetitParser2-Recording'
 }
 
 { #category : #recording }

@@ -1,7 +1,7 @@
 Class {
 	#name : #PP2PredicateObjectRecognizer,
 	#superclass : #PP2Strategy,
-	#category : 'PetitParser2-Strategies'
+	#category : #'PetitParser2-Strategies'
 }
 
 { #category : #'as yet unclassified' }

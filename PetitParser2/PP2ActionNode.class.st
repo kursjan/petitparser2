@@ -8,7 +8,7 @@ Instance Variables:
 Class {
 	#name : #PP2ActionNode,
 	#superclass : #PP2AbstractActionNode,
-	#category : 'PetitParser2-Nodes'
+	#category : #'PetitParser2-Nodes'
 }
 
 { #category : #visiting }

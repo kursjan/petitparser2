@@ -4,7 +4,7 @@ Class {
 	#instVars : [
 		'trimmer'
 	],
-	#category : 'PetitParser2-Nodes'
+	#category : #'PetitParser2-Nodes'
 }
 
 { #category : #visiting }

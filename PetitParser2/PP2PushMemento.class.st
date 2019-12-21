@@ -5,7 +5,7 @@ Class {
 		'position',
 		'stackSize'
 	],
-	#category : 'PetitParser2-Context'
+	#category : #'PetitParser2-Context'
 }
 
 { #category : #accessing }

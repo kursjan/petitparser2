@@ -5,7 +5,7 @@ Class {
 		'predicate',
 		'failure'
 	],
-	#category : 'PetitParser2-Strategies'
+	#category : #'PetitParser2-Strategies'
 }
 
 { #category : #initialization }

@@ -7,7 +7,7 @@ Class {
 		'node',
 		'properties'
 	],
-	#category : 'PetitParser2-Core'
+	#category : #'PetitParser2-Core'
 }
 
 { #category : #'instance creation' }

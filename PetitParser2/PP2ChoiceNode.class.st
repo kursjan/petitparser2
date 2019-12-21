@@ -1,7 +1,7 @@
 Class {
 	#name : #PP2ChoiceNode,
 	#superclass : #PP2ListNode,
-	#category : 'PetitParser2-Nodes'
+	#category : #'PetitParser2-Nodes'
 }
 
 { #category : #operators }

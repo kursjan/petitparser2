@@ -4,7 +4,7 @@ Class {
 	#instVars : [
 		'child'
 	],
-	#category : 'PetitParser2-Strategies'
+	#category : #'PetitParser2-Strategies'
 }
 
 { #category : #transformations }

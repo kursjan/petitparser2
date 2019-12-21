@@ -1,7 +1,7 @@
 Class {
 	#name : #PP2PushNode,
 	#superclass : #PP2CsNode,
-	#category : 'PetitParser2-Context'
+	#category : #'PetitParser2-Context'
 }
 
 { #category : #visiting }

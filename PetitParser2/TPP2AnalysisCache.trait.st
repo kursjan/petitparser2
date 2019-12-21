@@ -1,6 +1,6 @@
 Trait {
 	#name : #TPP2AnalysisCache,
-	#category : 'PetitParser2-Optimizations'
+	#category : #'PetitParser2-Optimizations'
 }
 
 { #category : #hooks }

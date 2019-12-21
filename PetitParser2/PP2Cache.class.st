@@ -6,7 +6,7 @@ Class {
 		'retval',
 		'endPosition'
 	],
-	#category : 'PetitParser2-Strategies'
+	#category : #'PetitParser2-Strategies'
 }
 
 { #category : #conversion }

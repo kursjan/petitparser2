@@ -7,7 +7,7 @@ Class {
 		'negated',
 		'negatedMessage'
 	],
-	#category : 'PetitParser2-Nodes'
+	#category : #'PetitParser2-Nodes'
 }
 
 { #category : #'instance creation' }

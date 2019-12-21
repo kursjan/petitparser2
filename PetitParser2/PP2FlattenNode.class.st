@@ -4,7 +4,7 @@ A parser that answers a flat copy of the range my delegate parses.
 Class {
 	#name : #PP2FlattenNode,
 	#superclass : #PP2DelegateNode,
-	#category : 'PetitParser2-Nodes'
+	#category : #'PetitParser2-Nodes'
 }
 
 { #category : #visiting }

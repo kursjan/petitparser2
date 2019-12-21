@@ -1,7 +1,7 @@
 Class {
 	#name : #PP2AbstractStrategy,
 	#superclass : #Object,
-	#category : 'PetitParser2-Strategies'
+	#category : #'PetitParser2-Strategies'
 }
 
 { #category : #conversion }

@@ -4,7 +4,7 @@ Class {
 	#instVars : [
 		'currentNext'
 	],
-	#category : 'PetitParser2-Analysis'
+	#category : #'PetitParser2-Analysis'
 }
 
 { #category : #comparing }

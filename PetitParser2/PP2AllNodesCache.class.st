@@ -1,7 +1,7 @@
 Class {
 	#name : #PP2AllNodesCache,
 	#superclass : #PP2AllNodesVisitor,
-	#category : 'PetitParser2-Optimizations'
+	#category : #'PetitParser2-Optimizations'
 }
 
 { #category : #'as yet unclassified' }

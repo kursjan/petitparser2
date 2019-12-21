@@ -5,7 +5,7 @@ Class {
 		'firstChild',
 		'secondChild'
 	],
-	#category : 'PetitParser2-Strategies'
+	#category : #'PetitParser2-Strategies'
 }
 
 { #category : #transformation }

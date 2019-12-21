@@ -7,7 +7,7 @@ Class {
 		'colors',
 		'selection'
 	],
-	#category : 'PetitParser2-Recording'
+	#category : #'PetitParser2-Recording'
 }
 
 { #category : #adding }

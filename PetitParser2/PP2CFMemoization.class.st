@@ -1,7 +1,7 @@
 Class {
 	#name : #PP2CFMemoization,
 	#superclass : #PP2Memoization,
-	#category : 'PetitParser2-Context'
+	#category : #'PetitParser2-Context'
 }
 
 { #category : #testing }

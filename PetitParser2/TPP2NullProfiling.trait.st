@@ -1,6 +1,6 @@
 Trait {
 	#name : #TPP2NullProfiling,
-	#category : 'PetitParser2-Strategies'
+	#category : #'PetitParser2-Strategies'
 }
 
 { #category : #profiling }

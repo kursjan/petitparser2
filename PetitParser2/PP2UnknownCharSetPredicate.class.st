@@ -4,7 +4,7 @@ Class {
 	#classInstVars : [
 		'instance'
 	],
-	#category : 'PetitParser2-Tools'
+	#category : #'PetitParser2-Tools'
 }
 
 { #category : #'as yet unclassified' }

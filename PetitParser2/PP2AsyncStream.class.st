@@ -12,7 +12,7 @@ Class {
 		'queue',
 		'closed'
 	],
-	#category : 'PetitParser2-Streams'
+	#category : #'PetitParser2-Streams'
 }
 
 { #category : #converting }

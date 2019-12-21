@@ -8,7 +8,7 @@ Class {
 		'position',
 		'properties'
 	],
-	#category : 'PetitParser2-Core'
+	#category : #'PetitParser2-Core'
 }
 
 { #category : #arithmetic }

@@ -4,7 +4,7 @@ Class {
 	#instVars : [
 		'reference'
 	],
-	#category : 'PetitParser2-Debug'
+	#category : #'PetitParser2-Debug'
 }
 
 { #category : #'instance creation' }

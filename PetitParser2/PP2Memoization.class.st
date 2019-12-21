@@ -1,7 +1,7 @@
 Class {
 	#name : #PP2Memoization,
 	#superclass : #Object,
-	#category : 'PetitParser2-Context'
+	#category : #'PetitParser2-Context'
 }
 
 { #category : #memoization }
