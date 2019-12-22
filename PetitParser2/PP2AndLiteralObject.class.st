@@ -1,3 +1,6 @@
+"
+Optimization for 'PP2And -> PP2LiteralObject' combinator.
+"
 Class {
 	#name : #PP2AndLiteralObject,
 	#superclass : #PP2And,

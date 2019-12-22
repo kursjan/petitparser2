@@ -1,3 +1,9 @@
+"
+Matches if next character in input matches the given predicate.
+
+Examples:
+#letter asPParser
+"
 Class {
 	#name : #PP2PredicateObjectNode,
 	#superclass : #PP2PredicateNode,

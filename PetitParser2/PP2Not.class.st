@@ -1,3 +1,6 @@
+"
+Default strategy for PP2NotNode.
+"
 Class {
 	#name : #PP2Not,
 	#superclass : #PP2Strategy,

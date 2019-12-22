@@ -1,3 +1,6 @@
+"
+Default strategy for PP2EndOfLineNode.
+"
 Class {
 	#name : #PP2EndOfLine,
 	#superclass : #PP2Strategy,

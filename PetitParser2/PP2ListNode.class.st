@@ -1,3 +1,6 @@
+"
+Abstract base class for list nodes, nodes with multiple children.
+"
 Class {
 	#name : #PP2ListNode,
 	#superclass : #PP2Node,

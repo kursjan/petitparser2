@@ -1,3 +1,6 @@
+"
+Default strategy for PP2Sequence.
+"
 Class {
 	#name : #PP2Sequence,
 	#superclass : #PP2Strategy,

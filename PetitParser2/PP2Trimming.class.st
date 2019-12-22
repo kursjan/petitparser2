@@ -1,3 +1,6 @@
+"
+Default strategy for PP2TrimmingNode.
+"
 Class {
 	#name : #PP2Trimming,
 	#superclass : #PP2Strategy,

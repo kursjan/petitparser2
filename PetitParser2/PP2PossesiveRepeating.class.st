@@ -1,3 +1,6 @@
+"
+Default strategy for PP2PossesiveRepeatingNode.
+"
 Class {
 	#name : #PP2PossesiveRepeating,
 	#superclass : #PP2Strategy,

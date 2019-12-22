@@ -1,3 +1,6 @@
+"
+Default strategy for PP2TCreateToken.
+"
 Class {
 	#name : #PP2CreateToken,
 	#superclass : #PP2Strategy,

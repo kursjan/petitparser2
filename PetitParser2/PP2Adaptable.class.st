@@ -1,3 +1,6 @@
+"
+Default strategy for PP2AdaptableNode.
+"
 Class {
 	#name : #PP2Adaptable,
 	#superclass : #PP2Strategy,

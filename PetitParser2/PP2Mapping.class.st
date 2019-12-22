@@ -1,3 +1,6 @@
+"
+Default strategy for PP2MappingNode.
+"
 Class {
 	#name : #PP2Mapping,
 	#superclass : #PP2Strategy,

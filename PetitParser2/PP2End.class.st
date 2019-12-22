@@ -1,3 +1,6 @@
+"
+Default strategy for PP2EndNode.
+"
 Class {
 	#name : #PP2End,
 	#superclass : #PP2Strategy,

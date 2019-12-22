@@ -1,3 +1,8 @@
+"
+Matches string.
+
+'hello' asPParser parse: 'hello'
+"
 Class {
 	#name : #PP2LiteralSequenceNode,
 	#superclass : #PP2LiteralNode,

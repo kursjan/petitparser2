@@ -1,3 +1,6 @@
+"
+Default strategy for PP2EndOfInputNode.
+"
 Class {
 	#name : #PP2EndOfInput,
 	#superclass : #PP2Strategy,

@@ -1,3 +1,6 @@
+"
+Silently consumes spaces before and after the delegate parser.
+"
 Class {
 	#name : #PP2TrimmingNode,
 	#superclass : #PP2DelegateNode,

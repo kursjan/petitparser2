@@ -1,3 +1,6 @@
+"
+Default strategy for PP2DelegateNode.
+"
 Class {
 	#name : #PP2Delegate,
 	#superclass : #PP2Strategy,

@@ -1,3 +1,6 @@
+"
+Default strategy for PP2LiteralSequenceNode.
+"
 Class {
 	#name : #PP2LiteralSequence,
 	#superclass : #PP2Strategy,

@@ -1,3 +1,6 @@
+"
+Abstract base for predicate nodes.
+"
 Class {
 	#name : #PP2PredicateNode,
 	#superclass : #PP2Node,
@@ -18,6 +21,11 @@ PP2PredicateNode class >> on: predicate message: message [
 		negated: [ :arg | (predicate value: arg) not ];
 		negatedMessage: 'no ', message;
 		yourself
+]
+
+{ #category : #visiting }
+PP2PredicateNode >> accept: aPP2ParserVisitor [
+	self subclassResponsibility
 ]
 
 { #category : #comparing }

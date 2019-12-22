@@ -1,5 +1,8 @@
 "
-Matches start of a line.
+Matches start of a line, returns nil or PP2Failure in case of failure.
+
+Example:
+#startOfLine asPParser parse: ''
 "
 Class {
 	#name : #PP2StartOfLineNode,
@@ -21,7 +24,7 @@ PP2StartOfLineNode >> firstCharSet [
 	^ PP2UnknownCharSetPredicate instance
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #initialization }
 PP2StartOfLineNode >> resetStrategy [
 	strategy := PP2StartOfLine on: self
 ]

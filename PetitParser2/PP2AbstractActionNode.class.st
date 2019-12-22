@@ -1,3 +1,6 @@
+"
+Abstract base class for action nodes.
+"
 Class {
 	#name : #PP2AbstractActionNode,
 	#superclass : #PP2DelegateNode,
@@ -37,9 +40,4 @@ PP2AbstractActionNode >> localEquals: anotherNode [
 { #category : #comparing }
 PP2AbstractActionNode >> localHash [
 	^ super localHash bitXor: block printString hash
-]
-
-{ #category : #'parsing - private' }
-PP2AbstractActionNode >> parseOn: context [
-	^ strategy parseOn: context 
 ]

@@ -1,5 +1,5 @@
 "
-A parser that performs an action block upon activation with the stream and a continuation block.
+Performs an action block upon activation with the stream and a continuation block.
 "
 Class {
 	#name : #PP2WrappingNode,
@@ -46,11 +46,6 @@ PP2WrappingNode >> isFirstSetTerminal [
 
 	^ false
 
-]
-
-{ #category : #'parsing - private' }
-PP2WrappingNode >> parseOn: context [
-	^ strategy parseOn: context
 ]
 
 { #category : #initialization }

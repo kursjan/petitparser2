@@ -1,9 +1,9 @@
 "
-A parser that performs an action block with the given number of arguments with the successful parse result of the delegate.
+Performs an action block with the given number of arguments with the successful parse result of the delegate. The delegate must return result with the expected number of arguments.
 
-Instance Variables:
-	block	<BlockClosure>	The action block to be executed.
-
+Example:
+($a asPParser, $b asPParser map: [ :a :b | Array with: a uppercase with: b uppercase ])
+  parse: 'ab'
 "
 Class {
 	#name : #PP2MappingNode,

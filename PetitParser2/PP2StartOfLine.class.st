@@ -1,3 +1,6 @@
+"
+Default strategy for PP2StartOfLineNode.
+"
 Class {
 	#name : #PP2StartOfLine,
 	#superclass : #PP2Strategy,

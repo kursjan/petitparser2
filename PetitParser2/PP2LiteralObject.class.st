@@ -1,3 +1,6 @@
+"
+Default strategy for PP2LiteralObjectNode.
+"
 Class {
 	#name : #PP2LiteralObject,
 	#superclass : #PP2Strategy,

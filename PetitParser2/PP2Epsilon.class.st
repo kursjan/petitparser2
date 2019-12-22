@@ -1,3 +1,6 @@
+"
+Default strategy for PP2EpsilonNode.
+"
 Class {
 	#name : #PP2Epsilon,
 	#superclass : #PP2Strategy,

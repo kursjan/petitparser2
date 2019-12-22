@@ -1,3 +1,6 @@
+"
+Default strategy for PP2NewLineNode.
+"
 Class {
 	#name : #PP2NewLine,
 	#superclass : #PP2Strategy,

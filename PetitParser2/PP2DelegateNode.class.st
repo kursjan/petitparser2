@@ -1,5 +1,5 @@
 "
-A parser that delegates to another parser.
+Matches if the underlying parsers, delegate, matches. Delegate is the only child.
 
 Instance Variables:
 	child		<PP2Node>	The parser to delegate to.
@@ -69,11 +69,6 @@ PP2DelegateNode >> isDelegate [
 { #category : #testing }
 PP2DelegateNode >> isJustDelegate [
 	^ self class == PP2DelegateNode 
-]
-
-{ #category : #'parsing - private' }
-PP2DelegateNode >> parseOn: context [
-	^ strategy parseOn: context 
 ]
 
 { #category : #transforming }

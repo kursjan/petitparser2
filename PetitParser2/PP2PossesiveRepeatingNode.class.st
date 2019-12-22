@@ -1,3 +1,11 @@
+"
+The default repeating parser with standard PEG semantics (i.e. possessive, blind, eager).
+
+Examples:
+$a asPParser star parse: 'aaaa'
+""always fails, because star is greedy""
+($a asPParser star, $a asPParser) parse: 'aaa' 
+"
 Class {
 	#name : #PP2PossesiveRepeatingNode,
 	#superclass : #PP2RepeatingNode,

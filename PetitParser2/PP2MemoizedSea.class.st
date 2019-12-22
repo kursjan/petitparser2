@@ -1,3 +1,6 @@
+"
+Memoization cache for bounded seas.
+"
 Class {
 	#name : #PP2MemoizedSea,
 	#superclass : #PP2WrappingStrategy,

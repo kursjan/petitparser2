@@ -1,3 +1,6 @@
+"
+Default strategy for PP2OptionalNode.
+"
 Class {
 	#name : #PP2Optional,
 	#superclass : #PP2Strategy,

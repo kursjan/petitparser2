@@ -1,3 +1,8 @@
+"
+Matches empty string, always succeeds.
+
+#epsilon asPParser parse: ''
+"
 Class {
 	#name : #PP2EpsilonNode,
 	#superclass : #PP2Node,

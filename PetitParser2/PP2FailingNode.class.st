@@ -1,3 +1,6 @@
+"
+Always fails.
+"
 Class {
 	#name : #PP2FailingNode,
 	#superclass : #PP2Node,

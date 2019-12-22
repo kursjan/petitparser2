@@ -1,3 +1,6 @@
+"
+Default strategy for PP2FlattenNode.
+"
 Class {
 	#name : #PP2Flatten,
 	#superclass : #PP2Strategy,

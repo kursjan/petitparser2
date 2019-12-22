@@ -1,3 +1,6 @@
+"
+Default strategy for PP2PredicateObjectNode.
+"
 Class {
 	#name : #PP2PredicateObject,
 	#superclass : #PP2Strategy,

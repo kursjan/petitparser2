@@ -1,3 +1,6 @@
+"
+Packrat cache. Remembers the result of parsing for every position (contrary to the PP2Cache, which remembers only one position). Can improve performance for heavily backtracking grammars, but lookup can be expensive.
+"
 Class {
 	#name : #PP2Packrat,
 	#superclass : #PP2WrappingStrategy,

@@ -1,3 +1,6 @@
+"
+Default strategy for PP2WaterNode.
+"
 Class {
 	#name : #PP2Water,
 	#superclass : #PP2Strategy,

@@ -1,3 +1,6 @@
+"
+Optimization for 'PP2And -> PP2PredicateObject' combinator.
+"
 Class {
 	#name : #PP2AndPredicateObject,
 	#superclass : #PP2And,

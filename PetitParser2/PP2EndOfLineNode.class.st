@@ -1,3 +1,6 @@
+"
+Matches end of a line.
+"
 Class {
 	#name : #PP2EndOfLineNode,
 	#superclass : #PP2Node,

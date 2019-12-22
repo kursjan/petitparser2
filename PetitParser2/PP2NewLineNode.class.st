@@ -1,3 +1,11 @@
+"
+Matches beginning of a line.
+
+Example:
+#newline asPParser parse: String cr.
+#newline asPParser parse: ''
+
+"
 Class {
 	#name : #PP2NewLineNode,
 	#superclass : #PP2Node,

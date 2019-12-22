@@ -1,9 +1,5 @@
 "
-Matches if a given predicate on an arbitrary number of elements of the input sequence holds.
-
-Instance Variables:
-	size	<Integer>	The number of elements to consume.
-
+Matches if next 'size' characters in input satisfy the given predicate.
 "
 Class {
 	#name : #PP2PredicateSequenceNode,
@@ -14,9 +10,9 @@ Class {
 	#category : #'PetitParser2-Nodes'
 }
 
-{ #category : #'as yet unclassified' }
+{ #category : #'instance creation' }
 PP2PredicateSequenceNode class >> on: predicate message: message size: size [
-	^ (super on: predicate message: message)
+	^ (self on: predicate message: message)
 		size: size;
 		yourself
 ]

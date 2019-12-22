@@ -1,3 +1,6 @@
+"
+Default strategy for PP2AndNode.
+"
 Class {
 	#name : #PP2And,
 	#superclass : #PP2Strategy,

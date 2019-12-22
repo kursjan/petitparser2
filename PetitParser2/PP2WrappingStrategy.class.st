@@ -1,5 +1,5 @@
 "
-Strategy that can be used as a decorator around another strategy.
+Decorator pattern around another strategy.
 "
 Class {
 	#name : #PP2WrappingStrategy,

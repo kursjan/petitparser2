@@ -1,3 +1,6 @@
+"
+Represents unknown set of characters. For example, start of line node does not consume any character and therefore char set optimization cannot be used to quickly fail the parsing. See PP2CharSetPredicate.
+"
 Class {
 	#name : #PP2UnknownCharSetPredicate,
 	#superclass : #Object,

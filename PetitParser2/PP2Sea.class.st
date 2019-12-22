@@ -1,3 +1,6 @@
+"
+Default strategy for PP2Sea.
+"
 Class {
 	#name : #PP2Sea,
 	#superclass : #PP2Strategy,

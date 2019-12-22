@@ -1,3 +1,6 @@
+"
+Default strategy for PP2WrappingNode.
+"
 Class {
 	#name : #PP2Wrapping,
 	#superclass : #PP2Strategy,

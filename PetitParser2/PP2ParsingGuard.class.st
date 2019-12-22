@@ -1,3 +1,8 @@
+"
+If the following input matches classification, returns result without invoking the underlying strategy.
+
+The result is typically PP2Failure. Guard is used to fail choices early, without invoking them.
+"
 Class {
 	#name : #PP2ParsingGuard,
 	#superclass : #PP2WrappingStrategy,
@@ -25,6 +30,7 @@ PP2ParsingGuard >> parseOn: context [
 	context atEnd ifTrue: [ ^ retval ].
 
 	intValue := context uncheckedPeek asInteger.
+	"TODO(kurs): why 0-128?"
 	(intValue between: 0 and: 128) ifFalse: [  
 		^ strategy parseOn: context
 	].
@@ -40,7 +46,9 @@ PP2ParsingGuard >> parseOn: context [
 
 { #category : #conversion }
 PP2ParsingGuard >> parsingGuard: anArray [
-	self assert: classification = (anArray copyFrom: 1 to: classification size).
+	self
+		assert: classification
+		equals: (anArray copyFrom: 1 to: classification size).
 	^ self
 ]
 

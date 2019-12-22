@@ -1,3 +1,6 @@
+"
+Default strategy for PP2PredicateSequenceNode.
+"
 Class {
 	#name : #PP2PredicateSequence,
 	#superclass : #PP2Strategy,

@@ -1,3 +1,9 @@
+"
+Matches single character.
+
+Example:
+$a asPParser parse: 'a'
+"
 Class {
 	#name : #PP2LiteralObjectNode,
 	#superclass : #PP2LiteralNode,

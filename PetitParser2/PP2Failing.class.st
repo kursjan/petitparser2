@@ -1,3 +1,6 @@
+"
+Default strategy for PP2FailingNode.
+"
 Class {
 	#name : #PP2Failing,
 	#superclass : #PP2Strategy,

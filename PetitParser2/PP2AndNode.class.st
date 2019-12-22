@@ -1,5 +1,8 @@
 "
-The and-predicate, a parser that succeeds whenever its delegate does, but does not consume the input stream [Parr 1994, 1995].
+The and-predicate, succeeds whenever its delegate does, but does not consume the input stream [Parr 1994, 1995].
+
+Example:
+$a asPParser and parse: 'a'
 "
 Class {
 	#name : #PP2AndNode,

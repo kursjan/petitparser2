@@ -1,3 +1,6 @@
+"
+Default strategy for PP2PluggableNode.
+"
 Class {
 	#name : #PP2Pluggable,
 	#superclass : #PP2Strategy,
