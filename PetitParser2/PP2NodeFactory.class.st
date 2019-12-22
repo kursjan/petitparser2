@@ -1,3 +1,10 @@
+"
+Creates PP2 parsers from literals.
+
+Example:
+#letter asPParser.
+#hex asPParser
+"
 Class {
 	#name : #PP2NodeFactory,
 	#superclass : #Object,

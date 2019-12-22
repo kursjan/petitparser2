@@ -1,5 +1,5 @@
 "
-Expects a PP2Stream interface
+PP2 Wrapper around stream. Contains additional state to used by PP2.
 "
 Class {
 	#name : #PP2Context,
@@ -31,21 +31,11 @@ PP2Context class >> on: stream position: position [
 		yourself
 ]
 
-{ #category : #reparsing }
-PP2Context >> adoptString: newString [
-	stream adoptString: newString
-]
-
 { #category : #converting }
 PP2Context >> asPositionableStream [
 	^ (ReadStream on: stream collection)
 		position: position;
 		yourself
-]
-
-{ #category : #converting }
-PP2Context >> asReparsableContext [
-	^ self collection asReparsableContext
 ]
 
 { #category : #'stream mimicry' }

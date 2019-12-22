@@ -1,3 +1,6 @@
+"
+Represents a PP2 failure.
+"
 Class {
 	#name : #PP2Failure,
 	#superclass : #Object,

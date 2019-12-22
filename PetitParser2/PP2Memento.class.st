@@ -1,3 +1,6 @@
+"
+Memento pattern used by bounded seas.
+"
 Class {
 	#name : #PP2Memento,
 	#superclass : #Object,

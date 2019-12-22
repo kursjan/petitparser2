@@ -1,3 +1,6 @@
+"
+Rewriting visitor. Handles cycles.
+"
 Class {
 	#name : #PP2TransformVisitor,
 	#superclass : #PP2NoopVisitor,

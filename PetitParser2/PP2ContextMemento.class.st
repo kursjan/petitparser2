@@ -1,3 +1,6 @@
+"
+Remembers the state of the context.
+"
 Class {
 	#name : #PP2ContextMemento,
 	#superclass : #Object,
