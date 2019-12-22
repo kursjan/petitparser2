@@ -23,7 +23,7 @@ smalltalk_config:
   - .languages.ston
   - .gui.ston
 # - .rewrite.ston
-  - .experimental.ston
+# - .experimental.ston
 
 matrix:
   allow_failures:
