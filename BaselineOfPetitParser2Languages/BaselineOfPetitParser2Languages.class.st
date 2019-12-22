@@ -31,6 +31,7 @@ BaselineOfPetitParser2Languages >> baseline: spec [
 			package: 'PetitParser2-JSON' with: [ spec requires: #('PetitParser2Core') ];
 			package: 'PetitParser2-MSE' with: [ spec requires: #('PetitParser2Core') ];
 			package: 'PetitParser2-ManifestMf' with: [ spec requires: #('PetitParser2Core') ];
+			package: 'PetitParser2-PEG' with: [ spec requires: #('PetitParser2Core') ];
 			
 			package: 'PetitParser2-Tutorial' with: [ 
 				spec requires: #('PetitParser2Core' 'PetitParser2-Html' 'PetitParser2-Smalltalk') ]
