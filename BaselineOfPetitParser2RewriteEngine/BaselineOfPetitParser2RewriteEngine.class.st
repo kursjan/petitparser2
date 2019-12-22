@@ -16,8 +16,8 @@ BaselineOfPetitParser2RewriteEngine >> baseline: spec [
 
 		spec baseline: 'SmaCC' with: [ 
 			spec
-				repository: 'github://ThierryGoubier/SmaCC';
-				loads: 'Rewrite' ].
+				repository: 'https://github.com/j-brant/SmaCC';
+				loads: 'Rewrites' ].
 			
 		spec
 			package: 'PetitParser2-RewriteEngine' with: [ 
