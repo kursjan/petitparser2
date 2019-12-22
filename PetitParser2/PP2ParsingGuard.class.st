@@ -47,8 +47,7 @@ PP2ParsingGuard >> parseOn: context [
 { #category : #conversion }
 PP2ParsingGuard >> parsingGuard: anArray [
 	self
-		assert: classification
-		equals: (anArray copyFrom: 1 to: classification size).
+		assert: classification = (anArray copyFrom: 1 to: classification size).
 	^ self
 ]
 
