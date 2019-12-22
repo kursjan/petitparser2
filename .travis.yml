@@ -12,6 +12,10 @@ smalltalk:
   - Pharo-stable
   - Pharo-6.1
   - Moose-6.1
+  - Pharo64-7.0
+  - Moose64-7.0
+  - Pharo64-8.0
+  - Moose64-8.0
 
 smalltalk_config:
   - .core.ston
