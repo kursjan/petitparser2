@@ -42,7 +42,7 @@ BaselineOfPetitParser2Gui >> baseline: spec [
 		spec baseline: 'Roassal2' with: [
 			spec 	
 				loads: #('Trachel' 'Roassal2' 'Roassal2GT');
-				repository: 'github://moosetechnology/Moose:7.x.x/src' ].
+				repository: 'github://moosetechnology/Moose:v7.x.x/src' ].
 		spec 
 			package: 'PetitParser2-GUI' with: [ 
 				spec requires: #('Roassal2') ].
