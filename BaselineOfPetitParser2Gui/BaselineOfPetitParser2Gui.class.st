@@ -39,13 +39,13 @@ BaselineOfPetitParser2Gui >> baseline: spec [
 
 	spec for: #'pharo7.x' do: [	 
 		"In Moose 7, the version for Pharo 7, Roassal was merged within Moose."
-		spec baseline: 'Roassal2' with: [
+		spec baseline: 'Moose' with: [
 			spec 	
 				loads: #('Trachel' 'Roassal2' 'Roassal2GT');
 				repository: 'github://moosetechnology/Moose:v7.x.x/src' ].
 		spec 
 			package: 'PetitParser2-GUI' with: [ 
-				spec requires: #('Roassal2') ].
+				spec requires: #('Moose') ].
 	].
 
 	spec for: #'pharo6.x' do: [	 
