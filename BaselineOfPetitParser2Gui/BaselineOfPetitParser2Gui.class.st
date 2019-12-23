@@ -24,6 +24,9 @@ BaselineOfPetitParser2Gui >> baseline: spec [
 	].
 
 	spec for: #(#'pharo8.x' #'pharo9.x') do: [	 
+		spec baseline: 'EventRecorder' with: [
+			spec  repository: 'github://pharo-contributions/EventRecorder:legacy' ].
+		
 		"Use the same roassal version as Moose 8."
 		spec baseline: 'Roassal2' with: [
 			spec 
@@ -31,7 +34,7 @@ BaselineOfPetitParser2Gui >> baseline: spec [
 				repository: 'github://ObjectProfile/Roassal2:3a54a7c67af13b23eb6bcfd762ca98b6f11dc1ca/src' ].
 		spec 
 			package: 'PetitParser2-GUI' with: [ 
-				spec requires: #('Roassal2') ].
+				spec requires: #('EventRecorder' 'Roassal2') ].
 	].
 
 	spec for: #'pharo7.x' do: [	 
