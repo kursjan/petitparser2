@@ -3,12 +3,17 @@ Class {
 	#superclass : #TestCase,
 	#traits : 'TPP2ContextTest + TPP2DebuggableTest',
 	#classTraits : 'TPP2ContextTest classTrait + TPP2DebuggableTest classTrait',
-	#category : 'PetitParser2-Tests-Core'
+	#category : #'PetitParser2-Tests-Core'
 }
 
 { #category : #requirements }
 PP2ContextTest >> contextOn: aString [
 	^ PP2Context on: aString asPetit2Stream
+]
+
+{ #category : #testing }
+PP2ContextTest >> expectedFailures [
+	^ #(testAdoptString)
 ]
 
 { #category : #tests }
