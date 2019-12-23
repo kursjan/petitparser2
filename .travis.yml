@@ -22,8 +22,8 @@ smalltalk_config:
   - .pp2.ston
   - .languages.ston
   - .gui.ston
-# - .rewrite.ston
-# - .experimental.ston
+  - .rewrite.ston
+  - .experimental.ston
 
 matrix:
   allow_failures:
