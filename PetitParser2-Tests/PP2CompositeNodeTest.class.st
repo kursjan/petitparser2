@@ -14,7 +14,7 @@ PP2CompositeNodeTest class >> isAbstract [
 	^ self name = #PP2CompositeNodeTest
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #accessing }
 PP2CompositeNodeTest class >> resources [
 	^ Array with: PP2ParserResource
 ]
