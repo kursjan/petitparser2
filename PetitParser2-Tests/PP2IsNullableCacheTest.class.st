@@ -1,7 +1,7 @@
 Class {
 	#name : #PP2IsNullableCacheTest,
 	#superclass : #TestCase,
-	#category : 'PetitParser2-Tests-Optimizations'
+	#category : #'PetitParser2-Tests-Optimizations'
 }
 
 { #category : #tests }

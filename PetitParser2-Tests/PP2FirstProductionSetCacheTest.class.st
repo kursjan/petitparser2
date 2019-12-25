@@ -1,7 +1,7 @@
 Class {
 	#name : #PP2FirstProductionSetCacheTest,
 	#superclass : #TestCase,
-	#category : 'PetitParser2-Tests-Optimizations'
+	#category : #'PetitParser2-Tests-Optimizations'
 }
 
 { #category : #tests }

@@ -6,7 +6,7 @@ Class {
 		'parser',
 		'resultContext'
 	],
-	#category : 'PetitParser2-Tests-Core'
+	#category : #'PetitParser2-Tests-Core'
 }
 
 { #category : #testing }

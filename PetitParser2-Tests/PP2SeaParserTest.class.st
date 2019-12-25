@@ -6,7 +6,7 @@ Class {
 	#instVars : [
 		'result'
 	],
-	#category : 'PetitParser2-Tests-Seas'
+	#category : #'PetitParser2-Tests-Seas'
 }
 
 { #category : #utilities }

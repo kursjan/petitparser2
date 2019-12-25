@@ -12,7 +12,7 @@ Class {
 		'values',
 		'position'
 	],
-	#category : 'PetitParser2-Tests-Streams'
+	#category : #'PetitParser2-Tests-Streams'
 }
 
 { #category : #'as yet unclassified' }

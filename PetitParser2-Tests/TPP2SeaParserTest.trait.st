@@ -1,6 +1,6 @@
 Trait {
 	#name : #TPP2SeaParserTest,
-	#category : 'PetitParser2-Tests-Seas'
+	#category : #'PetitParser2-Tests-Seas'
 }
 
 { #category : #'parse support' }

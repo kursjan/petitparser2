@@ -5,7 +5,7 @@ Class {
 		'classification',
 		'retval'
 	],
-	#category : 'PetitParser2-Tests-Strategies'
+	#category : #'PetitParser2-Tests-Strategies'
 }
 
 { #category : #'as yet unclassified' }

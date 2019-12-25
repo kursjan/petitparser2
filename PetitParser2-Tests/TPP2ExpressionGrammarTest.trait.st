@@ -3,7 +3,7 @@ TestSuite for PP2ExpressionGrammar
 "
 Trait {
 	#name : #TPP2ExpressionGrammarTest,
-	#category : 'PetitParser2-Tests-Examples'
+	#category : #'PetitParser2-Tests-Examples'
 }
 
 { #category : #accessing }

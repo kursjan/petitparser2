@@ -6,7 +6,7 @@ Class {
 	#instVars : [
 		'parser'
 	],
-	#category : 'PetitParser2-Tests-Nodes'
+	#category : #'PetitParser2-Tests-Nodes'
 }
 
 { #category : #tests }

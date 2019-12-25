@@ -1,7 +1,7 @@
 Class {
 	#name : #PP2DebugResultTest,
 	#superclass : #TestCase,
-	#category : 'PetitParser2-Tests-Debug'
+	#category : #'PetitParser2-Tests-Debug'
 }
 
 { #category : #tests }

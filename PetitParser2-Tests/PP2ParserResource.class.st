@@ -4,7 +4,7 @@ Class {
 	#instVars : [
 		'parsers'
 	],
-	#category : 'PetitParser2-Tests-Core'
+	#category : #'PetitParser2-Tests-Core'
 }
 
 { #category : #accessing }

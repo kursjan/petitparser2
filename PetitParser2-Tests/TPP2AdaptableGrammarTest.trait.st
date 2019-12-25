@@ -3,7 +3,7 @@ TestSuite for PP2AdaptableGrammar
 "
 Trait {
 	#name : #TPP2AdaptableGrammarTest,
-	#category : 'PetitParser2-Tests-Examples'
+	#category : #'PetitParser2-Tests-Examples'
 }
 
 { #category : #accessing }

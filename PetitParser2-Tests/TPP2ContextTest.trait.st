@@ -1,22 +1,11 @@
 Trait {
 	#name : #TPP2ContextTest,
-	#category : 'PetitParser2-Tests-Core'
+	#category : #'PetitParser2-Tests-Core'
 }
 
 { #category : #requirements }
 TPP2ContextTest >> contextOn: aString [
 	self explicitRequirement
-]
-
-{ #category : #tests }
-TPP2ContextTest >> testAdoptString [
-	| context |
-	context := self contextOn: 'foo'.
-	
-	self assert: context contents equals: 'foo'.
-	
-	context adoptString: 'bar'.
-	self assert: context contents equals: 'bar'.
 ]
 
 { #category : #tests }

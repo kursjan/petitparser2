@@ -1,6 +1,6 @@
 Trait {
 	#name : #TPP2StreamContextInterface,
-	#category : 'PetitParser2-Tests-Streams'
+	#category : #'PetitParser2-Tests-Streams'
 }
 
 { #category : #'tests - context interface' }

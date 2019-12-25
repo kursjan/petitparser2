@@ -1,7 +1,7 @@
 Class {
 	#name : #PP2TransformVisitorTest,
 	#superclass : #TestCase,
-	#category : 'PetitParser2-Tests-Core'
+	#category : #'PetitParser2-Tests-Core'
 }
 
 { #category : #grammars }

@@ -6,7 +6,7 @@ Class {
 		'stream',
 		'tokens'
 	],
-	#category : 'PetitParser2-Tests-Streams'
+	#category : #'PetitParser2-Tests-Streams'
 }
 
 { #category : #tests }

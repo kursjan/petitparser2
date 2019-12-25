@@ -1,7 +1,7 @@
 Class {
 	#name : #PP2NodeCopyTest,
 	#superclass : #TestCase,
-	#category : 'PetitParser2-Tests-Nodes'
+	#category : #'PetitParser2-Tests-Nodes'
 }
 
 { #category : #tests }

@@ -7,7 +7,7 @@ Class {
 		'strategy',
 		'node'
 	],
-	#category : 'PetitParser2-Tests-Debug'
+	#category : #'PetitParser2-Tests-Debug'
 }
 
 { #category : #initialization }

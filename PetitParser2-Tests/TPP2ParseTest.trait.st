@@ -1,6 +1,6 @@
 Trait {
 	#name : #TPP2ParseTest,
-	#category : 'PetitParser2-Tests-Parsing'
+	#category : #'PetitParser2-Tests-Parsing'
 }
 
 { #category : #test }

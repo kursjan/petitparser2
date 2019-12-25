@@ -5,7 +5,7 @@ Class {
 		'parserOne',
 		'parserTwo'
 	],
-	#category : 'PetitParser2-Tests-Nodes'
+	#category : #'PetitParser2-Tests-Nodes'
 }
 
 { #category : #support }

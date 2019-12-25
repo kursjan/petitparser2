@@ -4,7 +4,7 @@ Class {
 	#instVars : [
 		'memento'
 	],
-	#category : 'PetitParser2-Tests-Core'
+	#category : #'PetitParser2-Tests-Core'
 }
 
 { #category : #tests }

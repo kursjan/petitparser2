@@ -8,7 +8,7 @@ Class {
 		'eoi',
 		'nextParser'
 	],
-	#category : 'PetitParser2-Tests-Analysis'
+	#category : #'PetitParser2-Tests-Analysis'
 }
 
 { #category : #accessing }

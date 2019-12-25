@@ -1,7 +1,7 @@
 Class {
 	#name : #PP2PredicateTest,
 	#superclass : #PP2AbstractParserTest,
-	#category : 'PetitParser2-Tests-Nodes'
+	#category : #'PetitParser2-Tests-Nodes'
 }
 
 { #category : #utilities }

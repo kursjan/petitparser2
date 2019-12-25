@@ -3,7 +3,7 @@ Class {
 	#superclass : #PP2AbstractParserTest,
 	#traits : 'TPP2TypeAssertions',
 	#classTraits : 'TPP2TypeAssertions classTrait',
-	#category : 'PetitParser2-Tests-Nodes'
+	#category : #'PetitParser2-Tests-Nodes'
 }
 
 { #category : #tests }

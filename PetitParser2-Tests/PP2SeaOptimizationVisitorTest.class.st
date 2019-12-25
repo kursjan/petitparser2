@@ -5,7 +5,7 @@ Class {
 		'sea',
 		'parser'
 	],
-	#category : 'PetitParser2-Tests-Optimizations'
+	#category : #'PetitParser2-Tests-Optimizations'
 }
 
 { #category : #asserting }

@@ -1,7 +1,7 @@
 Class {
 	#name : #PP2HtmlHeaderGrammarTest,
 	#superclass : #PP2CompositeNodeTest,
-	#category : 'PetitParser2-Tests-Examples'
+	#category : #'PetitParser2-Tests-Examples'
 }
 
 { #category : #accessing }

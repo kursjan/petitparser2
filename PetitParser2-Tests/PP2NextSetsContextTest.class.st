@@ -8,7 +8,7 @@ Class {
 		'context2',
 		'o3'
 	],
-	#category : 'PetitParser2-Tests-Analysis'
+	#category : #'PetitParser2-Tests-Analysis'
 }
 
 { #category : #'as yet unclassified' }

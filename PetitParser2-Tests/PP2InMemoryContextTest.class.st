@@ -3,7 +3,7 @@ Class {
 	#superclass : #TestCase,
 	#traits : 'TPP2ContextTest + TPP2DebuggableTest + TPP2TypeAssertions',
 	#classTraits : 'TPP2ContextTest classTrait + TPP2DebuggableTest classTrait + TPP2TypeAssertions classTrait',
-	#category : 'PetitParser2-Tests-Core'
+	#category : #'PetitParser2-Tests-Core'
 }
 
 { #category : #requirements }

@@ -6,7 +6,7 @@ Class {
 		'visitor',
 		'result'
 	],
-	#category : 'PetitParser2-Tests-Core'
+	#category : #'PetitParser2-Tests-Core'
 }
 
 { #category : #'as yet unclassified' }

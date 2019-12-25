@@ -6,7 +6,7 @@ Class {
 		'visitor',
 		'firstSet'
 	],
-	#category : 'PetitParser2-Tests-Analysis'
+	#category : #'PetitParser2-Tests-Analysis'
 }
 
 { #category : #converting }

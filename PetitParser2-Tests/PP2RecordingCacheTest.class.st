@@ -1,7 +1,7 @@
 Class {
 	#name : #PP2RecordingCacheTest,
 	#superclass : #TestCase,
-	#category : 'PetitParser2-Tests-Profiling'
+	#category : #'PetitParser2-Tests-Profiling'
 }
 
 { #category : #tests }

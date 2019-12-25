@@ -5,7 +5,7 @@ Class {
 		'parser',
 		'visitor'
 	],
-	#category : 'PetitParser2-Tests-Analysis'
+	#category : #'PetitParser2-Tests-Analysis'
 }
 
 { #category : #support }

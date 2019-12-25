@@ -3,7 +3,7 @@ Class {
 	#superclass : #TestCase,
 	#traits : 'TPP2StreamContextInterface',
 	#classTraits : 'TPP2StreamContextInterface classTrait',
-	#category : 'PetitParser2-Tests-Streams'
+	#category : #'PetitParser2-Tests-Streams'
 }
 
 { #category : #running }

@@ -1,6 +1,6 @@
 Trait {
 	#name : #TPP2CollectionAssertions,
-	#category : 'PetitParser2-Tests-Core'
+	#category : #'PetitParser2-Tests-Core'
 }
 
 { #category : #assertions }
