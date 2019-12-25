@@ -1,7 +1,7 @@
 Class {
 	#name : #PP2JsonParser,
 	#superclass : #PP2JsonGrammar,
-	#category : 'PetitParser2-JSON'
+	#category : #'PetitParser2-JSON'
 }
 
 { #category : #grammar }

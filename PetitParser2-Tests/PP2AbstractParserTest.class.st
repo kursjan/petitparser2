@@ -11,7 +11,7 @@ PP2AbstractParserTest class >> isAbstract [
 
 { #category : #accessing }
 PP2AbstractParserTest class >> packageNamesUnderTest [
-	^ #('PetitParser' 'PetitTests')
+  ^ #('PetitParser2' 'PetitParser2-Tests')
 ]
 
 { #category : #utilities }

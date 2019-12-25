@@ -1,12 +1,12 @@
 Class {
 	#name : #PP2JsonParserTest,
 	#superclass : #PP2CompositeNodeTest,
-	#category : 'PetitParser2-JSON'
+	#category : #'PetitParser2-JSON'
 }
 
 { #category : #accessing }
 PP2JsonParserTest class >> packageNamesUnderTest [
-	^ #('PetitJson')
+	^ #('PetitParser2-JSON')
 ]
 
 { #category : #utilities }

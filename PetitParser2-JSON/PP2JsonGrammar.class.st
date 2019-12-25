@@ -23,7 +23,7 @@ Class {
 	#classVars : [
 		'CharacterTable'
 	],
-	#category : 'PetitParser2-JSON'
+	#category : #'PetitParser2-JSON'
 }
 
 { #category : #initialization }
