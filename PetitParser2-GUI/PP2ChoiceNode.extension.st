@@ -1,6 +1,16 @@
 Extension { #name : #PP2ChoiceNode }
 
 { #category : #'*PetitParser2-GUI-Morhpic' }
+PP2ChoiceNode >> exampleOn: aStream [
+	"If there is already a lot written, try to pick an empty possiblity."
+	
+	aStream position > 512 ifTrue: [
+		(self children anySatisfy: [ :each | each isNullable ])
+			ifTrue: [ ^ self ] ].
+	self children atRandom exampleOn: aStream
+]
+
+{ #category : #'*PetitParser2-GUI-Morhpic' }
 PP2ChoiceNode >> morphicShapeSeen: aSet depth: anInteger [
 	^ self morphicShapeSeen: aSet depth: anInteger do: [ :cc |
 		| morph |

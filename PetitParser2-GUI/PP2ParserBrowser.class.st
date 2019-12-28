@@ -263,7 +263,7 @@ PP2ParserBrowser >> workspaceIn: composite [
 	self sourceIn: composite.
 	self graphIn: composite.
 	self mapIn: composite.
-"	self exampleIn: composite."
+	self exampleIn: composite.
 	self firstIn: composite.
 "	self followIn: composite."
 ]

@@ -1,6 +1,11 @@
 Extension { #name : #PP2EpsilonNode }
 
 { #category : #'*PetitParser2-GUI-Morhpic' }
+PP2EpsilonNode >> exampleOn: aStream [
+	
+]
+
+{ #category : #'*PetitParser2-GUI-Morhpic' }
 PP2EpsilonNode >> morphicShapeSeen: aSet depth: anInteger [
 	^ self morphicShapeSeen: aSet depth: anInteger do: [ :cc |
 		self newRowMorph

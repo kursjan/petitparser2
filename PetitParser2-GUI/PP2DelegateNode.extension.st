@@ -6,6 +6,11 @@ PP2DelegateNode >> displayDescription [
 ]
 
 { #category : #'*PetitParser2-GUI-Morhpic' }
+PP2DelegateNode >> exampleOn: aStream [
+	self child exampleOn: aStream
+]
+
+{ #category : #'*PetitParser2-GUI-Morhpic' }
 PP2DelegateNode >> morphicShapeSeen: aSet depth: anInteger [
 	^ self morphicShapeSeen: aSet depth: anInteger do: [ :cc |
 		self displayDescription isNil

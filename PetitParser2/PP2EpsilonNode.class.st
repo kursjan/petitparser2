@@ -41,7 +41,7 @@ PP2EpsilonNode >> isEpsilon [
 	^ true
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #operators }
 PP2EpsilonNode >> nonEpsilon [
 	^	#failure asPParser
 ]

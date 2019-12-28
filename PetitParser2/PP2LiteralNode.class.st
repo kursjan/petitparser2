@@ -63,17 +63,3 @@ PP2LiteralNode >> message [
 PP2LiteralNode >> message: anObject [
 	message := anObject
 ]
-
-{ #category : #printing }
-PP2LiteralNode >> printOn: aStream [
-	aStream nextPut: $'.
-	aStream nextPutAll: literal asString.
-	aStream nextPut: $'.
-	
-	self flag: 'JK: delete?'
-"	
-	aStream nextPut: $(.
-	aStream nextPutAll: literal printString.
-	aStream nextPut: $).
-"
-]

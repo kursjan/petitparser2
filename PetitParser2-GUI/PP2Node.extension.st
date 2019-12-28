@@ -21,6 +21,16 @@ PP2Node >> displayName [
 		ifTrue: [ self class name asString ]
 ]
 
+{ #category : #'*PetitParser2-GUI-Morhpic' }
+PP2Node >> example [
+	^ String streamContents: [ :stream | self exampleOn: stream ] limitedTo: 1024
+]
+
+{ #category : #'*PetitParser2-GUI-Morhpic' }
+PP2Node >> exampleOn: aStream [
+	self subclassResponsibility 
+]
+
 { #category : #'*PetitParser2-GUI' }
 PP2Node >> gtInspectorParserInspectorIn: composite [
 	<gtInspectorPresentationOrder: 30>
