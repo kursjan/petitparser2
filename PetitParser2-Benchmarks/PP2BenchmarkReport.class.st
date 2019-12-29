@@ -4,7 +4,7 @@ Class {
 	#instVars : [
 		'entries'
 	],
-	#category : 'PetitParser2-Benchmarks-Core'
+	#category : #'PetitParser2-Benchmarks-Core'
 }
 
 { #category : #logging }

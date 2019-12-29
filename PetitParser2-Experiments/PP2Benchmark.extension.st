@@ -11,7 +11,7 @@ PP2Benchmark >> setupSmalltalkGrammarIM [
 	"IM: Interpreted with Mutable context"
 	
 	self setup: PP2SmalltalkGrammar sources: 'smalltalk'.
-	self parser name: 'Smalltalk Grammar (IM)'.
+	self parser name: 'PP2 Smalltalk Grammar (IM)'.
 	
 	contextClass := PP2Context.
 	selector := #'parseInterpreted:withContext:'.

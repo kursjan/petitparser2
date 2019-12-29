@@ -48,7 +48,7 @@ PP2Benchmark >> benchmarkSmalltalkParserSmacc [
 		gcTime := Smalltalk vm totalGCTime.
 		time := [ input do: [ :source | 
 			parser parse: source
-		] ] timeToRun asMilliseconds.
+		] ] timeToRun asMilliSeconds.
 		
 		self reportInput: input time: time gcTime: (Smalltalk vm totalGCTime - gcTime) name: parser name
 	]
@@ -83,7 +83,7 @@ PP2Benchmark >> setupRBParser [
 { #category : #'*PetitParser2-Smalltalk' }
 PP2Benchmark >> setupSmalltalkGrammar [
 	self setup: PP2SmalltalkGrammar sources: 'smalltalk'.
-	self parser name: 'Smalltalk Grammar'.
+	self parser name: 'PP2 Smalltalk Grammar'.
 	self parser optimize.
 	
 	contextClass := PP2InMemoryContext.
@@ -95,7 +95,7 @@ PP2Benchmark >> setupSmalltalkGrammar [
 { #category : #'*PetitParser2-Smalltalk' }
 PP2Benchmark >> setupSmalltalkGrammarNoOpt [
 	self setup: PP2SmalltalkGrammar sources: 'smalltalk'.
-	self parser name: 'Smalltalk Grammar (NoOpt)'.
+	self parser name: 'PP2 Smalltalk Grammar (NoOpt)'.
 	
 	contextClass := PP2Context.
 	selector := #'parseAdaptable:withContext:'.
@@ -106,7 +106,7 @@ PP2Benchmark >> setupSmalltalkGrammarNoOpt [
 { #category : #'*PetitParser2-Smalltalk' }
 PP2Benchmark >> setupSmalltalkParser [
 	self setup: PP2SmalltalkParser sources: 'smalltalk'.
-	self parser name: 'Smalltalk Parser'.
+	self parser name: 'PP2 Smalltalk Parser'.
 	self parser optimize.
 	
 	contextClass := PP2InMemoryContext.
@@ -118,7 +118,7 @@ PP2Benchmark >> setupSmalltalkParser [
 { #category : #'*PetitParser2-Smalltalk' }
 PP2Benchmark >> setupSmalltalkParserNoOpt [
 	self setup: PP2SmalltalkParser sources: 'smalltalk'.
-	self parser name: 'Smalltalk Parser (NoOpt)'.
+	self parser name: 'PP2 Smalltalk Parser (No Opt)'.
 	
 	contextClass := PP2Context.
 	selector := #'parseAdaptable:withContext:'.

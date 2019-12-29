@@ -78,7 +78,7 @@ Class {
 		'unaryToken',
 		'variable'
 	],
-	#category : 'PetitParser2-Smalltalk-Core'
+	#category : #'PetitParser2-Smalltalk-Core'
 }
 
 { #category : #testing }

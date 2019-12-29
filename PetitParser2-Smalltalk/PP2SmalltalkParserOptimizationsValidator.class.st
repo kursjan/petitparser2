@@ -5,7 +5,7 @@ Class {
 		'parser',
 		'optimizedParser'
 	],
-	#category : 'PetitParser2-Smalltalk-Validation'
+	#category : #'PetitParser2-Smalltalk-Validation'
 }
 
 { #category : #validation }

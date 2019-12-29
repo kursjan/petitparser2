@@ -4,7 +4,7 @@ Class {
 	#instVars : [
 		'comments'
 	],
-	#category : 'PetitParser2-Smalltalk-Core'
+	#category : #'PetitParser2-Smalltalk-Core'
 }
 
 { #category : #accessing }

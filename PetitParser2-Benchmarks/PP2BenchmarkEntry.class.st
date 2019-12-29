@@ -8,7 +8,7 @@ Class {
 		'timestamp',
 		'gcTime'
 	],
-	#category : 'PetitParser2-Benchmarks-Core'
+	#category : #'PetitParser2-Benchmarks-Core'
 }
 
 { #category : #accessing }

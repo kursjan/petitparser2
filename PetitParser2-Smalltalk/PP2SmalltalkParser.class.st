@@ -1,7 +1,7 @@
 Class {
 	#name : #PP2SmalltalkParser,
 	#superclass : #PP2SmalltalkGrammar,
-	#category : 'PetitParser2-Smalltalk-Core'
+	#category : #'PetitParser2-Smalltalk-Core'
 }
 
 { #category : #private }

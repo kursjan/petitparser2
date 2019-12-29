@@ -13,7 +13,7 @@ Class {
 		'contextClass',
 		'selector'
 	],
-	#category : 'PetitParser2-Benchmarks-Core'
+	#category : #'PetitParser2-Benchmarks-Core'
 }
 
 { #category : #examples }
@@ -197,7 +197,7 @@ PP2Benchmark >> run [
 		time := [ input do: [ :source | 
 			"parser parse: source withContext: self context"
 			parser perform: selector withArguments: {  source . self context }.
-		] ] timeToRun asMilliseconds.
+		] ] timeToRun asMilliSeconds.
 		
 		self reportInput: input time: time gcTime: (Smalltalk vm totalGCTime - gcTime) name: parser name
 	]
@@ -299,7 +299,7 @@ PP2Benchmark >> showSpeedup [
 
 { #category : #'setup & teardown' }
 PP2Benchmark >> smartSetupAndRun: benchmarkSelector [
-	^ self testSetupAndRun: (benchmarkSelector removePrefix: 'benchmark')
+	^ self testSetupAndRun: (benchmarkSelector withoutPrefix: 'benchmark')
 ]
 
 { #category : #accessing }

@@ -5,7 +5,7 @@ Class {
 		'context',
 		'selector'
 	],
-	#category : 'PetitParser2-Benchmarks-Tests'
+	#category : #'PetitParser2-Benchmarks-Tests'
 }
 
 { #category : #tests }

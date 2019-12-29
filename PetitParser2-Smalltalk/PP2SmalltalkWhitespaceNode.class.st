@@ -4,7 +4,7 @@ Class {
 	#classInstVars : [
 		'instance'
 	],
-	#category : 'PetitParser2-Smalltalk-Core'
+	#category : #'PetitParser2-Smalltalk-Core'
 }
 
 { #category : #'instance creation' }

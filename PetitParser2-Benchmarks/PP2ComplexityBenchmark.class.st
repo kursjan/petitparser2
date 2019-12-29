@@ -1,7 +1,7 @@
 Class {
 	#name : #PP2ComplexityBenchmark,
 	#superclass : #PP2Benchmark,
-	#category : 'PetitParser2-Benchmarks-Core'
+	#category : #'PetitParser2-Benchmarks-Core'
 }
 
 { #category : #initialization }
