@@ -10,12 +10,15 @@ PetitParser2 is a framework for building parsers. PetitParser2 is a new version 
 
 ## Why to switch from PetitParser to PetitParser2?
 
+There are many reasons why to switch to PetitParser2:
 - PetitParser2 is actively maintained by the author and by the Moose community.
 - PetitParser2 can do everything PetitParser can do, and more: for example it contains new predicates such as `#startOfLine`, `#endOfLine`, can express tolerant or context sensitive grammars.
 - The performance of PetitParser2 is 2-5 times better compared to PetitParser. 
 - PetitParser2 supports real streams: no need to load the whole input into the memory (see `PP2BufferStream`). 
 
-See [Migration from PetitParser](https://kursjan.github.io/petitparser2/migration.html).
+We already migrated many parsers to PetitParser2 (e.g. Smalltalk, Pillar, ...). 
+If you find anything that is not working for you, please [open an issue](https://github.com/kursjan/petitparser2/issues).
+See [Migration from PetitParser](https://kursjan.github.io/petitparser2/migration.html) for more details.
 
 ## Installing PetitParser2
 
@@ -78,11 +81,6 @@ https://kursjan.github.io/petitparser2/
 
 ## [Migration from PetitParser](https://kursjan.github.io/petitparser2/migration.html)
 
-PetitParser2 can do everything PetitParser can do and more.
-It has almost identical interface. 
-Parsers are subclass of `PP2Node` and terminal parsers are created using `asPParser`. 
-We already migrated many parsers to PP2 (e.g. Smalltalk, Pillar, ...). 
-If you find anything that is not working for you, please [open an issue](https://github.com/kursjan/petitparser2/issues).
 
 [More details](https://kursjan.github.io/petitparser2/migration.html).
 
