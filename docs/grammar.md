@@ -1,4 +1,4 @@
-# <a id="sec:grammar" />Turning the script into a real parser
+# <a id="sec:grammar" />Grammar: Turning the script into a real parser
 
 To scale we should turn the playground script into a proper parser.
 

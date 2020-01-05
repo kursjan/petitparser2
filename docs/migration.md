@@ -1,10 +1,15 @@
 # Migration from PetitParser
 
-## Why to Migrate?
+Why should you migrate to PetitParser2? 
+If you find one of these interesting:
 
 ### Actively Maintained
 PetitParser2 is still actively maintained. 
 By the author of PetitParser2 and by the Moose community.
+
+### Same as PetitParser
+PetitParser2 can express everything PetitParser can and more.
+For example, there are predicates such as `#startOfLine`, `#endOfLine`, which are not available in PetitParser.
 
 ### Better performance 
 The performance of PetitParser2 is 2-5 times better compared to PetitParser. 
@@ -17,10 +22,6 @@ PP2Benchmark exampleSmalltalk
 
 You can see that PetitParser2 is as fast as SmaCC while having all the advantages of PetitParser. 
 PP2 parsers can be optimized by calling `optimize` method on the resulting parser.
-
-### Same as PetitParser
-PetitParser2 can express everything PetitParser can and more.
-For example, there are predicates such as `#startOfLine`, `#endOfLine`, which are not available in PetitParser.
 
 ### Works with streams
 PetitParser2 supports real streams: no need to load the whole input into the memory (see `PP2BufferStream`). 
@@ -35,8 +36,11 @@ PP2ReadKeysExample example
 With PetitParser2 you can define only part of the grammar and skip the rest. 
 With bounded seas you define islands of interest only. 
 Bounded seas will skip the undefined input and return only islands.
-For example, you can easily [extract the Javascript from HTML pages](https://kursjan.github.io/petitparser2/scripting.html).
+For example, you can easily [extract JavaScript from HTML pages](https://kursjan.github.io/petitparser2/scripting.html).
 
+### Support for context-sensitive rules
+With PetitParser2 you can parse more languages than PEGs can express. 
+PetitParser2 contains an extension for parsing context sensitive grammars. 
 
 ## Differences to PetitParser 
 How is PetitParser2 different to PetitParser?

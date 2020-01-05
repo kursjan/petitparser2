@@ -159,4 +159,4 @@ start parse: '(1 + 2) * 3'.     " --> 9 "
 
 As an exercise we could extend the parser to also accept negative numbers and floating point numbers, not only integers. 
 Furthermore it would be useful to add support subtraction and division as well. 
-All these features can be added with a few lines of PetitParser code.
+All these features can be added with a few lines of PetitParser2 code.

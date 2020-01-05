@@ -1,4 +1,4 @@
-# Extracting the Structure
+# Context-Sensitive Grammar: Extracting the Structure
 
 In the [previous chapter](grammar.md) we created a parser to extract a list of JavaScript strings from an HTML source.
 Now we extend the parser to extract an HTML structure as well. 

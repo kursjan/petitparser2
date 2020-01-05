@@ -15,7 +15,7 @@ PetitParser2 is a framework for building parsers. PetitParser2 is a new version 
 - The performance of PetitParser2 is 2-5 times better compared to PetitParser. 
 - PetitParser2 supports real streams: no need to load the whole input into the memory (see `PP2BufferStream`). 
 
-See [Migration from PetitParser](https://kursjan.github.io/petitparser2/migration.html) for more details.
+See [Migration from PetitParser](https://kursjan.github.io/petitparser2/migration.html).
 
 ## Installing PetitParser2
 

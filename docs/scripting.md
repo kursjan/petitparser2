@@ -1,4 +1,4 @@
-# <a id="sec:scripting" />Extracting Javascript: scripting with bounded seas
+# <a id="sec:scripting" />Scripting with bounded seas: Extracting Javascript
 
 In this chapter we extract javascript from html files using a Smalltalk playground.
 <!-- We create the real parser *later>chapter2.pillar*. -->
