@@ -21,17 +21,23 @@
         {% endif %}
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
+	      
+				<p>
+        <b>Introduction</b><br/>
+        <a href="{{ site.baseurl }}{% link petitparser2.md %}">Introduction to PetitParser2</a><br/>
+        <a href="{{ site.baseurl }}{% link migration.md %}">Migration from PetitParser</a><br/>
+	      </p>
 
 	      <p>
         <b>Parser Development</b><br/>
-        <a href="{{ site.baseurl }}{% link scripting.md %}">Scripting in Playground</a><br/>
+        <a href="{{ site.baseurl }}{% link scripting.md %}">Scripting</a><br/>
         <a href="{{ site.baseurl }}{% link grammar.md %}">Grammar</a><br/>
         <a href="{{ site.baseurl }}{% link csgrammar.md %}">Context-Sensitive Grammar</a><br/>
         <a href="{{ site.baseurl }}{% link parser.md %}">Abstract-Syntax Tree</a><br/>
         <a href="{{ site.baseurl }}{% link parser-part2.md %}">Full Parser</a><br/>
         <a href="{{ site.baseurl }}{% link comments.md %}">Comments</a><br/>
         <a href="{{ site.baseurl }}{% link optimizations.md %}">Optimizations</a><br/>
-        <a href="{{ site.baseurl }}{% link memoizations.md %}">Memoization</a><br/>
+        <a href="{{ site.baseurl }}{% link memoizations.md %}">Optimization (Memoization)</a><br/>
 	      </p>
         
         <p> 

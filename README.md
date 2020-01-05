@@ -10,26 +10,12 @@ PetitParser2 is a framework for building parsers. PetitParser2 is a new version 
 
 ## Why to switch from PetitParser to PetitParser2?
 
-### Better performance 
-The performance of PetitParser2 is 2-5 times better compared to PetitParser. The optimizations are based on our experience with [PetitCompiler](http://scg.unibe.ch/scgbib?query=Kurs16a&display=abstract).
+- PetitParser2 is actively maintained by the author and by the Moose community.
+- PetitParser2 can do everything PetitParser can do, and more: for example it contains new predicates such as `#startOfLine`, `#endOfLine`, can express tolerant or context sensitive grammars.
+- The performance of PetitParser2 is 2-5 times better compared to PetitParser. 
+- PetitParser2 supports real streams: no need to load the whole input into the memory (see `PP2BufferStream`). 
 
-Try it out! Compare the optimized version of `PP2SmalltalkParser`, non-optimized version, `SmaCC` and `RBParser`. Evaluate the following code:
-```smalltalk
-PP2Benchmark exampleSmalltalk
-```
-
-PP2 parsers can be optimized by calling `optimize` method on the resulting parser. Optimized PP2 parser is as fast as SmaCC parser.
-
-### Works with streams
-PetitParser2 supports real streams: no need to load the whole input into the memory (see `PP2BufferStream`). Try to parse an input comming from your keystrokes. The following parser waits for the input from a keyboard does parsing as characters come in:
-
-```smalltalk
-PP2ReadKeysExample example
-```
-
-### Support for bounded seas
-With PetitParser2 you can define only part of the grammar and skip the uninteresting input. Bounded seas are extensible so you can always add more rules to your grammar to extract more data.
-
+See [Migration from PetitParser](https://kursjan.github.io/petitparser2/migration.html) for more details.
 
 ## Installing PetitParser2
 
@@ -90,9 +76,15 @@ https://kursjan.github.io/petitparser2/
 
 [Here](https://github.com/kursjan/petitparser2/issues/20#issuecomment-399667230) you can find an illustrative explanation how to debug when parsers do not work as expected.
 
-## Migration from PetitParser
+## [Migration from PetitParser](https://kursjan.github.io/petitparser2/migration.html)
 
-PetitParser2 can do everything PetitParser can do. It has similar interface as well. Instead of creating parsers using `asParser`, use `asPParser`. We already migrated many parsers to PP2 (e.g. Pillar). If you find anything that is not working, please [open an issue](https://github.com/kursjan/petitparser2/issues).
+PetitParser2 can do everything PetitParser can do and more.
+It has almost identical interface. 
+Parsers are subclass of `PP2Node` and terminal parsers are created using `asPParser`. 
+We already migrated many parsers to PP2 (e.g. Smalltalk, Pillar, ...). 
+If you find anything that is not working for you, please [open an issue](https://github.com/kursjan/petitparser2/issues).
+
+[More details](https://kursjan.github.io/petitparser2/migration.html).
 
 ## Need Help?
 Feel free to [open an issue](https://github.com/kursjan/petitparser2/issues) or post a [StackOverflow](https://stackoverflow.com/questions/tagged/petitparser2) question with the `petitparser2` tag.
