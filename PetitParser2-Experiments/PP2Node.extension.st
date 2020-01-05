@@ -7,6 +7,18 @@ PP2Node >> // aParser [
 	^ PP2BacktrackingChoiceNode with: self with: aParser
 ]
 
+{ #category : #'*PetitParser2-Experiments' }
+PP2Node >> allReparsables [
+	^ self propertyAt: #allReparsables ifAbsentPut: [
+		self collectReparsables
+	]
+]
+
+{ #category : #'*PetitParser2-Experiments' }
+PP2Node >> applyChange: change [
+	change updateParser: self
+]
+
 { #category : #'*PetitParser2-Experiments-Backtracking' }
 PP2Node >> backtrack [
 	^ PP2BacktrackNode on: self
@@ -19,6 +31,15 @@ PP2Node >> checkPromises [
 			PP2ReparseException signal: 'Some of the promises were not resolved'
 		]
 	]
+]
+
+{ #category : #'*PetitParser2-Experiments' }
+PP2Node >> collectReparsables [
+	| reparsables |
+	reparsables := IdentitySet new. 
+	self allNodesDo: [ :c | c strategies do: [ :s | s isReparsable ifTrue: [ reparsables add: s ] ] ].
+	^ reparsables asArray
+
 ]
 
 { #category : #'*PetitParser2-Experiments-Backtracking' }
@@ -64,4 +85,9 @@ PP2Node >> reparseAdaptableWithContext: context [
 		reparsableContext restore: reparsableContext startMemento.	
 		^ self parseAdaptableWithContext: reparsableContext
 	]
+]
+
+{ #category : #'*PetitParser2-Experiments' }
+PP2Node >> reparseWithContext: context [
+	^ self reparseAdaptableWithContext: context
 ]
