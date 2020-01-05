@@ -79,10 +79,5 @@ https://kursjan.github.io/petitparser2/
 
 [Here](https://github.com/kursjan/petitparser2/issues/20#issuecomment-399667230) you can find an illustrative explanation how to debug when parsers do not work as expected.
 
-## [Migration from PetitParser](https://kursjan.github.io/petitparser2/migration.html)
-
-
-[More details](https://kursjan.github.io/petitparser2/migration.html).
-
 ## Need Help?
 Feel free to [open an issue](https://github.com/kursjan/petitparser2/issues) or post a [StackOverflow](https://stackoverflow.com/questions/tagged/petitparser2) question with the `petitparser2` tag.
