@@ -140,13 +140,6 @@ PP2Node >> allNodesDo: aBlock seen: aSet [
 	self children do: [ :each | each allNodesDo: aBlock seen: aSet ]
 ]
 
-{ #category : #reparsing }
-PP2Node >> allReparsables [
-	^ self propertyAt: #allReparsables ifAbsentPut: [
-		self collectReparsables
-	]
-]
-
 { #category : #'optimizations - warnings' }
 PP2Node >> allWarnings [
 	| warnings |
@@ -160,11 +153,6 @@ PP2Node >> allWarnings [
 { #category : #operators }
 PP2Node >> and [
 	^ PP2AndNode on: self
-]
-
-{ #category : #reparsing }
-PP2Node >> applyChange: change [
-	change updateParser: self
 ]
 
 { #category : #converting }
@@ -223,15 +211,6 @@ PP2Node >> collectCaches [
 	caches := IdentitySet new. 
 	self allNodesDo: [ :c | c strategies do: [ :s | s isCache ifTrue: [ caches add: s ] ] ].
 	^ caches asArray
-
-]
-
-{ #category : #reparsing }
-PP2Node >> collectReparsables [
-	| reparsables |
-	reparsables := IdentitySet new. 
-	self allNodesDo: [ :c | c strategies do: [ :s | s isReparsable ifTrue: [ reparsables add: s ] ] ].
-	^ reparsables asArray
 
 ]
 
@@ -887,11 +866,6 @@ PP2Node >> refreshCaches [
 { #category : #optimizations }
 PP2Node >> reparsable [
 	self propertyAt: #reparsable put: true
-]
-
-{ #category : #reparsing }
-PP2Node >> reparseWithContext: context [
-	^ self reparseAdaptableWithContext: context
 ]
 
 { #category : #transforming }
