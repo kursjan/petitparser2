@@ -4,7 +4,7 @@ self new openOn: PPArithmeticParser
 Class {
 	#name : #PP2ParserBrowser,
 	#superclass : #GLMCompositePresentation,
-	#category : 'PetitParser2-GUI-Browser'
+	#category : #'PetitParser2-GUI-Browser'
 }
 
 { #category : #openning }
@@ -212,7 +212,7 @@ PP2ParserBrowser >> productionsIn: composite [
 
 { #category : #'private utilities' }
 PP2ParserBrowser >> sourceCodeFrom: class selector: production [
-	^ class ultimateSourceCodeAt: (production ifNil: [ #start ]) ifAbsent: [ String new ]
+	^ class lookupSelector: #start
 ]
 
 { #category : #'private building' }
