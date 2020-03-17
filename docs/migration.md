@@ -32,6 +32,11 @@ The following parser waits for the input from a keyboard does parsing as charact
 PP2ReadKeysExample example
 ```
 
+If you want to use Zinc stream, try `PP2HtmlHeaderGrammar`, which can read headers of the web page, without downloading the whole page:
+```smalltalk
+PP2HtmlHeaderGrammar example
+```
+
 ### Support for bounded seas
 With PetitParser2 you can define only part of the grammar and skip the rest. 
 With bounded seas you define islands of interest only. 
