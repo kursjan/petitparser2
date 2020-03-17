@@ -49,7 +49,7 @@ The parsing strategy is replaced behind the scenes and is mostly transparent for
 
 The differences are:
 - Parsers are subclass of `PP2Node`, not `PPParser`.
-- Failure is instance of `PP2Failure`, not `PPFailure`. Failures are created using `asPetit2Failure`, not `asPetitFailures`.
+- Failure is instance of `PP2Failure`, not `PPFailure`. Failures are created using `asPetit2Failure`, not `asPetitFailure`.
 - Terminal parsers are created using `asPParser` method, not `asParser`.
 - Complex grammars are defined by subclassing `PP2CompositeNode`, not `PPCompositeParser`.
 - Many other objects from PetitParser have their PetitParser2 equivalent with `PP2` prefix.
