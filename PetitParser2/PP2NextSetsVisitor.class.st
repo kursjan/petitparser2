@@ -6,7 +6,7 @@ Class {
 		'nextSets',
 		'currentNext'
 	],
-	#category : #'PetitParser2-Analysis'
+	#category : 'PetitParser2-Analysis'
 }
 
 { #category : #accessing }

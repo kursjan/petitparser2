@@ -1,7 +1,7 @@
 Class {
 	#name : #PP2Match,
 	#superclass : #PP2Strategy,
-	#category : #'PetitParser2-Context'
+	#category : 'PetitParser2-Context'
 }
 
 { #category : #parsing }

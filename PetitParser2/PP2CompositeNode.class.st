@@ -8,7 +8,7 @@ The start production is defined in the method start. It is aliased to the inst-v
 Class {
 	#name : #PP2CompositeNode,
 	#superclass : #PP2DelegateNode,
-	#category : #'PetitParser2-Tools'
+	#category : 'PetitParser2-Tools'
 }
 
 { #category : #accessing }

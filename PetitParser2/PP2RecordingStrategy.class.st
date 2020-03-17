@@ -1,7 +1,7 @@
 Class {
 	#name : #PP2RecordingStrategy,
 	#superclass : #PP2WrappingStrategy,
-	#category : #'PetitParser2-Recording'
+	#category : 'PetitParser2-Recording'
 }
 
 { #category : #parsing }

@@ -1,7 +1,7 @@
 Class {
 	#name : #PP2Pop,
 	#superclass : #PP2Strategy,
-	#category : #'PetitParser2-Context'
+	#category : 'PetitParser2-Context'
 }
 
 { #category : #'as yet unclassified' }

@@ -1,7 +1,7 @@
 Class {
 	#name : #PP2CommonPrefixVisitor,
 	#superclass : #PP2NoopVisitor,
-	#category : #'PetitParser2-Optimizations'
+	#category : 'PetitParser2-Optimizations'
 }
 
 { #category : #caching }

@@ -6,7 +6,7 @@ Class {
 		'position',
 		'strategy'
 	],
-	#category : #'PetitParser2-Recording'
+	#category : 'PetitParser2-Recording'
 }
 
 { #category : #accessing }

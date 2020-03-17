@@ -4,7 +4,7 @@ Class {
 	#instVars : [
 		'parent'
 	],
-	#category : #'PetitParser2-Optimizations'
+	#category : 'PetitParser2-Optimizations'
 }
 
 { #category : #optimizations }

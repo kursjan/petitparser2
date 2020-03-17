@@ -13,7 +13,7 @@ Class {
 		'plus',
 		'star'
 	],
-	#category : #'PetitParser2-Examples'
+	#category : 'PetitParser2-Examples'
 }
 
 { #category : #grammar }

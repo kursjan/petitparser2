@@ -8,7 +8,7 @@ Examples:
 Class {
 	#name : #PP2EndOfInputNode,
 	#superclass : #PP2Node,
-	#category : #'PetitParser2-Nodes'
+	#category : 'PetitParser2-Nodes'
 }
 
 { #category : #visiting }

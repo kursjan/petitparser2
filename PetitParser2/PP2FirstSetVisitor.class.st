@@ -6,7 +6,7 @@ Class {
 		'predicateBlock',
 		'leftRecursionAllowed'
 	],
-	#category : #'PetitParser2-Analysis'
+	#category : 'PetitParser2-Analysis'
 }
 
 { #category : #'instance creation' }

@@ -1,6 +1,6 @@
 Trait {
 	#name : #TPP2Context,
-	#category : #'PetitParser2-Core'
+	#category : 'PetitParser2-Core'
 }
 
 { #category : #reparsing }

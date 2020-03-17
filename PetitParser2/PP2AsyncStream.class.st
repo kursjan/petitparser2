@@ -1,9 +1,7 @@
 "
-TODO: Find a better name for this.
+Implementation of stream filled by asynchronous input. Can be converted to PP2Stream by calling asPetit2Stream to be parsed by PetitParser2.
 
-I represent a stream which is filled by some other input that comes  asynchronously.
-
-E.g. keyboard  keyboard source can queue the characters that can be read by parser.
+For example, keyboard source can be used as an input to PetitParser2.
 "
 Class {
 	#name : #PP2AsyncStream,

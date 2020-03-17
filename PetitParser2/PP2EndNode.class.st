@@ -8,7 +8,7 @@ $a asPParser end parse: 'ab'.
 Class {
 	#name : #PP2EndNode,
 	#superclass : #PP2DelegateNode,
-	#category : #'PetitParser2-Nodes'
+	#category : 'PetitParser2-Nodes'
 }
 
 { #category : #visiting }

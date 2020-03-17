@@ -1,7 +1,7 @@
 Class {
 	#name : #PP2CcPop,
 	#superclass : #PP2CcResult,
-	#category : #'PetitParser2-Analysis'
+	#category : 'PetitParser2-Analysis'
 }
 
 { #category : #testing }

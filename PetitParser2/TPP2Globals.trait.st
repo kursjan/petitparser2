@@ -1,6 +1,6 @@
 Trait {
 	#name : #TPP2Globals,
-	#category : #'PetitParser2-Core'
+	#category : 'PetitParser2-Core'
 }
 
 { #category : #'accessing - globals' }

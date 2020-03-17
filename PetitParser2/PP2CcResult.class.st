@@ -7,7 +7,7 @@ Class {
 	#classInstVars : [
 		'Instance'
 	],
-	#category : #'PetitParser2-Analysis'
+	#category : 'PetitParser2-Analysis'
 }
 
 { #category : #'instance creation' }

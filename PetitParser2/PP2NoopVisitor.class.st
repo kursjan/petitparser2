@@ -10,7 +10,7 @@ Class {
 		'openSet',
 		'openStack'
 	],
-	#category : #'PetitParser2-Core'
+	#category : 'PetitParser2-Core'
 }
 
 { #category : #hooks }

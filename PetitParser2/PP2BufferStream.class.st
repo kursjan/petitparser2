@@ -1,11 +1,12 @@
 "
-Suppose very minimal stream with the following interface:
+Adapter from minimal stream implementation to the interface consumed by PP2Nodes.
+
+Given minimal stream interface with two methods:
 - atEnd
 - next
+PP2BufferStream will provide extra functionality and buffering to ensure the minimal stream can be consumed by PP2Nodes.
 
-I can adapt this stream and provide the PP2SStream interface thanks to the buffer.
-
-Note: I index everything from 0 and not from 1. The reason being the modulo arithmetics that works better when indexed from 0.
+Note: Everyting in this stream is indexed from 0 and not from 1. Modulo arithmetics that works better when indexed from 0.
 "
 Class {
 	#name : #PP2BufferStream,
@@ -19,19 +20,19 @@ Class {
 	#category : #'PetitParser2-Streams'
 }
 
-{ #category : #'as yet unclassified' }
+{ #category : #'instance creation' }
 PP2BufferStream class >> new [
 	"for compatibility reasons"
 	^ self basicNew
 		initialize
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #'instance creation' }
 PP2BufferStream class >> on: stream [
 	^ self on: stream bufferSize: 1024
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #'instance creation' }
 PP2BufferStream class >> on: stream bufferSize: bufferSize [
 	^ (self basicNew)
 		initializeForSize: bufferSize;

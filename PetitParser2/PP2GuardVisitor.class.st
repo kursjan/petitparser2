@@ -5,7 +5,7 @@ Class {
 		'guarded',
 		'anythingClassification'
 	],
-	#category : #'PetitParser2-Optimizations'
+	#category : 'PetitParser2-Optimizations'
 }
 
 { #category : #support }

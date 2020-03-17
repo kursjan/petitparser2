@@ -4,7 +4,7 @@ Class {
 	#instVars : [
 		'resultCache'
 	],
-	#category : #'PetitParser2-Debug'
+	#category : 'PetitParser2-Debug'
 }
 
 { #category : #'instance creation' }

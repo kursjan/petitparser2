@@ -5,7 +5,7 @@ Class {
 		'inToken',
 		'parents'
 	],
-	#category : #'PetitParser2-Optimizations'
+	#category : 'PetitParser2-Optimizations'
 }
 
 { #category : #support }

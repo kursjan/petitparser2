@@ -6,7 +6,7 @@ Class {
 		'eventsTrace',
 		'furthestPosition'
 	],
-	#category : #'PetitParser2-Recording'
+	#category : 'PetitParser2-Recording'
 }
 
 { #category : #converting }

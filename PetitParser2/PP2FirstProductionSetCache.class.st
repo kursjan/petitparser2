@@ -1,7 +1,7 @@
 Class {
 	#name : #PP2FirstProductionSetCache,
 	#superclass : #PP2FirstSetVisitor,
-	#category : #'PetitParser2-Optimizations'
+	#category : 'PetitParser2-Optimizations'
 }
 
 { #category : #hooks }

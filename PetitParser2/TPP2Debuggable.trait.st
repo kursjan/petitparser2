@@ -1,6 +1,6 @@
 Trait {
 	#name : #TPP2Debuggable,
-	#category : #'PetitParser2-Core'
+	#category : 'PetitParser2-Core'
 }
 
 { #category : #debugging }

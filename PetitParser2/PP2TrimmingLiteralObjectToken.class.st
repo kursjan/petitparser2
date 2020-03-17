@@ -5,7 +5,7 @@ Class {
 		'literal',
 		'failure'
 	],
-	#category : #'PetitParser2-Strategies'
+	#category : 'PetitParser2-Strategies'
 }
 
 { #category : #'as yet unclassified' }
