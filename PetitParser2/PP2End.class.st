@@ -13,7 +13,7 @@ PP2End >> parseOn: aPP2Context [
 	memento := aPP2Context remember.
 	retval := node child parseOn: aPP2Context.
 	
-	^ aPP2Context atEnd ifTrue: [ 
+	^ (aPP2Context atEnd or: [ retval isPetit2Failure ]) ifTrue: [ 
 		retval 
 	] ifFalse: [
 		| failure | 
