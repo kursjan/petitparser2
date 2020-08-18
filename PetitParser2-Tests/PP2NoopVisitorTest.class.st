@@ -17,6 +17,16 @@ PP2NoopVisitorTest >> setUp [
 ]
 
 { #category : #tests }
+PP2NoopVisitorTest >> testCurrentContext [
+	parser := $a asPParser.
+	result := visitor visit: parser.
+	self assert: result currentContext class equals: PP2NoopContext.
+	self assert: result currentContext properties isNil.
+	self assert: result currentContext node isNil.
+	self assert: result currentContext propertiesCopy isNil
+]
+
+{ #category : #tests }
 PP2NoopVisitorTest >> testVisitCharacter [
 	parser := $a asPParser.
 	result := visitor visit: parser.
