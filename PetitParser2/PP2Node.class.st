@@ -442,6 +442,11 @@ PP2Node >> isDebugging [
 ]
 
 { #category : #testing }
+PP2Node >> isDelegate [
+	^ false
+]
+
+{ #category : #testing }
 PP2Node >> isEOI [
 	^ false
 ]
