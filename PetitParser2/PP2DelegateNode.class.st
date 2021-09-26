@@ -63,7 +63,7 @@ PP2DelegateNode >> isCacheForbidden [
 
 { #category : #testing }
 PP2DelegateNode >> isDelegate [
-	self class == PP2DelegateNode 
+	^ true
 ]
 
 { #category : #testing }
