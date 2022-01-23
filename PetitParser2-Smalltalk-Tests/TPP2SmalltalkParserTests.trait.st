@@ -1,6 +1,6 @@
 Trait {
 	#name : #TPP2SmalltalkParserTests,
-	#category : 'PetitParser2-Smalltalk-Tests-Core'
+	#category : #'PetitParser2-Smalltalk-Tests-Core'
 }
 
 { #category : #private }
@@ -8,7 +8,7 @@ TPP2SmalltalkParserTests >> assert: aNode format: aString [
 	aNode isCollection
 		ifFalse: [ ^ self assert: (Array with: aNode) format: (Array with: aString) ].
 	self assert: aNode size equals: aString size.
-	aNode with: aString do: [ :node :string | self assert: (BIConfigurableFormatter format: node) equals: string ]
+	aNode with: aString do: [ :node :string | self assert: (EFFormatter format: node) equals: string ]
 ]
 
 { #category : #accessing }
@@ -881,7 +881,7 @@ TPP2SmalltalkParserTests >> testPragma14 [
 	super testPragma14.
 	self 
 		assert: self result pragmas
-		format: #('<foo: #()>' ).
+		format: #('<foo: #(  )>' ).
 	self assert: self result pragmas first keywordsPositions equals: #(9) asIntegerArray.		
 	self assert: self result body temporaries isEmpty.
 	self assert: self result body statements isEmpty
@@ -892,7 +892,7 @@ TPP2SmalltalkParserTests >> testPragma15 [
 	super testPragma15.
 	self 
 		assert: self result pragmas
-		format: #('<foo: #()>' ).
+		format: #('<foo: #(  )>' ).
 	self assert: self result pragmas first keywordsPositions equals: #(9) asIntegerArray.		
 	self assert: self result body temporaries isEmpty.
 	self assert: self result body statements isEmpty
