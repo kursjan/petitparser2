@@ -1,6 +1,6 @@
 Trait {
 	#name : #TPP2SmalltalkGrammarTests,
-	#category : 'PetitParser2-Smalltalk-Tests-Core'
+	#category : #'PetitParser2-Smalltalk-Tests-Core'
 }
 
 { #category : #accessing }
@@ -597,7 +597,7 @@ TPP2SmalltalkGrammarTests >> testPragma14 [
 { #category : #'testing-pragmas' }
 TPP2SmalltalkGrammarTests >> testPragma15 [
 	self 
-		parse: 'method <foo: #()>'
+		parse: 'method <foo: #(  )>'
 		rule: #method
 ]
 
