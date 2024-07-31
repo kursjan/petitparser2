@@ -53,13 +53,12 @@ PP2CompositeNodeTest >> parse: aString production: production to: expectedResult
 	ctx := self context.
 	resultContext := self parse: aString withParser: production withContext: ctx.
 	result := resultContext value.
-	
-	self
-		deny: resultContext isPetit2Failure
-		description: 'Unable to parse ' , aString printString.
-	
-	self assert: resultContext position equals: end.
-	aBoolean ifTrue: [ self assert: expectedResult equals: result ].
+	resultContext isPetit2Failure
+		ifTrue: [ self assert: expectedResult isPetit2Failure ]
+		ifFalse: [ self assert: resultContext position equals: end.
+			aBoolean
+				ifTrue: [ self assert: expectedResult equals: result ]
+	       ].
 	^ result
 ]
 
