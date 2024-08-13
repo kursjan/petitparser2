@@ -29,17 +29,49 @@ PP2CompositeNodeTest >> assert: aCollection is: anObject [
 ]
 
 { #category : #parsing }
-PP2CompositeNodeTest >> fail: aString rule: aSymbol [ 
-	| production context |
-	production := self parserInstanceFor: aSymbol.
+PP2CompositeNodeTest >> fail: aString production: production to: expectedFailureResult end: expectedFailurePosition checkResult: aBoolean [ 
+	| context |
 	context := self context.
-	
-	result := production parse: aString withContext: context.
-	
-	self
-		assert: (result isPetit2Failure or: [context atEnd not])
-		description: 'Able to parse ' , aString printString.
+	resultContext := self	parse: aString withParser: production withContext: context.
+	result := resultContext value.
+	resultContext isPetit2Failure
+		ifTrue: [ self assert: expectedFailureResult isPetit2Failure.
+    		expectedFailureResult message ifNotNil: [ self assert: expectedFailureResult message equals: result message ] ]
+		ifFalse: [ aBoolean
+				ifTrue: [ self assert: expectedFailureResult equals: result ]
+    ].
+	aBoolean
+		ifTrue: [ self assert: resultContext position equals: expectedFailurePosition ].
 	^ result
+]
+
+{ #category : #parsing }
+PP2CompositeNodeTest >> fail: aString rule: aSymbol [ 
+	| context |
+	context := self context.
+	^ self fail: aString rule: aSymbol end: context position
+]
+
+{ #category : #parsing }
+PP2CompositeNodeTest >> fail: aString rule: aSymbol end: end [ 
+	^ self fail: aString rule: aSymbol to: PP2Failure new end: end checkResult: false
+]
+
+{ #category : #parsing }
+PP2CompositeNodeTest >> fail: aString rule: aSymbol to: expectedResult [ 
+	^ self fail: aString rule: aSymbol to: expectedResult end: expectedResult position checkResult: true
+]
+
+{ #category : #parsing }
+PP2CompositeNodeTest >> fail: aString rule: aSymbol to: expectedResult end: expectedFailurePosition [ 
+	^ self fail: aString rule: aSymbol to: expectedResult end: expectedFailurePosition checkResult: true
+]
+
+{ #category : #parsing }
+PP2CompositeNodeTest >> fail: aString rule: aSymbol to: expectedResult end: expectedFailurePosition checkResult: aBoolean [ 
+	| production |
+	production := self parserInstanceFor: aSymbol.
+  ^ self fail: aString rule: aSymbol to: expectedResult end: expectedFailurePosition checkResult: aBoolean
 ]
 
 { #category : #parsing }
