@@ -91,6 +91,11 @@ PP2CompositeNodeTest >> parse: aString rule: aSymbol to: expectedResult end: end
 ]
 
 { #category : #accessing }
+PP2CompositeNodeTest >> currentParser [
+	^ parser
+]
+
+{ #category : #accessing }
 PP2CompositeNodeTest >> parse: aStream withParser: aParser withContext: aContext [
 	^ aParser parse: aStream withContext: aContext
 ]
@@ -102,7 +107,7 @@ PP2CompositeNodeTest >> parserClass [
 
 { #category : #accessing }
 PP2CompositeNodeTest >> parserInstance [
-	^ PP2ParserResource current parserAt: self parserClass
+	^ self currentParser ifNil: [ PP2ParserResource current parserAt: self parserClass ] ifNotNil: [ self currentParser ]
 ]
 
 { #category : #accessing }
