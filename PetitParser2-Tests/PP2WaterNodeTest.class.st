@@ -1,12 +1,14 @@
 Class {
-	#name : #PP2WaterNodeTest,
-	#superclass : #PP2AbstractParserTest,
+	#name : 'PP2WaterNodeTest',
+	#superclass : 'PP2AbstractParserTest',
 	#traits : 'TPP2TypeAssertions',
 	#classTraits : 'TPP2TypeAssertions classTrait',
-	#category : #'PetitParser2-Tests-Nodes'
+	#category : 'PetitParser2-Tests-Nodes',
+	#package : 'PetitParser2-Tests',
+	#tag : 'Nodes'
 }
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2WaterNodeTest >> testBoundaryElements [
 	| water boundary |
 	water := PP2WaterNode new.

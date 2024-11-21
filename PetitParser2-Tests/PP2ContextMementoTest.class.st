@@ -1,13 +1,15 @@
 Class {
-	#name : #PP2ContextMementoTest,
-	#superclass : #TestCase,
+	#name : 'PP2ContextMementoTest',
+	#superclass : 'TestCase',
 	#instVars : [
 		'memento'
 	],
-	#category : #'PetitParser2-Tests-Core'
+	#category : 'PetitParser2-Tests-Core',
+	#package : 'PetitParser2-Tests',
+	#tag : 'Core'
 }
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2ContextMementoTest >> testEquals [
 	| anotherMemento |
 	memento := PP2ContextMemento new.
@@ -22,7 +24,7 @@ PP2ContextMementoTest >> testEquals [
 	self assert: memento = anotherMemento.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2ContextMementoTest >> testEqualsWithStack [
 	| anotherMemento |
 	memento := PP2ContextMemento new.
@@ -37,7 +39,7 @@ PP2ContextMementoTest >> testEqualsWithStack [
 	self assert: memento = anotherMemento.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2ContextMementoTest >> testHash [
 	| anotherMemento |
 	memento := PP2ContextMemento new.
@@ -51,7 +53,7 @@ PP2ContextMementoTest >> testHash [
 	self assert: memento hash = anotherMemento hash.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2ContextMementoTest >> testMinus [
 	| anotherMemento |
 	memento := PP2ContextMemento new.
@@ -65,7 +67,7 @@ PP2ContextMementoTest >> testMinus [
 	self assert: memento position equals: 1.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2ContextMementoTest >> testPlus [
 	| anotherMemento |
 	memento := PP2ContextMemento new.

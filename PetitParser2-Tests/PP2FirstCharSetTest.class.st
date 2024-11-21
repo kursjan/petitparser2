@@ -1,23 +1,25 @@
 Class {
-	#name : #PP2FirstCharSetTest,
-	#superclass : #TestCase,
+	#name : 'PP2FirstCharSetTest',
+	#superclass : 'TestCase',
 	#instVars : [
 		'firstCharSet'
 	],
-	#category : #'PetitParser2-Tests-Analysis'
+	#category : 'PetitParser2-Tests-Analysis',
+	#package : 'PetitParser2-Tests',
+	#tag : 'Analysis'
 }
 
-{ #category : #support }
+{ #category : 'support' }
 PP2FirstCharSetTest >> assert: aPP2CharSetPredicate value: anInteger [
 	self assert: (aPP2CharSetPredicate value: anInteger) 
 ]
 
-{ #category : #support }
+{ #category : 'support' }
 PP2FirstCharSetTest >> reject: aPP2CharSetPredicate value: anInteger [
 	self assert: (aPP2CharSetPredicate value: anInteger) not
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2FirstCharSetTest >> testEmptyLiteralSequence [
 	firstCharSet := '' asPParser firstCharSet.
 
@@ -31,7 +33,7 @@ PP2FirstCharSetTest >> testEmptyLiteralSequence [
 
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2FirstCharSetTest >> testEpsilon [
 	firstCharSet := nil asPParser firstCharSet.
 
@@ -45,7 +47,7 @@ PP2FirstCharSetTest >> testEpsilon [
 
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2FirstCharSetTest >> testLiteralObject [
 	firstCharSet := $b asPParser firstCharSet.
 	self assert: firstCharSet value: $b.
@@ -58,7 +60,7 @@ PP2FirstCharSetTest >> testLiteralObject [
 
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2FirstCharSetTest >> testLiteralSequence [
 	firstCharSet := 'foobar' asPParser firstCharSet.
 	self assert: firstCharSet value: $f.
@@ -72,21 +74,21 @@ PP2FirstCharSetTest >> testLiteralSequence [
 
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2FirstCharSetTest >> testNot [
 	firstCharSet := #digit asPParser not firstCharSet.
 	self should: [ firstCharSet value: $1 ] raise: Error
 
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2FirstCharSetTest >> testPluggable [
 	firstCharSet := ([ :c | c next ] asPParser) firstCharSet.
 	self assert: firstCharSet isUnknown.
 
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2FirstCharSetTest >> testPredicateObject [
 	firstCharSet := #digit asPParser firstCharSet.
 
@@ -110,7 +112,7 @@ PP2FirstCharSetTest >> testPredicateObject [
 
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2FirstCharSetTest >> testStartOfLine [
 	firstCharSet := #startOfLine asPParser firstCharSet.
 
@@ -118,7 +120,7 @@ PP2FirstCharSetTest >> testStartOfLine [
 
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2FirstCharSetTest >> testWrapping [
 	firstCharSet := ($a asPParser >=> [ :c :cc | cc value ]) firstCharSet.
 
@@ -126,7 +128,7 @@ PP2FirstCharSetTest >> testWrapping [
 
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2FirstCharSetTest >> testWrappingNonFunctional [
 	firstCharSet := ($b asPParser >==> [ :c :cc | cc value ]) firstCharSet.
 

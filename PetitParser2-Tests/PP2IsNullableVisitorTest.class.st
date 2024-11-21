@@ -1,45 +1,47 @@
 Class {
-	#name : #PP2IsNullableVisitorTest,
-	#superclass : #TestCase,
+	#name : 'PP2IsNullableVisitorTest',
+	#superclass : 'TestCase',
 	#instVars : [
 		'parser',
 		'visitor'
 	],
-	#category : #'PetitParser2-Tests-Analysis'
+	#category : 'PetitParser2-Tests-Analysis',
+	#package : 'PetitParser2-Tests',
+	#tag : 'Analysis'
 }
 
-{ #category : #support }
+{ #category : 'support' }
 PP2IsNullableVisitorTest >> assertIsNullable: node [
 	| retval |
 	retval := visitor visit: node.
 	self assert: retval
 ]
 
-{ #category : #support }
+{ #category : 'support' }
 PP2IsNullableVisitorTest >> denyIsNullable: node [
 	| retval |
 	retval := visitor visit: node.
 	self assert: retval not
 ]
 
-{ #category : #running }
+{ #category : 'running' }
 PP2IsNullableVisitorTest >> setUp [
 	super setUp.
 	
 	visitor := PP2IsNullableVisitor new
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2IsNullableVisitorTest >> testAction [
 	self denyIsNullable: #letter asPParser ==> [ :foo | foo ].
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2IsNullableVisitorTest >> testActionEmpty [
 	self assertIsNullable: nil asPParser ==> [ :foo | foo ].	
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2IsNullableVisitorTest >> testAdaptable [
 	parser := PP2AdaptableNode new.
 	parser changeChild: $a asPParser.
@@ -48,7 +50,7 @@ PP2IsNullableVisitorTest >> testAdaptable [
 
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2IsNullableVisitorTest >> testAdaptableEpsilon [
 	parser := PP2AdaptableNode new.
 	parser changeChild: nil asPParser.
@@ -57,20 +59,20 @@ PP2IsNullableVisitorTest >> testAdaptableEpsilon [
 
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2IsNullableVisitorTest >> testAnd [
 	self denyIsNullable: #letter asPParser and
 
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2IsNullableVisitorTest >> testBlock [
 	| block |
 	block := [ :context | context next ] asPParser.
 	self denyIsNullable: block.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2IsNullableVisitorTest >> testBlockAcceptsEpsilon [
 	| block |
 	block := [ :context | context next ] asPParser
@@ -79,7 +81,7 @@ PP2IsNullableVisitorTest >> testBlockAcceptsEpsilon [
 	self assertIsNullable: block.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2IsNullableVisitorTest >> testCycle [
 	| delegateOne delegateTwo sequence |
 	delegateOne := PP2DelegateNode new.
@@ -92,7 +94,7 @@ PP2IsNullableVisitorTest >> testCycle [
 	self should: [ self assertIsNullable: sequence ] raise: Error
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2IsNullableVisitorTest >> testCycleNoRecursion [
 	| delegateOne delegateTwo sequence |
 	delegateOne := PP2DelegateNode new.
@@ -105,117 +107,117 @@ PP2IsNullableVisitorTest >> testCycleNoRecursion [
 	self denyIsNullable: sequence
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2IsNullableVisitorTest >> testEmptyLiteral [
 	self assertIsNullable: '' asPParser
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2IsNullableVisitorTest >> testEnd [
 	self denyIsNullable: 'foo' asPParser end
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2IsNullableVisitorTest >> testEndEmpty [
 	self assertIsNullable: nil asPParser end
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2IsNullableVisitorTest >> testEndOfInput [
 	self denyIsNullable: PP2EndOfInputNode new
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2IsNullableVisitorTest >> testLiteral [
 	self denyIsNullable: 'foo' asPParser
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2IsNullableVisitorTest >> testLiteralObject [
 	self denyIsNullable: $a asPParser.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2IsNullableVisitorTest >> testNil [
 	self assertIsNullable: nil asPParser optional.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2IsNullableVisitorTest >> testNot [
 	self denyIsNullable: #letter asPParser not
 
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2IsNullableVisitorTest >> testOptional [
 	self assertIsNullable: #letter asPParser optional.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2IsNullableVisitorTest >> testPluggable [
 	self denyIsNullable: [:ctx | ctx] asPParser.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2IsNullableVisitorTest >> testPlus [
 	self denyIsNullable: #letter asPParser plus.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2IsNullableVisitorTest >> testPlusEplsilon [
 	self assertIsNullable: nil asPParser plus.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2IsNullableVisitorTest >> testPredicate [
 	self denyIsNullable: #letter asPParser.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2IsNullableVisitorTest >> testPredicateObject [
 	self denyIsNullable: #letter asPParser.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2IsNullableVisitorTest >> testPredicateObjectAny [
 	self denyIsNullable: #any asPParser.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2IsNullableVisitorTest >> testSequence [
 	self denyIsNullable: #letter asPParser, #word asPParser
 
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2IsNullableVisitorTest >> testSequenceEmpty [
 	self assertIsNullable: #letter asPParser optional, nil asPParser
 
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2IsNullableVisitorTest >> testSequenceFirstEpsilon [
 	self denyIsNullable: #letter asPParser optional, #word asPParser
 
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2IsNullableVisitorTest >> testStar [
 	self assertIsNullable: #letter asPParser star.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2IsNullableVisitorTest >> testStartOfLine [
 	self denyIsNullable: #startOfLine asPParser
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2IsNullableVisitorTest >> testWater [
 	self denyIsNullable: (PP2WaterNode new boundary: nil asPParser).
 	self denyIsNullable: (PP2WaterNode new boundary: $a asPParser).
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2IsNullableVisitorTest >> testWrapping [
 	parser := $a asPParser >=> [ :c :cc | cc value ].
 
@@ -223,7 +225,7 @@ PP2IsNullableVisitorTest >> testWrapping [
 
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2IsNullableVisitorTest >> testWrappingAcceptsEpsilon [
 	| wrapped |
 	wrapped := $a asPParser >=> [ :context :cc |  ]
@@ -234,7 +236,7 @@ PP2IsNullableVisitorTest >> testWrappingAcceptsEpsilon [
 
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2IsNullableVisitorTest >> testWrappingNonFunctional [
 	parser := $a asPParser >==> [:c :cc | cc value].
 
@@ -242,7 +244,7 @@ PP2IsNullableVisitorTest >> testWrappingNonFunctional [
 
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2IsNullableVisitorTest >> testWrappingNonFunctionalEpsilon [
 	parser := nil asPParser >==> [:c :cc | cc value].
 

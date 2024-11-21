@@ -1,6 +1,6 @@
 Class {
-	#name : #PP2NextSetsContextTest,
-	#superclass : #TestCase,
+	#name : 'PP2NextSetsContextTest',
+	#superclass : 'TestCase',
 	#instVars : [
 		'o1',
 		'o2',
@@ -8,10 +8,12 @@ Class {
 		'context2',
 		'o3'
 	],
-	#category : #'PetitParser2-Tests-Analysis'
+	#category : 'PetitParser2-Tests-Analysis',
+	#package : 'PetitParser2-Tests',
+	#tag : 'Analysis'
 }
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 PP2NextSetsContextTest >> setUp [
 	o1 := Object new.
 	o2 := Object new.
@@ -21,7 +23,7 @@ PP2NextSetsContextTest >> setUp [
 	context2 := PP2NextSetsContext new.
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 PP2NextSetsContextTest >> testEqual [
 	context1 currentNext: (IdentitySet with: o1 with: o2).
 	context2 currentNext: (IdentitySet with: o2 with: o1).
@@ -30,7 +32,7 @@ PP2NextSetsContextTest >> testEqual [
 	self assert: context1 = context2.
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 PP2NextSetsContextTest >> testEqualNot [
 	context1 currentNext: (IdentitySet with: o1 with: o2).
 	context2 currentNext: (IdentitySet with: o2 with: o3).
@@ -39,7 +41,7 @@ PP2NextSetsContextTest >> testEqualNot [
 	self deny: context1 = context2.
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 PP2NextSetsContextTest >> testHash [
 	context1 currentNext: (IdentitySet with: o1 with: o2).
 	context2 currentNext: (IdentitySet with: o2 with: o1).
@@ -47,7 +49,7 @@ PP2NextSetsContextTest >> testHash [
 	self assert: context1 hash equals: context2 hash. 
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 PP2NextSetsContextTest >> testHashNotEqual [
 	context1 currentNext: (IdentitySet with: o1 with: o2).
 	context2 currentNext: (IdentitySet with: o2 with: o1 with: o3).

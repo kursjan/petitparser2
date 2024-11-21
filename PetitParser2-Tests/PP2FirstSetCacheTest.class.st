@@ -1,10 +1,12 @@
 Class {
-	#name : #PP2FirstSetCacheTest,
-	#superclass : #TestCase,
-	#category : #'PetitParser2-Tests-Optimizations'
+	#name : 'PP2FirstSetCacheTest',
+	#superclass : 'TestCase',
+	#category : 'PetitParser2-Tests-Optimizations',
+	#package : 'PetitParser2-Tests',
+	#tag : 'Optimizations'
 }
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2FirstSetCacheTest >> testSanity [
 	| parser |
 	parser := ((($f asPParser, 'oo' asPParser) wrapped not ==> [ :e | e ]) star / 

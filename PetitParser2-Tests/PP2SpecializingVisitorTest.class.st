@@ -1,21 +1,23 @@
 Class {
-	#name : #PP2SpecializingVisitorTest,
-	#superclass : #TestCase,
+	#name : 'PP2SpecializingVisitorTest',
+	#superclass : 'TestCase',
 	#traits : 'TPP2TypeAssertions',
 	#classTraits : 'TPP2TypeAssertions classTrait',
 	#instVars : [
 		'parser',
 		'visitor'
 	],
-	#category : #'PetitParser2-Tests-Optimizations'
+	#category : 'PetitParser2-Tests-Optimizations',
+	#package : 'PetitParser2-Tests',
+	#tag : 'Optimizations'
 }
 
-{ #category : #running }
+{ #category : 'running' }
 PP2SpecializingVisitorTest >> setUp [
 	visitor := PP2SpecializingVisitor new
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2SpecializingVisitorTest >> testAndLiteraObject [
 	parser := $a asPParser and.
 	
@@ -24,7 +26,7 @@ PP2SpecializingVisitorTest >> testAndLiteraObject [
 	self assert: parser strategy isKindOf: PP2AndLiteralObject.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2SpecializingVisitorTest >> testAndPredicateObject [
 	parser := #letter asPParser and.
 	
@@ -33,7 +35,7 @@ PP2SpecializingVisitorTest >> testAndPredicateObject [
 	self assert: parser strategy isKindOf: PP2AndPredicateObject
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2SpecializingVisitorTest >> testAnyStarLazyLiteralObject [
 	| starLazy literal |
 	starLazy := #any asPParser starLazy.
@@ -48,7 +50,7 @@ PP2SpecializingVisitorTest >> testAnyStarLazyLiteralObject [
 	self assert: starLazy strategy literal equals: literal literal.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2SpecializingVisitorTest >> testAnyStarLazyPredicateObject [
 	| starLazy predicate |
 	starLazy := #any asPParser starLazy.
@@ -63,14 +65,14 @@ PP2SpecializingVisitorTest >> testAnyStarLazyPredicateObject [
 	self assert: starLazy strategy predicate equals: predicate predicate.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2SpecializingVisitorTest >> testIsAny [
 	parser := #any asPParser.
 	
 	self assert: (visitor isAny: parser).
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2SpecializingVisitorTest >> testMappingOfThree [
 	parser := ($a asPParser, $b asPParser, $c asPParser) map: [ :a :b :c | $d ].
 	
@@ -79,7 +81,7 @@ PP2SpecializingVisitorTest >> testMappingOfThree [
 	self assert: parser strategy isKindOf: PP2MappingOfThree.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2SpecializingVisitorTest >> testMappingOfTwo [
 	parser := ($a asPParser, $b asPParser) map: [ :a :b | $c ].
 	
@@ -88,7 +90,7 @@ PP2SpecializingVisitorTest >> testMappingOfTwo [
 	self assert: parser strategy isKindOf: PP2MappingOfTwo.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2SpecializingVisitorTest >> testNotLiteraObject [
 	parser := $a asPParser not.
 	
@@ -97,7 +99,7 @@ PP2SpecializingVisitorTest >> testNotLiteraObject [
 	self assert: parser strategy isKindOf: PP2NotLiteralObject.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2SpecializingVisitorTest >> testOptionalLiteraObject [
 	parser := $a asPParser optional.
 	
@@ -106,7 +108,7 @@ PP2SpecializingVisitorTest >> testOptionalLiteraObject [
 	self assert: parser strategy isKindOf: PP2OptionalLiteralObject.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2SpecializingVisitorTest >> testPlus [
 	parser := $a asPParser plus.
 	
@@ -115,7 +117,7 @@ PP2SpecializingVisitorTest >> testPlus [
 	self assert: parser strategy isKindOf: PP2Plus.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2SpecializingVisitorTest >> testPlusPredicateObject [
 	parser := #letter asPParser plus.
 	
@@ -124,7 +126,7 @@ PP2SpecializingVisitorTest >> testPlusPredicateObject [
 	self assert: parser strategy isKindOf: PP2PlusPredicateObject.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2SpecializingVisitorTest >> testPlusPredicateObject2 [
 	parser := #letter asPParser plus.
 	parser max: 20.
@@ -133,7 +135,7 @@ PP2SpecializingVisitorTest >> testPlusPredicateObject2 [
 	self deny: parser strategy isKindOf: PP2PlusPredicateObject.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2SpecializingVisitorTest >> testSequenceOfThree [
 	parser := $a asPParser, $b asPParser, $c asPParser.
 	
@@ -142,7 +144,7 @@ PP2SpecializingVisitorTest >> testSequenceOfThree [
 	self assert: parser strategy isKindOf: PP2SequenceOfThree.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2SpecializingVisitorTest >> testSequenceOfTwo [
 	parser := $a asPParser, $b asPParser.
 	
@@ -151,7 +153,7 @@ PP2SpecializingVisitorTest >> testSequenceOfTwo [
 	self assert: parser strategy isKindOf: PP2SequenceOfTwo.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2SpecializingVisitorTest >> testStar [
 	parser := $a asPParser star.
 	
@@ -160,7 +162,7 @@ PP2SpecializingVisitorTest >> testStar [
 	self assert: parser strategy isKindOf: PP2Star.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2SpecializingVisitorTest >> testStarPredicateObject [
 	parser := #letter asPParser star.
 	
@@ -169,7 +171,7 @@ PP2SpecializingVisitorTest >> testStarPredicateObject [
 	self assert: parser strategy isKindOf: PP2StarPredicateObject.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2SpecializingVisitorTest >> testStarPredicateObject2 [
 	parser := #letter asPParser star.
 	parser max: 2.
@@ -178,7 +180,7 @@ PP2SpecializingVisitorTest >> testStarPredicateObject2 [
 	self deny: parser strategy isKindOf: PP2StarPredicateObject.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2SpecializingVisitorTest >> testTrimmingLiteralObjectToken [
 	parser := $a asPParser token trim.
 	
@@ -188,7 +190,7 @@ PP2SpecializingVisitorTest >> testTrimmingLiteralObjectToken [
 	self assert: parser strategy literal equals: $a.	
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2SpecializingVisitorTest >> testTrimmingLiteralObjectTokenWrapped [
 	parser := $a asPParser wrapped token trim.
 	
@@ -198,7 +200,7 @@ PP2SpecializingVisitorTest >> testTrimmingLiteralObjectTokenWrapped [
 	self assert: parser strategy literal equals: $a.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2SpecializingVisitorTest >> testTrimmingToken [
 	parser := $a asPParser plus token trim.
 	

@@ -1,10 +1,12 @@
 Class {
-	#name : #PP2RecordingCacheTest,
-	#superclass : #TestCase,
-	#category : #'PetitParser2-Tests-Profiling'
+	#name : 'PP2RecordingCacheTest',
+	#superclass : 'TestCase',
+	#category : 'PetitParser2-Tests-Profiling',
+	#package : 'PetitParser2-Tests',
+	#tag : 'Profiling'
 }
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2RecordingCacheTest >> testInvocations [
 	| cachedParser parser result |
 	cachedParser := $a asPParser star.

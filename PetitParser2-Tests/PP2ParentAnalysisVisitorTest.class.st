@@ -1,25 +1,27 @@
 Class {
-	#name : #PP2ParentAnalysisVisitorTest,
-	#superclass : #TestCase,
+	#name : 'PP2ParentAnalysisVisitorTest',
+	#superclass : 'TestCase',
 	#instVars : [
 		'parser',
 		'visitor',
 		'parent'
 	],
-	#category : #'PetitParser2-Tests-Optimizations'
+	#category : 'PetitParser2-Tests-Optimizations',
+	#package : 'PetitParser2-Tests',
+	#tag : 'Optimizations'
 }
 
-{ #category : #support }
+{ #category : 'support' }
 PP2ParentAnalysisVisitorTest >> assert: aCollection includes: anObject [
 	self assert: (aCollection includes: anObject) 
 ]
 
-{ #category : #running }
+{ #category : 'running' }
 PP2ParentAnalysisVisitorTest >> setUp [
 	visitor := PP2ParentAnalysisVisitor new
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2ParentAnalysisVisitorTest >> testCycle [
 	|  delegateOne delegateTwo |
 
@@ -38,7 +40,7 @@ PP2ParentAnalysisVisitorTest >> testCycle [
 		
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2ParentAnalysisVisitorTest >> testDeepParent [
 	| superParent |
 	parser := $a asPParser.
@@ -52,7 +54,7 @@ PP2ParentAnalysisVisitorTest >> testDeepParent [
 	self assert: superParent parents isEmpty.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2ParentAnalysisVisitorTest >> testMultipleParents [
 	| parentOne parentTwo superParent |
 
@@ -69,7 +71,7 @@ PP2ParentAnalysisVisitorTest >> testMultipleParents [
 		
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2ParentAnalysisVisitorTest >> testNoParent [
 	parser := $a asPParser.
 	
@@ -78,7 +80,7 @@ PP2ParentAnalysisVisitorTest >> testNoParent [
 	self assert: parser parents isEmpty.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2ParentAnalysisVisitorTest >> testParent [
 	parser := $a asPParser.
 	parent := parser wrapped.
@@ -90,7 +92,7 @@ PP2ParentAnalysisVisitorTest >> testParent [
 	self assert: parser parents includes: parent.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2ParentAnalysisVisitorTest >> testParentOfSequence [
 	| parserOne parserTwo |
 	parserOne := $a asPParser.

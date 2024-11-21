@@ -1,25 +1,27 @@
 Class {
-	#name : #PP2CompositeNodeTest,
-	#superclass : #PP2AbstractParserTest,
+	#name : 'PP2CompositeNodeTest',
+	#superclass : 'PP2AbstractParserTest',
 	#instVars : [
 		'result',
 		'parser',
 		'resultContext'
 	],
-	#category : #'PetitParser2-Tests-Core'
+	#category : 'PetitParser2-Tests-Core',
+	#package : 'PetitParser2-Tests',
+	#tag : 'Core'
 }
 
-{ #category : #testing }
+{ #category : 'testing' }
 PP2CompositeNodeTest class >> isAbstract [
 	^ self name = #PP2CompositeNodeTest
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 PP2CompositeNodeTest class >> resources [
 	^ Array with: PP2ParserResource
 ]
 
-{ #category : #utilities }
+{ #category : 'utilities' }
 PP2CompositeNodeTest >> assert: aCollection is: anObject [
 	self parse: aCollection.
 	self
@@ -28,7 +30,7 @@ PP2CompositeNodeTest >> assert: aCollection is: anObject [
 		resumable: true
 ]
 
-{ #category : #parsing }
+{ #category : 'parsing' }
 PP2CompositeNodeTest >> fail: aString production: production to: expectedFailureResult end: expectedFailurePosition checkResult: aBoolean [ 
 	| context |
 	context := self context.
@@ -45,41 +47,41 @@ PP2CompositeNodeTest >> fail: aString production: production to: expectedFailure
 	^ result
 ]
 
-{ #category : #parsing }
+{ #category : 'parsing' }
 PP2CompositeNodeTest >> fail: aString rule: aSymbol [ 
 	| context |
 	context := self context.
 	^ self fail: aString rule: aSymbol end: context position
 ]
 
-{ #category : #parsing }
+{ #category : 'parsing' }
 PP2CompositeNodeTest >> fail: aString rule: aSymbol end: end [ 
 	^ self fail: aString rule: aSymbol to: PP2Failure new end: end checkResult: false
 ]
 
-{ #category : #parsing }
+{ #category : 'parsing' }
 PP2CompositeNodeTest >> fail: aString rule: aSymbol to: expectedResult [ 
 	^ self fail: aString rule: aSymbol to: expectedResult end: expectedResult position checkResult: true
 ]
 
-{ #category : #parsing }
+{ #category : 'parsing' }
 PP2CompositeNodeTest >> fail: aString rule: aSymbol to: expectedResult end: expectedFailurePosition [ 
 	^ self fail: aString rule: aSymbol to: expectedResult end: expectedFailurePosition checkResult: true
 ]
 
-{ #category : #parsing }
+{ #category : 'parsing' }
 PP2CompositeNodeTest >> fail: aString rule: aSymbol to: expectedResult end: expectedFailurePosition checkResult: aBoolean [ 
 	| production |
 	production := self parserInstanceFor: aSymbol.
-  ^ self fail: aString rule: aSymbol to: expectedResult end: expectedFailurePosition checkResult: aBoolean
+  ^ self fail: aString production: production to: expectedResult end: expectedFailurePosition checkResult: aBoolean
 ]
 
-{ #category : #parsing }
+{ #category : 'parsing' }
 PP2CompositeNodeTest >> parse: aString [ 
 	^ self parse: aString rule: #start
 ]
 
-{ #category : #parsing }
+{ #category : 'parsing' }
 PP2CompositeNodeTest >> parse: aString production: production to: expectedResult end: end checkResult: aBoolean [
 	| ctx |
 	ctx := self context.
@@ -95,49 +97,49 @@ PP2CompositeNodeTest >> parse: aString production: production to: expectedResult
 	^ result
 ]
 
-{ #category : #parsing }
+{ #category : 'parsing' }
 PP2CompositeNodeTest >> parse: aString rule: aSymbol [
 	^ self parse: aString rule: aSymbol end: aString size
 ]
 
-{ #category : #parsing }
+{ #category : 'parsing' }
 PP2CompositeNodeTest >> parse: aString rule: aSymbol end: end [
 	^ self parse: aString rule: aSymbol to: nil end: end checkResult: false
 ]
 
-{ #category : #parsing }
+{ #category : 'parsing' }
 PP2CompositeNodeTest >> parse: aString rule: aSymbol to: expectedResult [
 	^ self parse: aString rule: aSymbol to: expectedResult end: aString size checkResult: true
 ]
 
-{ #category : #parsing }
+{ #category : 'parsing' }
 PP2CompositeNodeTest >> parse: aString rule: aSymbol to: expectedResult end: end [
 	^ self parse: aString rule: aSymbol  to:  expectedResult  end: end checkResult:  true
 ]
 
-{ #category : #parsing }
+{ #category : 'parsing' }
 PP2CompositeNodeTest >> parse: aString rule: aSymbol to: expectedResult end: end checkResult: aBoolean [
 	| production |
 	production := self parserInstanceFor: aSymbol.
 	^ self parse: aString production: production to: expectedResult end: end checkResult: aBoolean 	
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 PP2CompositeNodeTest >> parse: aStream withParser: aParser withContext: aContext [
 	^ aParser parse: aStream withContext: aContext
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 PP2CompositeNodeTest >> parserClass [
 	self subclassResponsibility
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 PP2CompositeNodeTest >> parserInstance [
 	^ PP2ParserResource current parserAt: self parserClass
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 PP2CompositeNodeTest >> parserInstanceFor: aSymbol [
 	^ aSymbol = #start
 		ifTrue: [ self parserInstance ]
@@ -147,13 +149,13 @@ PP2CompositeNodeTest >> parserInstanceFor: aSymbol [
 				ifAbsent: [ self error: 'Production ' , self parserClass name , '>>' , aSymbol printString , ' not found.' ] ]
 ]
 
-{ #category : #running }
+{ #category : 'running' }
 PP2CompositeNodeTest >> setUp [
 	super setUp.
 	parser := self parserInstance
 ]
 
-{ #category : #running }
+{ #category : 'running' }
 PP2CompositeNodeTest >> tearDown [
 	super tearDown.
 	parser := result := nil

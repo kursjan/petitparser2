@@ -1,22 +1,24 @@
 Class {
-	#name : #PP2NoopVisitorTest,
-	#superclass : #TestCase,
+	#name : 'PP2NoopVisitorTest',
+	#superclass : 'TestCase',
 	#instVars : [
 		'parser',
 		'visitor',
 		'result'
 	],
-	#category : #'PetitParser2-Tests-Core'
+	#category : 'PetitParser2-Tests-Core',
+	#package : 'PetitParser2-Tests',
+	#tag : 'Core'
 }
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 PP2NoopVisitorTest >> setUp [
 	super setUp.
 	
 	visitor := PP2MockNoopVisitor new
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2NoopVisitorTest >> testCurrentContext [
 	parser := $a asPParser.
 	result := visitor visit: parser.
@@ -26,7 +28,7 @@ PP2NoopVisitorTest >> testCurrentContext [
 	self assert: result currentContext propertiesCopy isNil
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2NoopVisitorTest >> testVisitCharacter [
 	parser := $a asPParser.
 	result := visitor visit: parser.
@@ -34,7 +36,7 @@ PP2NoopVisitorTest >> testVisitCharacter [
 	self assert: result equals: visitor
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 PP2NoopVisitorTest >> testVisitCycle [
 	| delegate |
 	delegate := PP2DelegateNode new.
@@ -55,7 +57,7 @@ PP2NoopVisitorTest >> testVisitCycle [
 
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 PP2NoopVisitorTest >> testVisitDelegate [
 	parser := $a asPParser wrapped.
 	result := visitor visit: parser.
@@ -63,7 +65,7 @@ PP2NoopVisitorTest >> testVisitDelegate [
 	self assert: result equals: visitor
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 PP2NoopVisitorTest >> testVisitSequence [
 	parser := $a asPParser, $b asPParser.
 	result := visitor visit: parser.

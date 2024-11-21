@@ -1,17 +1,19 @@
 Class {
-	#name : #PP2InMemoryContextTest,
-	#superclass : #TestCase,
+	#name : 'PP2InMemoryContextTest',
+	#superclass : 'TestCase',
 	#traits : 'TPP2ContextTest + TPP2DebuggableTest + TPP2TypeAssertions',
 	#classTraits : 'TPP2ContextTest classTrait + TPP2DebuggableTest classTrait + TPP2TypeAssertions classTrait',
-	#category : #'PetitParser2-Tests-Core'
+	#category : 'PetitParser2-Tests-Core',
+	#package : 'PetitParser2-Tests',
+	#tag : 'Core'
 }
 
-{ #category : #requirements }
+{ #category : 'requirements' }
 PP2InMemoryContextTest >> contextOn: aString [
 	^ PP2InMemoryContext on: aString
 ]
 
-{ #category : #'tests - converting' }
+{ #category : 'tests - converting' }
 PP2InMemoryContextTest >> testAsPetit2Context [
 	| context |
 	context := 'foo' asPetit2Stream asPetit2Context.
@@ -20,7 +22,7 @@ PP2InMemoryContextTest >> testAsPetit2Context [
 	self assert: context isPetit2Success.
 ]
 
-{ #category : #'tests - converting' }
+{ #category : 'tests - converting' }
 PP2InMemoryContextTest >> testAsPetit2ContextDirect [
 	| context |
 	context := 'foo' asPetit2Context.
@@ -29,7 +31,7 @@ PP2InMemoryContextTest >> testAsPetit2ContextDirect [
 	self assert: context readLimit equals: 3
 ]
 
-{ #category : #'tests - converting' }
+{ #category : 'tests - converting' }
 PP2InMemoryContextTest >> testAsPositionableStream [
 	| stream context |
 	
@@ -43,7 +45,7 @@ PP2InMemoryContextTest >> testAsPositionableStream [
 	self assert: stream peek equals: $r.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2InMemoryContextTest >> testCopy [
 	| stream newContext context |
 	stream := 'foo' asPetit2Stream.

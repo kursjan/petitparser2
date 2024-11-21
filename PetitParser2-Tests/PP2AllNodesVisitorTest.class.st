@@ -1,20 +1,22 @@
 Class {
-	#name : #PP2AllNodesVisitorTest,
-	#superclass : #TestCase,
+	#name : 'PP2AllNodesVisitorTest',
+	#superclass : 'TestCase',
 	#instVars : [
 		'children',
 		'parser',
 		'visitor'
 	],
-	#category : #'PetitParser2-Tests-Analysis'
+	#category : 'PetitParser2-Tests-Analysis',
+	#package : 'PetitParser2-Tests',
+	#tag : 'Analysis'
 }
 
-{ #category : #running }
+{ #category : 'running' }
 PP2AllNodesVisitorTest >> setUp [
 	visitor := PP2AllNodesVisitor new
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2AllNodesVisitorTest >> testChoice [
 	parser := $a asPParser / $b asPParser.
 	children := self visit: parser.
@@ -26,7 +28,7 @@ PP2AllNodesVisitorTest >> testChoice [
 	self assert: (children includes: parser secondChild).
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2AllNodesVisitorTest >> testCycle [
 	| delegate |
 	delegate := PP2DelegateNode new.
@@ -41,7 +43,7 @@ PP2AllNodesVisitorTest >> testCycle [
 	self assert: (children includes: delegate).	
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2AllNodesVisitorTest >> testLiteral [
 	parser := $a asPParser.
 	children := self visit: parser.
@@ -51,7 +53,7 @@ PP2AllNodesVisitorTest >> testLiteral [
 	self assert: children anyOne = parser.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2AllNodesVisitorTest >> testSequence [
 	parser := $a asPParser, $b asPParser.
 	children := self visit: parser.
@@ -63,7 +65,7 @@ PP2AllNodesVisitorTest >> testSequence [
 	self assert: (children includes: parser secondChild).
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2AllNodesVisitorTest >> testTokenParser [
 	parser := $a asPParser token.
 	children := self visit: parser.
@@ -74,7 +76,7 @@ PP2AllNodesVisitorTest >> testTokenParser [
 	self assert: (children includes: parser).	
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2AllNodesVisitorTest >> testTrimParser [
 	| trimmer |
 	trimmer := PP2FailingNode instance.
@@ -89,7 +91,7 @@ PP2AllNodesVisitorTest >> testTrimParser [
 	self assert: (children includes: trimmer).	
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2AllNodesVisitorTest >> testWrapping [
 	parser := $a asPParser wrapped.
 	children := self visit: parser.
@@ -100,7 +102,7 @@ PP2AllNodesVisitorTest >> testWrapping [
 	self assert: (children includes: parser).	
 ]
 
-{ #category : #running }
+{ #category : 'running' }
 PP2AllNodesVisitorTest >> visit: node [
 	^ visitor visit: node.
 

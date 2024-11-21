@@ -1,15 +1,17 @@
 Class {
-	#name : #PP2AllNodesCacheTest,
-	#superclass : #TestCase,
-	#category : #'PetitParser2-Tests-Optimizations'
+	#name : 'PP2AllNodesCacheTest',
+	#superclass : 'TestCase',
+	#category : 'PetitParser2-Tests-Optimizations',
+	#package : 'PetitParser2-Tests',
+	#tag : 'Optimizations'
 }
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2AllNodesCacheTest >> assert: node hasProperty: propertyName withValue: propertyValue [
 	self assert: (node propertyAt: propertyName) equals: propertyValue
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2AllNodesCacheTest >> testSanity [
 	| parser |
 	parser := PP2ExpressionGrammar new.

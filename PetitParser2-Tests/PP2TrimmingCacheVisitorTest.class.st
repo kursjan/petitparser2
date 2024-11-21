@@ -1,26 +1,28 @@
 Class {
-	#name : #PP2TrimmingCacheVisitorTest,
-	#superclass : #TestCase,
+	#name : 'PP2TrimmingCacheVisitorTest',
+	#superclass : 'TestCase',
 	#instVars : [
 		'parser',
 		'visitor'
 	],
-	#category : #'PetitParser2-Tests-Optimizations'
+	#category : 'PetitParser2-Tests-Optimizations',
+	#package : 'PetitParser2-Tests',
+	#tag : 'Optimizations'
 }
 
-{ #category : #support }
+{ #category : 'support' }
 PP2TrimmingCacheVisitorTest >> assert: anObject isKindOf: aClass [
 	self assert: (anObject isKindOf: aClass)
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 PP2TrimmingCacheVisitorTest >> setUp [
 	super setUp.
 	
 	visitor := PP2TrimmingCacheVisitor new
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 PP2TrimmingCacheVisitorTest >> testDifferentTrimmers [
 	parser := $a asPParser trimSpaces, $b asPParser trimBlanks.
 	
@@ -29,7 +31,7 @@ PP2TrimmingCacheVisitorTest >> testDifferentTrimmers [
 	self assert: parser secondChild trimmer strategy isKindOf: PP2PossesiveRepeating	
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 PP2TrimmingCacheVisitorTest >> testSequence [
 	parser := $a asPParser trim, $b asPParser trim.
 	
@@ -38,7 +40,7 @@ PP2TrimmingCacheVisitorTest >> testSequence [
 	self assert: parser secondChild trimmer strategy isKindOf: PP2TrimmingCache	
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 PP2TrimmingCacheVisitorTest >> testSimpleTrimming [
 	parser := $a asPParser trim.
 	
@@ -46,7 +48,7 @@ PP2TrimmingCacheVisitorTest >> testSimpleTrimming [
 	self assert: parser trimmer strategy isKindOf: PP2TrimmingCache
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 PP2TrimmingCacheVisitorTest >> testSimpleTrimmingToken [
 	parser := $a asPParser token trim.
 	

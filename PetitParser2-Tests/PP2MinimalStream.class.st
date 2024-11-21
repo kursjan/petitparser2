@@ -6,16 +6,18 @@ I provide a bare minimum of methods required by PP2 to be parsed:
 I can be converted to PP2Stream using the #asPetit2Stream
 "
 Class {
-	#name : #PP2MinimalStream,
-	#superclass : #Stream,
+	#name : 'PP2MinimalStream',
+	#superclass : 'Stream',
 	#instVars : [
 		'values',
 		'position'
 	],
-	#category : #'PetitParser2-Tests-Streams'
+	#category : 'PetitParser2-Tests-Streams',
+	#package : 'PetitParser2-Tests',
+	#tag : 'Streams'
 }
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 PP2MinimalStream class >> on: values [
 	^ self basicNew 
 		initialize;
@@ -23,28 +25,28 @@ PP2MinimalStream class >> on: values [
 		yourself
 ]
 
-{ #category : #'minimal interface' }
+{ #category : 'minimal interface' }
 PP2MinimalStream >> atEnd [
 	^ position == values size
 ]
 
-{ #category : #private }
+{ #category : 'private' }
 PP2MinimalStream >> contents [
 	^ values
 ]
 
-{ #category : #initialization }
+{ #category : 'initialization' }
 PP2MinimalStream >> initialize [
 	position := 0.
 ]
 
-{ #category : #'minimal interface' }
+{ #category : 'minimal interface' }
 PP2MinimalStream >> next [
 	position := position + 1.
 	^ values at: position
 ]
 
-{ #category : #private }
+{ #category : 'private' }
 PP2MinimalStream >> values: anObject [
 	values := anObject
 ]

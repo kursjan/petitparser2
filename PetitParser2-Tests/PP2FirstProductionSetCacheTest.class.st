@@ -1,10 +1,12 @@
 Class {
-	#name : #PP2FirstProductionSetCacheTest,
-	#superclass : #TestCase,
-	#category : #'PetitParser2-Tests-Optimizations'
+	#name : 'PP2FirstProductionSetCacheTest',
+	#superclass : 'TestCase',
+	#category : 'PetitParser2-Tests-Optimizations',
+	#package : 'PetitParser2-Tests',
+	#tag : 'Optimizations'
 }
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2FirstProductionSetCacheTest >> testSanity [
 	| parser |
 	parser := PP2ExpressionGrammar new.

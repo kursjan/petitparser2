@@ -1,9 +1,11 @@
 Trait {
-	#name : #TPP2ParseTest,
-	#category : #'PetitParser2-Tests-Parsing'
+	#name : 'TPP2ParseTest',
+	#category : 'PetitParser2-Tests-Parsing',
+	#package : 'PetitParser2-Tests',
+	#tag : 'Parsing'
 }
 
-{ #category : #test }
+{ #category : 'test' }
 TPP2ParseTest >> testAction [
 	| parser |
 	parser := #any asPParser ==> [:e | e asUppercase ].
@@ -12,7 +14,7 @@ TPP2ParseTest >> testAction [
 	self assert: parser parse: 'b' to: $B
 ]
 
-{ #category : #test }
+{ #category : 'test' }
 TPP2ParseTest >> testAnd [
 	| parser |
 	parser := 'foo' asPParser, 'bar' asPParser and.
@@ -25,7 +27,7 @@ TPP2ParseTest >> testAnd [
 	self assert: parser fail: 'foobaz' end: 3.
 ]
 
-{ #category : #test }
+{ #category : 'test' }
 TPP2ParseTest >> testBlock [
 	| parser |
 	parser := [ :ctx | 
@@ -38,7 +40,7 @@ TPP2ParseTest >> testBlock [
 	self assert: parser parse: '' to: nil
 ]
 
-{ #category : #test }
+{ #category : 'test' }
 TPP2ParseTest >> testChoice [
 	| parser |
 	parser := $a asPParser / $b asPParser.
@@ -54,7 +56,7 @@ TPP2ParseTest >> testChoice [
 	self assert: parser fail: 'ca'
 ]
 
-{ #category : #test }
+{ #category : 'test' }
 TPP2ParseTest >> testDelegateWithEndOfInput [
 	| parser |
 	parser := ($a asPParser / #eoi asPParser) wrapped.
@@ -65,7 +67,7 @@ TPP2ParseTest >> testDelegateWithEndOfInput [
 	self assert: parser fail: 'b'.
 ]
 
-{ #category : #'test - operators' }
+{ #category : 'test - operators' }
 TPP2ParseTest >> testDelimitedBy [
 	| parser |
 	parser := $a asPParser delimitedBy: $b asPParser.
@@ -88,7 +90,7 @@ TPP2ParseTest >> testDelimitedBy [
 	self assert: parser fail: 'c'
 ]
 
-{ #category : #test }
+{ #category : 'test' }
 TPP2ParseTest >> testEnd [
 	| parser |
 	parser := $a asPParser end.
@@ -98,7 +100,7 @@ TPP2ParseTest >> testEnd [
 	self assert: parser fail: 'aa' end: 1.
 ]
 
-{ #category : #test }
+{ #category : 'test' }
 TPP2ParseTest >> testEndLiteral [
 	| parser |
 	parser := 'stuff' asPParser end.
@@ -108,7 +110,7 @@ TPP2ParseTest >> testEndLiteral [
 	self assert: parser fail: 'fluff'
 ]
 
-{ #category : #test }
+{ #category : 'test' }
 TPP2ParseTest >> testEndOfInput [
 	| parser |
 	parser := #endOfInput asPParser.
@@ -117,7 +119,7 @@ TPP2ParseTest >> testEndOfInput [
 	self assert: parser fail: 'a'.
 ]
 
-{ #category : #test }
+{ #category : 'test' }
 TPP2ParseTest >> testEndOfLine [
 	| parser |
 	parser := #endOfLine asPParser.
@@ -128,7 +130,7 @@ TPP2ParseTest >> testEndOfLine [
 	self assert: $a asPParser, parser parse: 'a'.
 ]
 
-{ #category : #test }
+{ #category : 'test' }
 TPP2ParseTest >> testEpsilon [
 	| parser |
 	parser := nil asPParser.
@@ -139,7 +141,7 @@ TPP2ParseTest >> testEpsilon [
 	self assert: parser parse: 'ab' to: nil end: 0
 ]
 
-{ #category : #test }
+{ #category : 'test' }
 TPP2ParseTest >> testFailing [
 	| parser |
 	parser := PP2FailingNode message: 'Plonk'.
@@ -149,7 +151,7 @@ TPP2ParseTest >> testFailing [
 	self assert: parser fail: 'aa'.
 ]
 
-{ #category : #test }
+{ #category : 'test' }
 TPP2ParseTest >> testFlattenSequence [
 	| parser |
 	parser := ($a asPParser, $b asPParser) flatten.
@@ -160,7 +162,7 @@ TPP2ParseTest >> testFlattenSequence [
 	self assert: parser fail: 'bc'
 ]
 
-{ #category : #'test - mapping' }
+{ #category : 'test - mapping' }
 TPP2ParseTest >> testFoldLeft [
 	| parser |
 	parser := #any asPParser star 
@@ -173,7 +175,7 @@ TPP2ParseTest >> testFoldLeft [
 	self assert: parser parse: 'abcde' to: #(((($a $b) $c) $d) $e)
 ]
 
-{ #category : #'test - mapping' }
+{ #category : 'test - mapping' }
 TPP2ParseTest >> testFoldLeft2 [
 	| parser |
 	parser := #any asPParser star 
@@ -186,7 +188,7 @@ TPP2ParseTest >> testFoldLeft2 [
 
 ]
 
-{ #category : #'test - mapping' }
+{ #category : 'test - mapping' }
 TPP2ParseTest >> testFoldRight [
 	| parser |
 	parser := #any asPParser star 
@@ -199,7 +201,7 @@ TPP2ParseTest >> testFoldRight [
 	self assert: parser parse: 'abcde' to: #($a ($b ($c ($d $e))))
 ]
 
-{ #category : #'test - mapping' }
+{ #category : 'test - mapping' }
 TPP2ParseTest >> testFoldRight2 [
 	| parser |
 	parser := #any asPParser star 
@@ -210,7 +212,7 @@ TPP2ParseTest >> testFoldRight2 [
 	self assert: parser parse: 'abcde' to: #($a $b ($c $d $e))
 ]
 
-{ #category : #test }
+{ #category : 'test' }
 TPP2ParseTest >> testFragment [
 	"
 	| fragment parser result |
@@ -233,7 +235,7 @@ TPP2ParseTest >> testFragment [
 	"
 ]
 
-{ #category : #test }
+{ #category : 'test' }
 TPP2ParseTest >> testLiteralObject [
 	| parser |
 	parser := $a asPParser.
@@ -244,7 +246,7 @@ TPP2ParseTest >> testLiteralObject [
 	self assert: parser fail: 'b'
 ]
 
-{ #category : #test }
+{ #category : 'test' }
 TPP2ParseTest >> testLiteralObjectCaseInsensitive [
 	| parser |
 	parser := $a asPParser caseInsensitive.
@@ -258,7 +260,7 @@ TPP2ParseTest >> testLiteralObjectCaseInsensitive [
 	
 ]
 
-{ #category : #test }
+{ #category : 'test' }
 TPP2ParseTest >> testLiteralSequence [
 	| parser |
 	parser := 'abc' asPParser.
@@ -270,7 +272,7 @@ TPP2ParseTest >> testLiteralSequence [
 	self assert: parser fail: 'abd'
 ]
 
-{ #category : #test }
+{ #category : 'test' }
 TPP2ParseTest >> testLiteralSequenceCaseInsensitive [
 	| parser |
 	parser := 'abc' asPParser caseInsensitive.
@@ -284,7 +286,7 @@ TPP2ParseTest >> testLiteralSequenceCaseInsensitive [
 	self assert: parser fail: 'abd'
 ]
 
-{ #category : #test }
+{ #category : 'test' }
 TPP2ParseTest >> testMap [
 	| parser |
 	parser := #any asPParser
@@ -295,7 +297,7 @@ TPP2ParseTest >> testMap [
 	self assert: parser fail: ''.
 ]
 
-{ #category : #test }
+{ #category : 'test' }
 TPP2ParseTest >> testMapSequence [
 	| parser |
 	parser := #any asPParser, #any asPParser
@@ -304,7 +306,7 @@ TPP2ParseTest >> testMapSequence [
 	self assert: parser parse: 'ab' to: #($b $a)
 ]
 
-{ #category : #test }
+{ #category : 'test' }
 TPP2ParseTest >> testMapWrappedSequence [
 	| parser |
 	parser := (#any asPParser, #any asPParser) wrapped
@@ -313,7 +315,7 @@ TPP2ParseTest >> testMapWrappedSequence [
 	self assert: parser parse: 'ab' to: #($b $a)
 ]
 
-{ #category : #test }
+{ #category : 'test' }
 TPP2ParseTest >> testNewLine [
 	| parser |
 	parser := #newline asPParser.
@@ -323,7 +325,7 @@ TPP2ParseTest >> testNewLine [
 	self assert: parser fail: ''
 ]
 
-{ #category : #test }
+{ #category : 'test' }
 TPP2ParseTest >> testNot [
 	| parser |
 	parser := 'foo' asPParser, 'bar' asPParser  not.
@@ -332,7 +334,7 @@ TPP2ParseTest >> testNot [
 	self assert: parser fail: 'foobar' end: 3
 ]
 
-{ #category : #test }
+{ #category : 'test' }
 TPP2ParseTest >> testOptional [
 	| parser |
 	parser := $a asPParser optional.
@@ -347,7 +349,7 @@ TPP2ParseTest >> testOptional [
 	self assert: parser parse: 'ba' to: nil end: 0
 ]
 
-{ #category : #test }
+{ #category : 'test' }
 TPP2ParseTest >> testPlus [
 	| parser |
 	parser := $a asPParser plus.
@@ -364,7 +366,7 @@ TPP2ParseTest >> testPlus [
 	self assert: parser fail: 'ba'
 ]
 
-{ #category : #test }
+{ #category : 'test' }
 TPP2ParseTest >> testPlus2 [
 	| parser |
 	parser := ($a asPParser, $b asPParser) plus.
@@ -373,7 +375,7 @@ TPP2ParseTest >> testPlus2 [
 	self assert: parser fail: 'a' end: 1.
 ]
 
-{ #category : #test }
+{ #category : 'test' }
 TPP2ParseTest >> testPossesiveRepeatingNode [
 	|  parser |
 	
@@ -386,7 +388,7 @@ TPP2ParseTest >> testPossesiveRepeatingNode [
 
 ]
 
-{ #category : #test }
+{ #category : 'test' }
 TPP2ParseTest >> testPredicateAny [
 	|  parser |
 	
@@ -398,7 +400,7 @@ TPP2ParseTest >> testPredicateAny [
 	self assert: parser fail: ''.
 ]
 
-{ #category : #test }
+{ #category : 'test' }
 TPP2ParseTest >> testPredicateDigit [
 	|  parser |
 	
@@ -410,7 +412,7 @@ TPP2ParseTest >> testPredicateDigit [
 	self assert: parser fail: 'a'.
 ]
 
-{ #category : #test }
+{ #category : 'test' }
 TPP2ParseTest >> testPredicateLetter [
 	|  parser |
 	
@@ -422,7 +424,7 @@ TPP2ParseTest >> testPredicateLetter [
 	self assert: parser fail: ''.
 ]
 
-{ #category : #test }
+{ #category : 'test' }
 TPP2ParseTest >> testRepetitions [
 	| parser result |
 	parser := ('foo' asPParser, ':=' asPParser) plus.
@@ -435,7 +437,7 @@ TPP2ParseTest >> testRepetitions [
 	self assert: parser fail: 'foo' end: 3.
 ]
 
-{ #category : #'test - operators' }
+{ #category : 'test - operators' }
 TPP2ParseTest >> testSeparatedBy [
 	| parser |
 	parser := $a asPParser separatedBy: $b asPParser.
@@ -453,7 +455,7 @@ TPP2ParseTest >> testSeparatedBy [
 	self assert: parser fail: 'c'
 ]
 
-{ #category : #test }
+{ #category : 'test' }
 TPP2ParseTest >> testSequence [
 	| parser |
 	parser := $a asPParser , $b asPParser.
@@ -470,7 +472,7 @@ TPP2ParseTest >> testSequence [
 	self assert: parser fail: 'bab' end: 0
 ]
 
-{ #category : #test }
+{ #category : 'test' }
 TPP2ParseTest >> testSequence2 [
 	| parser |
 	parser := ($a asPParser , $b asPParser) star, $a asPParser.
@@ -481,7 +483,7 @@ TPP2ParseTest >> testSequence2 [
 	self assert: parser fail: ''.
 ]
 
-{ #category : #test }
+{ #category : 'test' }
 TPP2ParseTest >> testSequenceOfThree [
 	| parser |
 	parser := $a asPParser , $b asPParser, $c asPParser.
@@ -490,7 +492,7 @@ TPP2ParseTest >> testSequenceOfThree [
 	self assert: parser fail: 'ab' end: 2.
 ]
 
-{ #category : #test }
+{ #category : 'test' }
 TPP2ParseTest >> testStar [
 	| parser |
 	parser := $a asPParser star.
@@ -521,7 +523,7 @@ TPP2ParseTest >> testStar [
 		end: 3
 ]
 
-{ #category : #test }
+{ #category : 'test' }
 TPP2ParseTest >> testStarInToken [
 	| parser |
 	parser := ($a asPParser / $b asPParser) star token.
@@ -532,7 +534,7 @@ TPP2ParseTest >> testStarInToken [
 	self assert: parser parse: 'ab' toTokenValue: 'ab'.		
 ]
 
-{ #category : #test }
+{ #category : 'test' }
 TPP2ParseTest >> testStartOfLine [
 	| parser |
 	parser := #startOfLine asPParser.
@@ -543,7 +545,7 @@ TPP2ParseTest >> testStartOfLine [
 	self assert: $a asPParser, parser fail: 'ab' end: 1.
 ]
 
-{ #category : #test }
+{ #category : 'test' }
 TPP2ParseTest >> testTimes [
 	| parser |
 	parser := $a asPParser times: 2.
@@ -554,7 +556,7 @@ TPP2ParseTest >> testTimes [
 	self assert: parser parse: 'aaa' to: #($a $a) end: 2
 ]
 
-{ #category : #test }
+{ #category : 'test' }
 TPP2ParseTest >> testToken [
 	| parser |
 	parser := $a asPParser token.
@@ -565,7 +567,7 @@ TPP2ParseTest >> testToken [
 	self assert: parser fail: ''.
 ]
 
-{ #category : #test }
+{ #category : 'test' }
 TPP2ParseTest >> testTokenLiteral [
 	| parser |
 	parser := 'foo' asPParser token.
@@ -576,7 +578,7 @@ TPP2ParseTest >> testTokenLiteral [
 	self assert: parser fail: ''.
 ]
 
-{ #category : #test }
+{ #category : 'test' }
 TPP2ParseTest >> testTokenTrim [
 	| parser |
 	parser := $a asPParser token trim.
@@ -590,7 +592,7 @@ TPP2ParseTest >> testTokenTrim [
 	self assert: parser fail: 'b'.
 ]
 
-{ #category : #test }
+{ #category : 'test' }
 TPP2ParseTest >> testTrim [
 	| parser |
 	parser := 'a' asPParser trim.
@@ -605,7 +607,7 @@ TPP2ParseTest >> testTrim [
 
 ]
 
-{ #category : #test }
+{ #category : 'test' }
 TPP2ParseTest >> testWrapped [
 	| parser |
 	parser := $a asPParser wrapped.
@@ -614,7 +616,7 @@ TPP2ParseTest >> testWrapped [
 	self assert: parser fail: 'b'.
 ]
 
-{ #category : #test }
+{ #category : 'test' }
 TPP2ParseTest >> testWrappedSequence [
 	| parser |
 
@@ -622,7 +624,7 @@ TPP2ParseTest >> testWrappedSequence [
 	self assert: parser parse: 'abc' to: #(#($a $b) $c)
 ]
 
-{ #category : #test }
+{ #category : 'test' }
 TPP2ParseTest >> testWrapping [
 	| parser |
 	parser := $a asPParser >=> [:c :cc | cc value].

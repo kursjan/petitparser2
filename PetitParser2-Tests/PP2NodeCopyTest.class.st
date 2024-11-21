@@ -1,10 +1,12 @@
 Class {
-	#name : #PP2NodeCopyTest,
-	#superclass : #TestCase,
-	#category : #'PetitParser2-Tests-Nodes'
+	#name : 'PP2NodeCopyTest',
+	#superclass : 'TestCase',
+	#category : 'PetitParser2-Tests-Nodes',
+	#package : 'PetitParser2-Tests',
+	#tag : 'Nodes'
 }
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2NodeCopyTest >> testCopy [
 	| node nodeCopy |
 	node := $a asPParser.
@@ -18,7 +20,7 @@ PP2NodeCopyTest >> testCopy [
 	self assert: nodeCopy strategy node == nodeCopy.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2NodeCopyTest >> testCopyDelegate [
 	| node nodeCopy |
 	node := $a asPParser wrapped.
@@ -31,7 +33,7 @@ PP2NodeCopyTest >> testCopyDelegate [
 	self assert: node child == nodeCopy child.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2NodeCopyTest >> testCopyProperties [
 	| node nodeCopy |
 	node := $a asPParser.
@@ -45,7 +47,7 @@ PP2NodeCopyTest >> testCopyProperties [
 	self assert: node properties ~~ nodeCopy properties.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2NodeCopyTest >> testDuplicateDelegate [
 	| node nodeCopy |
 	node := $a asPParser wrapped.
@@ -59,7 +61,7 @@ PP2NodeCopyTest >> testDuplicateDelegate [
 	self assert: node child ~~ nodeCopy child.	
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2NodeCopyTest >> testDuplicateSequence [
 	| node nodeCopy |
 	node := $a asPParser, $b asPParser.

@@ -1,6 +1,6 @@
 Class {
-	#name : #PP2NextSetsVisitorTest,
-	#superclass : #TestCase,
+	#name : 'PP2NextSetsVisitorTest',
+	#superclass : 'TestCase',
 	#instVars : [
 		'parser',
 		'visitor',
@@ -8,27 +8,29 @@ Class {
 		'eoi',
 		'nextParser'
 	],
-	#category : #'PetitParser2-Tests-Analysis'
+	#category : 'PetitParser2-Tests-Analysis',
+	#package : 'PetitParser2-Tests',
+	#tag : 'Analysis'
 }
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 PP2NextSetsVisitorTest >> assert: aSet includes: anObject [
 	self assert: (aSet includes: anObject)
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 PP2NextSetsVisitorTest >> nextSet: node in: root [
 	visitor visit: root.
 	^ nextSet := visitor nextSets at: node
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 PP2NextSetsVisitorTest >> setUp [
 	visitor := PP2NextSetsVisitor new.
 	eoi := visitor instVarNamed: #eoi.
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 PP2NextSetsVisitorTest >> testAction [
 	| action |
 	parser := $a asPParser.
@@ -44,7 +46,7 @@ PP2NextSetsVisitorTest >> testAction [
 	self assert: nextSet includes: eoi.
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 PP2NextSetsVisitorTest >> testChoice [
 	| choice |
 	parser := $a asPParser.
@@ -56,7 +58,7 @@ PP2NextSetsVisitorTest >> testChoice [
 	self assert: nextSet includes: eoi.
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 PP2NextSetsVisitorTest >> testDelegate [
 	| delegate |
 	parser := $a asPParser.
@@ -72,7 +74,7 @@ PP2NextSetsVisitorTest >> testDelegate [
 	self assert: nextSet includes: eoi.
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 PP2NextSetsVisitorTest >> testEpsilon [
 	parser := nil asPParser.
 	
@@ -82,7 +84,7 @@ PP2NextSetsVisitorTest >> testEpsilon [
 	self assert: nextSet includes: eoi.
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 PP2NextSetsVisitorTest >> testFlatten [
 	| flatten |
 	parser := $a asPParser.
@@ -98,7 +100,7 @@ PP2NextSetsVisitorTest >> testFlatten [
 	self assert: nextSet includes: eoi.
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 PP2NextSetsVisitorTest >> testLiteralObject [
 	parser := $a asPParser.
 	
@@ -108,7 +110,7 @@ PP2NextSetsVisitorTest >> testLiteralObject [
 	self assert: nextSet includes: eoi.
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 PP2NextSetsVisitorTest >> testLiteralSequence [
 	parser := 'foo' asPParser.
 	
@@ -118,7 +120,7 @@ PP2NextSetsVisitorTest >> testLiteralSequence [
 	self assert: nextSet includes: eoi.
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 PP2NextSetsVisitorTest >> testOptional [
 	| optional |
 	parser := $a asPParser.
@@ -130,7 +132,7 @@ PP2NextSetsVisitorTest >> testOptional [
 	self assert: nextSet includes: eoi.
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 PP2NextSetsVisitorTest >> testPossesiveRepeating [
 	| plus |
 	parser := $a asPParser.
@@ -146,7 +148,7 @@ PP2NextSetsVisitorTest >> testPossesiveRepeating [
 	self assert: nextSet includes: eoi.
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 PP2NextSetsVisitorTest >> testRoot [
 	parser := $a asPParser.
 	
@@ -156,7 +158,7 @@ PP2NextSetsVisitorTest >> testRoot [
 	self assert: nextSet includes: eoi.
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 PP2NextSetsVisitorTest >> testSequence [
 	| sequence |
 	parser := $a asPParser.
@@ -178,7 +180,7 @@ PP2NextSetsVisitorTest >> testSequence [
 	self assert: nextSet includes: eoi.
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 PP2NextSetsVisitorTest >> testSequenceOfDelegates [
 	| sequence |
 	parser := $a asPParser.
@@ -199,7 +201,7 @@ PP2NextSetsVisitorTest >> testSequenceOfDelegates [
 	self assert: nextSet includes: eoi.
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 PP2NextSetsVisitorTest >> testSequenceOfThree [
 	| sequence nextNextParser |
 	parser := $a asPParser.
@@ -225,7 +227,7 @@ PP2NextSetsVisitorTest >> testSequenceOfThree [
 	self assert: nextSet includes: eoi.
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 PP2NextSetsVisitorTest >> testSequenceOfThreeWithNullable [
 	| sequence nextNextParser |
 	parser := $a asPParser.
@@ -252,7 +254,7 @@ PP2NextSetsVisitorTest >> testSequenceOfThreeWithNullable [
 	self assert: nextSet includes: eoi.
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 PP2NextSetsVisitorTest >> testSequenceOptional [
 	| sequence |
 	parser := $a asPParser.
@@ -271,7 +273,7 @@ PP2NextSetsVisitorTest >> testSequenceOptional [
 	self assert: nextSet includes: eoi.
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 PP2NextSetsVisitorTest >> testToken [
 	| token |
 	parser := $a asPParser.
@@ -287,7 +289,7 @@ PP2NextSetsVisitorTest >> testToken [
 	self assert: nextSet includes: eoi.
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 PP2NextSetsVisitorTest >> testTrim [
 	| trim |
 	parser := $a asPParser.
@@ -303,7 +305,7 @@ PP2NextSetsVisitorTest >> testTrim [
 	self assert: nextSet includes: eoi.
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 PP2NextSetsVisitorTest >> testTrimmingToken [
 	| token |
 	parser := $a asPParser.

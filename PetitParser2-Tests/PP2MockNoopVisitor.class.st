@@ -1,25 +1,27 @@
 Class {
-	#name : #PP2MockNoopVisitor,
-	#superclass : #PP2NoopVisitor,
+	#name : 'PP2MockNoopVisitor',
+	#superclass : 'PP2NoopVisitor',
 	#instVars : [
 		'visitOrder'
 	],
-	#category : #'PetitParser2-Tests-Core'
+	#category : 'PetitParser2-Tests-Core',
+	#package : 'PetitParser2-Tests',
+	#tag : 'Core'
 }
 
-{ #category : #initialization }
+{ #category : 'initialization' }
 PP2MockNoopVisitor >> initialize [
 	super initialize.
 	
 	visitOrder := OrderedCollection new
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 PP2MockNoopVisitor >> visitOrder [
 	^ visitOrder
 ]
 
-{ #category : #visiting }
+{ #category : 'visiting' }
 PP2MockNoopVisitor >> visitPP2Node: aPP2Node [
 	visitOrder add: aPP2Node.
 	

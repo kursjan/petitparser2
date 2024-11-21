@@ -1,40 +1,42 @@
 Class {
-	#name : #PP2GuardVisitorTest,
-	#superclass : #TestCase,
+	#name : 'PP2GuardVisitorTest',
+	#superclass : 'TestCase',
 	#traits : 'TPP2TypeAssertions',
 	#classTraits : 'TPP2TypeAssertions classTrait',
 	#instVars : [
 		'parser',
 		'visitor'
 	],
-	#category : #'PetitParser2-Tests-Optimizations'
+	#category : 'PetitParser2-Tests-Optimizations',
+	#package : 'PetitParser2-Tests',
+	#tag : 'Optimizations'
 }
 
-{ #category : #support }
+{ #category : 'support' }
 PP2GuardVisitorTest >> assert: booleanArray at: position [
 	self assert: (booleanArray at: position)
 ]
 
-{ #category : #support }
+{ #category : 'support' }
 PP2GuardVisitorTest >> deny: booleanArray at: position [
 	self assert: (booleanArray at: position) not
 ]
 
-{ #category : #support }
+{ #category : 'support' }
 PP2GuardVisitorTest >> optimize: node [
 	PP2IsNullableCache new doPass: node.
 	PP2FirstSetCache new doPass: node.
 	PP2GuardVisitor new doPass: node
 ]
 
-{ #category : #running }
+{ #category : 'running' }
 PP2GuardVisitorTest >> setUp [
 	super setUp.
 	
 	visitor := PP2GuardVisitor new
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2GuardVisitorTest >> testChoice [
 	| parserOne parserTwo |
 	parserOne := 'foo' asPParser token trim wrapped.
@@ -49,7 +51,7 @@ PP2GuardVisitorTest >> testChoice [
 	self assert: parserTwo strategy classification notNil.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2GuardVisitorTest >> testClassificationFor [
 	| classification |
 	parser := $a asPParser / $b asPParser.
@@ -62,7 +64,7 @@ PP2GuardVisitorTest >> testClassificationFor [
 	self deny: classification at: $c codePoint.	
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2GuardVisitorTest >> testClassificationFor2 [
 	| classification |
 	parser := #letter asPParser / #digit asPParser.
@@ -74,7 +76,7 @@ PP2GuardVisitorTest >> testClassificationFor2 [
 	]
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2GuardVisitorTest >> testClassificationFor3 [
 	| classification |
 	parser := #letter asPParser / #eoi asPParser.
@@ -84,7 +86,7 @@ PP2GuardVisitorTest >> testClassificationFor3 [
 	self assert: classification equals: (Array new: 255 withAll: true).
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2GuardVisitorTest >> testDelegate [
 	parser := 'foo' asPParser plus flatten wrapped.
 	
@@ -94,7 +96,7 @@ PP2GuardVisitorTest >> testDelegate [
 	self assert: parser strategy classification notNil.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2GuardVisitorTest >> testDelegateWithOptional [
 	parser := ('foo' asPParser / 'bar' asPParser optional) wrapped.
 	
@@ -103,7 +105,7 @@ PP2GuardVisitorTest >> testDelegateWithOptional [
 	self assert: parser strategy isKindOf: PP2Delegate.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2GuardVisitorTest >> testGuardedChoice [
 	| parserOne parserTwo parserThree choiceOne |
 	parserOne := 'foo' asPParser token trim wrapped.
@@ -125,7 +127,7 @@ PP2GuardVisitorTest >> testGuardedChoice [
 
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2GuardVisitorTest >> testGuardedChoice2 [
 	| parserOne parserTwo parserThree choiceOne |
 	parserOne := 'baz' asPParser token trim wrapped.
@@ -149,7 +151,7 @@ PP2GuardVisitorTest >> testGuardedChoice2 [
 
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2GuardVisitorTest >> testOptional [
 	parser := 'foo' asPParser token trim optional.
 	
@@ -159,7 +161,7 @@ PP2GuardVisitorTest >> testOptional [
 	self assert: parser strategy retval isNil.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2GuardVisitorTest >> testPlus [
 	parser := 'foo' asPParser token trim plus.
 	parser strategy: (PP2Plus on: parser).
@@ -170,7 +172,7 @@ PP2GuardVisitorTest >> testPlus [
 	self assert: parser strategy retval isPetit2Failure.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2GuardVisitorTest >> testStar [
 	parser := 'foo' asPParser token trim star.
 	parser strategy: (PP2Star on: parser).
@@ -181,7 +183,7 @@ PP2GuardVisitorTest >> testStar [
 	self assert: parser strategy retval equals: #().
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2GuardVisitorTest >> testTimes [
 	parser := 'foo' asPParser token trim times: 3.
 	

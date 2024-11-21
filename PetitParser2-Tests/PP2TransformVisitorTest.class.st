@@ -1,10 +1,12 @@
 Class {
-	#name : #PP2TransformVisitorTest,
-	#superclass : #TestCase,
-	#category : #'PetitParser2-Tests-Core'
+	#name : 'PP2TransformVisitorTest',
+	#superclass : 'TestCase',
+	#category : 'PetitParser2-Tests-Core',
+	#package : 'PetitParser2-Tests',
+	#tag : 'Core'
 }
 
-{ #category : #grammars }
+{ #category : 'grammars' }
 PP2TransformVisitorTest >> grammarA [
 	"A highly recrusive grammar."
 
@@ -14,7 +16,7 @@ PP2TransformVisitorTest >> grammarA [
 	^grammar
 ]
 
-{ #category : #grammars }
+{ #category : 'grammars' }
 PP2TransformVisitorTest >> grammarB [
 	"The most stupid parser, it just references itself and never consumes anything. All algorithms should survive such an attack."
 
@@ -24,7 +26,7 @@ PP2TransformVisitorTest >> grammarB [
 	^ parser
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2TransformVisitorTest >> testTransformIdentityGrammarA [
 	| orig tran |
 	orig := self grammarA.
@@ -48,7 +50,7 @@ PP2TransformVisitorTest >> testTransformIdentityGrammarA [
 	self assert: tran children last class == PP2LiteralObjectNode
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2TransformVisitorTest >> testTransformIdentityGrammarB [
 	| orig tran |
 	orig := self grammarB.
@@ -63,7 +65,7 @@ PP2TransformVisitorTest >> testTransformIdentityGrammarB [
 	self assert: tran children first == tran
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2TransformVisitorTest >> testTransformWrapGrammarA [
 	| orig tran |
 	orig := self grammarA.
@@ -85,7 +87,7 @@ PP2TransformVisitorTest >> testTransformWrapGrammarA [
 	self assert: tran children first children last children first class == PP2LiteralObjectNode
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2TransformVisitorTest >> testTransformWrapGrammarB [
 	| orig tran |
 	orig := self grammarB.

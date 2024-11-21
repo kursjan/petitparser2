@@ -1,10 +1,12 @@
 Class {
-	#name : #PP2NodeTransformationTest,
-	#superclass : #TestCase,
-	#category : #'PetitParser2-Tests-Nodes'
+	#name : 'PP2NodeTransformationTest',
+	#superclass : 'TestCase',
+	#category : 'PetitParser2-Tests-Nodes',
+	#package : 'PetitParser2-Tests',
+	#tag : 'Nodes'
 }
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2NodeTransformationTest >> testDelegateReplace [
 	| one other delegate |
 	one := $a asPParser.
@@ -23,7 +25,7 @@ PP2NodeTransformationTest >> testDelegateReplace [
 	self assert: delegate children first == other
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2NodeTransformationTest >> testListReplace [
 	| one other another list |
 	one := $a asPParser.
@@ -50,7 +52,7 @@ PP2NodeTransformationTest >> testListReplace [
 	self assert: list children last == other
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2NodeTransformationTest >> testSeaReplace [
 	| island sea beforeWater afterWater otherIsland otherBeforeWater otherAfterWater |
 
@@ -79,7 +81,7 @@ PP2NodeTransformationTest >> testSeaReplace [
 	self assert: sea children third == otherAfterWater.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2NodeTransformationTest >> testTrimmingReplace [
 	| one trimmer trimming other otherTrimmer |
 

@@ -1,9 +1,11 @@
 Trait {
-	#name : #TPP2StreamContextInterface,
-	#category : #'PetitParser2-Tests-Streams'
+	#name : 'TPP2StreamContextInterface',
+	#category : 'PetitParser2-Tests-Streams',
+	#package : 'PetitParser2-Tests',
+	#tag : 'Streams'
 }
 
-{ #category : #'tests - context interface' }
+{ #category : 'tests - context interface' }
 TPP2StreamContextInterface >> testAtEnd [
 	| stream |
 	stream := self streamOn: ''. 
@@ -17,7 +19,7 @@ TPP2StreamContextInterface >> testAtEnd [
 	self assert: (stream atEnd: 2).
 ]
 
-{ #category : #'tests - context interface' }
+{ #category : 'tests - context interface' }
 TPP2StreamContextInterface >> testAtPosition [
 	| stream |
 	stream := self streamOn: 'bar'. 
@@ -27,7 +29,7 @@ TPP2StreamContextInterface >> testAtPosition [
 	self assert: (stream atPosition: 3) = $r.
 ]
 
-{ #category : #'tests - context interface' }
+{ #category : 'tests - context interface' }
 TPP2StreamContextInterface >> testAtPositionReversedOrder [
 	| stream |
 	stream := self streamOn: 'bar'. 
@@ -37,7 +39,7 @@ TPP2StreamContextInterface >> testAtPositionReversedOrder [
 	self assert: (stream atPosition: 1) = $b.
 ]
 
-{ #category : #'tests - context interface' }
+{ #category : 'tests - context interface' }
 TPP2StreamContextInterface >> testCopyFromTo [
 	| stream |
 	stream := self streamOn: 'bar'.
@@ -47,7 +49,7 @@ TPP2StreamContextInterface >> testCopyFromTo [
 
 ]
 
-{ #category : #'tests - context interface' }
+{ #category : 'tests - context interface' }
 TPP2StreamContextInterface >> testNewTokenFromTo [
 	| stream |
 	stream := self streamOn: 'foo'. 

@@ -2,16 +2,18 @@
 TestSuite for PP2ExpressionGrammar
 "
 Trait {
-	#name : #TPP2ExpressionGrammarTest,
-	#category : #'PetitParser2-Tests-Examples'
+	#name : 'TPP2ExpressionGrammarTest',
+	#category : 'PetitParser2-Tests-Examples',
+	#package : 'PetitParser2-Tests',
+	#tag : 'Examples'
 }
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 TPP2ExpressionGrammarTest >> parserClass [
 	^ PP2ExpressionGrammar 
 ]
 
-{ #category : #testing }
+{ #category : 'testing' }
 TPP2ExpressionGrammarTest >> testAddition [
 	self parse: '1 + 2' rule: #addition.
 	self parse: '1 + (2 + 3)' rule: #addition.	
@@ -20,7 +22,7 @@ TPP2ExpressionGrammarTest >> testAddition [
 	self fail: '1 * 2' rule: #addition.
 ]
 
-{ #category : #testing }
+{ #category : 'testing' }
 TPP2ExpressionGrammarTest >> testMultiplication [
 	self parse: '1 * 2' rule: #multiplication.
 	self parse: '1 * (2 + 3)' rule: #multiplication.	
@@ -29,7 +31,7 @@ TPP2ExpressionGrammarTest >> testMultiplication [
 	self fail: '1 + 2' rule: #multiplication.
 ]
 
-{ #category : #testing }
+{ #category : 'testing' }
 TPP2ExpressionGrammarTest >> testNumber [
 	self parse: '1' rule: #number.
 	self parse: '10' rule: #number.
@@ -38,13 +40,13 @@ TPP2ExpressionGrammarTest >> testNumber [
 	self fail: 'foo' rule: #number.
 ]
 
-{ #category : #testing }
+{ #category : 'testing' }
 TPP2ExpressionGrammarTest >> testParentheses [
 	self parse: '(1)' rule: #parentheses.
 	self parse: '(1.2)' rule: #parentheses.
 ]
 
-{ #category : #testing }
+{ #category : 'testing' }
 TPP2ExpressionGrammarTest >> testPrimary [
 	self parse: '10.3' rule: #primary.
 	self parse: '(10.3)' rule: #primary.
@@ -53,7 +55,7 @@ TPP2ExpressionGrammarTest >> testPrimary [
 
 ]
 
-{ #category : #testing }
+{ #category : 'testing' }
 TPP2ExpressionGrammarTest >> testTerms [
 	self parse: '1' rule: #terms.
 	self parse: '1 + 1' rule: #terms.

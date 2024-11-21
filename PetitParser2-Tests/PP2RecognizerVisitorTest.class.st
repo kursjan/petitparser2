@@ -1,6 +1,6 @@
 Class {
-	#name : #PP2RecognizerVisitorTest,
-	#superclass : #TestCase,
+	#name : 'PP2RecognizerVisitorTest',
+	#superclass : 'TestCase',
 	#traits : 'TPP2TypeAssertions',
 	#classTraits : 'TPP2TypeAssertions classTrait',
 	#instVars : [
@@ -9,15 +9,17 @@ Class {
 		'token',
 		'sequence'
 	],
-	#category : #'PetitParser2-Tests-Optimizations'
+	#category : 'PetitParser2-Tests-Optimizations',
+	#package : 'PetitParser2-Tests',
+	#tag : 'Optimizations'
 }
 
-{ #category : #running }
+{ #category : 'running' }
 PP2RecognizerVisitorTest >> setUp [
 	visitor := PP2RecognizerVisitor new
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2RecognizerVisitorTest >> testFlatten [
 	| flattened |
 	parser := #letter asPParser star.
@@ -29,7 +31,7 @@ PP2RecognizerVisitorTest >> testFlatten [
 	self assert: parser strategy isKindOf: PP2StarPredicateObjectRecognizer 
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2RecognizerVisitorTest >> testPlus [
 	parser := #letter asPParser plus.
 	parser strategy: (PP2Plus on: parser).
@@ -40,7 +42,7 @@ PP2RecognizerVisitorTest >> testPlus [
 	self assert: parser strategy isKindOf: PP2PlusRecognizer   
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2RecognizerVisitorTest >> testPredicateObject [
 	parser := #letter asPParser.
 	token := parser token.
@@ -50,7 +52,7 @@ PP2RecognizerVisitorTest >> testPredicateObject [
 	self assert: parser strategy isKindOf: PP2PredicateObjectRecognizer  
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2RecognizerVisitorTest >> testSequenceOfTwo [
 	parser := $a asPParser, $b asPParser.
 	parser strategy: (PP2SequenceOfTwo on: parser).
@@ -61,7 +63,7 @@ PP2RecognizerVisitorTest >> testSequenceOfTwo [
 	self assert: parser strategy isKindOf: PP2SequenceOfTwoRecognizer 
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2RecognizerVisitorTest >> testStar [
 	parser := #letter asPParser star.
 	parser strategy: (PP2Star on: parser).
@@ -72,7 +74,7 @@ PP2RecognizerVisitorTest >> testStar [
 	self assert: parser strategy isKindOf: PP2StarRecognizer    
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2RecognizerVisitorTest >> testToken [
 	parser := #letter asPParser star.
 	parser strategy: (PP2StarPredicateObject on: parser).
@@ -83,7 +85,7 @@ PP2RecognizerVisitorTest >> testToken [
 	self assert: parser strategy isKindOf: PP2StarPredicateObjectRecognizer 
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2RecognizerVisitorTest >> testTwoParents [
 	parser := #letter asPParser star.
 	parser strategy: (PP2StarPredicateObject on: parser).
@@ -97,7 +99,7 @@ PP2RecognizerVisitorTest >> testTwoParents [
 	self assert: parser strategy isKindOf: PP2StarPredicateObject.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2RecognizerVisitorTest >> testTwoParentsDifferentContext [
 	| wrapped |
 	parser := #letter asPParser star.
@@ -113,7 +115,7 @@ PP2RecognizerVisitorTest >> testTwoParentsDifferentContext [
 	self assert: parser strategy isKindOf: PP2StarPredicateObject.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2RecognizerVisitorTest >> testTwoParentsNoWarning [
 	| tokenOne tokenTwo |
 	parser := #letter asPParser star.
@@ -129,7 +131,7 @@ PP2RecognizerVisitorTest >> testTwoParentsNoWarning [
 	self assert: parser strategy isKindOf: PP2StarPredicateObjectRecognizer.
 ]
 
-{ #category : #support }
+{ #category : 'support' }
 PP2RecognizerVisitorTest >> visit: node [
 	visitor doPass: node
 ]

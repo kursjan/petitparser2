@@ -1,15 +1,17 @@
 Class {
-	#name : #PP2ParseTest,
-	#superclass : #PP2AbstractParserTest,
+	#name : 'PP2ParseTest',
+	#superclass : 'PP2AbstractParserTest',
 	#traits : 'TPP2ParseTest',
 	#classTraits : 'TPP2ParseTest classTrait',
 	#instVars : [
 		'context'
 	],
-	#category : #'PetitParser2-Tests-Parsing'
+	#category : 'PetitParser2-Tests-Parsing',
+	#package : 'PetitParser2-Tests',
+	#tag : 'Parsing'
 }
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 PP2ParseTest >> context [
 	context isNil ifTrue: [ 
 		context := super context
@@ -18,12 +20,12 @@ PP2ParseTest >> context [
 	^ context
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 PP2ParseTest >> parse: aStream withParser: aParser withContext: aContext [
 	^ aParser parseAdaptable: aStream withContext: aContext
 ]
 
-{ #category : #'test - context' }
+{ #category : 'test - context' }
 PP2ParseTest >> testMatch [
 	| node |
 	node := $a asPParser match.
@@ -32,7 +34,7 @@ PP2ParseTest >> testMatch [
 	self assert: node parse: 'a'.
 ]
 
-{ #category : #'test - context' }
+{ #category : 'test - context' }
 PP2ParseTest >> testMatchEmpty [
 	| node |
 	node := $a asPParser match.
@@ -40,7 +42,7 @@ PP2ParseTest >> testMatchEmpty [
 	self assert: node fail: 'a'.
 ]
 
-{ #category : #'test - context' }
+{ #category : 'test - context' }
 PP2ParseTest >> testMatchFailure [
 	| node |
 	node := $a asPParser match.
@@ -49,7 +51,7 @@ PP2ParseTest >> testMatchFailure [
 	self assert: node fail: 'b'.
 ]
 
-{ #category : #'test - context' }
+{ #category : 'test - context' }
 PP2ParseTest >> testMatchNoMatch [
 	| node |
 	node := $a asPParser match.
@@ -58,7 +60,7 @@ PP2ParseTest >> testMatchNoMatch [
 	self assert: node fail: 'a'.
 ]
 
-{ #category : #test }
+{ #category : 'test' }
 PP2ParseTest >> testNonEpsilon [
 	|  parser |
 	parser := $a asPParser optional nonEpsilon.
@@ -67,7 +69,7 @@ PP2ParseTest >> testNonEpsilon [
 	self assert: parser parse: 'a'
 ]
 
-{ #category : #'test - context' }
+{ #category : 'test - context' }
 PP2ParseTest >> testPop [
 	| node |
 	node := nil asPParser pop.
@@ -77,7 +79,7 @@ PP2ParseTest >> testPop [
 	self assert: context defaultStack isEmpty.
 ]
 
-{ #category : #'test - context' }
+{ #category : 'test - context' }
 PP2ParseTest >> testPopStarOne [
 	| node |
 	node := $a asPParser pop star.
@@ -87,7 +89,7 @@ PP2ParseTest >> testPopStarOne [
 	self assert: context defaultStack size equals: 0.
 ]
 
-{ #category : #'test - context' }
+{ #category : 'test - context' }
 PP2ParseTest >> testPopStarTwo [
 	| node |
 	node := $a asPParser pop star.
@@ -98,7 +100,7 @@ PP2ParseTest >> testPopStarTwo [
 	self assert: context defaultStack size equals: 0.
 ]
 
-{ #category : #'test - context' }
+{ #category : 'test - context' }
 PP2ParseTest >> testPopStarZero [
 	| node |
 	node := $a asPParser pop star.
@@ -108,7 +110,7 @@ PP2ParseTest >> testPopStarZero [
 	self assert: context defaultStack size equals: 1.
 ]
 
-{ #category : #'test - context' }
+{ #category : 'test - context' }
 PP2ParseTest >> testPush [
 	| node |
 	node := $a asPParser push.
@@ -119,7 +121,7 @@ PP2ParseTest >> testPush [
 
 ]
 
-{ #category : #'test - context' }
+{ #category : 'test - context' }
 PP2ParseTest >> testPushStarOne [
 	| node |
 	node := $a asPParser push star.
@@ -128,7 +130,7 @@ PP2ParseTest >> testPushStarOne [
 	self assert: context defaultStack size equals: 1.
 ]
 
-{ #category : #'test - context' }
+{ #category : 'test - context' }
 PP2ParseTest >> testPushStarTwo [
 	| node |
 	node := $a asPParser push star.
@@ -138,7 +140,7 @@ PP2ParseTest >> testPushStarTwo [
 
 ]
 
-{ #category : #'test - context' }
+{ #category : 'test - context' }
 PP2ParseTest >> testPushStarZero [
 	| node |
 	node := $a asPParser push star.
@@ -147,7 +149,7 @@ PP2ParseTest >> testPushStarZero [
 	self assert: self context defaultStack size equals: 0.
 ]
 
-{ #category : #'test - water' }
+{ #category : 'test - water' }
 PP2ParseTest >> testWaterBoundary [
 	| water |
 	water := PP2WaterNode new
@@ -161,7 +163,7 @@ PP2ParseTest >> testWaterBoundary [
 	self assert: water fail: 'barbar'.	
 ]
 
-{ #category : #'test - water' }
+{ #category : 'test - water' }
 PP2ParseTest >> testWaterDefault [
 	| water |
 	water := PP2WaterNode new.
@@ -170,7 +172,7 @@ PP2ParseTest >> testWaterDefault [
 	self assert: water parse: '' to: ''
 ]
 
-{ #category : #'test - water' }
+{ #category : 'test - water' }
 PP2ParseTest >> testWaterRecursive [
 	| water |
 	water := PP2WaterNode new
@@ -180,7 +182,7 @@ PP2ParseTest >> testWaterRecursive [
 	self assert: water parse: 'foobar' to: '' end: 0
 ]
 
-{ #category : #'test - water' }
+{ #category : 'test - water' }
 PP2ParseTest >> testWaterRecursive2 [
 	| water eof |
 	water := PP2WaterNode new

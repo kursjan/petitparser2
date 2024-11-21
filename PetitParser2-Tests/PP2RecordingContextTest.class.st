@@ -1,17 +1,19 @@
 Class {
-	#name : #PP2RecordingContextTest,
-	#superclass : #TestCase,
+	#name : 'PP2RecordingContextTest',
+	#superclass : 'TestCase',
 	#traits : 'TPP2ContextTest + TPP2DebuggableTest + TPP2CollectionAssertions',
 	#classTraits : 'TPP2ContextTest classTrait + TPP2DebuggableTest classTrait + TPP2CollectionAssertions classTrait',
-	#category : #'PetitParser2-Tests-Profiling'
+	#category : 'PetitParser2-Tests-Profiling',
+	#package : 'PetitParser2-Tests',
+	#tag : 'Profiling'
 }
 
-{ #category : #requirements }
+{ #category : 'requirements' }
 PP2RecordingContextTest >> contextOn: aString [
 	^ PP2RecordingContext on: aString
 ]
 
-{ #category : #'tests - profiling' }
+{ #category : 'tests - profiling' }
 PP2RecordingContextTest >> testAsFrequencyTable [
 	| parser context table |
 	parser := PP2ExpressionParser new optimize enableDebug.
@@ -28,7 +30,7 @@ PP2RecordingContextTest >> testAsFrequencyTable [
 	self assert: (context eventsTrace strategies) anySatisfy: [ :e | e isKindOf: PP2NilStrategy  ]
 ]
 
-{ #category : #'tests - debugging' }
+{ #category : 'tests - debugging' }
 PP2RecordingContextTest >> testDebugResultDebug [
 	| context parser resultContext |
 	context := PP2RecordingContext new.
@@ -41,7 +43,7 @@ PP2RecordingContextTest >> testDebugResultDebug [
 	self assert: context debugResult children size equals: 1.
 ]
 
-{ #category : #'tests - debugging' }
+{ #category : 'tests - debugging' }
 PP2RecordingContextTest >> testDebugResultNoDebug [
 	| context parser resultContext |
 	context := PP2RecordingContext new.
@@ -54,7 +56,7 @@ PP2RecordingContextTest >> testDebugResultNoDebug [
 	self assert: context debugResult children size equals: 1.
 ]
 
-{ #category : #'tests - profiling' }
+{ #category : 'tests - profiling' }
 PP2RecordingContextTest >> testMultipleProfilingStrategies [
 	| cache parser context debugging |
 
@@ -72,7 +74,7 @@ PP2RecordingContextTest >> testMultipleProfilingStrategies [
 	
 ]
 
-{ #category : #'tests - profiling' }
+{ #category : 'tests - profiling' }
 PP2RecordingContextTest >> testParserRefreshCache [
 	| parser context |
 
@@ -88,7 +90,7 @@ PP2RecordingContextTest >> testParserRefreshCache [
 	
 ]
 
-{ #category : #'tests - profiling' }
+{ #category : 'tests - profiling' }
 PP2RecordingContextTest >> testRecordingCache [
 	| parser context |
 
@@ -102,7 +104,7 @@ PP2RecordingContextTest >> testRecordingCache [
 	
 ]
 
-{ #category : #'tests - debugging' }
+{ #category : 'tests - debugging' }
 PP2RecordingContextTest >> testSwitchToDebugging [
 	| parser context |
 

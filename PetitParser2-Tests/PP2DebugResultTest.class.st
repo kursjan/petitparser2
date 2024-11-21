@@ -1,10 +1,12 @@
 Class {
-	#name : #PP2DebugResultTest,
-	#superclass : #TestCase,
-	#category : #'PetitParser2-Tests-Debug'
+	#name : 'PP2DebugResultTest',
+	#superclass : 'TestCase',
+	#category : 'PetitParser2-Tests-Debug',
+	#package : 'PetitParser2-Tests',
+	#tag : 'Debug'
 }
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2DebugResultTest >> testContents [
 	| result |
 	result := PP2DebugResult new.
@@ -13,7 +15,7 @@ PP2DebugResultTest >> testContents [
 	self assert: result contents equals: 'a'
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2DebugResultTest >> testStartStopInterval [
 	| result |
 	result := PP2DebugResult new.

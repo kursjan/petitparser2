@@ -1,24 +1,26 @@
 Class {
-	#name : #PP2BypassVisitorTest,
-	#superclass : #TestCase,
+	#name : 'PP2BypassVisitorTest',
+	#superclass : 'TestCase',
 	#instVars : [
 		'parser',
 		'visitor'
 	],
-	#category : #'PetitParser2-Tests-Optimizations'
+	#category : 'PetitParser2-Tests-Optimizations',
+	#package : 'PetitParser2-Tests',
+	#tag : 'Optimizations'
 }
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 PP2BypassVisitorTest >> assert: anObject isKindOf: aClass [
 	self assert: (anObject isKindOf: aClass)
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 PP2BypassVisitorTest >> setUp [
 	visitor := PP2BypassVisitor new
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 PP2BypassVisitorTest >> testBypassCache [
 
 	| cache |
@@ -33,7 +35,7 @@ PP2BypassVisitorTest >> testBypassCache [
 	self assert: parser strategy child isKindOf: PP2DelegateNode.
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 PP2BypassVisitorTest >> testPlus [
 
 	parser := $a asPParser wrapped plus.
@@ -44,7 +46,7 @@ PP2BypassVisitorTest >> testPlus [
 	self assert: parser strategy child isKindOf: PP2LiteralObjectNode.
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 PP2BypassVisitorTest >> testSequenceOfTwo [
 
 	parser := $a asPParser wrapped, $b asPParser wrapped.
@@ -56,7 +58,7 @@ PP2BypassVisitorTest >> testSequenceOfTwo [
 	self assert: parser strategy secondChild isKindOf: PP2LiteralObjectNode.	
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 PP2BypassVisitorTest >> testSequenceOfTwoRecognizer [
 
 	parser := $a asPParser wrapped, $b asPParser wrapped.
@@ -68,7 +70,7 @@ PP2BypassVisitorTest >> testSequenceOfTwoRecognizer [
 	self assert: parser strategy secondChild isKindOf: PP2LiteralObjectNode.	
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 PP2BypassVisitorTest >> testStar [
 
 	parser := $a asPParser wrapped star.
@@ -79,7 +81,7 @@ PP2BypassVisitorTest >> testStar [
 	self assert: parser strategy child isKindOf: PP2LiteralObjectNode.
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 PP2BypassVisitorTest >> visit: node [
 	visitor visit: node
 ]

@@ -1,35 +1,37 @@
 Class {
-	#name : #PP2SeaParserTest,
-	#superclass : #PP2AbstractParserTest,
+	#name : 'PP2SeaParserTest',
+	#superclass : 'PP2AbstractParserTest',
 	#traits : 'TPP2SeaParserTest',
 	#classTraits : 'TPP2SeaParserTest classTrait',
 	#instVars : [
 		'result'
 	],
-	#category : #'PetitParser2-Tests-Seas'
+	#category : 'PetitParser2-Tests-Seas',
+	#package : 'PetitParser2-Tests',
+	#tag : 'Seas'
 }
 
-{ #category : #utilities }
+{ #category : 'utilities' }
 PP2SeaParserTest >> assert: parser parse: input [
 	result := (super assert: parser parse: input) value
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 PP2SeaParserTest >> parse: aStream withParser: aParser withContext: aContext [
 	^ aParser parseAdaptable: aStream withContext: aContext
 ]
 
-{ #category : #'parse support' }
+{ #category : 'parse support' }
 PP2SeaParserTest >> result [
 	^ result
 ]
 
-{ #category : #'parse support' }
+{ #category : 'parse support' }
 PP2SeaParserTest >> seaInstance [
 	^ PP2SeaNode new
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2SeaParserTest >> testNestedBlockDeepNested [
 	| block |
 

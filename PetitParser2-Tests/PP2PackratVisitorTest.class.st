@@ -1,14 +1,16 @@
 Class {
-	#name : #PP2PackratVisitorTest,
-	#superclass : #TestCase,
+	#name : 'PP2PackratVisitorTest',
+	#superclass : 'TestCase',
 	#instVars : [
 		'parser',
 		'visitor'
 	],
-	#category : #'PetitParser2-Tests-Optimizations'
+	#category : 'PetitParser2-Tests-Optimizations',
+	#package : 'PetitParser2-Tests',
+	#tag : 'Optimizations'
 }
 
-{ #category : #asserting }
+{ #category : 'asserting' }
 PP2PackratVisitorTest >> assertMemoized: node [
 
 	visitor visit: node.
@@ -16,7 +18,7 @@ PP2PackratVisitorTest >> assertMemoized: node [
 	self assert: (node isMemoized).
 ]
 
-{ #category : #asserting }
+{ #category : 'asserting' }
 PP2PackratVisitorTest >> denyMemoized: node [
 
 	visitor visit: node.
@@ -24,26 +26,26 @@ PP2PackratVisitorTest >> denyMemoized: node [
 	self deny: (node isMemoized).
 ]
 
-{ #category : #running }
+{ #category : 'running' }
 PP2PackratVisitorTest >> setUp [
 	visitor := PP2PackratVisitor new
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2PackratVisitorTest >> testMemoize [
 	parser := $a asPParser memoize.
 	
 	self assertMemoized: parser.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2PackratVisitorTest >> testMemoizeMatch [
 	parser := $a asPParser match memoize.
 	
 	self assertMemoized: parser.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2PackratVisitorTest >> testMemoizeMemoized [
 	parser := $a asPParser memoize memoize.
 	
@@ -51,7 +53,7 @@ PP2PackratVisitorTest >> testMemoizeMemoized [
 	self assert: parser strategies size equals: 2.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2PackratVisitorTest >> testMemoizePop [
 	parser := $a asPParser pop memoize.
 	
@@ -59,7 +61,7 @@ PP2PackratVisitorTest >> testMemoizePop [
 	self assert: parser warnings size equals: 1.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2PackratVisitorTest >> testMemoizePush [
 	parser := $a asPParser push memoize.
 	

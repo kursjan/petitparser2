@@ -1,15 +1,17 @@
 Class {
-	#name : #PP2OptimizationIntegrationTest,
-	#superclass : #TestCase,
+	#name : 'PP2OptimizationIntegrationTest',
+	#superclass : 'TestCase',
 	#traits : 'TPP2TypeAssertions',
 	#classTraits : 'TPP2TypeAssertions classTrait',
 	#instVars : [
 		'parser'
 	],
-	#category : #'PetitParser2-Tests-Optimizations'
+	#category : 'PetitParser2-Tests-Optimizations',
+	#package : 'PetitParser2-Tests',
+	#tag : 'Optimizations'
 }
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2OptimizationIntegrationTest >> testAnyStarLazyLiteralObject [
 	parser := #any asPParser starLazy, $a asPParser.
 	
@@ -18,7 +20,7 @@ PP2OptimizationIntegrationTest >> testAnyStarLazyLiteralObject [
 	self assert: parser firstChild strategy isKindOf: PP2AnyStarLazyLiteralObject.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2OptimizationIntegrationTest >> testAnyStarLazyPredicateObject [
 	parser := #any asPParser starLazy, #word asPParser.
 	
@@ -27,14 +29,14 @@ PP2OptimizationIntegrationTest >> testAnyStarLazyPredicateObject [
 	self assert: parser firstChild strategy isKindOf: PP2AnyStarLazyPredicateObject.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2OptimizationIntegrationTest >> testBypass [
 	parser := #letter asPParser wrapped star optimize.
 	
 	self assert: parser strategy child isKindOf: PP2PredicateObjectNode
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2OptimizationIntegrationTest >> testCommonPrefix [
 	| prefixOne prefixTwo |
 	prefixOne := #letter asPParser star wrapped flatten name: 'id'.
@@ -50,7 +52,7 @@ PP2OptimizationIntegrationTest >> testCommonPrefix [
 	self assert: prefixOne strategy == prefixTwo strategy.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2OptimizationIntegrationTest >> testIdentifier [
 	parser := #letter asPParser, #word asPParser star.
 	
@@ -60,7 +62,7 @@ PP2OptimizationIntegrationTest >> testIdentifier [
 	self assert: parser secondChild strategy isKindOf: PP2StarPredicateObject.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2OptimizationIntegrationTest >> testIdentifierToken [
 	parser := (#letter asPParser, #word asPParser star) token.
 	
@@ -70,7 +72,7 @@ PP2OptimizationIntegrationTest >> testIdentifierToken [
 	self assert: parser child secondChild strategy isKindOf: PP2StarPredicateObjectRecognizer.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2OptimizationIntegrationTest >> testIdentifierTrimmingToken [
 	parser := (#letter asPParser, #word asPParser star) token trim.
 	
@@ -82,7 +84,7 @@ PP2OptimizationIntegrationTest >> testIdentifierTrimmingToken [
 	self assert: parser strategy tokenChild secondChild strategy isKindOf: PP2StarPredicateObjectRecognizer.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2OptimizationIntegrationTest >> testMemoization [
 	| id |
 	id := #any asPParser, #word asPParser star.
@@ -94,7 +96,7 @@ PP2OptimizationIntegrationTest >> testMemoization [
 	self assert: id strategy isKindOf: PP2Packrat.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2OptimizationIntegrationTest >> testStarInToken [
 	parser := 'ab' asPParser star token.
 	
@@ -103,7 +105,7 @@ PP2OptimizationIntegrationTest >> testStarInToken [
 	self assert: parser child strategy isKindOf: PP2StarRecognizer.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2OptimizationIntegrationTest >> testTrimming [
 	parser := #letter asPParser trim optimize.
 	
@@ -111,7 +113,7 @@ PP2OptimizationIntegrationTest >> testTrimming [
 	self assert: parser trimmer strategy strategy isKindOf: PP2StarPredicateObjectRecognizer.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2OptimizationIntegrationTest >> testTrimmingToken [
 	parser := #letter asPParser trim optimize.
 	

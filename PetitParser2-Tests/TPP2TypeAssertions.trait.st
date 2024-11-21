@@ -1,14 +1,16 @@
 Trait {
-	#name : #TPP2TypeAssertions,
-	#category : #'PetitParser2-Tests-Optimizations'
+	#name : 'TPP2TypeAssertions',
+	#category : 'PetitParser2-Tests-Optimizations',
+	#package : 'PetitParser2-Tests',
+	#tag : 'Optimizations'
 }
 
-{ #category : #assertions }
+{ #category : 'assertions' }
 TPP2TypeAssertions >> assert: anObject isKindOf: aClass [
 	self assert: (anObject isKindOf: aClass)
 ]
 
-{ #category : #assertions }
+{ #category : 'assertions' }
 TPP2TypeAssertions >> deny: anObject isKindOf: aClass [
 	self assert: (anObject isKindOf: aClass) not
 ]

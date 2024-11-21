@@ -1,23 +1,25 @@
 Class {
-	#name : #PP2DebuggingStrategyTest,
-	#superclass : #TestCase,
+	#name : 'PP2DebuggingStrategyTest',
+	#superclass : 'TestCase',
 	#traits : 'TPP2TypeAssertions',
 	#classTraits : 'TPP2TypeAssertions classTrait',
 	#instVars : [
 		'strategy',
 		'node'
 	],
-	#category : #'PetitParser2-Tests-Debug'
+	#category : 'PetitParser2-Tests-Debug',
+	#package : 'PetitParser2-Tests',
+	#tag : 'Debug'
 }
 
-{ #category : #initialization }
+{ #category : 'initialization' }
 PP2DebuggingStrategyTest >> setUp [
 	node := $a asPParser.
 	strategy := node strategy.
 
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2DebuggingStrategyTest >> testCache [
 	| debugStrategy |
 	debugStrategy := strategy debug.
@@ -27,7 +29,7 @@ PP2DebuggingStrategyTest >> testCache [
 	
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2DebuggingStrategyTest >> testDebug [
 	| debugStrategy |
 
@@ -37,7 +39,7 @@ PP2DebuggingStrategyTest >> testDebug [
 	
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2DebuggingStrategyTest >> testParsingGuard [
 	| classification debugStrategy |
 	debugStrategy := strategy debug.
@@ -48,7 +50,7 @@ PP2DebuggingStrategyTest >> testParsingGuard [
 	self assert: debugStrategy strategy retval isPetit2Failure.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2DebuggingStrategyTest >> testParsingGuardOptional [
 	| classification debugStrategy optional |
 	optional := $a asPParser optional.
@@ -61,7 +63,7 @@ PP2DebuggingStrategyTest >> testParsingGuardOptional [
 	self assert: debugStrategy strategy retval isNil.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2DebuggingStrategyTest >> testRecognizer [
 	| debugStrategy |
 	node := #letter asPParser.

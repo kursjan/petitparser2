@@ -1,17 +1,19 @@
 Class {
-	#name : #PP2ContextTest,
-	#superclass : #TestCase,
+	#name : 'PP2ContextTest',
+	#superclass : 'TestCase',
 	#traits : 'TPP2ContextTest + TPP2DebuggableTest',
 	#classTraits : 'TPP2ContextTest classTrait + TPP2DebuggableTest classTrait',
-	#category : #'PetitParser2-Tests-Core'
+	#category : 'PetitParser2-Tests-Core',
+	#package : 'PetitParser2-Tests',
+	#tag : 'Core'
 }
 
-{ #category : #requirements }
+{ #category : 'requirements' }
 PP2ContextTest >> contextOn: aString [
 	^ PP2Context on: aString asPetit2Stream
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2ContextTest >> testAsPetit2Context [
 	| context |
 	context := (PP2MinimalStream on: 'foo') asPetit2Stream asPetit2Context.
@@ -20,7 +22,7 @@ PP2ContextTest >> testAsPetit2Context [
 	self assert: context isPetit2Success.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2ContextTest >> testAsPositionableStream [
 	| context |
 	context := (PP2MinimalStream on: 'foo') asPetit2Stream asPetit2Context.
@@ -29,7 +31,7 @@ PP2ContextTest >> testAsPositionableStream [
 	self should: [ context asPositionableStream ] raise: Exception
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2ContextTest >> testCopy [
 	| newContext context |
 	context := PP2Context new

@@ -1,9 +1,11 @@
 Trait {
-	#name : #TPP2SeaParserTest,
-	#category : #'PetitParser2-Tests-Seas'
+	#name : 'TPP2SeaParserTest',
+	#category : 'PetitParser2-Tests-Seas',
+	#package : 'PetitParser2-Tests',
+	#tag : 'Seas'
 }
 
-{ #category : #'parse support' }
+{ #category : 'parse support' }
 TPP2SeaParserTest >> emptySea [
 	| nilSea |
 	nilSea := self seaInstance.
@@ -12,7 +14,7 @@ TPP2SeaParserTest >> emptySea [
 	^ nilSea
 ]
 
-{ #category : #'parse support' }
+{ #category : 'parse support' }
 TPP2SeaParserTest >> nestedBlock [
 	| blockSea block nilIsland |
 	blockSea := self seaInstance.
@@ -27,17 +29,17 @@ TPP2SeaParserTest >> nestedBlock [
 	^ block
 ]
 
-{ #category : #'parse support' }
+{ #category : 'parse support' }
 TPP2SeaParserTest >> result [
 	self explicitRequirement
 ]
 
-{ #category : #'parse support' }
+{ #category : 'parse support' }
 TPP2SeaParserTest >> seaInstance [
 	^ self explicitRequirement
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 TPP2SeaParserTest >> testEOFBoundary [
 	| sea |
 
@@ -49,7 +51,7 @@ TPP2SeaParserTest >> testEOFBoundary [
 	self assert: sea fail: '..'
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 TPP2SeaParserTest >> testNestedBlockDeepNested [
 	| block |
 
@@ -64,7 +66,7 @@ TPP2SeaParserTest >> testNestedBlockDeepNested [
 	self assert: self result third equals: $}.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 TPP2SeaParserTest >> testNestedBlockEmpty [
 	| block |
 
@@ -77,7 +79,7 @@ TPP2SeaParserTest >> testNestedBlockEmpty [
 	self assert: self result third equals: $}.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 TPP2SeaParserTest >> testNestedBlockNested [
 	| block |
 
@@ -91,7 +93,7 @@ TPP2SeaParserTest >> testNestedBlockNested [
 	self assert: self result third equals: $}.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 TPP2SeaParserTest >> testNestedBlockSpace [
 	| block |
 
@@ -104,7 +106,7 @@ TPP2SeaParserTest >> testNestedBlockSpace [
 	self assert: self result third equals: $}.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 TPP2SeaParserTest >> testNilSea [
 	| parser |
 	parser := self emptySea.
@@ -118,7 +120,7 @@ TPP2SeaParserTest >> testNilSea [
 
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 TPP2SeaParserTest >> testNilSeaPlus [
 	| sea parser |
 
@@ -135,7 +137,7 @@ TPP2SeaParserTest >> testNilSeaPlus [
 
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 TPP2SeaParserTest >> testNilSeaSequence [
 	| sea sea2 parser |
 
@@ -154,7 +156,7 @@ TPP2SeaParserTest >> testNilSeaSequence [
 
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 TPP2SeaParserTest >> testNilSeaStar [
 	| sea parser |
 
@@ -171,7 +173,7 @@ TPP2SeaParserTest >> testNilSeaStar [
 
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 TPP2SeaParserTest >> testNullableBoundary [
 	| parser sea |
 
@@ -188,7 +190,7 @@ TPP2SeaParserTest >> testNullableBoundary [
 	self assert: parser fail: '..'	.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 TPP2SeaParserTest >> testNullableIsland [
 	| parser sea |
 
@@ -204,7 +206,7 @@ TPP2SeaParserTest >> testNullableIsland [
 	self assert: parser parse: ''.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 TPP2SeaParserTest >> testOverlappingSeas [
 	| seas seaOne seaTwo |
 
@@ -221,7 +223,7 @@ TPP2SeaParserTest >> testOverlappingSeas [
 	self assert: seas fail: '..a..'
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 TPP2SeaParserTest >> testSeaPlus [
 	| sea parser |
 
@@ -235,7 +237,7 @@ TPP2SeaParserTest >> testSeaPlus [
 
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 TPP2SeaParserTest >> testSeaStar [
 	| sea parser |
 

@@ -1,27 +1,29 @@
 Class {
-	#name : #PP2BufferStreamTest,
-	#superclass : #TestCase,
+	#name : 'PP2BufferStreamTest',
+	#superclass : 'TestCase',
 	#traits : 'TPP2StreamContextInterface',
 	#classTraits : 'TPP2StreamContextInterface classTrait',
-	#category : #'PetitParser2-Tests-Streams'
+	#category : 'PetitParser2-Tests-Streams',
+	#package : 'PetitParser2-Tests',
+	#tag : 'Streams'
 }
 
-{ #category : #running }
+{ #category : 'running' }
 PP2BufferStreamTest >> setUp [
 	super setUp
 ]
 
-{ #category : #running }
+{ #category : 'running' }
 PP2BufferStreamTest >> streamOn: collection [
 	^ PP2BufferStream on: (PP2MinimalStream on: collection)
 ]
 
-{ #category : #running }
+{ #category : 'running' }
 PP2BufferStreamTest >> streamOn: collection bufferSize: size [
 	^ PP2BufferStream on: (PP2MinimalStream on: collection) bufferSize: size
 ]
 
-{ #category : #'tests - context interface' }
+{ #category : 'tests - context interface' }
 PP2BufferStreamTest >> testAtEndDifferentPosition [
 	| stream |
 	stream := self streamOn: 'f'.
@@ -33,7 +35,7 @@ PP2BufferStreamTest >> testAtEndDifferentPosition [
 
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2BufferStreamTest >> testContents [
 	| stream |
 	stream := self streamOn: 'bar'. 
@@ -41,7 +43,7 @@ PP2BufferStreamTest >> testContents [
 	self assert: (stream contents) equals: ''.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2BufferStreamTest >> testContentsAfterRead [
 	| stream |
 	stream := self streamOn: 'bar'. 
@@ -49,7 +51,7 @@ PP2BufferStreamTest >> testContentsAfterRead [
 	self assert: (stream contents) equals: 'bar'.
 ]
 
-{ #category : #'tests - context interface' }
+{ #category : 'tests - context interface' }
 PP2BufferStreamTest >> testCopyFromToBufferOverflow [
 	| stream |
 
@@ -58,7 +60,7 @@ PP2BufferStreamTest >> testCopyFromToBufferOverflow [
 	self assert: (stream copyFrom: 2 to: 3) equals: 'ar'
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2BufferStreamTest >> testCopyFromToOOB [
 	| stream |
 	stream := self streamOn: 'bar'.
@@ -68,7 +70,7 @@ PP2BufferStreamTest >> testCopyFromToOOB [
 
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2BufferStreamTest >> testCopyFromToSmallBuffer [
 	| stream |
 	stream :=  self streamOn: 'foobar' bufferSize: 3. 
@@ -81,7 +83,7 @@ PP2BufferStreamTest >> testCopyFromToSmallBuffer [
 
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2BufferStreamTest >> testInstanceCreation [
 	| stream |
 	stream := self streamOn: ''.
@@ -90,7 +92,7 @@ PP2BufferStreamTest >> testInstanceCreation [
 
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2BufferStreamTest >> testInstanceCreationSize [
 	| stream |
 	stream := self streamOn: '' bufferSize: 2. 
@@ -100,7 +102,7 @@ PP2BufferStreamTest >> testInstanceCreationSize [
 
 ]
 
-{ #category : #'tests - context interface' }
+{ #category : 'tests - context interface' }
 PP2BufferStreamTest >> testRandomAccessTooMuchBacktrack [
 	| stream |
 	stream := self streamOn: 'bar' bufferSize: 2. 
@@ -111,7 +113,7 @@ PP2BufferStreamTest >> testRandomAccessTooMuchBacktrack [
 
 ]
 
-{ #category : #'tests - context interface' }
+{ #category : 'tests - context interface' }
 PP2BufferStreamTest >> testRandomAccessTwoPasses [
 	| stream |
 	stream := self streamOn: 'foobar' bufferSize: 2. 
@@ -132,7 +134,7 @@ PP2BufferStreamTest >> testRandomAccessTwoPasses [
 
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2BufferStreamTest >> testUncheckedNext [
 	| stream |
 	stream := self streamOn: 'foo'. 

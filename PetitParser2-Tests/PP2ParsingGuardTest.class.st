@@ -1,14 +1,16 @@
 Class {
-	#name : #PP2ParsingGuardTest,
-	#superclass : #TestCase,
+	#name : 'PP2ParsingGuardTest',
+	#superclass : 'TestCase',
 	#instVars : [
 		'classification',
 		'retval'
 	],
-	#category : #'PetitParser2-Tests-Strategies'
+	#category : 'PetitParser2-Tests-Strategies',
+	#package : 'PetitParser2-Tests',
+	#tag : 'Strategies'
 }
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 PP2ParsingGuardTest >> guardOn: parser [
 	| guard |
 	guard := PP2ParsingGuard on: parser.
@@ -18,7 +20,7 @@ PP2ParsingGuardTest >> guardOn: parser [
 
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 PP2ParsingGuardTest >> testParseOn [
 	| parser context guard |
 	parser := #letter asPParser.
@@ -28,7 +30,7 @@ PP2ParsingGuardTest >> testParseOn [
 	self assert: (guard parseOn: context) isPetit2Success
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 PP2ParsingGuardTest >> testParseOnFailure [
 	| parser context guard |
 	parser := #letter asPParser.
@@ -38,7 +40,7 @@ PP2ParsingGuardTest >> testParseOnFailure [
 	self assert: (guard parseOn: context) isPetit2Failure
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 PP2ParsingGuardTest >> testParseOnUnicode [
 	| parser context guard |
 	parser := #letter asPParser.

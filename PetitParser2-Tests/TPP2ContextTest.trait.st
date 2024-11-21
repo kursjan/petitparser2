@@ -1,14 +1,16 @@
 Trait {
-	#name : #TPP2ContextTest,
-	#category : #'PetitParser2-Tests-Core'
+	#name : 'TPP2ContextTest',
+	#category : 'PetitParser2-Tests-Core',
+	#package : 'PetitParser2-Tests',
+	#tag : 'Core'
 }
 
-{ #category : #requirements }
+{ #category : 'requirements' }
 TPP2ContextTest >> contextOn: aString [
 	self explicitRequirement
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 TPP2ContextTest >> testAtEnd [
 	| context |
 	context := self contextOn: 'foo'.
@@ -19,7 +21,7 @@ TPP2ContextTest >> testAtEnd [
 
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 TPP2ContextTest >> testContents [
 	| context |
 	context := self contextOn: 'foo'.
@@ -28,7 +30,7 @@ TPP2ContextTest >> testContents [
 	self assert: context contents equals: 'foo'
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 TPP2ContextTest >> testCopyGlobals [
 	| context contextCopy |
 	context := self contextOn: 'foo'.
@@ -41,7 +43,7 @@ TPP2ContextTest >> testCopyGlobals [
 	
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 TPP2ContextTest >> testMemo [
 	| context memento |
 	context := self contextOn: 'foobar'.
@@ -58,7 +60,7 @@ TPP2ContextTest >> testMemo [
 	self assert: (context propertyAt: #foo) equals: #bar.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 TPP2ContextTest >> testNext [
 	| retval context |
 	context := self contextOn: 'foo'.
@@ -77,7 +79,7 @@ TPP2ContextTest >> testNext [
 
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 TPP2ContextTest >> testNextAtEnd [
 	| context retval |
 	context := self contextOn: 'foo'.
@@ -89,7 +91,7 @@ TPP2ContextTest >> testNextAtEnd [
 	self assert: context position equals: 3.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 TPP2ContextTest >> testParser [
 	| context parser |
 	parser := $a asPParser.
@@ -101,7 +103,7 @@ TPP2ContextTest >> testParser [
 	self assert: context parser equals: parser.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 TPP2ContextTest >> testPeek [
 	| context |
 	context := self contextOn: 'foo'.
@@ -111,7 +113,7 @@ TPP2ContextTest >> testPeek [
 	self assert: context peek equals: nil.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 TPP2ContextTest >> testPeekBack [
 	| context |
 	context := self contextOn: 'bar'.
@@ -121,7 +123,7 @@ TPP2ContextTest >> testPeekBack [
 	self assert: context peekBack equals: $r.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 TPP2ContextTest >> testRemember [
 	| context memento |
 	context := self contextOn: 'foobar'.
@@ -135,7 +137,7 @@ TPP2ContextTest >> testRemember [
 	self assert: (memento propertyAt: #foo) equals: #bar.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 TPP2ContextTest >> testRestore [
 	| context memento |
 	context := self contextOn: 'foobar'.
@@ -152,7 +154,7 @@ TPP2ContextTest >> testRestore [
 	self assert: context position equals: 0.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 TPP2ContextTest >> testSuccess [
 	| context |
 	context := (self contextOn: 'bar')
@@ -167,7 +169,7 @@ TPP2ContextTest >> testSuccess [
 	self assert: context uncheckedPeek == $a.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 TPP2ContextTest >> testUncheckedNext [
 	| context retval |
 	context := self contextOn: 'foo'.
@@ -180,7 +182,7 @@ TPP2ContextTest >> testUncheckedNext [
 	self assert: context position equals: 1.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 TPP2ContextTest >> testUncheckedPeek [
 	| context |
 	context := self contextOn: 'foo'.
@@ -192,7 +194,7 @@ TPP2ContextTest >> testUncheckedPeek [
 	
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 TPP2ContextTest >> testUpTo [
 	| context retval |
 	context := self contextOn: 'foobar'.
@@ -206,7 +208,7 @@ TPP2ContextTest >> testUpTo [
 	
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 TPP2ContextTest >> testUpTo2 [
 	| context retval |
 	context := self contextOn: 'foobar'.
@@ -219,7 +221,7 @@ TPP2ContextTest >> testUpTo2 [
 	self assert: retval equals: 'foobar'.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 TPP2ContextTest >> testUpTo3 [
 	| context retval |
 	context := self contextOn: 'foobar'.
@@ -232,7 +234,7 @@ TPP2ContextTest >> testUpTo3 [
 	self assert: retval equals: 'foobar'.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 TPP2ContextTest >> testUpTo4 [
 	| context retval |
 	context := self contextOn: 'foof'.
@@ -247,7 +249,7 @@ TPP2ContextTest >> testUpTo4 [
 	
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 TPP2ContextTest >> testUpToEnd [
 	| context retval |
 	context := self contextOn: 'foobar'.

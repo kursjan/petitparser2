@@ -1,50 +1,52 @@
 Class {
-	#name : #PP2FirstSetVisitorTest,
-	#superclass : #TestCase,
+	#name : 'PP2FirstSetVisitorTest',
+	#superclass : 'TestCase',
 	#instVars : [
 		'parser',
 		'visitor',
 		'firstSet'
 	],
-	#category : #'PetitParser2-Tests-Analysis'
+	#category : 'PetitParser2-Tests-Analysis',
+	#package : 'PetitParser2-Tests',
+	#tag : 'Analysis'
 }
 
-{ #category : #converting }
+{ #category : 'converting' }
 PP2FirstSetVisitorTest >> assert: aSet anySatisfy: anObject [
 	self assert: (aSet anySatisfy: anObject)
 ]
 
-{ #category : #converting }
+{ #category : 'converting' }
 PP2FirstSetVisitorTest >> assert: aSet includes: anObject [
 	self assert: (aSet includes: anObject)
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 PP2FirstSetVisitorTest >> firstSet: aPP2Node [
 	^ PP2FirstSetVisitor firstSet visit: aPP2Node
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 PP2FirstSetVisitorTest >> firstSetWithProduction: aPP2Node [
 	^ PP2FirstSetVisitor productionSet visit: aPP2Node
 ]
 
-{ #category : #'tests - seas or terminals' }
+{ #category : 'tests - seas or terminals' }
 PP2FirstSetVisitorTest >> firstSetWithSeasOrTerminals: node [
 	^ PP2FirstSetVisitor seasOrTerminalsSet visit: node
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 PP2FirstSetVisitorTest >> firstSetWithTokens: aPP2Node [
 	^ PP2FirstSetVisitor tokenSet visit: aPP2Node
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 PP2FirstSetVisitorTest >> firstSetWithoutDuplicates: aPP2Node [
 	^ self withoutDuplicates: (PP2FirstSetVisitor firstSet visit: aPP2Node)
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2FirstSetVisitorTest >> testAdaptable [
 	parser := PP2AdaptableNode new.
 	parser changeChild: $a asPParser.
@@ -61,7 +63,7 @@ PP2FirstSetVisitorTest >> testAdaptable [
 	
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2FirstSetVisitorTest >> testAnd [
 	| sequence |
 	parser := #letter asPParser.
@@ -72,7 +74,7 @@ PP2FirstSetVisitorTest >> testAnd [
 	self assert: firstSet includes: parser.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2FirstSetVisitorTest >> testChoice [
 	| parserOne parserTwo |
 	parserOne := $a asPParser.
@@ -85,7 +87,7 @@ PP2FirstSetVisitorTest >> testChoice [
 	self assert: firstSet includes: parserTwo.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2FirstSetVisitorTest >> testCycle [
 	| delegateOne delegateTwo sequence |
 	delegateOne := PP2DelegateNode new.
@@ -99,7 +101,7 @@ PP2FirstSetVisitorTest >> testCycle [
 "	self assert: firstSet isEmpty"
 ]
 
-{ #category : #'tests - productions' }
+{ #category : 'tests - productions' }
 PP2FirstSetVisitorTest >> testDeepProductions [
 	| productionTop productionOne productionTwo |
 	productionOne := 'foo' asPParser name: 'bar'.
@@ -114,7 +116,7 @@ PP2FirstSetVisitorTest >> testDeepProductions [
 	self assert: (firstSet includes: productionTop).		
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2FirstSetVisitorTest >> testDelegate [
 	| delegate  |
 	parser := $a asPParser. 
@@ -125,7 +127,7 @@ PP2FirstSetVisitorTest >> testDelegate [
 	self assert: firstSet includes: parser.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2FirstSetVisitorTest >> testEndOfInput [
 	parser := PP2EndOfInputNode new.
 	
@@ -134,7 +136,7 @@ PP2FirstSetVisitorTest >> testEndOfInput [
 	self assert: firstSet includes: parser.
 ]
 
-{ #category : #'tests - tokens' }
+{ #category : 'tests - tokens' }
 PP2FirstSetVisitorTest >> testFirstWithTokensOneToken [
 	| token  |
 	token := $a asPParser token.
@@ -147,7 +149,7 @@ PP2FirstSetVisitorTest >> testFirstWithTokensOneToken [
 	self assert: firstSet includes: parser.
 ]
 
-{ #category : #'tests - tokens' }
+{ #category : 'tests - tokens' }
 PP2FirstSetVisitorTest >> testFirstWithTokensTwoTokens [
 	| tokenOne tokenTwo trimmer |
 	trimmer := $c asPParser.
@@ -162,7 +164,7 @@ PP2FirstSetVisitorTest >> testFirstWithTokensTwoTokens [
 	self assert: firstSet includes: tokenTwo trimmer.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2FirstSetVisitorTest >> testFlatten [
 	| flattened |
 	parser := #letter asPParser.
@@ -173,7 +175,7 @@ PP2FirstSetVisitorTest >> testFlatten [
 	self assert: firstSet includes: parser.
 ]
 
-{ #category : #'tests - seas or terminals' }
+{ #category : 'tests - seas or terminals' }
 PP2FirstSetVisitorTest >> testJustSeaSoT [
 	parser := $a asPParser sea.
 	
@@ -184,7 +186,7 @@ PP2FirstSetVisitorTest >> testJustSeaSoT [
 
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2FirstSetVisitorTest >> testLiteralObject [
 	parser := $a asPParser.
 	firstSet := self firstSet: parser.
@@ -193,7 +195,7 @@ PP2FirstSetVisitorTest >> testLiteralObject [
 	self assert: firstSet includes: parser.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2FirstSetVisitorTest >> testLiteralSequence [
 	parser := 'foo' asPParser.
 	firstSet := self firstSet: parser.
@@ -202,7 +204,7 @@ PP2FirstSetVisitorTest >> testLiteralSequence [
 	self assert: firstSet includes: parser.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2FirstSetVisitorTest >> testNonEpsilon [
 	| terminal |
 	terminal := $b asPParser.
@@ -214,7 +216,7 @@ PP2FirstSetVisitorTest >> testNonEpsilon [
 	self assert: firstSet includes: terminal.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2FirstSetVisitorTest >> testNonEpsilonWithoutEpsilon [
 	| terminal |
 	terminal := $b asPParser.
@@ -226,7 +228,7 @@ PP2FirstSetVisitorTest >> testNonEpsilonWithoutEpsilon [
 	self assert: firstSet includes: terminal.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2FirstSetVisitorTest >> testNot [
 	| sequence |
 	parser := $a asPParser not.
@@ -237,7 +239,7 @@ PP2FirstSetVisitorTest >> testNot [
 	self assert: firstSet includes: parser.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2FirstSetVisitorTest >> testOptional [
 	| optional |
 	parser := $a asPParser.
@@ -249,7 +251,7 @@ PP2FirstSetVisitorTest >> testOptional [
 	self assert: firstSet includes: parser.
 ]
 
-{ #category : #'tests - seas or terminals' }
+{ #category : 'tests - seas or terminals' }
 PP2FirstSetVisitorTest >> testOptionalSeaSoT [
 	| sea |
 	sea := $a asPParser sea.
@@ -261,7 +263,7 @@ PP2FirstSetVisitorTest >> testOptionalSeaSoT [
 	self assert: firstSet includes: sea
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2FirstSetVisitorTest >> testPluggable [
 	parser := [:ctx | ctx next] asPParser.
 	firstSet := self firstSet: parser.
@@ -271,7 +273,7 @@ PP2FirstSetVisitorTest >> testPluggable [
 	self assert: firstSet includes: parser.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2FirstSetVisitorTest >> testPlus [
 	| plus |
 	parser := $a asPParser.
@@ -282,7 +284,7 @@ PP2FirstSetVisitorTest >> testPlus [
 	self assert: firstSet includes: parser.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2FirstSetVisitorTest >> testPlusOptional [
 	| plus |
 	parser := $a asPParser.
@@ -295,7 +297,7 @@ PP2FirstSetVisitorTest >> testPlusOptional [
 	self assert: firstSet includes: parser.
 ]
 
-{ #category : #'tests - seas or terminals' }
+{ #category : 'tests - seas or terminals' }
 PP2FirstSetVisitorTest >> testPossibleSeaSoT [
 	| sea before |
 	sea := $a asPParser sea.
@@ -309,7 +311,7 @@ PP2FirstSetVisitorTest >> testPossibleSeaSoT [
 	self assert: firstSet includes: before.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2FirstSetVisitorTest >> testPredicateObject [
 	parser := #letter asPParser.
 	firstSet := self firstSet: parser.
@@ -318,7 +320,7 @@ PP2FirstSetVisitorTest >> testPredicateObject [
 	self assert: firstSet anyOne equals: parser.
 ]
 
-{ #category : #'tests - productions' }
+{ #category : 'tests - productions' }
 PP2FirstSetVisitorTest >> testProductions [
 	| productionOne productionTwo |
 	productionOne := 'foo' asPParser name: 'bar'.
@@ -331,7 +333,7 @@ PP2FirstSetVisitorTest >> testProductions [
 	self assert: (firstSet includes: productionTwo).	
 ]
 
-{ #category : #'tests - productions' }
+{ #category : 'tests - productions' }
 PP2FirstSetVisitorTest >> testProductionsSelf [
 	parser := 'foo' asPParser name: 'bar'.
 	
@@ -340,7 +342,7 @@ PP2FirstSetVisitorTest >> testProductionsSelf [
 	self assert: (firstSet includes: parser)
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2FirstSetVisitorTest >> testSea [
 	| sea |
 	parser := $a asPParser.
@@ -353,7 +355,7 @@ PP2FirstSetVisitorTest >> testSea [
 
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2FirstSetVisitorTest >> testSeaNullable [
 	| sea |
 	parser := $a asPParser.
@@ -366,7 +368,7 @@ PP2FirstSetVisitorTest >> testSeaNullable [
 	self assert: firstSet includes: #eoi asPParser.	
 ]
 
-{ #category : #'tests - seas or terminals' }
+{ #category : 'tests - seas or terminals' }
 PP2FirstSetVisitorTest >> testSeaRepetitionSoT [
 	| sea |
 	sea := $a asPParser sea.
@@ -379,7 +381,7 @@ PP2FirstSetVisitorTest >> testSeaRepetitionSoT [
 
 ]
 
-{ #category : #'tests - seas or terminals' }
+{ #category : 'tests - seas or terminals' }
 PP2FirstSetVisitorTest >> testSeaSoT [
 	| sea |
 	sea := $a asPParser sea.
@@ -392,7 +394,7 @@ PP2FirstSetVisitorTest >> testSeaSoT [
 
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2FirstSetVisitorTest >> testSeaWaterTokens [
 	| sea waterToken tokenOne tokenTwo |
 	parser := $a asPParser.
@@ -409,7 +411,7 @@ PP2FirstSetVisitorTest >> testSeaWaterTokens [
 	self assert: firstSet includes: tokenTwo.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2FirstSetVisitorTest >> testSequence [
 	| sequence |
 	parser := $a asPParser.
@@ -421,7 +423,7 @@ PP2FirstSetVisitorTest >> testSequence [
 	self assert: firstSet includes: parser
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2FirstSetVisitorTest >> testSequenceTwoEpsilons [
 	| sequence parserOne parserTwo |
 	parserOne := $a asPParser.
@@ -435,7 +437,7 @@ PP2FirstSetVisitorTest >> testSequenceTwoEpsilons [
 	self assert: firstSet includes: parserTwo
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2FirstSetVisitorTest >> testSequenceTwoStars [
 	| sequence parserOne parserTwo |
 	parserOne := $a asPParser.
@@ -450,7 +452,7 @@ PP2FirstSetVisitorTest >> testSequenceTwoStars [
 	self assert: firstSet includes: PP2EpsilonNode instance
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2FirstSetVisitorTest >> testSequenceWithNil [
 	| sequence parserOne parserTwo |
 	parserOne := nil asPParser.
@@ -463,7 +465,7 @@ PP2FirstSetVisitorTest >> testSequenceWithNil [
 	self assert: firstSet includes: parserTwo
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2FirstSetVisitorTest >> testSequenceWithStar [
 	| sequence parserOne parserTwo |
 	parserOne := $a asPParser.
@@ -477,7 +479,7 @@ PP2FirstSetVisitorTest >> testSequenceWithStar [
 	self assert: firstSet includes: parserTwo
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2FirstSetVisitorTest >> testStar [
 	| star |
 	parser := $a asPParser.
@@ -489,7 +491,7 @@ PP2FirstSetVisitorTest >> testStar [
 	self assert: firstSet includes: PP2EpsilonNode instance
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2FirstSetVisitorTest >> testStartOfLine [
 	parser := #startOfLine asPParser.
 	firstSet := self firstSet: parser.
@@ -498,7 +500,7 @@ PP2FirstSetVisitorTest >> testStartOfLine [
 	self assert: firstSet includes: parser
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2FirstSetVisitorTest >> testToken [
 	| token |
 	parser := 'foo' asPParser.
@@ -509,7 +511,7 @@ PP2FirstSetVisitorTest >> testToken [
 	self assert: firstSet anyOne equals: parser.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2FirstSetVisitorTest >> testTrimming [
 	| trimming |
 	parser := 'foo' asPParser.
@@ -521,7 +523,7 @@ PP2FirstSetVisitorTest >> testTrimming [
 	self assert: firstSet includes: trimming trimmer child.	
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2FirstSetVisitorTest >> testTrimmingWithEpsilon [
 	| trimming |
 	parser := 'foo' asPParser.
@@ -534,7 +536,7 @@ PP2FirstSetVisitorTest >> testTrimmingWithEpsilon [
 	self assert: firstSet includes: PP2EpsilonNode instance.		
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2FirstSetVisitorTest >> testTwoParents [
 	| sequence |
 	parser := $a asPParser.
@@ -548,7 +550,7 @@ PP2FirstSetVisitorTest >> testTwoParents [
 
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2FirstSetVisitorTest >> testWaterFirstSet [
 	| boundary waterToken |
 	boundary := $b asPParser.
@@ -563,7 +565,7 @@ PP2FirstSetVisitorTest >> testWaterFirstSet [
 
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2FirstSetVisitorTest >> testWrapping [
 	parser := $a asPParser >=> [:c :cc | cc value].
 	firstSet := self firstSet: parser.
@@ -573,7 +575,7 @@ PP2FirstSetVisitorTest >> testWrapping [
 	self assert: firstSet includes: parser.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2FirstSetVisitorTest >> testWrappingNonFunctional [
 	| literal |
 	literal := $a asPParser.
@@ -585,7 +587,7 @@ PP2FirstSetVisitorTest >> testWrappingNonFunctional [
 	self assert: firstSet includes: literal.
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 PP2FirstSetVisitorTest >> withoutDuplicates: set [
 	| newSet |
 	newSet := Set new.

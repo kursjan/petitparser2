@@ -1,12 +1,14 @@
 Class {
-	#name : #PP2DebugResultIntegrationTest,
-	#superclass : #TestCase,
+	#name : 'PP2DebugResultIntegrationTest',
+	#superclass : 'TestCase',
 	#traits : 'TPP2CollectionAssertions + TPP2TypeAssertions',
 	#classTraits : 'TPP2CollectionAssertions classTrait + TPP2TypeAssertions classTrait',
-	#category : #'PetitParser2-Tests-Debug'
+	#category : 'PetitParser2-Tests-Debug',
+	#package : 'PetitParser2-Tests',
+	#tag : 'Debug'
 }
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2DebugResultIntegrationTest >> testArithmetic [
 	| parser result |
 	parser := PP2ExpressionParser new.
@@ -15,7 +17,7 @@ PP2DebugResultIntegrationTest >> testArithmetic [
 	self assert: result debugResult children first result equals: #(1 $+ 2)
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2DebugResultIntegrationTest >> testArithmeticCache [
 	| parser result number links |
 	parser := PP2ExpressionParser new.
@@ -31,7 +33,7 @@ PP2DebugResultIntegrationTest >> testArithmeticCache [
 	self assert: links allSatisfy: [ :l | l reference parser name = #number ].
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2DebugResultIntegrationTest >> testArithmeticFailure [
 	| parser result |
 	parser := PP2ExpressionParser new.
@@ -40,7 +42,7 @@ PP2DebugResultIntegrationTest >> testArithmeticFailure [
 	self assert: result debugResult children first result isPetit2Failure
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2DebugResultIntegrationTest >> testNumberParser [
 	| parser result |
 	parser := PP2ExpressionParser new productionAt: #number.
@@ -49,7 +51,7 @@ PP2DebugResultIntegrationTest >> testNumberParser [
 	self assert: result debugResult children first result equals: 1
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2DebugResultIntegrationTest >> testProfilingContext [
 	| parser result |
 	parser := PP2ExpressionParser new productionAt: #number.

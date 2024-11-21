@@ -4,15 +4,17 @@ I am an abstract class that should be used for writing examples about parsers, u
 I am supposed to be subclassed in a similar fashion as PP2CompositeNodeTest.
 "
 Class {
-	#name : #PP2CompositeNodeExamples,
-	#superclass : #Object,
+	#name : 'PP2CompositeNodeExamples',
+	#superclass : 'Object',
 	#instVars : [
 		'parserInstance'
 	],
-	#category : #'PetitParser2-Tests-Core'
+	#category : 'PetitParser2-Tests-Core',
+	#package : 'PetitParser2-Tests',
+	#tag : 'Core'
 }
 
-{ #category : #utilities }
+{ #category : 'utilities' }
 PP2CompositeNodeExamples >> assert: aCollection is: anObject [
 	| result |
 	result := self parse: aCollection.
@@ -22,12 +24,12 @@ PP2CompositeNodeExamples >> assert: aCollection is: anObject [
 		resumable: true
 ]
 
-{ #category : #context }
+{ #category : 'context' }
 PP2CompositeNodeExamples >> context [
 	^ PP2Context new
 ]
 
-{ #category : #parsing }
+{ #category : 'parsing' }
 PP2CompositeNodeExamples >> fail: aString rule: aSymbol [ 
 	| production context result |
 	production := self parserInstanceFor: aSymbol.
@@ -41,12 +43,12 @@ PP2CompositeNodeExamples >> fail: aString rule: aSymbol [
 	^ result
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 PP2CompositeNodeExamples >> parse: aString [ 
 	^ self parse: aString rule: #start
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 PP2CompositeNodeExamples >> parse: aString production: production to: expectedResult end: end checkResult: aBoolean [
 	| ctx resultContext result |
 	ctx := self context.
@@ -62,39 +64,39 @@ PP2CompositeNodeExamples >> parse: aString production: production to: expectedRe
 	^ result
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 PP2CompositeNodeExamples >> parse: aString rule: aSymbol [
 	^ self parse: aString rule: aSymbol end: aString size
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 PP2CompositeNodeExamples >> parse: aString rule: aSymbol end: end [
 	^ self parse: aString rule: aSymbol to: nil end: end checkResult: false
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 PP2CompositeNodeExamples >> parse: aString rule: aSymbol to: expectedResult end: end checkResult: aBoolean [
 	| production |
 	production := self parserInstanceFor: aSymbol.
 	^ self parse: aString production: production to: expectedResult end: end checkResult: aBoolean 	
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 PP2CompositeNodeExamples >> parse: aStream withParser: aParser withContext: aContext [
 	^ aParser parse: aStream withContext: aContext
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 PP2CompositeNodeExamples >> parserClass [
 	self subclassResponsibility
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 PP2CompositeNodeExamples >> parserInstance [
 	^ parserInstance ifNil: [ parserInstance := self parserClass new ]
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 PP2CompositeNodeExamples >> parserInstanceFor: aSymbol [
 	^ aSymbol = #start
 		ifTrue: [ self parserInstance ]

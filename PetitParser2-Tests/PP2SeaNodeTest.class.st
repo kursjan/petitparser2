@@ -1,16 +1,18 @@
 Class {
-	#name : #PP2SeaNodeTest,
-	#superclass : #TestCase,
+	#name : 'PP2SeaNodeTest',
+	#superclass : 'TestCase',
 	#traits : 'TPP2TypeAssertions + TPP2CollectionAssertions',
 	#classTraits : 'TPP2TypeAssertions classTrait + TPP2CollectionAssertions classTrait',
 	#instVars : [
 		'parser',
 		'sea'
 	],
-	#category : #'PetitParser2-Tests-Nodes'
+	#category : 'PetitParser2-Tests-Nodes',
+	#package : 'PetitParser2-Tests',
+	#tag : 'Nodes'
 }
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2SeaNodeTest >> testAfterWater [
 	sea := PP2SeaNode new
 		island: $a asPParser;
@@ -20,7 +22,7 @@ PP2SeaNodeTest >> testAfterWater [
 
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2SeaNodeTest >> testBeforeWater [
 	sea := PP2SeaNode new
 		island: $a asPParser;
@@ -29,7 +31,7 @@ PP2SeaNodeTest >> testBeforeWater [
 	self assert: sea beforeWater isKindOf: PP2WaterNode.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2SeaNodeTest >> testChildren [
 	| waterToken island |
 	waterToken := #space asPParser.
@@ -45,7 +47,7 @@ PP2SeaNodeTest >> testChildren [
 	self assert: sea children third isKindOf: PP2Node.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2SeaNodeTest >> testNonNullableIsland [
 	| waterToken island beforeWater boundary elements |
 	waterToken := #space asPParser.
@@ -66,7 +68,7 @@ PP2SeaNodeTest >> testNonNullableIsland [
 	self assert: elements noneSatisfy: [ :e | e isNullable  ].
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2SeaNodeTest >> testUpdateAfterWater [
 	| waterToken island afterWater boundary elements nextBoundary |
 	waterToken := #space asPParser.
@@ -94,7 +96,7 @@ PP2SeaNodeTest >> testUpdateAfterWater [
 	self assert: elements includes: nextBoundary.	
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2SeaNodeTest >> testUpdateBeforeWater [
 	| waterToken island beforeWater boundary elements |
 	waterToken := #space asPParser.

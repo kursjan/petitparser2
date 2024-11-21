@@ -1,25 +1,27 @@
 Class {
-	#name : #PP2AbstractParserTest,
-	#superclass : #TestCase,
-	#category : #'PetitParser2-Tests-Core'
+	#name : 'PP2AbstractParserTest',
+	#superclass : 'TestCase',
+	#category : 'PetitParser2-Tests-Core',
+	#package : 'PetitParser2-Tests',
+	#tag : 'Core'
 }
 
-{ #category : #testing }
+{ #category : 'testing' }
 PP2AbstractParserTest class >> isAbstract [
 	^ self name = #PP2AbstractParserTest
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 PP2AbstractParserTest class >> packageNamesUnderTest [
   ^ #('PetitParser2' 'PetitParser2-Tests')
 ]
 
-{ #category : #utilities }
+{ #category : 'utilities' }
 PP2AbstractParserTest >> assert: aParser fail: aCollection [
 	^ self assert: aParser fail: aCollection end: 0
 ]
 
-{ #category : #utilities }
+{ #category : 'utilities' }
 PP2AbstractParserTest >> assert: aParser fail: aCollection end: anInteger [
 	| stream result context |
 	self 
@@ -40,29 +42,29 @@ PP2AbstractParserTest >> assert: aParser fail: aCollection end: anInteger [
 	^ result
 ]
 
-{ #category : #utilities }
+{ #category : 'utilities' }
 PP2AbstractParserTest >> assert: string1 includesSubstring: string2 [
 	"Support portability by using ANSI search method"
 
 	self assert: (string1 notEmpty and: [string2 notEmpty and: [0 < (string1 indexOfSubCollection: string2 startingAt: 1)]])
 ]
 
-{ #category : #utilities }
+{ #category : 'utilities' }
 PP2AbstractParserTest >> assert: aParser parse: aCollection [
 	^ self assert: aParser parse: aCollection to: nil end: aCollection size 
 ]
 
-{ #category : #utilities }
+{ #category : 'utilities' }
 PP2AbstractParserTest >> assert: aParser parse: aCollection end: anInteger [
 	^ self assert: aParser parse: aCollection to: nil end: anInteger
 ]
 
-{ #category : #utilities }
+{ #category : 'utilities' }
 PP2AbstractParserTest >> assert: aParser parse: aCollection to: anObject [
 	^ self assert: aParser parse: aCollection to: anObject end: aCollection size 
 ]
 
-{ #category : #utilities }
+{ #category : 'utilities' }
 PP2AbstractParserTest >> assert: aParser parse: aCollection to: aTargetObject end: anInteger [
 	| stream result ctx |
 
@@ -79,12 +81,12 @@ PP2AbstractParserTest >> assert: aParser parse: aCollection to: aTargetObject en
 	^ result
 ]
 
-{ #category : #utilities }
+{ #category : 'utilities' }
 PP2AbstractParserTest >> assert: aParser parse: aCollection toTokenValue: value [
 	^ self assert: aParser parse: aCollection toTokenValue: value end: aCollection size
 ]
 
-{ #category : #utilities }
+{ #category : 'utilities' }
 PP2AbstractParserTest >> assert: aParser parse: aCollection toTokenValue: value end: end [
 	| result |
 	result := self
@@ -97,17 +99,17 @@ PP2AbstractParserTest >> assert: aParser parse: aCollection toTokenValue: value 
 	^ result
 ]
 
-{ #category : #context }
+{ #category : 'context' }
 PP2AbstractParserTest >> context [
 	^ PP2Context new
 ]
 
-{ #category : #initialization }
+{ #category : 'initialization' }
 PP2AbstractParserTest >> initialize [
 	super initialize.
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 PP2AbstractParserTest >> parse: aStream withParser: aParser withContext: aContext [
 	self subclassResponsibility
 ]

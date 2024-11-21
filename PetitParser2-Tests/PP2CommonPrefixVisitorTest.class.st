@@ -1,23 +1,25 @@
 Class {
-	#name : #PP2CommonPrefixVisitorTest,
-	#superclass : #TestCase,
+	#name : 'PP2CommonPrefixVisitorTest',
+	#superclass : 'TestCase',
 	#traits : 'TPP2TypeAssertions + TPP2CollectionAssertions',
 	#classTraits : 'TPP2TypeAssertions classTrait + TPP2CollectionAssertions classTrait',
 	#instVars : [
 		'parser',
 		'visitor'
 	],
-	#category : #'PetitParser2-Tests-Optimizations'
+	#category : 'PetitParser2-Tests-Optimizations',
+	#package : 'PetitParser2-Tests',
+	#tag : 'Optimizations'
 }
 
-{ #category : #running }
+{ #category : 'running' }
 PP2CommonPrefixVisitorTest >> setUp [
 	super setUp.
 	
 	visitor := PP2CommonPrefixVisitor new
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2CommonPrefixVisitorTest >> testChoice [
 	| production |
 	production := 'foo' asPParser plus wrapped trim ==> [ :foo | foo ]
@@ -31,7 +33,7 @@ PP2CommonPrefixVisitorTest >> testChoice [
 	self assert: production strategy isKindOf: PP2Cache.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2CommonPrefixVisitorTest >> testChoiceNonIdentical [
 	| productionOne productionTwo |
 	productionOne := 'foo' asPParser plus wrapped trim ==> [ :foo | foo ]
@@ -50,7 +52,7 @@ PP2CommonPrefixVisitorTest >> testChoiceNonIdentical [
 	self assert: productionOne strategy == productionTwo strategy.	
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2CommonPrefixVisitorTest >> testSea [
 	| island |
 	island := 'foo' asPParser plus wrapped trim ==> [ :foo | foo ]
@@ -64,7 +66,7 @@ PP2CommonPrefixVisitorTest >> testSea [
 	self assert: island strategy isKindOf: PP2Cache.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2CommonPrefixVisitorTest >> testSeaBoundary [
 	| sea |
 	sea := $a asPParser star trim flatten wrapped sea.
@@ -78,7 +80,7 @@ PP2CommonPrefixVisitorTest >> testSeaBoundary [
 	self assert: sea afterWater boundaryElements allSatisfy: [:e | e strategy isKindOf: PP2Cache ].	
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2CommonPrefixVisitorTest >> testSeaNested [
 	| sea |
 	sea := $a asPParser sea.
@@ -92,7 +94,7 @@ PP2CommonPrefixVisitorTest >> testSeaNested [
 	self assert: sea afterWater boundaryElements allSatisfy: [ :e | e strategy isKindOf: PP2Cache ].	
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2CommonPrefixVisitorTest >> testSequence [
 	| production |
 	production := 'foo' asPParser plus wrapped trim ==> [ :foo | foo ]
@@ -106,7 +108,7 @@ PP2CommonPrefixVisitorTest >> testSequence [
 	self assert: production strategy isKindOf: PP2Cache.
 ]
 
-{ #category : #visiting }
+{ #category : 'visiting' }
 PP2CommonPrefixVisitorTest >> visit: node [
 	visitor visit: node
 ]

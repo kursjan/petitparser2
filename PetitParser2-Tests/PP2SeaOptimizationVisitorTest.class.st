@@ -1,29 +1,31 @@
 Class {
-	#name : #PP2SeaOptimizationVisitorTest,
-	#superclass : #TestCase,
+	#name : 'PP2SeaOptimizationVisitorTest',
+	#superclass : 'TestCase',
 	#instVars : [
 		'sea',
 		'parser'
 	],
-	#category : #'PetitParser2-Tests-Optimizations'
+	#category : 'PetitParser2-Tests-Optimizations',
+	#package : 'PetitParser2-Tests',
+	#tag : 'Optimizations'
 }
 
-{ #category : #asserting }
+{ #category : 'asserting' }
 PP2SeaOptimizationVisitorTest >> assert: set anySatisfy: aBlock [
 	self assert: (set anySatisfy: aBlock)	
 ]
 
-{ #category : #asserting }
+{ #category : 'asserting' }
 PP2SeaOptimizationVisitorTest >> assert: anObject isKindOf: aClass [
 	self assert: (anObject isKindOf: aClass)
 ]
 
-{ #category : #asserting }
+{ #category : 'asserting' }
 PP2SeaOptimizationVisitorTest >> assert: set noneSatisfy: aBlock [
 	self assert: (set noneSatisfy: aBlock)	
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2SeaOptimizationVisitorTest >> testJustSea [
 	parser := $a asPParser sea.
 	
@@ -31,7 +33,7 @@ PP2SeaOptimizationVisitorTest >> testJustSea [
 	self assert: parser strategy isKindOf: PP2Sea
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2SeaOptimizationVisitorTest >> testMemoizedSea [
 	sea := $a asPParser sea.
 	
@@ -42,7 +44,7 @@ PP2SeaOptimizationVisitorTest >> testMemoizedSea [
 	self assert: sea afterWater allNodes anySatisfy: [ :n | n isSea ]
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2SeaOptimizationVisitorTest >> testNestedSea [
 	sea := $a asPParser sea.
 	
@@ -54,7 +56,7 @@ PP2SeaOptimizationVisitorTest >> testNestedSea [
 	self assert: sea afterWater boundaryElements anySatisfy: [ :e | e == sea island ]
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2SeaOptimizationVisitorTest >> testOverlappingSeas [
 	| seaOne seaTwo |
 	seaOne := $a asPParser sea.
@@ -68,7 +70,7 @@ PP2SeaOptimizationVisitorTest >> testOverlappingSeas [
 	self assert: seaOne afterWater allNodes noneSatisfy: [ :n | n isSea ]
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2SeaOptimizationVisitorTest >> testRepetitionInBoundary [
 	sea := $a asPParser sea.
 	parser := sea, $b asPParser plus.
@@ -78,7 +80,7 @@ PP2SeaOptimizationVisitorTest >> testRepetitionInBoundary [
 	self assert: sea afterWater boundaryElements noneSatisfy: [ :e | e isRepeating ].
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2SeaOptimizationVisitorTest >> testSeaInBoundary [
 	parser := $a asPParser sea.
 	
@@ -87,7 +89,7 @@ PP2SeaOptimizationVisitorTest >> testSeaInBoundary [
 	self assert: parser beforeWater boundaryElements noneSatisfy: [ :e | e isSea ].
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2SeaOptimizationVisitorTest >> testSeaOptimizations [
 	| bw aw |
 	sea := $a asPParser sea.
@@ -103,7 +105,7 @@ PP2SeaOptimizationVisitorTest >> testSeaOptimizations [
 	self assert: sea afterWater boundary == aw.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2SeaOptimizationVisitorTest >> testSeaOptimizationsReset [
 	| bw aw |
 	sea := $a asPParser sea.
@@ -119,7 +121,7 @@ PP2SeaOptimizationVisitorTest >> testSeaOptimizationsReset [
 	self assert: sea afterWater boundary ~= aw.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2SeaOptimizationVisitorTest >> testSeaPlus [
 	sea := $a asPParser sea.
 	
@@ -130,7 +132,7 @@ PP2SeaOptimizationVisitorTest >> testSeaPlus [
 	self assert: sea afterWater allNodes noneSatisfy: [ :n | n isSea ]
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2SeaOptimizationVisitorTest >> testSeaStar [
 	sea := $a asPParser sea.
 	
@@ -141,7 +143,7 @@ PP2SeaOptimizationVisitorTest >> testSeaStar [
 	self assert: sea afterWater allNodes noneSatisfy: [ :n | n isSea ]
 ]
 
-{ #category : #visiting }
+{ #category : 'visiting' }
 PP2SeaOptimizationVisitorTest >> visit: node [
 	PP2SeaOptimizationVisitor new visit: node
 ]

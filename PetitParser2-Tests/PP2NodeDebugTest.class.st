@@ -1,15 +1,17 @@
 Class {
-	#name : #PP2NodeDebugTest,
-	#superclass : #TestCase,
+	#name : 'PP2NodeDebugTest',
+	#superclass : 'TestCase',
 	#traits : 'TPP2CollectionAssertions',
 	#classTraits : 'TPP2CollectionAssertions classTrait',
 	#instVars : [
 		'parser'
 	],
-	#category : #'PetitParser2-Tests-Nodes'
+	#category : 'PetitParser2-Tests-Nodes',
+	#package : 'PetitParser2-Tests',
+	#tag : 'Nodes'
 }
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2NodeDebugTest >> testEnableDebug [
 	parser := PP2ExpressionGrammar new.
 	parser enableDebug.
@@ -19,7 +21,7 @@ PP2NodeDebugTest >> testEnableDebug [
 	self assert: parser allNodes noneSatisfy: [ :node |  node strategies second isDebugging ]	
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2NodeDebugTest >> testEnableDebugAndRecordingTwice [
 	parser := PP2ExpressionGrammar new.
 	parser enableDebug.
@@ -33,7 +35,7 @@ PP2NodeDebugTest >> testEnableDebugAndRecordingTwice [
 	self assert: parser allNodes noneSatisfy: [ :node |  node strategies second isDebugging ]	.
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2NodeDebugTest >> testEnableDebugAndRecordingTwiceOptimized [
 	| strategies |
 	parser := PP2ExpressionGrammar new.
@@ -53,7 +55,7 @@ PP2NodeDebugTest >> testEnableDebugAndRecordingTwiceOptimized [
 	]
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2NodeDebugTest >> testEnableDebugTwice [
 	parser := PP2ExpressionGrammar new.
 	parser enableDebug.
@@ -64,7 +66,7 @@ PP2NodeDebugTest >> testEnableDebugTwice [
 	self assert: parser allNodes noneSatisfy: [ :node |  node strategies second isDebugging ]	
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2NodeDebugTest >> testEnableRecordingCaches [
 	parser := PP2ExpressionGrammar new.
 	parser optimize.
@@ -75,7 +77,7 @@ PP2NodeDebugTest >> testEnableRecordingCaches [
 	self assert: parser collectCaches allSatisfy: [ :c | c isRecording ].
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2NodeDebugTest >> testEnableRecordingDebugInvocations [
 	parser := PP2ExpressionGrammar new.
 	parser optimize.
@@ -86,7 +88,7 @@ PP2NodeDebugTest >> testEnableRecordingDebugInvocations [
 	self assert: parser allNodes allSatisfy: [ :n | n strategy isRecording ].
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2NodeDebugTest >> testEnableRecordingInvocations [
 	parser := PP2ExpressionGrammar new.
 	parser optimize.
@@ -97,7 +99,7 @@ PP2NodeDebugTest >> testEnableRecordingInvocations [
 "	self assert: parser allNodes allSatisfy: [ :n | n strategy isRecording ]."
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 PP2NodeDebugTest >> testEnableRecordingRefreshCaches [
 	parser := PP2ExpressionGrammar new.
 	parser optimize.
