@@ -71,7 +71,7 @@ PP2CompositeNodeTest >> fail: aString rule: aSymbol to: expectedResult end: expe
 PP2CompositeNodeTest >> fail: aString rule: aSymbol to: expectedResult end: expectedFailurePosition checkResult: aBoolean [ 
 	| production |
 	production := self parserInstanceFor: aSymbol.
-  ^ self fail: aString rule: aSymbol to: expectedResult end: expectedFailurePosition checkResult: aBoolean
+	^ self fail: aString production: production to: expectedResult end: expectedFailurePosition checkResult: aBoolean
 ]
 
 { #category : #parsing }
