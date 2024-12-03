@@ -14,6 +14,13 @@ PP2ParserResource >> parserAt: aParserClass [
 	^ parsers at: aParserClass name ifAbsentPut: [ aParserClass new ]
 ]
 
+{ #category : #accessing }
+PP2ParserResource >> parserAt: aParserClass put: aParser [
+	"Add or replace cached instance of aParserClass."
+	
+	parsers at: aParserClass name put: aParser
+]
+
 { #category : #running }
 PP2ParserResource >> setUp [
 	super setUp.
