@@ -9,7 +9,7 @@ todo(kurs): this chapter is pretty dense even for me, simplify...
 todo(kurs): compare to lazy repetitions.
 "%}
 
-In this section, we shortly inspect how does the ```startLazy``` operator works. 
+In this section, we shortly inspect how does the ```starLazy``` operator works. 
 The code  ```parser starLazy``` is a shorthand for the following:
 
 ```smalltalk
@@ -23,7 +23,7 @@ Such an island will be always found, because it accepts an empty string.
 Furthermore it will be surrounded by water that consumes anything until the next parser succeeds. 
 You specify contents of a water by setting the ```waterToken```. 
 By default you can use ```#any asPParser```. 
-This means that the sea moves character by character betwen tests if the next parser succeeds. 
+This means that the sea moves character by character between tests if the next parser succeeds. 
 
 Yet as we have seen in the case of the ```javascript``` rule in the [Extracting Javascript](scripting.md) chapter, invoking ```#any asPParser``` may not be sufficient, the water can get confused by an end tag hidden in a string. 
 Therefore, bounded seas allow you to define tokens that are expected in water. 
