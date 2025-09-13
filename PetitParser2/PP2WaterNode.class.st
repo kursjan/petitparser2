@@ -99,7 +99,7 @@ PP2WaterNode >> resetStrategy [
 PP2WaterNode >> toCollection: object [
 	object isCollection ifTrue: [ ^ object ].
 	
-	^ object asOrderedCollection
+	^ OrderedColllection with: object 
 ]
 
 { #category : #accessing }
